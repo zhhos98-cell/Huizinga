@@ -5,102 +5,78 @@ Last updated: 20 August 2026
 ## Corpus control
 
 - frozen OCR corpus: `huizinga_leiden_paddleocr_clean_001-071_complete_v3.json`
-- total frozen corpus pages: 15,139
-- chunks: 001–071 complete
-- proofreading mode: image-first, chunk-by-chunk
+- total frozen corpus pages: **15,139**
+- chunks: **001–071 complete in frozen OCR layer**
+- proofreading mode: **image-first, chunk-by-chunk**
 - active branch: `corpus-scan-2026-08-20`
-- frozen OCR is an immutable search/draft layer; proofreading corrections and page/capture controls live separately.
+- frozen OCR is immutable; proofreading, document-class and capture/leaf corrections live separately.
 
-## Completed chunk
+## Completed in this workstream
 
 ### chunk_002 — **COMPLETE**
 
-- physical PDF captures: **183**
-- consolidated JSON pages for chunk 002: **183**
-- structural/image pass: **183 / 183 — COMPLETE**
-- `final_checked`: **13 / 183**
-- `text_checked`: **170 / 183**
-- `image_checked` remaining: **0 / 183**
-- unseen remaining: **0 / 183**
-- resolved captures: **183 / 183**
+- physical captures: **183 / 183 resolved**
+- `final_checked`: **13**
+- `text_checked`: **170**
+- `image_checked`: **0**
+- `unseen`: **0**
 - completion record: `proofreading/chunk_002/COMPLETE_2026-08-20.md`
-- complete page ledger: `proofreading/chunk_002/PAGE_LEDGER_COMPLETE.csv`
-- crosswalk/capture exceptions: `proofreading/chunk_002/CROSSWALK_NOTES.md`
+- ledger: `proofreading/chunk_002/PAGE_LEDGER_COMPLETE.csv`
+- crosswalk: `proofreading/chunk_002/CROSSWALK_NOTES.md`
 
-### Completion standard
+Future work on chunk_002 should be targeted publication-level authority/diplomatic checking, not restart of basic proofreading.
 
-`chunk_002` is complete under the current archival proofreading standard: every substantive physical capture has reached `text_checked`, and blank/backing/title/cover captures have reached `final_checked`. This does **not** mean that every clipped abbreviation, faint proper name, or copied Latin line has been normalised into a publication-ready critical edition. Uncertain micro-readings remain unresolved/marked and should be returned to the image or cited edition before exact publication quotation.
+## Active in this workstream
 
-The conversation/file preview exposes only the first 150 rendered pages of the PDF, but local physical-file control confirmed 183 captures; all 183 are represented in the page ledger.
+### chunk_005 — **STRUCTURAL PASS IN PROGRESS**
 
-## chunk_002 control files
+- physical captures: **173**
+- review PDFs available: p1–40, p41–80, p81–120, p121–160, p161–173
+- structural/image pass: **80 / 173**
+- `final_checked`: **11 / 173**
+- `image_checked`: **69 / 173**
+- `text_checked`: **0 / 173** at this stage
+- unseen: **93 / 173**
+- next structural page: **p81**
+- checkpoints:
+  - `proofreading/chunk_005/CHECKPOINT_001_p001-040.md`
+  - `proofreading/chunk_005/CHECKPOINT_002_p041-080.md`
+- crosswalk/material notes: `proofreading/chunk_005/CROSSWALK_NOTES.md`
 
-### Structural checkpoints
+### chunk_005 structure so far
 
-- `proofreading/chunk_002/CHECKPOINT_001_p001-025.md`
-- `proofreading/chunk_002/CHECKPOINT_002_p026-050.md`
-- `proofreading/chunk_002/CHECKPOINT_003_p051-075.md`
-- `proofreading/chunk_002/CHECKPOINT_004_p076-100.md`
-- `proofreading/chunk_002/CHECKPOINT_005_p101-125.md`
-- `proofreading/chunk_002/CHECKPOINT_006_p126-150.md`
-- `proofreading/chunk_002/CHECKPOINT_007_p151-183.md`
+1. p1–7 — dated lecture/course strips, 1932–34; feudal/institutional and North-American political-history teaching notes.
+2. p8 — blank/backing.
+3. p9–13 — dated medieval-Europe/church-state teaching sequence; p12 blank.
+4. p14 — blank/backing.
+5. p15–23 — mounted bibliographical/source-control cards on medieval institutional/social history.
+6. p24 — blank separator.
+7. p25–30 — `Papsttum I` / church-state and institutional-history mounted cards.
+8. p31–35 — December 1935 `Journalistiek / de Taak der Pers in dezen tijd` prose unit on the press, publicity and propaganda.
+9. p36 — blank separator.
+10. p37–41 — manuscript unit on historical interest/experience moving through Jan van Scorel / the contemporary world / Beeldenstorm material; exact title still to be fixed in text pass.
+11. p42 — blank separator.
+12. p43–44 — `Magna Carta` mounted research apparatus.
+13. p45 — blank separator.
+14. p46–58 — several mounted legal/state/constitutional-history card packets separated by backing cards.
+15. p59 — **blank Laura Spelman Rockefeller Memorial letterhead**.
+16. p60–62 — mounted legal/state packet.
+17. p63 — **second, physically distinct blank Laura Spelman Rockefeller Memorial letterhead**.
+18. p64–75 — estates / representation / offices / constitutional-history mounted apparatus.
+19. p76–80 — beginning of a continuous `1492–1559: de Nieuwe Tijd` lecture/draft; continues beyond p80.
 
-### Text/control passes
+### Rockefeller correction from chunk_005
 
-- `proofreading/chunk_002/TEXT_PASS_001_p002-010.md`
-- `proofreading/chunk_002/TEXT_PASS_002_p012-014.md`
-- `proofreading/chunk_002/TEXT_PASS_003_p017-023.md`
-- `proofreading/chunk_002/TEXT_PASS_004_p025.md`
-- `proofreading/chunk_002/TEXT_PASS_005_p026-032.md`
-- `proofreading/chunk_002/TEXT_PASS_006_p033-047.md`
-- `proofreading/chunk_002/TEXT_PASS_007_p126-136.md`
-- `proofreading/chunk_002/TEXT_PASS_008_p033_p036-037_LATIN.md`
-- `proofreading/chunk_002/TEXT_PASS_009_p050-069_PARIS_FRAMING.md`
-- `proofreading/chunk_002/TEXT_PASS_010_p070-095_ABELARD.md`
-- `proofreading/chunk_002/TEXT_PASS_011_p097-125_JEAN_DE_SALISBURY.md`
-- `proofreading/chunk_002/TEXT_PASS_012_p138-143_ALAIN_APPARATUS.md`
-- `proofreading/chunk_002/TEXT_PASS_013_p144-173_ALAIN_DE_LILLE.md`
-- `proofreading/chunk_002/TEXT_PASS_014_p176-183_ABELARD_BERNARD_CARDS.md`
+The frozen OCR correctly retrieves `Rockefeller` on p59. Image control shows that p59 is only blank preprinted Laura Spelman Rockefeller Memorial stationery. p63 is a second distinct blank sheet of the same stationery. These are **material/stationery evidence, not correspondence content and not evidence of the 1931 anthropology dossier**. See `proofreading/chunk_005/CROSSWALK_NOTES.md`.
 
-## chunk_002 archival sequence
+## Parallel workstreams
 
-1. p1–10 — Zelandensia / Zeeland mounted slips.
-2. p11–23 — Salimbene packet: bibliography/life → sources/page map → autograph/transmission → glossary/allusion apparatus → synthetic notes.
-3. p24–48 — Florence XIII–XV: political/factional conflict, guild/popolo constitution, finance, architecture, Dante/Giotto/Pisano/Petrarch, Medici/Platonism, Quattrocento visual culture and Savonarola.
-4. p49–175 — `Trois esprits prégothiques <Paris 1930>`:
-   - p50–69 — civilisational framing / Haskins / `formation`–`fermentation`;
-   - p70–95 — Abélard;
-   - p97–136 — Jean de Salisbury;
-   - p138–143 — Alain source/library apparatus;
-   - p144–173 — Alain de Lille;
-   - p174–175 — blank close.
-5. p176–183 — separate Abélard / Bernard / Berengar of Poitiers mounted-card packet.
+- chunk_001 — being proofread in another conversation/workstream; this file does not claim its current page count.
+- chunk_003 — being proofread in another conversation/workstream; this file does not claim its current page count.
+- chunk_004 — being proofread in another conversation/workstream; this file does not claim its current page count.
+- chunk_005 — active here.
+- chunks_006–071 — not yet claimed as proofread in this workstream.
 
-## High-value findings from chunk_002
+## Completion rule
 
-- Florence p25 frames development to the Medici as `een bloedige gesch.` and sets `partijstrijd en hebzucht` beside cultural `prachtige bloei`.
-- Paris 1930 defines the twelfth century through `formation` / `fermentation` and explicitly engages C. H. Haskins's *The Renaissance of the Twelfth Century*.
-- Huizinga's causal field gives major weight to Church/monastic reform, chivalry, crusade, towns, schools and corporate forms; the key formulation is `naissance, non pas renaissance`.
-- In the Abélard section `primitive` is relational/pre-systematic rather than merely backward: intellectual power and competitive `jeu/disputa` precede mature disciplinary restraints.
-- Jean de Salisbury is built as a `clerc-gentilhomme` / humane-critical type; Peter the Venerable's Islam/Qur'an translation project appears as organised knowledge acquisition.
-- Alain de Lille carries the lecture from verbal image/colour and `pictura` to `esprit gothique` as pressure toward category, system, order, harmony and style.
-- Salimbene, Alain request forms and the final mounted-card packet preserve Huizinga's research workflow materially: source acquisition, bibliography, manuscript transmission, concordance, quotation harvesting and synthesis.
-
-## Permanent chunk_002 technical exceptions
-
-- frozen OCR `chunk_002:p0030` merges physical p30 and p31; OCR p31 is nearly empty; physical p31 contains the substantial Florence architecture page.
-- physical PDF pp.32–33 are overlapping photographic captures that repeat the same left-hand Latin leaf while the right-hand page changes.
-- physical PDF pp.36–37 likewise repeat the same left-hand Latin leaf (`Van Mieris, Groot Charterboek I 176`) while the right-hand page changes.
-- `chunk_002:p0098` is a severe OCR failure despite a readable physical French manuscript page.
-
-These establish that PDF capture, OCR page and manuscript leaf are distinct identifiers. See `CROSSWALK_NOTES.md`.
-
-## Chunk register
-
-- chunk_001 — being handled in a separate conversation/workstream; no work on it is claimed here.
-- chunk_002 — **COMPLETE (archival proofreading pass, 20 Aug 2026)**
-- chunks_003–071 — not yet proofread in this archival pass in this conversation.
-
-## Checkpoint rule
-
-For future chunks, update this file every ~20–30 physical captures and immediately when a high-value discovery, archival boundary or crosswalk problem appears. A chunk is complete only when no substantive capture remains at `image_checked` or `unseen` under the current archival standard.
+A chunk is complete only when no substantive physical capture remains at `image_checked` or `unseen` under the current archival standard. Blank/backing/title/material-only captures may be `final_checked`; substantive handwritten/typed/printed research material must reach `text_checked` before chunk closure. OCR keyword hits must be reclassified from the physical image when stationery, reused paper or overlapping capture is involved.
