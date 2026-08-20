@@ -23,7 +23,7 @@ Updated: 2026-08-20
 ## Chunk 003
 
 - Source span: `chunk_003:p0001`–`chunk_003:p0090` (90 pages).
-- Some split uploads failed, but the complete 90-page source PDF `chunk_003(1).pdf` was available, so coverage is complete.
+- Split scan set now verified complete and contiguous: 1–40, 41–80, 81–90; page-count check `40 + 40 + 10 = 90`.
 - **Full-page visual audit: 90/90 complete.**
 - Page classes: **29 usable; 39 usable-with-noise; 11 high-noise; 3 false-empty OCR pages recovered; 1 verified short printed-text page; 7 genuinely blank.**
 - Baseline empty OCR pages: 10. Visual result: **7 blank, 3 false-empty** (`p0038`, `p0079`, `p0080`).
@@ -32,21 +32,23 @@ Updated: 2026-08-20
 
 ### Status
 
-**Chunk 003 retrieval-grade visual audit: COMPLETE.**
+**Chunk 003 retrieval-grade visual audit: COMPLETE (90/90).**
 
 ## Chunk 004
 
 - Baseline span: `chunk_004:p0001`–`chunk_004:p0236` (236 pages).
-- Visual scan coverage currently available: `p0001–p0080` and `p0161–p0236`.
-- **Visually audited: 156/236.** Missing scan block: **`p0081–p0160` (80 pages)**.
-- Reviewed-page classes: **57 usable; 76 usable-with-noise; 19 high-noise; 1 false-empty OCR recovery; 3 genuinely blank.**
-- Baseline empty OCR pages: `p0045`, `p0101`, `p0114`, `p0176`, `p0210`, `p0236`. Current visual result: `p0045`, `p0176`, `p0236` blank; `p0210` is a substantive false-empty handwritten page; `p0101` and `p0114` fall inside the missing scan block and remain priority checks.
+- Split scan set now verified complete and contiguous: 1–40, 41–80, 81–120, 121–160, 161–200, 201–236; page-count check `40 + 40 + 40 + 40 + 40 + 36 = 236`.
+- **Full-page visual audit: 236/236 complete.** The former `p0081–p0160` gap has been reviewed and `missing_scan_block_v1.tsv` is now marked resolved.
+- Full-page classes: **86 usable; 105 usable-with-noise; 39 high-noise; 1 false-empty OCR recovery; 5 genuinely blank.**
+- Baseline empty OCR pages: `p0045`, `p0101`, `p0114`, `p0176`, `p0210`, `p0236`. Final visual result: **five blank** (`p0045`, `p0101`, `p0114`, `p0176`, `p0236`) and **one false-empty** (`p0210`).
+- `p0101` and `p0114`, previously unresolved because their scan block was missing, have now been inspected at full-page/higher resolution and confirmed blank.
 - `p0210` anchor-level recovery includes papal/Italian material: **paus; Italië; Langob.; Ravenna en Pentapolis; keizer Leo III (717–741); paus Greg. II; Liutprand; Rome; 715–731; 731–741**.
-- Files: `review/chunk_004/visual_audit_manifest_p0001-0080_v1.tsv`, `visual_audit_manifest_p0161-0236_v1.tsv`, `missing_scan_block_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`.
+- New middle-block high-noise queue includes severe under-capture (`p0082`, `p0084`, `p0110`, `p0117`), hallucinated/mixed-script OCR (`p0091–p0094`, `p0120`, `p0122`, `p0123`, `p0138`, `p0139`, `p0144`, `p0160`), pathological year/repetition output (`p0145`, `p0159`), and low-coverage/multi-slip layouts (`p0151`, `p0155`, `p0156`).
+- Files: `review/chunk_004/visual_audit_manifest_p0001-0080_v1.tsv`, `visual_audit_manifest_p0081-0160_v1.tsv`, `visual_audit_manifest_p0161-0236_v1.tsv`, `missing_scan_block_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`.
 
 ### Status
 
-**Chunk 004 retrieval-grade visual audit: PARTIAL — 156/236 complete; missing `p0081–p0160`.**
+**Chunk 004 retrieval-grade visual audit: COMPLETE (236/236).**
 
 ## Cross-chunk institutional hits
 
