@@ -5,8 +5,9 @@ Updated: 2026-08-20
 ## Scope and review level
 
 - Source span: `chunk_003:p0001`–`chunk_003:p0090` (90 scan pages).
-- Although some split-PDF uploads failed, the complete 90-page source PDF `chunk_003(1).pdf` was available locally, so the visual audit could be completed without a coverage gap.
-- All 90 scan pages were visually checked against the baseline PaddleOCR layer.
+- The split scan set is now complete and contiguous: `chunk_003__p0001-0040.pdf`, `chunk_003__p0041-0080.pdf`, and `chunk_003__p0081-0090.pdf`.
+- Page-count check: `40 + 40 + 10 = 90`; no scan-page gap remains. This independently confirms the earlier complete-source-PDF review.
+- All 90 scan pages have been visually checked against the baseline PaddleOCR layer.
 - Review level: **retrieval-grade visual correction layer**, not diplomatic or word-perfect transcription. Raw PaddleOCR remains unchanged.
 - OCR quality classes are conservative retrieval triage calibrated to the already-reviewed chunk 001; exact quotation from flagged pages still requires the scan.
 
