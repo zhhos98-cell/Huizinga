@@ -11,7 +11,7 @@ Updated: 2026-08-20
   - `p0161–p0236` (from `chunk_004_161-236.pdf`)
 - **Missing visual block: `p0081–p0160` (80 pages).**
 - Therefore **156/236 pages have been visually audited** and **80/236 remain visual-pending solely because the scan block is not available in this workspace**.
-- Raw PaddleOCR for all 236 pages is preserved and remains searchable; the 80 missing-scan pages are explicitly marked `visual_pending` rather than silently treated as reviewed.
+- Raw PaddleOCR for all 236 pages is preserved and remains searchable; the 80 missing-scan pages are explicitly recorded as visual-pending rather than silently treated as reviewed.
 
 ## Reviewed-page result (156 pages)
 
@@ -26,7 +26,7 @@ Updated: 2026-08-20
 | visual pending: missing scan block | **80** |
 | **baseline total** | **236** |
 
-The complete 236-row manifest is in `full_visual_audit_manifest_v1.tsv`; missing pages are represented explicitly.
+Page-level reviewed manifests are split to match the available scan blocks: `visual_audit_manifest_p0001-0080_v1.tsv` and `visual_audit_manifest_p0161-0236_v1.tsv`. The absent middle block is recorded in `missing_scan_block_v1.tsv`.
 
 ## Empty-OCR audit
 
