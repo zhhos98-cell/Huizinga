@@ -1,0 +1,174 @@
+page_id	visual_class	exact_quote_required	notes
+chunk_005:p0001	usable	no	
+chunk_005:p0002	usable	no	
+chunk_005:p0003	usable	no	
+chunk_005:p0004	usable_with_noise	no	
+chunk_005:p0005	usable_with_noise	no	
+chunk_005:p0006	usable_with_noise	no	
+chunk_005:p0007	usable	no	
+chunk_005:p0008	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0009	usable	no	
+chunk_005:p0010	usable	no	
+chunk_005:p0011	usable_with_noise	no	
+chunk_005:p0012	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0013	usable_with_noise	no	
+chunk_005:p0014	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0015	usable_with_noise	no	
+chunk_005:p0016	high_noise	yes	multi-slip board; visible text exceeds baseline coverage
+chunk_005:p0017	usable_with_noise	no	
+chunk_005:p0018	high_noise	yes	multi-slip board; low baseline coverage and unstable reading order
+chunk_005:p0019	high_noise	yes	multi-slip board; severe under-capture
+chunk_005:p0020	high_noise	yes	multi-slip board plus baseline repetition/character-run cleanup
+chunk_005:p0021	high_noise	yes	multi-slip board; severe under-capture
+chunk_005:p0022	usable_with_noise	no	
+chunk_005:p0023	high_noise	yes	multi-slip board; baseline contains only 4 characters
+chunk_005:p0024	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0025	usable_with_noise	no	
+chunk_005:p0026	high_noise	yes	two-board multi-slip layout; substantial under-capture
+chunk_005:p0027	high_noise	yes	two-board multi-slip layout; substantial under-capture
+chunk_005:p0028	usable_with_noise	no	
+chunk_005:p0029	usable_with_noise	no	
+chunk_005:p0030	high_noise	yes	multi-slip board; baseline contains only 16 characters
+chunk_005:p0031	usable	no	
+chunk_005:p0032	usable	no	
+chunk_005:p0033	usable	no	
+chunk_005:p0034	usable	no	
+chunk_005:p0035	usable	no	
+chunk_005:p0036	minimal_non_substantive	no	baseline empty; only a very small isolated mark/word is visible; no substantive recoverable text
+chunk_005:p0037	usable	no	
+chunk_005:p0038	usable	no	
+chunk_005:p0039	usable	no	
+chunk_005:p0040	usable	no	
+chunk_005:p0041	usable	no	
+chunk_005:p0042	blank	no	baseline empty; blank card/page
+chunk_005:p0043	usable_with_noise	no	
+chunk_005:p0044	false_empty_recovered	yes	complete OCR false negative: mounted sheet with handwritten classification/table and several attached slips
+chunk_005:p0045	blank	no	baseline empty; blank card/page
+chunk_005:p0046	high_noise	yes	mounted-slip layout; pathological over-expansion/mixed-script OCR before v3 cleanup
+chunk_005:p0047	usable_with_noise	no	
+chunk_005:p0048	usable_with_noise	no	
+chunk_005:p0049	high_noise	yes	mounted-slip board; baseline severely under-captures visible text
+chunk_005:p0050	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0051	usable_with_noise	no	
+chunk_005:p0052	usable_with_noise	no	
+chunk_005:p0053	usable_with_noise	no	
+chunk_005:p0054	usable_with_noise	no	
+chunk_005:p0055	usable_with_noise	no	
+chunk_005:p0056	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0057	usable_with_noise	no	
+chunk_005:p0058	usable_with_noise	no	
+chunk_005:p0059	usable_with_noise	no	
+chunk_005:p0060	usable_with_noise	no	
+chunk_005:p0061	usable_with_noise	no	
+chunk_005:p0062	high_noise	yes	mounted-slip board; baseline severely under-captures visible text
+chunk_005:p0063	false_empty_recovered	no	complete OCR false negative: printed Laura Spelman Rockefeller Memorial letterhead; no substantive body text visible
+chunk_005:p0064	usable_with_noise	no	
+chunk_005:p0065	usable_with_noise	no	
+chunk_005:p0066	usable_with_noise	no	
+chunk_005:p0067	usable_with_noise	no	
+chunk_005:p0068	usable_with_noise	no	
+chunk_005:p0069	usable_with_noise	no	
+chunk_005:p0070	usable_with_noise	no	
+chunk_005:p0071	usable_with_noise	no	
+chunk_005:p0072	usable_with_noise	no	
+chunk_005:p0073	usable_with_noise	no	
+chunk_005:p0074	high_noise	yes	mounted-slip board; repetition cleanup and unstable mixed-script OCR
+chunk_005:p0075	usable_with_noise	no	
+chunk_005:p0076	usable	no	
+chunk_005:p0077	usable	no	
+chunk_005:p0078	usable	no	
+chunk_005:p0079	usable	no	
+chunk_005:p0080	usable	no	
+chunk_005:p0081	usable	no	
+chunk_005:p0082	usable	no	
+chunk_005:p0083	usable	no	
+chunk_005:p0084	usable	no	
+chunk_005:p0085	usable	no	
+chunk_005:p0086	usable	no	
+chunk_005:p0087	usable	no	
+chunk_005:p0088	usable	no	
+chunk_005:p0089	usable	no	
+chunk_005:p0090	usable	no	
+chunk_005:p0091	usable	no	
+chunk_005:p0092	usable	no	
+chunk_005:p0093	usable	no	
+chunk_005:p0094	usable	no	
+chunk_005:p0095	usable	no	
+chunk_005:p0096	usable	no	
+chunk_005:p0097	usable	no	
+chunk_005:p0098	usable	no	
+chunk_005:p0099	usable	no	
+chunk_005:p0100	usable	no	
+chunk_005:p0101	usable	no	
+chunk_005:p0102	usable	no	
+chunk_005:p0103	usable	no	
+chunk_005:p0104	usable	no	
+chunk_005:p0105	usable	no	
+chunk_005:p0106	usable	no	
+chunk_005:p0107	usable	no	
+chunk_005:p0108	usable	no	
+chunk_005:p0109	usable	no	
+chunk_005:p0110	usable	no	
+chunk_005:p0111	usable	no	
+chunk_005:p0112	usable	no	
+chunk_005:p0113	usable	no	
+chunk_005:p0114	usable	no	
+chunk_005:p0115	usable	no	
+chunk_005:p0116	usable	no	
+chunk_005:p0117	usable	no	
+chunk_005:p0118	usable	no	
+chunk_005:p0119	usable	no	
+chunk_005:p0120	usable	no	
+chunk_005:p0121	usable	no	
+chunk_005:p0122	usable	no	
+chunk_005:p0123	usable	no	
+chunk_005:p0124	usable	no	
+chunk_005:p0125	usable	no	
+chunk_005:p0126	usable	no	
+chunk_005:p0127	usable	no	
+chunk_005:p0128	usable	no	
+chunk_005:p0129	usable	no	
+chunk_005:p0130	usable	no	
+chunk_005:p0131	usable	no	
+chunk_005:p0132	usable	no	
+chunk_005:p0133	usable	no	
+chunk_005:p0134	usable	no	
+chunk_005:p0135	usable	no	
+chunk_005:p0136	usable	no	
+chunk_005:p0137	usable	no	
+chunk_005:p0138	usable	no	
+chunk_005:p0139	usable	no	
+chunk_005:p0140	usable	no	
+chunk_005:p0141	usable	no	
+chunk_005:p0142	usable	no	
+chunk_005:p0143	usable	no	
+chunk_005:p0144	usable	no	
+chunk_005:p0145	usable	no	
+chunk_005:p0146	usable	no	
+chunk_005:p0147	usable	no	
+chunk_005:p0148	usable	no	
+chunk_005:p0149	false_empty_recovered	yes	complete OCR false negative: dense handwritten historical notes; visible anchors include Philips II and dates in the 1517–1521 range
+chunk_005:p0150	usable	no	
+chunk_005:p0151	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_005:p0152	usable_with_noise	no	
+chunk_005:p0153	usable_with_noise	no	
+chunk_005:p0154	usable_with_noise	no	
+chunk_005:p0155	usable_with_noise	no	
+chunk_005:p0156	usable_with_noise	no	
+chunk_005:p0157	usable_with_noise	no	
+chunk_005:p0158	verified_short_text	no	baseline empty; verified printed postcard back: BRIEFKAART; “KLEIN TOORNVLIET” / HELPMAN / bij Groningen
+chunk_005:p0159	usable_with_noise	no	
+chunk_005:p0160	usable_with_noise	no	
+chunk_005:p0161	usable_with_noise	no	
+chunk_005:p0162	usable_with_noise	no	
+chunk_005:p0163	usable_with_noise	no	
+chunk_005:p0164	usable_with_noise	no	
+chunk_005:p0165	usable_with_noise	no	
+chunk_005:p0166	usable	no	
+chunk_005:p0167	usable	no	
+chunk_005:p0168	usable	no	
+chunk_005:p0169	usable	no	
+chunk_005:p0170	usable	no	
+chunk_005:p0171	usable	no	
+chunk_005:p0172	usable	no	
+chunk_005:p0173	blank	no	baseline empty; visual inspection confirms blank or no substantive text
