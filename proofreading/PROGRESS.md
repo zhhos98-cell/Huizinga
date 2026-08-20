@@ -21,10 +21,13 @@ Last updated: 20 August 2026
 - UI/file-preview warning: the conversation preview exposed only the first 150 rendered pages, despite the underlying PDF containing 183 pages. Use PDF metadata/local rendering for completeness control.
 - structural/image pass: **25 / 183** pages reviewed
 - pages at `final_checked`: **6 / 183**
-- pages at `image_checked` awaiting text pass: **19 / 183**
-- next text-pass page: **2**
+- pages at `text_checked`: **8 / 183**
+- pages at `image_checked` awaiting text pass: **11 / 183**
+- unseen pages: **158 / 183**
+- next text-pass page: **12**
 - next unseen physical page: **26**
-- latest checkpoint: `proofreading/chunk_002/CHECKPOINT_001_p001-025.md`
+- latest structural checkpoint: `proofreading/chunk_002/CHECKPOINT_001_p001-025.md`
+- latest text pass: `proofreading/chunk_002/TEXT_PASS_001_p002-010.md`
 
 ## Chunk register
 
