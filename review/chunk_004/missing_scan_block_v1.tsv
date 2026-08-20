@@ -1,2 +1,2 @@
-chunk_id	missing_start	missing_end	missing_pages	baseline_empty_priority	note
-004	81	160	80	p0101;p0114	Visual scan images unavailable; baseline OCR retained but not visually verified.
+chunk_id	previously_missing_start	previously_missing_end	status	resolved_from
+004	81	160	resolved	chunk_004__p0081-0120.pdf;chunk_004__p0121-0160.pdf
