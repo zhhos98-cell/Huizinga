@@ -1,0 +1,112 @@
+page_id	visual_class	exact_quote_required	notes
+chunk_008:p0001	false_empty_recovered	no	complete OCR false negative: printed Laura Spelman Rockefeller Memorial letterhead; no substantive body text visible
+chunk_008:p0002	usable_with_noise	no	
+chunk_008:p0003	usable_with_noise	no	
+chunk_008:p0004	usable_with_noise	no	
+chunk_008:p0005	high_noise	yes	mounted-slip board; baseline contains only 11 characters
+chunk_008:p0006	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0007	usable_with_noise	no	
+chunk_008:p0008	usable_with_noise	no	
+chunk_008:p0009	usable_with_noise	no	
+chunk_008:p0010	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0011	usable_with_noise	no	
+chunk_008:p0012	usable_with_noise	no	
+chunk_008:p0013	usable_with_noise	no	
+chunk_008:p0014	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0015	usable_with_noise	no	
+chunk_008:p0016	usable_with_noise	no	
+chunk_008:p0017	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0018	usable_with_noise	no	
+chunk_008:p0019	high_noise	yes	mounted-slip layout; baseline over-expansion/gibberish inconsistent with visible text
+chunk_008:p0020	usable_with_noise	no	
+chunk_008:p0021	usable	no	
+chunk_008:p0022	usable	no	
+chunk_008:p0023	blank	no	baseline empty; only a tiny non-substantive mark is visible
+chunk_008:p0024	usable_with_noise	no	
+chunk_008:p0025	high_noise	yes	mounted-slip layout; severe reading-order collapse and over-expansion
+chunk_008:p0026	usable_with_noise	no	
+chunk_008:p0027	usable_with_noise	no	
+chunk_008:p0028	false_empty_recovered	yes	baseline empty but faint handwriting is present; visible date range 1795–1856
+chunk_008:p0029	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0030	usable_with_noise	no	
+chunk_008:p0031	usable_with_noise	no	
+chunk_008:p0032	usable_with_noise	no	
+chunk_008:p0033	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0034	usable_with_noise	no	
+chunk_008:p0035	false_empty_recovered	yes	complete OCR false negative: multiple handwritten mounted slips, many rotated
+chunk_008:p0036	blank	no	baseline empty; visual inspection confirms blank or no substantive text
+chunk_008:p0037	usable_with_noise	no	
+chunk_008:p0038	usable_with_noise	no	
+chunk_008:p0039	usable_with_noise	no	
+chunk_008:p0040	usable_with_noise	no	
+chunk_008:p0041	usable_with_noise	no	
+chunk_008:p0042	usable_with_noise	no	
+chunk_008:p0043	usable_with_noise	no	
+chunk_008:p0044	blank	no	baseline empty; envelope/card with only a tiny non-substantive mark
+chunk_008:p0045	usable_with_noise	no	
+chunk_008:p0046	usable_with_noise	no	
+chunk_008:p0047	high_noise	yes	multi-slip board; severe under-capture
+chunk_008:p0048	usable_with_noise	no	
+chunk_008:p0049	usable_with_noise	no	
+chunk_008:p0050	usable_with_noise	no	
+chunk_008:p0051	usable_with_noise	no	
+chunk_008:p0052	false_empty_recovered	yes	complete OCR false negative: dense mounted index slips; anchors include “d.13. keuze of interpretatie”, “d.12. zuiverheid spiritualiteit”, and “17. vormleer”
+chunk_008:p0053	high_noise	yes	many mounted slips; baseline contains only 12 characters
+chunk_008:p0054	high_noise	yes	mounted slips; low baseline coverage
+chunk_008:p0055	high_noise	yes	mounted slips; low baseline coverage
+chunk_008:p0056	false_empty_recovered	yes	complete OCR false negative: four mounted handwritten reference slips; close reading required
+chunk_008:p0057	false_empty_recovered	yes	complete OCR false negative: four mounted handwritten slips, most rotated; close reading required
+chunk_008:p0058	usable_with_noise	no	
+chunk_008:p0059	high_noise	yes	mounted slips; pathological repetition removed by v3 cleanup
+chunk_008:p0060	usable_with_noise	no	
+chunk_008:p0061	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0062	usable_with_noise	no	
+chunk_008:p0063	usable_with_noise	no	
+chunk_008:p0064	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0065	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0066	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0067	usable_with_noise	no	
+chunk_008:p0068	high_noise	yes	multiple mounted slips; baseline contains only 53 characters
+chunk_008:p0069	usable_with_noise	no	
+chunk_008:p0070	false_empty_recovered	yes	baseline empty but one mounted handwritten slip contains substantive text; exact wording requires close reading
+chunk_008:p0071	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0072	high_noise	yes	multiple mounted slips; baseline contains only 24 characters
+chunk_008:p0073	usable_with_noise	no	
+chunk_008:p0074	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0075	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0076	high_noise	yes	multiple mounted slips; baseline contains only 21 characters
+chunk_008:p0077	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0078	high_noise	yes	multiple mounted slips; low baseline coverage
+chunk_008:p0079	usable_with_noise	no	
+chunk_008:p0080	usable_with_noise	no	
+chunk_008:p0081	usable_with_noise	no	
+chunk_008:p0082	usable_with_noise	no	
+chunk_008:p0083	usable_with_noise	no	
+chunk_008:p0084	high_noise	yes	multi-slip board; severe under-capture
+chunk_008:p0085	usable	no	
+chunk_008:p0086	usable	no	
+chunk_008:p0087	usable	no	
+chunk_008:p0088	usable	no	
+chunk_008:p0089	blank	no	baseline empty; blank reverse/leaf
+chunk_008:p0090	usable	no	
+chunk_008:p0091	usable	no	
+chunk_008:p0092	usable	no	
+chunk_008:p0093	usable	no	
+chunk_008:p0094	usable	no	
+chunk_008:p0095	usable	no	
+chunk_008:p0096	blank	no	baseline empty; blank reverse of clipping/leaf
+chunk_008:p0097	usable	no	
+chunk_008:p0098	usable	no	
+chunk_008:p0099	usable	no	
+chunk_008:p0100	usable	no	
+chunk_008:p0101	usable	no	
+chunk_008:p0102	usable	no	
+chunk_008:p0103	usable	no	
+chunk_008:p0104	usable	no	
+chunk_008:p0105	usable	no	
+chunk_008:p0106	usable	no	
+chunk_008:p0107	usable	no	
+chunk_008:p0108	usable	no	
+chunk_008:p0109	usable	no	
+chunk_008:p0110	usable	no	
+chunk_008:p0111	usable	no	
