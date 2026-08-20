@@ -1,0 +1,15 @@
+{
+  "scan_version": "v1",
+  "input_file": "huizinga_leiden_paddleocr_clean_001-071_complete_v3(1).json",
+  "input_sha256": "fae29b1cc98ef0142e0fcef66b2c1b275e6fbe2f5521fdb8582da346c9a7454e",
+  "pages_scanned": 15139,
+  "nonempty_pages": 12654,
+  "empty_pages": 2485,
+  "marked_rows": 341,
+  "review_tiers": {
+    "A": 8,
+    "B": 15,
+    "C": 318
+  },
+  "policy": "full sequential scan; sparse output; exact and fuzzy identities kept separate"
+}
