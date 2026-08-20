@@ -26,85 +26,61 @@ Last updated: 20 August 2026
 
 Future work on chunk_002 should be targeted publication-level authority/diplomatic checking, not restart of basic proofreading.
 
-## Active in this workstream
+### chunk_005 — **TEXT/IMAGE RESOLUTION COMPLETE; FINAL HOUSEKEEPING PENDING**
 
-### chunk_005 — **STRUCTURAL PASS COMPLETE / TEXT PASS PENDING**
-
-- physical captures: **173**
-- review PDFs: p1–40, p41–80, p81–120, p121–160, p161–173
+- physical captures: **173 / 173 resolved**
 - structural/image pass: **173 / 173 — COMPLETE**
 - `final_checked`: **14 / 173**
-- `image_checked`: **159 / 173**
-- `text_checked`: **0 / 173** at structural-close checkpoint
-- unseen: **0 / 173**
-- next work: text control by archival unit
-
-### chunk_005 structural checkpoints
-
-- `proofreading/chunk_005/CHECKPOINT_001_p001-040.md`
-- `proofreading/chunk_005/CHECKPOINT_002_p041-080.md`
-- `proofreading/chunk_005/CHECKPOINT_003_p081-120.md`
-- `proofreading/chunk_005/CHECKPOINT_004_p121-160.md`
-- `proofreading/chunk_005/CHECKPOINT_005_p161-173.md`
+- `text_checked`: **159 / 173**
+- `image_checked`: **0 / 173**
+- `unseen`: **0 / 173**
+- structural checkpoints: `CHECKPOINT_001`–`CHECKPOINT_005`
+- text-control passes: `TEXT_PASS_001`–`TEXT_PASS_019`
 - crosswalk/material notes: `proofreading/chunk_005/CROSSWALK_NOTES.md`
+- remaining repo housekeeping only: create `PAGE_LEDGER_COMPLETE.csv` and `COMPLETE_2026-08-20.md`.
 
-### chunk_005 archival structure
+Important chunk_005 corrections:
 
-1. p1–7 — dated lecture/course strips, 1932–34; feudal/institutional and North-American political-history teaching notes.
-2. p8 — blank/backing.
-3. p9–13 — dated medieval-Europe/church-state teaching sequence; p12 blank.
-4. p14 — blank/backing.
-5. p15–23 — mounted bibliographical/source-control cards on medieval institutional/social history.
-6. p24 — blank separator.
-7. p25–30 — `Papsttum I` / church-state and institutional-history mounted cards.
-8. p31–35 — December 1935 `Journalistiek / de Taak der Pers in dezen tijd` prose unit on the press, publicity and propaganda.
-9. p36 — blank separator.
-10. p37–41 — manuscript unit on historical interest/experience moving through Jan van Scorel / the contemporary world / Beeldenstorm material.
-11. p42 — blank separator.
-12. p43–44 — `Magna Carta` mounted research apparatus.
-13. p45 — blank separator.
-14. p46–58 — mounted legal/state/constitutional-history card packets, with p50 and p56 blank/backing.
-15. p59 — blank Laura Spelman Rockefeller Memorial letterhead.
-16. p60–62 — mounted legal/state packet.
-17. p63 — second physically distinct blank Laura Spelman Rockefeller Memorial letterhead.
-18. p64–75 — estates / representation / offices / constitutional-history mounted apparatus.
-19. p76–150 — major continuous `1492–1559: de Nieuwe Tijd` manuscript: historical writing/world expansion → discovery/Iberian empire → modern state system → military/fiscal concentration → diplomacy/publicity/Machiavelli → monarchy/Habsburg-Spain → France/absolutism → eastern/Ottoman comparisons.
-20. p151 — blank separator.
-21. p152–153 — separate reflective notes on history/historical teaching; p153 carries a later college-year/opening context.
-22. p154–157 — dated teaching strips, 1919, mounted beside printed postcard stock.
-23. p158 — unused printed `BRIEFKAART` material/backing.
-24. p159–164 — dated teaching strips, 1929–30, on state/economy/expansion/religion/capital/monopoly.
-25. p165 — separate small administrative/account note.
-26. p166–172 — Italian Wars / European power-politics manuscript packet, 1494 through the 1550s.
-27. p173 — blank physical close.
+- p59 and p63 are two physically distinct blank Laura Spelman Rockefeller Memorial letterheads; neither is Rockefeller correspondence.
+- p149 is false-empty OCR: the physical capture is a dense manuscript page.
+- p151 is genuinely blank; p158 is unused printed `BRIEFKAART`; p173 is the blank physical close.
+- no PDF/OCR page merge or repeated-leaf capture anomaly was confirmed.
 
-### High-value technical corrections from chunk_005
+## Active / prepared in this workstream
 
-- `chunk_005:p0059` is a blank Laura Spelman Rockefeller Memorial letterhead, not Rockefeller correspondence.
-- p63 is a second physically distinct blank Rockefeller sheet, not a duplicate capture.
-- `chunk_005:p0149` is **false-empty OCR**: the physical capture contains a dense substantive manuscript page.
-- p151 is genuinely blank; p158 is an unused printed postcard; p173 is genuinely blank.
-- no OCR/PDF page-number merge or repeated-leaf photographic overlap has yet been confirmed in chunk_005.
+### chunk_008 — **OCR PREPASS READY / IMAGE PASS NOT STARTED**
 
-### Text-pass order for chunk_005
+- frozen OCR pages: **111** (`p0001`–`p0111`)
+- non-empty OCR pages: **93**
+- empty OCR pages: **18**
+- physical PDF/review slices currently unavailable in the conversation/File Library/repo at the time of prepass.
+- therefore: `image_checked = 0`, `text_checked = 0`, `final_checked = 0`; no physical blank is accepted from OCR alone.
+- OCR prepass: `proofreading/chunk_008/OCR_PREPASS_2026-08-20.md`
+- preferred image-review split: p1–40 / p41–80 / p81–111.
 
-1. p31–35 — `Journalistiek / de Taak der Pers in dezen tijd`.
-2. p37–41 — historical interest / Jan van Scorel / Beeldenstorm unit.
-3. p76–150 — `Nieuwe Tijd` continuous manuscript.
-4. p152–153 — later reflective teaching/history notes.
-5. p154–164 — dated 1919 and 1929–30 teaching strips.
-6. p166–172 — Italian Wars packet.
-7. mounted apparatus p1–30 and p43–75, board-by-board with orientation/material control.
-8. p165 administrative note.
+Provisional OCR-derived structure to verify from images:
+
+1. p001–020 — handwritten / mounted research and teaching notes.
+2. p021–022 — German printed `FORSCHUNGEN UND FORTSCHRITTE` material; p023 OCR-empty.
+3. p024–032 — mixed notes/apparatus; p028–029 OCR-empty.
+4. p033–043 — cultural-historical/historiographical notes; p033, p035–036 OCR-empty.
+5. p044–077 — bibliography/historiography/social-studies cards and printed notices; several OCR-empty candidates.
+6. p078–084 — possible Huizinga programme/lecture + manuscript material.
+7. p085–088 — Dutch `Staatsblad` archival legislation (`N.378`).
+8. p090–092 — second `Staatsblad` archival packet (`N.552`, 2 Sept. 1919 in OCR).
+9. p093–095 — Leiden/Troeltsch/Historisch Genootschap newspaper-clipping cluster.
+10. p097–104 — dense German printed scholarly/scientific articles.
+11. p105–111 — Dutch printed reviews/news/scientific discussion.
 
 ## Parallel workstreams
 
 - chunk_001 — being proofread in another conversation/workstream; no current page count is claimed here.
 - chunk_003 — being proofread in another conversation/workstream; no current page count is claimed here.
 - chunk_004 — being proofread in another conversation/workstream; no current page count is claimed here.
-- chunk_005 — active here.
-- chunks_006–071 — not yet claimed as proofread in this workstream.
+- chunk_005 — page-level proofreading resolved here; final ledger/completion-file housekeeping remains.
+- chunk_008 — active here at OCR-prepass stage, awaiting physical image slices.
+- other chunks — no proofreading completion is claimed in this workstream.
 
 ## Completion rule
 
-A chunk is complete only when no substantive physical capture remains at `image_checked` or `unseen` under the current archival standard. Blank/backing/title/material-only captures may be `final_checked`; substantive handwritten/typed/printed research material must reach `text_checked` before chunk closure. OCR keyword hits must be reclassified from the physical image when stationery, reused paper or overlapping capture is involved.
+A chunk is complete only when no substantive physical capture remains at `image_checked` or `unseen` under the current archival standard. Blank/backing/title/material-only captures may be `final_checked`; substantive handwritten/typed/printed research material must reach `text_checked` before chunk closure. OCR keyword hits and OCR-empty pages must be reclassified from the physical image.
