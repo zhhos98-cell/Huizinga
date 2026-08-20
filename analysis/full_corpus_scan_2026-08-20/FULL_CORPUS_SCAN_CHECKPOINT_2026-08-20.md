@@ -96,7 +96,10 @@ The older `Edward_Griffith/research_notes/huizinga_malinowski/` tree remains the
 
 Files produced by this scan:
 
-- `analysis/full_corpus_scan_2026-08-20/page_markers_v1.csv` — sparse page-level marker index (all A/B/C pages; every page was scanned, unmarked pages omitted from the sparse file);
+- `analysis/full_corpus_scan_2026-08-20/page_markers_v1_001-035.csv`
+- `analysis/full_corpus_scan_2026-08-20/page_markers_v1_036-055.csv`
+- `analysis/full_corpus_scan_2026-08-20/page_markers_v1_056-071.csv`
+  — three parts of the sparse page-level marker index (341 A/B/C rows total; every page was scanned, unmarked pages omitted from these sparse files);
 - `analysis/full_corpus_scan_2026-08-20/chunk_scan_summary_v1.csv` — 001–071 coverage table;
 - `analysis/full_corpus_scan_2026-08-20/priority_review_v1.md` — human-readable A/B queue;
 - `analysis/full_corpus_scan_2026-08-20/scan_full_corpus_markers.py` — reproducible scanner;
