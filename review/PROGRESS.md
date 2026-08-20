@@ -1,6 +1,6 @@
 # Huizinga Leiden visual review progress
 
-Updated: 2026-08-20
+Updated: 2026-08-21
 
 ## Chunk 001
 
@@ -50,6 +50,22 @@ Updated: 2026-08-20
 
 **Chunk 004 retrieval-grade visual audit: COMPLETE (236/236).**
 
+## Chunk 005
+
+- Source span: `chunk_005:p0001`–`chunk_005:p0173` (173 scan pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–160, 161–173; page-count check `40 + 40 + 40 + 40 + 13 = 173`.
+- **Full-page visual audit: 173/173 complete.** Every page was checked against the clean PaddleOCR v3 baseline, with empty-OCR and severe mismatch cases rechecked at higher resolution.
+- Baseline empty OCR pages: 15. Visual result: **3 false-empty recoveries** (`p0044`, `p0063`, `p0149`), **10 genuinely blank/no-substantive-text pages** (`p0008`, `p0012`, `p0014`, `p0024`, `p0042`, `p0045`, `p0050`, `p0056`, `p0151`, `p0173`), **1 minimal/non-substantive page** (`p0036`), and **1 verified short printed-text page** (`p0158`, `BRIEFKAART`).
+- `p0044` is a complete OCR false negative for a mounted sheet containing a handwritten classification/table plus several attached slips.
+- `p0063` is a complete OCR false negative for the printed letterhead **“The Laura Spelman Rockefeller Memorial / 61 Broadway / New York.”**
+- `p0149` is a complete OCR false negative for dense handwritten historical notes; visible anchors include `Philips II` and dates in the 1517–1521 range, but exact quotation still requires close reading.
+- Main high-noise queue includes severe multi-slip under-capture (`p0016`, `p0018`, `p0019`, `p0020`, `p0021`, `p0023`, `p0026`, `p0027`, `p0030`, `p0049`, `p0062`), pathological repetition/mixed-script output (`p0046`, `p0074`), plus the false-empty manuscript pages where close transcription remains necessary.
+- Files: `review/chunk_005/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`, `status.txt`.
+
+### Status
+
+**Chunk 005 retrieval-grade visual audit: COMPLETE (173/173).**
+
 ## Chunk 006
 
 - Source span: `chunk_006:p0001`–`chunk_006:p0180` (180 pages).
@@ -82,9 +98,41 @@ Updated: 2026-08-20
 
 **Chunk 007 retrieval-grade visual audit: COMPLETE (147/147).**
 
+## Chunk 008
+
+- Source span: `chunk_008:p0001`–`chunk_008:p0111` (111 scan pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–111; page-count check `40 + 40 + 31 = 111`.
+- **Full-page visual audit: 111/111 complete.** Empty-OCR and severe under/over-capture cases were rechecked at higher resolution.
+- Baseline empty OCR pages: 18. Visual result: **7 false-empty recoveries** (`p0001`, `p0028`, `p0035`, `p0052`, `p0056`, `p0057`, `p0070`) and **11 genuinely blank/no-substantive-text pages** (`p0006`, `p0010`, `p0014`, `p0017`, `p0023`, `p0029`, `p0033`, `p0036`, `p0044`, `p0089`, `p0096`).
+- `p0001` is a complete OCR false negative for **“The Laura Spelman Rockefeller Memorial / 61 Broadway / New York.”**
+- `p0028` contains faint handwritten material with the visible date range **1795–1856**.
+- `p0035` contains multiple handwritten mounted slips, many rotated, despite an empty baseline.
+- `p0052` contains a dense series of handwritten index slips; clearly readable anchors include **“d.13. keuze of interpretatie”**, **“d.12. zuiverheid spiritualiteit”**, and **“17. vormleer”**.
+- `p0056`, `p0057`, and `p0070` are additional mounted-slip false negatives with text present but insufficient for exact quotation without close reading.
+- Main high-noise queue is concentrated in mounted-slip layouts with extreme under-capture (`p0005`, `p0047`, `p0053`–`p0055`, `p0061`, `p0064`–`p0066`, `p0068`, `p0071`–`p0078`, `p0084`) and pathological over-expansion/repetition (`p0019`, `p0025`, `p0059`).
+- Pages `p0085`–`p0111` are predominantly printed book/newspaper material and are substantially more regular for retrieval than the mounted-slip sequence.
+- Files: `review/chunk_008/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`, `status.txt`.
+
+### Status
+
+**Chunk 008 retrieval-grade visual audit: COMPLETE (111/111).**
+
+## Chunk 009
+
+- Source span: `chunk_009:p0001`–`chunk_009:p0102` (102 scan pages).
+- Split scan set is complete and contiguous: 1–40, 41–80, 81–102; page-count check `40 + 40 + 22 = 102`.
+- All 102 pages were visually checked against the clean PaddleOCR v3 baseline.
+- Page classes: **12 usable; 84 usable-with-noise; 5 high-noise; 0 false-empty OCR recoveries; 1 genuinely blank/no substantive text.**
+- High-noise queue: `p0045`, `p0080`, `p0090`, `p0093`, `p0102`.
+- Files: `review/chunk_009/full_visual_audit_manifest_v1.tsv`, `review_summary_v1.md`, `status.txt`, `README.md`.
+
+### Status
+
+**Chunk 009 retrieval-grade visual audit: COMPLETE (102/102).**
+
 ## Cross-chunk institutional hits
 
-- Verified Rockefeller stationery now totals **seven pages** across reviewed chunks: `chunk_001:p0101`, `p0109`, `p0145`, `p0151`, `p0169`, `chunk_003:p0082`, and `chunk_007:p0120`.
+- Verified Rockefeller stationery now includes occurrences in reviewed chunks 001, 003, 005, 007, and 008. Newly verified complete OCR false negatives are `chunk_005:p0063` and `chunk_008:p0001`; `chunk_005:p0059` also visibly carries the same letterhead and was captured by baseline OCR.
 - Cross-chunk index: `review/rockefeller_stationery_index.md`.
 - Treat stationery hits as documentary occurrences, not automatically as substantive correspondence or proof of funding/agency; sender, recipient, body text, date, and archival sequence require separate confirmation.
 
