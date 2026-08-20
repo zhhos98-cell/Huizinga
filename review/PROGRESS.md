@@ -50,6 +50,22 @@ Updated: 2026-08-20
 
 **Chunk 004 retrieval-grade visual audit: COMPLETE (236/236).**
 
+## Chunk 006
+
+- Source span: `chunk_006:p0001`–`chunk_006:p0180` (180 pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–160, 161–180; page-count check `40 + 40 + 40 + 40 + 20 = 180`.
+- **Full-page visual audit: 180/180 complete.**
+- Page classes: **47 usable; 66 usable-with-noise; 37 high-noise; 3 false-empty OCR pages recovered; 3 verified short-text pages; 2 minimal/non-substantive mark pages; 22 genuinely blank.**
+- Baseline empty OCR pages: 26. Visual result: **22 blank/no substantive text, 3 substantive false-empty pages (`p0092`, `p0176`, `p0180`), 1 minimal mark-only page (`p0093`).**
+- `p0176` anchor-level recovery: **H. Joly; Sainte Thérèse; Les Saints; Paris; Lecoffre**.
+- `p0180` contains multiple handwritten slips/card; visible anchor: **“De la méthode dans les sciences. Histoire ...”**.
+- Major OCR pathology includes `p0008` over-expansion, `p0095`/`p0164`/`p0168` repetition cleanup, and severe mounted-slip under-capture in the exact-quotation queue.
+- Files: `review/chunk_006/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`.
+
+### Status
+
+**Chunk 006 retrieval-grade visual audit: COMPLETE (180/180).**
+
 ## Cross-chunk institutional hits
 
 - Verified Rockefeller stationery now totals **six pages** across reviewed chunks: `chunk_001:p0101`, `p0109`, `p0145`, `p0151`, `p0169`, and `chunk_003:p0082`.
