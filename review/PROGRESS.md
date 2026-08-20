@@ -66,9 +66,25 @@ Updated: 2026-08-20
 
 **Chunk 006 retrieval-grade visual audit: COMPLETE (180/180).**
 
+## Chunk 007
+
+- Source span: `chunk_007:p0001`–`chunk_007:p0147` (147 pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–147; page-count check `40 + 40 + 40 + 27 = 147`.
+- **Full-page visual audit: 147/147 complete.** All pages were visually checked against the clean PaddleOCR v3 baseline; obvious mismatch and empty-OCR cases were rechecked at higher resolution.
+- Page classes: **15 usable; 87 usable-with-noise; 37 high-noise requiring close transcription before exact quotation; 2 false-empty OCR pages recovered; 6 genuinely blank/no-substantive-text pages.**
+- Baseline empty OCR pages: 8. Visual result: **6 blank** (`p0103`, `p0111`, `p0112`, `p0127`, `p0133`, `p0140`) and **2 false-empty** (`p0115`, `p0120`).
+- `p0115` is a complete OCR false negative: two mounting boards carry many handwritten slips and require close transcription.
+- `p0120` is a complete OCR false negative for the printed letterhead **“The Laura Spelman Rockefeller Memorial / 61 Broadway / New York.”** No substantive body text is visible on that scan; the occurrence is added to the stationery index.
+- Major pathology includes severe under-capture (`p0045`, `p0080`, `p0105`, `p0122`, `p0128`, `p0132`, `p0142`), mixed-script/multilingual hallucination (`p0093`, `p0104`, `p0107`, `p0109`, much of the mounted-slip sequence), and reading-order collapse on multi-slip boards from `p0113` onward.
+- Files: `review/chunk_007/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`.
+
+### Status
+
+**Chunk 007 retrieval-grade visual audit: COMPLETE (147/147).**
+
 ## Cross-chunk institutional hits
 
-- Verified Rockefeller stationery now totals **six pages** across reviewed chunks: `chunk_001:p0101`, `p0109`, `p0145`, `p0151`, `p0169`, and `chunk_003:p0082`.
+- Verified Rockefeller stationery now totals **seven pages** across reviewed chunks: `chunk_001:p0101`, `p0109`, `p0145`, `p0151`, `p0169`, `chunk_003:p0082`, and `chunk_007:p0120`.
 - Cross-chunk index: `review/rockefeller_stationery_index.md`.
 - Treat stationery hits as documentary occurrences, not automatically as substantive correspondence or proof of funding/agency; sender, recipient, body text, date, and archival sequence require separate confirmation.
 
