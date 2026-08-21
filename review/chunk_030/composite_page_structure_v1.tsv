@@ -1,0 +1,25 @@
+span	layout	note
+p0001	blank card/separator	Baseline OCR empty; no substantive text.
+p0002-p0057	mounted intellectual/political-history boards	Dense multi-slip working sequence. Topics include eighteenth-century political thought, Leslie Stephen, Romanticism/Renaissance vocabulary and related bibliography. Physical reading order is layout-dependent; OCR frequently hallucinates modern prose and mixed scripts.
+p0058	blank separator	No substantive text.
+p0059-p0061	mixed mounted/printed bibliographical packet	Includes printed orange review/bibliographical cards; p0060-p0061 visibly include Friedrich Meinecke / Staatsräson material. OCR is noisy but documentary form is clear.
+p0062	blank card	No substantive text.
+p0063-p0065	loose manuscript/bibliographical sheets	Simple page order; handwriting/print OCR remains noisy.
+p0066-p0067	blank sheets/cards	No substantive text.
+p0068-p0090	mounted Burke / eighteenth-century political-thought boards	Long multi-slip sequence around Burke, political aesthetics, American/French revolutionary contexts and related bibliography; strong reading-order risk and frequent under/over-capture.
+p0091	short handwritten slip	Baseline OCR empty; one short handwritten slip visible.
+p0092	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial / 61 Broadway / New York letterhead; baseline OCR captured.
+p0093-p0100	sparse mounted boards and stationery	Reading-order-sensitive political/intellectual-history slips; p0096 is Rockefeller letterhead with empty baseline OCR; p0100 is a complete OCR false negative on a populated board.
+p0101-p0106	loose cards and manuscript sheets	Simple page order; retrieval usable with noise except severe under-capture on p0103 and over-generation on p0106.
+p0107-p0122	composite Burke / political-history / Renaissance-scholasticism packet	Mounted boards mixed with full manuscript sheets. p0120 visibly juxtaposes a mounted board with a dense continuous page and includes a Renaissance/scholasticism transition in the OCR; exact quotation requires scan verification.
+p0123-p0133	loose English radicalism / reform notes	Working sequence on late eighteenth- and early nineteenth-century British politics, including Burdett, Cobbett, Cochrane, Major Cartwright, Manchester/Peterloo-era agitation and 1819-1820 chronology. Mostly simple physical order.
+p0134-p0135	blank separators	No substantive text.
+p0136-p0140	mounted 'Revolution' packet	Envelope/board sequence explicitly organized around Revolution; p0140 also carries Sociëteit Minerva / Quaestuur stationery. OCR is high-noise.
+p0141-p0146	loose conceptual-history notes	Dense handwritten cards/sheets on the semantics/history of revolution and political change; OCR has substantial semantic distortion.
+p0147-p0148	blank cards	No substantive text.
+p0149-p0185	mounted revolution/social-thought boards	Long reading-order-sensitive sequence including revolutionary vocabulary, democracy/socialism and Proudhon references; several pages have extreme OCR hallucination. p0183 is Rockefeller letterhead; p0182 and p0184 are substantive baseline-empty boards.
+p0186	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial / 61 Broadway / New York letterhead; baseline OCR captured.
+p0187-p0195	mounted/sparse political-biographical cards	Working notes on late eighteenth-/early nineteenth-century British political figures; reading order is layout-dependent and OCR is unstable.
+p0196-p0223	loose Parliamentary Debates / radical-politics sequence	Continuous handwritten and typed working notes on 1819-1820 parliamentary politics, reform, radical agitation, Habeas Corpus suspension and post-Napoleonic unrest. p0215-p0221 have severe character-order corruption/semantic over-generation despite simple manuscript layouts.
+p0224-p0236	loose medieval Zeeland/Flanders ecclesiastical-geographical notes	Abrupt return to medieval Low Countries source work around Zeeland, Middelburg, parishes, wateringen and ecclesiastical/toponymic evidence; continues directly into chunk 031.
+p0237	blank final sheet	Baseline OCR empty; no substantive text.
