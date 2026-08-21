@@ -162,6 +162,21 @@ Updated: 2026-08-21
 
 **Chunk 011 retrieval-grade visual audit: COMPLETE (200/200).**
 
+## Chunk 012
+
+- Source span: `chunk_012:p0001`–`chunk_012:p0161` (161 scan pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–160, 161; page-count check `40 + 40 + 40 + 40 + 1 = 161`.
+- **Full-page visual audit: 161/161 complete.** All pages were checked against the clean PaddleOCR v3 baseline; empty-OCR, mounted-slip, photographic-table, and short-text anomalies were rechecked at higher resolution.
+- Page classes: **8 usable; 115 usable-with-noise; 12 high-noise; 8 false-empty OCR recoveries; 3 verified short-text pages; 15 genuinely blank/no-substantive-text pages.**
+- Baseline empty OCR pages: 23. Visual result: **15 blank** (`p0093`, `p0096`, `p0099`, `p0103`, `p0107`, `p0110`, `p0114`, `p0117`, `p0121`, `p0124`, `p0128`, `p0136`, `p0137`, `p0151`, `p0152`) and **8 false-empty** (`p0122`, `p0123`, `p0125`, `p0131`, `p0153`, `p0154`, `p0156`, `p0158`).
+- High-noise queue: `p0098`, `p0101`, `p0105`, `p0106`, `p0109`, `p0112`, `p0119`, `p0127`, `p0140`, `p0155`, `p0157`, `p0161`; the dominant failures are mounted-board under-capture and near-total failure on dense photographic tables.
+- Documentary transitions worth retaining for later analysis: `p0138` is headed **“OUD ARCHIEF IN ZEELAND”** and includes **“MIDDELBURG, 20 Juni 1923”**; `p0142–p0150` contain Huizinga's printed Sir Philip Sidney commemorative address; `p0159` gives the heading **“Veelvuldigste namen uit het zijlschotregister van Winsummer- & Schaphalster Zijlvest 1553.”**
+- Files: `review/chunk_012/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`, `status.txt`, `README.md`.
+
+### Status
+
+**Chunk 012 retrieval-grade visual audit: COMPLETE (161/161).**
+
 ## Cross-chunk institutional hits
 
 - Verified Rockefeller stationery now includes occurrences in reviewed chunks 001, 003, 005, 007, and 008. Newly verified complete OCR false negatives are `chunk_005:p0063` and `chunk_008:p0001`; `chunk_005:p0059` also visibly carries the same letterhead and was captured by baseline OCR.
