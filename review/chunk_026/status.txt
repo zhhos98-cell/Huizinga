@@ -1,0 +1,19 @@
+chunk_026
+scope: p0001-p0254
+pages: 254/254 full visual/OCR audit complete
+full_retrieval_grade_audit: COMPLETE
+raw_ocr: PRESERVED_UNCHANGED
+page_classes: usable=18;usable_with_noise=125;high_noise=75;short_text=13;false_empty_recovery=5;blank_no_substantive=18
+baseline_empty_pages: p0001,p0013,p0039,p0040,p0047,p0051,p0053,p0055,p0057,p0058,p0122,p0133,p0144,p0166,p0167,p0171,p0175,p0178,p0183,p0186,p0193,p0199,p0202,p0216,p0220,p0231,p0237,p0252
+false_empty_recoveries: p0013,p0053,p0055,p0057,p0237
+verified_genuine_blanks: p0039,p0040,p0051,p0144,p0166,p0167,p0171,p0175,p0178,p0183,p0186,p0193,p0199,p0202,p0216,p0220,p0231,p0252
+baseline_empty_short_text: p0001,p0047,p0058,p0122,p0133
+high_noise_queue: p0002,p0003,p0004,p0005,p0006,p0008,p0009,p0010,p0011,p0012,p0017,p0023,p0026,p0027,p0029,p0032,p0034,p0035,p0036,p0037,p0041,p0042,p0043,p0044,p0065,p0100,p0140,p0148,p0168,p0169,p0170,p0172,p0173,p0174,p0176,p0177,p0179,p0180,p0181,p0182,p0184,p0185,p0187,p0188,p0189,p0190,p0191,p0192,p0194,p0195,p0196,p0197,p0198,p0200,p0201,p0203,p0204,p0205,p0206,p0207,p0208,p0209,p0210,p0211,p0212,p0213,p0214,p0215,p0217,p0218,p0219,p0221,p0222,p0223,p0228
+major_structure: p0001_physologie_folder_label;p0002-p0037_Ayurveda_physiology_notes;p0038-p0165_European_pamphlet_and_Spanish_Succession_notes;p0168-p0232_metrology_numismatics_and_monetary_history;p0233-p0239_numismatic_print_and_labels;p0240-p0254_learned_letters_and_Grotius_documentary_complex
+verified_machine_pathologies: p0026_hallucinated_repetition;p0029_char_run_cleanup;p0032_massive_repeat_run_removed;p0036_semantic_hallucination;p0065_duplicate_table_generation;p0100_Tibetan_like_script_hallucination;p0140_duplicate_table_generation;p0148_char_run_removed;p0168_massive_repeat_run_removed;p0191_generated_number_sequence_overexpansion;p0195_Cyrillic_like_hallucination;p0197_generated_number_sequence_overexpansion;p0203_semantic_hallucination_cybersecurity;p0205_repeat_run_cleanup;p0210_duplicate_table_generation;p0211_char_run_plus_semantic_hallucination;p0212_severe_under_capture_char_run;p0215_Arabic_like_script_hallucination;p0222_paragraph_repeat_removed;p0228_severe_under_capture_char_run
+canonical_manifest: review/chunk_026/full_visual_audit_manifest_v1.tsv
+empty_audit: review/chunk_026/empty_ocr_visual_review_v1.tsv
+layout_note: review/chunk_026/composite_page_structure_v1.tsv
+core_theme_hits: review/chunk_026/core_theme_hits_v1.md
+review_summary: review/chunk_026/review_summary_v1.md
+priority_next: optional close transcription of 75 high-noise pages and 5 recovered false-empty pages before exact quotation; otherwise chunk 026 may be treated as closed for retrieval-grade review
