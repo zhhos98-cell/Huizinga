@@ -68,3 +68,26 @@ Detailed notes: `review/chunk_026/core_theme_hits_v1.md`.
 - `chunk_027:p0033`: **“primitiefs en gekunstelds”** occurs in a discussion of atomism/mechanistic natural philosophy. Immediate context is history/philosophy of natural science, not anthropology; retain the contextual restriction.
 
 Detailed notes: `review/chunk_027/core_theme_hits_v1.md`.
+
+## Chunk 028
+
+### Tier 1 — Renaissance conceptual vocabulary
+
+- `chunk_028:p0183`: mounted packet headed by an envelope marked **“Renaissance.”** One slip begins **“Met dien primitief begrip der Renaissance…”** and another clearly reads **“Contrast Erasmus & Machiavelli.”** This is direct first-order evidence for Huizinga's working conceptual vocabulary around the Renaissance. The word *primitief* modifies a *begrip der Renaissance* here and must not be detached into an anthropology claim.
+
+### Tier 1 — dated 1830/1848 political-history teaching/working sequence
+
+- `chunk_028:p0198–p0212`: loose cards and postcard backs on nineteenth-century political transformation. `p0208` is visibly dated **24.IX.30** and **1.X.30** and preserves the anchor **“1848 als klassenstrijd”**; subsequent pages continue through Cavaignac, Marx, constitutional questions, Italian/German national movements and revolutionary chronology. Useful for reconstructing category-building around revolution, class conflict, nationalism and constitutionalism.
+
+### Tier 2 — Rockefeller documentary context
+
+- `chunk_028:p0154–p0188`: nine exact visual occurrences of **The Laura Spelman Rockefeller Memorial / 61 Broadway / New York** at `p0154`, `p0169`, `p0172`, `p0174`, `p0176`, `p0179`, `p0182`, `p0185`, `p0188`. Three are complete baseline OCR false negatives. Treat as stationery occurrences only, not evidence of sender, funding or institutional agency without body-text/sequence confirmation.
+
+### Negative controls / OCR hallucination
+
+- `chunk_028:p0218`: OCR invents **“Tenth & Fourth Annual Report of the Bureau of Ethnology, 1888/89”** on a mounted handwritten board; the scan does not support this citation. It is not an anthropology/ethnology hit.
+- `chunk_028:p0079`: **“2024 World Economic Forum”** is a clear modern semantic intrusion.
+- `chunk_028:p0232`: a long **Quizlet** paragraph is machine hallucination on a mounted archival board.
+- No secure direct Malinowski/anthropology/ethnology hit was found in chunk 028.
+
+Detailed notes: `review/chunk_028/core_theme_hits_v1.md`.
