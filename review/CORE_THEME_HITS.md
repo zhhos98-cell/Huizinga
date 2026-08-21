@@ -91,3 +91,37 @@ Detailed notes: `review/chunk_027/core_theme_hits_v1.md`.
 - No secure direct Malinowski/anthropology/ethnology hit was found in chunk 028.
 
 Detailed notes: `review/chunk_028/core_theme_hits_v1.md`.
+
+## Chunk 030
+
+### Tier 1 — conceptual vocabulary: Renaissance
+
+- `chunk_030:p0041`: mounted working board with a clearly visible note whose OCR preserves **“begrip Renaissance?”**. The page is high-noise and reading-order-sensitive, but the conceptual question itself is a secure first-order anchor.
+- `chunk_030:p0120`: composite board plus dense manuscript page. OCR preserves **“Scholastie … qua Renai…”**, consistent with a scholasticism-to-Renaissance transition; exact wording still requires close scan reading.
+
+### Tier 1 — conceptual vocabulary: Revolution
+
+- `chunk_030:p0136–p0146`: coherent packet explicitly organized around **Revolution**. The packet-level organization is visible on the scans; `p0143–p0146` move into longer conceptual-historical notes on the term and political change. This is stronger than scattered lexical OCR hits.
+- `chunk_030:p0180`: mounted slips include a visible/OCR-supported **Proudhon** reference alongside revolutionary/social vocabulary. Use as a retrieval anchor, not a verbatim transcription.
+
+### Tier 1 — Burke and British political thought working complex
+
+- `chunk_030:p0068–p0122`: long mounted/composite sequence around Edmund Burke and eighteenth-century British political thought. OCR/visual anchors include *Speech on American Taxation*, *A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful*, *Appeal from the New to the Old Whigs*, and *Letters on a Regicide Peace*. Physical slip order must be reconstructed from the boards.
+- `chunk_030:p0123–p0133` and `p0196–p0223`: continuation into British radical/reform politics and *Parliamentary Debates*, with Burdett, Cobbett, Cochrane, Major Cartwright, Manchester/Peterloo-era agitation, parliamentary reform, Habeas Corpus suspension and 1819–1820 chronology.
+
+### Tier 2 — Meinecke / Staatsräson bibliographical context
+
+- `chunk_030:p0060–p0061`: printed orange bibliographical/review material tied to Friedrich Meinecke; OCR at `p0060` identifies **Die Idee der Staatsräson in der neueren Geschichte**. Documentary/bibliographical occurrence only, not by itself a Huizinga authorial statement.
+
+### Tier 2 — Rockefeller documentary context
+
+- Four exact visual occurrences of **The Laura Spelman Rockefeller Memorial / 61 Broadway / New York**: `p0092`, `p0096`, `p0183`, `p0186`. `p0096` and `p0183` are complete baseline OCR misses. Treat as stationery occurrences only, not evidence of sender, funding or institutional agency without body-text/sequence confirmation.
+
+### Negative controls / OCR hallucination
+
+- No secure direct **Malinowski**, **anthropology**, or **ethnology** hit was found in chunk 030.
+- `chunk_030:p0236` contains OCR vocabulary resembling **primitieit/primitief**, but the visible sequence is medieval Zeeland/Flanders ecclesiastical and settlement history; it should not be promoted into an anthropology claim.
+- Modern 2020/URL material on `p0019`, test-like English/Thai output on `p0137`, modern web/HR prose on `p0161` and `p0219`, and the 2022 intrusion on `p0190` are machine hallucinations, not research hits.
+- No secure first-order play/game-theory hit was visually established despite incidental OCR strings resembling *spel/play*.
+
+Detailed notes: `review/chunk_030/core_theme_hits_v1.md`.
