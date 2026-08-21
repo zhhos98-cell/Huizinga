@@ -1,0 +1,91 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_015:p0001	0001	60	short-text	short Laura Spelman Rockefeller Memorial letterhead; baseline captures visible text
+chunk_015:p0002	0002	536	usable-with-noise	
+chunk_015:p0003	0003	301	high-noise	dense mounted-slip board; baseline captures only a small fraction / unstable mixed-script reading
+chunk_015:p0004	0004	0	false-empty	baseline empty; mounted board with several substantive handwritten slips visible
+chunk_015:p0005	0005	0	false-empty	baseline empty; printed Laura Spelman Rockefeller Memorial / 61 Broadway / New York letterhead visible
+chunk_015:p0006	0006	550	usable-with-noise	
+chunk_015:p0007	0007	538	usable-with-noise	
+chunk_015:p0008	0008	61	short-text	short Laura Spelman Rockefeller Memorial letterhead; baseline captures visible text
+chunk_015:p0009	0009	1284	usable-with-noise	
+chunk_015:p0010	0010	1021	usable-with-noise	
+chunk_015:p0011	0011	310	high-noise	mounted-slip board; baseline severely under-captures visible material
+chunk_015:p0012	0012	61	short-text	short Laura Spelman Rockefeller Memorial letterhead; baseline captures visible text
+chunk_015:p0013	0013	647	usable-with-noise	
+chunk_015:p0014	0014	1181	usable-with-noise	
+chunk_015:p0015	0015	1103	usable-with-noise	
+chunk_015:p0016	0016	252	high-noise	dense mounted-slip board; baseline under-captures visible material
+chunk_015:p0017	0017	313	high-noise	dense mounted-slip board; baseline under-captures visible material
+chunk_015:p0018	0018	1368	usable-with-noise	
+chunk_015:p0019	0019	1017	usable-with-noise	
+chunk_015:p0020	0020	308	usable-with-noise	
+chunk_015:p0021	0021	0	false-empty	baseline empty; printed Laura Spelman Rockefeller Memorial / 61 Broadway / New York letterhead visible
+chunk_015:p0022	0022	575	usable-with-noise	
+chunk_015:p0023	0023	313	high-noise	dense mounted-slip board; mixed-script OCR unreliable
+chunk_015:p0024	0024	1272	usable-with-noise	
+chunk_015:p0025	0025	1151	usable-with-noise	
+chunk_015:p0026	0026	589	usable-with-noise	
+chunk_015:p0027	0027	572	usable-with-noise	
+chunk_015:p0028	0028	1344	usable-with-noise	
+chunk_015:p0029	0029	3183	usable-with-noise	
+chunk_015:p0030	0030	1744	usable	printed R. Oldenbourg catalogue / Das heilige Reich; publisher material substantially legible
+chunk_015:p0031	0031	474	usable-with-noise	
+chunk_015:p0032	0032	528	usable-with-noise	
+chunk_015:p0033	0033	1484	usable-with-noise	
+chunk_015:p0034	0034	1843	usable-with-noise	
+chunk_015:p0035	0035	3	high-noise	mounted-slip board; baseline nearly empty despite several visible slips
+chunk_015:p0036	0036	279	high-noise	mounted-slip board; severe under-capture
+chunk_015:p0037	0037	537	usable-with-noise	
+chunk_015:p0038	0038	0	blank	graph-paper/backing sheets with no substantive readable text
+chunk_015:p0039	0039	558	usable	printed Duns Scotus advertisement plus mounted notes; printed portion substantially legible
+chunk_015:p0040	0040	531	usable-with-noise	
+chunk_015:p0041	0041	335	high-noise	dense mounted-slip board; baseline under-captures visible material
+chunk_015:p0042	0042	2	high-noise	mounted board with many slips; baseline only “2.”
+chunk_015:p0043	0043	0	false-empty	baseline empty; mounted board with substantive handwritten slips visible
+chunk_015:p0044	0044	42	high-noise	mounted board; baseline reduced to a few nonsensical tokens
+chunk_015:p0045	0045	546	usable-with-noise	
+chunk_015:p0046	0046	104	high-noise	mounted board; severe under-capture
+chunk_015:p0047	0047	1432	usable-with-noise	
+chunk_015:p0048	0048	338	high-noise	two-board mounted sequence; baseline substantially under-captures visible text
+chunk_015:p0049	0049	1933	usable-with-noise	
+chunk_015:p0050	0050	1753	usable-with-noise	
+chunk_015:p0051	0051	0	blank	backs/blank sides of mounted sheets; no substantive visible text
+chunk_015:p0052	0052	1921	usable-with-noise	
+chunk_015:p0053	0053	1476	usable-with-noise	
+chunk_015:p0054	0054	1	high-noise	mounted-slip board; baseline only “5”
+chunk_015:p0055	0055	405	usable-with-noise	
+chunk_015:p0056	0056	533	usable-with-noise	
+chunk_015:p0057	0057	850	usable-with-noise	
+chunk_015:p0058	0058	721	usable-with-noise	
+chunk_015:p0059	0059	242	high-noise	mounted slips; baseline under-captures visible material
+chunk_015:p0060	0060	468	usable-with-noise	
+chunk_015:p0061	0061	0	false-empty	baseline empty; faint tabular/handwritten sheet visible beneath a blank strip
+chunk_015:p0062	0062	765	usable-with-noise	
+chunk_015:p0063	0063	887	usable-with-noise	
+chunk_015:p0064	0064	1183	usable-with-noise	
+chunk_015:p0065	0065	313	high-noise	mounted-slip board; baseline under-captures visible material
+chunk_015:p0066	0066	496	usable-with-noise	
+chunk_015:p0067	0067	713	usable-with-noise	
+chunk_015:p0068	0068	955	usable-with-noise	
+chunk_015:p0069	0069	23	high-noise	mounted-slip board; baseline reduced to a single short sentence
+chunk_015:p0070	0070	7442	usable	printed Le Courrier des Arts clipping, “Crépuscule de Viollet-le-Duc”; baseline highly legible
+chunk_015:p0071	0071	8510	usable	printed/dense clipping material; baseline long but coherent and retrieval-usable
+chunk_015:p0072	0072	13149	usable	printed/dense clipping material; baseline long but coherent and retrieval-usable
+chunk_015:p0073	0073	10892	usable	printed/dense clipping material; baseline long but coherent and retrieval-usable
+chunk_015:p0074	0074	11337	usable	printed/dense clipping material; baseline long but coherent and retrieval-usable
+chunk_015:p0075	0075	7165	usable	printed review/article plus Editions Béatrice advertisement; baseline highly legible
+chunk_015:p0076	0076	5156	usable	printed Lagarde prospectus/table of contents; baseline highly legible
+chunk_015:p0077	0077	1257	usable	printed Editions Béatrice / Svets & Zeitlinger bookseller-periodical solicitation; baseline highly legible
+chunk_015:p0078	0078	870	usable	printed Lagarde order/subscription form aimed at professors/librarians/study circles; baseline substantially legible
+chunk_015:p0079	0079	1374	usable	printed Oxford University Press Simon de Montfort advertisement; plates/collotype facsimile and archival-source framing legible
+chunk_015:p0080	0080	2897	usable	printed specimen/review material; baseline substantially legible
+chunk_015:p0081	0081	5124	usable	Oxford Books catalogue plus Editions Béatrice review material; visual-production specifications and publisher reception legible
+chunk_015:p0082	0082	2316	usable	printed review packet for Lagarde; binding/printing/presentation comments legible
+chunk_015:p0083	0083	458	high-noise	full handwritten page; baseline underwent pathological repeat removal (x678) and remains unreliable
+chunk_015:p0084	0084	0	blank	small blank sheet; no substantive visible text
+chunk_015:p0085	0085	1044	usable-with-noise	
+chunk_015:p0086	0086	193	high-noise	full handwritten page; baseline severely under-captures visible text
+chunk_015:p0087	0087	737	usable-with-noise	
+chunk_015:p0088	0088	92	short-text	short torn manuscript note; baseline captures a few visible lines
+chunk_015:p0089	0089	99	short-text	short manuscript/bibliographical note; baseline captures visible short text
+chunk_015:p0090	0090	0	blank	blank torn sheet; no substantive visible text
