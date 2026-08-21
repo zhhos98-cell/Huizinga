@@ -9,9 +9,11 @@ classes: usable-with-noise=112; high-noise=61; false-empty=4; short-text=2; blan
 baseline_empty_pages: 11
 false_empty_recoveries: p0017,p0096,p0110,p0174
 verified_corrections: p0040,p0042,p0052,p0062,p0063,p0067,p0096,p0110,p0130,p0131,p0132,p0165,p0172,p0173,p0174,p0176
-close_reading_refinements: p0052_Beteekenisleer_method;p0062_Grimm_quote;p0067_Yavana_note;p0130_p0131_laughter_notes;p0132_Kern_outline;p0165_Zarathustra_note;p0172_bibliography;p0173_Philippines_note
+close_reading_refinements: p0052_Beteekenisleer_method;p0062_Grimm_quote;p0067_Yavana_note;p0111-p0129_mounted_slip_visual_separation;p0130_p0131_laughter_notes;p0132_Kern_outline;p0165_Zarathustra_note;p0172_bibliography;p0173_Philippines_note
+mounted_slip_scan_pass: p0111-p0129 COMPLETE; support/research layers separated page-by-page; diplomatic transcription deferred where necessary
 source_spelling_policy: PRESERVE_SCAN_FORMS_BETEEKENISLEER_VIDUSAKA_SAHITYADARPANA
-new_high_noise_recheck: p0052,p0067,p0130,p0131
+new_high_noise_recheck: p0052,p0067,p0111-p0129,p0130,p0131
 kern_genetic_collation_anchors: p0137<->p0187;p0155<->p0185;p0164<->p0185
 documentary_packets: continuation_Europ_pol_gesch_rondom_1700; Licht_en_geluid_Beteekenisleer; Vidusaka_Sanskrit_drama; Kern_paginated_working_manuscript_1-64; Kern_supplementary_notes; printed_Hendrik_Kern_1899
 cross_chunk_note: chunk_022 Europ_pol_gesch_rondom_1700 continues into chunk_023:p0002-p0039
+next_chunk: 024
