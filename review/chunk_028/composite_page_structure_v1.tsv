@@ -1,0 +1,44 @@
+span	layout	note
+p0001	cover/folder	Blank green cover; baseline OCR empty.
+p0002-p0010	loose handwritten/source-note sheets	Late-medieval England/Burgundy/Low Countries source work with some humanist/religious material; simple page order, but handwriting OCR is uneven and p0007-p0010 are especially distorted.
+p0011-p0012	composite/mounted layouts	Loose sheet plus mounted slips; reading order is physical-layout dependent and p0012 is severely under-captured.
+p0013	short official card	Printed DIENST / Koninklijke Akademie van Wetenschappen service card; minimal text.
+p0014-p0024	loose handwritten/source-note sheets	Continuation of late-medieval England/Burgundy/Low Countries notes; simple layout, OCR generally retrieval-usable with noise.
+p0025-p0026	mounted slip boards	Multiple archival/bibliographical slips; reading-order risk.
+p0027	cover/folder	Blank green cover; baseline OCR empty.
+p0028-p0034	loose handwritten/source-note sheets	Continuation of late-medieval source notes around Holland, Zeeland, Burgundy and England.
+p0035-p0036	composite/mounted layouts	Dense multi-slip boards; reading-order collapse likely.
+p0037	cover/folder	Blank green cover; baseline OCR empty.
+p0038-p0043	loose handwritten/source-note sheets	Further late-medieval source extracts; simple layout.
+p0044-p0053	mounted slip boards	Transition into a long mounted-slip working sequence; OCR order must not be treated as physical order.
+p0054	blank separator	Blank card/sheet.
+p0055-p0080	mounted intellectual-history boards	Dense bibliographical and conceptual slips around Renaissance/humanist/religious and moral-culture material; numerous OCR hallucinations and several complete false-empty pages.
+p0081	folder/label	Handwritten folder label reads 'Godsdienst verslag'; baseline OCR empty.
+p0082	loose handwritten page with envelope	Short transition item; simple physical order but handwriting OCR remains noisy.
+p0083-p0153	mounted 'Godsdienst'/Renaissance working complex	Long mounted-slip sequence with religious, classical, Erasmus/civilitas and related intellectual-history references; dominant failure mode is reading-order collapse plus lexical/semantic hallucination.
+p0154	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial / 61 Broadway / New York letterhead.
+p0155-p0168	mounted intellectual-history boards	Continuation of the same mounted working complex; several pages contain machine-generated modern intrusions or character runs.
+p0169	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial letterhead; baseline OCR empty.
+p0170-p0171	mounted boards	Sparse-to-dense slips; high OCR distortion.
+p0172	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial letterhead.
+p0173	archival envelope label	Faint handwritten envelope label; baseline OCR empty and exact reading remains insecure.
+p0174	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial letterhead; baseline OCR empty.
+p0175	short handwritten fragment	Very short text; no continuous argument recoverable from OCR.
+p0176	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial letterhead.
+p0177-p0181	mounted boards and stationery separators	p0177 is a substantive false-empty board; p0179 is Rockefeller stationery; the remaining boards are sparse and reading-order sensitive.
+p0182	Rockefeller stationery	Printed Laura Spelman Rockefeller Memorial letterhead; baseline OCR empty.
+p0183-p0196	mounted Renaissance/classical-religious notes	Sparse mounted slips, including the p0183 'Renaissance' packet and Erasmus/Machiavelli contrast; p0185 and p0188 are Rockefeller stationery.
+p0197	short printed card	Only '1463' is visibly present; baseline OCR empty.
+p0198-p0212	loose dated political-history notes/postcards	Chronological teaching/working notes around 1830/1848, revolution, constitutionalism, national movements and Marx; simple order and more retrieval-usable than surrounding boards, though OCR remains noisy.
+p0213	minimal short card	Tiny card with only minimal marks/short archival text; baseline OCR empty.
+p0214	blank separator	No substantive text.
+p0215-p0219	composite/mounted political-history boards	Return to multi-item layouts; p0216 and p0218 show strong semantic over-generation.
+p0220-p0223	loose handwritten notes	Political/bibliographical continuation; simple page order, OCR usable with noise.
+p0224-p0225	blank separators	No substantive text.
+p0226-p0227	mounted boards	Political/bibliographical slips; reading-order risk.
+p0228	blank separator	No substantive text.
+p0229-p0230	mounted boards	p0230 is a complete OCR false negative with several substantive slips.
+p0231	blank separator	No substantive text.
+p0232-p0233	mounted boards	Severe OCR failure: p0232 contains a modern Quizlet hallucination and p0233 captures only one character despite a populated board.
+p0234	blank separator	No substantive text.
+p0235-p0244	dense mounted/composite boards	Political history of 1848 and related bibliography, especially German/Italian/French developments; heavy reading-order risk and several suspiciously long or semantically intrusive OCR outputs.
