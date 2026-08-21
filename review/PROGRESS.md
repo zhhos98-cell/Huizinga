@@ -177,6 +177,25 @@ Updated: 2026-08-21
 
 **Chunk 012 retrieval-grade visual audit: COMPLETE (161/161).**
 
+## Chunk 013
+
+- Source span: `chunk_013:p0001`–`chunk_013:p0215` (215 scan pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–160, 161–200, 201–215; page-count check `40 + 40 + 40 + 40 + 40 + 15 = 215`.
+- **Full-page visual audit: 215/215 complete.** All pages were checked against the clean PaddleOCR v3 baseline, with baseline-empty, mounted-slip, extreme under-capture, and printed visual/bibliographical material rechecked at higher resolution.
+- Page classes: **4 usable; 162 usable-with-noise; 22 high-noise; 9 false-empty OCR recoveries; 2 verified short-text pages; 1 minimal/non-substantive page; 15 genuinely blank/no-substantive-text pages.**
+- Baseline empty OCR pages: 24. Visual result: **15 blank and 9 false-empty** (`p0067`, `p0074`, `p0078`, `p0079`, `p0082`, `p0141`, `p0142`, `p0166`, `p0214`).
+- High-noise queue: `p0001`, `p0004`, `p0006`, `p0010`, `p0024`, `p0063`, `p0066`, `p0068`, `p0069`, `p0070`, `p0084`, `p0086`, `p0088`, `p0097`, `p0118`, `p0119`, `p0122`, `p0126`, `p0127`, `p0131`, `p0134`, `p0139`.
+- **Core-theme hit:** `p0141–p0148` moves from mounted Reformation/Luther notes into publisher-produced visual/bibliographical material: *Museum der Weltgeschichte* with text illustrations/plates (`p0143`), a Martin Luther portrait after Lucas Cranach's 1521 engraving (`p0144`), Grisar material with plates (`p0145`), and *Luthers Kampfbilder* with explicit Abbildungen/Bilder/Tafeln (`p0146`).
+- **Core-theme hit:** the `XVIII e eeuw` sequence (`p0167–p0211`) contains first-order vocabulary for libraries/cabinets/galleries/museum/art trade, print reproduction, publicity, and diffusion. `p0207` treats `Prentkunst` as illustrating/decorating/reproducing; `p0209` explicitly shifts from product to `diffusie`.
+- `p0142` is a complete OCR false negative despite the visible anchor **“Ridderspelen als beleving der Feodaltijd.”**
+- No direct Malinowski/anthropology/ethnology hit was found in chunk 013; `primitief` at `p0199` is a chemistry/history-of-science usage.
+- Files: `review/chunk_013/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `core_theme_hits_v1.md`, `review_summary_v1.md`, `status.txt`, `README.md`.
+- Cross-chunk core-theme tracker: `review/CORE_THEME_HITS.md`.
+
+### Status
+
+**Chunk 013 retrieval-grade visual audit: COMPLETE (215/215).**
+
 ## Cross-chunk institutional hits
 
 - Verified Rockefeller stationery now includes occurrences in reviewed chunks 001, 003, 005, 007, and 008. Newly verified complete OCR false negatives are `chunk_005:p0063` and `chunk_008:p0001`; `chunk_005:p0059` also visibly carries the same letterhead and was captured by baseline OCR.
