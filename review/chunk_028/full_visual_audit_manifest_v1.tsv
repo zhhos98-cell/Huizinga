@@ -1,0 +1,245 @@
+page_id	chars	class	packet	flags
+p0001	0	blank-no-substantive	A1	baseline_empty_verified_blank
+p0002	412	usable-with-noise	A1	
+p0003	509	usable-with-noise	A1	
+p0004	376	usable-with-noise	A1	
+p0005	505	usable-with-noise	A1	
+p0006	483	usable-with-noise	A1	
+p0007	917	high-noise	A1	handwritten_ocr_distortion
+p0008	1727	high-noise	A1	handwritten_ocr_distortion
+p0009	772	high-noise	A1	handwritten_ocr_distortion
+p0010	1907	high-noise	A1	handwritten_ocr_distortion
+p0011	1060	high-noise	A1	mounted_slip_layout;reading_order_risk
+p0012	49	high-noise	A1	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0013	82	short-text	A1	short_official_service_card
+p0014	617	usable-with-noise	A1	
+p0015	853	usable-with-noise	A1	
+p0016	271	usable-with-noise	A1	
+p0017	477	usable-with-noise	A1	
+p0018	529	usable-with-noise	A1	
+p0019	370	usable-with-noise	A1	
+p0020	312	usable-with-noise	A1	
+p0021	413	usable-with-noise	A1	
+p0022	554	usable-with-noise	A1	
+p0023	831	usable-with-noise	A1	
+p0024	372	usable-with-noise	A1	
+p0025	419	high-noise	A1	mounted_slip_layout;reading_order_risk
+p0026	262	high-noise	A1	mounted_slip_layout;reading_order_risk
+p0027	0	blank-no-substantive	A2	baseline_empty_verified_blank
+p0028	534	usable-with-noise	A2	
+p0029	300	usable-with-noise	A2	
+p0030	120	usable-with-noise	A2	
+p0031	582	usable-with-noise	A2	
+p0032	542	usable-with-noise	A2	
+p0033	686	usable-with-noise	A2	
+p0034	745	usable-with-noise	A2	
+p0035	1630	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0036	624	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0037	0	blank-no-substantive	A2	baseline_empty_verified_blank
+p0038	417	usable-with-noise	A2	
+p0039	579	usable-with-noise	A2	
+p0040	468	usable-with-noise	A2	
+p0041	689	usable-with-noise	A2	
+p0042	430	usable-with-noise	A2	
+p0043	447	usable-with-noise	A2	
+p0044	526	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0045	244	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0046	0	blank-no-substantive	A2	baseline_empty_verified_blank
+p0047	1097	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0048	1747	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0049	1505	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0050	2130	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0051	1525	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0052	1641	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0053	165	high-noise	A2	mounted_slip_layout;reading_order_risk
+p0054	0	blank-no-substantive	A2	baseline_empty_verified_blank
+p0055	0	false-empty-recovery	B1	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0056	171	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0057	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0058	900	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0059	1722	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0060	0	false-empty-recovery	B1	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0061	32	short-text	B1	huizinga_address_card
+p0062	639	high-noise	B1	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned;ocr_char_run_removed
+p0063	238	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0064	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0065	597	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0066	43	high-noise	B1	mounted_slip_layout;reading_order_risk;severe_under_capture;ocr_repetition_cleaned;ocr_char_run_removed
+p0067	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0068	196	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0069	153	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0070	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0071	862	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0072	1106	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0073	210	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0074	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0075	542	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0076	0	false-empty-recovery	B1	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0077	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0078	604	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0079	844	high-noise	B1	mounted_slip_layout;reading_order_risk;semantic_hallucination_modern_intrusion
+p0080	389	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0081	0	short-text	B2	baseline_empty_short_text;folder_label_godsdienst_verslag
+p0082	490	usable-with-noise	B2	
+p0083	392	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0084	550	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0085	177	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0086	337	high-noise	B2	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned;ocr_char_run_removed;generated_duplicate_heading;semantic_hallucination
+p0087	0	false-empty-recovery	B2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0088	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0089	727	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0090	597	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0091	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0092	337	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0093	855	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0094	4	high-noise	B2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0095	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0096	495	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0097	244	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0098	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0099	872	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0100	402	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0101	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0102	705	high-noise	B2	mounted_slip_layout;reading_order_risk;semantic_hallucination_test_phrase
+p0103	540	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0104	371	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0105	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0106	692	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0107	15	high-noise	B2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0108	253	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0109	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0110	50	high-noise	B2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0111	143	high-noise	B2	mounted_slip_layout;reading_order_risk;ocr_repeat_run_cleaned_v3;severe_under_capture
+p0112	224	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0113	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0114	0	false-empty-recovery	B2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0115	290	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0116	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0117	366	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0118	635	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0119	61	high-noise	B2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0120	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0121	532	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0122	92	high-noise	B2	mounted_slip_layout;reading_order_risk;severe_under_capture;ocr_repeat_run_cleaned_v3;massive_paragraph_repeat_removed
+p0123	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0124	296	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0125	660	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0126	823	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0127	600	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0128	4096	high-noise	B2	mounted_slip_layout;reading_order_risk;suspiciously_long_for_mounted_board
+p0129	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0130	644	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0131	587	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0132	706	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0133	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0134	0	false-empty-recovery	B2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0135	378	high-noise	B2	mounted_slip_layout;reading_order_risk;semantic_hallucination_modern_intrusion
+p0136	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0137	0	false-empty-recovery	B2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0138	94	high-noise	B2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0139	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0140	0	false-empty-recovery	B2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0141	0	false-empty-recovery	B2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0142	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0143	510	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0144	1601	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0145	1091	high-noise	B2	mounted_slip_layout;reading_order_risk;semantic_hallucination_modern_intrusion
+p0146	416	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0147	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0148	859	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0149	936	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0150	306	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0151	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0152	1080	high-noise	B2	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned;ocr_char_run_removed
+p0153	571	high-noise	B2	mounted_slip_layout;reading_order_risk
+p0154	61	short-text	B3	rockefeller_stationery
+p0155	429	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0156	504	high-noise	B3	mounted_slip_layout;reading_order_risk;ocr_repeat_run_cleaned_v3
+p0157	1073	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0158	904	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0159	1066	high-noise	B3	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned;ocr_char_run_removed
+p0160	1688	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0161	1149	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0162	742	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0163	354	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0164	494	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0165	69	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0166	574	high-noise	B3	mounted_slip_layout;reading_order_risk;semantic_hallucination_modern_intrusion
+p0167	88	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0168	340	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0169	0	short-text	B3	baseline_empty_short_text;rockefeller_stationery
+p0170	1104	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0171	679	high-noise	B3	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned;ocr_char_run_removed;semantic_hallucination_modern_intrusion
+p0172	61	short-text	B3	rockefeller_stationery
+p0173	0	short-text	B3	baseline_empty_short_text;faint_archival_envelope_label
+p0174	0	short-text	B3	baseline_empty_short_text;rockefeller_stationery
+p0175	40	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0176	61	short-text	B3	rockefeller_stationery
+p0177	0	false-empty-recovery	B3	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0178	42	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0179	61	short-text	B3	rockefeller_stationery
+p0180	410	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0181	310	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0182	0	short-text	B3	baseline_empty_short_text;rockefeller_stationery
+p0183	163	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0184	39	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0185	61	short-text	B3	rockefeller_stationery
+p0186	340	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0187	216	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0188	61	short-text	B3	rockefeller_stationery
+p0189	126	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0190	91	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0191	164	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0192	47	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0193	320	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0194	308	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0195	213	high-noise	B3	mounted_slip_layout;reading_order_risk
+p0196	61	high-noise	B3	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0197	0	short-text	B3	baseline_empty_short_text;minimal_printed_number_1463
+p0198	827	usable-with-noise	C1	
+p0199	646	usable-with-noise	C1	
+p0200	827	usable-with-noise	C1	
+p0201	904	usable-with-noise	C1	
+p0202	751	usable-with-noise	C1	
+p0203	762	usable-with-noise	C1	
+p0204	647	usable-with-noise	C1	
+p0205	724	usable-with-noise	C1	
+p0206	534	usable-with-noise	C1	
+p0207	501	usable-with-noise	C1	
+p0208	339	usable-with-noise	C1	
+p0209	707	usable-with-noise	C1	
+p0210	696	usable-with-noise	C1	
+p0211	498	usable-with-noise	C1	
+p0212	634	usable-with-noise	C1	
+p0213	0	short-text	C1	baseline_empty_short_text;minimal_card_marks
+p0214	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0215	1143	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0216	6372	high-noise	C2	mounted_slip_layout;reading_order_risk;suspiciously_long_for_mounted_board;semantic_hallucination_overgeneration
+p0217	1480	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0218	887	high-noise	C2	mounted_slip_layout;reading_order_risk;semantic_hallucination_repeated_placeholder_text
+p0219	1021	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0220	432	usable-with-noise	C2	
+p0221	942	usable-with-noise	C2	
+p0222	250	usable-with-noise	C2	
+p0223	449	usable-with-noise	C2	
+p0224	0	blank-no-substantive	C2	baseline_empty_verified_blank
+p0225	0	blank-no-substantive	C2	baseline_empty_verified_blank
+p0226	657	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0227	54	high-noise	C2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0228	0	blank-no-substantive	C2	baseline_empty_verified_blank
+p0229	351	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0230	0	false-empty-recovery	C2	baseline_empty_false_negative;mounted_slip_layout;reading_order_risk
+p0231	0	blank-no-substantive	C2	baseline_empty_verified_blank
+p0232	958	high-noise	C2	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned;semantic_hallucination_modern_intrusion
+p0233	1	high-noise	C2	mounted_slip_layout;reading_order_risk;severe_under_capture
+p0234	0	blank-no-substantive	C2	baseline_empty_verified_blank
+p0235	1618	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0236	1339	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0237	282	high-noise	C2	mounted_slip_layout;reading_order_risk;ocr_repeat_run_cleaned_v3;massive_paragraph_repeat_removed
+p0238	1582	high-noise	C2	mounted_slip_layout;reading_order_risk;ocr_repetition_cleaned
+p0239	2969	high-noise	C2	mounted_slip_layout;reading_order_risk;semantic_hallucination_modern_intrusion
+p0240	3842	high-noise	C2	mounted_slip_layout;reading_order_risk;suspiciously_long_for_mounted_board;semantic_hallucination_overgeneration
+p0241	1149	high-noise	C2	mounted_slip_layout;reading_order_risk
+p0242	3085	high-noise	C2	mounted_slip_layout;reading_order_risk;suspiciously_long_for_mounted_board
+p0243	3736	high-noise	C2	mounted_slip_layout;reading_order_risk;suspiciously_long_for_mounted_board
+p0244	1051	high-noise	C2	mounted_slip_layout;reading_order_risk
