@@ -1,0 +1,168 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_019:p0001	0001	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0002	0002	92	high-noise	mounted board with several slips; baseline captures only a small fraction
+chunk_019:p0003	0003	702	usable-with-noise	
+chunk_019:p0004	0004	648	usable-with-noise	
+chunk_019:p0005	0005	196	high-noise	mounted board with several notes; baseline materially under-captures visible text
+chunk_019:p0006	0006	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0007	0007	311	usable-with-noise	
+chunk_019:p0008	0008	816	usable-with-noise	
+chunk_019:p0009	0009	89	high-noise	mounted notes/strip layout; baseline captures only a small fraction
+chunk_019:p0010	0010	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0011	0011	560	usable-with-noise	
+chunk_019:p0012	0012	1590	usable-with-noise	
+chunk_019:p0013	0013	6559	high-noise	compound mounted/ruled layout; OCR grossly over-expands and hallucinates repeated/tabular content
+chunk_019:p0014	0014	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0015	0015	461	usable-with-noise	
+chunk_019:p0016	0016	286	high-noise	mounted strip sequence; baseline materially under-captures visible notes
+chunk_019:p0017	0017	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0018	0018	0	false-empty	baseline OCR empty; mounted board contains multiple substantive handwritten slips
+chunk_019:p0019	0019	1315	usable-with-noise	
+chunk_019:p0020	0020	1891	usable-with-noise	
+chunk_019:p0021	0021	0	false-empty	baseline OCR empty; mounted board(s) contain multiple substantive notes
+chunk_019:p0022	0022	333	usable-with-noise	
+chunk_019:p0023	0023	384	usable-with-noise	
+chunk_019:p0024	0024	772	high-noise	dense handwritten pages; OCR has strong multilingual/model drift and unreliable wording
+chunk_019:p0025	0025	436	usable-with-noise	
+chunk_019:p0026	0026	548	usable-with-noise	
+chunk_019:p0027	0027	1346	usable-with-noise	
+chunk_019:p0028	0028	1362	usable-with-noise	
+chunk_019:p0029	0029	953	usable-with-noise	
+chunk_019:p0030	0030	428	usable-with-noise	
+chunk_019:p0031	0031	2445	usable	
+chunk_019:p0032	0032	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0033	0033	538	high-noise	small handwritten/bibliographical sheet; OCR content is largely hallucinated/table-like
+chunk_019:p0034	0034	0	false-empty	baseline OCR empty; substantive handwritten note/sheet visible
+chunk_019:p0035	0035	5227	usable	
+chunk_019:p0036	0036	5805	usable-with-noise	
+chunk_019:p0037	0037	2422	usable	
+chunk_019:p0038	0038	4983	usable	
+chunk_019:p0039	0039	3557	usable	
+chunk_019:p0040	0040	5265	usable	
+chunk_019:p0041	0041	5096	usable	
+chunk_019:p0042	0042	5335	usable	
+chunk_019:p0043	0043	3760	usable	
+chunk_019:p0044	0044	1953	usable	
+chunk_019:p0045	0045	5261	usable	
+chunk_019:p0046	0046	5083	usable	
+chunk_019:p0047	0047	5238	usable	
+chunk_019:p0048	0048	3762	usable	
+chunk_019:p0049	0049	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0050	0050	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0051	0051	203	usable	
+chunk_019:p0052	0052	3007	usable	
+chunk_019:p0053	0053	3472	usable	
+chunk_019:p0054	0054	2108	usable	
+chunk_019:p0055	0055	819	usable-with-noise	
+chunk_019:p0056	0056	948	usable-with-noise	
+chunk_019:p0057	0057	176	high-noise	mounted strip sequence; baseline materially under-captures visible notes
+chunk_019:p0058	0058	410	usable-with-noise	
+chunk_019:p0059	0059	1106	usable-with-noise	
+chunk_019:p0060	0060	1036	usable-with-noise	
+chunk_019:p0061	0061	113	high-noise	small mounted handwritten note; OCR captures only a small fraction
+chunk_019:p0062	0062	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0063	0063	61	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0064	0064	0	false-empty	baseline OCR empty; mounted board contains numerous substantive slips
+chunk_019:p0065	0065	16656	high-noise	two dense mounted boards; OCR massively over-expands relative to visible material
+chunk_019:p0066	0066	1236	usable-with-noise	
+chunk_019:p0067	0067	662	high-noise	mounted-note material with substantial OCR drift; exact wording unreliable
+chunk_019:p0068	0068	774	high-noise	mounted-note material with substantial OCR drift; exact wording unreliable
+chunk_019:p0069	0069	399	usable-with-noise	
+chunk_019:p0070	0070	444	high-noise	mounted-note material; OCR includes clear hallucinated modern/place-language drift
+chunk_019:p0071	0071	357	high-noise	handwritten note; OCR shows multilingual/model drift and unreliable wording
+chunk_019:p0072	0072	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_019:p0073	0073	493	usable-with-noise	
+chunk_019:p0074	0074	629	usable-with-noise	
+chunk_019:p0075	0075	82	high-noise	mounted board with multiple slips; OCR captures only a tiny fraction
+chunk_019:p0076	0076	371	usable-with-noise	
+chunk_019:p0077	0077	250	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0078	0078	1003	usable-with-noise	
+chunk_019:p0079	0079	1145	usable-with-noise	
+chunk_019:p0080	0080	1146	usable-with-noise	
+chunk_019:p0081	0081	127	high-noise	full handwritten page; baseline captures only a small fraction
+chunk_019:p0082	0082	1095	usable-with-noise	
+chunk_019:p0083	0083	952	usable-with-noise	
+chunk_019:p0084	0084	1131	usable-with-noise	
+chunk_019:p0085	0085	1004	usable-with-noise	
+chunk_019:p0086	0086	668	usable-with-noise	
+chunk_019:p0087	0087	1646	usable-with-noise	
+chunk_019:p0088	0088	1560	usable-with-noise	
+chunk_019:p0089	0089	1663	usable-with-noise	
+chunk_019:p0090	0090	1030	usable-with-noise	
+chunk_019:p0091	0091	1226	usable-with-noise	
+chunk_019:p0092	0092	1046	usable-with-noise	
+chunk_019:p0093	0093	1087	usable-with-noise	
+chunk_019:p0094	0094	1115	usable-with-noise	
+chunk_019:p0095	0095	680	usable-with-noise	
+chunk_019:p0096	0096	1833	usable-with-noise	
+chunk_019:p0097	0097	2268	usable-with-noise	
+chunk_019:p0098	0098	1411	usable-with-noise	
+chunk_019:p0099	0099	1506	usable-with-noise	
+chunk_019:p0100	0100	1585	usable-with-noise	
+chunk_019:p0101	0101	1252	usable-with-noise	
+chunk_019:p0102	0102	1430	usable-with-noise	
+chunk_019:p0103	0103	1520	usable-with-noise	
+chunk_019:p0104	0104	1126	usable-with-noise	
+chunk_019:p0105	0105	1303	usable-with-noise	
+chunk_019:p0106	0106	1567	usable-with-noise	
+chunk_019:p0107	0107	1520	usable-with-noise	
+chunk_019:p0108	0108	1375	usable-with-noise	
+chunk_019:p0109	0109	1485	usable-with-noise	
+chunk_019:p0110	0110	330	high-noise	sparse/partial handwritten page; baseline wording is too fragmentary for quotation
+chunk_019:p0111	0111	1456	usable-with-noise	
+chunk_019:p0112	0112	1954	usable-with-noise	
+chunk_019:p0113	0113	732	usable-with-noise	
+chunk_019:p0114	0114	1605	usable-with-noise	
+chunk_019:p0115	0115	1380	usable-with-noise	
+chunk_019:p0116	0116	187	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0117	0117	1818	usable-with-noise	
+chunk_019:p0118	0118	1393	usable-with-noise	
+chunk_019:p0119	0119	867	usable-with-noise	
+chunk_019:p0120	0120	691	usable-with-noise	
+chunk_019:p0121	0121	0	false-empty	baseline OCR empty; mounted handwritten note visible on board
+chunk_019:p0122	0122	2141	usable-with-noise	
+chunk_019:p0123	0123	1467	usable-with-noise	
+chunk_019:p0124	0124	1462	usable-with-noise	
+chunk_019:p0125	0125	1456	usable-with-noise	
+chunk_019:p0126	0126	1652	usable-with-noise	
+chunk_019:p0127	0127	1971	usable-with-noise	
+chunk_019:p0128	0128	768	usable-with-noise	
+chunk_019:p0129	0129	3168	high-noise	handwritten/mounted page; OCR contains a long hallucinated year-series and cannot be quoted
+chunk_019:p0130	0130	1426	usable-with-noise	
+chunk_019:p0131	0131	1463	usable-with-noise	
+chunk_019:p0132	0132	1457	usable-with-noise	
+chunk_019:p0133	0133	1525	usable-with-noise	
+chunk_019:p0134	0134	265	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0135	0135	1614	usable-with-noise	
+chunk_019:p0136	0136	1612	usable-with-noise	
+chunk_019:p0137	0137	3	high-noise	mounted short slip visible; baseline has only three characters
+chunk_019:p0138	0138	1594	usable-with-noise	
+chunk_019:p0139	0139	1451	usable-with-noise	
+chunk_019:p0140	0140	1488	usable-with-noise	
+chunk_019:p0141	0141	1435	usable-with-noise	
+chunk_019:p0142	0142	263	usable-with-noise	
+chunk_019:p0143	0143	1893	high-noise	handwritten page; OCR begins with pathological lexical repetition/hallucination
+chunk_019:p0144	0144	1486	usable-with-noise	
+chunk_019:p0145	0145	1179	usable-with-noise	
+chunk_019:p0146	0146	1666	usable-with-noise	
+chunk_019:p0147	0147	1774	usable-with-noise	
+chunk_019:p0148	0148	1460	usable-with-noise	
+chunk_019:p0149	0149	1240	usable-with-noise	
+chunk_019:p0150	0150	1225	usable-with-noise	
+chunk_019:p0151	0151	2999	usable-with-noise	
+chunk_019:p0152	0152	249	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0153	0153	1621	usable-with-noise	
+chunk_019:p0154	0154	265	high-noise	mounted notes; baseline materially under-captures the visible content
+chunk_019:p0155	0155	247	high-noise	mounted-note board; baseline materially under-captures the visible content
+chunk_019:p0156	0156	123	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0157	0157	5861	high-noise	folder/narrow sheet layout; OCR hallucinates a very long Chinese book-list sequence
+chunk_019:p0158	0158	733	usable-with-noise	
+chunk_019:p0159	0159	899	usable-with-noise	
+chunk_019:p0160	0160	12	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0161	0161	673	usable-with-noise	
+chunk_019:p0162	0162	163	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0163	0163	180	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0164	0164	113	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
+chunk_019:p0165	0165	742	usable-with-noise	
+chunk_019:p0166	0166	625	usable-with-noise	
+chunk_019:p0167	0167	60	short-text	visually sparse page/card; short baseline text broadly commensurate with substantive content
