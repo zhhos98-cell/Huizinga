@@ -92,6 +92,35 @@ Detailed notes: `review/chunk_027/core_theme_hits_v1.md`.
 
 Detailed notes: `review/chunk_028/core_theme_hits_v1.md`.
 
+## Chunk 029
+
+### Tier 1 — Mazzini / 1848 political category-building
+
+- `chunk_029:p0002-p0061`: continuation of the 1830/1848/1852 political-history working complex. The boards repeatedly organize French and Italian revolutionary, constitutional and national material around Cavaignac, Tocqueville, Marx, Louis-Napoleon and related actors/categories.
+- `chunk_029:p0042`: the envelope is explicitly labelled **“Mazzini”**, giving a strong physical anchor for the surrounding Italian/national-movement packet.
+
+### Tier 1 — research infrastructure / Horace Walpole source acquisition
+
+- `chunk_029:p0208-p0212`: direct documentary packet showing Huizinga obtaining and organizing Horace Walpole material in November 1925. `p0208` and `p0210` preserve Koninklijke Bibliotheek request cards in Huizinga's name dated **12 Nov. 1925**, with visible titles including *Memoirs*, *Fugitive Pieces* and *Historic Doubts*; `p0211` is a Leiden University Library request for *The Castle of Otranto*, dated **13 November 1925**; `p0212` requests *Works. ed. Berry. 5 vol. 1790*, also dated **13 Nov. 1925**, and bears a **23 Nov. 1925** stamp. This is unusually direct evidence for the material workflow of requesting, receiving, excerpting and filing sources.
+
+### Tier 1 — Methodism / enthusiasm
+
+- `chunk_029:p0218`: envelope visibly labelled **“Methodisme”**. The mounted slips concern Wesley and enthusiasm and include a visible **“Wesley's Journal”** heading. This is a deliberately assembled conceptual/religious packet rather than a lexical coincidence.
+
+### Tier 1 — sentimentalism / affective culture
+
+- `chunk_029:p0222`: coherent mounted packet with repeated explicit **sentimentalism** vocabulary; the envelope carries a faint multi-line category label ending in **“Sentimentalismes”** and the slips include an `LS.2.436` sentimentalism entry plus eighteenth-century literary references. Strong first-order evidence for category-building around sentiment, moral psychology and eighteenth-century culture.
+
+### Negative controls / OCR hallucination
+
+- `chunk_029:p0187`: OCR generates **“Renaissance”**, but direct visual inspection shows an eighteenth-century British political board with Pitt material. It is a false lexical hit.
+- `chunk_029:p0178`: anthropology-like OCR occurs amid obvious modern/gibberish generation; the scan provides no secure anthropology or ethnology evidence.
+- `chunk_029:p0033`: the supposed 1978 Paris “International Conference on Art and Art Techniques” is machine hallucination on a historical mounted board.
+- `chunk_029:p0205`: the exact phrase **“The quick brown fox jumps over the lazy dog”** is machine intrusion.
+- No secure direct Malinowski/anthropology/ethnology hit and no Laura Spelman Rockefeller Memorial stationery occurrence were found in chunk 029.
+
+Detailed notes: `review/chunk_029/core_theme_hits_v1.md`.
+
 ## Chunk 030
 
 ### Tier 1 — conceptual vocabulary: Renaissance
