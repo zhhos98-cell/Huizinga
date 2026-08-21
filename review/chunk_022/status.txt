@@ -1,0 +1,12 @@
+chunk_022
+scope: p0001-p0250
+pages: 250/250
+audit: COMPLETE
+raw_ocr: PRESERVED_UNCHANGED
+review_layer: COMPLETE
+page_images_used_for: OCR_QC_LAYOUT_FALSE_EMPTY_TITLE_DATE_VERIFICATION_ONLY
+classes: usable-with-noise=206; high-noise=30; false-empty=3; short-text=1; blank/no-substantive=10
+baseline_empty_pages: 12
+false_empty_recoveries: p0014,p0019,p0166
+verified_corrections: p0038,p0166,p0243,p0247
+documentary_packets: 1937-38_Restoration; Historical_Association_printed_insert; Deutsches_Rijk_1648-1688_1924-25_partial_1934-35; Europ_pol_gesch_rondom_1700_1926-27_1934-35
