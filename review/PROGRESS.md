@@ -146,6 +146,22 @@ Updated: 2026-08-21
 
 **Chunk 010 retrieval-grade visual audit: COMPLETE (153/153).**
 
+## Chunk 011
+
+- Source span: `chunk_011:p0001`–`chunk_011:p0200` (200 scan pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–160, 161–200; page-count check `40 + 40 + 40 + 40 + 40 = 200`.
+- **Full-page visual audit: 200/200 complete.** All pages were checked against the clean PaddleOCR v3 baseline; empty-OCR, unusual-layout, and mixed-script cases were rechecked at higher resolution.
+- Page classes: **192 usable-with-noise; 3 high-noise; 3 verified short-text pages; 2 genuinely blank/no-substantive-text pages; 0 false-empty recoveries.**
+- Baseline empty OCR pages: `p0150`, `p0200`; both are visually blank/no substantive text.
+- High-noise queue: `p0061`, `p0147`, `p0166`. `p0061` is a severe mounted-slip under-capture; `p0147` and `p0166` contain repeated mixed-script hallucinations on dense handwritten pages.
+- Distinctive printed insertions: `p0074` is the illustrated title page of James I's *Workes*; `p0075` is a printed bookseller/catalogue page headed **“ENGLAND TO THE DEATH OF ELIZABETH”** paired with handwritten notes.
+- Verified short-text pages: `p0001`, `p0157` (**BRIEFKAART**), `p0162` (**“Eng. beschaving XVIII. 1925/26”**).
+- Files: `review/chunk_011/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`, `status.txt`, `README.md`.
+
+### Status
+
+**Chunk 011 retrieval-grade visual audit: COMPLETE (200/200).**
+
 ## Cross-chunk institutional hits
 
 - Verified Rockefeller stationery now includes occurrences in reviewed chunks 001, 003, 005, 007, and 008. Newly verified complete OCR false negatives are `chunk_005:p0063` and `chunk_008:p0001`; `chunk_005:p0059` also visibly carries the same letterhead and was captured by baseline OCR.
