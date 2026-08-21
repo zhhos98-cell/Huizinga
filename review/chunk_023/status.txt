@@ -4,10 +4,13 @@ pages: 187/187
 audit: COMPLETE
 raw_ocr: PRESERVED_UNCHANGED
 review_layer: COMPLETE
-page_images_used_for: OCR_QC_LAYOUT_FALSE_EMPTY_PACKET_BOUNDARY_TITLE_LABEL_VERIFICATION_ONLY
-classes: usable-with-noise=113; high-noise=60; false-empty=4; short-text=2; blank/no-substantive=8
+page_images_used_for: OCR_QC_LAYOUT_FALSE_EMPTY_PACKET_BOUNDARY_TITLE_LABEL_PAGINATION_VERIFICATION_ONLY
+classes: usable-with-noise=112; high-noise=61; false-empty=4; short-text=2; blank/no-substantive=8
 baseline_empty_pages: 11
 false_empty_recoveries: p0017,p0096,p0110,p0174
-verified_corrections: p0040,p0063,p0096,p0110,p0176
-documentary_packets: continuation_Europ_pol_gesch_rondom_1700; Licht_en_geluid_Betekenisleer; Vidusaka_Sanskrit_drama; Kern_paginated_working_manuscript_1-64; Kern_supplementary_notes; printed_Hendrik_Kern_1899
+verified_corrections: p0040,p0042,p0063,p0096,p0110,p0174,p0176
+source_spelling_policy: PRESERVE_SCAN_FORMS_BETEEKENISLEER_VIDUSAKA_SAHITYADARPANA
+new_high_noise_recheck: p0052
+kern_genetic_collation_anchors: p0137<->p0187;p0155<->p0185;p0164<->p0185
+documentary_packets: continuation_Europ_pol_gesch_rondom_1700; Licht_en_geluid_Beteekenisleer; Vidusaka_Sanskrit_drama; Kern_paginated_working_manuscript_1-64; Kern_supplementary_notes; printed_Hendrik_Kern_1899
 cross_chunk_note: chunk_022 Europ_pol_gesch_rondom_1700 continues into chunk_023:p0002-p0039
