@@ -39,3 +39,32 @@ Detailed notes: `review/chunk_013/core_theme_hits_v1.md`.
 - `chunk_026:p0029–p0033`: repeated **primitief/primitieve** vocabulary occurs inside an Indian-medicine/history-of-medicine analytical sequence. Retain it as a first-order vocabulary hit, but the immediate context does not support promotion into a claim about Huizinga's anthropology, Malinowski, or later cultural theory.
 
 Detailed notes: `review/chunk_026/core_theme_hits_v1.md`.
+
+## Chunk 027
+
+### Tier 1 — science as culture / world-picture around 1700
+
+- `chunk_027:p0030`: programme headed **“Wereldbeeld en wetenschap omtrent 1700.”** It explicitly frames the lecture series around **“de intrede van de natuurwetenschap als cultuurfactor in de na-middeleeuwsche beschaving.”** Huizinga is scheduled for *Cultuurhistorische inleiding*, *De aard van het denken*, *Het wereldbeeld omtrent 1700*, and *Terugblik en perspectieven*. A. Schierbeek's session is **“De verlengde blik. I. Ontwikkeling van de microscopie”**; the programme also covers astronomy, mathematics in natural research, atomism/continuity, vitalism/mechanism, classification, alchemy/chemistry and Boerhaave.
+- `chunk_027:p0032–p0034`: typed position-paper sequence on the historical presentation of seventeenth-century mathematics and natural science. It stresses the historical importance of mathematical/mechanistic explanation and surveys symbolic algebra, logarithms, analytic geometry, calculus, Simon Stevin, Cavalieri, mathematical physics, Galileo, Descartes, Huygens and Newton. Authorship is not securely established by these pages and should not be assigned without further evidence.
+
+### Tier 1 — scholarly communication / periodicals
+
+- `chunk_027:p0094–p0098`: coherent typed sequence on Denys de Sallo, Gallois, the *Journal des savants*, Bayle, the *Nouvelles de la République des Lettres*, Oldenburg's *Philosophical Transactions* and related periodicals. The notes explicitly connect journals, editors and correspondence networks; `p0095–p0096` treats journals as a **“trait d'union”** among savants. Strong first-order material for learned communication and circulation.
+
+### Tier 1 — editorial institutions / Grotius becomes operational
+
+- `chunk_027:p0001–p0026`: continuation of the chunk-026 Grotius statutes into working procedure. Editorial rules, annual reports, international-edition memoranda, *Auctores laudati* planning and named assignments show the project functioning in practice. `p0007` lists Huizinga on the 1917 board; `p0021` explicitly assigns authors to Huizinga.
+
+### Tier 2 — projects / improvement vocabulary
+
+- `chunk_027:p0055–p0058`: notes on Defoe, Swift, Fletcher of Saltoun and the historical vocabulary of projects/projectors. `p0057` preserves the useful anchors **“public advantage”** and **“project = prospectus, projector = promoter.”** OCR is noisy; use the scan for exact quotation.
+
+### Tier 2 — patria / nationalism working complex
+
+- `chunk_027:p0118–p0170`: long mounted-slip sequence on *patria*, patriotism, nationality/nationalism and related vocabulary. This is a genuine thematic cluster, but the OCR is unstable and physical reading order must be reconstructed from the boards before analytical quotation.
+
+### Negative control / contextual vocabulary
+
+- `chunk_027:p0033`: **“primitiefs en gekunstelds”** occurs in a discussion of atomism/mechanistic natural philosophy. Immediate context is history/philosophy of natural science, not anthropology; retain the contextual restriction.
+
+Detailed notes: `review/chunk_027/core_theme_hits_v1.md`.
