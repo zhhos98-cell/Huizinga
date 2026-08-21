@@ -1,0 +1,251 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_022:p0001	0001	879	usable-with-noise	
+chunk_022:p0002	0002	1798	usable-with-noise	
+chunk_022:p0003	0003	1479	usable-with-noise	
+chunk_022:p0004	0004	601	high-noise	name-heavy / roster-like sheet; proper-name OCR unstable; document function unverified; quotation unsafe without image check
+chunk_022:p0005	0005	1289	high-noise	name-heavy / roster-like sheet; proper-name OCR unstable; document function unverified; quotation unsafe without image check
+chunk_022:p0006	0006	804	high-noise	name-heavy / roster-like sheet; proper-name OCR unstable; document function unverified; quotation unsafe without image check
+chunk_022:p0007	0007	265	high-noise	name-heavy / roster-like sheet; proper-name OCR unstable; document function unverified; quotation unsafe without image check
+chunk_022:p0008	0008	0	blank/no-substantive	blank card/sheet; no substantive retrievable text visible
+chunk_022:p0009	0009	650	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0010	0010	1792	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0011	0011	1332	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0012	0012	780	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0013	0013	2032	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0014	0014	0	false-empty	baseline OCR empty; mounted board contains multiple handwritten slips; false-empty recovery; exact reading requires close transcription
+chunk_022:p0015	0015	0	blank/no-substantive	blank card; no substantive retrievable text visible
+chunk_022:p0016	0016	2149	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0017	0017	912	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0018	0018	2746	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0019	0019	0	false-empty	baseline OCR empty; mounted board contains multiple handwritten slips; false-empty recovery; exact reading requires close transcription
+chunk_022:p0020	0020	805	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0021	0021	1634	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0022	0022	1250	high-noise	mounted/compound slips; OCR under-captures text and reading order is unstable; use for retrieval only until close transcription
+chunk_022:p0023	0023	765	usable-with-noise	printed Historical Association pamphlet begins; source is not Huizinga-authored manuscript
+chunk_022:p0024	0024	3635	usable-with-noise	printed C. K. Webster essay comparing Vienna 1814–15 and Paris 1919; OCR largely reliable
+chunk_022:p0025	0025	3287	usable-with-noise	
+chunk_022:p0026	0026	2902	usable-with-noise	
+chunk_022:p0027	0027	3183	usable-with-noise	
+chunk_022:p0028	0028	2908	usable-with-noise	
+chunk_022:p0029	0029	3189	usable-with-noise	
+chunk_022:p0030	0030	3018	usable-with-noise	
+chunk_022:p0031	0031	3574	usable-with-noise	
+chunk_022:p0032	0032	3251	usable-with-noise	
+chunk_022:p0033	0033	2745	usable-with-noise	
+chunk_022:p0034	0034	2238	usable-with-noise	
+chunk_022:p0035	0035	2717	usable-with-noise	
+chunk_022:p0036	0036	2427	usable-with-noise	
+chunk_022:p0037	0037	794	usable-with-noise	
+chunk_022:p0038	0038	36	short-text	short packet title; scan corrects baseline OCR to `Duitsche Rijk 1648–1688. 1924/25. 1934/35 ten deele`
+chunk_022:p0039	0039	745	high-noise	first dense manuscript page after `Duitsche Rijk 1648–1688` packet title; handwriting OCR strongly garbled; image check required for quotation
+chunk_022:p0040	0040	901	usable-with-noise	
+chunk_022:p0041	0041	2123	usable-with-noise	
+chunk_022:p0042	0042	2512	usable-with-noise	
+chunk_022:p0043	0043	2560	usable-with-noise	
+chunk_022:p0044	0044	1877	usable-with-noise	
+chunk_022:p0045	0045	2448	usable-with-noise	
+chunk_022:p0046	0046	2196	usable-with-noise	
+chunk_022:p0047	0047	2520	usable-with-noise	
+chunk_022:p0048	0048	2017	usable-with-noise	
+chunk_022:p0049	0049	2321	usable-with-noise	
+chunk_022:p0050	0050	2461	usable-with-noise	
+chunk_022:p0051	0051	2364	usable-with-noise	
+chunk_022:p0052	0052	2205	usable-with-noise	
+chunk_022:p0053	0053	2047	usable-with-noise	
+chunk_022:p0054	0054	2027	usable-with-noise	
+chunk_022:p0055	0055	2269	usable-with-noise	
+chunk_022:p0056	0056	2145	usable-with-noise	
+chunk_022:p0057	0057	2199	usable-with-noise	
+chunk_022:p0058	0058	2301	usable-with-noise	
+chunk_022:p0059	0059	2173	usable-with-noise	
+chunk_022:p0060	0060	2018	usable-with-noise	
+chunk_022:p0061	0061	2117	usable-with-noise	
+chunk_022:p0062	0062	2057	usable-with-noise	
+chunk_022:p0063	0063	2248	usable-with-noise	
+chunk_022:p0064	0064	2313	usable-with-noise	
+chunk_022:p0065	0065	2272	usable-with-noise	
+chunk_022:p0066	0066	2230	usable-with-noise	
+chunk_022:p0067	0067	1989	usable-with-noise	
+chunk_022:p0068	0068	2091	usable-with-noise	
+chunk_022:p0069	0069	2079	usable-with-noise	
+chunk_022:p0070	0070	2145	usable-with-noise	
+chunk_022:p0071	0071	2010	usable-with-noise	
+chunk_022:p0072	0072	2179	usable-with-noise	
+chunk_022:p0073	0073	2031	usable-with-noise	
+chunk_022:p0074	0074	2067	usable-with-noise	
+chunk_022:p0075	0075	1980	usable-with-noise	
+chunk_022:p0076	0076	2240	usable-with-noise	
+chunk_022:p0077	0077	2012	usable-with-noise	
+chunk_022:p0078	0078	2163	usable-with-noise	
+chunk_022:p0079	0079	2132	usable-with-noise	
+chunk_022:p0080	0080	1976	usable-with-noise	
+chunk_022:p0081	0081	2064	usable-with-noise	
+chunk_022:p0082	0082	2085	usable-with-noise	
+chunk_022:p0083	0083	2092	usable-with-noise	
+chunk_022:p0084	0084	2044	usable-with-noise	
+chunk_022:p0085	0085	2155	usable-with-noise	
+chunk_022:p0086	0086	2090	usable-with-noise	
+chunk_022:p0087	0087	2017	usable-with-noise	
+chunk_022:p0088	0088	2203	usable-with-noise	
+chunk_022:p0089	0089	1923	usable-with-noise	
+chunk_022:p0090	0090	2050	usable-with-noise	
+chunk_022:p0091	0091	1989	usable-with-noise	
+chunk_022:p0092	0092	1954	usable-with-noise	
+chunk_022:p0093	0093	2051	usable-with-noise	
+chunk_022:p0094	0094	2085	usable-with-noise	
+chunk_022:p0095	0095	1988	usable-with-noise	
+chunk_022:p0096	0096	2046	usable-with-noise	
+chunk_022:p0097	0097	1970	usable-with-noise	
+chunk_022:p0098	0098	1946	usable-with-noise	
+chunk_022:p0099	0099	2117	usable-with-noise	
+chunk_022:p0100	0100	2110	usable-with-noise	
+chunk_022:p0101	0101	2094	usable-with-noise	
+chunk_022:p0102	0102	2044	usable-with-noise	
+chunk_022:p0103	0103	2014	usable-with-noise	
+chunk_022:p0104	0104	2042	usable-with-noise	
+chunk_022:p0105	0105	2191	usable-with-noise	
+chunk_022:p0106	0106	2111	usable-with-noise	
+chunk_022:p0107	0107	2139	usable-with-noise	
+chunk_022:p0108	0108	2049	usable-with-noise	
+chunk_022:p0109	0109	2070	usable-with-noise	
+chunk_022:p0110	0110	2061	usable-with-noise	
+chunk_022:p0111	0111	2053	usable-with-noise	
+chunk_022:p0112	0112	1997	usable-with-noise	
+chunk_022:p0113	0113	2073	usable-with-noise	
+chunk_022:p0114	0114	2124	usable-with-noise	
+chunk_022:p0115	0115	2008	usable-with-noise	
+chunk_022:p0116	0116	2093	usable-with-noise	
+chunk_022:p0117	0117	2026	usable-with-noise	
+chunk_022:p0118	0118	2033	usable-with-noise	
+chunk_022:p0119	0119	2078	usable-with-noise	
+chunk_022:p0120	0120	1998	usable-with-noise	
+chunk_022:p0121	0121	2090	usable-with-noise	
+chunk_022:p0122	0122	1976	usable-with-noise	
+chunk_022:p0123	0123	2045	usable-with-noise	
+chunk_022:p0124	0124	2067	usable-with-noise	
+chunk_022:p0125	0125	1960	usable-with-noise	
+chunk_022:p0126	0126	2080	usable-with-noise	
+chunk_022:p0127	0127	2007	usable-with-noise	
+chunk_022:p0128	0128	2016	usable-with-noise	
+chunk_022:p0129	0129	1973	usable-with-noise	
+chunk_022:p0130	0130	2167	usable-with-noise	
+chunk_022:p0131	0131	2067	usable-with-noise	
+chunk_022:p0132	0132	2054	usable-with-noise	
+chunk_022:p0133	0133	2120	usable-with-noise	
+chunk_022:p0134	0134	2143	usable-with-noise	
+chunk_022:p0135	0135	2136	usable-with-noise	
+chunk_022:p0136	0136	2063	usable-with-noise	
+chunk_022:p0137	0137	2076	usable-with-noise	
+chunk_022:p0138	0138	0	blank/no-substantive	blank/divider-like sheet; no substantive retrievable text visible
+chunk_022:p0139	0139	979	usable-with-noise	dated 1924/25 teaching-note sequence begins; dates/topics retrievable but diplomatic transcription still desirable
+chunk_022:p0140	0140	967	usable-with-noise	
+chunk_022:p0141	0141	1105	usable-with-noise	
+chunk_022:p0142	0142	1044	usable-with-noise	
+chunk_022:p0143	0143	986	usable-with-noise	
+chunk_022:p0144	0144	1046	usable-with-noise	
+chunk_022:p0145	0145	959	usable-with-noise	
+chunk_022:p0146	0146	946	usable-with-noise	
+chunk_022:p0147	0147	983	usable-with-noise	
+chunk_022:p0148	0148	929	usable-with-noise	
+chunk_022:p0149	0149	982	usable-with-noise	
+chunk_022:p0150	0150	57	blank/no-substantive	only an unfilled printed sender-address form; no substantive handwritten text
+chunk_022:p0151	0151	0	blank/no-substantive	blank card; no substantive retrievable text visible
+chunk_022:p0152	0152	433	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0153	0153	491	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0154	0154	0	blank/no-substantive	blank card; no substantive retrievable text visible
+chunk_022:p0155	0155	838	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0156	0156	724	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0157	0157	802	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0158	0158	630	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0159	0159	0	blank/no-substantive	only an unfilled printed `BRIEFKAART` form plus blank card; no substantive handwritten text
+chunk_022:p0160	0160	0	blank/no-substantive	envelope/cover with printed sender/return label only; no substantive note
+chunk_022:p0161	0161	1109	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0162	0162	3878	high-noise	mounted compound page; OCR grossly over-expands/repeats layout material; exact quotation unsafe without image check
+chunk_022:p0163	0163	725	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0164	0164	591	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0165	0165	620	high-noise	mounted/compound Varia/reference material; OCR under-capture and reading order unstable; exact quotation unsafe without image check
+chunk_022:p0166	0166	0	false-empty	baseline OCR empty; scan recovers packet title `Europ. pol. gesch. rondom 1700. (met materiaal ter voortzetting) 1926/27 1934/35`
+chunk_022:p0167	0167	1710	usable-with-noise	
+chunk_022:p0168	0168	1596	usable-with-noise	synthetic manuscript page classifying European states around consolidation/power; use wording cautiously
+chunk_022:p0169	0169	1801	usable-with-noise	
+chunk_022:p0170	0170	1709	usable-with-noise	
+chunk_022:p0171	0171	1810	usable-with-noise	
+chunk_022:p0172	0172	1698	usable-with-noise	
+chunk_022:p0173	0173	1719	usable-with-noise	
+chunk_022:p0174	0174	1705	usable-with-noise	
+chunk_022:p0175	0175	1728	usable-with-noise	
+chunk_022:p0176	0176	1683	usable-with-noise	
+chunk_022:p0177	0177	1679	usable-with-noise	
+chunk_022:p0178	0178	1687	usable-with-noise	
+chunk_022:p0179	0179	1701	usable-with-noise	
+chunk_022:p0180	0180	1745	usable-with-noise	
+chunk_022:p0181	0181	1709	usable-with-noise	
+chunk_022:p0182	0182	1729	usable-with-noise	
+chunk_022:p0183	0183	1739	usable-with-noise	
+chunk_022:p0184	0184	1708	usable-with-noise	
+chunk_022:p0185	0185	1729	usable-with-noise	
+chunk_022:p0186	0186	1701	usable-with-noise	
+chunk_022:p0187	0187	1672	usable-with-noise	
+chunk_022:p0188	0188	1728	usable-with-noise	
+chunk_022:p0189	0189	1716	usable-with-noise	
+chunk_022:p0190	0190	1741	usable-with-noise	
+chunk_022:p0191	0191	1702	usable-with-noise	
+chunk_022:p0192	0192	1680	usable-with-noise	
+chunk_022:p0193	0193	1745	usable-with-noise	
+chunk_022:p0194	0194	1733	usable-with-noise	
+chunk_022:p0195	0195	1751	usable-with-noise	
+chunk_022:p0196	0196	1671	usable-with-noise	
+chunk_022:p0197	0197	1672	usable-with-noise	
+chunk_022:p0198	0198	1698	usable-with-noise	
+chunk_022:p0199	0199	1711	usable-with-noise	
+chunk_022:p0200	0200	1355	high-noise	dense handwriting; OCR captures only part/unstably; retrieval-grade only
+chunk_022:p0201	0201	1761	usable-with-noise	
+chunk_022:p0202	0202	1715	usable-with-noise	
+chunk_022:p0203	0203	1691	usable-with-noise	
+chunk_022:p0204	0204	1697	usable-with-noise	
+chunk_022:p0205	0205	1713	usable-with-noise	
+chunk_022:p0206	0206	1720	usable-with-noise	
+chunk_022:p0207	0207	1714	usable-with-noise	
+chunk_022:p0208	0208	1709	usable-with-noise	
+chunk_022:p0209	0209	1724	usable-with-noise	
+chunk_022:p0210	0210	1717	usable-with-noise	
+chunk_022:p0211	0211	1736	usable-with-noise	
+chunk_022:p0212	0212	1704	usable-with-noise	
+chunk_022:p0213	0213	1718	usable-with-noise	
+chunk_022:p0214	0214	1692	usable-with-noise	
+chunk_022:p0215	0215	1187	high-noise	dense handwriting; OCR capture materially unstable; retrieval-grade only
+chunk_022:p0216	0216	1715	usable-with-noise	
+chunk_022:p0217	0217	1703	usable-with-noise	
+chunk_022:p0218	0218	1711	usable-with-noise	
+chunk_022:p0219	0219	1727	usable-with-noise	
+chunk_022:p0220	0220	1698	usable-with-noise	
+chunk_022:p0221	0221	1696	usable-with-noise	
+chunk_022:p0222	0222	1712	usable-with-noise	
+chunk_022:p0223	0223	1708	usable-with-noise	
+chunk_022:p0224	0224	1716	usable-with-noise	
+chunk_022:p0225	0225	1688	usable-with-noise	
+chunk_022:p0226	0226	1694	usable-with-noise	
+chunk_022:p0227	0227	1706	usable-with-noise	
+chunk_022:p0228	0228	1728	usable-with-noise	
+chunk_022:p0229	0229	1718	usable-with-noise	
+chunk_022:p0230	0230	1695	usable-with-noise	
+chunk_022:p0231	0231	1732	usable-with-noise	
+chunk_022:p0232	0232	1707	usable-with-noise	
+chunk_022:p0233	0233	1709	usable-with-noise	
+chunk_022:p0234	0234	1710	usable-with-noise	
+chunk_022:p0235	0235	1696	usable-with-noise	
+chunk_022:p0236	0236	1711	usable-with-noise	
+chunk_022:p0237	0237	1710	usable-with-noise	
+chunk_022:p0238	0238	1689	usable-with-noise	
+chunk_022:p0239	0239	1703	usable-with-noise	
+chunk_022:p0240	0240	1701	usable-with-noise	
+chunk_022:p0241	0241	1668	usable-with-noise	
+chunk_022:p0242	0242	1669	usable-with-noise	
+chunk_022:p0243	0243	1246	usable-with-noise	key conceptual page; scan verifies `het maximum van monarchale militair-diplomatieke autonomie! - heel anders dan 1914, en 1935?` and margin `de krijg als vak en techniek`
+chunk_022:p0244	0244	0	blank/no-substantive	blank divider/sheet; no substantive retrievable text visible
+chunk_022:p0245	0245	768	usable-with-noise	1934/35 dated teaching sequence begins, meeting 1 = 10.X.34
+chunk_022:p0246	0246	1577	usable-with-noise	
+chunk_022:p0247	0247	1671	usable-with-noise	1934/35 sequence continues; scan corrects meeting 16 date to `6.III.'35` (baseline OCR reads `6.II.35`)
+chunk_022:p0248	0248	1527	usable-with-noise	1934/35 sequence continues through meeting 25 = 29.V.35
+chunk_022:p0249	0249	520	high-noise	name-heavy / roster-like sheet; proper-name OCR unstable; document function unverified; quotation unsafe without image check
+chunk_022:p0250	0250	0	blank/no-substantive	blank/faint card; no substantive retrievable text visible
