@@ -1,0 +1,19 @@
+span	layout	note
+p0001	folder/cover	Faint label 'physiologie' II; baseline OCR empty; treat as short archival label.
+p0002-p0033	loose handwritten notes	Indian medicine/Ayurveda/physiology sequence; Latin-script manuscript with many Sanskrit/transliterated terms. OCR frequently introduces unrelated scripts and severe lexical distortion.
+p0034-p0037	composite/mounted layouts	Multiple sheets/slips in one frame; reading order is physical-layout dependent and baseline OCR can interleave items.
+p0038	loose handwritten overview	Pamphlet/history note headed around 1700-1713; transition into political-pamphlet material.
+p0039-p0040	blank separators	No substantive text.
+p0041-p0044	mounted slip boards	Bibliographical/pamphlet index slips; multi-slip reading-order risk.
+p0045-p0156	postcard catalogue sequence	Predominantly paired postcard front/back scans with handwritten pamphlet/title notes, mainly around European politics and the War of the Spanish Succession; printed BRIEFKAART faces recur.
+p0157-p0165	dense manuscript sequence	Continuous handwritten synthesis/notes on political pamphlets and dynastic/succession material.
+p0166-p0167	blank separators	No substantive text.
+p0168-p0223	mounted metrology/numismatics boards	Weights, measures, coinage, monetary history, medieval/early-modern institutions; extensive mounted-slip boards with reading-order collapse and several machine hallucination/repetition failures.
+p0224-p0232	loose metrology/numismatics notes	Handwritten loose sheets/tables continuing weights, coinage and monetary-history material; p0231 blank.
+p0233-p0236	printed numismatic inserts	Publisher/catalogue material around Wörterbuch der Münzkunde, ancient coins and Museumskunde; regular print is relatively OCR-stable.
+p0237	mounted-slip board	Substantive handwritten slips but baseline OCR is completely empty.
+p0238-p0239	short archival labels	p0238 reads GROTIVS; p0239 is an envelope/label with Hui 39.1.
+p0240	printed scholarly circular	1908 Maatschappij der Nederlandsche Letterkunde circular about P. C. Molhuysen's catalogue of printed letters.
+p0241-p0251	printed bibliography	Alphabetical bibliography/list of works and periodicals, serving the learned-letters/Grotius documentary complex.
+p0252	blank separator	No substantive text.
+p0253-p0254	Grotius society statutes	Printed Statuten van de Vereeniging voor de uitgave van Grotius; p0254 lists signatories including J. Huizinga.
