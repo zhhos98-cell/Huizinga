@@ -1,0 +1,216 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_013:p0001	0001	71	high-noise	large handwritten genealogical/tabular sheet; baseline captures only a tiny fraction
+chunk_013:p0002	0002	5826	usable-with-noise	
+chunk_013:p0003	0003	8941	usable-with-noise	
+chunk_013:p0004	0004	21	high-noise	partial large genealogical/table sheet at right; baseline nearly empty and nonsensical
+chunk_013:p0005	0005	2006	usable-with-noise	
+chunk_013:p0006	0006	47	high-noise	dense handwritten sheets; baseline collapses to repeated nonsense
+chunk_013:p0007	0007	4533	usable-with-noise	
+chunk_013:p0008	0008	3158	usable-with-noise	
+chunk_013:p0009	0009	1874	usable-with-noise	
+chunk_013:p0010	0010	384	high-noise	mixed handwritten sheet and genealogical/table material; severe under-capture
+chunk_013:p0011	0011	1248	usable-with-noise	
+chunk_013:p0012	0012	2461	usable-with-noise	
+chunk_013:p0013	0013	958	usable-with-noise	
+chunk_013:p0014	0014	4079	usable-with-noise	
+chunk_013:p0015	0015	2969	usable-with-noise	
+chunk_013:p0016	0016	3433	usable-with-noise	
+chunk_013:p0017	0017	2378	usable-with-noise	
+chunk_013:p0018	0018	2410	usable-with-noise	
+chunk_013:p0019	0019	1534	usable-with-noise	
+chunk_013:p0020	0020	1565	usable-with-noise	
+chunk_013:p0021	0021	1583	usable-with-noise	
+chunk_013:p0022	0022	753	usable-with-noise	
+chunk_013:p0023	0023	2710	usable-with-noise	
+chunk_013:p0024	0024	15765	high-noise	dense mixed table/list page; pathological duplicate-table OCR expansion
+chunk_013:p0025	0025	2787	usable-with-noise	
+chunk_013:p0026	0026	2345	usable-with-noise	
+chunk_013:p0027	0027	2158	usable-with-noise	
+chunk_013:p0028	0028	1522	usable-with-noise	
+chunk_013:p0029	0029	589	usable-with-noise	
+chunk_013:p0030	0030	2350	usable-with-noise	
+chunk_013:p0031	0031	1081	usable-with-noise	
+chunk_013:p0032	0032	2328	usable-with-noise	
+chunk_013:p0033	0033	2573	usable-with-noise	
+chunk_013:p0034	0034	5172	usable-with-noise	
+chunk_013:p0035	0035	2784	usable-with-noise	
+chunk_013:p0036	0036	2174	usable-with-noise	
+chunk_013:p0037	0037	2224	usable-with-noise	
+chunk_013:p0038	0038	1475	usable-with-noise	
+chunk_013:p0039	0039	2831	usable-with-noise	
+chunk_013:p0040	0040	1268	usable-with-noise	
+chunk_013:p0041	0041	2196	usable-with-noise	
+chunk_013:p0042	0042	2164	usable-with-noise	
+chunk_013:p0043	0043	749	usable-with-noise	
+chunk_013:p0044	0044	431	usable-with-noise	
+chunk_013:p0045	0045	667	usable-with-noise	
+chunk_013:p0046	0046	1365	usable-with-noise	
+chunk_013:p0047	0047	821	usable-with-noise	
+chunk_013:p0048	0048	549	usable-with-noise	
+chunk_013:p0049	0049	1645	usable-with-noise	
+chunk_013:p0050	0050	887	usable-with-noise	
+chunk_013:p0051	0051	872	usable-with-noise	
+chunk_013:p0052	0052	899	usable-with-noise	
+chunk_013:p0053	0053	2634	usable-with-noise	
+chunk_013:p0054	0054	2130	usable-with-noise	
+chunk_013:p0055	0055	1073	usable-with-noise	
+chunk_013:p0056	0056	1442	usable-with-noise	
+chunk_013:p0057	0057	1048	usable-with-noise	
+chunk_013:p0058	0058	1079	usable-with-noise	
+chunk_013:p0059	0059	1496	usable-with-noise	
+chunk_013:p0060	0060	424	usable-with-noise	
+chunk_013:p0061	0061	657	usable-with-noise	
+chunk_013:p0062	0062	1420	usable-with-noise	
+chunk_013:p0063	0063	484	high-noise	mounted multi-slip board; substantial under-capture and garbled mixed-language OCR
+chunk_013:p0064	0064	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0065	0065	350	usable-with-noise	
+chunk_013:p0066	0066	283	high-noise	two handwritten/list sheets; low-coverage and largely nonsensical OCR
+chunk_013:p0067	0067	0	false-empty-recovery	baseline empty, but scan contains two substantive handwritten/list sheets
+chunk_013:p0068	0068	125	high-noise	two small handwritten/list sheets; baseline only 125 chars and mostly hallucinated
+chunk_013:p0069	0069	183	high-noise	two handwritten/list sheets; severe under-capture / mixed-script hallucination
+chunk_013:p0070	0070	62	high-noise	two handwritten/list sheets; baseline only a short number row
+chunk_013:p0071	0071	604	usable-with-noise	
+chunk_013:p0072	0072	425	usable-with-noise	
+chunk_013:p0073	0073	655	usable-with-noise	
+chunk_013:p0074	0074	0	false-empty-recovery	baseline empty, but scan contains two substantive handwritten/list sheets
+chunk_013:p0075	0075	780	usable-with-noise	
+chunk_013:p0076	0076	497	usable-with-noise	
+chunk_013:p0077	0077	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0078	0078	0	false-empty-recovery	baseline empty; scan contains a mounted board with several written slips plus an envelope/card
+chunk_013:p0079	0079	0	false-empty-recovery	baseline empty; mounted board contains several substantive handwritten/printed slips
+chunk_013:p0080	0080	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0081	0081	1447	usable-with-noise	
+chunk_013:p0082	0082	0	false-empty-recovery	baseline empty; two mounted boards contain numerous handwritten slips
+chunk_013:p0083	0083	641	usable-with-noise	
+chunk_013:p0084	0084	244	high-noise	mounted-slip board; severe under-capture relative to visible slips
+chunk_013:p0085	0085	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0086	0086	255	high-noise	mounted/loose multi-slip material; low-coverage OCR with name hallucinations
+chunk_013:p0087	0087	1343	usable-with-noise	
+chunk_013:p0088	0088	56	high-noise	mounted slips; baseline only 56 chars and largely unusable
+chunk_013:p0089	0089	1928	usable-with-noise	
+chunk_013:p0090	0090	1816	usable-with-noise	
+chunk_013:p0091	0091	1825	usable-with-noise	
+chunk_013:p0092	0092	1844	usable-with-noise	
+chunk_013:p0093	0093	595	usable-with-noise	
+chunk_013:p0094	0094	1084	usable-with-noise	
+chunk_013:p0095	0095	1898	usable-with-noise	
+chunk_013:p0096	0096	1794	usable-with-noise	
+chunk_013:p0097	0097	18	high-noise	dense handwritten page; baseline reduces it to 'Dear Mr. S. Jones,'
+chunk_013:p0098	0098	1734	usable-with-noise	
+chunk_013:p0099	0099	531	usable-with-noise	
+chunk_013:p0100	0100	741	usable-with-noise	
+chunk_013:p0101	0101	704	usable-with-noise	
+chunk_013:p0102	0102	777	usable-with-noise	
+chunk_013:p0103	0103	864	usable-with-noise	
+chunk_013:p0104	0104	866	usable-with-noise	
+chunk_013:p0105	0105	703	usable-with-noise	
+chunk_013:p0106	0106	703	usable-with-noise	
+chunk_013:p0107	0107	758	usable-with-noise	
+chunk_013:p0108	0108	870	usable-with-noise	
+chunk_013:p0109	0109	758	usable-with-noise	
+chunk_013:p0110	0110	1334	usable-with-noise	
+chunk_013:p0111	0111	27	verified-short-text	short postal/form text: 'Naam en Adres des Afzenders'
+chunk_013:p0112	0112	864	usable-with-noise	
+chunk_013:p0113	0113	1655	usable-with-noise	
+chunk_013:p0114	0114	1584	usable-with-noise	
+chunk_013:p0115	0115	410	usable-with-noise	
+chunk_013:p0116	0116	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0117	0117	710	usable-with-noise	
+chunk_013:p0118	0118	338	high-noise	double mounted-slip boards; severe under-capture
+chunk_013:p0119	0119	535	high-noise	double mounted-slip boards; severe under-capture / mixed-script hallucination
+chunk_013:p0120	0120	872	usable-with-noise	
+chunk_013:p0121	0121	564	usable-with-noise	
+chunk_013:p0122	0122	150	high-noise	double mounted-slip boards; baseline only 150 chars
+chunk_013:p0123	0123	648	usable-with-noise	
+chunk_013:p0124	0124	857	usable-with-noise	
+chunk_013:p0125	0125	1400	usable-with-noise	
+chunk_013:p0126	0126	188	high-noise	double mounted-slip boards; baseline dominated by repeated citation fragments
+chunk_013:p0127	0127	145	high-noise	mounted-slip board; baseline only 145 chars and heavily garbled
+chunk_013:p0128	0128	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0129	0129	859	usable-with-noise	
+chunk_013:p0130	0130	2000	usable-with-noise	
+chunk_013:p0131	0131	354	high-noise	mounted-slip board; severe under-capture and mixed-script hallucination
+chunk_013:p0132	0132	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0133	0133	526	usable-with-noise	
+chunk_013:p0134	0134	144	high-noise	mounted-slip board; pathological OCR repetition cleaned in v3 but still low-coverage
+chunk_013:p0135	0135	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0136	0136	1023	usable-with-noise	
+chunk_013:p0137	0137	930	usable-with-noise	
+chunk_013:p0138	0138	737	usable-with-noise	
+chunk_013:p0139	0139	1	high-noise	mounted-slip board with visible text; baseline is only 'a'
+chunk_013:p0140	0140	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0141	0141	0	false-empty-recovery	baseline empty; envelope plus mounted board of Reformation/Luther notes; substantive text visible
+chunk_013:p0142	0142	0	false-empty-recovery	baseline empty; two mounted boards with many handwritten slips; visible anchor 'Ridderspelen als beleving der Feodaltijd'
+chunk_013:p0143	0143	2394	usable-with-noise	mixed mounted notes plus printed advertisement for 'Museum der Weltgeschichte'; publisher-produced visual/reference material inserted into note sequence
+chunk_013:p0144	0144	358	usable-with-noise	printed portrait 'Martin Luther' after a 1521 Lucas Cranach engraving, paired with a handwritten slip; strong visual-material hit
+chunk_013:p0145	0145	3969	usable	clean printed publisher prospectus/advertisement for Hartmann Grisar, Martin Luthers Leben und sein Werk
+chunk_013:p0146	0146	2060	usable	clean printed prospectus: Luther-Studien / Luthers Kampfbilder; explicitly advertises Abbildungen, Bilder im Text, Tafeln
+chunk_013:p0147	0147	5467	usable	clean printed bibliographical prospectus for Karl Schottenloher, Im Zeitalter der Glaubensspaltung 1517-1585
+chunk_013:p0148	0148	2039	usable	continuation of printed bibliographical prospectus; mentions planned historical map and publication format
+chunk_013:p0149	0149	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0150	0150	1241	usable-with-noise	
+chunk_013:p0151	0151	2169	usable-with-noise	
+chunk_013:p0152	0152	1462	usable-with-noise	
+chunk_013:p0153	0153	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0154	0154	787	usable-with-noise	
+chunk_013:p0155	0155	1245	usable-with-noise	
+chunk_013:p0156	0156	1009	usable-with-noise	
+chunk_013:p0157	0157	1430	usable-with-noise	
+chunk_013:p0158	0158	918	usable-with-noise	
+chunk_013:p0159	0159	1899	usable-with-noise	
+chunk_013:p0160	0160	2050	usable-with-noise	
+chunk_013:p0161	0161	1346	usable-with-noise	
+chunk_013:p0162	0162	1732	usable-with-noise	
+chunk_013:p0163	0163	2	minimal-non-substantive	backs/blank sides of mounted slips; only minimal archival numeral '52' visible
+chunk_013:p0164	0164	1729	usable-with-noise	
+chunk_013:p0165	0165	1114	usable-with-noise	
+chunk_013:p0166	0166	0	false-empty-recovery	baseline empty; full faded handwritten manuscript page is present
+chunk_013:p0167	0167	866	usable-with-noise	dated lecture notes (1931) on social/political structure and cultural institutions; includes libraries, cabinets, galleries, magazines, museum, art trade
+chunk_013:p0168	0168	1595	usable-with-noise	
+chunk_013:p0169	0169	1504	usable-with-noise	dated 1932 lecture notes; visual/style cluster includes clothing, representation ('beelding'), Swift-Hogarth, encyclopedism
+chunk_013:p0170	0170	771	usable-with-noise	
+chunk_013:p0171	0171	780	usable-with-noise	
+chunk_013:p0172	0172	1606	usable-with-noise	dated 1939 lecture notes on eighteenth-century intellectual/cultural change and 'soc. beeld'; world-picture framing
+chunk_013:p0173	0173	1557	usable-with-noise	
+chunk_013:p0174	0174	693	usable-with-noise	lecture notes include engraving/illustration and English furniture/park/Chardin cluster
+chunk_013:p0175	0175	1260	usable-with-noise	
+chunk_013:p0176	0176	1025	usable-with-noise	
+chunk_013:p0177	0177	1188	usable-with-noise	
+chunk_013:p0178	0178	1062	usable-with-noise	
+chunk_013:p0179	0179	1101	usable-with-noise	
+chunk_013:p0180	0180	1286	usable-with-noise	
+chunk_013:p0181	0181	1299	usable-with-noise	
+chunk_013:p0182	0182	1242	usable-with-noise	
+chunk_013:p0183	0183	1608	usable-with-noise	
+chunk_013:p0184	0184	1154	usable-with-noise	
+chunk_013:p0185	0185	1145	usable-with-noise	
+chunk_013:p0186	0186	1300	usable-with-noise	
+chunk_013:p0187	0187	994	usable-with-noise	
+chunk_013:p0188	0188	1048	usable-with-noise	
+chunk_013:p0189	0189	1410	usable-with-noise	
+chunk_013:p0190	0190	1299	usable-with-noise	
+chunk_013:p0191	0191	1042	usable-with-noise	
+chunk_013:p0192	0192	1103	usable-with-noise	
+chunk_013:p0193	0193	1034	usable-with-noise	
+chunk_013:p0194	0194	1001	usable-with-noise	
+chunk_013:p0195	0195	1347	usable-with-noise	
+chunk_013:p0196	0196	1330	usable-with-noise	
+chunk_013:p0197	0197	1132	usable-with-noise	
+chunk_013:p0198	0198	1130	usable-with-noise	
+chunk_013:p0199	0199	874	usable-with-noise	uses 'primitief' in chemistry/anthropomorphic substances context; not an anthropology/Malinowski hit
+chunk_013:p0200	0200	1295	usable-with-noise	lecture notes explicitly discuss panorama of nature and society, historical world-picture, and images interweaving harmonically
+chunk_013:p0201	0201	1078	usable-with-noise	
+chunk_013:p0202	0202	862	usable-with-noise	
+chunk_013:p0203	0203	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0204	0204	1060	usable-with-noise	
+chunk_013:p0205	0205	1058	usable-with-noise	
+chunk_013:p0206	0206	1164	usable-with-noise	
+chunk_013:p0207	0207	1058	usable-with-noise	major core hit: notes on galleries/magazines, printmaking as illustration-decoration-reproduction, art academies, theatre/opera/concert, publicity and instruments
+chunk_013:p0208	0208	1077	usable-with-noise	
+chunk_013:p0209	0209	1012	usable-with-noise	major core hit: explicitly contrasts production with diffusion; notes visual art not yet absorbed into a 'cultus', République des lettres and expanding public interest
+chunk_013:p0210	0210	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0211	0211	28	verified-short-text	short heading: 'XVIII e eeuw (ter uitwerken)'
+chunk_013:p0212	0212	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
+chunk_013:p0213	0213	1039	usable-with-noise	
+chunk_013:p0214	0214	0	false-empty-recovery	baseline empty; short handwritten note at upper right; visible anchors include kunstenaars, Würzburg, Neumann, Goldoni, Molière
+chunk_013:p0215	0215	0	blank	visually blank/no substantive text; baseline empty OCR confirmed
