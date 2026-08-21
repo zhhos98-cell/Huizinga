@@ -31,7 +31,16 @@ Verified visual occurrences of the printed letterhead:
 | `chunk_027:p0157` | captured | visually verified printed letterhead |
 | `chunk_027:p0162` | captured | visually verified printed letterhead |
 | `chunk_027:p0170` | captured | visually verified printed letterhead |
+| `chunk_028:p0154` | captured | visually verified exact printed letterhead |
+| `chunk_028:p0169` | **empty OCR false negative** | visually recovered exact printed letterhead; no substantive body text visible |
+| `chunk_028:p0172` | captured | visually verified exact printed letterhead |
+| `chunk_028:p0174` | **empty OCR false negative** | visually recovered exact printed letterhead |
+| `chunk_028:p0176` | captured | visually verified exact printed letterhead |
+| `chunk_028:p0179` | captured | visually verified exact printed letterhead |
+| `chunk_028:p0182` | **empty OCR false negative** | visually recovered exact printed letterhead |
+| `chunk_028:p0185` | captured | visually verified exact printed letterhead |
+| `chunk_028:p0188` | captured | visually verified exact printed letterhead |
 
-Current verified total: **21 pages**.
+Current verified total: **30 pages**.
 
-Chunk 027 is notable for a concentrated run of eleven exact letterhead occurrences, eight of them complete baseline OCR false negatives. This index records stationery occurrence only. A letterhead hit should not by itself be treated as evidence of a substantive Rockefeller-authored or Rockefeller-funded correspondence item; body text, sender/recipient, date, and archival sequence need separate confirmation.
+Chunk 027 contains a concentrated run of eleven exact letterhead occurrences, eight of them complete baseline OCR false negatives. Chunk 028 adds nine further exact occurrences, three of them complete baseline OCR false negatives. This index records stationery occurrence only. A letterhead hit should not by itself be treated as evidence of a substantive Rockefeller-authored or Rockefeller-funded correspondence item; body text, sender/recipient, date, and archival sequence need separate confirmation.
