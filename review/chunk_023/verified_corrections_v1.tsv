@@ -1,0 +1,6 @@
+page_id	baseline_reading	verified_scan_reading_or_status	confidence	note
+chunk_023:p0040	`Light & Go I mid Kern / Bettekenisleer / Vid...`	`Licht & geluid` / `Kern` / `Betekenisleer` / `Vidūṣaka`	high	contents/folder label identifying the main packets that follow
+chunk_023:p0063	`f4`	blank ruled card; no substantive text	high	baseline is spurious OCR
+chunk_023:p0096	[empty OCR]	`Aanteekeningen Vidūṣaka`	high	packet/subpacket label recovered by rotating the scan
+chunk_023:p0110	[empty OCR]	`Sāhityadarpaṇa etc.`; `Notities Vidūṣaka`	high	cover/label recovery
+chunk_023:p0176	`MANNEN EN VROUWEN ... BETE.EKENIS ...`	`MANNEN EN VROUWEN VAN BETEEKENIS IN ONZE DAGEN` / `HENDRIK KERN` / `DOOR J. HUIZINGA` / Haarlem, H. D. Tjeenk Willink & Zoon, 1899	high	printed title/cover
