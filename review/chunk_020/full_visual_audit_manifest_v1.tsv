@@ -1,0 +1,207 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_020:p0001	0001	0	false-empty	baseline OCR empty; title page reads `Aperçu de la civilisation hollandaise du XVIIe siècle`
+chunk_020:p0002	0002	941	usable-with-noise	
+chunk_020:p0003	0003	943	usable-with-noise	
+chunk_020:p0004	0004	3218	high-noise	OCR grossly over-expands relative to a single dense handwritten page; quotation unsafe
+chunk_020:p0005	0005	1728	usable-with-noise	
+chunk_020:p0006	0006	1329	usable-with-noise	
+chunk_020:p0007	0007	910	usable-with-noise	
+chunk_020:p0008	0008	1020	usable-with-noise	
+chunk_020:p0009	0009	956	usable-with-noise	
+chunk_020:p0010	0010	0	false-empty	baseline OCR empty; scan contains a dense handwritten continuation page of the French lecture
+chunk_020:p0011	0011	1029	usable-with-noise	
+chunk_020:p0012	0012	1059	usable-with-noise	
+chunk_020:p0013	0013	955	usable-with-noise	
+chunk_020:p0014	0014	1149	usable-with-noise	
+chunk_020:p0015	0015	880	usable-with-noise	
+chunk_020:p0016	0016	952	usable-with-noise	
+chunk_020:p0017	0017	982	usable-with-noise	
+chunk_020:p0018	0018	998	usable-with-noise	
+chunk_020:p0019	0019	969	usable-with-noise	
+chunk_020:p0020	0020	900	usable-with-noise	
+chunk_020:p0021	0021	949	usable-with-noise	
+chunk_020:p0022	0022	1294	usable-with-noise	
+chunk_020:p0023	0023	1003	usable-with-noise	
+chunk_020:p0024	0024	698	usable-with-noise	
+chunk_020:p0025	0025	919	usable-with-noise	
+chunk_020:p0026	0026	951	usable-with-noise	
+chunk_020:p0027	0027	951	usable-with-noise	
+chunk_020:p0028	0028	970	usable-with-noise	
+chunk_020:p0029	0029	1345	usable-with-noise	
+chunk_020:p0030	0030	1101	usable-with-noise	
+chunk_020:p0031	0031	1391	usable-with-noise	
+chunk_020:p0032	0032	1402	usable-with-noise	
+chunk_020:p0033	0033	1068	usable-with-noise	
+chunk_020:p0034	0034	1538	usable-with-noise	
+chunk_020:p0035	0035	165	high-noise	dense handwritten page materially under-captured by baseline OCR
+chunk_020:p0036	0036	1109	usable-with-noise	
+chunk_020:p0037	0037	1438	usable-with-noise	
+chunk_020:p0038	0038	1202	usable-with-noise	
+chunk_020:p0039	0039	927	usable-with-noise	
+chunk_020:p0040	0040	943	usable-with-noise	
+chunk_020:p0041	0041	509	high-noise	dense handwritten page materially under-captured by baseline OCR
+chunk_020:p0042	0042	1620	usable-with-noise	
+chunk_020:p0043	0043	1231	usable-with-noise	
+chunk_020:p0044	0044	1103	usable-with-noise	
+chunk_020:p0045	0045	1108	usable-with-noise	
+chunk_020:p0046	0046	1113	usable-with-noise	
+chunk_020:p0047	0047	1270	usable-with-noise	
+chunk_020:p0048	0048	1172	usable-with-noise	
+chunk_020:p0049	0049	1005	usable-with-noise	
+chunk_020:p0050	0050	1073	usable-with-noise	
+chunk_020:p0051	0051	1104	usable-with-noise	
+chunk_020:p0052	0052	755	usable-with-noise	
+chunk_020:p0053	0053	1098	usable-with-noise	
+chunk_020:p0054	0054	1223	usable-with-noise	
+chunk_020:p0055	0055	1101	usable-with-noise	
+chunk_020:p0056	0056	876	usable-with-noise	
+chunk_020:p0057	0057	999	usable-with-noise	
+chunk_020:p0058	0058	1003	usable-with-noise	
+chunk_020:p0059	0059	1199	usable-with-noise	
+chunk_020:p0060	0060	1071	usable-with-noise	
+chunk_020:p0061	0061	865	usable-with-noise	
+chunk_020:p0062	0062	606	usable-with-noise	
+chunk_020:p0063	0063	390	high-noise	handwritten page materially under-captured; retrieval only
+chunk_020:p0064	0064	1294	usable-with-noise	
+chunk_020:p0065	0065	819	usable-with-noise	
+chunk_020:p0066	0066	961	usable-with-noise	
+chunk_020:p0067	0067	997	usable-with-noise	
+chunk_020:p0068	0068	955	usable-with-noise	
+chunk_020:p0069	0069	1128	usable-with-noise	
+chunk_020:p0070	0070	1074	usable-with-noise	
+chunk_020:p0071	0071	1036	usable-with-noise	
+chunk_020:p0072	0072	969	usable-with-noise	
+chunk_020:p0073	0073	1073	usable-with-noise	
+chunk_020:p0074	0074	981	usable-with-noise	
+chunk_020:p0075	0075	964	usable-with-noise	
+chunk_020:p0076	0076	930	usable-with-noise	
+chunk_020:p0077	0077	1096	usable-with-noise	
+chunk_020:p0078	0078	1097	usable-with-noise	
+chunk_020:p0079	0079	1030	usable-with-noise	
+chunk_020:p0080	0080	1241	usable-with-noise	
+chunk_020:p0081	0081	873	usable-with-noise	
+chunk_020:p0082	0082	1028	usable-with-noise	
+chunk_020:p0083	0083	1193	usable-with-noise	
+chunk_020:p0084	0084	267	high-noise	OCR repetition/model drift; v3 cleaned a repeat run but text remains high-noise
+chunk_020:p0085	0085	1041	usable-with-noise	
+chunk_020:p0086	0086	1122	usable-with-noise	
+chunk_020:p0087	0087	1012	usable-with-noise	
+chunk_020:p0088	0088	964	usable-with-noise	
+chunk_020:p0089	0089	1345	usable-with-noise	
+chunk_020:p0090	0090	1113	usable-with-noise	
+chunk_020:p0091	0091	1040	usable-with-noise	
+chunk_020:p0092	0092	1058	usable-with-noise	
+chunk_020:p0093	0093	989	usable-with-noise	
+chunk_020:p0094	0094	954	usable-with-noise	
+chunk_020:p0095	0095	969	usable-with-noise	
+chunk_020:p0096	0096	1033	usable-with-noise	
+chunk_020:p0097	0097	1045	usable-with-noise	
+chunk_020:p0098	0098	1067	usable-with-noise	
+chunk_020:p0099	0099	907	usable-with-noise	
+chunk_020:p0100	0100	961	usable-with-noise	
+chunk_020:p0101	0101	987	usable-with-noise	
+chunk_020:p0102	0102	1043	usable-with-noise	
+chunk_020:p0103	0103	978	usable-with-noise	
+chunk_020:p0104	0104	949	usable-with-noise	
+chunk_020:p0105	0105	970	usable-with-noise	
+chunk_020:p0106	0106	984	usable-with-noise	
+chunk_020:p0107	0107	1026	usable-with-noise	
+chunk_020:p0108	0108	993	usable-with-noise	
+chunk_020:p0109	0109	977	usable-with-noise	
+chunk_020:p0110	0110	977	usable-with-noise	
+chunk_020:p0111	0111	982	usable-with-noise	
+chunk_020:p0112	0112	983	usable-with-noise	
+chunk_020:p0113	0113	994	usable-with-noise	
+chunk_020:p0114	0114	1006	usable-with-noise	
+chunk_020:p0115	0115	703	usable-with-noise	
+chunk_020:p0116	0116	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_020:p0117	0117	1972	usable-with-noise	
+chunk_020:p0118	0118	735	usable-with-noise	
+chunk_020:p0119	0119	988	usable-with-noise	
+chunk_020:p0120	0120	971	high-noise	German manuscript page with substantial model drift and cross-language hallucination
+chunk_020:p0121	0121	887	usable-with-noise	
+chunk_020:p0122	0122	1074	high-noise	German manuscript page contains obvious model/date hallucinations; use only for rough retrieval
+chunk_020:p0123	0123	916	usable-with-noise	
+chunk_020:p0124	0124	1222	usable-with-noise	
+chunk_020:p0125	0125	940	usable-with-noise	
+chunk_020:p0126	0126	947	usable-with-noise	
+chunk_020:p0127	0127	861	usable-with-noise	
+chunk_020:p0128	0128	1017	usable-with-noise	
+chunk_020:p0129	0129	946	usable-with-noise	
+chunk_020:p0130	0130	1028	usable-with-noise	
+chunk_020:p0131	0131	917	usable-with-noise	
+chunk_020:p0132	0132	891	usable-with-noise	
+chunk_020:p0133	0133	892	usable-with-noise	
+chunk_020:p0134	0134	933	usable-with-noise	
+chunk_020:p0135	0135	941	usable-with-noise	
+chunk_020:p0136	0136	1014	usable-with-noise	
+chunk_020:p0137	0137	993	high-noise	handwriting-model hallucination inserts repeated English phrases before German text
+chunk_020:p0138	0138	929	usable-with-noise	
+chunk_020:p0139	0139	947	usable-with-noise	
+chunk_020:p0140	0140	980	usable-with-noise	
+chunk_020:p0141	0141	947	usable-with-noise	
+chunk_020:p0142	0142	841	usable-with-noise	
+chunk_020:p0143	0143	916	usable-with-noise	
+chunk_020:p0144	0144	906	usable-with-noise	
+chunk_020:p0145	0145	1336	usable-with-noise	
+chunk_020:p0146	0146	1749	usable-with-noise	
+chunk_020:p0147	0147	986	usable-with-noise	
+chunk_020:p0148	0148	991	usable-with-noise	
+chunk_020:p0149	0149	932	usable-with-noise	
+chunk_020:p0150	0150	1017	usable-with-noise	
+chunk_020:p0151	0151	1184	usable-with-noise	
+chunk_020:p0152	0152	1250	usable-with-noise	
+chunk_020:p0153	0153	1098	usable-with-noise	
+chunk_020:p0154	0154	1209	usable-with-noise	
+chunk_020:p0155	0155	974	usable-with-noise	
+chunk_020:p0156	0156	1052	usable-with-noise	
+chunk_020:p0157	0157	1199	usable-with-noise	
+chunk_020:p0158	0158	972	usable-with-noise	
+chunk_020:p0159	0159	984	usable-with-noise	
+chunk_020:p0160	0160	1024	usable-with-noise	
+chunk_020:p0161	0161	31	short-text	very short heading/title fragment: `grondlagen hoil.Kultur ... Jh.`
+chunk_020:p0162	0162	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_020:p0163	0163	729	usable-with-noise	
+chunk_020:p0164	0164	0	blank	baseline OCR empty; blank/sparse card with no substantive retrievable text
+chunk_020:p0165	0165	1193	usable-with-noise	
+chunk_020:p0166	0166	465	short-text	short continuation/outline page; sparse text but retrievable
+chunk_020:p0167	0167	0	blank	baseline OCR empty; ruled sheet is substantively blank
+chunk_020:p0168	0168	1020	usable-with-noise	
+chunk_020:p0169	0169	972	usable-with-noise	
+chunk_020:p0170	0170	1017	usable-with-noise	
+chunk_020:p0171	0171	1036	usable-with-noise	
+chunk_020:p0172	0172	1151	usable-with-noise	
+chunk_020:p0173	0173	802	usable-with-noise	
+chunk_020:p0174	0174	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_020:p0175	0175	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_020:p0176	0176	0	false-empty	baseline OCR empty; mounted board contains multiple substantive handwritten slips
+chunk_020:p0177	0177	0	false-empty	baseline OCR empty; paired mounted boards contain multiple substantive handwritten slips
+chunk_020:p0178	0178	1111	high-noise	mounted-slip board; OCR reading order is unstable across multiple cards
+chunk_020:p0179	0179	1410	high-noise	paired mounted-slip boards; OCR reading order unstable
+chunk_020:p0180	0180	939	high-noise	paired mounted-slip boards; OCR reading order unstable
+chunk_020:p0181	0181	779	high-noise	paired mounted-slip boards; OCR reading order unstable
+chunk_020:p0182	0182	206	high-noise	mounted-slip board; baseline captures only a fraction of visible material
+chunk_020:p0183	0183	0	blank	baseline OCR empty; page-image check finds no substantive retrievable text
+chunk_020:p0184	0184	924	high-noise	mounted-slip board; OCR reading order unstable and partial
+chunk_020:p0185	0185	1792	high-noise	paired mounted boards; dense mixed slips, reading order unstable
+chunk_020:p0186	0186	2336	high-noise	paired mounted boards; multiple research-note sequences merged by OCR
+chunk_020:p0187	0187	2890	high-noise	paired mounted boards; OCR over-expands/merges multiple slips
+chunk_020:p0188	0188	868	high-noise	paired mounted boards; mixed slips and unstable reading order
+chunk_020:p0189	0189	0	blank	mounted board holds blank slips; no substantive retrievable text visible
+chunk_020:p0190	0190	713	usable-with-noise	
+chunk_020:p0191	0191	910	usable-with-noise	
+chunk_020:p0192	0192	1182	usable-with-noise	
+chunk_020:p0193	0193	884	usable-with-noise	
+chunk_020:p0194	0194	179	high-noise	two-note layout with severe OCR repetition drift; v3 repeat cleanup does not restore reliable text
+chunk_020:p0195	0195	909	usable-with-noise	
+chunk_020:p0196	0196	639	usable-with-noise	
+chunk_020:p0197	0197	997	usable-with-noise	
+chunk_020:p0198	0198	219	short-text	small isolated note; short but substantive
+chunk_020:p0199	0199	669	high-noise	mounted-slip board; multiple items merged by OCR
+chunk_020:p0200	0200	981	high-noise	paired mounted boards; repeat cleanup plus unstable cross-slip reading order
+chunk_020:p0201	0201	628	high-noise	mounted research slips; Freeman/history-scope note is retrievable but overall card order is unstable
+chunk_020:p0202	0202	2262	high-noise	long mounted-note sequence; mixed historical-method and political-theory content, reading order requires source check
+chunk_020:p0203	0203	4289	high-noise	two mounted panels with distinct note sequences; OCR concatenates historical-method notes with separate material
+chunk_020:p0204	0204	2008	high-noise	paired mounted panels; OCR concatenates distinct note sequences
+chunk_020:p0205	0205	2375	high-noise	paired mounted boards; high text density and unstable cross-card reading order
+chunk_020:p0206	0206	96	high-noise	mounted board with several substantive notes; baseline materially under-captures visible content
