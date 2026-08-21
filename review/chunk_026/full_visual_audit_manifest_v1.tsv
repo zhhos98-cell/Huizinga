@@ -1,0 +1,255 @@
+page_id	chars	class	packet	flags
+p0001	0	short-text	A0	baseline_empty;short_folder_label
+p0002	697	high-noise	A1	
+p0003	75	high-noise	A1	
+p0004	31	high-noise	A1	
+p0005	502	high-noise	A1	
+p0006	35	high-noise	A1	
+p0007	656	usable-with-noise	A1	
+p0008	331	high-noise	A1	
+p0009	61	high-noise	A1	
+p0010	562	high-noise	A1	
+p0011	604	high-noise	A1	
+p0012	154	high-noise	A1	
+p0013	0	false-empty-recovery	A1	baseline_empty_false_negative;dense_handwritten_notes
+p0014	329	usable-with-noise	A1	
+p0015	663	usable-with-noise	A1	
+p0016	482	usable-with-noise	A1	
+p0017	1	high-noise	A1	severe_under_capture;multi_item_layout
+p0018	531	usable-with-noise	A1	
+p0019	311	usable-with-noise	A1	
+p0020	655	usable-with-noise	A1	
+p0021	339	usable-with-noise	A1	
+p0022	642	usable-with-noise	A1	
+p0023	37	high-noise	A1	
+p0024	113	usable-with-noise	A1	
+p0025	182	usable-with-noise	A1	
+p0026	549	high-noise	A1	hallucinated_repetition;under_capture
+p0027	295	high-noise	A1	
+p0028	13	short-text	A1	
+p0029	2197	high-noise	A1	ocr_repetition_cleaned
+p0030	563	usable-with-noise	A1	
+p0031	1316	usable-with-noise	A1	
+p0032	1422	high-noise	A1	ocr_repeat_run_cleaned_v3
+p0033	1929	usable-with-noise	A1	
+p0034	1892	high-noise	A1	composite_multi_item_layout;reading_order_risk
+p0035	362	high-noise	A1	composite_multi_item_layout;under_capture
+p0036	795	high-noise	A1	composite_multi_item_layout;semantic_hallucination
+p0037	250	high-noise	A1	mounted_slip_layout;under_capture
+p0038	1142	usable-with-noise	B1	
+p0039	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0040	0	blank-no-substantive	B1	baseline_empty_verified_blank
+p0041	830	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0042	855	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0043	233	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0044	959	high-noise	B1	mounted_slip_layout;reading_order_risk
+p0045	327	usable-with-noise	B2	
+p0046	597	usable-with-noise	B2	
+p0047	0	short-text	B2	baseline_empty;verified_BRIEFKAART
+p0048	210	usable-with-noise	B2	
+p0049	570	usable-with-noise	B2	
+p0050	862	usable-with-noise	B2	
+p0051	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0052	137	usable-with-noise	B2	
+p0053	0	false-empty-recovery	B2	baseline_empty_false_negative;postcard_back_handwriting
+p0054	118	usable-with-noise	B2	
+p0055	0	false-empty-recovery	B2	baseline_empty_false_negative;postcard_back_handwriting
+p0056	96	usable-with-noise	B2	
+p0057	0	false-empty-recovery	B2	baseline_empty_false_negative;postcard_back_handwriting
+p0058	0	short-text	B2	baseline_empty;verified_BRIEFKAART
+p0059	131	usable-with-noise	B2	
+p0060	169	usable-with-noise	B2	
+p0061	233	usable-with-noise	B2	
+p0062	244	usable-with-noise	B2	
+p0063	95	usable-with-noise	B2	
+p0064	145	usable-with-noise	B2	
+p0065	251	high-noise	B2	duplicate_table_generation|ocr_repetition_cleaned
+p0066	148	usable-with-noise	B2	
+p0067	46	usable-with-noise	B2	
+p0068	92	usable-with-noise	B2	
+p0069	68	usable-with-noise	B2	
+p0070	76	usable-with-noise	B2	
+p0071	131	usable-with-noise	B2	
+p0072	137	usable-with-noise	B2	
+p0073	133	usable-with-noise	B2	
+p0074	83	usable-with-noise	B2	
+p0075	146	usable-with-noise	B2	
+p0076	103	usable-with-noise	B2	
+p0077	116	usable-with-noise	B2	
+p0078	141	usable-with-noise	B2	
+p0079	120	usable-with-noise	B2	
+p0080	159	usable-with-noise	B2	
+p0081	167	usable-with-noise	B2	
+p0082	187	usable-with-noise	B2	
+p0083	210	usable-with-noise	B2	
+p0084	36	short-text	B2	
+p0085	134	usable-with-noise	B2	
+p0086	110	usable-with-noise	B2	
+p0087	84	usable-with-noise	B2	
+p0088	114	usable-with-noise	B2	
+p0089	149	usable-with-noise	B2	
+p0090	169	usable-with-noise	B2	
+p0091	68	usable-with-noise	B2	
+p0092	122	usable-with-noise	B2	
+p0093	121	usable-with-noise	B2	
+p0094	139	usable-with-noise	B2	
+p0095	38	short-text	B2	
+p0096	134	usable-with-noise	B2	
+p0097	116	usable-with-noise	B2	
+p0098	138	usable-with-noise	B2	
+p0099	167	usable-with-noise	B2	
+p0100	149	high-noise	B2	mixed_script_hallucination_tibetan_like
+p0101	207	usable-with-noise	B2	
+p0102	207	usable-with-noise	B2	
+p0103	148	usable-with-noise	B2	
+p0104	420	usable-with-noise	B2	
+p0105	681	usable-with-noise	B2	
+p0106	1149	usable-with-noise	B2	
+p0107	868	usable-with-noise	B2	
+p0108	996	usable-with-noise	B2	
+p0109	212	usable-with-noise	B2	
+p0110	1115	usable-with-noise	B2	
+p0111	1167	usable-with-noise	B2	
+p0112	1112	usable-with-noise	B2	
+p0113	884	usable-with-noise	B2	
+p0114	25	short-text	B2	verified_BRIEFKAART
+p0115	603	usable-with-noise	B2	
+p0116	612	usable-with-noise	B2	
+p0117	520	usable-with-noise	B2	
+p0118	711	usable-with-noise	B2	
+p0119	231	usable-with-noise	B2	
+p0120	667	usable-with-noise	B2	
+p0121	401	usable-with-noise	B2	
+p0122	0	short-text	B2	baseline_empty;verified_BRIEFKAART
+p0123	435	usable-with-noise	B2	
+p0124	284	usable-with-noise	B2	
+p0125	282	usable-with-noise	B2	
+p0126	205	usable-with-noise	B2	
+p0127	237	usable-with-noise	B2	
+p0128	118	usable-with-noise	B2	
+p0129	342	usable-with-noise	B2	
+p0130	215	usable-with-noise	B2	
+p0131	380	usable-with-noise	B2	
+p0132	392	usable-with-noise	B2	
+p0133	0	short-text	B2	baseline_empty;verified_BRIEFKAART
+p0134	823	usable-with-noise	B2	
+p0135	609	usable-with-noise	B2	
+p0136	396	usable-with-noise	B2	
+p0137	422	usable-with-noise	B2	
+p0138	694	usable-with-noise	B2	
+p0139	936	usable-with-noise	B2	
+p0140	538	high-noise	B2	duplicate_table_generation|ocr_repetition_cleaned
+p0141	635	usable-with-noise	B2	
+p0142	1186	usable-with-noise	B2	
+p0143	1101	usable-with-noise	B2	
+p0144	0	blank-no-substantive	B2	baseline_empty_verified_blank
+p0145	510	usable-with-noise	B2	
+p0146	722	usable-with-noise	B2	
+p0147	610	usable-with-noise	B2	
+p0148	693	high-noise	B2	ocr_char_run_removed|ocr_repetition_cleaned
+p0149	27	short-text	B2	verified_BRIEFKAART
+p0150	451	usable-with-noise	B2	
+p0151	747	usable-with-noise	B2	
+p0152	717	usable-with-noise	B2	
+p0153	640	usable-with-noise	B2	
+p0154	743	usable-with-noise	B2	
+p0155	5	short-text	B2	verified_BRIEFKAART
+p0156	903	usable-with-noise	B2	
+p0157	1742	usable-with-noise	B3	
+p0158	1976	usable-with-noise	B3	
+p0159	1873	usable-with-noise	B3	
+p0160	1837	usable-with-noise	B3	
+p0161	1990	usable-with-noise	B3	
+p0162	1973	usable-with-noise	B3	
+p0163	1895	usable-with-noise	B3	
+p0164	2002	usable-with-noise	B3	
+p0165	619	usable-with-noise	B3	
+p0166	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0167	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0168	1521	high-noise	C1	mounted_slip_layout;ocr_repeat_run_cleaned_v3
+p0169	91	high-noise	C1	mounted_slip_layout;severe_under_capture
+p0170	51	high-noise	C1	mounted_slip_layout;severe_under_capture
+p0171	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0172	690	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0173	921	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0174	13	high-noise	C1	mounted_slip_layout;severe_under_capture
+p0175	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0176	624	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0177	478	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0178	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0179	1809	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0180	1540	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0181	325	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0182	537	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0183	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0184	227	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0185	129	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0186	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0187	1036	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0188	913	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0189	1269	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0190	1382	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0191	5070	high-noise	C1	mounted_slip_layout;generated_number_sequence_overexpansion
+p0192	428	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0193	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0194	1308	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0195	1705	high-noise	C1	mounted_slip_layout;mixed_script_hallucination_cyrillic_like
+p0196	815	high-noise	C1	mounted_slip_layout;reading_order_risk|ocr_repetition_cleaned
+p0197	5675	high-noise	C1	mounted_slip_layout;generated_number_sequence_overexpansion
+p0198	431	high-noise	C1	mounted_slip_layout;reading_order_risk|ocr_repetition_cleaned
+p0199	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0200	192	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0201	114	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0202	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0203	1899	high-noise	C1	mounted_slip_layout;semantic_hallucination_cybersecurity
+p0204	1199	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0205	1219	high-noise	C1	mounted_slip_layout;ocr_repeat_run_cleaned_v3|ocr_repetition_cleaned
+p0206	1706	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0207	1850	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0208	1169	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0209	292	high-noise	C1	mounted_slip_layout;reading_order_risk|ocr_repetition_cleaned
+p0210	1978	high-noise	C1	mounted_slip_layout;duplicate_table_generation|ocr_repetition_cleaned
+p0211	3827	high-noise	C1	mounted_slip_layout;ocr_char_run_removed;semantic_hallucination|ocr_repetition_cleaned
+p0212	74	high-noise	C1	mounted_slip_layout;severe_under_capture;ocr_char_run_removed|ocr_repetition_cleaned
+p0213	3203	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0214	2490	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0215	1267	high-noise	C1	mounted_slip_layout;mixed_script_hallucination_arabic_like
+p0216	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0217	1024	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0218	1487	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0219	350	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0220	0	blank-no-substantive	C1	baseline_empty_verified_blank
+p0221	699	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0222	1379	high-noise	C1	mounted_slip_layout;ocr_paragraph_repeat_removed|ocr_repeat_run_cleaned_v3
+p0223	696	high-noise	C1	mounted_slip_layout;reading_order_risk
+p0224	1214	usable-with-noise	C2	
+p0225	1452	usable-with-noise	C2	
+p0226	1443	usable-with-noise	C2	
+p0227	462	usable-with-noise	C2	
+p0228	57	high-noise	C2	severe_under_capture;ocr_char_run_removed|ocr_repetition_cleaned
+p0229	820	usable-with-noise	C2	
+p0230	279	usable-with-noise	C2	
+p0231	0	blank-no-substantive	C2	baseline_empty_verified_blank
+p0232	538	usable-with-noise	C2	
+p0233	1583	usable	C3	
+p0234	5271	usable	C3	
+p0235	4433	usable	C3	
+p0236	4282	usable	C3	
+p0237	0	false-empty-recovery	C3	baseline_empty_false_negative;mounted_slip_layout
+p0238	8	short-text	C3	short_label_GROTIVS
+p0239	8	short-text	C3	short_envelope_label
+p0240	1414	usable	D1	
+p0241	1051	usable	D1	
+p0242	2535	usable	D1	
+p0243	2927	usable	D1	
+p0244	2829	usable	D1	
+p0245	2840	usable	D1	
+p0246	2697	usable	D1	
+p0247	2634	usable	D1	
+p0248	2709	usable	D1	
+p0249	2862	usable	D1	
+p0250	2746	usable	D1	
+p0251	2131	usable	D1	
+p0252	0	blank-no-substantive	D1	baseline_empty_verified_blank
+p0253	1372	usable	D1	
+p0254	637	usable	D1	
