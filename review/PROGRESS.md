@@ -130,6 +130,22 @@ Updated: 2026-08-21
 
 **Chunk 009 retrieval-grade visual audit: COMPLETE (102/102).**
 
+## Chunk 010
+
+- Source span: `chunk_010:p0001`–`chunk_010:p0153` (153 scan pages).
+- Split scan set verified complete and contiguous: 1–40, 41–80, 81–120, 121–153; page-count check `40 + 40 + 40 + 33 = 153`.
+- **Full-page visual audit: 153/153 complete.** The regular notebook sequence was checked at page-layout level; anomalies and empty-OCR cases were rechecked at higher resolution.
+- Page classes: **143 usable-with-noise; 6 high-noise; 1 false-empty OCR recovery; 1 verified short-text page; 2 genuinely blank/no-substantive-text pages.**
+- Baseline empty OCR pages: `p0150`, `p0151`, `p0152`. Visual result: **two blank** (`p0150`, `p0151`) and **one false-empty** (`p0152`).
+- `p0152` contains an envelope marked **“Fred. Hendrik”** plus two handwritten slips; conservative visible anchors include **1633–1637** and **1905**.
+- High-noise queue: `p0006`, `p0007`, `p0060`, `p0102`, `p0128`, `p0153`.
+- `p0153` is a clear baseline hallucination: OCR **“2020 THETROO DAOMO ROBLOX UK”** versus the visible mounted-slip text **“de naamverwisseling.”**
+- Files: `review/chunk_010/full_visual_audit_manifest_v1.tsv`, `empty_ocr_visual_review.jsonl`, `review_summary_v1.md`, `status.txt`, `README.md`.
+
+### Status
+
+**Chunk 010 retrieval-grade visual audit: COMPLETE (153/153).**
+
 ## Cross-chunk institutional hits
 
 - Verified Rockefeller stationery now includes occurrences in reviewed chunks 001, 003, 005, 007, and 008. Newly verified complete OCR false negatives are `chunk_005:p0063` and `chunk_008:p0001`; `chunk_005:p0059` also visibly carries the same letterhead and was captured by baseline OCR.
