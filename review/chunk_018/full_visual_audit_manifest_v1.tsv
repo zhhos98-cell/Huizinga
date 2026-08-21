@@ -1,0 +1,248 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_018:p0001	0001	2261	usable-with-noise	
+chunk_018:p0002	0002	1820	usable-with-noise	
+chunk_018:p0003	0003	1707	usable-with-noise	
+chunk_018:p0004	0004	1484	usable-with-noise	
+chunk_018:p0005	0005	1581	usable-with-noise	
+chunk_018:p0006	0006	1596	usable-with-noise	
+chunk_018:p0007	0007	1886	high-noise	v3 removed pathological inline repetition (x2024); surviving OCR still contains obvious corruption
+chunk_018:p0008	0008	2093	usable-with-noise	
+chunk_018:p0009	0009	1582	usable-with-noise	
+chunk_018:p0010	0010	1731	usable-with-noise	
+chunk_018:p0011	0011	1571	usable-with-noise	
+chunk_018:p0012	0012	1510	usable-with-noise	
+chunk_018:p0013	0013	2206	usable-with-noise	
+chunk_018:p0014	0014	2204	usable-with-noise	
+chunk_018:p0015	0015	1418	usable-with-noise	
+chunk_018:p0016	0016	1672	usable-with-noise	
+chunk_018:p0017	0017	1711	usable-with-noise	
+chunk_018:p0018	0018	1759	usable-with-noise	
+chunk_018:p0019	0019	1661	usable-with-noise	
+chunk_018:p0020	0020	1446	usable-with-noise	
+chunk_018:p0021	0021	1451	usable-with-noise	
+chunk_018:p0022	0022	1659	usable-with-noise	
+chunk_018:p0023	0023	1607	usable-with-noise	
+chunk_018:p0024	0024	1576	usable-with-noise	
+chunk_018:p0025	0025	1616	usable-with-noise	
+chunk_018:p0026	0026	1957	usable-with-noise	
+chunk_018:p0027	0027	1540	usable-with-noise	
+chunk_018:p0028	0028	1546	usable-with-noise	
+chunk_018:p0029	0029	1677	usable-with-noise	
+chunk_018:p0030	0030	1662	usable-with-noise	
+chunk_018:p0031	0031	1582	usable-with-noise	
+chunk_018:p0032	0032	491	usable-with-noise	
+chunk_018:p0033	0033	1822	usable-with-noise	
+chunk_018:p0034	0034	2037	usable-with-noise	
+chunk_018:p0035	0035	1730	usable-with-noise	
+chunk_018:p0036	0036	1725	usable-with-noise	
+chunk_018:p0037	0037	1573	usable-with-noise	
+chunk_018:p0038	0038	1796	usable-with-noise	
+chunk_018:p0039	0039	2146	usable-with-noise	
+chunk_018:p0040	0040	1594	usable-with-noise	
+chunk_018:p0041	0041	1864	usable-with-noise	
+chunk_018:p0042	0042	2294	usable-with-noise	
+chunk_018:p0043	0043	469	usable-with-noise	
+chunk_018:p0044	0044	833	usable-with-noise	
+chunk_018:p0045	0045	1537	usable-with-noise	
+chunk_018:p0046	0046	1565	usable-with-noise	
+chunk_018:p0047	0047	1481	usable-with-noise	
+chunk_018:p0048	0048	1584	usable-with-noise	
+chunk_018:p0049	0049	1436	usable-with-noise	
+chunk_018:p0050	0050	1513	usable-with-noise	
+chunk_018:p0051	0051	1659	usable-with-noise	
+chunk_018:p0052	0052	764	usable-with-noise	
+chunk_018:p0053	0053	1345	usable-with-noise	
+chunk_018:p0054	0054	355	usable-with-noise	
+chunk_018:p0055	0055	1673	usable-with-noise	
+chunk_018:p0056	0056	2095	usable-with-noise	
+chunk_018:p0057	0057	1553	usable-with-noise	
+chunk_018:p0058	0058	1637	usable-with-noise	
+chunk_018:p0059	0059	1442	usable-with-noise	
+chunk_018:p0060	0060	1663	usable-with-noise	
+chunk_018:p0061	0061	1934	usable-with-noise	
+chunk_018:p0062	0062	1088	usable-with-noise	
+chunk_018:p0063	0063	1869	usable-with-noise	
+chunk_018:p0064	0064	1605	usable-with-noise	
+chunk_018:p0065	0065	1665	usable-with-noise	
+chunk_018:p0066	0066	765	usable-with-noise	
+chunk_018:p0067	0067	1126	usable-with-noise	
+chunk_018:p0068	0068	1562	usable-with-noise	
+chunk_018:p0069	0069	1560	usable-with-noise	
+chunk_018:p0070	0070	1673	usable-with-noise	
+chunk_018:p0071	0071	1688	usable-with-noise	
+chunk_018:p0072	0072	1703	usable-with-noise	
+chunk_018:p0073	0073	1893	usable-with-noise	
+chunk_018:p0074	0074	989	usable-with-noise	
+chunk_018:p0075	0075	1521	usable-with-noise	
+chunk_018:p0076	0076	2292	usable-with-noise	
+chunk_018:p0077	0077	1559	usable-with-noise	
+chunk_018:p0078	0078	1467	usable-with-noise	
+chunk_018:p0079	0079	1942	usable-with-noise	
+chunk_018:p0080	0080	1569	usable-with-noise	
+chunk_018:p0081	0081	1610	usable-with-noise	
+chunk_018:p0082	0082	1858	usable-with-noise	
+chunk_018:p0083	0083	2329	usable-with-noise	
+chunk_018:p0084	0084	1451	usable-with-noise	
+chunk_018:p0085	0085	1548	usable-with-noise	
+chunk_018:p0086	0086	1401	usable-with-noise	
+chunk_018:p0087	0087	1559	usable-with-noise	
+chunk_018:p0088	0088	1581	usable-with-noise	
+chunk_018:p0089	0089	1490	usable-with-noise	
+chunk_018:p0090	0090	1486	usable-with-noise	
+chunk_018:p0091	0091	1540	usable-with-noise	
+chunk_018:p0092	0092	1432	usable-with-noise	
+chunk_018:p0093	0093	713	high-noise	compound layout with mounted small card and blank sheet; reading order/coverage unreliable
+chunk_018:p0094	0094	1619	high-noise	compound mounted-card + full manuscript layout; baseline does not reliably preserve both components
+chunk_018:p0095	0095	816	usable-with-noise	
+chunk_018:p0096	0096	1100	usable-with-noise	
+chunk_018:p0097	0097	1586	usable-with-noise	
+chunk_018:p0098	0098	1653	usable-with-noise	
+chunk_018:p0099	0099	1511	usable-with-noise	
+chunk_018:p0100	0100	1507	usable-with-noise	
+chunk_018:p0101	0101	1490	usable-with-noise	
+chunk_018:p0102	0102	1281	usable-with-noise	
+chunk_018:p0103	0103	1706	usable-with-noise	
+chunk_018:p0104	0104	2136	usable-with-noise	
+chunk_018:p0105	0105	1727	usable-with-noise	
+chunk_018:p0106	0106	1628	usable-with-noise	
+chunk_018:p0107	0107	1129	usable-with-noise	
+chunk_018:p0108	0108	1024	usable-with-noise	
+chunk_018:p0109	0109	1593	usable-with-noise	
+chunk_018:p0110	0110	1690	usable-with-noise	
+chunk_018:p0111	0111	1587	usable-with-noise	
+chunk_018:p0112	0112	2226	usable-with-noise	
+chunk_018:p0113	0113	1606	usable-with-noise	
+chunk_018:p0114	0114	4303	usable-with-noise	multi-clipping newspaper page with marginal manuscript notes; OCR broadly usable but reading order is non-linear
+chunk_018:p0115	0115	1799	usable-with-noise	
+chunk_018:p0116	0116	1175	usable-with-noise	
+chunk_018:p0117	0117	1824	usable-with-noise	
+chunk_018:p0118	0118	1635	usable-with-noise	
+chunk_018:p0119	0119	1712	usable-with-noise	
+chunk_018:p0120	0120	1977	usable-with-noise	
+chunk_018:p0121	0121	1599	usable-with-noise	
+chunk_018:p0122	0122	1464	usable-with-noise	
+chunk_018:p0123	0123	1478	usable-with-noise	
+chunk_018:p0124	0124	478	usable-with-noise	
+chunk_018:p0125	0125	2028	usable-with-noise	
+chunk_018:p0126	0126	1607	usable-with-noise	
+chunk_018:p0127	0127	3176	usable-with-noise	
+chunk_018:p0128	0128	1575	usable-with-noise	
+chunk_018:p0129	0129	1603	usable-with-noise	
+chunk_018:p0130	0130	1813	usable-with-noise	
+chunk_018:p0131	0131	1696	usable-with-noise	
+chunk_018:p0132	0132	1149	usable-with-noise	
+chunk_018:p0133	0133	1577	usable-with-noise	
+chunk_018:p0134	0134	2403	usable-with-noise	
+chunk_018:p0135	0135	1575	usable-with-noise	
+chunk_018:p0136	0136	1690	usable-with-noise	
+chunk_018:p0137	0137	1194	high-noise	v3 removed pathological inline repetition (x574); surviving OCR contains obvious hallucinated multilingual material
+chunk_018:p0138	0138	1667	usable-with-noise	
+chunk_018:p0139	0139	1658	usable-with-noise	
+chunk_018:p0140	0140	1873	usable-with-noise	
+chunk_018:p0141	0141	501	usable-with-noise	
+chunk_018:p0142	0142	2328	usable-with-noise	
+chunk_018:p0143	0143	1500	usable-with-noise	
+chunk_018:p0144	0144	1833	usable-with-noise	
+chunk_018:p0145	0145	1686	usable-with-noise	
+chunk_018:p0146	0146	1584	usable-with-noise	
+chunk_018:p0147	0147	1738	usable	clean printed clipping headed 'UIT DE PHILOSOPHIE VAN WILLIAM JAMES'; baseline strong
+chunk_018:p0148	0148	3014	high-noise	compound printed clipping plus adjacent handwritten note; baseline heavily privileges printed column
+chunk_018:p0149	0149	1630	high-noise	two separate handwritten fragments; ordering and coverage unstable
+chunk_018:p0150	0150	3463	high-noise	rotated handwritten strip plus full manuscript sheet; reading order and transcription unstable
+chunk_018:p0151	0151	1634	usable-with-noise	
+chunk_018:p0152	0152	2021	usable-with-noise	
+chunk_018:p0153	0153	2385	usable-with-noise	
+chunk_018:p0154	0154	1728	usable-with-noise	
+chunk_018:p0155	0155	1901	usable-with-noise	
+chunk_018:p0156	0156	1730	usable-with-noise	
+chunk_018:p0157	0157	1692	usable-with-noise	
+chunk_018:p0158	0158	2412	usable-with-noise	
+chunk_018:p0159	0159	1719	usable-with-noise	
+chunk_018:p0160	0160	659	high-noise	mounted small note on dark board; OCR under-captures the visual/documentary layout
+chunk_018:p0161	0161	1568	high-noise	compound dark-board note plus full handwritten sheet; baseline conflates/under-captures components
+chunk_018:p0162	0162	1604	usable-with-noise	
+chunk_018:p0163	0163	844	usable-with-noise	
+chunk_018:p0164	0164	0	blank	book/cover and blank leaves; no substantive text visible
+chunk_018:p0165	0165	262	high-noise	open notebook with two hand-drawn profile heads and Leiden bookseller label; OCR captures label but not drawings
+chunk_018:p0166	0166	0	blank	patterned book cover; no substantive text visible
+chunk_018:p0167	0167	1163	high-noise	small card/fragment; handwriting coverage incomplete
+chunk_018:p0168	0168	204	high-noise	postcard form plus dense handwritten card; baseline severely under-captures right-hand card
+chunk_018:p0169	0169	441	high-noise	postcard form plus handwritten fragment; small/rotated layout unstable
+chunk_018:p0170	0170	636	high-noise	postcard/form + small card; small-layout reading order unstable
+chunk_018:p0171	0171	384	high-noise	small card; OCR partial
+chunk_018:p0172	0172	706	high-noise	small card; OCR partial
+chunk_018:p0173	0173	1464	high-noise	two small cards; reading order unstable
+chunk_018:p0174	0174	1530	high-noise	two small cards; reading order unstable
+chunk_018:p0175	0175	1367	high-noise	two small cards; reading order unstable
+chunk_018:p0176	0176	0	false-empty	baseline empty; printed postcard headed 'BRIEFKAART' with address lines is visible
+chunk_018:p0177	0177	742	high-noise	narrow manuscript card; small-layout OCR unstable
+chunk_018:p0178	0178	1169	high-noise	two narrow manuscript cards; reading order unstable
+chunk_018:p0179	0179	0	blank	blank narrow strip; no substantive text visible
+chunk_018:p0180	0180	1526	usable-with-noise	
+chunk_018:p0181	0181	2721	usable-with-noise	
+chunk_018:p0182	0182	1129	usable-with-noise	
+chunk_018:p0183	0183	83	short-text	genuinely brief handwritten note; limited visible text broadly commensurate with OCR
+chunk_018:p0184	0184	1606	usable-with-noise	
+chunk_018:p0185	0185	1675	usable-with-noise	
+chunk_018:p0186	0186	1639	usable-with-noise	
+chunk_018:p0187	0187	1674	usable-with-noise	
+chunk_018:p0188	0188	1683	usable-with-noise	
+chunk_018:p0189	0189	1526	usable-with-noise	
+chunk_018:p0190	0190	462	usable-with-noise	
+chunk_018:p0191	0191	2110	usable-with-noise	
+chunk_018:p0192	0192	1487	usable-with-noise	
+chunk_018:p0193	0193	1524	usable-with-noise	
+chunk_018:p0194	0194	1345	usable-with-noise	
+chunk_018:p0195	0195	1353	usable-with-noise	
+chunk_018:p0196	0196	749	usable-with-noise	
+chunk_018:p0197	0197	8	high-noise	sender envelope/card printed 'Afzender J. HUIZINGA / Witte Singel 74' plus an upside-down handwritten slip; OCR captures only 'Afzender'
+chunk_018:p0198	0198	1484	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0199	0199	2570	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0200	0200	1723	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0201	0201	898	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0202	0202	1590	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0203	0203	953	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0204	0204	1156	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0205	0205	214	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0206	0206	476	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0207	0207	1716	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0208	0208	821	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0209	0209	1244	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0210	0210	836	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0211	0211	1088	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0212	0212	923	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0213	0213	723	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0214	0214	891	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0215	0215	1454	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0216	0216	217	high-noise	dense mounted-slip board; severe reading-order collapse/under-capture and multilingual model drift; use image for structure and close transcription for text
+chunk_018:p0217	0217	2054	usable-with-noise	
+chunk_018:p0218	0218	2265	usable-with-noise	
+chunk_018:p0219	0219	1184	usable-with-noise	
+chunk_018:p0220	0220	0	blank	blank sheet/card; no substantive text visible
+chunk_018:p0221	0221	2469	usable-with-noise	
+chunk_018:p0222	0222	2783	usable-with-noise	
+chunk_018:p0223	0223	2671	usable-with-noise	
+chunk_018:p0224	0224	2538	usable-with-noise	
+chunk_018:p0225	0225	2843	usable-with-noise	
+chunk_018:p0226	0226	2477	usable-with-noise	
+chunk_018:p0227	0227	2492	usable-with-noise	
+chunk_018:p0228	0228	3050	usable-with-noise	
+chunk_018:p0229	0229	3387	high-noise	v3 removed a pathological repeated paragraph block (x90); surviving OCR remains heavily hallucinated/corrupted
+chunk_018:p0230	0230	2516	usable-with-noise	
+chunk_018:p0231	0231	1388	usable-with-noise	
+chunk_018:p0232	0232	2516	usable-with-noise	
+chunk_018:p0233	0233	2382	usable-with-noise	
+chunk_018:p0234	0234	2304	usable-with-noise	
+chunk_018:p0235	0235	2781	usable-with-noise	
+chunk_018:p0236	0236	2674	usable-with-noise	
+chunk_018:p0237	0237	1725	usable-with-noise	
+chunk_018:p0238	0238	1165	usable-with-noise	
+chunk_018:p0239	0239	0	blank	blank card; no substantive text visible
+chunk_018:p0240	0240	341	high-noise	mounted-slip board/end-card layout; baseline under-captures and flattens multiple strips; close visual reading required
+chunk_018:p0241	0241	155	high-noise	mounted-slip board/end-card layout; baseline under-captures and flattens multiple strips; close visual reading required
+chunk_018:p0242	0242	0	blank	blank card; no substantive text visible
+chunk_018:p0243	0243	609	high-noise	mounted-slip board/end-card layout; baseline under-captures and flattens multiple strips; close visual reading required
+chunk_018:p0244	0244	183	high-noise	mounted-slip board/end-card layout; baseline under-captures and flattens multiple strips; close visual reading required
+chunk_018:p0245	0245	0	blank	blank card; no substantive text visible
+chunk_018:p0246	0246	933	high-noise	mounted-slip board/end-card layout; baseline under-captures and flattens multiple strips; close visual reading required
+chunk_018:p0247	0247	350	high-noise	mounted-slip board/end-card layout; baseline under-captures and flattens multiple strips; close visual reading required
