@@ -15,5 +15,6 @@ source_spelling_policy: PRESERVE_SCAN_FORMS_BETEEKENISLEER_VIDUSAKA_SAHITYADARPA
 new_high_noise_recheck: p0052,p0067,p0111-p0129,p0130,p0131
 kern_genetic_collation_anchors: p0137<->p0187;p0155<->p0185;p0164<->p0185
 documentary_packets: continuation_Europ_pol_gesch_rondom_1700; Licht_en_geluid_Beteekenisleer; Vidusaka_Sanskrit_drama; Kern_paginated_working_manuscript_1-64; Kern_supplementary_notes; printed_Hendrik_Kern_1899
-cross_chunk_note: chunk_022 Europ_pol_gesch_rondom_1700 continues into chunk_023:p0002-p0039
+cross_chunk_note_022_023: chunk_022 Europ_pol_gesch_rondom_1700 continues into chunk_023:p0002-p0039
+cross_chunk_note_023_024: chunk_024:p0004-p0012 duplicates chunk_023:p0179-p0187; chunk_024:p0013-p0033 continues the printed Hendrik_Kern item beyond chunk_023
 next_chunk: 024
