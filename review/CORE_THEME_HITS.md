@@ -18,3 +18,24 @@ Review rule from chunk 013 onward: while performing full-corpus visual/OCR calib
 - No direct Malinowski/anthropology/ethnology hit in chunk 013. `p0199` uses *primitief* in a chemistry/history-of-science context.
 
 Detailed notes: `review/chunk_013/core_theme_hits_v1.md`.
+
+## Chunk 026
+
+### Tier 1 — play / political allegory
+
+- `chunk_026:p0131–p0132`: direct card-play sequence, headed **“Vorstelijk Kaartspel”** / **“Vorstelyk Kaartspel tusschen een Spanjaard, Hollander, Fransman, Engelsman en Hoogduitser.”** The notes use the card game as a vehicle for political and economic positions among European powers. This is a stronger first-order play-history hit than generic lexical occurrences of *spel*.
+
+### Tier 1 — editorial institutions / Grotius
+
+- `chunk_026:p0253–p0254`: printed **Statuten van de “Vereeniging voor de uitgave van Grotius.”** The association's purpose is to collect and publish the complete material of Grotius's letters and works. The statute is dated 2 January 1917 and lists **J. Huizinga** among the signatories with C. van Vollenhoven, P. C. Molhuysen, A. Eekhof, G. Vissering, D. F. Scheurleer and G. J. Fabius. This is direct institutional evidence of Huizinga's participation in the Grotius editorial project.
+- `chunk_026:p0240`: 1908 Maatschappij der Nederlandsche Letterkunde circular concerning P. C. Molhuysen's catalogue of printed scholarly letters; the circular describes a card catalogue exceeding 40,000 slips. Useful for the archive's recurrent documentary infrastructure of scholarly correspondence, cataloguing and editorial compilation.
+
+### Tier 2 — museum / collection vocabulary
+
+- `chunk_026:p0236`: printed publisher/catalogue occurrence of **MUSEUMSKUNDE. Vierteljahrsschrift für Verwaltung und Technik öffentlicher und privater Sammlungen**, described as an organ of the Deutscher Museumsbund. Bibliographical/institutional occurrence only; do not treat as a Huizinga authorial statement.
+
+### Negative control / contextual vocabulary
+
+- `chunk_026:p0029–p0033`: repeated **primitief/primitieve** vocabulary occurs inside an Indian-medicine/history-of-medicine analytical sequence. Retain it as a first-order vocabulary hit, but the immediate context does not support promotion into a claim about Huizinga's anthropology, Malinowski, or later cultural theory.
+
+Detailed notes: `review/chunk_026/core_theme_hits_v1.md`.
