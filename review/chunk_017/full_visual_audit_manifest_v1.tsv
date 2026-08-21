@@ -1,0 +1,229 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_017:p0001	0001	342	usable-with-noise	
+chunk_017:p0002	0002	773	usable-with-noise	
+chunk_017:p0003	0003	742	usable-with-noise	
+chunk_017:p0004	0004	716	usable-with-noise	
+chunk_017:p0005	0005	757	usable-with-noise	
+chunk_017:p0006	0006	0	false-empty	baseline empty; short handwritten slip visible
+chunk_017:p0007	0007	851	usable-with-noise	
+chunk_017:p0008	0008	1964	usable-with-noise	
+chunk_017:p0009	0009	1986	usable-with-noise	
+chunk_017:p0010	0010	614	usable-with-noise	
+chunk_017:p0011	0011	56	high-noise	mounted board with several handwritten bibliographical slips; OCR captures only a tiny fraction
+chunk_017:p0012	0012	0	false-empty	baseline empty; mounted board with several substantive handwritten slips
+chunk_017:p0013	0013	1405	usable-with-noise	
+chunk_017:p0014	0014	1655	usable-with-noise	
+chunk_017:p0015	0015	1325	usable-with-noise	
+chunk_017:p0016	0016	765	usable-with-noise	
+chunk_017:p0017	0017	1155	usable-with-noise	
+chunk_017:p0018	0018	753	usable-with-noise	
+chunk_017:p0019	0019	1521	usable-with-noise	
+chunk_017:p0020	0020	1303	usable-with-noise	
+chunk_017:p0021	0021	1360	usable-with-noise	
+chunk_017:p0022	0022	1358	usable-with-noise	
+chunk_017:p0023	0023	1366	usable-with-noise	
+chunk_017:p0024	0024	1368	usable-with-noise	
+chunk_017:p0025	0025	1285	usable-with-noise	
+chunk_017:p0026	0026	732	usable-with-noise	
+chunk_017:p0027	0027	1308	usable-with-noise	
+chunk_017:p0028	0028	1366	usable-with-noise	
+chunk_017:p0029	0029	2579	usable-with-noise	
+chunk_017:p0030	0030	944	usable-with-noise	
+chunk_017:p0031	0031	1427	usable-with-noise	
+chunk_017:p0032	0032	880	usable-with-noise	
+chunk_017:p0033	0033	327	usable-with-noise	
+chunk_017:p0034	0034	790	usable-with-noise	
+chunk_017:p0035	0035	1419	usable-with-noise	
+chunk_017:p0036	0036	1393	usable-with-noise	
+chunk_017:p0037	0037	1509	usable-with-noise	
+chunk_017:p0038	0038	1356	usable-with-noise	
+chunk_017:p0039	0039	1449	usable-with-noise	
+chunk_017:p0040	0040	1537	usable-with-noise	
+chunk_017:p0041	0041	1296	usable-with-noise	
+chunk_017:p0042	0042	1354	usable-with-noise	
+chunk_017:p0043	0043	1437	usable-with-noise	
+chunk_017:p0044	0044	1776	usable-with-noise	
+chunk_017:p0045	0045	1214	usable-with-noise	
+chunk_017:p0046	0046	1041	usable-with-noise	
+chunk_017:p0047	0047	256	high-noise	hand-drawn figure/box diagram with notes; severe visual under-capture
+chunk_017:p0048	0048	405	usable-with-noise	
+chunk_017:p0049	0049	6589	high-noise	compound page; pathological OCR over-expansion relative to visible layout
+chunk_017:p0050	0050	2393	usable-with-noise	
+chunk_017:p0051	0051	1522	usable-with-noise	
+chunk_017:p0052	0052	1547	usable-with-noise	
+chunk_017:p0053	0053	1898	usable-with-noise	
+chunk_017:p0054	0054	1322	usable-with-noise	
+chunk_017:p0055	0055	1455	usable-with-noise	
+chunk_017:p0056	0056	371	usable-with-noise	OCR repetition-cleanup flag present; residual text remains usable with caution
+chunk_017:p0057	0057	1244	usable-with-noise	
+chunk_017:p0058	0058	1318	usable-with-noise	
+chunk_017:p0059	0059	1400	usable-with-noise	
+chunk_017:p0060	0060	278	usable-with-noise	
+chunk_017:p0061	0061	1634	usable-with-noise	
+chunk_017:p0062	0062	1339	usable-with-noise	
+chunk_017:p0063	0063	868	usable-with-noise	
+chunk_017:p0064	0064	1405	usable-with-noise	
+chunk_017:p0065	0065	1439	usable-with-noise	
+chunk_017:p0066	0066	1569	usable-with-noise	
+chunk_017:p0067	0067	1500	usable-with-noise	
+chunk_017:p0068	0068	1844	usable-with-noise	
+chunk_017:p0069	0069	0	false-empty	baseline empty; right-hand manuscript sheet contains substantive handwriting
+chunk_017:p0070	0070	674	usable-with-noise	
+chunk_017:p0071	0071	1915	usable-with-noise	
+chunk_017:p0072	0072	2001	usable-with-noise	
+chunk_017:p0073	0073	1865	usable-with-noise	
+chunk_017:p0074	0074	1480	usable-with-noise	
+chunk_017:p0075	0075	1739	usable-with-noise	
+chunk_017:p0076	0076	1336	usable-with-noise	
+chunk_017:p0077	0077	1428	usable-with-noise	
+chunk_017:p0078	0078	2378	usable-with-noise	
+chunk_017:p0079	0079	1362	usable-with-noise	
+chunk_017:p0080	0080	407	usable-with-noise	
+chunk_017:p0081	0081	1383	usable-with-noise	
+chunk_017:p0082	0082	1506	usable-with-noise	
+chunk_017:p0083	0083	1754	usable-with-noise	
+chunk_017:p0084	0084	2009	usable-with-noise	
+chunk_017:p0085	0085	1396	usable-with-noise	
+chunk_017:p0086	0086	1409	usable-with-noise	
+chunk_017:p0087	0087	363	usable-with-noise	
+chunk_017:p0088	0088	1696	usable-with-noise	
+chunk_017:p0089	0089	1311	usable-with-noise	
+chunk_017:p0090	0090	1370	usable-with-noise	
+chunk_017:p0091	0091	933	usable-with-noise	
+chunk_017:p0092	0092	1636	usable-with-noise	
+chunk_017:p0093	0093	1576	usable-with-noise	
+chunk_017:p0094	0094	148	short-text	small handwritten note; brief substantive text broadly commensurate with OCR
+chunk_017:p0095	0095	1486	usable-with-noise	
+chunk_017:p0096	0096	1320	usable-with-noise	
+chunk_017:p0097	0097	1497	usable-with-noise	
+chunk_017:p0098	0098	1376	usable-with-noise	
+chunk_017:p0099	0099	1758	usable-with-noise	
+chunk_017:p0100	0100	1199	usable-with-noise	
+chunk_017:p0101	0101	314	high-noise	small manuscript slip; OCR repetition/multilingual drift makes text unreliable
+chunk_017:p0102	0102	1326	usable-with-noise	
+chunk_017:p0103	0103	798	usable-with-noise	
+chunk_017:p0104	0104	1532	usable-with-noise	
+chunk_017:p0105	0105	1478	usable-with-noise	
+chunk_017:p0106	0106	1516	usable-with-noise	
+chunk_017:p0107	0107	852	usable-with-noise	
+chunk_017:p0108	0108	1496	usable-with-noise	
+chunk_017:p0109	0109	1542	usable-with-noise	
+chunk_017:p0110	0110	1505	usable-with-noise	
+chunk_017:p0111	0111	1477	usable-with-noise	
+chunk_017:p0112	0112	1396	usable-with-noise	
+chunk_017:p0113	0113	1345	usable-with-noise	
+chunk_017:p0114	0114	1146	usable-with-noise	
+chunk_017:p0115	0115	612	usable-with-noise	
+chunk_017:p0116	0116	0	blank	
+chunk_017:p0117	0117	0	blank	
+chunk_017:p0118	0118	0	blank	
+chunk_017:p0119	0119	1334	usable-with-noise	
+chunk_017:p0120	0120	1104	usable-with-noise	
+chunk_017:p0121	0121	1121	usable-with-noise	
+chunk_017:p0122	0122	1007	usable-with-noise	
+chunk_017:p0123	0123	1028	usable-with-noise	
+chunk_017:p0124	0124	1194	usable-with-noise	
+chunk_017:p0125	0125	1243	usable-with-noise	
+chunk_017:p0126	0126	1082	usable-with-noise	
+chunk_017:p0127	0127	1062	usable-with-noise	
+chunk_017:p0128	0128	1089	usable-with-noise	
+chunk_017:p0129	0129	1123	usable-with-noise	
+chunk_017:p0130	0130	1082	usable-with-noise	
+chunk_017:p0131	0131	1132	usable-with-noise	
+chunk_017:p0132	0132	1128	usable-with-noise	
+chunk_017:p0133	0133	1106	usable-with-noise	
+chunk_017:p0134	0134	1034	usable-with-noise	
+chunk_017:p0135	0135	1203	usable-with-noise	
+chunk_017:p0136	0136	1030	usable-with-noise	
+chunk_017:p0137	0137	895	usable-with-noise	
+chunk_017:p0138	0138	1092	usable-with-noise	
+chunk_017:p0139	0139	1069	usable-with-noise	
+chunk_017:p0140	0140	0	blank	
+chunk_017:p0141	0141	1859	usable-with-noise	
+chunk_017:p0142	0142	774	usable-with-noise	
+chunk_017:p0143	0143	1030	usable-with-noise	
+chunk_017:p0144	0144	1084	usable-with-noise	
+chunk_017:p0145	0145	1203	usable-with-noise	
+chunk_017:p0146	0146	1032	usable-with-noise	
+chunk_017:p0147	0147	965	usable-with-noise	
+chunk_017:p0148	0148	1073	usable-with-noise	
+chunk_017:p0149	0149	1060	usable-with-noise	
+chunk_017:p0150	0150	1054	usable-with-noise	
+chunk_017:p0151	0151	1010	usable-with-noise	
+chunk_017:p0152	0152	1050	usable-with-noise	
+chunk_017:p0153	0153	1020	usable-with-noise	
+chunk_017:p0154	0154	1033	usable-with-noise	
+chunk_017:p0155	0155	1045	usable-with-noise	
+chunk_017:p0156	0156	1009	usable-with-noise	
+chunk_017:p0157	0157	1006	usable-with-noise	
+chunk_017:p0158	0158	1006	usable-with-noise	
+chunk_017:p0159	0159	1027	usable-with-noise	
+chunk_017:p0160	0160	974	usable-with-noise	
+chunk_017:p0161	0161	1022	usable-with-noise	
+chunk_017:p0162	0162	1039	usable-with-noise	
+chunk_017:p0163	0163	1044	usable-with-noise	
+chunk_017:p0164	0164	1047	usable-with-noise	
+chunk_017:p0165	0165	0	false-empty	baseline empty; right-hand manuscript sheet contains substantive handwriting
+chunk_017:p0166	0166	1777	usable-with-noise	
+chunk_017:p0167	0167	1076	usable-with-noise	
+chunk_017:p0168	0168	1020	usable-with-noise	
+chunk_017:p0169	0169	1069	usable-with-noise	
+chunk_017:p0170	0170	1212	usable-with-noise	
+chunk_017:p0171	0171	1332	usable-with-noise	
+chunk_017:p0172	0172	1047	usable-with-noise	
+chunk_017:p0173	0173	980	usable-with-noise	
+chunk_017:p0174	0174	978	usable-with-noise	
+chunk_017:p0175	0175	1138	usable-with-noise	
+chunk_017:p0176	0176	1038	usable-with-noise	
+chunk_017:p0177	0177	107	short-text	sparse handwritten page with only a few substantive lines
+chunk_017:p0178	0178	0	blank	
+chunk_017:p0179	0179	0	blank	
+chunk_017:p0180	0180	726	high-noise	mounted 'beeld van Phil. den Goed' character/image dossier; reading order unstable
+chunk_017:p0181	0181	0	false-empty	baseline empty; two mounted boards densely filled with slips/notes
+chunk_017:p0182	0182	1618	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0183	0183	1299	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0184	0184	0	false-empty	baseline empty; mounted board with several substantive slips and a larger note
+chunk_017:p0185	0185	0	blank	
+chunk_017:p0186	0186	1039	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0187	0187	12	high-noise	dense double mounted board; OCR essentially empty (12 chars)
+chunk_017:p0188	0188	7446	high-noise	mounted boards; extreme OCR over-expansion relative to visible material
+chunk_017:p0189	0189	1860	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0190	0190	618	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0191	0191	463	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0192	0192	1039	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0193	0193	592	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0194	0194	2056	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0195	0195	1954	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0196	0196	251	high-noise	mounted board; severe under-capture and reading-order collapse
+chunk_017:p0197	0197	0	blank	
+chunk_017:p0198	0198	1583	high-noise	dense mounted-slip dossier; OCR reading order and completeness unreliable
+chunk_017:p0199	0199	3475	high-noise	mounted notes; repetition-cleaned OCR remains unstable
+chunk_017:p0200	0200	0	false-empty	baseline empty; mounted board densely filled with substantive slips
+chunk_017:p0201	0201	0	blank	
+chunk_017:p0202	0202	0	false-empty	baseline empty; envelope plus mounted board with substantive notes
+chunk_017:p0203	0203	656	high-noise	portrait-source/reference notes; mounted/referential layout, close reading required
+chunk_017:p0204	0204	1641	high-noise	portrait-location/reference dossier; pathological token repetition removed (x1350)
+chunk_017:p0205	0205	1064	usable	Selma Jandt (Gotha) photographic-studio invoice to Huizinga, dated 27 Nov 1929
+chunk_017:p0206	0206	565	usable	M. Escoute (Lille) industrial/documentary photography and art-reproduction invoice to Huizinga, dated 5 Dec 1929
+chunk_017:p0207	0207	7127	high-noise	postal money-order receipts plus notes; numerical/table over-expansion and reading-order failure
+chunk_017:p0208	0208	629	usable	Huizinga letter draft to director of Museum in Gotha requesting an approx. 20 x 26 cm photograph of a Philip the Good portrait
+chunk_017:p0209	0209	0	blank	
+chunk_017:p0210	0210	643	high-noise	mounted notes with duplicate-table-row pathology
+chunk_017:p0211	0211	38	high-noise	two dense mounted boards; OCR captures only 38 chars
+chunk_017:p0212	0212	0	false-empty	baseline empty; mounted board with multiple substantive handwritten notes
+chunk_017:p0213	0213	0	blank	
+chunk_017:p0214	0214	1334	usable-with-noise	
+chunk_017:p0215	0215	876	usable-with-noise	
+chunk_017:p0216	0216	646	usable-with-noise	
+chunk_017:p0217	0217	36	high-noise	mounted board with many slips; OCR captures only 36 chars
+chunk_017:p0218	0218	805	usable	printed article 'Quatre lettres autographes de Philippe le Bon' with corrective note
+chunk_017:p0219	0219	3424	usable	continuation of printed article; autograph letters treated as evidence of Philip's character
+chunk_017:p0220	0220	3619	usable	printed pièces justificatives: transcriptions of autograph letters of Philip the Good
+chunk_017:p0221	0221	2667	usable	continuation of printed autograph-letter transcriptions
+chunk_017:p0222	0222	580	usable	
+chunk_017:p0223	0223	108	usable-with-noise	
+chunk_017:p0224	0224	1535	usable	printed German art-historical description of a portrait of Philip the Good
+chunk_017:p0225	0225	1357	usable	printed German discussion of portrait copies, anachronism and iconographic genealogy
+chunk_017:p0226	0226	0	blank	
+chunk_017:p0227	0227	492	usable	
+chunk_017:p0228	0228	228	short-text	small handwritten card with brief bibliographical/note text
