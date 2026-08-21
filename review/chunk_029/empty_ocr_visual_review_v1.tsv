@@ -1,0 +1,71 @@
+page_id	visual_resolution	note
+p0001	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0003	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0018	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0019	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0021	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0028	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0031	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0032	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0034	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0037	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0040	false-empty-recovery	visual review: four substantive mounted slips; complete baseline OCR false negative
+p0041	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0045	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0046	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0049	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0050	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0053	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0056	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0059	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0062	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0063	false-empty-recovery	visual review: multiple mounted slips plus card; complete baseline OCR false negative
+p0064	false-empty-recovery	visual review: two substantive mounted slips; complete baseline OCR false negative
+p0065	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0069	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0075	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0082	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0084	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0086	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0091	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0096	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0102	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0111	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0114	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0117	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0120	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0123	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0128	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0133	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0142	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0146	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0148	short-text	visual review: one short mounted handwritten slip; baseline OCR empty
+p0149	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0152	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0159	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0162	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0165	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0169	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0172	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0173	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0182	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0183	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0190	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0193	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0200	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0201	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0203	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0204	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0207	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0213	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0214	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0217	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0220	false-empty-recovery	visual review: populated mounted board with substantive handwritten slips despite empty baseline OCR
+p0221	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0225	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0227	false-empty-recovery	visual review: several substantive mounted slips including a diagrammatic note; complete baseline OCR false negative
+p0228	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0231	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0232	false-empty-recovery	visual review: two substantive mounted slips; complete baseline OCR false negative
+p0234	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
+p0237	blank-no-substantive	visual review: no substantive text; blank card/folder/separator or empty mounted field
