@@ -1,0 +1,5 @@
+page_id	baseline_reading	verified_scan_reading_or_status	confidence	note
+chunk_022:p0038	Duitsche Rijk 1688. 1924/25. 1934/35	Duitsche Rijk 1648–1688. 1924/25. 1934/35 ten deele	high	critical packet-title correction; 1934/35 is explicitly partial reuse
+chunk_022:p0166	[empty OCR]	Europ. pol. gesch. rondom 1700. (met materiaal ter voortzetting) 1926/27 1934/35	high	false-empty packet-title recovery
+chunk_022:p0243	OCR unstable / prior paraphrase risk	het maximum van monarchale militair-diplomatieke autonomie! - heel anders dan 1914, en 1935?; margin: de krijg als vak en techniek	high	do not paraphrase this as `war becomes a science`
+chunk_022:p0247	16. - 6. II. 35	16. - 6.III.'35	high	scan/date sequence confirms March, not February
