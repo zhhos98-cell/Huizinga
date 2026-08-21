@@ -1,0 +1,236 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_021:p0001	0001	0	false-empty	baseline OCR empty; image recovers handwritten title `1850-1900`
+chunk_021:p0002	0002	334	usable-with-noise	
+chunk_021:p0003	0003	2220	usable-with-noise	
+chunk_021:p0004	0004	1657	usable-with-noise	
+chunk_021:p0005	0005	3244	usable-with-noise	
+chunk_021:p0006	0006	4239	usable-with-noise	
+chunk_021:p0007	0007	5334	usable-with-noise	
+chunk_021:p0008	0008	4130	usable-with-noise	
+chunk_021:p0009	0009	4197	usable-with-noise	
+chunk_021:p0010	0010	4034	usable-with-noise	
+chunk_021:p0011	0011	3527	usable-with-noise	
+chunk_021:p0012	0012	2010	usable-with-noise	
+chunk_021:p0013	0013	624	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0014	0014	3332	usable-with-noise	
+chunk_021:p0015	0015	5565	usable-with-noise	
+chunk_021:p0016	0016	4801	usable-with-noise	
+chunk_021:p0017	0017	1144	usable-with-noise	
+chunk_021:p0018	0018	1437	usable-with-noise	
+chunk_021:p0019	0019	754	usable-with-noise	
+chunk_021:p0020	0020	629	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0021	0021	3406	usable-with-noise	
+chunk_021:p0022	0022	4643	usable-with-noise	
+chunk_021:p0023	0023	4166	usable-with-noise	
+chunk_021:p0024	0024	4229	usable-with-noise	
+chunk_021:p0025	0025	3591	usable-with-noise	
+chunk_021:p0026	0026	2537	usable-with-noise	
+chunk_021:p0027	0027	1134	usable-with-noise	
+chunk_021:p0028	0028	786	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0029	0029	700	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0030	0030	2579	usable-with-noise	
+chunk_021:p0031	0031	4381	usable-with-noise	
+chunk_021:p0032	0032	3941	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0033	0033	1345	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0034	0034	2417	usable-with-noise	
+chunk_021:p0035	0035	4168	usable-with-noise	
+chunk_021:p0036	0036	3858	usable-with-noise	
+chunk_021:p0037	0037	3276	usable-with-noise	
+chunk_021:p0038	0038	3751	usable-with-noise	
+chunk_021:p0039	0039	3697	usable-with-noise	
+chunk_021:p0040	0040	5588	usable-with-noise	
+chunk_021:p0041	0041	2956	high-noise	gross OCR repetition/over-expansion relative to source page; retrieval and quotation unsafe
+chunk_021:p0042	0042	4787	usable-with-noise	
+chunk_021:p0043	0043	1837	usable-with-noise	
+chunk_021:p0044	0044	2041	usable-with-noise	
+chunk_021:p0045	0045	3743	usable-with-noise	
+chunk_021:p0046	0046	3883	usable-with-noise	
+chunk_021:p0047	0047	2799	usable-with-noise	
+chunk_021:p0048	0048	304	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0049	0049	3963	usable-with-noise	
+chunk_021:p0050	0050	2920	usable-with-noise	
+chunk_021:p0051	0051	2654	usable-with-noise	
+chunk_021:p0052	0052	1886	usable-with-noise	
+chunk_021:p0053	0053	1697	usable-with-noise	
+chunk_021:p0054	0054	28	short-text	very short transition/title page: `1815-1848 | 1907/8 | 1920/21`
+chunk_021:p0055	0055	2513	usable-with-noise	
+chunk_021:p0056	0056	5422	usable-with-noise	
+chunk_021:p0057	0057	5101	usable-with-noise	
+chunk_021:p0058	0058	5179	usable-with-noise	
+chunk_021:p0059	0059	2852	usable-with-noise	
+chunk_021:p0060	0060	6088	usable-with-noise	
+chunk_021:p0061	0061	5020	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0062	0062	3398	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0063	0063	1947	usable-with-noise	
+chunk_021:p0064	0064	3599	usable-with-noise	
+chunk_021:p0065	0065	6524	usable-with-noise	
+chunk_021:p0066	0066	5848	usable-with-noise	
+chunk_021:p0067	0067	6131	usable-with-noise	
+chunk_021:p0068	0068	6451	usable-with-noise	
+chunk_021:p0069	0069	5267	usable-with-noise	
+chunk_021:p0070	0070	571	usable-with-noise	
+chunk_021:p0071	0071	2360	usable-with-noise	
+chunk_021:p0072	0072	5878	usable-with-noise	
+chunk_021:p0073	0073	6104	usable-with-noise	
+chunk_021:p0074	0074	4771	usable-with-noise	
+chunk_021:p0075	0075	3407	usable-with-noise	
+chunk_021:p0076	0076	3373	usable-with-noise	
+chunk_021:p0077	0077	1681	usable-with-noise	
+chunk_021:p0078	0078	4968	usable-with-noise	
+chunk_021:p0079	0079	5536	usable-with-noise	
+chunk_021:p0080	0080	4055	usable-with-noise	
+chunk_021:p0081	0081	3058	usable-with-noise	
+chunk_021:p0082	0082	3332	usable-with-noise	
+chunk_021:p0083	0083	5108	usable-with-noise	
+chunk_021:p0084	0084	1801	usable-with-noise	
+chunk_021:p0085	0085	888	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0086	0086	1595	usable-with-noise	
+chunk_021:p0087	0087	806	usable-with-noise	
+chunk_021:p0088	0088	1714	usable-with-noise	
+chunk_021:p0089	0089	1579	usable-with-noise	
+chunk_021:p0090	0090	964	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0091	0091	1011	usable-with-noise	
+chunk_021:p0092	0092	1468	usable-with-noise	
+chunk_021:p0093	0093	245	usable-with-noise	
+chunk_021:p0094	0094	1438	usable-with-noise	
+chunk_021:p0095	0095	1896	usable-with-noise	
+chunk_021:p0096	0096	1647	usable-with-noise	
+chunk_021:p0097	0097	1684	usable-with-noise	
+chunk_021:p0098	0098	2913	usable-with-noise	
+chunk_021:p0099	0099	1801	usable-with-noise	
+chunk_021:p0100	0100	2271	usable-with-noise	
+chunk_021:p0101	0101	1437	usable-with-noise	
+chunk_021:p0102	0102	1369	usable-with-noise	
+chunk_021:p0103	0103	805	usable-with-noise	
+chunk_021:p0104	0104	1619	usable-with-noise	
+chunk_021:p0105	0105	1613	usable-with-noise	
+chunk_021:p0106	0106	1403	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0107	0107	1465	usable-with-noise	
+chunk_021:p0108	0108	1798	usable-with-noise	
+chunk_021:p0109	0109	1227	usable-with-noise	
+chunk_021:p0110	0110	1606	usable-with-noise	
+chunk_021:p0111	0111	1692	usable-with-noise	
+chunk_021:p0112	0112	1711	usable-with-noise	
+chunk_021:p0113	0113	1299	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0114	0114	1262	usable-with-noise	
+chunk_021:p0115	0115	1400	usable-with-noise	
+chunk_021:p0116	0116	1085	usable-with-noise	
+chunk_021:p0117	0117	1433	usable-with-noise	
+chunk_021:p0118	0118	1522	usable-with-noise	
+chunk_021:p0119	0119	1373	usable-with-noise	
+chunk_021:p0120	0120	1450	usable-with-noise	
+chunk_021:p0121	0121	1499	usable-with-noise	
+chunk_021:p0122	0122	1460	usable-with-noise	
+chunk_021:p0123	0123	1330	usable-with-noise	
+chunk_021:p0124	0124	1288	usable-with-noise	
+chunk_021:p0125	0125	1300	usable-with-noise	
+chunk_021:p0126	0126	357	usable-with-noise	
+chunk_021:p0127	0127	1875	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0128	0128	1385	usable-with-noise	
+chunk_021:p0129	0129	1935	usable-with-noise	
+chunk_021:p0130	0130	2207	usable-with-noise	
+chunk_021:p0131	0131	1362	usable-with-noise	
+chunk_021:p0132	0132	1398	usable-with-noise	
+chunk_021:p0133	0133	1130	usable-with-noise	
+chunk_021:p0134	0134	1619	usable-with-noise	
+chunk_021:p0135	0135	1485	usable-with-noise	
+chunk_021:p0136	0136	1532	usable-with-noise	
+chunk_021:p0137	0137	1509	usable-with-noise	
+chunk_021:p0138	0138	1498	usable-with-noise	
+chunk_021:p0139	0139	1504	usable-with-noise	
+chunk_021:p0140	0140	1485	usable-with-noise	
+chunk_021:p0141	0141	1581	usable-with-noise	
+chunk_021:p0142	0142	1447	usable-with-noise	
+chunk_021:p0143	0143	649	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0144	0144	1183	usable-with-noise	
+chunk_021:p0145	0145	1067	usable-with-noise	
+chunk_021:p0146	0146	1442	usable-with-noise	
+chunk_021:p0147	0147	1010	usable-with-noise	
+chunk_021:p0148	0148	946	usable-with-noise	
+chunk_021:p0149	0149	997	usable-with-noise	
+chunk_021:p0150	0150	953	usable-with-noise	
+chunk_021:p0151	0151	1017	usable-with-noise	
+chunk_021:p0152	0152	1730	usable-with-noise	
+chunk_021:p0153	0153	1579	usable-with-noise	
+chunk_021:p0154	0154	1249	usable-with-noise	
+chunk_021:p0155	0155	1246	usable-with-noise	
+chunk_021:p0156	0156	1218	usable-with-noise	
+chunk_021:p0157	0157	1048	usable-with-noise	
+chunk_021:p0158	0158	0	blank	baseline OCR empty; image check finds no substantive retrievable text
+chunk_021:p0159	0159	968	usable-with-noise	
+chunk_021:p0160	0160	1027	usable-with-noise	
+chunk_021:p0161	0161	1095	usable-with-noise	
+chunk_021:p0162	0162	1110	usable-with-noise	
+chunk_021:p0163	0163	1189	usable-with-noise	
+chunk_021:p0164	0164	1222	usable-with-noise	
+chunk_021:p0165	0165	1110	usable-with-noise	
+chunk_021:p0166	0166	1148	usable-with-noise	
+chunk_021:p0167	0167	1145	usable-with-noise	
+chunk_021:p0168	0168	1133	usable-with-noise	
+chunk_021:p0169	0169	1123	usable-with-noise	
+chunk_021:p0170	0170	1112	usable-with-noise	
+chunk_021:p0171	0171	1095	usable-with-noise	
+chunk_021:p0172	0172	3753	high-noise	mounted/compound page or dense multi-zone layout; OCR under-captures or has unstable reading order; quotation unsafe without image check
+chunk_021:p0173	0173	1144	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0174	0174	1011	usable-with-noise	
+chunk_021:p0175	0175	1096	usable-with-noise	
+chunk_021:p0176	0176	727	usable-with-noise	
+chunk_021:p0177	0177	973	usable-with-noise	
+chunk_021:p0178	0178	1529	usable-with-noise	
+chunk_021:p0179	0179	1432	usable-with-noise	
+chunk_021:p0180	0180	1539	usable-with-noise	
+chunk_021:p0181	0181	774	usable-with-noise	
+chunk_021:p0182	0182	1239	usable-with-noise	
+chunk_021:p0183	0183	1312	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0184	0184	1807	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0185	0185	1133	usable-with-noise	
+chunk_021:p0186	0186	979	usable-with-noise	
+chunk_021:p0187	0187	1555	usable-with-noise	
+chunk_021:p0188	0188	763	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0189	0189	1218	usable-with-noise	
+chunk_021:p0190	0190	1090	usable-with-noise	
+chunk_021:p0191	0191	993	usable-with-noise	
+chunk_021:p0192	0192	1131	usable-with-noise	
+chunk_021:p0193	0193	869	usable-with-noise	
+chunk_021:p0194	0194	1210	usable-with-noise	
+chunk_021:p0195	0195	1123	usable-with-noise	
+chunk_021:p0196	0196	0	false-empty	baseline OCR empty; image contains a short handwritten conceptual note on a political `systeem` and `conservatieven`; close transcription needed before quotation
+chunk_021:p0197	0197	1579	usable-with-noise	
+chunk_021:p0198	0198	1190	usable-with-noise	
+chunk_021:p0199	0199	1591	usable-with-noise	
+chunk_021:p0200	0200	1546	usable-with-noise	
+chunk_021:p0201	0201	1016	usable-with-noise	
+chunk_021:p0202	0202	1514	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0203	0203	1035	usable-with-noise	
+chunk_021:p0204	0204	1472	usable-with-noise	
+chunk_021:p0205	0205	1174	usable-with-noise	
+chunk_021:p0206	0206	1334	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0207	0207	1118	usable-with-noise	
+chunk_021:p0208	0208	1695	usable-with-noise	
+chunk_021:p0209	0209	1099	usable-with-noise	
+chunk_021:p0210	0210	1264	usable-with-noise	
+chunk_021:p0211	0211	187	short-text	short handwritten conceptual/bibliographic note; limited retrieval content
+chunk_021:p0212	0212	1507	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0213	0213	1075	usable-with-noise	
+chunk_021:p0214	0214	845	usable-with-noise	
+chunk_021:p0215	0215	963	usable-with-noise	
+chunk_021:p0216	0216	1118	usable-with-noise	
+chunk_021:p0217	0217	1127	usable-with-noise	
+chunk_021:p0218	0218	1132	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0219	0219	1289	high-noise	handwriting-model drift / multilingual or generic-text hallucination; OCR retrieval only, quotation unsafe
+chunk_021:p0220	0220	571	usable-with-noise	
+chunk_021:p0221	0221	0	blank	baseline OCR empty; image check finds no substantive retrievable text
+chunk_021:p0222	0222	630	usable-with-noise	
+chunk_021:p0223	0223	631	usable-with-noise	
+chunk_021:p0224	0224	727	usable-with-noise	
+chunk_021:p0225	0225	497	usable-with-noise	
+chunk_021:p0226	0226	487	usable-with-noise	
+chunk_021:p0227	0227	667	usable-with-noise	
+chunk_021:p0228	0228	609	usable-with-noise	
+chunk_021:p0229	0229	672	usable-with-noise	
+chunk_021:p0230	0230	469	usable-with-noise	
+chunk_021:p0231	0231	752	usable-with-noise	
+chunk_021:p0232	0232	858	usable-with-noise	
+chunk_021:p0233	0233	210	short-text	short dated lecture/course card (`9.V.28`) on printed postcard stock
+chunk_021:p0234	0234	475	usable-with-noise	
+chunk_021:p0235	0235	0	blank	baseline OCR empty; image shows only an unfilled printed `BRIEFKAART` form, no substantive handwritten text
