@@ -1,0 +1,4 @@
+page_range	scan_layout	strand_A	strand_B	OCR_consequence	review_status
+p0035	single manuscript sheet	Indian medicine: Wise review; Dhanvantari/Ayurveda; medicinal-plant material		ordinary handwriting noise; no composite-frame issue	verified
+p0036-p0047	two physically distinct manuscript sheets photographed in one frame	Kern/Indology/philology/bibliographical material, frequently inverted	Indian medicine/Ayurveda/cosmology/medical terminology, usually upright	baseline OCR often merges both documentary streams, collapses reading order and can create apparent semantic incoherence	verified by second visual pass
+p0048	single dense manuscript sheet	Kern/Indology/Buddhism note with Oldenberg/Kern/Buddhism anchors		ordinary dense-handwriting noise; no composite-frame issue	verified
