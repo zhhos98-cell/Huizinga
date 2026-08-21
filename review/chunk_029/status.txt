@@ -1,0 +1,22 @@
+chunk_029
+scope: p0001-p0240
+pages: 240/240 full visual/OCR audit complete
+full_retrieval_grade_audit: COMPLETE
+raw_ocr: PRESERVED_UNCHANGED
+page_classes: usable=0;usable_with_noise=1;high_noise=168;short_text=2;false_empty_recovery=17;blank_no_substantive=52
+baseline_empty_pages: p0001,p0003,p0018,p0019,p0021,p0028,p0031,p0032,p0034,p0037,p0040,p0041,p0045,p0046,p0049,p0050,p0053,p0056,p0059,p0062,p0063,p0064,p0065,p0069,p0075,p0082,p0084,p0086,p0091,p0096,p0102,p0111,p0114,p0117,p0120,p0123,p0128,p0133,p0142,p0146,p0148,p0149,p0152,p0159,p0162,p0165,p0169,p0172,p0173,p0182,p0183,p0190,p0193,p0200,p0201,p0203,p0204,p0207,p0213,p0214,p0217,p0220,p0221,p0225,p0227,p0228,p0231,p0232,p0234,p0237
+false_empty_recoveries: p0003,p0018,p0019,p0032,p0040,p0045,p0050,p0063,p0064,p0084,p0172,p0182,p0200,p0203,p0220,p0227,p0232
+baseline_empty_short_text: p0148
+verified_genuine_blanks: p0001,p0021,p0028,p0031,p0034,p0037,p0041,p0046,p0049,p0053,p0056,p0059,p0062,p0065,p0069,p0075,p0082,p0086,p0091,p0096,p0102,p0111,p0114,p0117,p0120,p0123,p0128,p0133,p0142,p0146,p0149,p0152,p0159,p0162,p0165,p0169,p0173,p0183,p0190,p0193,p0201,p0204,p0207,p0213,p0214,p0217,p0221,p0225,p0228,p0231,p0234,p0237
+rockefeller_stationery_occurrences: none
+high_noise_queue: p0002,p0004,p0005,p0006,p0007,p0008,p0009,p0010,p0011,p0012,p0013,p0014,p0015,p0016,p0017,p0020,p0022,p0023,p0024,p0025,p0026,p0027,p0029,p0030,p0033,p0035,p0036,p0038,p0039,p0042,p0043,p0044,p0047,p0048,p0051,p0052,p0054,p0055,p0057,p0058,p0060,p0061,p0066,p0067,p0068,p0070,p0071,p0072,p0073,p0074,p0076,p0077,p0078,p0079,p0080,p0081,p0083,p0085,p0087,p0088,p0089,p0090,p0092,p0093,p0094,p0095,p0097,p0098,p0099,p0100,p0101,p0103,p0104,p0105,p0106,p0107,p0108,p0109,p0110,p0112,p0113,p0115,p0116,p0118,p0119,p0121,p0122,p0124,p0125,p0126,p0127,p0129,p0130,p0131,p0132,p0134,p0135,p0136,p0137,p0138,p0139,p0140,p0141,p0143,p0144,p0145,p0150,p0151,p0153,p0154,p0155,p0156,p0157,p0158,p0160,p0161,p0163,p0164,p0166,p0167,p0168,p0170,p0171,p0174,p0175,p0176,p0177,p0178,p0179,p0180,p0181,p0184,p0185,p0186,p0187,p0188,p0189,p0191,p0192,p0194,p0195,p0196,p0197,p0198,p0199,p0202,p0205,p0206,p0208,p0209,p0210,p0211,p0215,p0216,p0218,p0219,p0222,p0223,p0224,p0226,p0229,p0230,p0233,p0235,p0236,p0238,p0239,p0240
+major_structure: p0001-p0041_1830_1848_1852_France_Italy_political_history;p0042-p0061_Mazzini_Italian_national_movement;p0062-p0160_English_constitutional_institutional_history;p0161-p0207_eighteenth_century_English_political_cultural_notes;p0208-p0212_Horace_Walpole_library_request_packet;p0213-p0240_Methodism_enthusiasm_sentimentalism_eighteenth_century_culture
+verified_machine_pathologies: p0006-p0007_repeat_runs_and_generated_Marx;p0008_modern_Brooklyn_2021;p0010-p0012_modern_semantic_intrusions;p0015_overgeneration;p0033_false_1978_Paris_conference;p0044,p0067,p0072-p0073,p0079-p0080,p0097,p0104,p0112,p0121,p0127,p0140,p0155,p0166-p0167,p0178-p0179_modern_intrusions;p0187_false_Renaissance_hit;p0189_generated_table;p0205_quick_brown_fox_test_phrase;p0216_repeat_run_x1356
+core_hits: p0042_Mazzini_packet;p0208-p0212_Horace_Walpole_library_source_acquisition;p0218_Methodisme_Wesley_enthusiasm;p0222_sentimentalism
+negative_controls: p0178_no_secure_anthropology;p0187_false_Renaissance_OCR;no_secure_Malinowski_ethnology;no_Rockefeller_stationery
+canonical_manifest: review/chunk_029/full_visual_audit_manifest_v1.tsv
+empty_audit: review/chunk_029/empty_ocr_visual_review_v1.tsv
+layout_note: review/chunk_029/composite_page_structure_v1.tsv
+core_theme_hits: review/chunk_029/core_theme_hits_v1.md
+review_summary: review/chunk_029/review_summary_v1.md
+priority_next: optional close transcription of high-noise and recovered false-empty boards before exact quotation; otherwise chunk 029 may be treated as closed for retrieval-grade review
