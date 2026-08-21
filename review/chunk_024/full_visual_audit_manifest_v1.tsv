@@ -1,0 +1,86 @@
+page_id	baseline_chars	retrieval_class	packet	ocr_flags	review_note
+chunk_024:p0001	0	false-empty-recovery	Excerpts_Kern	empty_ocr	baseline empty; scan recovers narrow handwritten label `Excerpts Kern`
+chunk_024:p0002	143	short-text/title	printed_Hendrik_Kern_1899		short handwritten cover/title; bibliographical elements scan-verified
+chunk_024:p0003	0	blank/no-substantive	divider_or_endpaper	empty_ocr	genuine blank inside cover/endpaper
+chunk_024:p0004	1168	usable	printed_Hendrik_Kern_1899	html_scaffolding_removed	printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0005	3705	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0006	4253	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0007	4242	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0008	4208	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0009	4262	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0010	4213	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0011	4047	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0012	4253	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0013	4250	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0014	4143	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0015	4042	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0016	3770	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0017	4269	usable	printed_Hendrik_Kern_1899	html_scaffolding_removed	printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0018	4148	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0019	4107	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0020	3993	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0021	4211	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0022	4318	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0023	4318	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0024	3738	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0025	4082	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0026	4298	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0027	3934	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0028	3701	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0029	3352	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0030	3882	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0031	3111	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0032	3558	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0033	720	usable	printed_Hendrik_Kern_1899		printed page; OCR sufficient for retrieval with ordinary typographic noise
+chunk_024:p0034	0	blank/no-substantive	divider_or_endpaper	empty_ocr	genuine blank after printed Kern extract
+chunk_024:p0035	1607	usable-with-noise	Kern_bibliographical_philological_notes		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0036	3747	high-noise	Kern_bibliographical_philological_notes		dense handwriting; OCR heavily distorts Dutch/proper names and reading order
+chunk_024:p0037	3897	usable-with-noise	Kern_bibliographical_philological_notes	html_scaffolding_removed	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0038	2877	high-noise	Kern_bibliographical_philological_notes		dense bibliographical/reference notes; mixed-script hallucination and character substitution
+chunk_024:p0039	3012	usable-with-noise	Kern_bibliographical_philological_notes		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0040	3238	usable-with-noise	Kern_bibliographical_philological_notes		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0041	2288	high-noise	Kern_bibliographical_philological_notes		reference-list page with multilingual hallucination and unstable proper-name recovery
+chunk_024:p0042	4192	high-noise	Kern_bibliographical_philological_notes		dense handwritten reference material; heavy mixed-script/formula noise
+chunk_024:p0043	3059	usable-with-noise	Kern_bibliographical_philological_notes		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0044	3846	high-noise	Kern_bibliographical_philological_notes	ocr_repetition_cleaned	OCR repetition cleanup plus mixed-script substitution; exact wording unsafe
+chunk_024:p0045	3772	usable-with-noise	Kern_bibliographical_philological_notes		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0046	1617	high-noise	Kern_bibliographical_philological_notes		dense list; mixed-script hallucination and damaged numbering/proper names
+chunk_024:p0047	3234	usable-with-noise	Kern_bibliographical_philological_notes		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0048	2628	usable-with-noise	Kern_bibliographical_philological_notes	ocr_repeat_run_cleaned_v3	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0049	2678	usable-with-noise	anatomy_medicine		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0050	5367	usable-with-noise	anatomy_medicine		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0051	5224	usable-with-noise	anatomy_medicine		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0052	2924	usable-with-noise	anatomy_medicine		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0053	3919	usable-with-noise	anatomy_medicine		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0054	0	blank/no-substantive	divider_or_endpaper	empty_ocr	genuine blank ruled sheet; no substantive text
+chunk_024:p0055	1869	high-noise	isolated_legend_note		isolated legend/folklore note; handwriting badly distorted by OCR
+chunk_024:p0056	0	blank/no-substantive	divider_or_endpaper	empty_ocr	genuine blank ruled/folded sheet; no substantive text
+chunk_024:p0057	1836	usable-with-noise	Indian_medicine_methodological_intro	ocr_repeat_run_cleaned_v3	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0058	4648	usable-with-noise	Indian_medicine_methodological_intro		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0059	2564	high-noise	Indian_medicine_methodological_intro		methodological prose substantially garbled despite topical anchors
+chunk_024:p0060	2961	usable-with-noise	Indian_medicine_methodological_intro		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0061	1092	high-noise	Indian_medicine_methodological_intro		low-contrast manuscript page; severe under-capture/garbling
+chunk_024:p0062	624	high-noise	Indian_medicine_methodological_intro		low-contrast dense manuscript page; severe under-capture/garbling
+chunk_024:p0063	1448	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0064	3504	usable-with-noise	Ayurveda_Susruta	html_scaffolding_removed	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0065	2727	high-noise	Ayurveda_Susruta		dense Sanskrit/romanized material; Greek-script hallucination corrupts a substantive line
+chunk_024:p0066	3161	high-noise	Ayurveda_Susruta		Sanskrit/romanized material badly corrupted by diacritic and script substitutions
+chunk_024:p0067	3341	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0068	3294	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0069	2881	usable-with-noise	Ayurveda_Susruta	ocr_repetition_cleaned	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0070	3389	high-noise	Ayurveda_Susruta		mixed Sanskrit/Dutch notes with multilingual hallucination
+chunk_024:p0071	3366	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0072	2181	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0073	2768	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0074	2195	high-noise	Ayurveda_Susruta		mixed Sanskrit/Dutch notes; Tamil/Greek/Cyrillic-like hallucinated inserts
+chunk_024:p0075	6551	high-noise	Ayurveda_Susruta		pathological over-expansion/formula sequence in OCR; source page does not contain the generated S1... series
+chunk_024:p0076	1704	high-noise	Ayurveda_Susruta		large Cyrillic hallucination replaces Sanskrit/romanized source text
+chunk_024:p0077	3469	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0078	3029	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0079	3426	usable-with-noise	Ayurveda_Susruta	ocr_repetition_cleaned	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0080	3037	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0081	3468	usable-with-noise	Ayurveda_Susruta	html_scaffolding_removed	handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0082	7549	high-noise	Ayurveda_Susruta		pathological numeric over-expansion (`7:1`, `7:2`, ...); absent from scan
+chunk_024:p0083	2486	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
+chunk_024:p0084	2872	high-noise	Ayurveda_Susruta		mixed-script hallucination including a Vietnamese-like inserted phrase
+chunk_024:p0085	289	usable-with-noise	Ayurveda_Susruta		handwritten page; topical/name anchors survive, but exact quotation requires scan check
