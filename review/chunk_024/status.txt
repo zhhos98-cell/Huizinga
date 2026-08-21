@@ -1,0 +1,13 @@
+chunk_024
+scope: p0001-p0085
+pages: 85/85 structural scan complete
+full_retrieval_grade_audit: IN_PROGRESS
+raw_ocr: PRESERVED_UNCHANGED
+baseline_empty_pages: p0001,p0003,p0034,p0054,p0056
+false_empty_recoveries: p0001
+verified_genuine_blanks: p0003,p0034,p0054,p0056
+verified_corrections_started: p0001,p0002,p0003,p0034,p0054,p0056
+cross_chunk_overlap: p0004-p0012 <-> chunk_023:p0179-p0187
+printed_Kern_continuation_beyond_chunk_023: p0013-p0033
+provisional_packets: Excerpts_Kern_label_and_cover;p0004-p0033_printed_Hendrik_Kern;p0035-p0048_Kern_bibliographical_philological_notes;p0049-p0053_anatomy_medicine;p0055_isolated_legend_note;p0057-p0085_Ayurveda_Susruta_notes
+priority_next: page_by_page_OCR_QC_p0035-p0085; verify internal packet boundaries; identify high-noise/under-capture pages; preserve Sanskrit and source spellings without normalization
