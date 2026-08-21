@@ -1,0 +1,17 @@
+chunk_025
+scope: p0001-p0246
+pages: 246/246 full visual/OCR audit complete
+full_retrieval_grade_audit: COMPLETE
+raw_ocr: PRESERVED_UNCHANGED
+page_classes: usable_with_noise=107;high_noise=75;short_text=36;false_empty_recovery=21;blank_no_substantive=7
+baseline_empty_pages: p0028,p0033,p0049,p0050,p0055,p0057,p0093,p0096,p0100,p0115,p0123,p0127,p0151,p0152,p0179,p0187,p0188,p0192,p0196,p0198,p0201,p0205,p0214,p0228,p0235,p0236,p0242,p0246
+false_empty_recoveries: p0028,p0033,p0049,p0050,p0057,p0093,p0096,p0100,p0115,p0123,p0127,p0151,p0152,p0179,p0188,p0196,p0198,p0205,p0228,p0235,p0236
+verified_genuine_blanks: p0055,p0187,p0192,p0201,p0214,p0242,p0246
+high_noise_queue: p0002,p0006,p0007,p0009,p0014,p0016,p0020,p0021,p0029,p0039,p0042,p0046,p0052,p0059,p0060,p0061,p0067,p0070,p0071,p0074,p0079,p0081,p0082,p0083,p0091,p0097,p0105,p0110,p0125,p0132,p0133,p0137,p0148,p0156,p0158,p0159,p0175,p0181,p0183,p0184,p0186,p0189,p0190,p0191,p0197,p0199,p0200,p0204,p0206,p0207,p0208,p0209,p0210,p0211,p0212,p0213,p0216,p0219,p0221,p0222,p0224,p0227,p0229,p0230,p0232,p0233,p0234,p0237,p0238,p0239,p0240,p0241,p0243,p0244,p0245
+major_structure: p0001_Ayurveda_continuation;p0002-p0027_composite_Ayurveda_plus_Dutch_biographical_streams;p0028-p0175_Ayurveda_Indian_medicine_notes;p0176-p0186_system_outline_index;p0188-p0213_mounted_slips_and_loose_notes;p0215-p0231_Ayurveda_loose_notes;p0232-p0245_mounted_slip_boards
+verified_machine_pathologies: p0082_massive_repeat_run_removed;p0083_extreme_overexpansion;p0158_Arabic_script_hallucination;p0183_duplicate_table_generation;p0190_repetition_block;p0208_Greek_repetition;p0239_repeat_run;p0245_Cyrillic_Mongolian_like_hallucination
+canonical_manifest: review/chunk_025/full_visual_audit_manifest_v1.tsv
+empty_audit: review/chunk_025/empty_ocr_visual_review_v1.tsv
+layout_note: review/chunk_025/composite_page_structure_v1.tsv
+review_summary: review/chunk_025/review_summary_v1.md
+priority_next: optional close transcription of 75 high-noise pages and 21 recovered false-empty pages before exact quotation; otherwise chunk 025 may be treated as closed for retrieval-grade review
