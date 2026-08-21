@@ -1,0 +1,13 @@
+chunk_023
+scope: p0001-p0187
+pages: 187/187
+audit: COMPLETE
+raw_ocr: PRESERVED_UNCHANGED
+review_layer: COMPLETE
+page_images_used_for: OCR_QC_LAYOUT_FALSE_EMPTY_PACKET_BOUNDARY_TITLE_LABEL_VERIFICATION_ONLY
+classes: usable-with-noise=113; high-noise=60; false-empty=4; short-text=2; blank/no-substantive=8
+baseline_empty_pages: 11
+false_empty_recoveries: p0017,p0096,p0110,p0174
+verified_corrections: p0040,p0063,p0096,p0110,p0176
+documentary_packets: continuation_Europ_pol_gesch_rondom_1700; Licht_en_geluid_Betekenisleer; Vidusaka_Sanskrit_drama; Kern_paginated_working_manuscript_1-64; Kern_supplementary_notes; printed_Hendrik_Kern_1899
+cross_chunk_note: chunk_022 Europ_pol_gesch_rondom_1700 continues into chunk_023:p0002-p0039
