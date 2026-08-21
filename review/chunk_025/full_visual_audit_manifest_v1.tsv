@@ -1,0 +1,247 @@
+page_id	chars	class	packet	flags
+p0001	390	usable-with-noise	A1	
+p0002	348	high-noise	C1	
+p0003	164	usable-with-noise	C1	
+p0004	136	usable-with-noise	C1	
+p0005	124	usable-with-noise	C1	
+p0006	4	high-noise	C1	
+p0007	260	high-noise	C1	
+p0008	605	usable-with-noise	C1	
+p0009	345	high-noise	C1	html_scaffolding_removed
+p0010	684	usable-with-noise	C1	html_scaffolding_removed
+p0011	564	usable-with-noise	C1	
+p0012	100	short-text	C1	
+p0013	511	usable-with-noise	C1	html_scaffolding_removed
+p0014	260	high-noise	C1	
+p0015	936	usable-with-noise	C1	html_scaffolding_removed
+p0016	120	high-noise	C1	
+p0017	468	usable-with-noise	C1	
+p0018	698	usable-with-noise	C1	
+p0019	625	usable-with-noise	C1	
+p0020	800	high-noise	C1	html_scaffolding_removed;ocr_repetition_cleaned
+p0021	74	high-noise	C1	
+p0022	768	usable-with-noise	C1	
+p0023	744	usable-with-noise	C1	
+p0024	467	usable-with-noise	C1	
+p0025	794	usable-with-noise	C1	
+p0026	677	usable-with-noise	C1	html_scaffolding_removed
+p0027	79	short-text	C1	html_scaffolding_removed
+p0028	0	false-empty-recovery	A2	empty_ocr
+p0029	144	high-noise	A2	
+p0030	598	usable-with-noise	A2	
+p0031	140	usable-with-noise	A2	
+p0032	424	usable-with-noise	A2	
+p0033	0	false-empty-recovery	A2	empty_ocr
+p0034	412	usable-with-noise	A2	
+p0035	204	usable-with-noise	A2	
+p0036	662	usable-with-noise	A2	
+p0037	684	usable-with-noise	A2	
+p0038	634	usable-with-noise	A2	
+p0039	207	high-noise	A2	
+p0040	548	usable-with-noise	A2	
+p0041	192	usable-with-noise	A2	
+p0042	430	high-noise	A2	
+p0043	493	usable-with-noise	A2	
+p0044	208	usable-with-noise	A2	
+p0045	714	usable-with-noise	A2	
+p0046	10	high-noise	A2	
+p0047	808	usable-with-noise	A2	
+p0048	568	usable-with-noise	A2	
+p0049	0	false-empty-recovery	A2	empty_ocr
+p0050	0	false-empty-recovery	A2	empty_ocr
+p0051	241	usable-with-noise	A2	html_scaffolding_removed
+p0052	376	high-noise	A2	
+p0053	244	usable-with-noise	A2	
+p0054	109	short-text	A2	html_scaffolding_removed
+p0055	0	blank/no-substantive	A2	empty_ocr
+p0056	112	short-text	A2	
+p0057	0	false-empty-recovery	A2	empty_ocr
+p0058	618	usable-with-noise	A2	
+p0059	100	high-noise	A2	
+p0060	66	high-noise	A2	
+p0061	37	high-noise	A2	
+p0062	324	usable-with-noise	A2	
+p0063	53	short-text	A2	html_scaffolding_removed
+p0064	137	usable-with-noise	A2	
+p0065	114	short-text	A2	
+p0066	58	short-text	A2	
+p0067	70	high-noise	A2	
+p0068	126	usable-with-noise	A2	
+p0069	90	short-text	A2	
+p0070	4	high-noise	A2	
+p0071	107	high-noise	A2	
+p0072	715	usable-with-noise	A2	
+p0073	724	usable-with-noise	A2	
+p0074	395	high-noise	A2	
+p0075	60	short-text	A2	
+p0076	120	short-text	A2	
+p0077	165	usable-with-noise	A2	
+p0078	108	short-text	A2	
+p0079	259	high-noise	A2	
+p0080	672	usable-with-noise	A2	
+p0081	483	high-noise	A2	
+p0082	160	high-noise	A2	ocr_repeat_run_cleaned_v3
+p0083	5187	high-noise	A2	
+p0084	706	usable-with-noise	A2	
+p0085	22	short-text	A2	
+p0086	101	short-text	A2	
+p0087	663	usable-with-noise	A2	
+p0088	259	usable-with-noise	A2	
+p0089	162	usable-with-noise	A2	
+p0090	302	usable-with-noise	A2	
+p0091	231	high-noise	A2	
+p0092	31	short-text	A2	html_scaffolding_removed
+p0093	0	false-empty-recovery	A2	empty_ocr
+p0094	231	usable-with-noise	A2	html_scaffolding_removed
+p0095	526	usable-with-noise	A2	
+p0096	0	false-empty-recovery	A2	empty_ocr
+p0097	10	high-noise	A2	
+p0098	42	short-text	A2	
+p0099	612	usable-with-noise	A2	
+p0100	0	false-empty-recovery	A2	empty_ocr
+p0101	116	short-text	A2	
+p0102	92	short-text	A2	
+p0103	433	usable-with-noise	A2	html_scaffolding_removed
+p0104	78	short-text	A2	html_scaffolding_removed
+p0105	387	high-noise	A2	html_scaffolding_removed
+p0106	242	usable-with-noise	A2	
+p0107	391	usable-with-noise	A2	
+p0108	429	usable-with-noise	A2	
+p0109	692	usable-with-noise	A2	
+p0110	39	high-noise	A2	
+p0111	70	short-text	A2	
+p0112	91	short-text	A2	
+p0113	231	usable-with-noise	A2	
+p0114	590	usable-with-noise	A2	
+p0115	0	false-empty-recovery	A2	empty_ocr
+p0116	448	usable-with-noise	A2	
+p0117	77	short-text	A2	
+p0118	313	usable-with-noise	A2	
+p0119	184	usable-with-noise	A2	
+p0120	664	usable-with-noise	A2	
+p0121	1008	usable-with-noise	A2	html_scaffolding_removed
+p0122	507	usable-with-noise	A2	
+p0123	0	false-empty-recovery	A2	empty_ocr
+p0124	475	usable-with-noise	A2	
+p0125	418	high-noise	A2	html_scaffolding_removed
+p0126	44	short-text	A2	
+p0127	0	false-empty-recovery	A2	empty_ocr
+p0128	101	short-text	A2	html_scaffolding_removed
+p0129	261	usable-with-noise	A2	
+p0130	367	usable-with-noise	A2	
+p0131	128	usable-with-noise	A2	
+p0132	389	high-noise	A2	
+p0133	614	high-noise	A2	html_scaffolding_removed
+p0134	300	usable-with-noise	A2	
+p0135	96	short-text	A2	
+p0136	592	usable-with-noise	A2	
+p0137	214	high-noise	A2	html_scaffolding_removed
+p0138	160	usable-with-noise	A2	html_scaffolding_removed
+p0139	126	usable-with-noise	A2	html_scaffolding_removed
+p0140	662	usable-with-noise	A2	
+p0141	247	usable-with-noise	A2	
+p0142	225	usable-with-noise	A2	
+p0143	267	usable-with-noise	A2	
+p0144	176	usable-with-noise	A2	
+p0145	282	usable-with-noise	A2	
+p0146	444	usable-with-noise	A2	
+p0147	90	short-text	A2	
+p0148	473	high-noise	A2	
+p0149	157	usable-with-noise	A2	
+p0150	108	short-text	A2	
+p0151	0	false-empty-recovery	A2	empty_ocr
+p0152	0	false-empty-recovery	A2	empty_ocr
+p0153	184	usable-with-noise	A2	
+p0154	222	usable-with-noise	A2	
+p0155	151	usable-with-noise	A2	
+p0156	41	high-noise	A2	
+p0157	366	usable-with-noise	A2	
+p0158	263	high-noise	A2	
+p0159	541	high-noise	A2	
+p0160	531	usable-with-noise	A2	
+p0161	344	usable-with-noise	A2	
+p0162	375	usable-with-noise	A2	
+p0163	76	short-text	A2	
+p0164	113	short-text	A2	
+p0165	34	short-text	A2	
+p0166	232	usable-with-noise	A2	
+p0167	33	short-text	A2	html_scaffolding_removed
+p0168	307	usable-with-noise	A2	
+p0169	173	usable-with-noise	A2	
+p0170	187	usable-with-noise	A2	
+p0171	148	usable-with-noise	A2	
+p0172	295	usable-with-noise	A2	
+p0173	168	usable-with-noise	A2	
+p0174	665	usable-with-noise	A2	
+p0175	413	high-noise	A2	
+p0176	499	usable-with-noise	A3	
+p0177	77	short-text	A3	
+p0178	106	short-text	A3	
+p0179	0	false-empty-recovery	A3	empty_ocr
+p0180	58	short-text	A3	
+p0181	3	high-noise	A3	html_scaffolding_removed
+p0182	169	usable-with-noise	A3	
+p0183	823	high-noise	A3	html_scaffolding_removed;ocr_repetition_cleaned
+p0184	375	high-noise	A3	
+p0185	268	usable-with-noise	A3	
+p0186	115	high-noise	A3	
+p0187	0	blank/no-substantive	B1	empty_ocr
+p0188	0	false-empty-recovery	M1	empty_ocr
+p0189	907	high-noise	M1	
+p0190	823	high-noise	M1	ocr_repetition_cleaned
+p0191	260	high-noise	M1	
+p0192	0	blank/no-substantive	B2	empty_ocr
+p0193	588	usable-with-noise	M2	
+p0194	170	usable-with-noise	M2	
+p0195	644	usable-with-noise	M2	
+p0196	0	false-empty-recovery	M2	empty_ocr
+p0197	1036	high-noise	M2	
+p0198	0	false-empty-recovery	M2	empty_ocr
+p0199	428	high-noise	M2	
+p0200	1023	high-noise	M2	
+p0201	0	blank/no-substantive	B3	empty_ocr
+p0202	59	short-text	P1	
+p0203	273	usable-with-noise	M3	
+p0204	30	high-noise	M3	
+p0205	0	false-empty-recovery	M3	empty_ocr
+p0206	317	high-noise	M3	
+p0207	277	high-noise	M3	
+p0208	216	high-noise	M3	ocr_repeat_run_cleaned_v3
+p0209	5	high-noise	M3	
+p0210	1118	high-noise	M3	html_scaffolding_removed
+p0211	178	high-noise	M3	
+p0212	398	high-noise	M3	html_scaffolding_removed
+p0213	139	high-noise	M3	
+p0214	0	blank/no-substantive	B2	empty_ocr
+p0215	624	usable-with-noise	A4	
+p0216	34	high-noise	A4	
+p0217	514	usable-with-noise	A4	
+p0218	201	usable-with-noise	A4	
+p0219	114	high-noise	A4	
+p0220	64	short-text	A4	
+p0221	380	high-noise	A4	
+p0222	474	high-noise	A4	
+p0223	393	usable-with-noise	A4	
+p0224	447	high-noise	A4	
+p0225	218	usable-with-noise	A4	
+p0226	71	short-text	A4	
+p0227	202	high-noise	A4	
+p0228	0	false-empty-recovery	A4	empty_ocr
+p0229	361	high-noise	A4	
+p0230	541	high-noise	A4	
+p0231	165	usable-with-noise	A4	html_scaffolding_removed
+p0232	973	high-noise	M4	
+p0233	620	high-noise	M4	
+p0234	497	high-noise	M4	
+p0235	0	false-empty-recovery	M4	empty_ocr
+p0236	0	false-empty-recovery	M4	empty_ocr
+p0237	426	high-noise	M4	
+p0238	827	high-noise	M4	
+p0239	599	high-noise	M4	html_scaffolding_removed;ocr_repeat_run_cleaned_v3
+p0240	226	high-noise	M4	html_scaffolding_removed
+p0241	625	high-noise	M4	html_scaffolding_removed
+p0242	0	blank/no-substantive	B2	empty_ocr
+p0243	1035	high-noise	M5	
+p0244	1259	high-noise	M5	
+p0245	345	high-noise	M5	html_scaffolding_removed
+p0246	0	blank/no-substantive	B4	empty_ocr
