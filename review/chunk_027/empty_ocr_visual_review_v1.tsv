@@ -1,0 +1,48 @@
+page_id	baseline_ocr	visual_resolution	note
+p0003	empty	blank-no-substantive	blank open/ruled sheet; no substantive text visible
+p0006	empty	blank-no-substantive	blank narrow sheet/card; no substantive text
+p0017	empty	blank-no-substantive	blank sheet; no substantive text
+p0022	empty	blank-no-substantive	near-blank sheet with bleed-through/marks only; no substantive text
+p0027	empty	blank-no-substantive	blank separator sheet
+p0029	empty	blank-no-substantive	torn/mounted blank slip; no visible substantive text
+p0035	empty	blank-no-substantive	blank ruled sheet
+p0039	empty	blank-no-substantive	near-blank sheet; no substantive text
+p0040	empty	blank-no-substantive	blank small card
+p0043	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'; no substantive body text visible
+p0080	empty	blank-no-substantive	blank narrow strip/card
+p0081	empty	blank-no-substantive	blank card/envelope
+p0093	empty	blank-no-substantive	blank card/sheet
+p0099	empty	blank-no-substantive	blank ruled sheet with archival marks only
+p0109	empty	blank-no-substantive	mounted board carrying blank cards only
+p0112	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0113	empty	false-empty-recovery	mounted board with many substantive handwritten slips plus envelope; baseline OCR completely empty; close scan-level reading required
+p0117	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0122	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0123	empty	false-empty-recovery	densely populated mounted board with substantive handwritten slips and envelope; baseline OCR empty
+p0133	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0137	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0142	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0148	empty	short-text	printed letterhead: 'The Laura Spelman Rockefeller Memorial / 61 Broadway / New York'
+p0156	empty	false-empty-recovery	mounted board with a small substantive handwritten/diagrammatic working slip and a blank card; baseline OCR empty
+p0169	empty	false-empty-recovery	mounted board containing several items including a large dense handwritten note; baseline OCR empty
+p0173	empty	blank-no-substantive	blank card
+p0177	empty	blank-no-substantive	blank card
+p0180	empty	blank-no-substantive	blank card
+p0181	empty	short-text	envelope/card with faint handwritten archival label; exact wording not securely legible
+p0182	empty	blank-no-substantive	blank card with tiny non-substantive marks only
+p0185	empty	blank-no-substantive	blank card
+p0186	empty	short-text	envelope/card with very faint handwritten archival label; exact wording not securely legible
+p0187	empty	blank-no-substantive	blank card
+p0190	empty	blank-no-substantive	blank card
+p0194	empty	blank-no-substantive	blank card
+p0195	empty	short-text	envelope/card with faint handwritten archival label; exact wording not securely legible
+p0196	empty	blank-no-substantive	blank card
+p0197	empty	false-empty-recovery	mounted board with many substantive handwritten slips; baseline OCR completely empty
+p0199	empty	blank-no-substantive	blank card
+p0202	empty	blank-no-substantive	blank card
+p0206	empty	blank-no-substantive	blank card
+p0212	empty	blank-no-substantive	blank card
+p0215	empty	blank-no-substantive	blank card
+p0218	empty	blank-no-substantive	blank card
+p0219	empty	false-empty-recovery	envelope plus two substantive handwritten slips; baseline OCR empty
+p0221	empty	blank-no-substantive	blank green/grey card or folder
