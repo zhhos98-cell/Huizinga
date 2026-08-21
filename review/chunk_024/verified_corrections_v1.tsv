@@ -1,0 +1,7 @@
+page_id	baseline_reading	verified_scan_reading_or_status	confidence	note
+chunk_024:p0001	[empty OCR]	`Excerpts Kern`	high	narrow handwritten packet/section label; false-empty recovery
+chunk_024:p0002	`Mannen en Vrouwe / van Beleekemis in onze / Dagen ... Hendrik Kern ... Also, Nuitxing ... Naarlem, N.D.T.Seong Willis & Zon.`	`Mannen en Vrouwen van Beteekenis in onze Dagen` / `Hendrik Kern` / `door J. Huizinga` / Haarlem, H. D. Tjeenk Willink & Zoon, 1899	high	handwritten cover/title; only clearly legible bibliographical elements are normalized here, unclear series-editor wording is not expanded
+chunk_024:p0003	[empty OCR]	blank inside cover/endpaper; no substantive text	high	genuine blank
+chunk_024:p0034	[empty OCR]	blank endpaper/cover; no substantive text	high	genuine blank after printed Kern extract
+chunk_024:p0054	[empty OCR]	blank ruled sheet with faint watermark/impression only; no substantive text	high	genuine blank
+chunk_024:p0056	[empty OCR]	blank ruled folded sheet; no substantive text	high	genuine blank
