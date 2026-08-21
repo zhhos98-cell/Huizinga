@@ -1,0 +1,29 @@
+page_id	baseline_status	visual_status	confidence	note
+chunk_025:p0028	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0033	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0049	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0050	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0055	[empty OCR]	blank/no-substantive	high	two blank ruled sheets/cards; no substantive text
+chunk_025:p0057	[empty OCR]	false-empty-recovery	high	small mounted handwritten slip is clearly visible; baseline is a complete OCR false negative
+chunk_025:p0093	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0096	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0100	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0115	[empty OCR]	false-empty-recovery	high	small mounted handwritten slip is clearly visible; baseline is a complete OCR false negative
+chunk_025:p0123	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0127	[empty OCR]	false-empty-recovery	high	small mounted handwritten slip is clearly visible; baseline is a complete OCR false negative
+chunk_025:p0151	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0152	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0179	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0187	[empty OCR]	blank/no-substantive	high	single blank card/sheet; no substantive text
+chunk_025:p0188	[empty OCR]	false-empty-recovery	high	mounted-board frame contains multiple substantive handwritten slips/notes; baseline is a complete OCR false negative
+chunk_025:p0192	[empty OCR]	blank/no-substantive	high	blank tan envelope/card; no substantive text
+chunk_025:p0196	[empty OCR]	false-empty-recovery	high	mounted-board frame contains multiple substantive handwritten slips/notes; baseline is a complete OCR false negative
+chunk_025:p0198	[empty OCR]	false-empty-recovery	high	mounted-board frame contains multiple substantive handwritten slips/notes; baseline is a complete OCR false negative
+chunk_025:p0201	[empty OCR]	blank/no-substantive	high	mounted blank sheets/cards; no substantive text
+chunk_025:p0205	[empty OCR]	false-empty-recovery	high	mounted-board frame contains multiple substantive handwritten slips/notes; baseline is a complete OCR false negative
+chunk_025:p0214	[empty OCR]	blank/no-substantive	high	blank tan envelope; no substantive text
+chunk_025:p0228	[empty OCR]	false-empty-recovery	high	handwritten text is clearly visible on one or more sheets; baseline is a complete OCR false negative
+chunk_025:p0235	[empty OCR]	false-empty-recovery	high	mounted-board frame contains multiple substantive handwritten slips/notes; baseline is a complete OCR false negative
+chunk_025:p0236	[empty OCR]	false-empty-recovery	high	mounted-board frame contains multiple substantive handwritten slips/notes; baseline is a complete OCR false negative
+chunk_025:p0242	[empty OCR]	blank/no-substantive	high	blank tan envelope; no substantive text
+chunk_025:p0246	[empty OCR]	blank/no-substantive	high	two mounted blank sheets/cards; no substantive text
