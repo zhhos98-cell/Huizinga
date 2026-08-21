@@ -1,0 +1,252 @@
+page_id	scan_page	baseline_chars	class	notes
+chunk_014:p0001	0001	0	blank	
+chunk_014:p0002	0002	1026	usable-with-noise	
+chunk_014:p0003	0003	998	usable-with-noise	
+chunk_014:p0004	0004	308	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0005	0005	1079	usable-with-noise	
+chunk_014:p0006	0006	1053	usable-with-noise	
+chunk_014:p0007	0007	2334	usable-with-noise	
+chunk_014:p0008	0008	3181	usable	printed Paul Hazard prospectus/book sample; explicit paper/typography/ornament/héliogravure plate description; baseline strong
+chunk_014:p0009	0009	905	usable	printed publisher catalogue; legible material-production description and Firmin-Didot printer line; baseline strong
+chunk_014:p0010	0010	61	short-text	short printed Laura Spelman Rockefeller Memorial letterhead; baseline captures the substantive text
+chunk_014:p0011	0011	140	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0012	0012	44	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0013	0013	61	short-text	short printed Laura Spelman Rockefeller Memorial letterhead; baseline captures the substantive text
+chunk_014:p0014	0014	479	usable-with-noise	
+chunk_014:p0015	0015	1045	usable-with-noise	
+chunk_014:p0016	0016	667	usable-with-noise	
+chunk_014:p0017	0017	61	short-text	short printed Laura Spelman Rockefeller Memorial letterhead; baseline captures the substantive text
+chunk_014:p0018	0018	975	usable-with-noise	
+chunk_014:p0019	0019	1394	usable-with-noise	
+chunk_014:p0020	0020	0	false-empty	baseline empty; mounted board with substantive handwritten slips visible
+chunk_014:p0021	0021	61	short-text	short printed Laura Spelman Rockefeller Memorial letterhead; baseline captures the substantive text
+chunk_014:p0022	0022	285	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0023	0023	78	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0024	0024	0	false-empty	baseline empty; printed Laura Spelman Rockefeller Memorial letterhead visible
+chunk_014:p0025	0025	852	usable-with-noise	
+chunk_014:p0026	0026	283	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0027	0027	61	short-text	short printed Laura Spelman Rockefeller Memorial letterhead; baseline captures the substantive text
+chunk_014:p0028	0028	1121	usable-with-noise	
+chunk_014:p0029	0029	230	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0030	0030	0	blank	
+chunk_014:p0031	0031	924	usable-with-noise	
+chunk_014:p0032	0032	576	usable-with-noise	
+chunk_014:p0033	0033	786	usable-with-noise	
+chunk_014:p0034	0034	215	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0035	0035	699	usable-with-noise	
+chunk_014:p0036	0036	753	usable-with-noise	
+chunk_014:p0037	0037	700	usable-with-noise	
+chunk_014:p0038	0038	706	usable-with-noise	
+chunk_014:p0039	0039	530	usable-with-noise	
+chunk_014:p0040	0040	664	usable-with-noise	
+chunk_014:p0041	0041	730	usable-with-noise	
+chunk_014:p0042	0042	988	usable-with-noise	
+chunk_014:p0043	0043	1291	usable-with-noise	
+chunk_014:p0044	0044	785	usable-with-noise	
+chunk_014:p0045	0045	783	usable-with-noise	
+chunk_014:p0046	0046	1025	usable-with-noise	
+chunk_014:p0047	0047	1169	usable-with-noise	
+chunk_014:p0048	0048	635	usable-with-noise	
+chunk_014:p0049	0049	971	usable-with-noise	
+chunk_014:p0050	0050	854	usable-with-noise	
+chunk_014:p0051	0051	847	usable-with-noise	
+chunk_014:p0052	0052	1882	usable-with-noise	
+chunk_014:p0053	0053	1888	usable-with-noise	
+chunk_014:p0054	0054	1852	usable-with-noise	
+chunk_014:p0055	0055	1680	usable-with-noise	
+chunk_014:p0056	0056	1258	usable-with-noise	
+chunk_014:p0057	0057	744	usable-with-noise	
+chunk_014:p0058	0058	0	blank	
+chunk_014:p0059	0059	1061	usable-with-noise	
+chunk_014:p0060	0060	293	high-noise	dense handwritten/postcard material; baseline severely under-captures visible text
+chunk_014:p0061	0061	471	usable-with-noise	
+chunk_014:p0062	0062	348	high-noise	dense handwritten/postcard material; baseline severely under-captures visible text
+chunk_014:p0063	0063	669	usable-with-noise	
+chunk_014:p0064	0064	1454	usable-with-noise	
+chunk_014:p0065	0065	1046	usable-with-noise	
+chunk_014:p0066	0066	587	usable-with-noise	
+chunk_014:p0067	0067	573	usable-with-noise	
+chunk_014:p0068	0068	558	usable-with-noise	
+chunk_014:p0069	0069	58	high-noise	dense handwritten/postcard material; baseline severely under-captures visible text
+chunk_014:p0070	0070	85	high-noise	dense handwritten/postcard material; baseline severely under-captures visible text
+chunk_014:p0071	0071	11	short-text	postcard/form page; only short substantive printed anchor (BRIEFKAART)
+chunk_014:p0072	0072	570	usable-with-noise	
+chunk_014:p0073	0073	509	usable-with-noise	
+chunk_014:p0074	0074	420	usable-with-noise	
+chunk_014:p0075	0075	722	usable-with-noise	
+chunk_014:p0076	0076	907	usable-with-noise	
+chunk_014:p0077	0077	664	usable-with-noise	
+chunk_014:p0078	0078	276	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0079	0079	227	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0080	0080	473	usable-with-noise	
+chunk_014:p0081	0081	1105	usable-with-noise	
+chunk_014:p0082	0082	813	usable-with-noise	
+chunk_014:p0083	0083	707	usable-with-noise	
+chunk_014:p0084	0084	645	usable-with-noise	
+chunk_014:p0085	0085	0	blank	
+chunk_014:p0086	0086	0	blank	
+chunk_014:p0087	0087	0	false-empty	baseline empty; mounted board with substantive handwritten slips visible
+chunk_014:p0088	0088	513	usable-with-noise	
+chunk_014:p0089	0089	973	usable-with-noise	
+chunk_014:p0090	0090	897	usable-with-noise	
+chunk_014:p0091	0091	0	blank	
+chunk_014:p0092	0092	662	usable-with-noise	
+chunk_014:p0093	0093	725	usable-with-noise	
+chunk_014:p0094	0094	0	blank	
+chunk_014:p0095	0095	0	blank	
+chunk_014:p0096	0096	0	blank	
+chunk_014:p0097	0097	483	usable-with-noise	
+chunk_014:p0098	0098	4361	high-noise	mounted slips; OCR text is implausibly over-expanded relative to visible material
+chunk_014:p0099	0099	0	blank	
+chunk_014:p0100	0100	187	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0101	0101	220	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0102	0102	0	blank	
+chunk_014:p0103	0103	572	usable-with-noise	
+chunk_014:p0104	0104	508	usable-with-noise	
+chunk_014:p0105	0105	0	blank	
+chunk_014:p0106	0106	201	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0107	0107	137	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0108	0108	0	blank	
+chunk_014:p0109	0109	311	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0110	0110	211	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0111	0111	0	blank	
+chunk_014:p0112	0112	133	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0113	0113	94	usable-with-noise	
+chunk_014:p0114	0114	0	blank	
+chunk_014:p0115	0115	185	high-noise	mounted slips; repetition cleanup marker present and residual text remains unreliable
+chunk_014:p0116	0116	777	usable-with-noise	
+chunk_014:p0117	0117	484	usable-with-noise	
+chunk_014:p0118	0118	0	blank	
+chunk_014:p0119	0119	0	blank	
+chunk_014:p0120	0120	0	blank	
+chunk_014:p0121	0121	512	usable-with-noise	
+chunk_014:p0122	0122	467	usable-with-noise	
+chunk_014:p0123	0123	0	blank	
+chunk_014:p0124	0124	511	usable-with-noise	
+chunk_014:p0125	0125	12591	high-noise	mounted-slip material; pathological OCR over-expansion (12k+ chars) relative to visible page
+chunk_014:p0126	0126	447	usable-with-noise	
+chunk_014:p0127	0127	316	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0128	0128	0	blank	
+chunk_014:p0129	0129	686	usable-with-noise	
+chunk_014:p0130	0130	653	usable-with-noise	
+chunk_014:p0131	0131	0	blank	
+chunk_014:p0132	0132	0	blank	
+chunk_014:p0133	0133	656	usable-with-noise	
+chunk_014:p0134	0134	628	usable-with-noise	
+chunk_014:p0135	0135	387	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0136	0136	0	blank	
+chunk_014:p0137	0137	0	false-empty	baseline empty; mounted board with substantive handwritten slips visible
+chunk_014:p0138	0138	639	usable-with-noise	
+chunk_014:p0139	0139	0	blank	
+chunk_014:p0140	0140	175	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0141	0141	138	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0142	0142	0	blank	
+chunk_014:p0143	0143	738	usable-with-noise	
+chunk_014:p0144	0144	774	usable-with-noise	
+chunk_014:p0145	0145	545	usable-with-noise	
+chunk_014:p0146	0146	548	usable-with-noise	
+chunk_014:p0147	0147	498	usable-with-noise	
+chunk_014:p0148	0148	0	blank	
+chunk_014:p0149	0149	100	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0150	0150	457	usable-with-noise	
+chunk_014:p0151	0151	0	blank	
+chunk_014:p0152	0152	514	usable-with-noise	
+chunk_014:p0153	0153	452	usable-with-noise	
+chunk_014:p0154	0154	0	blank	
+chunk_014:p0155	0155	660	usable-with-noise	
+chunk_014:p0156	0156	277	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0157	0157	0	blank	
+chunk_014:p0158	0158	544	usable-with-noise	
+chunk_014:p0159	0159	568	usable-with-noise	
+chunk_014:p0160	0160	0	false-empty	baseline empty; Laura Spelman Rockefeller Memorial letterhead visible
+chunk_014:p0161	0161	929	usable-with-noise	
+chunk_014:p0162	0162	919	usable-with-noise	
+chunk_014:p0163	0163	461	usable-with-noise	
+chunk_014:p0164	0164	679	usable-with-noise	
+chunk_014:p0165	0165	723	usable-with-noise	
+chunk_014:p0166	0166	792	usable-with-noise	
+chunk_014:p0167	0167	764	usable-with-noise	
+chunk_014:p0168	0168	0	blank	
+chunk_014:p0169	0169	0	false-empty	baseline empty; Laura Spelman Rockefeller Memorial letterhead visible
+chunk_014:p0170	0170	594	usable-with-noise	
+chunk_014:p0171	0171	604	usable-with-noise	
+chunk_014:p0172	0172	19	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0173	0173	736	usable-with-noise	
+chunk_014:p0174	0174	368	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0175	0175	386	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0176	0176	486	usable-with-noise	
+chunk_014:p0177	0177	604	usable-with-noise	
+chunk_014:p0178	0178	483	usable-with-noise	
+chunk_014:p0179	0179	534	usable-with-noise	
+chunk_014:p0180	0180	575	usable-with-noise	
+chunk_014:p0181	0181	478	usable-with-noise	
+chunk_014:p0182	0182	532	usable-with-noise	
+chunk_014:p0183	0183	441	usable-with-noise	
+chunk_014:p0184	0184	0	blank	
+chunk_014:p0185	0185	739	usable-with-noise	
+chunk_014:p0186	0186	806	usable-with-noise	
+chunk_014:p0187	0187	475	usable-with-noise	
+chunk_014:p0188	0188	468	usable-with-noise	
+chunk_014:p0189	0189	291	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0190	0190	478	usable-with-noise	
+chunk_014:p0191	0191	494	usable-with-noise	
+chunk_014:p0192	0192	509	usable-with-noise	
+chunk_014:p0193	0193	0	blank	
+chunk_014:p0194	0194	544	usable-with-noise	
+chunk_014:p0195	0195	636	usable-with-noise	
+chunk_014:p0196	0196	505	usable-with-noise	
+chunk_014:p0197	0197	524	usable-with-noise	
+chunk_014:p0198	0198	544	usable-with-noise	
+chunk_014:p0199	0199	0	blank	
+chunk_014:p0200	0200	503	usable-with-noise	
+chunk_014:p0201	0201	37	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0202	0202	0	blank	
+chunk_014:p0203	0203	643	usable-with-noise	
+chunk_014:p0204	0204	597	usable-with-noise	
+chunk_014:p0205	0205	430	usable-with-noise	
+chunk_014:p0206	0206	623	usable-with-noise	
+chunk_014:p0207	0207	0	blank	
+chunk_014:p0208	0208	621	usable-with-noise	
+chunk_014:p0209	0209	975	high-noise	dense mounted notes; OCR repeat-removal marker/residual repetition makes page unreliable
+chunk_014:p0210	0210	540	usable-with-noise	
+chunk_014:p0211	0211	424	usable-with-noise	
+chunk_014:p0212	0212	1439	high-noise	dense mounted notes; OCR repeat-removal marker/residual repetition makes page unreliable
+chunk_014:p0213	0213	473	usable-with-noise	
+chunk_014:p0214	0214	0	blank	
+chunk_014:p0215	0215	594	usable-with-noise	
+chunk_014:p0216	0216	518	usable-with-noise	
+chunk_014:p0217	0217	629	usable-with-noise	
+chunk_014:p0218	0218	0	blank	
+chunk_014:p0219	0219	559	usable-with-noise	
+chunk_014:p0220	0220	699	usable-with-noise	
+chunk_014:p0221	0221	507	usable-with-noise	
+chunk_014:p0222	0222	587	usable-with-noise	
+chunk_014:p0223	0223	0	blank	
+chunk_014:p0224	0224	483	usable-with-noise	
+chunk_014:p0225	0225	1009	usable-with-noise	
+chunk_014:p0226	0226	318	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0227	0227	78	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0228	0228	0	blank	
+chunk_014:p0229	0229	248	usable	Basil Blackwell review-copy slip for Gardner, English Gothic Foliage Sculpture; baseline substantially legible
+chunk_014:p0230	0230	367	usable	Cambridge University Press review-copy slip for Gardner, English Gothic Foliage Sculpture, dated 24 June 1927; baseline strong
+chunk_014:p0231	0231	386	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0232	0232	21	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0233	0233	0	blank	
+chunk_014:p0234	0234	103	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0235	0235	323	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0236	0236	983	usable	B. T. Batsford publisher review-copy notice for Walter H. Godfrey, The Story of Architecture in England, Part I; printed portion legible
+chunk_014:p0237	0237	504	usable	B. T. Batsford letter dated 19 Sept. 1928 sending Godfrey for review in History; baseline strong
+chunk_014:p0238	0238	0	blank	
+chunk_014:p0239	0239	0	blank	
+chunk_014:p0240	0240	768	usable-with-noise	
+chunk_014:p0241	0241	473	high-noise	mounted notes; OCR repeat-removal marker and unstable reading order
+chunk_014:p0242	0242	445	usable-with-noise	
+chunk_014:p0243	0243	273	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0244	0244	4	high-noise	mounted/dense handwritten slip board; severe under-capture and/or reading-order collapse
+chunk_014:p0245	0245	61	short-text	short printed Laura Spelman Rockefeller Memorial letterhead; baseline captures the substantive text
+chunk_014:p0246	0246	0	false-empty	baseline empty; mounted board with substantive handwritten slips visible
+chunk_014:p0247	0247	470	usable-with-noise	
+chunk_014:p0248	0248	83	high-noise	mounted slips; overall severe under-capture, but printed anchor 'ÜBERREICHT VOM VERLEGER' is visible
+chunk_014:p0249	0249	0	false-empty	baseline empty; Laura Spelman Rockefeller Memorial letterhead visible
+chunk_014:p0250	0250	665	usable-with-noise	
+chunk_014:p0251	0251	491	high-noise	mounted slips; OCR repeats a short phrase and does not represent the visible board reliably
