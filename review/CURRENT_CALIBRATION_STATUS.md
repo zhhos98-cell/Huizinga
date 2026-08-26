@@ -22,10 +22,11 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `chunk_042`: **page-level visual closure COMPLETE: 222/222 pages**. Aggregate: **143 high-noise, 42 blank/no-substantive, 16 short/nontext, 21 usable-with-noise**. The strongest sustained retrieval packet is `p0175-p0183`. See `review/chunk_042/status.txt`.
 - `chunk_043`: **page-level visual closure COMPLETE: 212/212 pages**. Aggregate: **139 high-noise, 46 blank/no-substantive, 15 short/nontext, 12 usable-with-noise**. The strongest early reading-order exception is `p0016-p0018`; the tail adds `p0202`. See `review/chunk_043/review_summary_v2.md`.
 - `chunk_044`: **page-level visual closure COMPLETE: 200/200 pages for the supplied scan set**. Round 017 aggregate: **103 high-noise, 21 blank/no-substantive, 30 short/nontext, 46 usable-with-noise**. The morphology shifts sharply around `p0134-p0139` from dense mounted-slip boards to sparse controls and then larger letters/notebook leaves and internally linear correspondence. See `review/chunk_044/review_summary_v1.md`.
+- `chunk_045`: **page-level visual closure COMPLETE: 200/200 pages for the supplied scan set**. Round 018 aggregate: **77 high-noise, 30 blank/no-substantive, 14 short/nontext, 79 usable-with-noise**. The opening `p0001-p0069` is unusually retrieval-strong because large internally linear correspondence/notebook/manuscript sheets dominate; mounted-slip morphology returns around `p0071-p0080` and dominates from `p0081` onward. See `review/chunk_045/review_summary_v1.md`.
 
 ## Continuity statement
 
-`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–044 ✅ page-level visual closure`
+`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–045 ✅ page-level visual closure`
 
 ## Five-PDF rounds
 
@@ -46,6 +47,7 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `ROUND_015_5PDF.md`: five PDFs / 200 pages; chunk_043 advanced through `p0200`.
 - `ROUND_016_TAIL.md`: exceptional supplied-tail closure, one PDF / 12 pages; chunk_043 closed at 212/212 without holding the tail for an artificial five-PDF bundle.
 - `ROUND_017_5PDF.md`: five PDFs / 200 pages; chunk_044 closed at 200/200 for the supplied scan set.
+- `ROUND_018_5PDF.md`: five PDFs / 200 pages; chunk_045 closed at 200/200 for the supplied scan set.
 
 The operational unit remains five supplied PDFs per completed round. A supplied terminal tail may be closed separately when waiting would create an artificial batch boundary. Raw PaddleOCR JSON files remain unchanged unless a separate correction workflow explicitly writes a corrected derivative.
 
@@ -55,6 +57,6 @@ The strongest packet begins with `Trois esprits prégothiques < Paris 1930 >` at
 
 ## Next closure priorities
 
-1. Continue with the next five supplied PDFs, beginning `chunk_045:p0001-p0200`.
+1. Continue with the next five supplied PDFs, beginning `chunk_046:p0001-p0200`.
 2. Close chunk_032 visually when scans become available.
 3. Perform exhaustive nonempty OCR-string semantic proofreading only where full OCR-usability closure, rather than retrieval-grade visual calibration, is actually required.
