@@ -1,0 +1,33 @@
+name: tmp-split-chunk002
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp_split_chunk002.yml'
+permissions:
+  contents: write
+jobs:
+  split:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Split rough OCR JSON into readable page chunks
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          src = pathlib.Path('chunk_002.pdf_by_PaddleOCR-VL-1.6.json')
+          data = json.loads(src.read_text(encoding='utf-8'))
+          out = pathlib.Path('_tmp_chunk002_split')
+          out.mkdir(exist_ok=True)
+          step = 10
+          for i in range(0, len(data), step):
+              p = out / f'pages_{i+1:03d}_{min(i+step,len(data)):03d}.json'
+              p.write_text(json.dumps(data[i:i+step], ensure_ascii=False, indent=2), encoding='utf-8')
+          (out/'manifest.txt').write_text(f'pages={len(data)}\n', encoding='utf-8')
+          PY
+      - name: Commit split files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add _tmp_chunk002_split
+          git commit -m 'tmp: split chunk_002 OCR JSON for correction' || exit 0
+          git push
