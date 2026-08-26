@@ -1,0 +1,3262 @@
+[
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "vision_footnote",
+          "block_content": "We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world.",
+          "block_bbox": [
+            1534,
+            1571,
+            2188,
+            1623
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1534.0,
+              1571.0
+            ],
+            [
+              2188.0,
+              1571.0
+            ],
+            [
+              2188.0,
+              1623.0
+            ],
+            [
+              1534.0,
+              1623.0
+            ]
+          ]
+        },
+        {
+          "block_label": "footer",
+          "block_content": "Quotient� to least time",
+          "block_bbox": [
+            363,
+            1990,
+            771,
+            2017
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              363.0,
+              1990.0
+            ],
+            [
+              771.0,
+              1990.0
+            ],
+            [
+              771.0,
+              2017.0
+            ],
+            [
+              363.0,
+              2017.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "En nict frisool, Governo della famiglia B. 2.122, uadey, maden lot usaw.v. erfenis Zelf iels olsem B.1 84. - Costimo zeef in Dani Zalem, truiniert, zeef frugoad la midola v. Zifu kunstscatten. het Burgersla karabler warbiedol nog het Pompense - Lorez frugoad, envoudig. Piers en Lucr.Tama - Busni hadden hem ernstig opgevoerd: 2e Studio, Sport - Liberi dieibarder dan lichri. Macchiav.: ti diellassie, digiusch pierili pio che a tanto huomo non pa Zena ti convenisse; i modo che molte volta fu visto tra i tuoi higliusli e fi glinsed tra i loro trastudi mescolandi ook is het nog ch. - Costimo's huilestium da Moradia. Billicci beschowut zu kerb-bouws als goods werben.",
+          "block_bbox": [
+            2240,
+            1013,
+            2954,
+            1400
+          ],
+          "block_id": 2,
+          "block_order": 1,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2240.0,
+              1013.0
+            ],
+            [
+              2954.0,
+              1013.0
+            ],
+            [
+              2954.0,
+              1400.0
+            ],
+            [
+              2240.0,
+              1400.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Fra Ingalico en Demotello Triggenstein de lewsonatering voor de vla. Huurt... er is nog geen contrast lusscoon hem roomdeid en waarldozin. geen ketterij, geen libertij nisma, geen dogmat, nagen, wel eenige spot (moest die was oud), een onbekvanger uiter. roomdeid vol vanigde aan de schoonheid. het gelass mag ingemwervshast.",
+          "block_bbox": [
+            2234,
+            1398,
+            2953,
+            1577
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2234.0,
+              1398.0
+            ],
+            [
+              2953.0,
+              1398.0
+            ],
+            [
+              2953.0,
+              1577.0
+            ],
+            [
+              2234.0,
+              1577.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "het doïcde geused heette contemplated\n\nmumdi. masr hos! Polix, aan mod. Clavica\n\n8.1V.1476: wit raden des weegs, zingerote en\n\nnu en dan van padd. dingen d'prebende\n\nom dan vassentief niet te vergelen. In Sam\n\nMiniato lepssegden unij als van dech. het\n\ngustinus le czem, maar de lechuw ging\n\nwelda over in muziele en het beuwden\n\nvan een dancer, diens wij hier controlstof\n\nid. Verging zilucente, per le sola et sent\n\nquanto bem è nel monolo.\n\np.14",
+          "block_bbox": [
+            2235,
+            1577,
+            2954,
+            1820
+          ],
+          "block_id": 4,
+          "block_order": 3,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2235.0,
+              1577.0
+            ],
+            [
+              2954.0,
+              1577.0
+            ],
+            [
+              2954.0,
+              1820.0
+            ],
+            [
+              2235.0,
+              1820.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Pico over the mendedeemwaarde: opening led a user 900 thatan die niel doorgingen",
+          "block_bbox": [
+            2241,
+            1817,
+            2952,
+            1861
+          ],
+          "block_id": 5,
+          "block_order": 4,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2241.0,
+              1817.0
+            ],
+            [
+              2952.0,
+              1817.0
+            ],
+            [
+              2952.0,
+              1861.0
+            ],
+            [
+              2241.0,
+              1861.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "net accord gap photo. opgenomme zoon broger trittololos: berwigs voor de cecini go harmonie v. goddel. waarheid en wel zeldsche schonheid.",
+          "block_bbox": [
+            2241,
+            1860,
+            2953,
+            1948
+          ],
+          "block_id": 6,
+          "block_order": 5,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              2241.0,
+              1870.0
+            ],
+            [
+              2241.0,
+              1947.0
+            ],
+            [
+              2952.0,
+              1947.0
+            ],
+            [
+              2952.0,
+              1890.0
+            ],
+            [
+              2952.0,
+              1870.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Petrarca's Homemade die high-net Cezar kon Bocc.'s miscellaneous studies. 1996 Manual Carry 40L024, 1438 Balsarion. Gemmild as Plethon",
+          "block_bbox": [
+            2237,
+            1949,
+            2953,
+            2017
+          ],
+          "block_id": 7,
+          "block_order": 6,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2237.0,
+              1949.0
+            ],
+            [
+              2953.0,
+              1949.0
+            ],
+            [
+              2953.0,
+              2017.0
+            ],
+            [
+              2237.0,
+              2017.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 24,
+            "label": "vision_footnote",
+            "score": 0.34956005215644836,
+            "coordinate": [
+              1534,
+              1571,
+              2188,
+              1623
+            ],
+            "polygon_points": [
+              [
+                1534.0,
+                1571.0
+              ],
+              [
+                2188.0,
+                1571.0
+              ],
+              [
+                2188.0,
+                1623.0
+              ],
+              [
+                1534.0,
+                1623.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.3483276069164276,
+            "coordinate": [
+              363,
+              1990,
+              771,
+              2017
+            ],
+            "polygon_points": [
+              [
+                363.0,
+                1990.0
+              ],
+              [
+                771.0,
+                1990.0
+              ],
+              [
+                771.0,
+                2017.0
+              ],
+              [
+                363.0,
+                2017.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.864342987537384,
+            "coordinate": [
+              2240,
+              1013,
+              2954,
+              1400
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2240.0,
+                1013.0
+              ],
+              [
+                2954.0,
+                1013.0
+              ],
+              [
+                2954.0,
+                1400.0
+              ],
+              [
+                2240.0,
+                1400.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7400146126747131,
+            "coordinate": [
+              2234,
+              1398,
+              2953,
+              1577
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2234.0,
+                1398.0
+              ],
+              [
+                2953.0,
+                1398.0
+              ],
+              [
+                2953.0,
+                1577.0
+              ],
+              [
+                2234.0,
+                1577.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.762923002243042,
+            "coordinate": [
+              2235,
+              1577,
+              2954,
+              1820
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2235.0,
+                1577.0
+              ],
+              [
+                2954.0,
+                1577.0
+              ],
+              [
+                2954.0,
+                1820.0
+              ],
+              [
+                2235.0,
+                1820.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.39299216866493225,
+            "coordinate": [
+              2241,
+              1817,
+              2952,
+              1861
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2241.0,
+                1817.0
+              ],
+              [
+                2952.0,
+                1817.0
+              ],
+              [
+                2952.0,
+                1861.0
+              ],
+              [
+                2241.0,
+                1861.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4990520477294922,
+            "coordinate": [
+              2241,
+              1860,
+              2953,
+              1948
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2241.0,
+                1870.0
+              ],
+              [
+                2241.0,
+                1947.0
+              ],
+              [
+                2952.0,
+                1947.0
+              ],
+              [
+                2952.0,
+                1890.0
+              ],
+              [
+                2952.0,
+                1870.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6873442530632019,
+            "coordinate": [
+              2237,
+              1949,
+              2953,
+              2017
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2237.0,
+                1949.0
+              ],
+              [
+                2953.0,
+                1949.0
+              ],
+              [
+                2953.0,
+                2017.0
+              ],
+              [
+                2237.0,
+                2017.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world.\n\nEn nict frisool, Governo della famiglia B. 2.122, uadey, maden lot usaw.v. erfenis Zelf iels olsem B.1 84. - Costimo zeef in Dani Zalem, truiniert, zeef frugoad la midola v. Zifu kunstscatten. het Burgersla karabler warbiedol nog het Pompense - Lorez frugoad, envoudig. Piers en Lucr.Tama - Busni hadden hem ernstig opgevoerd: 2e Studio, Sport - Liberi dieibarder dan lichri. Macchiav.: ti diellassie, digiusch pierili pio che a tanto huomo non pa Zena ti convenisse; i modo che molte volta fu visto tra i tuoi higliusli e fi glinsed tra i loro trastudi mescolandi ook is het nog ch. - Costimo's huilestium da Moradia. Billicci beschowut zu kerb-bouws als goods werben.\n\nFra Ingalico en Demotello Triggenstein de lewsonatering voor de vla. Huurt... er is nog geen contrast lusscoon hem roomdeid en waarldozin. geen ketterij, geen libertij nisma, geen dogmat, nagen, wel eenige spot (moest die was oud), een onbekvanger uiter. roomdeid vol vanigde aan de schoonheid. het gelass mag ingemwervshast.\n\nhet doïcde geused heette contemplated\n\nmumdi. masr hos! Polix, aan mod. Clavica\n\n8.1V.1476: wit raden des weegs, zingerote en\n\nnu en dan van padd. dingen d'prebende\n\nom dan vassentief niet te vergelen. In Sam\n\nMiniato lepssegden unij als van dech. het\n\ngustinus le czem, maar de lechuw ging\n\nwelda over in muziele en het beuwden\n\nvan een dancer, diens wij hier controlstof\n\nid. Verging zilucente, per le sola et sent\n\nquanto bem è nel monolo.\n\np.14\n\nPico over the mendedeemwaarde: opening led a user 900 thatan die niel doorgingen\n\nnet accord gap photo. opgenomme zoon broger trittololos: berwigs voor de cecini go harmonie v. goddel. waarheid en wel zeldsche schonheid.\n\nPetrarca's Homemade die high-net Cezar kon Bocc.'s miscellaneous studies. 1996 Manual Carry 40L024, 1438 Balsarion. Gemmild as Plethon",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F4c244358b1dc0d579a861fe4fb0ec1fb234b64bbf0d5cedb29b233825796127f"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F448a6e7b938d5dfa57310a4f034bb86064f3fbdaf24edef85bf91e506d6cc7db"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "de d'accompagné à Bada est populairie. Cité, l'éclat, apportait, naturenant les vermeufling, spéciales, zapastierards, net enmatérages en la",
+          "block_bbox": [
+            1512,
+            1897,
+            2220,
+            2015
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1512.0,
+              1897.0
+            ],
+            [
+              2220.0,
+              1897.0
+            ],
+            [
+              2220.0,
+              2015.0
+            ],
+            [
+              1512.0,
+              2015.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Artist, good voor het notumme., maar Plato loot alles wat die ziel betrof. - andere Gedegen. Lortend leverdige investie: wie leopt later met car. dom. - Flor. geest drifig user Plato. op aender. v. Germ. sticht Cos. plat. acost., last Man. Ficino opdeide lot platskenner.",
+          "block_bbox": [
+            2220,
+            1001,
+            2954,
+            1176
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2220.0,
+              1001.0
+            ],
+            [
+              2954.0,
+              1001.0
+            ],
+            [
+              2954.0,
+              1176.0
+            ],
+            [
+              2220.0,
+              1176.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Ecal florentinesc. wilgemotke dcal: outhe car. dom doordringen. car analogie\n\nvon Plats gezocal. etc. p.8.",
+          "block_bbox": [
+            2222,
+            1177,
+            2954,
+            1249
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2222.0,
+              1177.0
+            ],
+            [
+              2954.0,
+              1177.0
+            ],
+            [
+              2954.0,
+              1249.0
+            ],
+            [
+              2222.0,
+              1249.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "het zochen moor een schosne wereld. de grond u. eka cultuuroplevering. deze werre koorderheid niew. moor ook het lid deel. ideeed was zoo'm droom: een helden wereld.",
+          "block_bbox": [
+            2221,
+            1266,
+            2952,
+            1380
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2221.0,
+              1266.0
+            ],
+            [
+              2952.0,
+              1266.0
+            ],
+            [
+              2952.0,
+              1380.0
+            ],
+            [
+              2221.0,
+              1380.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "sta (los, giostra, Petr. had za 'gevaard. on\n\nzin' geneemol: men least norgend, odel Sci\n\npio of Coaster Loumnoeie hielder. \"Diem:\n\ndaf later unf dos slaven doen.\" Saw. en\n\nMack: circendes, om het volk als lisamnie\n\nlo doen vergelen. moor het was exalter\n\nzende spot met erot. belgelembid.",
+          "block_bbox": [
+            2223,
+            1379,
+            2953,
+            1535
+          ],
+          "block_id": 4,
+          "block_order": 5,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2223.0,
+              1379.0
+            ],
+            [
+              2953.0,
+              1379.0
+            ],
+            [
+              2953.0,
+              1535.0
+            ],
+            [
+              2223.0,
+              1535.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Flor. werzt op widersap, Saccatti De spot het: La Camalderia è morta. Zonddag Juniors Noen dorpsteurnosi. Zepub. zolp Sloeg ridders.",
+          "block_bbox": [
+            2224,
+            1534,
+            2954,
+            1623
+          ],
+          "block_id": 5,
+          "block_order": 6,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2224.0,
+              1534.0
+            ],
+            [
+              2954.0,
+              1534.0
+            ],
+            [
+              2954.0,
+              1623.0
+            ],
+            [
+              2224.0,
+              1623.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "1469, 1475, Bezonger door Pol. en Pulei. - Karel de Stoule hun model. meer hoever van het�. Loumni: 'Lionards' schleier harness u. Giuliano u. Zijda, zilvershehm v. Pollajusto, paarden. 2020. edalteanew. - niet meer gedeed serieus. bij Fra. nog wel? Pudi's Morgan: 'Roland is het oeder Boisardo - het spel. element omgeloger in het komische.",
+          "block_bbox": [
+            2222,
+            1622,
+            2955,
+            1822
+          ],
+          "block_id": 6,
+          "block_order": 7,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              2222.0,
+              1622.0
+            ],
+            [
+              2955.0,
+              1622.0
+            ],
+            [
+              2955.0,
+              1822.0
+            ],
+            [
+              2222.0,
+              1822.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "hoo met de overige vormen der Reven- verfassung? - in die Litt. de vormen en de thema's oud. hol liegfadical via Perranca gehaed leug u.d. countrise constructie a allegeria lot een gekunstede natuurlijk heid. myth figuren maar geen art geest heel andere de ortw. Roman de la rose lo",
+          "block_bbox": [
+            2224,
+            1845,
+            2955,
+            2016
+          ],
+          "block_id": 7,
+          "block_order": 8,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2224.0,
+              1845.0
+            ],
+            [
+              2955.0,
+              1845.0
+            ],
+            [
+              2955.0,
+              2016.0
+            ],
+            [
+              2224.0,
+              2016.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5038591027259827,
+            "coordinate": [
+              1512,
+              1897,
+              2220,
+              2015
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1512.0,
+                1897.0
+              ],
+              [
+                2220.0,
+                1897.0
+              ],
+              [
+                2220.0,
+                2015.0
+              ],
+              [
+                1512.0,
+                2015.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8559084534645081,
+            "coordinate": [
+              2220,
+              1001,
+              2954,
+              1176
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2220.0,
+                1001.0
+              ],
+              [
+                2954.0,
+                1001.0
+              ],
+              [
+                2954.0,
+                1176.0
+              ],
+              [
+                2220.0,
+                1176.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7869008779525757,
+            "coordinate": [
+              2222,
+              1177,
+              2954,
+              1249
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2222.0,
+                1177.0
+              ],
+              [
+                2954.0,
+                1177.0
+              ],
+              [
+                2954.0,
+                1249.0
+              ],
+              [
+                2222.0,
+                1249.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.849911093711853,
+            "coordinate": [
+              2221,
+              1266,
+              2952,
+              1380
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2221.0,
+                1266.0
+              ],
+              [
+                2952.0,
+                1266.0
+              ],
+              [
+                2952.0,
+                1380.0
+              ],
+              [
+                2221.0,
+                1380.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8792239427566528,
+            "coordinate": [
+              2223,
+              1379,
+              2953,
+              1535
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2223.0,
+                1379.0
+              ],
+              [
+                2953.0,
+                1379.0
+              ],
+              [
+                2953.0,
+                1535.0
+              ],
+              [
+                2223.0,
+                1535.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.823466420173645,
+            "coordinate": [
+              2224,
+              1534,
+              2954,
+              1623
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2224.0,
+                1534.0
+              ],
+              [
+                2954.0,
+                1534.0
+              ],
+              [
+                2954.0,
+                1623.0
+              ],
+              [
+                2224.0,
+                1623.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8551705479621887,
+            "coordinate": [
+              2222,
+              1622,
+              2955,
+              1822
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                2222.0,
+                1622.0
+              ],
+              [
+                2955.0,
+                1622.0
+              ],
+              [
+                2955.0,
+                1822.0
+              ],
+              [
+                2222.0,
+                1822.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8019910454750061,
+            "coordinate": [
+              2224,
+              1845,
+              2955,
+              2016
+            ],
+            "order": 8,
+            "polygon_points": [
+              [
+                2224.0,
+                1845.0
+              ],
+              [
+                2955.0,
+                1845.0
+              ],
+              [
+                2955.0,
+                2016.0
+              ],
+              [
+                2224.0,
+                2016.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "de d'accompagné à Bada est populairie. Cité, l'éclat, apportait, naturenant les vermeufling, spéciales, zapastierards, net enmatérages en la\n\nArtist, good voor het notumme., maar Plato loot alles wat die ziel betrof. - andere Gedegen. Lortend leverdige investie: wie leopt later met car. dom. - Flor. geest drifig user Plato. op aender. v. Germ. sticht Cos. plat. acost., last Man. Ficino opdeide lot platskenner.\n\nEcal florentinesc. wilgemotke dcal: outhe car. dom doordringen. car analogie\n\nvon Plats gezocal. etc. p.8.\n\nhet zochen moor een schosne wereld. de grond u. eka cultuuroplevering. deze werre koorderheid niew. moor ook het lid deel. ideeed was zoo'm droom: een helden wereld.\n\nsta (los, giostra, Petr. had za 'gevaard. on\n\nzin' geneemol: men least norgend, odel Sci\n\npio of Coaster Loumnoeie hielder. \"Diem:\n\ndaf later unf dos slaven doen.\" Saw. en\n\nMack: circendes, om het volk als lisamnie\n\nlo doen vergelen. moor het was exalter\n\nzende spot met erot. belgelembid.\n\nFlor. werzt op widersap, Saccatti De spot het: La Camalderia è morta. Zonddag Juniors Noen dorpsteurnosi. Zepub. zolp Sloeg ridders.\n\n1469, 1475, Bezonger door Pol. en Pulei. - Karel de Stoule hun model. meer hoever van het�. Loumni: 'Lionards' schleier harness u. Giuliano u. Zijda, zilvershehm v. Pollajusto, paarden. 2020. edalteanew. - niet meer gedeed serieus. bij Fra. nog wel? Pudi's Morgan: 'Roland is het oeder Boisardo - het spel. element omgeloger in het komische.\n\nhoo met de overige vormen der Reven- verfassung? - in die Litt. de vormen en de thema's oud. hol liegfadical via Perranca gehaed leug u.d. countrise constructie a allegeria lot een gekunstede natuurlijk heid. myth figuren maar geen art geest heel andere de ortw. Roman de la rose lo",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F57d9bcf618ff715a3753da1dd6cf90dddabcb1e4cca185d9f02254b4aa94e27b"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F4fc4e016cf6c71898a9a958305d6e286f35f4b5804d65079f2d25741661209bd"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "2ЕСОГ ТНЕТНОВД ИОВЕОГК ПК",
+          "block_bbox": [
+            1524,
+            1049,
+            1759,
+            1077
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1524.0,
+              1049.0
+            ],
+            [
+              1759.0,
+              1049.0
+            ],
+            [
+              1759.0,
+              1077.0
+            ],
+            [
+              1524.0,
+              1077.0
+            ]
+          ]
+        },
+        {
+          "block_label": "header",
+          "block_content": "bij fol.18",
+          "block_bbox": [
+            2633,
+            1058,
+            2848,
+            1144
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2633.0,
+              1058.0
+            ],
+            [
+              2848.0,
+              1058.0
+            ],
+            [
+              2848.0,
+              1144.0
+            ],
+            [
+              2633.0,
+              1144.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Luigi Pucciti 1432 - 1484. Luca Giacomo Kamerwood & Lori - onda stof, populatioe Urom (Stradarragend). Morganale 1471/83\n\n2004. rover chew & zel, mean noz geen\n\nnational of wansocca, zoon bely & lical\n\nu. loco & mildro. & wend",
+          "block_bbox": [
+            2009,
+            1502,
+            2606,
+            1647
+          ],
+          "block_id": 2,
+          "block_order": 1,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2009.0,
+              1502.0
+            ],
+            [
+              2606.0,
+              1502.0
+            ],
+            [
+              2606.0,
+              1647.0
+            ],
+            [
+              2009.0,
+              1647.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Angelo Domagni v. Monte Paluciano\n\nPoliziano, 962. 1454. 26 prof. R诗.",
+          "block_bbox": [
+            2013,
+            1662,
+            2581,
+            1721
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2013.0,
+              1662.0
+            ],
+            [
+              2581.0,
+              1662.0
+            ],
+            [
+              2581.0,
+              1721.0
+            ],
+            [
+              2013.0,
+              1721.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 12,
+            "label": "header",
+            "score": 0.606969952583313,
+            "coordinate": [
+              1524,
+              1049,
+              1759,
+              1077
+            ],
+            "polygon_points": [
+              [
+                1524.0,
+                1049.0
+              ],
+              [
+                1759.0,
+                1049.0
+              ],
+              [
+                1759.0,
+                1077.0
+              ],
+              [
+                1524.0,
+                1077.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 12,
+            "label": "header",
+            "score": 0.5882192850112915,
+            "coordinate": [
+              2633,
+              1058,
+              2848,
+              1144
+            ],
+            "polygon_points": [
+              [
+                2633.0,
+                1058.0
+              ],
+              [
+                2848.0,
+                1058.0
+              ],
+              [
+                2848.0,
+                1144.0
+              ],
+              [
+                2633.0,
+                1144.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5860207676887512,
+            "coordinate": [
+              2009,
+              1502,
+              2606,
+              1647
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2009.0,
+                1502.0
+              ],
+              [
+                2606.0,
+                1502.0
+              ],
+              [
+                2606.0,
+                1647.0
+              ],
+              [
+                2009.0,
+                1647.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4466985762119293,
+            "coordinate": [
+              2013,
+              1662,
+              2581,
+              1721
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2013.0,
+                1662.0
+              ],
+              [
+                2581.0,
+                1662.0
+              ],
+              [
+                2581.0,
+                1721.0
+              ],
+              [
+                2013.0,
+                1721.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Luigi Pucciti 1432 - 1484. Luca Giacomo Kamerwood & Lori - onda stof, populatioe Urom (Stradarragend). Morganale 1471/83\n\n2004. rover chew & zel, mean noz geen\n\nnational of wansocca, zoon bely & lical\n\nu. loco & mildro. & wend\n\nAngelo Domagni v. Monte Paluciano\n\nPoliziano, 962. 1454. 26 prof. R诗.",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F9586cb32839da611255bc3a667c79b3490d072b753a291205496e104ffb24ac3"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2Faaea340c1ecd60f1c84b40ebcf0fbc18c84ab0649994b001c4a690fdadc59cdb"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "header",
+          "block_content": "SECOL THETFORD NORFOLK U.K.",
+          "block_bbox": [
+            1250,
+            1048,
+            1483,
+            1073
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1250.0,
+              1048.0
+            ],
+            [
+              1483.0,
+              1048.0
+            ],
+            [
+              1483.0,
+              1073.0
+            ],
+            [
+              1250.0,
+              1073.0
+            ]
+          ]
+        },
+        {
+          "block_label": "image",
+          "block_content": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1478_997_1736.jpg\" alt=\"Image\" width=\"20%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1478_997_1736.jpg\" alt=\"Image\" width=\"20%\" />\n\n\n\n</div>\n\n\n</div>\n",
+          "block_bbox": [
+            391,
+            1478,
+            997,
+            1736
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              391.0,
+              1478.0
+            ],
+            [
+              997.0,
+              1478.0
+            ],
+            [
+              997.0,
+              1736.0
+            ],
+            [
+              391.0,
+              1736.0
+            ]
+          ]
+        },
+        {
+          "block_label": "table",
+          "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>de Buccilia: weg naar de naturier, weg van het stoutloemem. oude unmeme en la ma&#x27;s: Franber. - ent�el ilad. woel terenam, melder Bizar en Barot. Horatini?</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>L. zeef de bestel dieblis</td><td style='text-align: center; word-wrap: break-word;'>hoelueval: Lohnzo, do piin dolce pendier. Cerai cai vuol... 12.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Lo! Ugoino Martelli: mijn mostendromen zijn beler dan uw mongenbezigholem. de mieren 12. de Eijem p.150. Nencio voal&#x27;s eel eel boerse.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Poliziano: Rusticus, p. cxxxxvi. giostra p. 13.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>de Bloemem: (Florence) Pol. cVIII, Lorenzo don.4 p.117, Pol. Ball. 3,4.28019.295. (80,114)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>hoogela verfijning. verdeding, verleedering, la mobidexzo. mel een schaduw u. melom cholie: Lon p.236 L&#x27;adria malina... Ca e wa na cota è il giovenil piorir...</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Quant&#x27; è balla giominazza... II&quot;. che si fuggia lillaria</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>cai vuol esser cielo lia</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Di doman non c&#x27;è certezza. (Primaveri bi doman... dal zai ale oloodendand ool)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>knacaligen wiling u. dit alles in de baad. wundy</td><td style='text-align: center; word-wrap: break-word;'>het is Florence zaop del dit addas Ciga. houle, die damenleing en oole de tikden v. Flor. - de lill. le Besandeen mel de kuin</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>emozal.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>de Boukhniel had de passende vorm zand geronden: Bruneelascai, ale ant elemente zaer naulr. opgenomen en verwerd: het licela, zuima, edade was niet zom. of gri maar 205. - S. Lorenzo, S. Spainilo. - voor enel nie zoo la genielen om de eindelooze herhaling enan.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>de Beeldrowuk. wroll om de Gepeldeid v. midalien en molien het zuinest &amp; paald door de schappingshecal zeep. lek kend dezafole kaalificit en wildubli bericht. vandoan sluter naast Donate00 (there u. Courajod). - de geraren voor da sculpt. niet uit het koal., maar wil de virtuostile, het impressionisme en he pompezo. - de dem van Ghiblerii (Rain wolkengroep zie Fir.83). - het pompezo in het graumument (ugl. Sluter). Fir.91.</td></tr></table>",
+          "block_bbox": [
+            1502,
+            997,
+            2955,
+            2017
+          ],
+          "block_id": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1502.0,
+              997.0
+            ],
+            [
+              2955.0,
+              997.0
+            ],
+            [
+              2955.0,
+              2018.0
+            ],
+            [
+              1502.0,
+              2018.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 12,
+            "label": "header",
+            "score": 0.356603741645813,
+            "coordinate": [
+              1250,
+              1048,
+              1483,
+              1073
+            ],
+            "polygon_points": [
+              [
+                1250.0,
+                1048.0
+              ],
+              [
+                1483.0,
+                1048.0
+              ],
+              [
+                1483.0,
+                1073.0
+              ],
+              [
+                1250.0,
+                1073.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 14,
+            "label": "image",
+            "score": 0.7734898924827576,
+            "coordinate": [
+              391,
+              1478,
+              997,
+              1736
+            ],
+            "polygon_points": [
+              [
+                391.0,
+                1478.0
+              ],
+              [
+                997.0,
+                1478.0
+              ],
+              [
+                997.0,
+                1736.0
+              ],
+              [
+                391.0,
+                1736.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.33382850885391235,
+            "coordinate": [
+              1531,
+              1011,
+              1580,
+              1050
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1531.0,
+                1011.0
+              ],
+              [
+                1580.0,
+                1011.0
+              ],
+              [
+                1580.0,
+                1050.0
+              ],
+              [
+                1531.0,
+                1050.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.5964511036872864,
+            "coordinate": [
+              1502,
+              997,
+              2955,
+              2017
+            ],
+            "polygon_points": [
+              [
+                1502.0,
+                997.0
+              ],
+              [
+                2955.0,
+                997.0
+              ],
+              [
+                2955.0,
+                2018.0
+              ],
+              [
+                1502.0,
+                2018.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1478_997_1736.jpg\" alt=\"Image\" width=\"20%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1478_997_1736.jpg\" alt=\"Image\" width=\"20%\" />\n\n\n\n</div>\n\n\n</div>\n\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>19</td><td style='text-align: center; word-wrap: break-word;'>de Buccilia: weg naar de naturier, weg van het stoutloemem. oude unmeme en la ma&#x27;s: Franber. - ent�el ilad. woel terenam, melder Bizar en Barot. Horatini?</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>L. zeef de bestel dieblis</td><td style='text-align: center; word-wrap: break-word;'>hoelueval: Lohnzo, do piin dolce pendier. Cerai cai vuol... 12.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Lo! Ugoino Martelli: mijn mostendromen zijn beler dan uw mongenbezigholem. de mieren 12. de Eijem p.150. Nencio voal&#x27;s eel eel boerse.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Poliziano: Rusticus, p. cxxxxvi. giostra p. 13.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>de Bloemem: (Florence) Pol. cVIII, Lorenzo don.4 p.117, Pol. Ball. 3,4.28019.295. (80,114)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>hoogela verfijning. verdeding, verleedering, la mobidexzo. mel een schaduw u. melom cholie: Lon p.236 L&#x27;adria malina... Ca e wa na cota è il giovenil piorir...</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Quant&#x27; è balla giominazza... II&quot;. che si fuggia lillaria</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>cai vuol esser cielo lia</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Di doman non c&#x27;è certezza. (Primaveri bi doman... dal zai ale oloodendand ool)</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>knacaligen wiling u. dit alles in de baad. wundy</td><td style='text-align: center; word-wrap: break-word;'>het is Florence zaop del dit addas Ciga. houle, die damenleing en oole de tikden v. Flor. - de lill. le Besandeen mel de kuin</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>emozal.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>de Boukhniel had de passende vorm zand geronden: Bruneelascai, ale ant elemente zaer naulr. opgenomen en verwerd: het licela, zuima, edade was niet zom. of gri maar 205. - S. Lorenzo, S. Spainilo. - voor enel nie zoo la genielen om de eindelooze herhaling enan.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>de Beeldrowuk. wroll om de Gepeldeid v. midalien en molien het zuinest &amp; paald door de schappingshecal zeep. lek kend dezafole kaalificit en wildubli bericht. vandoan sluter naast Donate00 (there u. Courajod). - de geraren voor da sculpt. niet uit het koal., maar wil de virtuostile, het impressionisme en he pompezo. - de dem van Ghiblerii (Rain wolkengroep zie Fir.83). - het pompezo in het graumument (ugl. Sluter). Fir.91.</td></tr></table>",
+      "images": {
+        "imgs/img_in_image_box_391_1478_997_1736.jpg": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/markdown_3/imgs/img_in_image_box_391_1478_997_1736.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F419e09ac5fa01fe67b544b52d198d79634678789c435af61861fa9b7e5bbe58a"
+      }
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fe72b762903fcabbf92e14114886b0a7a44a2f97bcbf0714a7249e89460addd67"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fe9762eb749405a0446157ec2c0c02ef8be4e4102178e31c48327b00ff93cdb0e"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "table",
+          "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>de harmonia met laren en poézie vadao men in Donatello: het zadele, zuivera, jong de gralin u. zij inmuniaities. het volgt nalumulike: urxamo, het politica: Damit heft familiepoetel. naat Christandafo Tormauonni. heken de Gustlen u. Froncoen Laurama (vond Bode. Flor. Bilddamm 225. loethelite canvoud en veredaling. het kinderpoiliel. was spreeel zeldend het kind zuid en zuid! (het verra ootlen). Ceramole modellen voor Car. en John. (Bode 242). uge. de kinderen v. Dieris Bouts etc. - donalele, Delid. de Selt., Irl. Poidell., Iu ca della Roblia. - sponansla naturalia van een nog me geeloot, cf Vergin ilhuent - het dunn man het reed Ben. da Maj. , Uina da Fielola en Indra dal Veru. moeten Uilfigur herleben (Bode 250). de putto. op woedelol u. zum. oudcar. gerieu masal Donatello des putto, masal vol gel. loch geen engel. ugl. de engelen van. Vau Eyche en Vam der Goed. - merad aange bracal, dameland en mutiearend. zeels che zudez zoo woggeteld. capp. Pazzia. - donal. &#x27;z zanggetelte Fir. 81. Marco Luca die Roblia&#x27;: Gap. degli Innocenti. Indres aereal mandola e mel kinderupjaed, Fir 85.87. die Eifelgeleid en het zatonise ladie geeren. Im die scailderkunst ad zoo rike en plesing, dat lae u. liene te volgen Zij de donlast-giolleshe cijm: Masaccio, Ue. F.A. 105/8.109.112. de Callagno: het herisae, tragicaes, plasticae gebaan. Fra Angelico reed een Beumel arelaide leung naar kinderighen liiden. reed een hiloisic zien: uge de bemondering voor de Vlam. - Benoxzo Gozzoli: die pracat, de overlading. - Christandajo&#x27;s transpolit van Hugo v.d. Goed. Kern v.h. flor. Quellrocento Christandajo, Lipai, Bolticoli - familiepaar. in Santa Maria, molle. - Liari: academio lond. (Pitt</td></tr></table>",
+          "block_bbox": [
+            12,
+            989,
+            2955,
+            2013
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              12.0,
+              989.0
+            ],
+            [
+              2956.0,
+              989.0
+            ],
+            [
+              2956.0,
+              2013.0
+            ],
+            [
+              12.0,
+              2013.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.3615449368953705,
+            "coordinate": [
+              12,
+              989,
+              2955,
+              2013
+            ],
+            "polygon_points": [
+              [
+                12.0,
+                989.0
+              ],
+              [
+                2956.0,
+                989.0
+              ],
+              [
+                2956.0,
+                2013.0
+              ],
+              [
+                12.0,
+                2013.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3378875255584717,
+            "coordinate": [
+              2234,
+              997,
+              2955,
+              1093
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2234.0,
+                997.0
+              ],
+              [
+                2955.0,
+                997.0
+              ],
+              [
+                2955.0,
+                1093.0
+              ],
+              [
+                2234.0,
+                1093.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4363878071308136,
+            "coordinate": [
+              2230,
+              1190,
+              2953,
+              1414
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2230.0,
+                1190.0
+              ],
+              [
+                2953.0,
+                1190.0
+              ],
+              [
+                2953.0,
+                1414.0
+              ],
+              [
+                2230.0,
+                1414.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6172308921813965,
+            "coordinate": [
+              2228,
+              1414,
+              2955,
+              1571
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2228.0,
+                1414.0
+              ],
+              [
+                2955.0,
+                1414.0
+              ],
+              [
+                2955.0,
+                1571.0
+              ],
+              [
+                2228.0,
+                1571.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6375595331192017,
+            "coordinate": [
+              2230,
+              1570,
+              2954,
+              1637
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2230.0,
+                1570.0
+              ],
+              [
+                2954.0,
+                1570.0
+              ],
+              [
+                2954.0,
+                1637.0
+              ],
+              [
+                2230.0,
+                1637.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5825977921485901,
+            "coordinate": [
+              2229,
+              1638,
+              2954,
+              1684
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2229.0,
+                1638.0
+              ],
+              [
+                2954.0,
+                1638.0
+              ],
+              [
+                2954.0,
+                1684.0
+              ],
+              [
+                2229.0,
+                1684.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7542937994003296,
+            "coordinate": [
+              2227,
+              1707,
+              2952,
+              1817
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2227.0,
+                1707.0
+              ],
+              [
+                2952.0,
+                1707.0
+              ],
+              [
+                2952.0,
+                1817.0
+              ],
+              [
+                2227.0,
+                1817.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8016279339790344,
+            "coordinate": [
+              2229,
+              1816,
+              2953,
+              1951
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                2229.0,
+                1816.0
+              ],
+              [
+                2953.0,
+                1816.0
+              ],
+              [
+                2953.0,
+                1951.0
+              ],
+              [
+                2229.0,
+                1951.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6910810470581055,
+            "coordinate": [
+              2228,
+              1951,
+              2951,
+              2017
+            ],
+            "order": 8,
+            "polygon_points": [
+              [
+                2228.0,
+                1951.0
+              ],
+              [
+                2951.0,
+                1951.0
+              ],
+              [
+                2951.0,
+                2017.0
+              ],
+              [
+                2228.0,
+                2017.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>de harmonia met laren en poézie vadao men in Donatello: het zadele, zuivera, jong de gralin u. zij inmuniaities. het volgt nalumulike: urxamo, het politica: Damit heft familiepoetel. naat Christandafo Tormauonni. heken de Gustlen u. Froncoen Laurama (vond Bode. Flor. Bilddamm 225. loethelite canvoud en veredaling. het kinderpoiliel. was spreeel zeldend het kind zuid en zuid! (het verra ootlen). Ceramole modellen voor Car. en John. (Bode 242). uge. de kinderen v. Dieris Bouts etc. - donalele, Delid. de Selt., Irl. Poidell., Iu ca della Roblia. - sponansla naturalia van een nog me geeloot, cf Vergin ilhuent - het dunn man het reed Ben. da Maj. , Uina da Fielola en Indra dal Veru. moeten Uilfigur herleben (Bode 250). de putto. op woedelol u. zum. oudcar. gerieu masal Donatello des putto, masal vol gel. loch geen engel. ugl. de engelen van. Vau Eyche en Vam der Goed. - merad aange bracal, dameland en mutiearend. zeels che zudez zoo woggeteld. capp. Pazzia. - donal. &#x27;z zanggetelte Fir. 81. Marco Luca die Roblia&#x27;: Gap. degli Innocenti. Indres aereal mandola e mel kinderupjaed, Fir 85.87. die Eifelgeleid en het zatonise ladie geeren. Im die scailderkunst ad zoo rike en plesing, dat lae u. liene te volgen Zij de donlast-giolleshe cijm: Masaccio, Ue. F.A. 105/8.109.112. de Callagno: het herisae, tragicaes, plasticae gebaan. Fra Angelico reed een Beumel arelaide leung naar kinderighen liiden. reed een hiloisic zien: uge de bemondering voor de Vlam. - Benoxzo Gozzoli: die pracat, de overlading. - Christandajo&#x27;s transpolit van Hugo v.d. Goed. Kern v.h. flor. Quellrocento Christandajo, Lipai, Bolticoli - familiepaar. in Santa Maria, molle. - Liari: academio lond. (Pitt</td></tr></table>",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fae08bae2c684d879654ec7e55adc9b80a8e1dfaafe79fc69f80ea9411bf53270"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fc15d4dd74b5661d417781c8cec0f9b935fce221138e3332584f9b86972a9998d"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "vision_footnote",
+          "block_content": "melanchol. missions geen armed, armoniating v. of dimonds, gen spelass armed armoniant in box. v. somelhow.",
+          "block_bbox": [
+            1531,
+            1034,
+            2230,
+            1113
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1531.0,
+              1034.0
+            ],
+            [
+              2230.0,
+              1034.0
+            ],
+            [
+              2230.0,
+              1113.0
+            ],
+            [
+              1531.0,
+              1113.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "- Bott.: Primavera, Nascida di Venere, por\n\nbetter, modomina's. - miels was hot pipidly\n\nke grille der Nederl., added warm, weak\n\nverfijnot. la mosbiotexza. Mat",
+          "block_bbox": [
+            2243,
+            997,
+            2954,
+            1100
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2243.0,
+              997.0
+            ],
+            [
+              2954.0,
+              997.0
+            ],
+            [
+              2954.0,
+              1100.0
+            ],
+            [
+              2243.0,
+              1100.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Boll. dosel het best het einde Eegripen\n\nHagings: il sognà della vita. rondam\n\nwas die harde wereld en de dood. Zond\n\nondergang met viool.",
+          "block_bbox": [
+            2238,
+            1108,
+            2954,
+            1205
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2238.0,
+              1108.0
+            ],
+            [
+              2954.0,
+              1108.0
+            ],
+            [
+              2954.0,
+              1205.0
+            ],
+            [
+              2238.0,
+              1205.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "het was een Élite die een dison Laefd de heels eens lang die costpredius, die mel grove heldafantazie Periodieke zeem scholken braciem Bernardino v. Siena, Vine. Ferren, Gicn. Capistrano etc - Poggio en Fizedo bespotten hem. Bern. verkeerde wel met humanistem. - Gir. Savarnarola, eerste verbelt in Flor. 1482. weinig opgang: geer sten en aden, zew, heess, heftig. - Pico bewerat & Lor. dat hij naar Flor. lerug mag 1490. - nur de ging het: Costbrazisin, weeldeinde. - Sande Horentinen naar S. Marco, om hem tot mati ging te vermamen. S. laal L. Costa doem. - L. taad Rijdende, villa Careggi, gesmelbe mel Pico en Pol., geeted. Oujland, drande v. bingeslamte paarden. - bezed van fra Gt die mal zagen scholien. L. + 8apr. 1492.",
+          "block_bbox": [
+            2234,
+            1203,
+            2954,
+            1592
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2234.0,
+              1203.0
+            ],
+            [
+              2954.0,
+              1203.0
+            ],
+            [
+              2954.0,
+              1592.0
+            ],
+            [
+              2234.0,
+              1592.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Pol. Gris dabil copiti mes aquam...\n\ngreen monument II  $ ^{21} $ (Michelangelo I Ustino\n\ner Giole = Nemours).",
+          "block_bbox": [
+            2233,
+            1594,
+            2951,
+            1663
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2233.0,
+              1594.0
+            ],
+            [
+              2951.0,
+              1594.0
+            ],
+            [
+              2951.0,
+              1663.0
+            ],
+            [
+              2233.0,
+              1663.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "1494 Karel VIII. Nov. 1494 Piero verdraen. de hrizzen der Meat. geptumderol. de rapub herlaad, maar Plobei theocratie). 4 van die S. vermaend hadter, nu zijn volgelingen. 006 Boll., Peringino, Lo. di Creoti, Fra Bartol de architect Cronaca, verwa. beeldtduwer. Antea della Robb. en Zijn Zoon. belooken de stictomd won hun werk. S.: wil geen netwint. zankleeding, als uwe maitress. bleodt ge de moeder Gods, en gefei hoor de treben uwer geliefde.",
+          "block_bbox": [
+            2230,
+            1663,
+            2954,
+            1907
+          ],
+          "block_id": 5,
+          "block_order": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2230.0,
+              1663.0
+            ],
+            [
+              2954.0,
+              1663.0
+            ],
+            [
+              2954.0,
+              1907.0
+            ],
+            [
+              2230.0,
+              1907.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "de sondedament: non fu mai' le più lec soce.",
+          "block_bbox": [
+            2235,
+            1907,
+            2953,
+            1951
+          ],
+          "block_id": 6,
+          "block_order": 6,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              2235.0,
+              1907.0
+            ],
+            [
+              2953.0,
+              1907.0
+            ],
+            [
+              2953.0,
+              1951.0
+            ],
+            [
+              2235.0,
+              1951.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "de buciamente stella variada op piera\n\ndei signori: orderam maskers, carnevalale\n\ndi, dan lot, en ilac poezia, Bocc., Poe., minio",
+          "block_bbox": [
+            2236,
+            1950,
+            2954,
+            2017
+          ],
+          "block_id": 7,
+          "block_order": 7,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2236.0,
+              1950.0
+            ],
+            [
+              2954.0,
+              1950.0
+            ],
+            [
+              2954.0,
+              2017.0
+            ],
+            [
+              2236.0,
+              2017.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 24,
+            "label": "vision_footnote",
+            "score": 0.4093989133834839,
+            "coordinate": [
+              1531,
+              1034,
+              2230,
+              1113
+            ],
+            "polygon_points": [
+              [
+                1531.0,
+                1034.0
+              ],
+              [
+                2230.0,
+                1034.0
+              ],
+              [
+                2230.0,
+                1113.0
+              ],
+              [
+                1531.0,
+                1113.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.845450758934021,
+            "coordinate": [
+              2243,
+              997,
+              2954,
+              1100
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2243.0,
+                997.0
+              ],
+              [
+                2954.0,
+                997.0
+              ],
+              [
+                2954.0,
+                1100.0
+              ],
+              [
+                2243.0,
+                1100.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8636146783828735,
+            "coordinate": [
+              2238,
+              1108,
+              2954,
+              1205
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2238.0,
+                1108.0
+              ],
+              [
+                2954.0,
+                1108.0
+              ],
+              [
+                2954.0,
+                1205.0
+              ],
+              [
+                2238.0,
+                1205.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8833515048027039,
+            "coordinate": [
+              2234,
+              1203,
+              2954,
+              1592
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2234.0,
+                1203.0
+              ],
+              [
+                2954.0,
+                1203.0
+              ],
+              [
+                2954.0,
+                1592.0
+              ],
+              [
+                2234.0,
+                1592.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7318679094314575,
+            "coordinate": [
+              2233,
+              1594,
+              2951,
+              1663
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2233.0,
+                1594.0
+              ],
+              [
+                2951.0,
+                1594.0
+              ],
+              [
+                2951.0,
+                1663.0
+              ],
+              [
+                2233.0,
+                1663.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8822481632232666,
+            "coordinate": [
+              2230,
+              1663,
+              2954,
+              1907
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2230.0,
+                1663.0
+              ],
+              [
+                2954.0,
+                1663.0
+              ],
+              [
+                2954.0,
+                1907.0
+              ],
+              [
+                2230.0,
+                1907.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6376649737358093,
+            "coordinate": [
+              2235,
+              1907,
+              2953,
+              1951
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2235.0,
+                1907.0
+              ],
+              [
+                2953.0,
+                1907.0
+              ],
+              [
+                2953.0,
+                1951.0
+              ],
+              [
+                2235.0,
+                1951.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6574048399925232,
+            "coordinate": [
+              2236,
+              1950,
+              2954,
+              2017
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                2236.0,
+                1950.0
+              ],
+              [
+                2954.0,
+                1950.0
+              ],
+              [
+                2954.0,
+                2017.0
+              ],
+              [
+                2236.0,
+                2017.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "melanchol. missions geen armed, armoniating v. of dimonds, gen spelass armed armoniant in box. v. somelhow.\n\n- Bott.: Primavera, Nascida di Venere, por\n\nbetter, modomina's. - miels was hot pipidly\n\nke grille der Nederl., added warm, weak\n\nverfijnot. la mosbiotexza. Mat\n\nBoll. dosel het best het einde Eegripen\n\nHagings: il sognà della vita. rondam\n\nwas die harde wereld en de dood. Zond\n\nondergang met viool.\n\nhet was een Élite die een dison Laefd de heels eens lang die costpredius, die mel grove heldafantazie Periodieke zeem scholken braciem Bernardino v. Siena, Vine. Ferren, Gicn. Capistrano etc - Poggio en Fizedo bespotten hem. Bern. verkeerde wel met humanistem. - Gir. Savarnarola, eerste verbelt in Flor. 1482. weinig opgang: geer sten en aden, zew, heess, heftig. - Pico bewerat & Lor. dat hij naar Flor. lerug mag 1490. - nur de ging het: Costbrazisin, weeldeinde. - Sande Horentinen naar S. Marco, om hem tot mati ging te vermamen. S. laal L. Costa doem. - L. taad Rijdende, villa Careggi, gesmelbe mel Pico en Pol., geeted. Oujland, drande v. bingeslamte paarden. - bezed van fra Gt die mal zagen scholien. L. + 8apr. 1492.\n\nPol. Gris dabil copiti mes aquam...\n\ngreen monument II  $ ^{21} $ (Michelangelo I Ustino\n\ner Giole = Nemours).\n\n1494 Karel VIII. Nov. 1494 Piero verdraen. de hrizzen der Meat. geptumderol. de rapub herlaad, maar Plobei theocratie). 4 van die S. vermaend hadter, nu zijn volgelingen. 006 Boll., Peringino, Lo. di Creoti, Fra Bartol de architect Cronaca, verwa. beeldtduwer. Antea della Robb. en Zijn Zoon. belooken de stictomd won hun werk. S.: wil geen netwint. zankleeding, als uwe maitress. bleodt ge de moeder Gods, en gefei hoor de treben uwer geliefde.\n\nde sondedament: non fu mai' le più lec soce.\n\nde buciamente stella variada op piera\n\ndei signori: orderam maskers, carnevalale\n\ndi, dan lot, en ilac poezia, Bocc., Poe., minio",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fe38284b03a38e532b544b4f0baf179e04386f4ef957b8f0f5c4e7b243b095daa"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F0369c2a7fd1aab2237086a97d287f3646601f3867cccc65cc2de4162e146ecdc"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Luxures, sieraden, reichwerden, spiegals,\n\nLuier, hooger Eudon, harpen, school,\n\nGorden, koarden en Bovenop endel schuld\n\nLijen - een vanel, koopman Good 22.000g\n\nGulden. - signoria op pui, gezang, trompett\n\nin klokker, cailstloem. - 1498 nogmaals en\n\ntoen 23 mai San. Zelf.",
+          "block_bbox": [
+            2229,
+            984,
+            2955,
+            1164
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2229.0,
+              984.0
+            ],
+            [
+              2955.0,
+              984.0
+            ],
+            [
+              2955.0,
+              1164.0
+            ],
+            [
+              2229.0,
+              1164.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "de ran, was n't hit. Mick, en Lionardo n'iong. - maar het floe quattrocents was uit die verheid u. harms. leven niet weer van wexentief. - al was de ran. bedoewheeft komt later: de holle fraze, het pagemt me en libertinisme, de Garst. - In Flor Zelf Med. lot hooger groot, maar misder glord.",
+          "block_bbox": [
+            2231,
+            1169,
+            2954,
+            1363
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2231.0,
+              1169.0
+            ],
+            [
+              2954.0,
+              1169.0
+            ],
+            [
+              2954.0,
+              1363.0
+            ],
+            [
+              2231.0,
+              1363.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "oude Michelang. vertolde: Zeļēna Cardins Zangimprovisator Crij instr. muziek, door Lor. bescharm, Zag host na L. Votod dien Salim, een herulooze Zwarta mantel om de naodite lelen, die hem Piero's verban ring vorspelte. en Italie's ongebrue",
+          "block_bbox": [
+            2229,
+            1362,
+            2954,
+            1513
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2229.0,
+              1362.0
+            ],
+            [
+              2954.0,
+              1362.0
+            ],
+            [
+              2954.0,
+              1513.0
+            ],
+            [
+              2229.0,
+              1513.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "him USAGE heengoom: Loz. 43, Gind. 25, Piero 12.34, Leo x 46, Nemours 87, Urbino 27, Gicv. da Oda Bande nara 28 - Pico 32, Ghir. 45, Lippi 47, Pol. 4 (Petrano, het zai, lid zaj om le slapan, wannier wif order de aorde liggen. War Bracal San. es was verniolde his of masel het spadip ordergass?",
+          "block_bbox": [
+            2226,
+            1512,
+            2954,
+            1688
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2226.0,
+              1512.0
+            ],
+            [
+              2954.0,
+              1512.0
+            ],
+            [
+              2954.0,
+              1688.0
+            ],
+            [
+              2226.0,
+              1688.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8283349275588989,
+            "coordinate": [
+              2229,
+              984,
+              2955,
+              1164
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2229.0,
+                984.0
+              ],
+              [
+                2955.0,
+                984.0
+              ],
+              [
+                2955.0,
+                1164.0
+              ],
+              [
+                2229.0,
+                1164.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8419862389564514,
+            "coordinate": [
+              2231,
+              1169,
+              2954,
+              1363
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2231.0,
+                1169.0
+              ],
+              [
+                2954.0,
+                1169.0
+              ],
+              [
+                2954.0,
+                1363.0
+              ],
+              [
+                2231.0,
+                1363.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8222255110740662,
+            "coordinate": [
+              2229,
+              1362,
+              2954,
+              1513
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2229.0,
+                1362.0
+              ],
+              [
+                2954.0,
+                1362.0
+              ],
+              [
+                2954.0,
+                1513.0
+              ],
+              [
+                2229.0,
+                1513.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5785614252090454,
+            "coordinate": [
+              2226,
+              1512,
+              2954,
+              1688
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2226.0,
+                1512.0
+              ],
+              [
+                2954.0,
+                1512.0
+              ],
+              [
+                2954.0,
+                1688.0
+              ],
+              [
+                2226.0,
+                1688.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Luxures, sieraden, reichwerden, spiegals,\n\nLuier, hooger Eudon, harpen, school,\n\nGorden, koarden en Bovenop endel schuld\n\nLijen - een vanel, koopman Good 22.000g\n\nGulden. - signoria op pui, gezang, trompett\n\nin klokker, cailstloem. - 1498 nogmaals en\n\ntoen 23 mai San. Zelf.\n\nde ran, was n't hit. Mick, en Lionardo n'iong. - maar het floe quattrocents was uit die verheid u. harms. leven niet weer van wexentief. - al was de ran. bedoewheeft komt later: de holle fraze, het pagemt me en libertinisme, de Garst. - In Flor Zelf Med. lot hooger groot, maar misder glord.\n\noude Michelang. vertolde: Zeļēna Cardins Zangimprovisator Crij instr. muziek, door Lor. bescharm, Zag host na L. Votod dien Salim, een herulooze Zwarta mantel om de naodite lelen, die hem Piero's verban ring vorspelte. en Italie's ongebrue\n\nhim USAGE heengoom: Loz. 43, Gind. 25, Piero 12.34, Leo x 46, Nemours 87, Urbino 27, Gicv. da Oda Bande nara 28 - Pico 32, Ghir. 45, Lippi 47, Pol. 4 (Petrano, het zai, lid zaj om le slapan, wannier wif order de aorde liggen. War Bracal San. es was verniolde his of masel het spadip ordergass?",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F9ee8c442fd300c183c5ddb0d5255ecce0494c9f97f5c742b0da2aa853cc56f6c"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F194e6493e6aa7d3b2ff67b66f6f91f366d477600ba527a20a59aec75ceae5216"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [],
+      "layout_det_res": {
+        "boxes": []
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 90
+      }
+    },
+    "markdown": {
+      "text": "",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F6650ff09d75015daa15c4c16fb395472194ea7de4d5980ba70422d39da15df92"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F7cca137886a3c836b7e5bd162fda5aea5e844bc32d218052569a029e0250709d"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "thui 00315",
+          "block_bbox": [
+            1395,
+            1292,
+            1617,
+            1346
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1395.0,
+              1292.0
+            ],
+            [
+              1617.0,
+              1292.0
+            ],
+            [
+              1617.0,
+              1346.0
+            ],
+            [
+              1395.0,
+              1346.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Trois esprits prégothiques\n\n< Parijs 1930 >",
+          "block_bbox": [
+            1381,
+            1361,
+            1866,
+            1502
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1381.0,
+              1361.0
+            ],
+            [
+              1866.0,
+              1361.0
+            ],
+            [
+              1866.0,
+              1502.0
+            ],
+            [
+              1381.0,
+              1502.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.41695213317871094,
+            "coordinate": [
+              1395,
+              1292,
+              1617,
+              1346
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1395.0,
+                1292.0
+              ],
+              [
+                1617.0,
+                1292.0
+              ],
+              [
+                1617.0,
+                1346.0
+              ],
+              [
+                1395.0,
+                1346.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.667752742767334,
+            "coordinate": [
+              1381,
+              1361,
+              1866,
+              1502
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1381.0,
+                1361.0
+              ],
+              [
+                1866.0,
+                1361.0
+              ],
+              [
+                1866.0,
+                1502.0
+              ],
+              [
+                1381.0,
+                1502.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "thui 00315\n\nTrois esprits prégothiques\n\n< Parijs 1930 >",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A45Z%2F-1%2F%2Fc86cbde89d90e27223acb722c1adcec452f55621762e70f227e61ee6d66f5071"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A45Z%2F-1%2F%2F8665b843bdb9ff775ed703daafbc75ce25c6c8a48a7566fe0d5c3db506ed7d9a"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "Perlor du moyen âge ici à l'Université",
+          "block_bbox": [
+            1527,
+            1173,
+            2200,
+            1246
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1527.0,
+              1173.0
+            ],
+            [
+              2200.0,
+              1173.0
+            ],
+            [
+              2200.0,
+              1246.0
+            ],
+            [
+              1527.0,
+              1246.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "l'ai paré hier, dans mon court public, du sentiment qui scèille la médiéviste à le voir dans une chaîne à la Scrabonne, choiffée de protester sa science, te de Paris, où est né la scolastique où lui vie intolérable de moyen âge à trouvé son agone contrad, c'est comme si l'ad索\n\nlevirre moi-même un bout d'vie médiéviste.",
+          "block_bbox": [
+            2199,
+            1014,
+            2954,
+            1377
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2199.0,
+              1014.0
+            ],
+            [
+              2954.0,
+              1014.0
+            ],
+            [
+              2954.0,
+              1377.0
+            ],
+            [
+              2199.0,
+              1377.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "le ma temble que je na saurai traiter ici que de choses qui le sont passées ici, d'hommes qui y ont vécu ou de parisées qui y ont été formulées.",
+          "block_bbox": [
+            2209,
+            1383,
+            2953,
+            1553
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2209.0,
+              1383.0
+            ],
+            [
+              2953.0,
+              1383.0
+            ],
+            [
+              2953.0,
+              1553.0
+            ],
+            [
+              2209.0,
+              1553.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Il serait exagéré si levou\n\nlais (dire que celle hantité\n\nde l'entre�poid m'emports tolla-\n\nment qu'il me coûte un effort\n\nde ma pas vous adresser en lotim\n\nAprès tout monolative serait pire\n\nque mon français, vous 4 gagne\n\n꿰ez aussi peu que moi. Quant\n\nà la question de mon language\n\nil ne me reste qu'à vous prier d'a\n\nvoir deuxoup d'indulgence pour\n\nun paurre étranger.",
+          "block_bbox": [
+            2208,
+            1554,
+            2954,
+            1938
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2208.0,
+              1554.0
+            ],
+            [
+              2954.0,
+              1554.0
+            ],
+            [
+              2954.0,
+              1938.0
+            ],
+            [
+              2208.0,
+              1938.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.5043829679489136,
+            "coordinate": [
+              1527,
+              1173,
+              2200,
+              1246
+            ],
+            "polygon_points": [
+              [
+                1527.0,
+                1173.0
+              ],
+              [
+                2200.0,
+                1173.0
+              ],
+              [
+                2200.0,
+                1246.0
+              ],
+              [
+                1527.0,
+                1246.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.745783269405365,
+            "coordinate": [
+              2199,
+              1014,
+              2954,
+              1377
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2199.0,
+                1014.0
+              ],
+              [
+                2954.0,
+                1014.0
+              ],
+              [
+                2954.0,
+                1377.0
+              ],
+              [
+                2199.0,
+                1377.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8697161674499512,
+            "coordinate": [
+              2209,
+              1383,
+              2953,
+              1553
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2209.0,
+                1383.0
+              ],
+              [
+                2953.0,
+                1383.0
+              ],
+              [
+                2953.0,
+                1553.0
+              ],
+              [
+                2209.0,
+                1553.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6739501953125,
+            "coordinate": [
+              2208,
+              1554,
+              2954,
+              1938
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2208.0,
+                1554.0
+              ],
+              [
+                2954.0,
+                1554.0
+              ],
+              [
+                2954.0,
+                1938.0
+              ],
+              [
+                2208.0,
+                1938.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "l'ai paré hier, dans mon court public, du sentiment qui scèille la médiéviste à le voir dans une chaîne à la Scrabonne, choiffée de protester sa science, te de Paris, où est né la scolastique où lui vie intolérable de moyen âge à trouvé son agone contrad, c'est comme si l'ad索\n\nlevirre moi-même un bout d'vie médiéviste.\n\nle ma temble que je na saurai traiter ici que de choses qui le sont passées ici, d'hommes qui y ont vécu ou de parisées qui y ont été formulées.\n\nIl serait exagéré si levou\n\nlais (dire que celle hantité\n\nde l'entre�poid m'emports tolla-\n\nment qu'il me coûte un effort\n\nde ma pas vous adresser en lotim\n\nAprès tout monolative serait pire\n\nque mon français, vous 4 gagne\n\n꿰ez aussi peu que moi. Quant\n\nà la question de mon language\n\nil ne me reste qu'à vous prier d'a\n\nvoir deuxoup d'indulgence pour\n\nun paurre étranger.",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F3461ffc313d02db14c5a7b7a435918a5796574f75c57bd4e78a708cea1bfc542"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F90e782bbbcb3107948fa7047328e95c1116f3043810d062d909a6925723ff433"
+  }
+]

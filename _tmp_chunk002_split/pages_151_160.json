@@ -1,0 +1,4122 @@
+[
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Dans caecen de ces lois hommes\n\nCe dans de la couleur d'exprime\n\ndifféremment, selon le peinture\n\ngénérale de leurs esprits.\n\nHugues, le mystique délicat et\n\nsublimé en verser les ricades\n\ndans l'harmonie de ses visions,\n\nSuger, la prélot réalité, musée\n\ncrista la beauté des vitrées de\n\ndes caldeurades, Alain, le poète, en\n\nséaussera l'écol de ses vers.\n\nM.177",
+          "block_bbox": [
+            1517,
+            1365,
+            2229,
+            1711
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1517.0,
+              1365.0
+            ],
+            [
+              2229.0,
+              1365.0
+            ],
+            [
+              2229.0,
+              1711.0
+            ],
+            [
+              1517.0,
+              1711.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "une soif de beauté par la cou\n\nleur, et un sens de souduite\n\nvif et très fin, qua je voudrais\n\nagorder comme la complème\n\nesthétique de ce renouvelle\n\nment général, de cette force\n\n(de l'esprit qui annonce la\n\nCréatrice qui va produire\n\nqui vient)\n\n×112 séclat le la louure, ce sen",
+          "block_bbox": [
+            2227,
+            1019,
+            2952,
+            1284
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2227.0,
+              1019.0
+            ],
+            [
+              2952.0,
+              1019.0
+            ],
+            [
+              2952.0,
+              1284.0
+            ],
+            [
+              2227.0,
+              1284.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "de Ponce la couleur, dans Hugues de Saint Victor, dans Suger de Saint",
+          "block_bbox": [
+            2171,
+            1287,
+            2955,
+            1351
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2171.0,
+              1287.0
+            ],
+            [
+              2956.0,
+              1287.0
+            ],
+            [
+              2956.0,
+              1351.0
+            ],
+            [
+              2171.0,
+              1351.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Denis et dans Alain de Lillo.\n\nl'exprience le menifศ, au chacun d'acres\n\ns'estence de lait par\n\ns'estime de lait par\n\ndenon. Huyque, le pente dans d'hon\n\nmonie de des braids mphique\n\nle Câtissem ins décrit des vi\n\nl'eux aimés, Alain d'en cas",
+          "block_bbox": [
+            2231,
+            1356,
+            2954,
+            1585
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2231.0,
+              1356.0
+            ],
+            [
+              2954.0,
+              1356.0
+            ],
+            [
+              2954.0,
+              1585.0
+            ],
+            [
+              2231.0,
+              1585.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Écoutez Hughes de Saint Victor si du moins la \"de gestics et alliez-il\" dit être attribué à lui. Observant les couleurs changées des colombies, qui font pensée à une mer agité, pour en liser leur signification symbolique qual exercice des sans de couleurs les lapidaires! - Hughes de Saint Victor est un des fondateurs de la théorie est-il que des moyers âge, tout ce qui le nous dit de la boon (des cassettes et plain) la est le nom de un sentiment",
+          "block_bbox": [
+            2222,
+            1620,
+            2953,
+            2013
+          ],
+          "block_id": 4,
+          "block_order": 5,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2222.0,
+              1620.0
+            ],
+            [
+              2953.0,
+              1620.0
+            ],
+            [
+              2953.0,
+              2013.0
+            ],
+            [
+              2222.0,
+              2013.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6021428108215332,
+            "coordinate": [
+              1517,
+              1365,
+              2229,
+              1711
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1517.0,
+                1365.0
+              ],
+              [
+                2229.0,
+                1365.0
+              ],
+              [
+                2229.0,
+                1711.0
+              ],
+              [
+                1517.0,
+                1711.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5644611716270447,
+            "coordinate": [
+              2227,
+              1019,
+              2952,
+              1284
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2227.0,
+                1019.0
+              ],
+              [
+                2952.0,
+                1019.0
+              ],
+              [
+                2952.0,
+                1284.0
+              ],
+              [
+                2227.0,
+                1284.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4367225468158722,
+            "coordinate": [
+              2171,
+              1287,
+              2955,
+              1351
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2171.0,
+                1287.0
+              ],
+              [
+                2956.0,
+                1287.0
+              ],
+              [
+                2956.0,
+                1351.0
+              ],
+              [
+                2171.0,
+                1351.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5848549008369446,
+            "coordinate": [
+              2231,
+              1356,
+              2954,
+              1585
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2231.0,
+                1356.0
+              ],
+              [
+                2954.0,
+                1356.0
+              ],
+              [
+                2954.0,
+                1585.0
+              ],
+              [
+                2231.0,
+                1585.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6533287763595581,
+            "coordinate": [
+              2222,
+              1620,
+              2953,
+              2013
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2222.0,
+                1620.0
+              ],
+              [
+                2953.0,
+                1620.0
+              ],
+              [
+                2953.0,
+                2013.0
+              ],
+              [
+                2222.0,
+                2013.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Dans caecen de ces lois hommes\n\nCe dans de la couleur d'exprime\n\ndifféremment, selon le peinture\n\ngénérale de leurs esprits.\n\nHugues, le mystique délicat et\n\nsublimé en verser les ricades\n\ndans l'harmonie de ses visions,\n\nSuger, la prélot réalité, musée\n\ncrista la beauté des vitrées de\n\ndes caldeurades, Alain, le poète, en\n\nséaussera l'écol de ses vers.\n\nM.177\n\nune soif de beauté par la cou\n\nleur, et un sens de souduite\n\nvif et très fin, qua je voudrais\n\nagorder comme la complème\n\nesthétique de ce renouvelle\n\nment général, de cette force\n\n(de l'esprit qui annonce la\n\nCréatrice qui va produire\n\nqui vient)\n\n×112 séclat le la louure, ce sen\n\nde Ponce la couleur, dans Hugues de Saint Victor, dans Suger de Saint\n\nDenis et dans Alain de Lillo.\n\nl'exprience le menifศ, au chacun d'acres\n\ns'estence de lait par\n\ns'estime de lait par\n\ndenon. Huyque, le pente dans d'hon\n\nmonie de des braids mphique\n\nle Câtissem ins décrit des vi\n\nl'eux aimés, Alain d'en cas\n\nÉcoutez Hughes de Saint Victor si du moins la \"de gestics et alliez-il\" dit être attribué à lui. Observant les couleurs changées des colombies, qui font pensée à une mer agité, pour en liser leur signification symbolique qual exercice des sans de couleurs les lapidaires! - Hughes de Saint Victor est un des fondateurs de la théorie est-il que des moyers âge, tout ce qui le nous dit de la boon (des cassettes et plain) la est le nom de un sentiment",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2F4396a0d073f7b0552842218d53ae17201327da96c0e881f2d535d70cc9f716f0"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2Fe86a1ec74c226fb184d9f019a4643ef25a8bcb83fc96f5d890b75105749a60fe"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Profond et simple. Aucun effet de couleur na(complit de lant d'admiration piuda que la version dura des champs.",
+          "block_bbox": [
+            2211,
+            1011,
+            2955,
+            1130
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2211.0,
+              1011.0
+            ],
+            [
+              2956.0,
+              1011.0
+            ],
+            [
+              2956.0,
+              1130.0
+            ],
+            [
+              2211.0,
+              1130.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "822.\n\nSugar de Saint Benis est la\n\ngrand construction passionné\n\navida de la beauté. Je ne commise pas\n\nun autre écrivain du majeur\n\nà qui parde la souvent et au\n\nont de plaisir de peinture et de\n\ncouleur. Il nous recouvre commer\n\nil 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
+          "block_bbox": [
+            2037,
+            1133,
+            2955,
+            2015
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2037.0,
+              1133.0
+            ],
+            [
+              2955.0,
+              1133.0
+            ],
+            [
+              2955.0,
+              2015.0
+            ],
+            [
+              2037.0,
+              2015.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6186264157295227,
+            "coordinate": [
+              2211,
+              1011,
+              2955,
+              1130
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2211.0,
+                1011.0
+              ],
+              [
+                2956.0,
+                1011.0
+              ],
+              [
+                2956.0,
+                1130.0
+              ],
+              [
+                2211.0,
+                1130.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7395285367965698,
+            "coordinate": [
+              2037,
+              1133,
+              2955,
+              2015
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2037.0,
+                1133.0
+              ],
+              [
+                2955.0,
+                1133.0
+              ],
+              [
+                2955.0,
+                2015.0
+              ],
+              [
+                2037.0,
+                2015.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Profond et simple. Aucun effet de couleur na(complit de lant d'admiration piuda que la version dura des champs.\n\n822.\n\nSugar de Saint Benis est la\n\ngrand construction passionné\n\navida de la beauté. Je ne commise pas\n\nun autre écrivain du majeur\n\nà qui parde la souvent et au\n\nont de plaisir de peinture et de\n\ncouleur. Il nous recouvre commer\n\nil 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A52Z%2F-1%2F%2Fa1347b309cbf97884f52abb51d46ac6e9a6c8dc7fe9001b49b93d8e958bfdc77"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A52Z%2F-1%2F%2F29c7b3f49efbc9ca17d33563f3016b277c40e91807ca2762920dc1fd6aa5b627"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "10",
+          "block_bbox": [
+            1531,
+            1012,
+            1583,
+            1040
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1531.0,
+              1012.0
+            ],
+            [
+              1582.0,
+              1012.0
+            ],
+            [
+              1582.0,
+              1039.0
+            ],
+            [
+              1531.0,
+              1039.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "197",
+          "block_bbox": [
+            2127,
+            1070,
+            2199,
+            1091
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2127.0,
+              1070.0
+            ],
+            [
+              2198.0,
+              1070.0
+            ],
+            [
+              2198.0,
+              1090.0
+            ],
+            [
+              2127.0,
+              1090.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "l'ocuna qui grilla par ce plan - dans d'allégories agréables, entre- ment serait manifesta soud ex- catrèles, nous l'avons fait expliquer",
+          "block_bbox": [
+            1520,
+            1194,
+            2220,
+            1315
+          ],
+          "block_id": 2,
+          "block_order": 1,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1520.0,
+              1194.0
+            ],
+            [
+              2220.0,
+              1194.0
+            ],
+            [
+              2220.0,
+              1315.0
+            ],
+            [
+              1520.0,
+              1315.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "August 6' across",
+          "block_bbox": [
+            1719,
+            1333,
+            2005,
+            1358
+          ],
+          "block_id": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              1719.0,
+              1333.0
+            ],
+            [
+              2005.0,
+              1333.0
+            ],
+            [
+              2005.0,
+              1358.0
+            ],
+            [
+              1719.0,
+              1358.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "Bela.\n1368.L4.",
+          "block_bbox": [
+            2042,
+            1396,
+            2223,
+            1451
+          ],
+          "block_id": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2042.0,
+              1396.0
+            ],
+            [
+              2223.0,
+              1396.0
+            ],
+            [
+              2223.0,
+              1451.0
+            ],
+            [
+              2042.0,
+              1451.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "477B M.210.491 C.",
+          "block_bbox": [
+            1984,
+            1955,
+            2185,
+            2007
+          ],
+          "block_id": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              1984.0,
+              1955.0
+            ],
+            [
+              2185.0,
+              1955.0
+            ],
+            [
+              2185.0,
+              2007.0
+            ],
+            [
+              1984.0,
+              2007.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "Parait l'avoir",
+          "block_bbox": [
+            1820,
+            1568,
+            2115,
+            1617
+          ],
+          "block_id": 6,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              1820.0,
+              1568.0
+            ],
+            [
+              2115.0,
+              1568.0
+            ],
+            [
+              2115.0,
+              1617.0
+            ],
+            [
+              1820.0,
+              1617.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "La prosa. \"Porce que la diversité de la matière, d'or, de gemmes de pierrenries, n'est pas facile à commande par la perception du lancitude de la vina, et parce que l'endemment serait fait mandar l'assure qui to�la (d'un)",
+          "block_bbox": [
+            2215,
+            1057,
+            2951,
+            1400
+          ],
+          "block_id": 7,
+          "block_order": 2,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2215.0,
+              1057.0
+            ],
+            [
+              2951.0,
+              1057.0
+            ],
+            [
+              2951.0,
+              1400.0
+            ],
+            [
+              2215.0,
+              1400.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "du grand lustre d'cr, d'argent et de cuire dans la casser de l'église abbotiale et qu'on n'ai le moait que pour les hautes fêles",
+          "block_bbox": [
+            2220,
+            1408,
+            2954,
+            1575
+          ],
+          "block_id": 8,
+          "block_order": 3,
+          "group_id": 8,
+          "block_polygon_points": [
+            [
+              2220.0,
+              1408.0
+            ],
+            [
+              2954.0,
+              1408.0
+            ],
+            [
+              2954.0,
+              1575.0
+            ],
+            [
+              2220.0,
+              1575.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "AB.1.79",
+          "block_bbox": [
+            2076,
+            1653,
+            2206,
+            1682
+          ],
+          "block_id": 9,
+          "group_id": 9,
+          "block_polygon_points": [
+            [
+              2076.0,
+              1653.0
+            ],
+            [
+              2206.0,
+              1653.0
+            ],
+            [
+              2206.0,
+              1682.0
+            ],
+            [
+              2076.0,
+              1682.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "The fattest da cas esprits avides\n\nde couleur et de figured. Pay\n\nd'images sculptés dans la ca-\n\npelle, dit-il, rien qu'une croix\n\nde Bois. Si vous voulez y faire\n\nPointe d'image du Souvenir,\n\nce n'est pas interdit. Cependant\n\nque les antelés ne connaissent\n\nd'autres images.",
+          "block_bbox": [
+            2212,
+            1591,
+            2954,
+            1877
+          ],
+          "block_id": 10,
+          "block_order": 4,
+          "group_id": 10,
+          "block_polygon_points": [
+            [
+              2212.0,
+              1591.0
+            ],
+            [
+              2954.0,
+              1591.0
+            ],
+            [
+              2954.0,
+              1877.0
+            ],
+            [
+              2212.0,
+              1877.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Charz Alain de Lillo les mots de couleur et de peintre se 20 instrument à chaque page. Cicron, dit il, zhouette la pourret de la",
+          "block_bbox": [
+            2213,
+            1885,
+            2954,
+            2014
+          ],
+          "block_id": 11,
+          "block_order": 5,
+          "group_id": 11,
+          "block_polygon_points": [
+            [
+              2213.0,
+              1885.0
+            ],
+            [
+              2954.0,
+              1885.0
+            ],
+            [
+              2954.0,
+              2014.0
+            ],
+            [
+              2213.0,
+              2014.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3041459619998932,
+            "coordinate": [
+              1531,
+              1012,
+              1583,
+              1040
+            ],
+            "polygon_points": [
+              [
+                1531.0,
+                1012.0
+              ],
+              [
+                1582.0,
+                1012.0
+              ],
+              [
+                1582.0,
+                1039.0
+              ],
+              [
+                1531.0,
+                1039.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.32777637243270874,
+            "coordinate": [
+              2127,
+              1070,
+              2199,
+              1091
+            ],
+            "polygon_points": [
+              [
+                2127.0,
+                1070.0
+              ],
+              [
+                2198.0,
+                1070.0
+              ],
+              [
+                2198.0,
+                1090.0
+              ],
+              [
+                2127.0,
+                1090.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6849172115325928,
+            "coordinate": [
+              1520,
+              1194,
+              2220,
+              1315
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1520.0,
+                1194.0
+              ],
+              [
+                2220.0,
+                1194.0
+              ],
+              [
+                2220.0,
+                1315.0
+              ],
+              [
+                1520.0,
+                1315.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.33398202061653137,
+            "coordinate": [
+              2042,
+              1396,
+              2137,
+              1420
+            ],
+            "polygon_points": [
+              [
+                2042.0,
+                1395.9998779296875
+              ],
+              [
+                2136.0,
+                1395.9998779296875
+              ],
+              [
+                2136.0,
+                1418.9998779296875
+              ],
+              [
+                2042.0,
+                1418.9998779296875
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.5065902471542358,
+            "coordinate": [
+              1719,
+              1333,
+              2005,
+              1358
+            ],
+            "polygon_points": [
+              [
+                1719.0,
+                1333.0
+              ],
+              [
+                2005.0,
+                1333.0
+              ],
+              [
+                2005.0,
+                1358.0
+              ],
+              [
+                1719.0,
+                1358.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.40490594506263733,
+            "coordinate": [
+              2042,
+              1396,
+              2223,
+              1451
+            ],
+            "polygon_points": [
+              [
+                2042.0,
+                1396.0
+              ],
+              [
+                2223.0,
+                1396.0
+              ],
+              [
+                2223.0,
+                1451.0
+              ],
+              [
+                2042.0,
+                1451.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3149943947792053,
+            "coordinate": [
+              2084,
+              1425,
+              2219,
+              1448
+            ],
+            "polygon_points": [
+              [
+                2084.0,
+                1433.0
+              ],
+              [
+                2084.0,
+                1447.0
+              ],
+              [
+                2218.0,
+                1447.0
+              ],
+              [
+                2218.0,
+                1425.0
+              ],
+              [
+                2099.0,
+                1425.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.638564944267273,
+            "coordinate": [
+              1984,
+              1955,
+              2185,
+              2007
+            ],
+            "polygon_points": [
+              [
+                1984.0,
+                1955.0
+              ],
+              [
+                2185.0,
+                1955.0
+              ],
+              [
+                2185.0,
+                2007.0
+              ],
+              [
+                1984.0,
+                2007.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.41371989250183105,
+            "coordinate": [
+              1820,
+              1568,
+              2115,
+              1617
+            ],
+            "polygon_points": [
+              [
+                1820.0,
+                1568.0
+              ],
+              [
+                2115.0,
+                1568.0
+              ],
+              [
+                2115.0,
+                1617.0
+              ],
+              [
+                1820.0,
+                1617.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3927340805530548,
+            "coordinate": [
+              2209,
+              1064,
+              2949,
+              1160
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2209.0,
+                1064.0
+              ],
+              [
+                2949.0,
+                1064.0
+              ],
+              [
+                2949.0,
+                1160.0
+              ],
+              [
+                2209.0,
+                1160.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.42641907930374146,
+            "coordinate": [
+              2215,
+              1057,
+              2951,
+              1400
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2215.0,
+                1057.0
+              ],
+              [
+                2951.0,
+                1057.0
+              ],
+              [
+                2951.0,
+                1400.0
+              ],
+              [
+                2215.0,
+                1400.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3103336989879608,
+            "coordinate": [
+              2222,
+              1160,
+              2955,
+              1288
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2222.0,
+                1160.0
+              ],
+              [
+                2956.0,
+                1160.0
+              ],
+              [
+                2956.0,
+                1288.0
+              ],
+              [
+                2222.0,
+                1288.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5939138531684875,
+            "coordinate": [
+              2220,
+              1408,
+              2954,
+              1575
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2220.0,
+                1408.0
+              ],
+              [
+                2954.0,
+                1408.0
+              ],
+              [
+                2954.0,
+                1575.0
+              ],
+              [
+                2220.0,
+                1575.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.4490935802459717,
+            "coordinate": [
+              2076,
+              1653,
+              2206,
+              1682
+            ],
+            "polygon_points": [
+              [
+                2076.0,
+                1653.0
+              ],
+              [
+                2206.0,
+                1653.0
+              ],
+              [
+                2206.0,
+                1682.0
+              ],
+              [
+                2076.0,
+                1682.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7594184279441833,
+            "coordinate": [
+              2212,
+              1591,
+              2954,
+              1877
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2212.0,
+                1591.0
+              ],
+              [
+                2954.0,
+                1591.0
+              ],
+              [
+                2954.0,
+                1877.0
+              ],
+              [
+                2212.0,
+                1877.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8075961470603943,
+            "coordinate": [
+              2213,
+              1885,
+              2954,
+              2014
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                2213.0,
+                1885.0
+              ],
+              [
+                2954.0,
+                1885.0
+              ],
+              [
+                2954.0,
+                2014.0
+              ],
+              [
+                2213.0,
+                2014.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "l'ocuna qui grilla par ce plan - dans d'allégories agréables, entre- ment serait manifesta soud ex- catrèles, nous l'avons fait expliquer\n\nLa prosa. \"Porce que la diversité de la matière, d'or, de gemmes de pierrenries, n'est pas facile à commande par la perception du lancitude de la vina, et parce que l'endemment serait fait mandar l'assure qui to�la (d'un)\n\ndu grand lustre d'cr, d'argent et de cuire dans la casser de l'église abbotiale et qu'on n'ai le moait que pour les hautes fêles\n\nThe fattest da cas esprits avides\n\nde couleur et de figured. Pay\n\nd'images sculptés dans la ca-\n\npelle, dit-il, rien qu'une croix\n\nde Bois. Si vous voulez y faire\n\nPointe d'image du Souvenir,\n\nce n'est pas interdit. Cependant\n\nque les antelés ne connaissent\n\nd'autres images.\n\nCharz Alain de Lillo les mots de couleur et de peintre se 20 instrument à chaque page. Cicron, dit il, zhouette la pourret de la",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2Fad8d80ae4164d1d202646b8a488de3f3d377e286b5f3be1bd3de6f8a7392b44c"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F5b81f520cca4d8646a583f18f48f3b453aae23ea4e1bf0ae985114e55577a61e"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "513",
+          "block_bbox": [
+            2122,
+            1472,
+            2175,
+            1497
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2122.0,
+              1472.0
+            ],
+            [
+              2174.0,
+              1472.0
+            ],
+            [
+              2174.0,
+              1496.0
+            ],
+            [
+              2122.0,
+              1496.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "Des tournes\ncomme \"Sider\n555",
+          "block_bbox": [
+            1910,
+            1296,
+            2198,
+            1347
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1910.0,
+              1296.0
+            ],
+            [
+              2183.0,
+              1296.0
+            ],
+            [
+              2183.0,
+              1346.0
+            ],
+            [
+              1910.0,
+              1346.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "447",
+          "block_bbox": [
+            2121,
+            1913,
+            2193,
+            1942
+          ],
+          "block_id": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2121.0,
+              1913.0
+            ],
+            [
+              2193.0,
+              1913.0
+            ],
+            [
+              2193.0,
+              1942.0
+            ],
+            [
+              2121.0,
+              1942.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "55\\div7",
+          "block_bbox": [
+            2097,
+            1166,
+            2201,
+            1187
+          ],
+          "block_id": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2097.0,
+              1166.0
+            ],
+            [
+              2200.0,
+              1166.0
+            ],
+            [
+              2200.0,
+              1186.0
+            ],
+            [
+              2097.0,
+              1186.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Parole par la splandeur des couleurs, Virgile aussi colorat\". Beaucoup de passages de son, Au lichard, l'étiquette \"littéralement si poudre amie verbale.",
+          "block_bbox": [
+            2215,
+            1015,
+            2953,
+            1165
+          ],
+          "block_id": 4,
+          "block_order": 1,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2215.0,
+              1015.0
+            ],
+            [
+              2953.0,
+              1015.0
+            ],
+            [
+              2953.0,
+              1165.0
+            ],
+            [
+              2215.0,
+              1165.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "\"On a low flowers was couldard,\n\nfor lesquelles les mots crident\n\nétaيلs, et la parola zavé la\n\nbeurte et la phrase 20splande\n\nd'une lumière abondante.\"\n\nverbi\" in vario prosignit verbo\n\ncoloro\" sout stos expressant cou\n\ntambes pocos lui.",
+          "block_bbox": [
+            2206,
+            1167,
+            2953,
+            1410
+          ],
+          "block_id": 5,
+          "block_order": 2,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2206.0,
+              1167.0
+            ],
+            [
+              2953.0,
+              1167.0
+            ],
+            [
+              2953.0,
+              1410.0
+            ],
+            [
+              2206.0,
+              1410.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Certainly pages form I'd affect d'un vitrait point, par exemple collait de le long les auleurs classiques, l'idic Sidonius trobatus sormo 2refulgans/sidora multiplici splan des, gemmisque colorum/lucat, et in dictis depictus paro resultat C'est bien digna de l'ancien Siolaine Apollimaire qui lui m'aurait parlé des verboreum vislist versicolozibus\"dont il amait le bord.",
+          "block_bbox": [
+            2195,
+            1413,
+            2954,
+            1778
+          ],
+          "block_id": 6,
+          "block_order": 3,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              2195.0,
+              1413.0
+            ],
+            [
+              2954.0,
+              1413.0
+            ],
+            [
+              2954.0,
+              1778.0
+            ],
+            [
+              2195.0,
+              1778.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Escoles encore ce bout de poème\n\n(dans un métradHéorcé, et n'est\n\nmoins que ce docteur Alain fut\n\nun poêle : c'est lire des Verba Alani\n\nad natureux, qui mériteraient\n\nd'être célébré tout complète. Toi, Na-\n\nture, dit-il :",
+          "block_bbox": [
+            2209,
+            1784,
+            2952,
+            1997
+          ],
+          "block_id": 7,
+          "block_order": 4,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2209.0,
+              1784.0
+            ],
+            [
+              2952.0,
+              1784.0
+            ],
+            [
+              2952.0,
+              1997.0
+            ],
+            [
+              2209.0,
+              1997.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.6632557511329651,
+            "coordinate": [
+              2122,
+              1472,
+              2175,
+              1497
+            ],
+            "polygon_points": [
+              [
+                2122.0,
+                1472.0
+              ],
+              [
+                2174.0,
+                1472.0
+              ],
+              [
+                2174.0,
+                1496.0
+              ],
+              [
+                2122.0,
+                1496.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.7409160137176514,
+            "coordinate": [
+              1910,
+              1296,
+              2198,
+              1347
+            ],
+            "polygon_points": [
+              [
+                1910.0,
+                1296.0
+              ],
+              [
+                2183.0,
+                1296.0
+              ],
+              [
+                2183.0,
+                1346.0
+              ],
+              [
+                1910.0,
+                1346.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.6407129168510437,
+            "coordinate": [
+              2121,
+              1913,
+              2193,
+              1942
+            ],
+            "polygon_points": [
+              [
+                2121.0,
+                1913.0
+              ],
+              [
+                2193.0,
+                1913.0
+              ],
+              [
+                2193.0,
+                1942.0
+              ],
+              [
+                2121.0,
+                1942.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.6643282175064087,
+            "coordinate": [
+              2097,
+              1166,
+              2201,
+              1187
+            ],
+            "polygon_points": [
+              [
+                2097.0,
+                1166.0
+              ],
+              [
+                2200.0,
+                1166.0
+              ],
+              [
+                2200.0,
+                1186.0
+              ],
+              [
+                2097.0,
+                1186.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7841485738754272,
+            "coordinate": [
+              2215,
+              1015,
+              2953,
+              1165
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2215.0,
+                1015.0
+              ],
+              [
+                2953.0,
+                1015.0
+              ],
+              [
+                2953.0,
+                1165.0
+              ],
+              [
+                2215.0,
+                1165.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7111013531684875,
+            "coordinate": [
+              2206,
+              1167,
+              2953,
+              1410
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2206.0,
+                1167.0
+              ],
+              [
+                2953.0,
+                1167.0
+              ],
+              [
+                2953.0,
+                1410.0
+              ],
+              [
+                2206.0,
+                1410.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7404735088348389,
+            "coordinate": [
+              2195,
+              1413,
+              2954,
+              1778
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2195.0,
+                1413.0
+              ],
+              [
+                2954.0,
+                1413.0
+              ],
+              [
+                2954.0,
+                1778.0
+              ],
+              [
+                2195.0,
+                1778.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8421416878700256,
+            "coordinate": [
+              2209,
+              1784,
+              2952,
+              1997
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2209.0,
+                1784.0
+              ],
+              [
+                2952.0,
+                1784.0
+              ],
+              [
+                2952.0,
+                1997.0
+              ],
+              [
+                2209.0,
+                1997.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Parole par la splandeur des couleurs, Virgile aussi colorat\". Beaucoup de passages de son, Au lichard, l'étiquette \"littéralement si poudre amie verbale.\n\n\"On a low flowers was couldard,\n\nfor lesquelles les mots crident\n\nétaيلs, et la parola zavé la\n\nbeurte et la phrase 20splande\n\nd'une lumière abondante.\"\n\nverbi\" in vario prosignit verbo\n\ncoloro\" sout stos expressant cou\n\ntambes pocos lui.\n\nCertainly pages form I'd affect d'un vitrait point, par exemple collait de le long les auleurs classiques, l'idic Sidonius trobatus sormo 2refulgans/sidora multiplici splan des, gemmisque colorum/lucat, et in dictis depictus paro resultat C'est bien digna de l'ancien Siolaine Apollimaire qui lui m'aurait parlé des verboreum vislist versicolozibus\"dont il amait le bord.\n\nEscoles encore ce bout de poème\n\n(dans un métradHéorcé, et n'est\n\nmoins que ce docteur Alain fut\n\nun poêle : c'est lire des Verba Alani\n\nad natureux, qui mériteraient\n\nd'être célébré tout complète. Toi, Na-\n\nture, dit-il :",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F05de153166c5f19459673e9de692d0fbde300e8a9bebcccb3e841f4783dd55d0"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fe9c028a9a18cd225a52aec377a3793e0230810fc25193d1a94ac9cf59416379d"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "Figureing",
+          "block_bbox": [
+            1946,
+            1251,
+            2224,
+            1354
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1946.0,
+              1251.0
+            ],
+            [
+              2224.0,
+              1251.0
+            ],
+            [
+              2224.0,
+              1354.0
+            ],
+            [
+              1946.0,
+              1354.0
+            ]
+          ]
+        },
+        {
+          "block_label": "number",
+          "block_content": "26",
+          "block_bbox": [
+            2148,
+            1005,
+            2215,
+            1040
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2148.0,
+              1005.0
+            ],
+            [
+              2215.0,
+              1005.0
+            ],
+            [
+              2215.0,
+              1040.0
+            ],
+            [
+              2148.0,
+              1040.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Quo polium stella variis inauri\n\nAtheris mostre solium seream\n\nSiderum gemmis, variisque coolu",
+          "block_bbox": [
+            2205,
+            1009,
+            2954,
+            1107
+          ],
+          "block_id": 2,
+          "block_order": 1,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2205.0,
+              1009.0
+            ],
+            [
+              2954.0,
+              1009.0
+            ],
+            [
+              2954.0,
+              1107.0
+            ],
+            [
+              2205.0,
+              1107.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Mèito compland\n\nEl día que loit colo\n\nRicco à la sculptura tivera de\n\ncoládras!",
+          "block_bbox": [
+            2221,
+            1107,
+            2954,
+            1233
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2221.0,
+              1107.0
+            ],
+            [
+              2954.0,
+              1107.0
+            ],
+            [
+              2954.0,
+              1233.0
+            ],
+            [
+              2221.0,
+              1233.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Au cours du x112 siècle on voit s'achever dans la période, médiocra, la figuration spécialique du monote et des idées, comme dans un kalidóscope. D'innombrage les figures et groupes de figures, comme auant de systèmes stelsinoire de ma�ent en crane dans l'esprit la cohérence de ces systèmes de figures est donnée par la principe qui régit tout. Tout est ensemblable, ne servent qu'à glorification divinité et de démontrer la agitation entière. Si encore les éléments de cette figuration, on est souvent pris dans les trésors de la tradition classique. Mais l'ouverneur de la corsion, de l'exemple des éclater, de les interpréler dans leur sens symbolique, appelient au moyen âge, et, il me lembra, surtout au x112 siècle. Tous les périès s'illumine, comme une",
+          "block_bbox": [
+            2199,
+            1250,
+            2955,
+            2017
+          ],
+          "block_id": 4,
+          "block_order": 3,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2199.0,
+              1250.0
+            ],
+            [
+              2956.0,
+              1250.0
+            ],
+            [
+              2956.0,
+              2017.0
+            ],
+            [
+              2199.0,
+              2017.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.35589030385017395,
+            "coordinate": [
+              1946,
+              1251,
+              2224,
+              1354
+            ],
+            "polygon_points": [
+              [
+                1946.0,
+                1251.0
+              ],
+              [
+                2224.0,
+                1251.0
+              ],
+              [
+                2224.0,
+                1354.0
+              ],
+              [
+                1946.0,
+                1354.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.5983846783638,
+            "coordinate": [
+              1952,
+              1252,
+              2205,
+              1297
+            ],
+            "polygon_points": [
+              [
+                1952.0,
+                1252.0
+              ],
+              [
+                2205.0,
+                1252.0
+              ],
+              [
+                2205.0,
+                1297.0
+              ],
+              [
+                1952.0,
+                1297.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.3576262295246124,
+            "coordinate": [
+              2148,
+              1005,
+              2215,
+              1040
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2148.0,
+                1005.0
+              ],
+              [
+                2215.0,
+                1005.0
+              ],
+              [
+                2215.0,
+                1040.0
+              ],
+              [
+                2148.0,
+                1040.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7653961181640625,
+            "coordinate": [
+              2205,
+              1009,
+              2954,
+              1107
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2205.0,
+                1009.0
+              ],
+              [
+                2954.0,
+                1009.0
+              ],
+              [
+                2954.0,
+                1107.0
+              ],
+              [
+                2205.0,
+                1107.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8406059145927429,
+            "coordinate": [
+              2221,
+              1107,
+              2954,
+              1233
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2221.0,
+                1107.0
+              ],
+              [
+                2954.0,
+                1107.0
+              ],
+              [
+                2954.0,
+                1233.0
+              ],
+              [
+                2221.0,
+                1233.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8816887140274048,
+            "coordinate": [
+              2199,
+              1250,
+              2955,
+              2017
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2199.0,
+                1250.0
+              ],
+              [
+                2956.0,
+                1250.0
+              ],
+              [
+                2956.0,
+                2017.0
+              ],
+              [
+                2199.0,
+                2017.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Quo polium stella variis inauri\n\nAtheris mostre solium seream\n\nSiderum gemmis, variisque coolu\n\nMèito compland\n\nEl día que loit colo\n\nRicco à la sculptura tivera de\n\ncoládras!\n\nAu cours du x112 siècle on voit s'achever dans la période, médiocra, la figuration spécialique du monote et des idées, comme dans un kalidóscope. D'innombrage les figures et groupes de figures, comme auant de systèmes stelsinoire de ma�ent en crane dans l'esprit la cohérence de ces systèmes de figures est donnée par la principe qui régit tout. Tout est ensemblable, ne servent qu'à glorification divinité et de démontrer la agitation entière. Si encore les éléments de cette figuration, on est souvent pris dans les trésors de la tradition classique. Mais l'ouverneur de la corsion, de l'exemple des éclater, de les interpréler dans leur sens symbolique, appelient au moyen âge, et, il me lembra, surtout au x112 siècle. Tous les périès s'illumine, comme une",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F4e43db5b434110f56b7a084a03a09a76289160d4c88f01309ea730a1924d31c1"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fdf91aebca944534c75ca4a608141813b43b77706bb80ee98c5a2d2112344637b"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Le désir de shallacar chaque groupa d'idées, chaque opération mentada, enfin loutant l'un élevé de l'esprit, à une figure, à ne type qui en est le parfaitment officiel, nous d'annoncer cette nommé colume, dans l'équeille des monus",
+          "block_bbox": [
+            0,
+            0,
+            769,
+            258
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              769.0,
+              0.0
+            ],
+            [
+              769.0,
+              258.0
+            ],
+            [
+              0.0,
+              258.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Par lero feigere geometrique\n\ndans la centre de laquelle il peint le croix, et qu'il re",
+          "block_bbox": [
+            0,
+            370,
+            1241,
+            436
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              -4.0,
+              370.0
+            ],
+            [
+              1241.0,
+              370.0
+            ],
+            [
+              1241.0,
+              436.0
+            ],
+            [
+              -4.0,
+              436.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "M.176.0.1.2.\nN.622.",
+          "block_bbox": [
+            771,
+            446,
+            971,
+            498
+          ],
+          "block_id": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              771.0,
+              446.0
+            ],
+            [
+              971.0,
+              446.0
+            ],
+            [
+              971.0,
+              498.0
+            ],
+            [
+              771.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Aucun andeur du x112 siècle que\n\nje connaiss, a mamié cet cintrine\n\nment peutôt establiques que laon\n\nlogique avec lant de génie sec\n\ntice et simple à la fois que hugué\n\nde Saint Victor. L'harmonie par-\n\nfonde de ses inédits méthniques\n\npréض de 700 sembolisme vivant\n\net clair ma fait loucious paron\n\nà la mestique de Mozent. L'écr\n\npar exemple certains capites de\n\nsen Arca de Noé morada et mort\n\nligne \"cité de émén壑 toes dos\n\nque désignent la\n\nlopeset caen humains comme\n\ncité ourre",
+          "block_bbox": [
+            0,
+            492,
+            777,
+            964
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              0.0,
+              492.0
+            ],
+            [
+              777.0,
+              492.0
+            ],
+            [
+              777.0,
+              964.0
+            ],
+            [
+              0.0,
+              964.0
+            ]
+          ]
+        },
+        {
+          "block_label": "footer",
+          "block_content": "unle thứ p.e.n.",
+          "block_bbox": [
+            309,
+            966,
+            687,
+            988
+          ],
+          "block_id": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              309.0,
+              966.0
+            ],
+            [
+              687.0,
+              966.0
+            ],
+            [
+              687.0,
+              988.0
+            ],
+            [
+              309.0,
+              988.0
+            ]
+          ]
+        },
+        {
+          "block_label": "number",
+          "block_content": "etc.",
+          "block_bbox": [
+            708,
+            968,
+            774,
+            986
+          ],
+          "block_id": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              708.0,
+              968.0
+            ],
+            [
+              773.0,
+              968.0
+            ],
+            [
+              773.0,
+              985.0
+            ],
+            [
+              708.0,
+              985.0
+            ]
+          ]
+        },
+        {
+          "block_label": "footer",
+          "block_content": "église non élevement décoré",
+          "block_bbox": [
+            0,
+            996,
+            771,
+            1029
+          ],
+          "block_id": 6,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              0.0,
+              996.0
+            ],
+            [
+              771.0,
+              996.0
+            ],
+            [
+              771.0,
+              1029.0
+            ],
+            [
+              0.0,
+              1029.0
+            ]
+          ]
+        },
+        {
+          "block_label": "number",
+          "block_content": "13",
+          "block_bbox": [
+            1438,
+            991,
+            1482,
+            1019
+          ],
+          "block_id": 7,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              1438.0,
+              991.0
+            ],
+            [
+              1481.0,
+              991.0
+            ],
+            [
+              1481.0,
+              1018.0
+            ],
+            [
+              1438.0,
+              1018.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5220468044281006,
+            "coordinate": [
+              0,
+              0,
+              769,
+              258
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                769.0,
+                0.0
+              ],
+              [
+                769.0,
+                258.0
+              ],
+              [
+                0.0,
+                258.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3803311288356781,
+            "coordinate": [
+              0,
+              370,
+              1241,
+              436
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                -4.0,
+                370.0
+              ],
+              [
+                1241.0,
+                370.0
+              ],
+              [
+                1241.0,
+                436.0
+              ],
+              [
+                -4.0,
+                436.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.314203679561615,
+            "coordinate": [
+              771,
+              446,
+              971,
+              498
+            ],
+            "polygon_points": [
+              [
+                771.0,
+                446.0
+              ],
+              [
+                971.0,
+                446.0
+              ],
+              [
+                971.0,
+                498.0
+              ],
+              [
+                771.0,
+                498.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5408497452735901,
+            "coordinate": [
+              0,
+              492,
+              777,
+              964
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                0.0,
+                492.0
+              ],
+              [
+                777.0,
+                492.0
+              ],
+              [
+                777.0,
+                964.0
+              ],
+              [
+                0.0,
+                964.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.3857276737689972,
+            "coordinate": [
+              309,
+              966,
+              687,
+              988
+            ],
+            "polygon_points": [
+              [
+                309.0,
+                966.0
+              ],
+              [
+                687.0,
+                966.0
+              ],
+              [
+                687.0,
+                988.0
+              ],
+              [
+                309.0,
+                988.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.3996529281139374,
+            "coordinate": [
+              708,
+              968,
+              774,
+              986
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                708.0,
+                968.0
+              ],
+              [
+                773.0,
+                968.0
+              ],
+              [
+                773.0,
+                985.0
+              ],
+              [
+                708.0,
+                985.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.5094683766365051,
+            "coordinate": [
+              0,
+              996,
+              771,
+              1029
+            ],
+            "polygon_points": [
+              [
+                0.0,
+                996.0
+              ],
+              [
+                771.0,
+                996.0
+              ],
+              [
+                771.0,
+                1029.0
+              ],
+              [
+                0.0,
+                1029.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.45715978741645813,
+            "coordinate": [
+              1438,
+              991,
+              1482,
+              1019
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                1438.0,
+                991.0
+              ],
+              [
+                1481.0,
+                991.0
+              ],
+              [
+                1481.0,
+                1018.0
+              ],
+              [
+                1438.0,
+                1018.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 180
+      }
+    },
+    "markdown": {
+      "text": "Le désir de shallacar chaque groupa d'idées, chaque opération mentada, enfin loutant l'un élevé de l'esprit, à une figure, à ne type qui en est le parfaitment officiel, nous d'annoncer cette nommé colume, dans l'équeille des monus\n\nPar lero feigere geometrique\n\ndans la centre de laquelle il peint le croix, et qu'il re\n\nAucun andeur du x112 siècle que\n\nje connaiss, a mamié cet cintrine\n\nment peutôt establiques que laon\n\nlogique avec lant de génie sec\n\ntice et simple à la fois que hugué\n\nde Saint Victor. L'harmonie par-\n\nfonde de ses inédits méthniques\n\npréض de 700 sembolisme vivant\n\net clair ma fait loucious paron\n\nà la mestique de Mozent. L'écr\n\npar exemple certains capites de\n\nsen Arca de Noé morada et mort\n\nligne \"cité de émén壑 toes dos\n\nque désignent la\n\nlopeset caen humains comme\n\ncité ourre",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F89b536c18bf4b080e9902d89cbe224105d22013c94c494a68a025fb107135417"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F4ef4bdc35fcdc91a884f7f1abc527becb89b07aad36698af6313d1cd6cf1b1d7"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "number",
+          "block_content": "14",
+          "block_bbox": [
+            1506,
+            1027,
+            1554,
+            1050
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1505.9998779296875,
+              1026.9998779296875
+            ],
+            [
+              1552.9998779296875,
+              1026.9998779296875
+            ],
+            [
+              1552.9998779296875,
+              1048.9998779296875
+            ],
+            [
+              1505.9998779296875,
+              1048.9998779296875
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Les Juréménes, les Mariscales semblent se compondre et se fendre à Citéois sous les deux tapes d'Éthicien et de Salariers.",
+          "block_bbox": [
+            1501,
+            1126,
+            2211,
+            1247
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1501.0,
+              1126.0
+            ],
+            [
+              2211.0,
+              1126.0
+            ],
+            [
+              2211.0,
+              1247.0
+            ],
+            [
+              1501.0,
+              1247.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "Acidosc.\nM.176.765",
+          "block_bbox": [
+            2005,
+            1239,
+            2184,
+            1290
+          ],
+          "block_id": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2005.0,
+              1239.0
+            ],
+            [
+              2184.0,
+              1239.0
+            ],
+            [
+              2184.0,
+              1290.0
+            ],
+            [
+              2005.0,
+              1290.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "forma qui les approche des saints,\n\nsoulement de saints sans libre\n\nofficial, ou tout ou plus de saints\n\nin partibus infidélicium, et restés\n\nà e' elas purement intollevants.",
+          "block_bbox": [
+            1490,
+            1574,
+            2223,
+            1723
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              1490.0,
+              1574.0
+            ],
+            [
+              2223.0,
+              1574.0
+            ],
+            [
+              2223.0,
+              1723.0
+            ],
+            [
+              1490.0,
+              1723.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "M.210.\n687",
+          "block_bbox": [
+            2060,
+            1873,
+            2183,
+            1930
+          ],
+          "block_id": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2060.0,
+              1873.0
+            ],
+            [
+              2183.0,
+              1873.0
+            ],
+            [
+              2183.0,
+              1930.0
+            ],
+            [
+              2060.0,
+              1930.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "degré d'élevation, cœur de la fournisseur qui leur est propre : où Artois devient \"Philosopie, Térence, Comique\", pour les honora, les Persical épicés. Jean de Salisberry et de",
+          "block_bbox": [
+            2214,
+            1012,
+            2954,
+            1195
+          ],
+          "block_id": 5,
+          "block_order": 3,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2214.0,
+              1012.0
+            ],
+            [
+              2954.0,
+              1012.0
+            ],
+            [
+              2954.0,
+              1195.0
+            ],
+            [
+              2214.0,
+              1195.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Presque Loupurs de cas surnon\n\nPour des citations\n\ngénériqués. Pour Hugues de Saint\n\nVictor Choque art a son. Auction\n\nComme qui dirait Inventeur,\n\ntels qu'on les voit dans les Bas-\n\nReliefes de Giotto à la Campanille\n\nde Florence. Gu plusté choque\n\nart, ou choque Gramche d'un art\n\nen a lues: un du Vieux Tottaman\n\nun Grac et un Latin, parfois un\n\nModerna. Cas, aulours\" ou représentant",
+          "block_bbox": [
+            2216,
+            1192,
+            2954,
+            1556
+          ],
+          "block_id": 6,
+          "block_order": 4,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              2216.0,
+              1192.0
+            ],
+            [
+              2954.0,
+              1192.0
+            ],
+            [
+              2954.0,
+              1556.0
+            ],
+            [
+              2216.0,
+              1556.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "fortressent en train de prendre un\n\nforme quotidien demi dieux, moi\n\nde nature inroscente. Ils sont\n\nBond pour l'allergonie, et la foi\n\nne court pas de ziseux.",
+          "block_bbox": [
+            2217,
+            1553,
+            2953,
+            1706
+          ],
+          "block_id": 7,
+          "block_order": 5,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2217.0,
+              1553.0
+            ],
+            [
+              2953.0,
+              1553.0
+            ],
+            [
+              2953.0,
+              1706.0
+            ],
+            [
+              2217.0,
+              1706.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Du besoin de developper cas\n\nsχλìmes de figuras à celui de\n\nles ranger eu cratre alphabétique\n\nil n'a qu'un pas. La Liber in\n\ndistinctionibus dicticum theo-\n\nlogicodium\" attribué à Alain de\n\nLilla, est un dictimmaire l'éso\n\nlogique et surtout symbolique\n\nde plus de 100 articles. Son Doctri-\n\nnale minut \"ou\" Liber Parabolorum",
+          "block_bbox": [
+            2214,
+            1705,
+            2955,
+            2015
+          ],
+          "block_id": 8,
+          "block_order": 6,
+          "group_id": 8,
+          "block_polygon_points": [
+            [
+              2214.0,
+              1705.0
+            ],
+            [
+              2955.0,
+              1705.0
+            ],
+            [
+              2955.0,
+              2015.0
+            ],
+            [
+              2214.0,
+              2015.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.44782769680023193,
+            "coordinate": [
+              1506,
+              1027,
+              1554,
+              1050
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1505.9998779296875,
+                1026.9998779296875
+              ],
+              [
+                1552.9998779296875,
+                1026.9998779296875
+              ],
+              [
+                1552.9998779296875,
+                1048.9998779296875
+              ],
+              [
+                1505.9998779296875,
+                1048.9998779296875
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8149714469909668,
+            "coordinate": [
+              1501,
+              1126,
+              2211,
+              1247
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1501.0,
+                1126.0
+              ],
+              [
+                2211.0,
+                1126.0
+              ],
+              [
+                2211.0,
+                1247.0
+              ],
+              [
+                1501.0,
+                1247.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.750378429889679,
+            "coordinate": [
+              2005,
+              1239,
+              2184,
+              1290
+            ],
+            "polygon_points": [
+              [
+                2005.0,
+                1239.0
+              ],
+              [
+                2184.0,
+                1239.0
+              ],
+              [
+                2184.0,
+                1290.0
+              ],
+              [
+                2005.0,
+                1290.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7986673712730408,
+            "coordinate": [
+              1490,
+              1574,
+              2223,
+              1723
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                1490.0,
+                1574.0
+              ],
+              [
+                2223.0,
+                1574.0
+              ],
+              [
+                2223.0,
+                1723.0
+              ],
+              [
+                1490.0,
+                1723.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.4614221155643463,
+            "coordinate": [
+              2060,
+              1873,
+              2183,
+              1930
+            ],
+            "polygon_points": [
+              [
+                2060.0,
+                1873.0
+              ],
+              [
+                2183.0,
+                1873.0
+              ],
+              [
+                2183.0,
+                1930.0
+              ],
+              [
+                2060.0,
+                1930.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7418636083602905,
+            "coordinate": [
+              2214,
+              1012,
+              2954,
+              1195
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2214.0,
+                1012.0
+              ],
+              [
+                2954.0,
+                1012.0
+              ],
+              [
+                2954.0,
+                1195.0
+              ],
+              [
+                2214.0,
+                1195.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6122962832450867,
+            "coordinate": [
+              2216,
+              1192,
+              2954,
+              1556
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2216.0,
+                1192.0
+              ],
+              [
+                2954.0,
+                1192.0
+              ],
+              [
+                2954.0,
+                1556.0
+              ],
+              [
+                2216.0,
+                1556.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4951325058937073,
+            "coordinate": [
+              2217,
+              1553,
+              2953,
+              1706
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2217.0,
+                1553.0
+              ],
+              [
+                2953.0,
+                1553.0
+              ],
+              [
+                2953.0,
+                1706.0
+              ],
+              [
+                2217.0,
+                1706.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8494494557380676,
+            "coordinate": [
+              2214,
+              1705,
+              2955,
+              2015
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                2214.0,
+                1705.0
+              ],
+              [
+                2955.0,
+                1705.0
+              ],
+              [
+                2955.0,
+                2015.0
+              ],
+              [
+                2214.0,
+                2015.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Les Juréménes, les Mariscales semblent se compondre et se fendre à Citéois sous les deux tapes d'Éthicien et de Salariers.\n\nforma qui les approche des saints,\n\nsoulement de saints sans libre\n\nofficial, ou tout ou plus de saints\n\nin partibus infidélicium, et restés\n\nà e' elas purement intollevants.\n\ndegré d'élevation, cœur de la fournisseur qui leur est propre : où Artois devient \"Philosopie, Térence, Comique\", pour les honora, les Persical épicés. Jean de Salisberry et de\n\nPresque Loupurs de cas surnon\n\nPour des citations\n\ngénériqués. Pour Hugues de Saint\n\nVictor Choque art a son. Auction\n\nComme qui dirait Inventeur,\n\ntels qu'on les voit dans les Bas-\n\nReliefes de Giotto à la Campanille\n\nde Florence. Gu plusté choque\n\nart, ou choque Gramche d'un art\n\nen a lues: un du Vieux Tottaman\n\nun Grac et un Latin, parfois un\n\nModerna. Cas, aulours\" ou représentant\n\nfortressent en train de prendre un\n\nforme quotidien demi dieux, moi\n\nde nature inroscente. Ils sont\n\nBond pour l'allergonie, et la foi\n\nne court pas de ziseux.\n\nDu besoin de developper cas\n\nsχλìmes de figuras à celui de\n\nles ranger eu cratre alphabétique\n\nil n'a qu'un pas. La Liber in\n\ndistinctionibus dicticum theo-\n\nlogicodium\" attribué à Alain de\n\nLilla, est un dictimmaire l'éso\n\nlogique et surtout symbolique\n\nde plus de 100 articles. Son Doctri-\n\nnale minut \"ou\" Liber Parabolorum",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F7a357776124123721bec2789ef09c3f05dc8a866fb54db1967b4034756672201"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F2cf788ba909bc0fd36f3e8a1bc7a93aefb83ae8930d1cd5dbb2d1a54d0492917"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "age. Jo. Sad. de 7 Sept. V. 209\n\nvoir compréction - poléړ时应\n\ndures institution - industria domi\n\nof parsverentia\n\nvoa pax - abstinentia.\n\nCe sent les opposés directs des vices\n\nM. 178. 405.\n\nune collection de prouvenable toul\n\nnés en usage pioux, selerait ce\n\nlèbro et serait imprimé jusqu'\n\nen plein seizième siècle.",
+          "block_bbox": [
+            1483,
+            1743,
+            2203,
+            1938
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1483.0,
+              1743.0
+            ],
+            [
+              2203.0,
+              1743.0
+            ],
+            [
+              2203.0,
+              1938.0
+            ],
+            [
+              1483.0,
+              1938.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            2209,
+            1017,
+            2954,
+            1139
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2209.0,
+              1017.0
+            ],
+            [
+              2954.0,
+              1017.0
+            ],
+            [
+              2954.0,
+              1139.0
+            ],
+            [
+              2209.0,
+              1139.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Parmi les cas supplémes hiéron\n\nChniques et symboлиques et idées\n\ndeux auraient une importance\n\nsingulière pour la théologie\n\npour la morale et pour la cœur\n\nlitation : la catégorie des ver\n\nlus et des vices, et celle des ar\n\nliberaux et mécaniques. Chaute\n\nd'elles a des recines dans la par\n\nsé de l'Antiquité parsemne. La\n\nterie des sept parades capitaux est\n\nsérie de l'astrologie, celle des\n\nventes terminées de trouve et\n\nPlatens, et pour les lois vertues\n\ntheologiques aussi M. Reitzstein\n\nà cherche les origines dans l'hol\n\nl'écrisme. (du 12 décembre)\n\nLes systems non sont\n\nplus en conformes, et ma la\n\n2011 jams compilément. A côté\n\ndes sept vertues uscèdes Hégres\n\nde Saint Victor en commait une\n\nentre série composés de humili\n\nite, manuscrits, compensation\n\nsoit de la justice, misericords,\n\npurée de coeur et poix.\n\nLémes de sept peuvent se muire\n\nplier à l'infimité par subdi",
+          "block_bbox": [
+            2210,
+            1140,
+            2955,
+            2017
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2210.0,
+              1140.0
+            ],
+            [
+              2955.0,
+              1140.0
+            ],
+            [
+              2955.0,
+              2017.0
+            ],
+            [
+              2210.0,
+              2017.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.437012642621994,
+            "coordinate": [
+              1483,
+              1743,
+              2203,
+              1938
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1483.0,
+                1743.0
+              ],
+              [
+                2203.0,
+                1743.0
+              ],
+              [
+                2203.0,
+                1938.0
+              ],
+              [
+                1483.0,
+                1938.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8642951846122742,
+            "coordinate": [
+              2209,
+              1017,
+              2954,
+              1139
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2209.0,
+                1017.0
+              ],
+              [
+                2954.0,
+                1017.0
+              ],
+              [
+                2954.0,
+                1139.0
+              ],
+              [
+                2209.0,
+                1139.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8962878584861755,
+            "coordinate": [
+              2210,
+              1140,
+              2955,
+              2017
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2210.0,
+                1140.0
+              ],
+              [
+                2955.0,
+                1140.0
+              ],
+              [
+                2955.0,
+                2017.0
+              ],
+              [
+                2210.0,
+                2017.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "age. Jo. Sad. de 7 Sept. V. 209\n\nvoir compréction - poléړ时应\n\ndures institution - industria domi\n\nof parsverentia\n\nvoa pax - abstinentia.\n\nCe sent les opposés directs des vices\n\nM. 178. 405.\n\nune collection de prouvenable toul\n\nnés en usage pioux, selerait ce\n\nlèbro et serait imprimé jusqu'\n\nen plein seizième siècle.\n\n\n\nParmi les cas supplémes hiéron\n\nChniques et symboлиques et idées\n\ndeux auraient une importance\n\nsingulière pour la théologie\n\npour la morale et pour la cœur\n\nlitation : la catégorie des ver\n\nlus et des vices, et celle des ar\n\nliberaux et mécaniques. Chaute\n\nd'elles a des recines dans la par\n\nsé de l'Antiquité parsemne. La\n\nterie des sept parades capitaux est\n\nsérie de l'astrologie, celle des\n\nventes terminées de trouve et\n\nPlatens, et pour les lois vertues\n\ntheologiques aussi M. Reitzstein\n\nà cherche les origines dans l'hol\n\nl'écrisme. (du 12 décembre)\n\nLes systems non sont\n\nplus en conformes, et ma la\n\n2011 jams compilément. A côté\n\ndes sept vertues uscèdes Hégres\n\nde Saint Victor en commait une\n\nentre série composés de humili\n\nite, manuscrits, compensation\n\nsoit de la justice, misericords,\n\npurée de coeur et poix.\n\nLémes de sept peuvent se muire\n\nplier à l'infimité par subdi",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fe9257d6e9233d08f17c54668063c70210e089a15ac72f4d09dbf5b130ff2a114"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F132d7bdcc92e35de472cdca9184c9d76cebaed644ff01c18af93c595b0613a96"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "La série des arts libéraux est\n\nbien connue (est) qui\n\nla base de l'organisation uni-\n\nversitaire.",
+          "block_bbox": [
+            1521,
+            1071,
+            2202,
+            1192
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1521.0,
+              1071.0
+            ],
+            [
+              2202.0,
+              1071.0
+            ],
+            [
+              2202.0,
+              1192.0
+            ],
+            [
+              1521.0,
+              1192.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "que ique de appartant de lui\n\nprès à la forme esthétique de\n\nla peintre de l'époque\n\n99 des vertus et chacun des vicaux\n\naura sept compagnons par exemple\n\n12 serait intéressant de s'é-\n\ntendre sur la comprision qua\n\nde fait Hugues de Saint Victor,\n\nsuivant ici Martianne Capollo,\n\nde la distinction des septants\n\nmécansiques, fortement pour le\n\nl'hortie de la vie économique\n\net le technique comme la forait\n\nni cette des arts libéraux pour le\n\nmélanchologie scientifique, la\n\ntripartition de tout la domaine\n\nimblécédue chez lui est d'une\n\nharmonie presque absolue. On\n\nvoudrait s'allander également\n\nà suivre Jean de Salisbury dis-\n\nlinguant dans ses septaux\n\ntenis \"sept de ces supplèmes d'im\n\npertenceซانciate : sept modes\n\nd'étudiement, sept onts libéraux\n\nou voies de l'âme, sept fêten\n\nde l'âme, sept frecès de l'âme,\n\nsept vertues, sept genres de con-\n\nண்டشش شاتشش, sept principes\n\nmais la digression sur ces\n\ngroupements d'idées, sur les bi-\n\nguerçais du monde imblécédue\n\nnous a mémés de la assez les\n\nd'Alain de l'Hula. Digression aussi\n\ndans ce dessé qu'elle nous a mané",
+          "block_bbox": [
+            1503,
+            1892,
+            2167,
+            1994
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1501.32275390625,
+              1896.3870849609375
+            ],
+            [
+              2165.68505859375,
+              1884.8529052734375
+            ],
+            [
+              2167.38427734375,
+              1982.7330322265625
+            ],
+            [
+              1503.02197265625,
+              1994.2672119140625
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            2168,
+            1016,
+            2952,
+            2014
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2168.0,
+              1016.0
+            ],
+            [
+              2952.0,
+              1016.0
+            ],
+            [
+              2952.0,
+              2014.0
+            ],
+            [
+              2168.0,
+              2014.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6923355460166931,
+            "coordinate": [
+              1521,
+              1071,
+              2202,
+              1192
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1521.0,
+                1071.0
+              ],
+              [
+                2202.0,
+                1071.0
+              ],
+              [
+                2202.0,
+                1192.0
+              ],
+              [
+                1521.0,
+                1192.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4215207099914551,
+            "coordinate": [
+              1503,
+              1892,
+              2167,
+              1994
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1501.32275390625,
+                1896.3870849609375
+              ],
+              [
+                2165.68505859375,
+                1884.8529052734375
+              ],
+              [
+                2167.38427734375,
+                1982.7330322265625
+              ],
+              [
+                1503.02197265625,
+                1994.2672119140625
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.623161792755127,
+            "coordinate": [
+              2168,
+              1016,
+              2952,
+              2014
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2168.0,
+                1016.0
+              ],
+              [
+                2952.0,
+                1016.0
+              ],
+              [
+                2952.0,
+                2014.0
+              ],
+              [
+                2168.0,
+                2014.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3193731904029846,
+            "coordinate": [
+              2214,
+              1831,
+              2954,
+              2016
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2214.0,
+                1831.0
+              ],
+              [
+                2954.0,
+                1831.0
+              ],
+              [
+                2954.0,
+                2016.0
+              ],
+              [
+                2214.0,
+                2016.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "La série des arts libéraux est\n\nbien connue (est) qui\n\nla base de l'organisation uni-\n\nversitaire.\n\nque ique de appartant de lui\n\nprès à la forme esthétique de\n\nla peintre de l'époque\n\n99 des vertus et chacun des vicaux\n\naura sept compagnons par exemple\n\n12 serait intéressant de s'é-\n\ntendre sur la comprision qua\n\nde fait Hugues de Saint Victor,\n\nsuivant ici Martianne Capollo,\n\nde la distinction des septants\n\nmécansiques, fortement pour le\n\nl'hortie de la vie économique\n\net le technique comme la forait\n\nni cette des arts libéraux pour le\n\nmélanchologie scientifique, la\n\ntripartition de tout la domaine\n\nimblécédue chez lui est d'une\n\nharmonie presque absolue. On\n\nvoudrait s'allander également\n\nà suivre Jean de Salisbury dis-\n\nlinguant dans ses septaux\n\ntenis \"sept de ces supplèmes d'im\n\npertenceซانciate : sept modes\n\nd'étudiement, sept onts libéraux\n\nou voies de l'âme, sept fêten\n\nde l'âme, sept frecès de l'âme,\n\nsept vertues, sept genres de con-\n\nண்டشش شاتشش, sept principes\n\nmais la digression sur ces\n\ngroupements d'idées, sur les bi-\n\nguerçais du monde imblécédue\n\nnous a mémés de la assez les\n\nd'Alain de l'Hula. Digression aussi\n\ndans ce dessé qu'elle nous a mané\n\n",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F11e0d997ad9d1f2f05de191db83e9a0922cc7774a6ed14d7a0265439770201bb"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fc63d4a812133ec7ee69acdd7814641ecb7b8bce9331b0be54a79097c13093d64"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "insensiblement de c'esprit pré\n\ngolhique à l'esprit gothique\n\nLe besoin de réduire la mond\n\nen catégories et en suplème, de\n\nCréer partout de l'autre et de\n\nl'harmonie, du style enfin, d\n\ncréateur et de régulariser\n\nc'est là ce que je wouldis ap\n\npeler l'esprit gothique.10 Ins\n\nvoivirera et chasser les Tendance\n\nhumanités, la manière dis\n\nsive, les aspirations preca-\n\nsive, du siècle entour\n\nprécident.",
+          "block_bbox": [
+            2206,
+            1001,
+            2955,
+            1443
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2206.0,
+              1001.0
+            ],
+            [
+              2956.0,
+              1001.0
+            ],
+            [
+              2956.0,
+              1443.0
+            ],
+            [
+              2206.0,
+              1443.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Résourromont à Alain, et l'adom\n\nde déterminer un peu la notre\n\nla méthode de montrée de\n\nimagination, est délicieux et phé\n\nles compositions de son imagination\n\npositiques. Nous les transversons\n\nimpossible de déterminer les méthodes\n\nla manière de son expression\n\nde l'étique d'une part de son point\n\nde une philosophique de l'éventre\n\nle l'oudrain appeler le Poale du\n\nRéalisme, au sens médiéval du\n\nmot, opposé à Nominalisme, et i-\n\ndentique à l'idéalisme platonique\n\nDes deux grands ouvrages en us\n\net l'éclats me serviront d'ardémal\n\nPour la prouver, surtout l'Antic-\n\nl'éclatismel sive de officio viri",
+          "block_bbox": [
+            2170,
+            1453,
+            2954,
+            2014
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2170.0,
+              1453.0
+            ],
+            [
+              2954.0,
+              1453.0
+            ],
+            [
+              2954.0,
+              2014.0
+            ],
+            [
+              2170.0,
+              2014.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6660230159759521,
+            "coordinate": [
+              2206,
+              1001,
+              2955,
+              1443
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2206.0,
+                1001.0
+              ],
+              [
+                2956.0,
+                1001.0
+              ],
+              [
+                2956.0,
+                1443.0
+              ],
+              [
+                2206.0,
+                1443.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.34604814648628235,
+            "coordinate": [
+              2198,
+              1454,
+              2952,
+              1672
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2210.403564453125,
+                1464.035888671875
+              ],
+              [
+                2950.720947265625,
+                1453.810302734375
+              ],
+              [
+                2953.627685546875,
+                1664.250732421875
+              ],
+              [
+                2213.310302734375,
+                1674.476318359375
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5661780834197998,
+            "coordinate": [
+              2170,
+              1453,
+              2954,
+              2014
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2170.0,
+                1453.0
+              ],
+              [
+                2954.0,
+                1453.0
+              ],
+              [
+                2954.0,
+                2014.0
+              ],
+              [
+                2170.0,
+                2014.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3815760612487793,
+            "coordinate": [
+              2200,
+              1668,
+              2952,
+              2010
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2200.0,
+                1668.0
+              ],
+              [
+                2952.0,
+                1668.0
+              ],
+              [
+                2952.0,
+                2010.0
+              ],
+              [
+                2200.0,
+                2010.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "insensiblement de c'esprit pré\n\ngolhique à l'esprit gothique\n\nLe besoin de réduire la mond\n\nen catégories et en suplème, de\n\nCréer partout de l'autre et de\n\nl'harmonie, du style enfin, d\n\ncréateur et de régulariser\n\nc'est là ce que je wouldis ap\n\npeler l'esprit gothique.10 Ins\n\nvoivirera et chasser les Tendance\n\nhumanités, la manière dis\n\nsive, les aspirations preca-\n\nsive, du siècle entour\n\nprécident.\n\nRésourromont à Alain, et l'adom\n\nde déterminer un peu la notre\n\nla méthode de montrée de\n\nimagination, est délicieux et phé\n\nles compositions de son imagination\n\npositiques. Nous les transversons\n\nimpossible de déterminer les méthodes\n\nla manière de son expression\n\nde l'étique d'une part de son point\n\nde une philosophique de l'éventre\n\nle l'oudrain appeler le Poale du\n\nRéalisme, au sens médiéval du\n\nmot, opposé à Nominalisme, et i-\n\ndentique à l'idéalisme platonique\n\nDes deux grands ouvrages en us\n\net l'éclats me serviront d'ardémal\n\nPour la prouver, surtout l'Antic-\n\nl'éclatismel sive de officio viri",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F34c16a59b8762c7a75ca3f6d8cb1145d987730e4845f242a9a306852decf6aaf"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8d4e7a70-1648-48c1-8fe8-d84f98ccc4c7/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F10722fdd98877df61c0102041f662156975a2b1f998603bad14cb714279879bb"
+  }
+]

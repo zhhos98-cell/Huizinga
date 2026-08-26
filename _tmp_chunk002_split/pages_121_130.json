@@ -1,0 +1,3254 @@
+[
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "v.9",
+          "block_bbox": [
+            2078,
+            1097,
+            2149,
+            1125
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2078.0,
+              1097.0
+            ],
+            [
+              2149.0,
+              1097.0
+            ],
+            [
+              2149.0,
+              1125.0
+            ],
+            [
+              2078.0,
+              1125.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "V.131.\nL'art des",
+          "block_bbox": [
+            2036,
+            1787,
+            2206,
+            1889
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2036.0,
+              1787.0
+            ],
+            [
+              2206.0,
+              1787.0
+            ],
+            [
+              2206.0,
+              1889.0
+            ],
+            [
+              2036.0,
+              1889.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "pas de l'inférieur des lamp modernes�compond à Antiqués Capendant se foi virando et pour ainsi dira sa naissance et son optimisme na la font (he titerà la cour preferer les tontes des modernes long qu'il s'agit de la religion. l'intéordence dit il est obtus et la mémoire trop infédale pour que je pa te percevoir la subtilité des ci-ciens ou 20tenir plus longtemps les choses que l'ai une fois com prites. Mais au maïs tempus: se n'ai pas profusé de l'appel les tenterces des modernes que je crois devoir préférer aux anciens dans la plupart des cas.",
+          "block_bbox": [
+            2206,
+            1020,
+            2955,
+            1625
+          ],
+          "block_id": 2,
+          "block_order": 1,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2206.0,
+              1020.0
+            ],
+            [
+              2955.0,
+              1020.0
+            ],
+            [
+              2955.0,
+              1625.0
+            ],
+            [
+              2206.0,
+              1625.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "C'est lui qui nous a liré de l'amande)\n\nParola (de Bernard de Charros, de\n\nsant : nous scorné comme des\n\nnoirs assis sur les épaules de\n\ngésants afin que nous puisse\n\nvoir plus aux et plus au loin\n\nMotif qu'elle est seprésent\n\nimages les viraux, motif d'ail\n\nleurs qui se trouve déjà dans l'\n\ndoudaïque, soit-il dans un bon\n\nabsolument different.\n\nC'est également Jean des S. qui",
+          "block_bbox": [
+            2205,
+            1613,
+            2954,
+            2008
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2205.0,
+              1613.0
+            ],
+            [
+              2954.0,
+              1613.0
+            ],
+            [
+              2954.0,
+              2008.0
+            ],
+            [
+              2205.0,
+              2008.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.4844888150691986,
+            "coordinate": [
+              2078,
+              1097,
+              2149,
+              1125
+            ],
+            "polygon_points": [
+              [
+                2078.0,
+                1097.0
+              ],
+              [
+                2149.0,
+                1097.0
+              ],
+              [
+                2149.0,
+                1125.0
+              ],
+              [
+                2078.0,
+                1125.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.5710771083831787,
+            "coordinate": [
+              2036,
+              1787,
+              2206,
+              1889
+            ],
+            "polygon_points": [
+              [
+                2036.0,
+                1787.0
+              ],
+              [
+                2206.0,
+                1787.0
+              ],
+              [
+                2206.0,
+                1889.0
+              ],
+              [
+                2036.0,
+                1889.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8853220343589783,
+            "coordinate": [
+              2206,
+              1020,
+              2955,
+              1625
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2206.0,
+                1020.0
+              ],
+              [
+                2955.0,
+                1020.0
+              ],
+              [
+                2955.0,
+                1625.0
+              ],
+              [
+                2206.0,
+                1625.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8020315766334534,
+            "coordinate": [
+              2205,
+              1613,
+              2954,
+              2008
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2205.0,
+                1613.0
+              ],
+              [
+                2954.0,
+                1613.0
+              ],
+              [
+                2954.0,
+                2008.0
+              ],
+              [
+                2205.0,
+                2008.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "pas de l'inférieur des lamp modernes�compond à Antiqués Capendant se foi virando et pour ainsi dira sa naissance et son optimisme na la font (he titerà la cour preferer les tontes des modernes long qu'il s'agit de la religion. l'intéordence dit il est obtus et la mémoire trop infédale pour que je pa te percevoir la subtilité des ci-ciens ou 20tenir plus longtemps les choses que l'ai une fois com prites. Mais au maïs tempus: se n'ai pas profusé de l'appel les tenterces des modernes que je crois devoir préférer aux anciens dans la plupart des cas.\n\nC'est lui qui nous a liré de l'amande)\n\nParola (de Bernard de Charros, de\n\nsant : nous scorné comme des\n\nnoirs assis sur les épaules de\n\ngésants afin que nous puisse\n\nvoir plus aux et plus au loin\n\nMotif qu'elle est seprésent\n\nimages les viraux, motif d'ail\n\nleurs qui se trouve déjà dans l'\n\ndoudaïque, soit-il dans un bon\n\nabsolument different.\n\nC'est également Jean des S. qui",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fce6a63ef11b92059ee841b83f6037f28d8a884c0b4cf214ac03494d1a0d82939"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F66c8a866f8cf1f8b3988f1ed9aa648af2ca519030fbdb0d5cdf98869bfddf09d"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "number",
+          "block_content": "26",
+          "block_bbox": [
+            1524,
+            1031,
+            1598,
+            1058
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1524.0,
+              1031.0
+            ],
+            [
+              1597.0,
+              1031.0
+            ],
+            [
+              1597.0,
+              1057.0
+            ],
+            [
+              1524.0,
+              1057.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "qui na serait nullement impé\n\nl’eau aux cirres des Améens",
+          "block_bbox": [
+            1529,
+            1171,
+            2194,
+            1233
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1529.0,
+              1171.0
+            ],
+            [
+              2194.0,
+              1171.0
+            ],
+            [
+              2194.0,
+              1233.0
+            ],
+            [
+              1529.0,
+              1233.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "V. 131\n\nsoit quent à\n\nnous apporta le dictum d'A-\n\nBailard qu'il serait pacile par\n\nun homme de leur temps de faire\n\nun limar sur un sujet de philo",
+          "block_bbox": [
+            1907,
+            1242,
+            2185,
+            1298
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1907.0,
+              1242.0
+            ],
+            [
+              2185.0,
+              1242.0
+            ],
+            [
+              2185.0,
+              1298.0
+            ],
+            [
+              1907.0,
+              1298.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            2219,
+            1029,
+            2953,
+            1158
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2219.0,
+              1029.0
+            ],
+            [
+              2953.0,
+              1029.0
+            ],
+            [
+              2953.0,
+              1158.0
+            ],
+            [
+              2219.0,
+              1158.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Topais, s'il était seulement les\n\ncommais il ne serait neillament\n\ns'il est le nom de l'inférieur, soit dans le con\n\nقولهم enfévrier, soit dans le con\n\nl'éception du roi, soit dans l'élé\n\ngence de la parole, mais qu'il\n\nserait impossible ou du moin\n\ntrès difficilles qu'un had livres\n\nc'est-un de l'autorité.\"",
+          "block_bbox": [
+            2199,
+            1164,
+            2954,
+            1423
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2199.0,
+              1164.0
+            ],
+            [
+              2954.0,
+              1164.0
+            ],
+            [
+              2954.0,
+              1423.0
+            ],
+            [
+              2199.0,
+              1423.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "le point de vue de ces humains\n\nmillés du XII. siècle est parfaite\n\nment clair et solide ; il n'y a\n\nlà riende cette attitude changer\n\net équinique des humanités\n\ndu XV. et XVIe. Ils se rendent complit\n\nde l'imporfection et imparfait\n\nde leur connaissance; il saver\n\noù dit la ramée, sans l'étude\n\n225 à s'en servir. A Bailard recom-\n\nmande l'étude du grec et du\n\nl'hébreu, mais ne trouve pas mo-\n\nen d'y pémètre lui-même. Même\n\nces pour Jeau de S. -1e se complet\n\nà donner à ses ourrages des nom-\n\ngres plein de mystère pour ses\n\ncontempraires, et pour lui-même\n\naussi : Polycraticus, Molitogricus\n\nEntalicus. -1e se mesure à des é",
+          "block_bbox": [
+            2137,
+            1431,
+            2953,
+            2015
+          ],
+          "block_id": 5,
+          "block_order": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2137.0,
+              1431.0
+            ],
+            [
+              2953.0,
+              1431.0
+            ],
+            [
+              2953.0,
+              2015.0
+            ],
+            [
+              2137.0,
+              2015.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.5243819355964661,
+            "coordinate": [
+              1524,
+              1031,
+              1598,
+              1058
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1524.0,
+                1031.0
+              ],
+              [
+                1597.0,
+                1031.0
+              ],
+              [
+                1597.0,
+                1057.0
+              ],
+              [
+                1524.0,
+                1057.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4019867181777954,
+            "coordinate": [
+              1529,
+              1171,
+              2194,
+              1233
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1529.0,
+                1171.0
+              ],
+              [
+                2194.0,
+                1171.0
+              ],
+              [
+                2194.0,
+                1233.0
+              ],
+              [
+                1529.0,
+                1233.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.30678677558898926,
+            "coordinate": [
+              1907,
+              1242,
+              2185,
+              1298
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                1907.0,
+                1242.0
+              ],
+              [
+                2185.0,
+                1242.0
+              ],
+              [
+                2185.0,
+                1298.0
+              ],
+              [
+                1907.0,
+                1298.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5231927037239075,
+            "coordinate": [
+              2219,
+              1029,
+              2953,
+              1158
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2219.0,
+                1029.0
+              ],
+              [
+                2953.0,
+                1029.0
+              ],
+              [
+                2953.0,
+                1158.0
+              ],
+              [
+                2219.0,
+                1158.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.383184015750885,
+            "coordinate": [
+              2205,
+              1165,
+              2954,
+              1293
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2205.0,
+                1165.0
+              ],
+              [
+                2954.0,
+                1165.0
+              ],
+              [
+                2954.0,
+                1293.0
+              ],
+              [
+                2205.0,
+                1293.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.31314197182655334,
+            "coordinate": [
+              2199,
+              1164,
+              2954,
+              1423
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2199.0,
+                1164.0
+              ],
+              [
+                2954.0,
+                1164.0
+              ],
+              [
+                2954.0,
+                1423.0
+              ],
+              [
+                2199.0,
+                1423.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.39210352301597595,
+            "coordinate": [
+              2217,
+              1293,
+              2954,
+              1424
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                2217.0,
+                1293.0
+              ],
+              [
+                2954.0,
+                1293.0
+              ],
+              [
+                2954.0,
+                1424.0
+              ],
+              [
+                2217.0,
+                1424.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6317592263221741,
+            "coordinate": [
+              2137,
+              1431,
+              2953,
+              2015
+            ],
+            "order": 8,
+            "polygon_points": [
+              [
+                2137.0,
+                1431.0
+              ],
+              [
+                2953.0,
+                1431.0
+              ],
+              [
+                2953.0,
+                2015.0
+              ],
+              [
+                2137.0,
+                2015.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "qui na serait nullement impé\n\nl’eau aux cirres des Améens\n\nV. 131\n\nsoit quent à\n\nnous apporta le dictum d'A-\n\nBailard qu'il serait pacile par\n\nun homme de leur temps de faire\n\nun limar sur un sujet de philo\n\n\n\nTopais, s'il était seulement les\n\ncommais il ne serait neillament\n\ns'il est le nom de l'inférieur, soit dans le con\n\nقولهم enfévrier, soit dans le con\n\nl'éception du roi, soit dans l'élé\n\ngence de la parole, mais qu'il\n\nserait impossible ou du moin\n\ntrès difficilles qu'un had livres\n\nc'est-un de l'autorité.\"\n\nle point de vue de ces humains\n\nmillés du XII. siècle est parfaite\n\nment clair et solide ; il n'y a\n\nlà riende cette attitude changer\n\net équinique des humanités\n\ndu XV. et XVIe. Ils se rendent complit\n\nde l'imporfection et imparfait\n\nde leur connaissance; il saver\n\noù dit la ramée, sans l'étude\n\n225 à s'en servir. A Bailard recom-\n\nmande l'étude du grec et du\n\nl'hébreu, mais ne trouve pas mo-\n\nen d'y pémètre lui-même. Même\n\nces pour Jeau de S. -1e se complet\n\nà donner à ses ourrages des nom-\n\ngres plein de mystère pour ses\n\ncontempraires, et pour lui-même\n\naussi : Polycraticus, Molitogricus\n\nEntalicus. -1e se mesure à des é",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F0e09398311e59244cf2c10c15ae223d14f983bc89fb007e3cc17e8b82c609415"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F5803809dee33e31842f8578722f553094dd511f95336d48a087e481f76a122b0"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "lymologies davanted, et feit ver\n\ncrates liberales de xpert, ou zé\n\ndans \"analytica d'un\" and qu\n\nsignificait \"acquale et l'exim",
+          "block_bbox": [
+            2218,
+            1030,
+            2951,
+            1155
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2218.0,
+              1030.0
+            ],
+            [
+              2951.0,
+              1030.0
+            ],
+            [
+              2951.0,
+              1155.0
+            ],
+            [
+              2218.0,
+              1155.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "1V. 371. qui venut die 'locutionem,\n\nMais eu omâma lempes (et en)\n\nPonlawco (certain)\n\nNus qui lui envie des Productions du grec, avec des remorqu",
+          "block_bbox": [
+            2089,
+            1158,
+            2955,
+            1324
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2089.0,
+              1158.0
+            ],
+            [
+              2955.0,
+              1158.0
+            ],
+            [
+              2955.0,
+              1324.0
+            ],
+            [
+              2089.0,
+              1324.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "1.269 La signification de 5000 etc.\n\nQuant à Pierre la Véminé, qui lui-même s'appelle modé",
+          "block_bbox": [
+            2094,
+            1375,
+            2955,
+            1471
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2094.0,
+              1375.0
+            ],
+            [
+              2956.0,
+              1375.0
+            ],
+            [
+              2956.0,
+              1471.0
+            ],
+            [
+              2094.0,
+              1471.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "1125 Lament homo tantum latimend\n\non soit que c'est à lui qu'endoit\n\nla première lentaliva intollegent\n\nd’acquerir una connaissance\n\nsûra de la religion des Infidoles\n\net qu’au seizième siècle encore\n\nla traduction du Korâm et les\n\nlaisés sur l'Islam, qui furent\n\nla résultat de son zéro formé\n\nla base des études qu'afflaient\n\naprendre lesमناطق المطلوبات du\n\ndix-séptième siècle.",
+          "block_bbox": [
+            2113,
+            1461,
+            2955,
+            1856
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2113.0,
+              1461.0
+            ],
+            [
+              2955.0,
+              1461.0
+            ],
+            [
+              2955.0,
+              1856.0
+            ],
+            [
+              2113.0,
+              1856.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "S-lip 7\n\nPar rapport au style de Jean\n\nde Salisbury la comparaison\n\navec les humanités persit plus\n\nlui l'ont à qui qu'a eux.10 n'a rie\n\nde celle éloquence complète, de",
+          "block_bbox": [
+            2021,
+            1867,
+            2954,
+            2016
+          ],
+          "block_id": 4,
+          "block_order": 5,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2021.0,
+              1867.0
+            ],
+            [
+              2954.0,
+              1867.0
+            ],
+            [
+              2954.0,
+              2016.0
+            ],
+            [
+              2021.0,
+              2016.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6207943558692932,
+            "coordinate": [
+              2218,
+              1030,
+              2951,
+              1155
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2218.0,
+                1030.0
+              ],
+              [
+                2951.0,
+                1030.0
+              ],
+              [
+                2951.0,
+                1155.0
+              ],
+              [
+                2218.0,
+                1155.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6051448583602905,
+            "coordinate": [
+              2089,
+              1158,
+              2955,
+              1324
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2089.0,
+                1158.0
+              ],
+              [
+                2955.0,
+                1158.0
+              ],
+              [
+                2955.0,
+                1324.0
+              ],
+              [
+                2089.0,
+                1324.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.43164700269699097,
+            "coordinate": [
+              2094,
+              1375,
+              2955,
+              1471
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2094.0,
+                1375.0
+              ],
+              [
+                2956.0,
+                1375.0
+              ],
+              [
+                2956.0,
+                1471.0
+              ],
+              [
+                2094.0,
+                1471.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5737388134002686,
+            "coordinate": [
+              2113,
+              1461,
+              2955,
+              1856
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2113.0,
+                1461.0
+              ],
+              [
+                2955.0,
+                1461.0
+              ],
+              [
+                2955.0,
+                1856.0
+              ],
+              [
+                2113.0,
+                1856.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6608693599700928,
+            "coordinate": [
+              2021,
+              1867,
+              2954,
+              2016
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2021.0,
+                1867.0
+              ],
+              [
+                2954.0,
+                1867.0
+              ],
+              [
+                2954.0,
+                2016.0
+              ],
+              [
+                2021.0,
+                2016.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "lymologies davanted, et feit ver\n\ncrates liberales de xpert, ou zé\n\ndans \"analytica d'un\" and qu\n\nsignificait \"acquale et l'exim\n\n1V. 371. qui venut die 'locutionem,\n\nMais eu omâma lempes (et en)\n\nPonlawco (certain)\n\nNus qui lui envie des Productions du grec, avec des remorqu\n\n1.269 La signification de 5000 etc.\n\nQuant à Pierre la Véminé, qui lui-même s'appelle modé\n\n1125 Lament homo tantum latimend\n\non soit que c'est à lui qu'endoit\n\nla première lentaliva intollegent\n\nd’acquerir una connaissance\n\nsûra de la religion des Infidoles\n\net qu’au seizième siècle encore\n\nla traduction du Korâm et les\n\nlaisés sur l'Islam, qui furent\n\nla résultat de son zéro formé\n\nla base des études qu'afflaient\n\naprendre lesमناطق المطلوبات du\n\ndix-séptième siècle.\n\nS-lip 7\n\nPar rapport au style de Jean\n\nde Salisbury la comparaison\n\navec les humanités persit plus\n\nlui l'ont à qui qu'a eux.10 n'a rie\n\nde celle éloquence complète, de",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F5d233a1ff75697ff614e8cd0a1acc00bcee2760acde90c2a914cfebd41437107"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F4784adeb7756ea7e0eb0347dfa4a9d9bf95d2f46a776489a13998b9a8467c99f"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Ces longues phrases d’une location recherchée et d’uslatine  \n\nbant, si chères à la plupart de  \n\nhumanités. Tout ce qui il écrit  \n\nest concis et not, nerveux et  \n\nclair. En phrases courtes, en mes  \n\nsimiles et précises, il n’est dé  \n\npar exemple, dans une molte  \n\ncon ami Thomas Bechet, un voip  \n\nen France, son impression de l  \n\nair doux et du bien-être gén  \n\nral des qu’il est francisé à  \n\nManche, sa rencontre, non  \n\nloin d’idras avec la comte Phi  \n\nlippe de Flandre chassant à l’é  \n\npevier, des conversations avec le  \n\npas un mot de trop, un style de  \n\nvant et suggestif. Il fondait les  \n\nen Latin ces passages pour vous  \n\nen faire goiter la charme.  \n\nTout est serre et célégrique.  \n\nTout est positif et en même  \n\nl’empés l’ager, sérieux et plain  \n\nde sourire. Qu’il humour dans  \n\nce prologue en vers de son poê  \n\ncraticité, où il adresse son prom  \n\nlivre en la priorité de sortir com  \n\nme pélerin, au chapeau et à la  \n\ncrossée. Guilda ironie dans ce  \n\nqu’il dit des médecins qu’il  \n\ncraint d’offenter, parce qu’il  \n\nlambre non souvent dans leurs mais",
+          "block_bbox": [
+            2094,
+            1024,
+            2947,
+            2017
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2094.0,
+              1024.0
+            ],
+            [
+              2947.0,
+              1024.0
+            ],
+            [
+              2947.0,
+              2017.0
+            ],
+            [
+              2094.0,
+              2017.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "3.PoQ.Ⅱ.159",
+          "block_bbox": [
+            2009,
+            1913,
+            2218,
+            1946
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2009.0,
+              1913.0
+            ],
+            [
+              2218.0,
+              1913.0
+            ],
+            [
+              2218.0,
+              1946.0
+            ],
+            [
+              2009.0,
+              1946.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5173241496086121,
+            "coordinate": [
+              2094,
+              1024,
+              2947,
+              2017
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2094.0,
+                1024.0
+              ],
+              [
+                2947.0,
+                1024.0
+              ],
+              [
+                2947.0,
+                2017.0
+              ],
+              [
+                2094.0,
+                2017.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3161703944206238,
+            "coordinate": [
+              1954,
+              1651,
+              2950,
+              1753
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1954.0,
+                1651.0
+              ],
+              [
+                2950.0,
+                1651.0
+              ],
+              [
+                2950.0,
+                1753.0
+              ],
+              [
+                1954.0,
+                1753.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.32996228337287903,
+            "coordinate": [
+              2009,
+              1913,
+              2218,
+              1946
+            ],
+            "polygon_points": [
+              [
+                2009.0,
+                1913.0
+              ],
+              [
+                2218.0,
+                1913.0
+              ],
+              [
+                2218.0,
+                1946.0
+              ],
+              [
+                2009.0,
+                1946.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3409717082977295,
+            "coordinate": [
+              2053,
+              1749,
+              2955,
+              1908
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2053.0,
+                1759.0
+              ],
+              [
+                2954.0,
+                1759.0
+              ],
+              [
+                2954.0,
+                1907.0
+              ],
+              [
+                2053.0,
+                1907.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Ces longues phrases d’une location recherchée et d’uslatine  \n\nbant, si chères à la plupart de  \n\nhumanités. Tout ce qui il écrit  \n\nest concis et not, nerveux et  \n\nclair. En phrases courtes, en mes  \n\nsimiles et précises, il n’est dé  \n\npar exemple, dans une molte  \n\ncon ami Thomas Bechet, un voip  \n\nen France, son impression de l  \n\nair doux et du bien-être gén  \n\nral des qu’il est francisé à  \n\nManche, sa rencontre, non  \n\nloin d’idras avec la comte Phi  \n\nlippe de Flandre chassant à l’é  \n\npevier, des conversations avec le  \n\npas un mot de trop, un style de  \n\nvant et suggestif. Il fondait les  \n\nen Latin ces passages pour vous  \n\nen faire goiter la charme.  \n\nTout est serre et célégrique.  \n\nTout est positif et en même  \n\nl’empés l’ager, sérieux et plain  \n\nde sourire. Qu’il humour dans  \n\nce prologue en vers de son poê  \n\ncraticité, où il adresse son prom  \n\nlivre en la priorité de sortir com  \n\nme pélerin, au chapeau et à la  \n\ncrossée. Guilda ironie dans ce  \n\nqu’il dit des médecins qu’il  \n\ncraint d’offenter, parce qu’il  \n\nlambre non souvent dans leurs mais",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A41Z%2F-1%2F%2Fd62ac2b0a2e367627bc3233e33727fb8b8b2b6093b4b7205bf47bd5cc738b097"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A42Z%2F-1%2F%2Fc9c8392fdf7bc0fb3c56ed38778eda69b3cc4c2855b875df16c68108dd988a5b"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "29",
+          "block_bbox": [
+            1571,
+            1004,
+            1650,
+            1048
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1571.0,
+              1004.0
+            ],
+            [
+              1650.0,
+              1004.0
+            ],
+            [
+              1650.0,
+              1048.0
+            ],
+            [
+              1571.0,
+              1048.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "3POE.3",
+          "block_bbox": [
+            2089,
+            1006,
+            2225,
+            1040
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2089.0,
+              1006.0
+            ],
+            [
+              2225.0,
+              1006.0
+            ],
+            [
+              2225.0,
+              1040.0
+            ],
+            [
+              2089.0,
+              1040.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "C.3. Le hait l'exagération. Le fad\n\n169 teur dit \"Ingerdes gratios\", où\n\n\"magnos\" aurait suffit. En écrivant au papal Médion il lui\n\nait: le sait que Votre Sainteté",
+          "block_bbox": [
+            2157,
+            1002,
+            2954,
+            1166
+          ],
+          "block_id": 2,
+          "block_order": 1,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2157.0,
+              1002.0
+            ],
+            [
+              2954.0,
+              1002.0
+            ],
+            [
+              2954.0,
+              1166.0
+            ],
+            [
+              2157.0,
+              1166.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "1.16. est occupé par beaucoup d'af\n\nfaires... il est descrit donc que\n\ncelui qui a accès à وس croillons\n\npassa um discounte aríge, la\n\nrôtre d'ailleurs est trop de\n\nparoles mais tout dilate d'effectivité",
+          "block_bbox": [
+            2129,
+            1168,
+            2953,
+            1357
+          ],
+          "block_id": 3,
+          "block_order": 2,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2129.0,
+              1168.0
+            ],
+            [
+              2953.0,
+              1168.0
+            ],
+            [
+              2953.0,
+              1357.0
+            ],
+            [
+              2129.0,
+              1357.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Quand il parle au nom de\n\nson archétique, son style de dat\n\nvainusse simple et modéstie, prend lou\n\n1.49 à coup des accents d'une digni\n\n56. Le et d'une houletons hésantique",
+          "block_bbox": [
+            2141,
+            1367,
+            2954,
+            1519
+          ],
+          "block_id": 4,
+          "block_order": 3,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2141.0,
+              1367.0
+            ],
+            [
+              2954.0,
+              1367.0
+            ],
+            [
+              2954.0,
+              1519.0
+            ],
+            [
+              2141.0,
+              1519.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "EL quand il est animé par la profonde vénération pour la glorieux martyr duquel il écrit la vie, sem style d'ordinaire impatient et sans comment, de vient color idiomina et mone mentad comme (d'un hymne). So vie de Saint Thomas de Carlisle, commence comme un vi- haile tout en rouge,�permé",
+          "block_bbox": [
+            2217,
+            1526,
+            2954,
+            1852
+          ],
+          "block_id": 5,
+          "block_order": 4,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2217.0,
+              1526.0
+            ],
+            [
+              2954.0,
+              1526.0
+            ],
+            [
+              2954.0,
+              1852.0
+            ],
+            [
+              2217.0,
+              1852.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "Soc. & pub.\ngoodsale",
+          "block_bbox": [
+            1937,
+            1924,
+            2206,
+            1987
+          ],
+          "block_id": 6,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              1937.0,
+              1924.0
+            ],
+            [
+              2206.0,
+              1924.0
+            ],
+            [
+              2206.0,
+              1987.0
+            ],
+            [
+              1937.0,
+              1987.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "V. 359. Dom L'architecture d'une co-\n\n√ L'acadée.",
+          "block_bbox": [
+            2095,
+            1851,
+            2952,
+            1914
+          ],
+          "block_id": 7,
+          "block_order": 5,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              2095.0,
+              1851.0
+            ],
+            [
+              2952.0,
+              1851.0
+            ],
+            [
+              2952.0,
+              1914.0
+            ],
+            [
+              2095.0,
+              1914.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Il reste à dire quelque mort de la pensée politique et sociale de Jean de Salisbury qui lui a",
+          "block_bbox": [
+            2222,
+            1921,
+            2952,
+            2016
+          ],
+          "block_id": 8,
+          "block_order": 6,
+          "group_id": 8,
+          "block_polygon_points": [
+            [
+              2222.0,
+              1921.0
+            ],
+            [
+              2952.0,
+              1921.0
+            ],
+            [
+              2952.0,
+              2016.0
+            ],
+            [
+              2222.0,
+              2016.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.45152974128723145,
+            "coordinate": [
+              1571,
+              1004,
+              1650,
+              1048
+            ],
+            "polygon_points": [
+              [
+                1571.0,
+                1004.0
+              ],
+              [
+                1650.0,
+                1004.0
+              ],
+              [
+                1650.0,
+                1048.0
+              ],
+              [
+                1571.0,
+                1048.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3578064739704132,
+            "coordinate": [
+              2089,
+              1006,
+              2225,
+              1040
+            ],
+            "polygon_points": [
+              [
+                2089.0,
+                1006.0
+              ],
+              [
+                2225.0,
+                1006.0
+              ],
+              [
+                2225.0,
+                1040.0
+              ],
+              [
+                2089.0,
+                1040.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4603774845600128,
+            "coordinate": [
+              2157,
+              1002,
+              2954,
+              1166
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2157.0,
+                1002.0
+              ],
+              [
+                2954.0,
+                1002.0
+              ],
+              [
+                2954.0,
+                1166.0
+              ],
+              [
+                2157.0,
+                1166.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.47210803627967834,
+            "coordinate": [
+              2129,
+              1168,
+              2953,
+              1357
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2129.0,
+                1168.0
+              ],
+              [
+                2953.0,
+                1168.0
+              ],
+              [
+                2953.0,
+                1357.0
+              ],
+              [
+                2129.0,
+                1357.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.40204671025276184,
+            "coordinate": [
+              2141,
+              1367,
+              2954,
+              1519
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2141.0,
+                1367.0
+              ],
+              [
+                2954.0,
+                1367.0
+              ],
+              [
+                2954.0,
+                1519.0
+              ],
+              [
+                2141.0,
+                1519.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6870715022087097,
+            "coordinate": [
+              2217,
+              1526,
+              2954,
+              1852
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2217.0,
+                1526.0
+              ],
+              [
+                2954.0,
+                1526.0
+              ],
+              [
+                2954.0,
+                1852.0
+              ],
+              [
+                2217.0,
+                1852.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.5289483070373535,
+            "coordinate": [
+              1937,
+              1924,
+              2206,
+              1987
+            ],
+            "polygon_points": [
+              [
+                1937.0,
+                1924.0
+              ],
+              [
+                2206.0,
+                1924.0
+              ],
+              [
+                2206.0,
+                1987.0
+              ],
+              [
+                1937.0,
+                1987.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5156038403511047,
+            "coordinate": [
+              2095,
+              1851,
+              2952,
+              1914
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2095.0,
+                1851.0
+              ],
+              [
+                2952.0,
+                1851.0
+              ],
+              [
+                2952.0,
+                1914.0
+              ],
+              [
+                2095.0,
+                1914.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6184974908828735,
+            "coordinate": [
+              2222,
+              1921,
+              2952,
+              2016
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2222.0,
+                1921.0
+              ],
+              [
+                2952.0,
+                1921.0
+              ],
+              [
+                2952.0,
+                2016.0
+              ],
+              [
+                2222.0,
+                2016.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "C.3. Le hait l'exagération. Le fad\n\n169 teur dit \"Ingerdes gratios\", où\n\n\"magnos\" aurait suffit. En écrivant au papal Médion il lui\n\nait: le sait que Votre Sainteté\n\n1.16. est occupé par beaucoup d'af\n\nfaires... il est descrit donc que\n\ncelui qui a accès à وس croillons\n\npassa um discounte aríge, la\n\nrôtre d'ailleurs est trop de\n\nparoles mais tout dilate d'effectivité\n\nQuand il parle au nom de\n\nson archétique, son style de dat\n\nvainusse simple et modéstie, prend lou\n\n1.49 à coup des accents d'une digni\n\n56. Le et d'une houletons hésantique\n\nEL quand il est animé par la profonde vénération pour la glorieux martyr duquel il écrit la vie, sem style d'ordinaire impatient et sans comment, de vient color idiomina et mone mentad comme (d'un hymne). So vie de Saint Thomas de Carlisle, commence comme un vi- haile tout en rouge,�permé\n\nV. 359. Dom L'architecture d'une co-\n\n√ L'acadée.\n\nIl reste à dire quelque mort de la pensée politique et sociale de Jean de Salisbury qui lui a",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F0be91b957719b530aa18bc26df72cc406a3c11aef5c75bc3ac81cfa52cd2b38d"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F646cea3180c797a3f267b053dc5fa6190d14f344b552352f3e6dc8393e5cdc6a"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "value, plus qu'autre chose, d'être\n\ncité comme un esprit remer\n\nNouvelles paroles (à parole)\n\nquablo. Est (tome) de sa trai\n\ninstitute Polycraticus qu'il s'agit, ou plutôt, Polycraticus si\n\nde négis curialium et vestigi\n\nPhilosoporum\". Il contient un\n\n(ca haile)\n\nRue de Loub, Loub en de 2 appc\n\nLant principalement à la théo\n\n2ie du gouvernement) aux devos\n\nles princes. Il n'est pas trت\n\nsaint le isloa qu'avait l'autour\n\nde la significatior de ce mot\n\ngrec Polycraticus, pro ablement\n\nil y entendait quelque chose comme\n\nle manuel de homme d'état pour\n\nle traduction en l'ormes modernes\n\nla deuxième parisie du libra\n\nnous montrai qu'il veut en même\n\ntempé opposer l'un à l'autre\n\ndeux principes de vie : calorie\n\ndu curia, de l'homme de cour\n\net calorie du pailosopra. Nous 2a\n\nvireurs sur ce contraste.",
+          "block_bbox": [
+            2222,
+            999,
+            2955,
+            1785
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2222.0,
+              999.0
+            ],
+            [
+              2956.0,
+              999.0
+            ],
+            [
+              2956.0,
+              1785.0
+            ],
+            [
+              2222.0,
+              1785.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Pour caractériser en un mot d'après qui anima la Polypra liens je poudrais seprendre une parallèle dont je me suis déjà servir en comparant certaines figures du XIIesiècle à Erasmus. Je ne souriri m'exprimer plus sur",
+          "block_bbox": [
+            2219,
+            1788,
+            2954,
+            2014
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2219.0,
+              1788.0
+            ],
+            [
+              2954.0,
+              1788.0
+            ],
+            [
+              2954.0,
+              2014.0
+            ],
+            [
+              2219.0,
+              2014.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.91877681016922,
+            "coordinate": [
+              2222,
+              999,
+              2955,
+              1785
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2222.0,
+                999.0
+              ],
+              [
+                2956.0,
+                999.0
+              ],
+              [
+                2956.0,
+                1785.0
+              ],
+              [
+                2222.0,
+                1785.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.871426522731781,
+            "coordinate": [
+              2219,
+              1788,
+              2954,
+              2014
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2219.0,
+                1788.0
+              ],
+              [
+                2954.0,
+                1788.0
+              ],
+              [
+                2954.0,
+                2014.0
+              ],
+              [
+                2219.0,
+                2014.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "value, plus qu'autre chose, d'être\n\ncité comme un esprit remer\n\nNouvelles paroles (à parole)\n\nquablo. Est (tome) de sa trai\n\ninstitute Polycraticus qu'il s'agit, ou plutôt, Polycraticus si\n\nde négis curialium et vestigi\n\nPhilosoporum\". Il contient un\n\n(ca haile)\n\nRue de Loub, Loub en de 2 appc\n\nLant principalement à la théo\n\n2ie du gouvernement) aux devos\n\nles princes. Il n'est pas trت\n\nsaint le isloa qu'avait l'autour\n\nde la significatior de ce mot\n\ngrec Polycraticus, pro ablement\n\nil y entendait quelque chose comme\n\nle manuel de homme d'état pour\n\nle traduction en l'ormes modernes\n\nla deuxième parisie du libra\n\nnous montrai qu'il veut en même\n\ntempé opposer l'un à l'autre\n\ndeux principes de vie : calorie\n\ndu curia, de l'homme de cour\n\net calorie du pailosopra. Nous 2a\n\nvireurs sur ce contraste.\n\nPour caractériser en un mot d'après qui anima la Polypra liens je poudrais seprendre une parallèle dont je me suis déjà servir en comparant certaines figures du XIIesiècle à Erasmus. Je ne souriri m'exprimer plus sur",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Ff5e6e45602b6c2e70f64a6daa4cf2eae7188b48d6dcf89edccbdec562cabdaf2"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Ffe9283837765e2aaf6151d7cd6f96993920a9c845c1917120f5bef6ff3f0e6ac"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "des traités d'Ecosome, en",
+          "block_bbox": [
+            1705,
+            1277,
+            2215,
+            1306
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1705.0,
+              1277.0
+            ],
+            [
+              2215.0,
+              1277.0
+            ],
+            [
+              2215.0,
+              1306.0
+            ],
+            [
+              1705.0,
+              1306.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "cinciment des la nature du\n\ntraité qu'en appolont son esprit\n\nun esprit érasmique. C'est à\n\nun esprit critique et humain\n\nbaixo, ecclésiastiqua et placée\n\nen, pieux et sérieux en même\n\ntempus que letra, et l'ager, ironique\n\nrossanula à galdo\n\nla forme aussi",
+          "block_bbox": [
+            2214,
+            1009,
+            2955,
+            1265
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2214.0,
+              1009.0
+            ],
+            [
+              2955.0,
+              1009.0
+            ],
+            [
+              2955.0,
+              1265.0
+            ],
+            [
+              2214.0,
+              1265.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "tant qu'elle est discience, e\n\nqu'elle imagine, pour viluppère\n\nou pour lever la lourps présent\n\nun monde zampli de figurés\n\nantiques.",
+          "block_bbox": [
+            2211,
+            1266,
+            2954,
+            1430
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2211.0,
+              1266.0
+            ],
+            [
+              2954.0,
+              1266.0
+            ],
+            [
+              2954.0,
+              1430.0
+            ],
+            [
+              2211.0,
+              1430.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Cependant les différences très\n\nmerquées des deux conaclières,\n\ndont l'ai parlé au commencement, se font sentir aussi dans\n\nleurs conceptiques politiques. Jeux de Salisbury, homme d'action\n\nagent politique pour l'Église, est beaucoup plus positive et roi\n\nment politique, que les danses\n\nquai, le nommé « hollant thérior, que l'esprit la�tition »\n\nmais de trois siècles plus tard,\n\nqui vinait à l'écant des affaires\n\nau monde.",
+          "block_bbox": [
+            2203,
+            1429,
+            2954,
+            1849
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2203.0,
+              1429.0
+            ],
+            [
+              2954.0,
+              1429.0
+            ],
+            [
+              2954.0,
+              1849.0
+            ],
+            [
+              2203.0,
+              1849.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Tous les deux ils voient clair\n\nles grands déforts de tout régime\n\nactuales des éclats et des sociétés\n\n10 font que tout homme s'y intégrer\n\n2esse : Céleri à n'est pas classés",
+          "block_bbox": [
+            2196,
+            1849,
+            2951,
+            2003
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2194.324951171875,
+              1859.022705078125
+            ],
+            [
+              2949.862548828125,
+              1848.812744140625
+            ],
+            [
+              2951.913330078125,
+              2000.582275390625
+            ],
+            [
+              2196.375732421875,
+              2010.792236328125
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "3 POC. 3.160 2esss: Coloni ha n'est pas address",
+          "block_bbox": [
+            2014,
+            1978,
+            2952,
+            2011
+          ],
+          "block_id": 5,
+          "block_order": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2014.0,
+              1978.0
+            ],
+            [
+              2952.0,
+              1978.0
+            ],
+            [
+              2952.0,
+              2011.0
+            ],
+            [
+              2014.0,
+              2011.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.5559622645378113,
+            "coordinate": [
+              1705,
+              1277,
+              2215,
+              1306
+            ],
+            "polygon_points": [
+              [
+                1705.0,
+                1277.0
+              ],
+              [
+                2215.0,
+                1277.0
+              ],
+              [
+                2215.0,
+                1306.0
+              ],
+              [
+                1705.0,
+                1306.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.48205703496932983,
+            "coordinate": [
+              2214,
+              1009,
+              2955,
+              1265
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2214.0,
+                1009.0
+              ],
+              [
+                2955.0,
+                1009.0
+              ],
+              [
+                2955.0,
+                1265.0
+              ],
+              [
+                2214.0,
+                1265.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.48883646726608276,
+            "coordinate": [
+              2211,
+              1266,
+              2954,
+              1430
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2211.0,
+                1266.0
+              ],
+              [
+                2954.0,
+                1266.0
+              ],
+              [
+                2954.0,
+                1430.0
+              ],
+              [
+                2211.0,
+                1430.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8799669742584229,
+            "coordinate": [
+              2203,
+              1429,
+              2954,
+              1849
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2203.0,
+                1429.0
+              ],
+              [
+                2954.0,
+                1429.0
+              ],
+              [
+                2954.0,
+                1849.0
+              ],
+              [
+                2203.0,
+                1849.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.726868212223053,
+            "coordinate": [
+              2196,
+              1849,
+              2951,
+              2003
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2194.324951171875,
+                1859.022705078125
+              ],
+              [
+                2949.862548828125,
+                1848.812744140625
+              ],
+              [
+                2951.913330078125,
+                2000.582275390625
+              ],
+              [
+                2196.375732421875,
+                2010.792236328125
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.321550577878952,
+            "coordinate": [
+              2014,
+              1978,
+              2952,
+              2011
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2014.0,
+                1978.0
+              ],
+              [
+                2952.0,
+                1978.0
+              ],
+              [
+                2952.0,
+                2011.0
+              ],
+              [
+                2014.0,
+                2011.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "cinciment des la nature du\n\ntraité qu'en appolont son esprit\n\nun esprit érasmique. C'est à\n\nun esprit critique et humain\n\nbaixo, ecclésiastiqua et placée\n\nen, pieux et sérieux en même\n\ntempus que letra, et l'ager, ironique\n\nrossanula à galdo\n\nla forme aussi\n\ntant qu'elle est discience, e\n\nqu'elle imagine, pour viluppère\n\nou pour lever la lourps présent\n\nun monde zampli de figurés\n\nantiques.\n\nCependant les différences très\n\nmerquées des deux conaclières,\n\ndont l'ai parlé au commencement, se font sentir aussi dans\n\nleurs conceptiques politiques. Jeux de Salisbury, homme d'action\n\nagent politique pour l'Église, est beaucoup plus positive et roi\n\nment politique, que les danses\n\nquai, le nommé « hollant thérior, que l'esprit la�tition »\n\nmais de trois siècles plus tard,\n\nqui vinait à l'écant des affaires\n\nau monde.\n\nTous les deux ils voient clair\n\nles grands déforts de tout régime\n\nactuales des éclats et des sociétés\n\n10 font que tout homme s'y intégrer\n\n2esse : Céleri à n'est pas classés\n\n3 POC. 3.160 2esss: Coloni ha n'est pas address",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fc8cc85c433e205315bf91066f562a6ae9b17c0089edf516b82eeaab518bad06f"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fae64f8bdeff8c7de446d1095e112b17531b0f1871942656dcea9a84bc519eea6"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "table",
+          "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>32</td><td rowspan=\"2\">homme (from salts homo ed) que no loucent pas les choses d&#x27;am-heui. Céleri là n&#x27;est pas un bon chaleur qui ne s&#x27;excite pas contre les ennemis du about public. La pensée de Jean de S., à mon avis, est plutôt socialo capen-clant que politique, surtout elle n&#x27;est pas іncisique. Le remanque que la août et les coutumres de son lampuels et de son part des contants 3 p.o. 5.826 lont de trappés et de pièges, mais par des cach靠michans. Il est un-la-mment hostile aux droits de la-chemin de comme déroɡement à la dignité de la nature hermอïne. Il trouve d&#x27;un des règles de cinq-célié&quot; excellantes dans la Saïmet Ecuileme, rien n&#x27;est peut civilly que la vente. Celle civilité est tutpale n&#x27;exclut pas la saïmet d&#x27;age parmi des peaux grands pour des frêtiers mains les peaux des peaux.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Remanque bien ce betoix de ci-prodigue.</td></tr></table>",
+          "block_bbox": [
+            0,
+            254,
+            1496,
+            1020
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              -1.0,
+              254.0
+            ],
+            [
+              1496.0,
+              254.0
+            ],
+            [
+              1496.0,
+              1020.0
+            ],
+            [
+              -1.0,
+              1020.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 21,
+            "label": "table",
+            "score": 0.33420422673225403,
+            "coordinate": [
+              0,
+              254,
+              1496,
+              1020
+            ],
+            "polygon_points": [
+              [
+                -1.0,
+                254.0
+              ],
+              [
+                1496.0,
+                254.0
+              ],
+              [
+                1496.0,
+                1020.0
+              ],
+              [
+                -1.0,
+                1020.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.4165295958518982,
+            "coordinate": [
+              767,
+              425,
+              940,
+              447
+            ],
+            "polygon_points": [
+              [
+                767.0,
+                425.0
+              ],
+              [
+                767.0,
+                446.0
+              ],
+              [
+                939.0,
+                446.0
+              ],
+              [
+                939.0,
+                425.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.41477692127227783,
+            "coordinate": [
+              1421,
+              985,
+              1481,
+              1013
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1421.0,
+                985.0
+              ],
+              [
+                1480.0,
+                985.0
+              ],
+              [
+                1480.0,
+                1012.0
+              ],
+              [
+                1421.0,
+                1012.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 180
+      }
+    },
+    "markdown": {
+      "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>32</td><td rowspan=\"2\">homme (from salts homo ed) que no loucent pas les choses d&#x27;am-heui. Céleri là n&#x27;est pas un bon chaleur qui ne s&#x27;excite pas contre les ennemis du about public. La pensée de Jean de S., à mon avis, est plutôt socialo capen-clant que politique, surtout elle n&#x27;est pas іncisique. Le remanque que la août et les coutumres de son lampuels et de son part des contants 3 p.o. 5.826 lont de trappés et de pièges, mais par des cach靠michans. Il est un-la-mment hostile aux droits de la-chemin de comme déroɡement à la dignité de la nature hermอïne. Il trouve d&#x27;un des règles de cinq-célié&quot; excellantes dans la Saïmet Ecuileme, rien n&#x27;est peut civilly que la vente. Celle civilité est tutpale n&#x27;exclut pas la saïmet d&#x27;age parmi des peaux grands pour des frêtiers mains les peaux des peaux.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Remanque bien ce betoix de ci-prodigue.</td></tr></table>",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2Feac457dc4a80bcf35c78e71a799ee3f932f53bec6c6a5925f7a5238cb5dfca10"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F1e0fa3d7c4a257508ebe8f5ab12bd9dc93ab3b6bb760f60afe89ec4e759fc9f1"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "4 Poe. 7.191",
+          "block_bbox": [
+            2036,
+            1879,
+            2211,
+            1906
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2036.0,
+              1879.0
+            ],
+            [
+              2211.0,
+              1879.0
+            ],
+            [
+              2211.0,
+              1906.0
+            ],
+            [
+              2036.0,
+              1906.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "13 12 de 1.12 de pleme comme Chez un auteur de la preuve sur sa soirée, de croire les gens ou de sociologie. Don le premier chapitre de son Mé",
+          "block_bbox": [
+            2075,
+            1014,
+            2955,
+            1156
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2075.0,
+              1014.0
+            ],
+            [
+              2969.0,
+              1014.0
+            ],
+            [
+              2969.0,
+              1156.0
+            ],
+            [
+              2075.0,
+              1156.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Cologueux en cet. Comme un t roux même pas s'imaginer un bonheur qui ne connaît pas la communauté, qui serait hors d'une société qualiconque, tout être qui s'oppose aux choses qu'servent à concilier et à développer la droit de la société hée maine (qui est en qualque sốte une formité unique et singulaire des fils de la nature), ce lui là semble obstruer à louer la voie du Bonheur. El est l'on ma dit qu'il a pu prendre l'essence de ces idées dans Ciceron ou dans Sámèque, je la veux bien mais je demanda louéous: quel culture esprit du x11= siècle a des les exprimer aussi nettement que notre auteur?",
+          "block_bbox": [
+            2196,
+            1162,
+            2955,
+            1807
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2196.0,
+              1162.0
+            ],
+            [
+              2955.0,
+              1162.0
+            ],
+            [
+              2955.0,
+              1807.0
+            ],
+            [
+              2196.0,
+              1807.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "(que dire de l'observation sociologique impliquée dans",
+          "block_bbox": [
+            2213,
+            1806,
+            2945,
+            1875
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2213.0,
+              1806.0
+            ],
+            [
+              2945.0,
+              1806.0
+            ],
+            [
+              2945.0,
+              1875.0
+            ],
+            [
+              2213.0,
+              1875.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "la passage suivant: l'évoque Gilbert de Herofard lui avait sa conté son expérience des moules monastiques. lesqu'il venait d'en",
+          "block_bbox": [
+            2208,
+            1873,
+            2952,
+            2005
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2208.0,
+              1873.0
+            ],
+            [
+              2952.0,
+              1873.0
+            ],
+            [
+              2952.0,
+              2005.0
+            ],
+            [
+              2208.0,
+              2005.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3320711851119995,
+            "coordinate": [
+              2029,
+              1017,
+              2213,
+              1060
+            ],
+            "polygon_points": [
+              [
+                2029.0,
+                1017.0
+              ],
+              [
+                2213.0,
+                1017.0
+              ],
+              [
+                2213.0,
+                1060.0
+              ],
+              [
+                2029.0,
+                1060.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.38591140508651733,
+            "coordinate": [
+              2036,
+              1879,
+              2211,
+              1906
+            ],
+            "polygon_points": [
+              [
+                2036.0,
+                1879.0
+              ],
+              [
+                2211.0,
+                1879.0
+              ],
+              [
+                2211.0,
+                1906.0
+              ],
+              [
+                2036.0,
+                1906.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.448215126991272,
+            "coordinate": [
+              2075,
+              1014,
+              2955,
+              1156
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2075.0,
+                1014.0
+              ],
+              [
+                2969.0,
+                1014.0
+              ],
+              [
+                2969.0,
+                1156.0
+              ],
+              [
+                2075.0,
+                1156.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.617024838924408,
+            "coordinate": [
+              2196,
+              1162,
+              2955,
+              1807
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2196.0,
+                1162.0
+              ],
+              [
+                2955.0,
+                1162.0
+              ],
+              [
+                2955.0,
+                1807.0
+              ],
+              [
+                2196.0,
+                1807.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3845938742160797,
+            "coordinate": [
+              2213,
+              1806,
+              2945,
+              1875
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2213.0,
+                1806.0
+              ],
+              [
+                2945.0,
+                1806.0
+              ],
+              [
+                2945.0,
+                1875.0
+              ],
+              [
+                2213.0,
+                1875.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4744945466518402,
+            "coordinate": [
+              2208,
+              1873,
+              2952,
+              2005
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2208.0,
+                1873.0
+              ],
+              [
+                2952.0,
+                1873.0
+              ],
+              [
+                2952.0,
+                2005.0
+              ],
+              [
+                2208.0,
+                2005.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "13 12 de 1.12 de pleme comme Chez un auteur de la preuve sur sa soirée, de croire les gens ou de sociologie. Don le premier chapitre de son Mé\n\nCologueux en cet. Comme un t roux même pas s'imaginer un bonheur qui ne connaît pas la communauté, qui serait hors d'une société qualiconque, tout être qui s'oppose aux choses qu'servent à concilier et à développer la droit de la société hée maine (qui est en qualque sốte une formité unique et singulaire des fils de la nature), ce lui là semble obstruer à louer la voie du Bonheur. El est l'on ma dit qu'il a pu prendre l'essence de ces idées dans Ciceron ou dans Sámèque, je la veux bien mais je demanda louéous: quel culture esprit du x11= siècle a des les exprimer aussi nettement que notre auteur?\n\n(que dire de l'observation sociologique impliquée dans\n\nla passage suivant: l'évoque Gilbert de Herofard lui avait sa conté son expérience des moules monastiques. lesqu'il venait d'en",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//64ccbfe8-97d6-49fb-b6dd-0f0e1cb0d6da/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fee208453bf3e40e376798f372753af1c3ae89b9ca738c244039a5ec71a84e316"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//64ccbfe8-97d6-49fb-b6dd-0f0e1cb0d6da/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fd2bf00dc0bc76322f3e90e98d3f474bf7ecaf7c1cfa35b614b9a92cf7590d824"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Ihr dans la monastère, loufer\n\nvent encore de feu nouveau, il\n\nblâmait la liédeur de ses sup\n\nliard. Élevé à un grade un pour\n\npous haut, il avait pilié de ses\n\négaux, mais n'épargnait pas en\n\ncore les supérieurs. Devenue pre\n\neur, il était l'émient pour les\n\nprières, mais ne connaît pas de\n\ncontammer les abdés. Able, il a\n\nlait favorable à ses collaignes\n\net commençait à regarder les\n\ndétants des étiques. Évêques lui\n\nmême à la fin il épargne les\n\nétiques. - El pourcent, dit Jeux,\n\nil ne souffrait pas, se pense, des\n\nlica de l'envie.",
+          "block_bbox": [
+            2216,
+            1012,
+            2955,
+            1555
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              2216.0,
+              1012.0
+            ],
+            [
+              2955.0,
+              1012.0
+            ],
+            [
+              2955.0,
+              1555.0
+            ],
+            [
+              2216.0,
+              1555.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Les con de l'élegation soutimée et Bureau crolique ? Gu de suba d'intention solitaire ? En tout cas instinct sociologique profond discernant clairement l'impor l'ence du sentiment de groupe",
+          "block_bbox": [
+            2209,
+            1555,
+            2954,
+            1751
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2209.0,
+              1555.0
+            ],
+            [
+              2954.0,
+              1555.0
+            ],
+            [
+              2954.0,
+              1751.0
+            ],
+            [
+              2209.0,
+              1751.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "le ronomce à entrer dans les\n\nparticularités sur les idées que\n\nexprime Jean de S. sur le stopper\n\nprince et sur la lyram. Vous les\n\ntrouverez dans chaque moment\n\nde théorie politique par exemple\n\ndans l'admirable ouvrage des frères\n\nCarlyle.)",
+          "block_bbox": [
+            2206,
+            1758,
+            2954,
+            2014
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2206.0,
+              1758.0
+            ],
+            [
+              2954.0,
+              1758.0
+            ],
+            [
+              2954.0,
+              2014.0
+            ],
+            [
+              2206.0,
+              2014.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.925951361656189,
+            "coordinate": [
+              2216,
+              1012,
+              2955,
+              1555
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2216.0,
+                1012.0
+              ],
+              [
+                2955.0,
+                1012.0
+              ],
+              [
+                2955.0,
+                1555.0
+              ],
+              [
+                2216.0,
+                1555.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9083675146102905,
+            "coordinate": [
+              2209,
+              1555,
+              2954,
+              1751
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2209.0,
+                1555.0
+              ],
+              [
+                2954.0,
+                1555.0
+              ],
+              [
+                2954.0,
+                1751.0
+              ],
+              [
+                2209.0,
+                1751.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.9006636142730713,
+            "coordinate": [
+              2206,
+              1758,
+              2954,
+              2014
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2206.0,
+                1758.0
+              ],
+              [
+                2954.0,
+                1758.0
+              ],
+              [
+                2954.0,
+                2014.0
+              ],
+              [
+                2206.0,
+                2014.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Ihr dans la monastère, loufer\n\nvent encore de feu nouveau, il\n\nblâmait la liédeur de ses sup\n\nliard. Élevé à un grade un pour\n\npous haut, il avait pilié de ses\n\négaux, mais n'épargnait pas en\n\ncore les supérieurs. Devenue pre\n\neur, il était l'émient pour les\n\nprières, mais ne connaît pas de\n\ncontammer les abdés. Able, il a\n\nlait favorable à ses collaignes\n\net commençait à regarder les\n\ndétants des étiques. Évêques lui\n\nmême à la fin il épargne les\n\nétiques. - El pourcent, dit Jeux,\n\nil ne souffrait pas, se pense, des\n\nlica de l'envie.\n\nLes con de l'élegation soutimée et Bureau crolique ? Gu de suba d'intention solitaire ? En tout cas instinct sociologique profond discernant clairement l'impor l'ence du sentiment de groupe\n\nle ronomce à entrer dans les\n\nparticularités sur les idées que\n\nexprime Jean de S. sur le stopper\n\nprince et sur la lyram. Vous les\n\ntrouverez dans chaque moment\n\nde théorie politique par exemple\n\ndans l'admirable ouvrage des frères\n\nCarlyle.)",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//64ccbfe8-97d6-49fb-b6dd-0f0e1cb0d6da/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F8941d9b10f6eba0c02bc318451c6db2f5a9b30055af5828de5974c15898b6238"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//64ccbfe8-97d6-49fb-b6dd-0f0e1cb0d6da/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F0b945c7d81857352fdadfbd9a1384ee54340b585bc5e32a1f7a2cf46bbc3f67a"
+  }
+]

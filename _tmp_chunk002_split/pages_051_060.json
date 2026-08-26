@@ -1,0 +1,3566 @@
+[
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "Si taisui dit",
+          "block_bbox": [
+            1924,
+            1234,
+            2233,
+            1275
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1924.0,
+              1234.0
+            ],
+            [
+              2233.0,
+              1234.0
+            ],
+            [
+              2233.0,
+              1275.0
+            ],
+            [
+              1924.0,
+              1275.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "En exprimant le thème de ma\n\nleçon par les mots Abailard\n\ncomme l'upa de son époque, l'au\n\nvoilun eniter un maisonleud\n\nsimplement Abailard\n\nl'aurais risques de vous faire vou\n\nattendres à une leçon de paulo\n\nsophie médieveda. Gr éas le\n\ndermière chota à laquelle pas\n\nprélembrait maharader. le ma\n\nduis pas philanthrope mais simple\n\nhistorien qui lâché un peu des\n\nvois les apporte entre les vies de\n\nciola et les pommes d'une époque\n\nCe que",
+          "block_bbox": [
+            2230,
+            1107,
+            2955,
+            1570
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2230.0,
+              1107.0
+            ],
+            [
+              2956.0,
+              1107.0
+            ],
+            [
+              2956.0,
+              1570.0
+            ],
+            [
+              2230.0,
+              1570.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.4005720317363739,
+            "coordinate": [
+              1924,
+              1234,
+              2233,
+              1275
+            ],
+            "polygon_points": [
+              [
+                1924.0,
+                1234.0
+              ],
+              [
+                2233.0,
+                1234.0
+              ],
+              [
+                2233.0,
+                1275.0
+              ],
+              [
+                1924.0,
+                1275.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7841619253158569,
+            "coordinate": [
+              2230,
+              1107,
+              2955,
+              1570
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2230.0,
+                1107.0
+              ],
+              [
+                2956.0,
+                1107.0
+              ],
+              [
+                2956.0,
+                1570.0
+              ],
+              [
+                2230.0,
+                1570.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "En exprimant le thème de ma\n\nleçon par les mots Abailard\n\ncomme l'upa de son époque, l'au\n\nvoilun eniter un maisonleud\n\nsimplement Abailard\n\nl'aurais risques de vous faire vou\n\nattendres à une leçon de paulo\n\nsophie médieveda. Gr éas le\n\ndermière chota à laquelle pas\n\nprélembrait maharader. le ma\n\nduis pas philanthrope mais simple\n\nhistorien qui lâché un peu des\n\nvois les apporte entre les vies de\n\nciola et les pommes d'une époque\n\nCe que",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F7d918a0c11a4969d236d9b7afb66e59dcee24e8dcbcd1cce652797ae42ae72f9"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F8490ebfb0eddf623f1df1df388c5b08fa317088ecddc1b8f81bfe44dda511104"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "paragraph_title",
+          "block_content": "##### Cusa",
+          "block_bbox": [
+            1540,
+            1102,
+            1673,
+            1122
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1540.0,
+              1102.0
+            ],
+            [
+              1672.0,
+              1102.0
+            ],
+            [
+              1672.0,
+              1121.0
+            ],
+            [
+              1540.0,
+              1121.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Vanita Tsenberg P. 232.",
+          "block_bbox": [
+            1541,
+            1127,
+            2013,
+            1151
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1541.0,
+              1127.0
+            ],
+            [
+              2013.0,
+              1127.0
+            ],
+            [
+              2013.0,
+              1151.0
+            ],
+            [
+              1541.0,
+              1151.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "is edition Bozak 1565 er? p. 879-932.",
+          "block_bbox": [
+            1541,
+            1153,
+            2222,
+            1184
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1541.0,
+              1153.0
+            ],
+            [
+              2222.0,
+              1153.0
+            ],
+            [
+              2222.0,
+              1184.0
+            ],
+            [
+              1541.0,
+              1184.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Aicon.Cant.",
+          "block_bbox": [
+            1535,
+            1203,
+            1773,
+            1227
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              1535.0,
+              1203.0
+            ],
+            [
+              1773.0,
+              1203.0
+            ],
+            [
+              1773.0,
+              1227.0
+            ],
+            [
+              1535.0,
+              1227.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "c",
+          "block_bbox": [
+            1533,
+            1232,
+            1916,
+            1257
+          ],
+          "block_id": 4,
+          "block_order": 5,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              1533.0,
+              1232.0
+            ],
+            [
+              1916.0,
+              1232.0
+            ],
+            [
+              1916.0,
+              1257.0
+            ],
+            [
+              1533.0,
+              1257.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "2020 is old. Moments",
+          "block_bbox": [
+            1530,
+            1259,
+            2029,
+            1285
+          ],
+          "block_id": 5,
+          "block_order": 6,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              1530.0,
+              1259.0
+            ],
+            [
+              2029.0,
+              1259.0
+            ],
+            [
+              2029.0,
+              1285.0
+            ],
+            [
+              1530.0,
+              1285.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Aerosus Services",
+          "block_bbox": [
+            1527,
+            1313,
+            1877,
+            1339
+          ],
+          "block_id": 6,
+          "block_order": 7,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              1527.0,
+              1313.0
+            ],
+            [
+              1877.0,
+              1313.0
+            ],
+            [
+              1877.0,
+              1339.0
+            ],
+            [
+              1527.0,
+              1339.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Bibleiander p. 259.",
+          "block_bbox": [
+            1529,
+            1345,
+            1927,
+            1371
+          ],
+          "block_id": 7,
+          "block_order": 8,
+          "group_id": 7,
+          "block_polygon_points": [
+            [
+              1529.0,
+              1345.0
+            ],
+            [
+              1927.0,
+              1345.0
+            ],
+            [
+              1927.0,
+              1371.0
+            ],
+            [
+              1529.0,
+              1371.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "epital.396",
+          "block_bbox": [
+            1529,
+            1374,
+            1752,
+            1398
+          ],
+          "block_id": 8,
+          "block_order": 9,
+          "group_id": 8,
+          "block_polygon_points": [
+            [
+              1529.0,
+              1374.0
+            ],
+            [
+              1752.0,
+              1374.0
+            ],
+            [
+              1752.0,
+              1398.0
+            ],
+            [
+              1529.0,
+              1398.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Raymondus 1461.34-112",
+          "block_bbox": [
+            1524,
+            1400,
+            1987,
+            1426
+          ],
+          "block_id": 9,
+          "block_order": 10,
+          "group_id": 9,
+          "block_polygon_points": [
+            [
+              1524.0,
+              1400.0
+            ],
+            [
+              1987.0,
+              1400.0
+            ],
+            [
+              1987.0,
+              1426.0
+            ],
+            [
+              1524.0,
+              1426.0
+            ]
+          ]
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "### TenrecremoTa",
+          "block_bbox": [
+            1517,
+            1462,
+            1831,
+            1484
+          ],
+          "block_id": 10,
+          "block_order": 11,
+          "group_id": 10,
+          "block_polygon_points": [
+            [
+              1517.0,
+              1462.0
+            ],
+            [
+              1831.0,
+              1462.0
+            ],
+            [
+              1831.0,
+              1484.0
+            ],
+            [
+              1517.0,
+              1484.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "addison dialogus",
+          "block_bbox": [
+            1517,
+            1489,
+            1898,
+            1513
+          ],
+          "block_id": 11,
+          "block_order": 12,
+          "group_id": 11,
+          "block_polygon_points": [
+            [
+              1517.0,
+              1489.0
+            ],
+            [
+              1898.0,
+              1489.0
+            ],
+            [
+              1898.0,
+              1513.0
+            ],
+            [
+              1517.0,
+              1513.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Savonarola, Bibliavdar² Comp. 3.\n\nen Mars. Ficimus, de Ver. C. 12.35/37",
+          "block_bbox": [
+            1504,
+            1541,
+            2177,
+            1631
+          ],
+          "block_id": 12,
+          "block_order": 13,
+          "group_id": 12,
+          "block_polygon_points": [
+            [
+              1504.0,
+              1541.0
+            ],
+            [
+              2177.0,
+              1541.0
+            ],
+            [
+              2177.0,
+              1631.0
+            ],
+            [
+              1504.0,
+              1631.0
+            ]
+          ]
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "### Virees",
+          "block_bbox": [
+            1499,
+            1641,
+            1652,
+            1664
+          ],
+          "block_id": 13,
+          "block_order": 14,
+          "group_id": 13,
+          "block_polygon_points": [
+            [
+              1499.0,
+              1641.0
+            ],
+            [
+              1652.0,
+              1641.0
+            ],
+            [
+              1652.0,
+              1664.0
+            ],
+            [
+              1499.0,
+              1664.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "da Ver. e.IV. - vergelich Biblion.\n\nder 2 Conf. 1.",
+          "block_bbox": [
+            1498,
+            1666,
+            2145,
+            1727
+          ],
+          "block_id": 14,
+          "block_order": 15,
+          "group_id": 14,
+          "block_polygon_points": [
+            [
+              1498.0,
+              1666.0
+            ],
+            [
+              2145.0,
+              1666.0
+            ],
+            [
+              2145.0,
+              1727.0
+            ],
+            [
+              1498.0,
+              1727.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.526582658290863,
+            "coordinate": [
+              1540,
+              1102,
+              1673,
+              1122
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1540.0,
+                1102.0
+              ],
+              [
+                1672.0,
+                1102.0
+              ],
+              [
+                1672.0,
+                1121.0
+              ],
+              [
+                1540.0,
+                1121.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5698773860931396,
+            "coordinate": [
+              1541,
+              1127,
+              2013,
+              1151
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1541.0,
+                1127.0
+              ],
+              [
+                2013.0,
+                1127.0
+              ],
+              [
+                2013.0,
+                1151.0
+              ],
+              [
+                1541.0,
+                1151.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.46210548281669617,
+            "coordinate": [
+              1541,
+              1153,
+              2222,
+              1184
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                1541.0,
+                1153.0
+              ],
+              [
+                2222.0,
+                1153.0
+              ],
+              [
+                2222.0,
+                1184.0
+              ],
+              [
+                1541.0,
+                1184.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 15,
+            "label": "inline_formula",
+            "score": 0.303356796503067,
+            "coordinate": [
+              1742,
+              1155,
+              2214,
+              1181
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                1742.0,
+                1155.0
+              ],
+              [
+                2214.0,
+                1155.0
+              ],
+              [
+                2214.0,
+                1181.0
+              ],
+              [
+                1742.0,
+                1181.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5546653866767883,
+            "coordinate": [
+              1535,
+              1203,
+              1773,
+              1227
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                1535.0,
+                1203.0
+              ],
+              [
+                1773.0,
+                1203.0
+              ],
+              [
+                1773.0,
+                1227.0
+              ],
+              [
+                1535.0,
+                1227.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.46624234318733215,
+            "coordinate": [
+              1533,
+              1232,
+              1916,
+              1257
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                1533.0,
+                1232.0
+              ],
+              [
+                1916.0,
+                1232.0
+              ],
+              [
+                1916.0,
+                1257.0
+              ],
+              [
+                1533.0,
+                1257.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5529022216796875,
+            "coordinate": [
+              1530,
+              1259,
+              2029,
+              1285
+            ],
+            "order": 7,
+            "polygon_points": [
+              [
+                1530.0,
+                1259.0
+              ],
+              [
+                2029.0,
+                1259.0
+              ],
+              [
+                2029.0,
+                1285.0
+              ],
+              [
+                1530.0,
+                1285.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5492655634880066,
+            "coordinate": [
+              1527,
+              1313,
+              1877,
+              1339
+            ],
+            "order": 8,
+            "polygon_points": [
+              [
+                1527.0,
+                1313.0
+              ],
+              [
+                1877.0,
+                1313.0
+              ],
+              [
+                1877.0,
+                1339.0
+              ],
+              [
+                1527.0,
+                1339.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 15,
+            "label": "inline_formula",
+            "score": 0.30227601528167725,
+            "coordinate": [
+              1686,
+              1315,
+              1869,
+              1338
+            ],
+            "order": 9,
+            "polygon_points": [
+              [
+                1686.0,
+                1315.0
+              ],
+              [
+                1869.0,
+                1315.0
+              ],
+              [
+                1869.0,
+                1338.0
+              ],
+              [
+                1686.0,
+                1338.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4888021945953369,
+            "coordinate": [
+              1529,
+              1345,
+              1927,
+              1371
+            ],
+            "order": 10,
+            "polygon_points": [
+              [
+                1529.0,
+                1345.0
+              ],
+              [
+                1927.0,
+                1345.0
+              ],
+              [
+                1927.0,
+                1371.0
+              ],
+              [
+                1529.0,
+                1371.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 15,
+            "label": "inline_formula",
+            "score": 0.34640800952911377,
+            "coordinate": [
+              1796,
+              1346,
+              1916,
+              1369
+            ],
+            "order": 11,
+            "polygon_points": [
+              [
+                1796.0,
+                1346.0
+              ],
+              [
+                1796.0,
+                1368.0
+              ],
+              [
+                1915.0,
+                1368.0
+              ],
+              [
+                1915.0,
+                1354.0
+              ],
+              [
+                1900.0,
+                1346.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3849181830883026,
+            "coordinate": [
+              1529,
+              1374,
+              1752,
+              1398
+            ],
+            "order": 12,
+            "polygon_points": [
+              [
+                1529.0,
+                1374.0
+              ],
+              [
+                1752.0,
+                1374.0
+              ],
+              [
+                1752.0,
+                1398.0
+              ],
+              [
+                1529.0,
+                1398.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5279747843742371,
+            "coordinate": [
+              1524,
+              1400,
+              1987,
+              1426
+            ],
+            "order": 13,
+            "polygon_points": [
+              [
+                1524.0,
+                1400.0
+              ],
+              [
+                1987.0,
+                1400.0
+              ],
+              [
+                1987.0,
+                1426.0
+              ],
+              [
+                1524.0,
+                1426.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.40999510884284973,
+            "coordinate": [
+              1517,
+              1462,
+              1831,
+              1484
+            ],
+            "order": 14,
+            "polygon_points": [
+              [
+                1517.0,
+                1462.0
+              ],
+              [
+                1831.0,
+                1462.0
+              ],
+              [
+                1831.0,
+                1484.0
+              ],
+              [
+                1517.0,
+                1484.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.51296067237854,
+            "coordinate": [
+              1517,
+              1489,
+              1898,
+              1513
+            ],
+            "order": 15,
+            "polygon_points": [
+              [
+                1517.0,
+                1489.0
+              ],
+              [
+                1898.0,
+                1489.0
+              ],
+              [
+                1898.0,
+                1513.0
+              ],
+              [
+                1517.0,
+                1513.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3772422671318054,
+            "coordinate": [
+              1510,
+              1543,
+              2177,
+              1574
+            ],
+            "order": 16,
+            "polygon_points": [
+              [
+                1510.0,
+                1543.0
+              ],
+              [
+                2177.0,
+                1543.0
+              ],
+              [
+                2177.0,
+                1574.0
+              ],
+              [
+                1510.0,
+                1574.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.40186643600463867,
+            "coordinate": [
+              1504,
+              1541,
+              2177,
+              1631
+            ],
+            "order": 17,
+            "polygon_points": [
+              [
+                1504.0,
+                1541.0
+              ],
+              [
+                2177.0,
+                1541.0
+              ],
+              [
+                2177.0,
+                1631.0
+              ],
+              [
+                1504.0,
+                1631.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.3449997901916504,
+            "coordinate": [
+              1499,
+              1641,
+              1652,
+              1664
+            ],
+            "order": 18,
+            "polygon_points": [
+              [
+                1499.0,
+                1641.0
+              ],
+              [
+                1652.0,
+                1641.0
+              ],
+              [
+                1652.0,
+                1664.0
+              ],
+              [
+                1499.0,
+                1664.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6099193692207336,
+            "coordinate": [
+              1498,
+              1666,
+              2145,
+              1727
+            ],
+            "order": 19,
+            "polygon_points": [
+              [
+                1498.0,
+                1666.0
+              ],
+              [
+                2145.0,
+                1666.0
+              ],
+              [
+                2145.0,
+                1727.0
+              ],
+              [
+                1498.0,
+                1727.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "##### Cusa\n\nVanita Tsenberg P. 232.\n\nis edition Bozak 1565 er? p. 879-932.\n\nAicon.Cant.\n\nc\n\n2020 is old. Moments\n\nAerosus Services\n\nBibleiander p. 259.\n\nepital.396\n\nRaymondus 1461.34-112\n\n### TenrecremoTa\n\naddison dialogus\n\nSavonarola, Bibliavdar² Comp. 3.\n\nen Mars. Ficimus, de Ver. C. 12.35/37\n\n### Virees\n\nda Ver. e.IV. - vergelich Biblion.\n\nder 2 Conf. 1.",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2Fedc37f9013a2b596bf3c42fc72a09e36cbd0e6f4626b08c8a62616e8523cb3a3"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2F4abb2dbbdad3d68ce6d5fe80cef7ae39a838fa05d21acf1e838348a5327815e6"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [],
+      "layout_det_res": {
+        "boxes": []
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 270
+      }
+    },
+    "markdown": {
+      "text": "",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2F89812ae535724486c6de900f3ee3aa9870d245baba97371a5edd85f1a34adff7"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2F016ab46e213a93acf87c2d03b087de2ca687b959aa13d1d37b78b14fd2b2bb18"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "Cada espírito commo expos a una prada de la civilisation can-tienna de mochen-ágo. 169 me ser irrigat commo point de départ",
+          "block_bbox": [
+            615,
+            16,
+            1237,
+            130
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              615.0,
+              16.0
+            ],
+            [
+              1237.0,
+              16.0
+            ],
+            [
+              1237.0,
+              130.0
+            ],
+            [
+              615.0,
+              130.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "loous parlen de trois esprits que la ma sieu permis et appeler prégiantniques. Je ne pas pas nommer les parliers parmi les parmi de la Paix.\n\nPiano\n\nAbailand de son de Salisbury et\n\nAlain de Lillo (que je veux n'accuper)\n\ngenes impécables dans d'his-\n\ntoire de la partie au douxbique\n\nsiècle. Paragénique ne doit-ce pas\n\nParcequi j'ai crédité à Panee que\n\nen amonsant une déniè de la\n\nfranche sur ces leis pensements, par\n\nainsi des jeunes dans le riour à un\n\nmod���ier. Gm te lente atter\n\nde peut-être à un cours de\n\nphilosopie médiévale. Grès\n\nle semieie chose à lequille je\n\nsont l'entretient, et me harrocher. Je\n\nne suis pas philosophe, et si je\n\nl'étais je enignerais et\n\nd'entrer dans un tenirn que\n\ndominant et M. E. Cienne q�ion,\n\nè qui je dois de plus édin de\n\nmed noticiens sur ce staple, ne ags\n\nce que je veux enrapproضع\n\nd'état de classer piers ou moins\n\nce esprits comme type d'une\n\npros de la civilisation cané-",
+          "block_bbox": [
+            595,
+            57,
+            1281,
+            965
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              595.0,
+              57.0
+            ],
+            [
+              1281.0,
+              57.0
+            ],
+            [
+              1281.0,
+              965.0
+            ],
+            [
+              595.0,
+              965.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Hacim Persomneillement écrasé par\n\nforé no des rommes pas par au\n\nlance dans la délégée",
+          "block_bbox": [
+            1254,
+            591,
+            1903,
+            697
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1254.0,
+              591.0
+            ],
+            [
+              1903.0,
+              591.0
+            ],
+            [
+              1903.0,
+              697.0
+            ],
+            [
+              1254.0,
+              697.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "La mère court dans 4 meilleurs\n\n1°ai semoraué que l'afficao de\n\nmor court bous a dépè rénéol\n\nceurs noms: que ce tene de",
+          "block_bbox": [
+            1279,
+            732,
+            1920,
+            855
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              1279.0,
+              732.0
+            ],
+            [
+              1920.0,
+              732.0
+            ],
+            [
+              1920.0,
+              855.0
+            ],
+            [
+              1279.0,
+              855.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.30331069231033325,
+            "coordinate": [
+              615,
+              16,
+              1237,
+              130
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                615.0,
+                16.0
+              ],
+              [
+                1237.0,
+                16.0
+              ],
+              [
+                1237.0,
+                130.0
+              ],
+              [
+                615.0,
+                130.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3839884102344513,
+            "coordinate": [
+              595,
+              57,
+              1281,
+              965
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                595.0,
+                57.0
+              ],
+              [
+                1281.0,
+                57.0
+              ],
+              [
+                1281.0,
+                965.0
+              ],
+              [
+                595.0,
+                965.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3715645968914032,
+            "coordinate": [
+              1254,
+              591,
+              1903,
+              697
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                1254.0,
+                591.0
+              ],
+              [
+                1903.0,
+                591.0
+              ],
+              [
+                1903.0,
+                697.0
+              ],
+              [
+                1254.0,
+                697.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3708273768424988,
+            "coordinate": [
+              1279,
+              732,
+              1920,
+              855
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                1279.0,
+                732.0
+              ],
+              [
+                1920.0,
+                732.0
+              ],
+              [
+                1920.0,
+                855.0
+              ],
+              [
+                1279.0,
+                855.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 180
+      }
+    },
+    "markdown": {
+      "text": "Cada espírito commo expos a una prada de la civilisation can-tienna de mochen-ágo. 169 me ser irrigat commo point de départ\n\nloous parlen de trois esprits que la ma sieu permis et appeler prégiantniques. Je ne pas pas nommer les parliers parmi les parmi de la Paix.\n\nPiano\n\nAbailand de son de Salisbury et\n\nAlain de Lillo (que je veux n'accuper)\n\ngenes impécables dans d'his-\n\ntoire de la partie au douxbique\n\nsiècle. Paragénique ne doit-ce pas\n\nParcequi j'ai crédité à Panee que\n\nen amonsant une déniè de la\n\nfranche sur ces leis pensements, par\n\nainsi des jeunes dans le riour à un\n\nmod���ier. Gm te lente atter\n\nde peut-être à un cours de\n\nphilosopie médiévale. Grès\n\nle semieie chose à lequille je\n\nsont l'entretient, et me harrocher. Je\n\nne suis pas philosophe, et si je\n\nl'étais je enignerais et\n\nd'entrer dans un tenirn que\n\ndominant et M. E. Cienne q�ion,\n\nè qui je dois de plus édin de\n\nmed noticiens sur ce staple, ne ags\n\nce que je veux enrapproضع\n\nd'état de classer piers ou moins\n\nce esprits comme type d'une\n\npros de la civilisation cané-\n\nHacim Persomneillement écrasé par\n\nforé no des rommes pas par au\n\nlance dans la délégée\n\nLa mère court dans 4 meilleurs\n\n1°ai semoraué que l'afficao de\n\nmor court bous a dépè rénéol\n\nceurs noms: que ce tene de",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F592e9b812fd0482bd16f8f4d682dc4f46bda031597efa579b7fdb653b8cea07e"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F4e87a71cfd467c7006f47616137a1c35e3eca55e92f365e34f568715364b0862"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "de los calcedados.\n\nle ne secis pas de ceux, nombreux\n\nà présent en Allemagne, qui vou\n\nchaient prêler à ce mot gothique\n\nles danses proclamés et en conséquence",
+          "block_bbox": [
+            0,
+            0,
+            747,
+            140
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              -1.0,
+              0.0
+            ],
+            [
+              747.0,
+              0.0
+            ],
+            [
+              747.0,
+              140.0
+            ],
+            [
+              -1.0,
+              140.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "a' a b c d e",
+          "block_bbox": [
+            747,
+            298,
+            1015,
+            326
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              747.0,
+              298.0
+            ],
+            [
+              1015.0,
+              298.0
+            ],
+            [
+              1015.0,
+              326.0
+            ],
+            [
+              747.0,
+              326.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Pour indiquer la lenneux, les thètes si vous voulez, des mas lagons, je roudais nommes A-Bailande um prégligue, le roud",
+          "block_bbox": [
+            760,
+            726,
+            1460,
+            879
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              760.0,
+              726.0
+            ],
+            [
+              1460.0,
+              726.0
+            ],
+            [
+              1460.0,
+              879.0
+            ],
+            [
+              760.0,
+              879.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.38845348358154297,
+            "coordinate": [
+              0,
+              0,
+              747,
+              140
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                -1.0,
+                0.0
+              ],
+              [
+                747.0,
+                0.0
+              ],
+              [
+                747.0,
+                140.0
+              ],
+              [
+                -1.0,
+                140.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.30378785729408264,
+            "coordinate": [
+              747,
+              298,
+              1015,
+              326
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                747.0,
+                298.0
+              ],
+              [
+                1015.0,
+                298.0
+              ],
+              [
+                1015.0,
+                326.0
+              ],
+              [
+                747.0,
+                326.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3103856146335602,
+            "coordinate": [
+              760,
+              726,
+              1460,
+              879
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                760.0,
+                726.0
+              ],
+              [
+                1460.0,
+                726.0
+              ],
+              [
+                1460.0,
+                879.0
+              ],
+              [
+                760.0,
+                879.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 180
+      }
+    },
+    "markdown": {
+      "text": "de los calcedados.\n\nle ne secis pas de ceux, nombreux\n\nà présent en Allemagne, qui vou\n\nchaient prêler à ce mot gothique\n\nles danses proclamés et en conséquence\n\na' a b c d e\n\nPour indiquer la lenneux, les thètes si vous voulez, des mas lagons, je roudais nommes A-Bailande um prégligue, le roud",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F820fe1f8426d68b30436652ae81519bc629740ca056afbeb25c5325ba13b40c9"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fd9ea4456c0a6d38fbc6122620fbf2e00a077ffb764e799cb3bb1f318dde17f4b"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "be friend of en parler dans le",
+          "block_bbox": [
+            1615,
+            1660,
+            2209,
+            1754
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1615.0,
+              1660.0
+            ],
+            [
+              2209.0,
+              1660.0
+            ],
+            [
+              2209.0,
+              1754.0
+            ],
+            [
+              1615.0,
+              1754.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "M.175.xiv.",
+          "block_bbox": [
+            1510,
+            1762,
+            1685,
+            1787
+          ],
+          "block_id": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1510.0,
+              1762.0
+            ],
+            [
+              1685.0,
+              1762.0
+            ],
+            [
+              1685.0,
+              1787.0
+            ],
+            [
+              1510.0,
+              1787.0
+            ]
+          ]
+        },
+        {
+          "block_label": "aside_text",
+          "block_content": "1.189",
+          "block_bbox": [
+            1515,
+            1898,
+            1617,
+            1925
+          ],
+          "block_id": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1515.0,
+              1898.0
+            ],
+            [
+              1617.0,
+              1898.0
+            ],
+            [
+              1617.0,
+              1925.0
+            ],
+            [
+              1515.0,
+              1925.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "pour en ferma la principe pa cretad dont (aunait) (salon aux, non pas)  \n\nune fois seulement, mais lou  \n\nlours de nouveau, le épanouir  \n\nlement d'une civilisation en  \n\ntière. le né s voilà que un terme  \n\npratique, unite par sa nature  \n\nun peu accidentée même, à  \n\nnous faire sentir vaguement  \n\nles apports qui tout de même  \n\nexistent entre les formes que  \n\nprend, dans une certaine époque  \n\nla pensée et l'architecture,  \n\nla vie sociale et la présécia.  \n\nSi la lieu où l'on parde fait  \n\nquelque chose à inspirer, où  \n\npourrait-on traiter�niress de  \n\ncella civilisation du dou  \n\nzième siècle et n'est en France.  \n\nCe laisie médiocale  \n\ncentrale principalement que fut Pa  \n\n210 ② Dès ce temps on ne vient  \n\ncomme, l'arche de vie plainé  \n\ndans la parodia terrestre, la  \n\nflambeau de la maison du Sa  \n\ngroupe, la 2ème des nations, le  \n\nlaissez des princes\". Lesquels ferme  \n\nde Salibbury, en 1164, revient à Pa  \n\nlis, et qu'il voit l'abondance des  \n\nviandes, la goié du peuple, la ré  \n\nverance pour la clargé, la majesté",
+          "block_bbox": [
+            2209,
+            1015,
+            2954,
+            2015
+          ],
+          "block_id": 3,
+          "block_order": 1,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2209.0,
+              1015.0
+            ],
+            [
+              2954.0,
+              1015.0
+            ],
+            [
+              2954.0,
+              2015.0
+            ],
+            [
+              2209.0,
+              2015.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3184395134449005,
+            "coordinate": [
+              1624,
+              1660,
+              2212,
+              1701
+            ],
+            "polygon_points": [
+              [
+                1624.0,
+                1660.0
+              ],
+              [
+                2212.0,
+                1660.0
+              ],
+              [
+                2212.0,
+                1701.0
+              ],
+              [
+                1624.0,
+                1701.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3060568571090698,
+            "coordinate": [
+              1615,
+              1660,
+              2209,
+              1754
+            ],
+            "polygon_points": [
+              [
+                1615.0,
+                1660.0
+              ],
+              [
+                2209.0,
+                1660.0
+              ],
+              [
+                2209.0,
+                1754.0
+              ],
+              [
+                1615.0,
+                1754.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.6371791958808899,
+            "coordinate": [
+              1510,
+              1762,
+              1685,
+              1787
+            ],
+            "polygon_points": [
+              [
+                1510.0,
+                1762.0
+              ],
+              [
+                1685.0,
+                1762.0
+              ],
+              [
+                1685.0,
+                1787.0
+              ],
+              [
+                1510.0,
+                1787.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.4718797504901886,
+            "coordinate": [
+              1515,
+              1898,
+              1617,
+              1925
+            ],
+            "polygon_points": [
+              [
+                1515.0,
+                1898.0
+              ],
+              [
+                1617.0,
+                1898.0
+              ],
+              [
+                1617.0,
+                1925.0
+              ],
+              [
+                1515.0,
+                1925.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7592980861663818,
+            "coordinate": [
+              2209,
+              1015,
+              2954,
+              2015
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2209.0,
+                1015.0
+              ],
+              [
+                2954.0,
+                1015.0
+              ],
+              [
+                2954.0,
+                2015.0
+              ],
+              [
+                2209.0,
+                2015.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.32074978947639465,
+            "coordinate": [
+              2215,
+              1494,
+              2954,
+              2012
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                2215.0,
+                1494.0
+              ],
+              [
+                2954.0,
+                1494.0
+              ],
+              [
+                2954.0,
+                2012.0
+              ],
+              [
+                2215.0,
+                2012.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "pour en ferma la principe pa cretad dont (aunait) (salon aux, non pas)  \n\nune fois seulement, mais lou  \n\nlours de nouveau, le épanouir  \n\nlement d'une civilisation en  \n\ntière. le né s voilà que un terme  \n\npratique, unite par sa nature  \n\nun peu accidentée même, à  \n\nnous faire sentir vaguement  \n\nles apports qui tout de même  \n\nexistent entre les formes que  \n\nprend, dans une certaine époque  \n\nla pensée et l'architecture,  \n\nla vie sociale et la présécia.  \n\nSi la lieu où l'on parde fait  \n\nquelque chose à inspirer, où  \n\npourrait-on traiter�niress de  \n\ncella civilisation du dou  \n\nzième siècle et n'est en France.  \n\nCe laisie médiocale  \n\ncentrale principalement que fut Pa  \n\n210 ② Dès ce temps on ne vient  \n\ncomme, l'arche de vie plainé  \n\ndans la parodia terrestre, la  \n\nflambeau de la maison du Sa  \n\ngroupe, la 2ème des nations, le  \n\nlaissez des princes\". Lesquels ferme  \n\nde Salibbury, en 1164, revient à Pa  \n\nlis, et qu'il voit l'abondance des  \n\nviandes, la goié du peuple, la ré  \n\nverance pour la clargé, la majesté",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Ff678bc5dac33c1bc1142c8dfc7f43d0d5901a0fd4c67ab36737a4fc11995f376"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fe2f20e561a2a4025281e4ee9eb574fa886413b3c9affbb4be069b5366e9bfdcf"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "number",
+          "block_content": "4",
+          "block_bbox": [
+            1537,
+            1014,
+            1580,
+            1053
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1537.0,
+              1014.0
+            ],
+            [
+              1580.0,
+              1014.0
+            ],
+            [
+              1580.0,
+              1053.0
+            ],
+            [
+              1537.0,
+              1053.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Mais les pays de Bouygues, la part de Céaux et des Clumys, le patrie de SI. Bernard n'ait-il pas été aussi la soiré fécond où a germé la culture du moyen âge?",
+          "block_bbox": [
+            1535,
+            1241,
+            2223,
+            1442
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1535.0,
+              1241.0
+            ],
+            [
+              2223.0,
+              1241.0
+            ],
+            [
+              2223.0,
+              1442.0
+            ],
+            [
+              1535.0,
+              1442.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "et au plus haut dégré\n\nel glacie de toula l'églite, et\n\nles occupations variés des ph\n\nlosophandes\", il la compara à\n\néchelles de focob, dont la somme\n\ntoucheait au ciel et qui était\n\nla voie des anges qui ascendait\n\nent et descendaient. Il cita l'\n\ncriture : \"vera dominue est in\n\nloco isto, et ego nescie bom\". Il ciel\n\nencora la paréla : \"Felix exilium\n\ncui locus isto dotur\".",
+          "block_bbox": [
+            1740,
+            1437,
+            2193,
+            1475
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1740.0,
+              1437.0
+            ],
+            [
+              2193.0,
+              1437.0
+            ],
+            [
+              2193.0,
+              1475.0
+            ],
+            [
+              1740.0,
+              1475.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            2231,
+            1010,
+            2954,
+            1372
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2231.0,
+              1010.0
+            ],
+            [
+              2954.0,
+              1010.0
+            ],
+            [
+              2954.0,
+              1372.0
+            ],
+            [
+              2231.0,
+              1372.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "S'il ma faolait préciser la temps où s'est formée déﬁiniéntivement la civilisation chrétienne de l'Occident, je na di pas celle du moyen âge, commu ni elle aurait passé sans lois, les des traces, mais calda dont nous virons à ce jour, je nomme mais la douzième siècle. C'est une époque créatrice et forma trice comme nullo autre. C'est un réveil, une éclosion à la transition dans une modaité plus claire et plus scmora, c'est la soleil qui perca les nuages. Que de formes nouveilles de l'écrit et de la vie (qui éclosent au douzième siècle. C'est, pour c'est M. Bédier les énumérations",
+          "block_bbox": [
+            2219,
+            1384,
+            2954,
+            1985
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2219.0,
+              1384.0
+            ],
+            [
+              2954.0,
+              1384.0
+            ],
+            [
+              2954.0,
+              1985.0
+            ],
+            [
+              2219.0,
+              1985.0
+            ]
+          ]
+        },
+        {
+          "block_label": "footer",
+          "block_content": "Manotaux, Hist. not. ma. 208",
+          "block_bbox": [
+            1528,
+            1949,
+            2073,
+            1987
+          ],
+          "block_id": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              1528.0,
+              1949.0
+            ],
+            [
+              2073.0,
+              1949.0
+            ],
+            [
+              2073.0,
+              1987.0
+            ],
+            [
+              1528.0,
+              1987.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 16,
+            "label": "number",
+            "score": 0.4514998495578766,
+            "coordinate": [
+              1537,
+              1014,
+              1580,
+              1053
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1537.0,
+                1014.0
+              ],
+              [
+                1580.0,
+                1014.0
+              ],
+              [
+                1580.0,
+                1053.0
+              ],
+              [
+                1537.0,
+                1053.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7960358262062073,
+            "coordinate": [
+              1535,
+              1241,
+              2223,
+              1442
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1535.0,
+                1241.0
+              ],
+              [
+                2223.0,
+                1241.0
+              ],
+              [
+                2223.0,
+                1442.0
+              ],
+              [
+                1535.0,
+                1442.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5782789587974548,
+            "coordinate": [
+              1740,
+              1437,
+              2193,
+              1475
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                1740.0,
+                1437.0
+              ],
+              [
+                2193.0,
+                1437.0
+              ],
+              [
+                2193.0,
+                1475.0
+              ],
+              [
+                1740.0,
+                1475.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8955847024917603,
+            "coordinate": [
+              2231,
+              1010,
+              2954,
+              1372
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2231.0,
+                1010.0
+              ],
+              [
+                2954.0,
+                1010.0
+              ],
+              [
+                2954.0,
+                1372.0
+              ],
+              [
+                2231.0,
+                1372.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5283384323120117,
+            "coordinate": [
+              2219,
+              1384,
+              2954,
+              1985
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2219.0,
+                1384.0
+              ],
+              [
+                2954.0,
+                1384.0
+              ],
+              [
+                2954.0,
+                1985.0
+              ],
+              [
+                2219.0,
+                1985.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 8,
+            "label": "footer",
+            "score": 0.3714132308959961,
+            "coordinate": [
+              1528,
+              1949,
+              2073,
+              1987
+            ],
+            "polygon_points": [
+              [
+                1528.0,
+                1949.0
+              ],
+              [
+                2073.0,
+                1949.0
+              ],
+              [
+                2073.0,
+                1987.0
+              ],
+              [
+                1528.0,
+                1987.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.3217996060848236,
+            "coordinate": [
+              2225,
+              1858,
+              2952,
+              2006
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2225.0,
+                1858.0
+              ],
+              [
+                2952.0,
+                1858.0
+              ],
+              [
+                2952.0,
+                2006.0
+              ],
+              [
+                2225.0,
+                2006.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Mais les pays de Bouygues, la part de Céaux et des Clumys, le patrie de SI. Bernard n'ait-il pas été aussi la soiré fécond où a germé la culture du moyen âge?\n\net au plus haut dégré\n\nel glacie de toula l'églite, et\n\nles occupations variés des ph\n\nlosophandes\", il la compara à\n\néchelles de focob, dont la somme\n\ntoucheait au ciel et qui était\n\nla voie des anges qui ascendait\n\nent et descendaient. Il cita l'\n\ncriture : \"vera dominue est in\n\nloco isto, et ego nescie bom\". Il ciel\n\nencora la paréla : \"Felix exilium\n\ncui locus isto dotur\".\n\n\n\nS'il ma faolait préciser la temps où s'est formée déﬁiniéntivement la civilisation chrétienne de l'Occident, je na di pas celle du moyen âge, commu ni elle aurait passé sans lois, les des traces, mais calda dont nous virons à ce jour, je nomme mais la douzième siècle. C'est une époque créatrice et forma trice comme nullo autre. C'est un réveil, une éclosion à la transition dans une modaité plus claire et plus scmora, c'est la soleil qui perca les nuages. Que de formes nouveilles de l'écrit et de la vie (qui éclosent au douzième siècle. C'est, pour c'est M. Bédier les énumérations",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2Ffd285a4faa7df8d1c438de0265af5a53a6fef578da11983581dc2f3ef9345dc1"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2F2d21c5da0b69a617187e4524b751b881c4975c4ecd8c40d6288dbb0648d785ac"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "la poésie en\nziqué des trous\nbods",
+          "block_bbox": [
+            1841,
+            1091,
+            2204,
+            1187
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1841.0,
+              1091.0
+            ],
+            [
+              2204.0,
+              1091.0
+            ],
+            [
+              2204.0,
+              1187.0
+            ],
+            [
+              1841.0,
+              1187.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "la première croisée d'ogiva,\n\nla premier vitraix point, la pre\n\nmier Tournoi, et encore la pre\n\nmière chande de libérés d'une\n\nCommune; loués créations from\n\ncoisés, prodigieuses et imat\n\ntenues. Est-il permis d'y ajou\n\nler : une nouvelle mystique,\n\ncelle de Saint Bernard et de\n\nHugues de Saint Victor, un\n\nchant religieux plein\n\nd'accents nouveaux, les débuts\n\nde la scolastique et des unis\n\nversiles, d'une l'approfondisse\n\nment de la pensée et l'expres\n\nsion intensifiée de la ferveur\n\nreligieuse. N'oubliens pas les\n\nprécéduits errants, les golliard\n\nni les héraliques, ni les Étant\n\ndonnées nourrées compte que l'outce",
+          "block_bbox": [
+            2218,
+            1022,
+            2955,
+            1682
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2218.0,
+              1022.0
+            ],
+            [
+              2955.0,
+              1022.0
+            ],
+            [
+              2955.0,
+              1682.0
+            ],
+            [
+              2218.0,
+              1682.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Les fondements sur lesquels\n\ns'élève tout cela, ce sont\n\népanouissement de formes not\n\n(au 12. décès) 2e pesait sur des bases\n\njésies au siècle précident :\n\nles idées clumaciennes et gré\n\ngériennes, dont sont scris la\n\nde la vie",
+          "block_bbox": [
+            1531,
+            1765,
+            2202,
+            1848
+          ],
+          "block_id": 2,
+          "block_order": 2,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              1531.0,
+              1765.0
+            ],
+            [
+              2202.0,
+              1765.0
+            ],
+            [
+              2202.0,
+              1848.0
+            ],
+            [
+              1531.0,
+              1848.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            2233,
+            1687,
+            2953,
+            1872
+          ],
+          "block_id": 3,
+          "block_order": 3,
+          "group_id": 2,
+          "block_polygon_points": [
+            [
+              2233.0,
+              1687.0
+            ],
+            [
+              2953.0,
+              1687.0
+            ],
+            [
+              2953.0,
+              1872.0
+            ],
+            [
+              2233.0,
+              1872.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Lebbe que c'est professe de Saint Bernard, Armand de Brescia, Pierre Valdes",
+          "block_bbox": [
+            1530,
+            1887,
+            2245,
+            1991
+          ],
+          "block_id": 4,
+          "block_order": 4,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              1530.0,
+              1887.0
+            ],
+            [
+              2245.0,
+              1887.0
+            ],
+            [
+              2245.0,
+              1991.0
+            ],
+            [
+              1530.0,
+              1991.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "pours the croisade, et s'on\n\npours des frendes conf de la cirin\n\ndisait non médiadades de tout compte\n\nde préférence de la face sacola",
+          "block_bbox": [
+            2236,
+            1865,
+            2954,
+            1986
+          ],
+          "block_id": 5,
+          "block_order": 5,
+          "group_id": 5,
+          "block_polygon_points": [
+            [
+              2236.0,
+              1865.0
+            ],
+            [
+              2954.0,
+              1865.0
+            ],
+            [
+              2954.0,
+              1986.0
+            ],
+            [
+              2236.0,
+              1986.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "et spiriat�aeos au même lemp d",
+          "block_bbox": [
+            2239,
+            1981,
+            2954,
+            2013
+          ],
+          "block_id": 6,
+          "block_order": 6,
+          "group_id": 6,
+          "block_polygon_points": [
+            [
+              2953.0,
+              1981.0
+            ],
+            [
+              2239.0,
+              1989.0
+            ],
+            [
+              2239.0,
+              2012.0
+            ],
+            [
+              2953.0,
+              2004.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.47974827885627747,
+            "coordinate": [
+              1841,
+              1091,
+              2204,
+              1187
+            ],
+            "polygon_points": [
+              [
+                1841.0,
+                1091.0
+              ],
+              [
+                2204.0,
+                1091.0
+              ],
+              [
+                2204.0,
+                1187.0
+              ],
+              [
+                1841.0,
+                1187.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.8606643676757812,
+            "coordinate": [
+              2218,
+              1022,
+              2955,
+              1682
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2218.0,
+                1022.0
+              ],
+              [
+                2955.0,
+                1022.0
+              ],
+              [
+                2955.0,
+                1682.0
+              ],
+              [
+                2218.0,
+                1682.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.49133238196372986,
+            "coordinate": [
+              1531,
+              1765,
+              2202,
+              1848
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1531.0,
+                1765.0
+              ],
+              [
+                2202.0,
+                1765.0
+              ],
+              [
+                2202.0,
+                1848.0
+              ],
+              [
+                1531.0,
+                1848.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5177977085113525,
+            "coordinate": [
+              2233,
+              1687,
+              2953,
+              1872
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2233.0,
+                1687.0
+              ],
+              [
+                2953.0,
+                1687.0
+              ],
+              [
+                2953.0,
+                1872.0
+              ],
+              [
+                2233.0,
+                1872.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5892662405967712,
+            "coordinate": [
+              1530,
+              1887,
+              2245,
+              1991
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                1530.0,
+                1887.0
+              ],
+              [
+                2245.0,
+                1887.0
+              ],
+              [
+                2245.0,
+                1991.0
+              ],
+              [
+                1530.0,
+                1991.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4323776066303253,
+            "coordinate": [
+              2236,
+              1865,
+              2954,
+              1986
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2236.0,
+                1865.0
+              ],
+              [
+                2954.0,
+                1865.0
+              ],
+              [
+                2954.0,
+                1986.0
+              ],
+              [
+                2236.0,
+                1986.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4461759626865387,
+            "coordinate": [
+              2239,
+              1981,
+              2954,
+              2013
+            ],
+            "order": 6,
+            "polygon_points": [
+              [
+                2953.0,
+                1981.0
+              ],
+              [
+                2239.0,
+                1989.0
+              ],
+              [
+                2239.0,
+                2012.0
+              ],
+              [
+                2953.0,
+                2004.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "la première croisée d'ogiva,\n\nla premier vitraix point, la pre\n\nmier Tournoi, et encore la pre\n\nmière chande de libérés d'une\n\nCommune; loués créations from\n\ncoisés, prodigieuses et imat\n\ntenues. Est-il permis d'y ajou\n\nler : une nouvelle mystique,\n\ncelle de Saint Bernard et de\n\nHugues de Saint Victor, un\n\nchant religieux plein\n\nd'accents nouveaux, les débuts\n\nde la scolastique et des unis\n\nversiles, d'une l'approfondisse\n\nment de la pensée et l'expres\n\nsion intensifiée de la ferveur\n\nreligieuse. N'oubliens pas les\n\nprécéduits errants, les golliard\n\nni les héraliques, ni les Étant\n\ndonnées nourrées compte que l'outce\n\nLes fondements sur lesquels\n\ns'élève tout cela, ce sont\n\népanouissement de formes not\n\n(au 12. décès) 2e pesait sur des bases\n\njésies au siècle précident :\n\nles idées clumaciennes et gré\n\ngériennes, dont sont scris la\n\nde la vie\n\n\n\nLebbe que c'est professe de Saint Bernard, Armand de Brescia, Pierre Valdes\n\npours the croisade, et s'on\n\npours des frendes conf de la cirin\n\ndisait non médiadades de tout compte\n\nde préférence de la face sacola\n\net spiriat�aeos au même lemp d",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fa4209198a855237ea180f1803b255c2a21ce85d18f807714eba8a4e5cc275210"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fe2688aa4b6ac97c9f6b2da0563c429503b464c93e9234c2120cdc8ffa9d45afa"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "text",
+          "block_content": "6 Mais ces bâtes ne sont pas de nature purement idéologiques ou religiés. La fin de la détention des mêmes en est, plus encore, les raisons remarquables, cette force éminent sociales et spirituelle que fut les chevaleries.",
+          "block_bbox": [
+            1509,
+            1033,
+            2219,
+            1264
+          ],
+          "block_id": 0,
+          "block_order": 1,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1509.0,
+              1033.0
+            ],
+            [
+              2219.0,
+              1033.0
+            ],
+            [
+              2219.0,
+              1264.0
+            ],
+            [
+              1509.0,
+              1264.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Pour donner une idée de la céleriité des mouvements spiri- lues :\n\nqu'a été la présentation pour la vie\n\nhistorique du moyen âge de",
+          "block_bbox": [
+            1502,
+            1639,
+            2219,
+            1726
+          ],
+          "block_id": 1,
+          "block_order": 2,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              1502.0,
+              1639.0
+            ],
+            [
+              2219.0,
+              1639.0
+            ],
+            [
+              2219.0,
+              1726.0
+            ],
+            [
+              1502.0,
+              1726.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "",
+          "block_bbox": [
+            2225,
+            1028,
+            2955,
+            1122
+          ],
+          "block_id": 2,
+          "block_order": 3,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2225.0,
+              1028.0
+            ],
+            [
+              2955.0,
+              1028.0
+            ],
+            [
+              2955.0,
+              1122.0
+            ],
+            [
+              2225.0,
+              1122.0
+            ]
+          ]
+        },
+        {
+          "block_label": "paragraph_title",
+          "block_content": "## each year.",
+          "block_bbox": [
+            2233,
+            1108,
+            2538,
+            1134
+          ],
+          "block_id": 3,
+          "block_order": 4,
+          "group_id": 3,
+          "block_polygon_points": [
+            [
+              2233.0,
+              1108.0
+            ],
+            [
+              2538.0,
+              1108.0
+            ],
+            [
+              2538.0,
+              1134.0
+            ],
+            [
+              2233.0,
+              1134.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Epoque de formation vaut\n\ncira époque de fermentation\n\npléine d'imquétude et de\n\nconfusion. A ces époques là loc\n\nde met en brande, personne ne\n\ntella à la place. La moècité\n\ninformationale, qu'il faut tout\n\nfours s'imaginer assez forte\n\nau moyen âge, 2000 est un\n\nd'accroite en loué direction.\n\nformant 20marquée. Les pa\n\nlarins, les croisés, les précaut\n\nles chevaliers en quête d'avèn\n\ntures, les écoliers, les inglours,\n\nles marchands, les brigands, les\n\nmoyennes, les émigrants colonisés\n\nque d'exercices instables et\n\nerrantes. A震お\n\nZia ma diCCA L'haredie des Vau\n\n(née en France par avant\n\nd'ét le parandie de E\n\nPagne et en Hongrie. La monde\n\ndevient plus caricole, reheulssé\n\nde couleur : littéralement par\n\nles vitraux, la sculpture, des\n\néloiffes laxtiles, spiritualement\n\npar la foule des nouraux con\n\ncops, des fables et des élogues\n\ncéremarionel",
+          "block_bbox": [
+            2211,
+            1131,
+            2954,
+            2008
+          ],
+          "block_id": 4,
+          "block_order": 5,
+          "group_id": 4,
+          "block_polygon_points": [
+            [
+              2211.0,
+              1131.0
+            ],
+            [
+              2954.0,
+              1131.0
+            ],
+            [
+              2954.0,
+              2008.0
+            ],
+            [
+              2211.0,
+              2008.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7299278378486633,
+            "coordinate": [
+              1509,
+              1033,
+              2219,
+              1264
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                1509.0,
+                1033.0
+              ],
+              [
+                2219.0,
+                1033.0
+              ],
+              [
+                2219.0,
+                1264.0
+              ],
+              [
+                1509.0,
+                1264.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.5536562204360962,
+            "coordinate": [
+              1502,
+              1639,
+              2219,
+              1726
+            ],
+            "order": 2,
+            "polygon_points": [
+              [
+                1502.0,
+                1639.0
+              ],
+              [
+                2219.0,
+                1639.0
+              ],
+              [
+                2219.0,
+                1726.0
+              ],
+              [
+                1502.0,
+                1726.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.4593365490436554,
+            "coordinate": [
+              2225,
+              1028,
+              2955,
+              1122
+            ],
+            "order": 3,
+            "polygon_points": [
+              [
+                2225.0,
+                1028.0
+              ],
+              [
+                2955.0,
+                1028.0
+              ],
+              [
+                2955.0,
+                1122.0
+              ],
+              [
+                2225.0,
+                1122.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 17,
+            "label": "paragraph_title",
+            "score": 0.34326595067977905,
+            "coordinate": [
+              2233,
+              1108,
+              2538,
+              1134
+            ],
+            "order": 4,
+            "polygon_points": [
+              [
+                2233.0,
+                1108.0
+              ],
+              [
+                2538.0,
+                1108.0
+              ],
+              [
+                2538.0,
+                1134.0
+              ],
+              [
+                2233.0,
+                1134.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.7771209478378296,
+            "coordinate": [
+              2211,
+              1131,
+              2954,
+              2008
+            ],
+            "order": 5,
+            "polygon_points": [
+              [
+                2211.0,
+                1131.0
+              ],
+              [
+                2954.0,
+                1131.0
+              ],
+              [
+                2954.0,
+                2008.0
+              ],
+              [
+                2211.0,
+                2008.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "6 Mais ces bâtes ne sont pas de nature purement idéologiques ou religiés. La fin de la détention des mêmes en est, plus encore, les raisons remarquables, cette force éminent sociales et spirituelle que fut les chevaleries.\n\nPour donner une idée de la céleriité des mouvements spiri- lues :\n\nqu'a été la présentation pour la vie\n\nhistorique du moyen âge de\n\n\n\n## each year.\n\nEpoque de formation vaut\n\ncira époque de fermentation\n\npléine d'imquétude et de\n\nconfusion. A ces époques là loc\n\nde met en brande, personne ne\n\ntella à la place. La moècité\n\ninformationale, qu'il faut tout\n\nfours s'imaginer assez forte\n\nau moyen âge, 2000 est un\n\nd'accroite en loué direction.\n\nformant 20marquée. Les pa\n\nlarins, les croisés, les précaut\n\nles chevaliers en quête d'avèn\n\ntures, les écoliers, les inglours,\n\nles marchands, les brigands, les\n\nmoyennes, les émigrants colonisés\n\nque d'exercices instables et\n\nerrantes. A震お\n\nZia ma diCCA L'haredie des Vau\n\n(née en France par avant\n\nd'ét le parandie de E\n\nPagne et en Hongrie. La monde\n\ndevient plus caricole, reheulssé\n\nde couleur : littéralement par\n\nles vitraux, la sculpture, des\n\néloiffes laxtiles, spiritualement\n\npar la foule des nouraux con\n\ncops, des fables et des élogues\n\ncéremarionel",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F6fc8fa13a34387bddd71b0af9b86e3895553a61e96923b0d3909a05bf5e54951"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F066a35e6112026402ed17cb139848ef606ba85ac9b58b62caba2e21571f34fc0"
+  },
+  {
+    "prunedResult": {
+      "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_layout_detection": true,
+        "use_chart_recognition": true,
+        "use_seal_recognition": true,
+        "use_ocr_for_image_block": true,
+        "format_block_content": true,
+        "merge_layout_blocks": true,
+        "markdown_ignore_labels": [
+          "number",
+          "footnote",
+          "header",
+          "header_image",
+          "footer",
+          "footer_image",
+          "aside_text"
+        ],
+        "return_layout_polygon_points": true
+      },
+      "parsing_res_list": [
+        {
+          "block_label": "aside_text",
+          "block_content": "7 ici la poésie est quantifient par-mèrses.",
+          "block_bbox": [
+            1501,
+            1025,
+            2212,
+            1095
+          ],
+          "block_id": 0,
+          "group_id": 0,
+          "block_polygon_points": [
+            [
+              1501.0,
+              1025.0
+            ],
+            [
+              2212.0,
+              1025.0
+            ],
+            [
+              2212.0,
+              1095.0
+            ],
+            [
+              1501.0,
+              1095.0
+            ]
+          ]
+        },
+        {
+          "block_label": "text",
+          "block_content": "Faut-il appeler Renseignement\n\nCet esser général du dos\n\nZàma sídola vend un élot de\n\ncirculation fort et harmonie\n\naux lot qu'il a sera accompli par\n\nZàma² Gu du moins faut-il et\n\nserver pour une partie de ce\n\nphénomène de l'éveil et de\n\nprogrès celle appellation de\n\nRenaissance qui nous est de\n\nvenue si familière, trop fami\n\ncière parfois pour étiquetron\n\ndes mouvements historiques.\n\nVoilà des questions bien gravées\n\npour qui allace que les valeurs\n\nà une terminologie exacte et\n\nsignificative dans l'histoire\n\nde l'espèce que vous connaissait,\n\nsoit par lecture ou de nom,\n\nla beau cirme de l'histoire\n\naméricain M. Haskiné, parmi il y\n\na trois ans, et appelle The Renaissance\n\nof the Twelfth Century. Dant\n\nuna série de chapitres d'une\n\nsichesses et d'une solideité ad-\n\nmirades l'auteur passe en revue\n\nlout ce qui zend ce douzième\n\nsiècle si fécond, si mouvement\n\nsi vinant. D'abord c'est la déve\n\ncompensant très curieux d'une poésie",
+          "block_bbox": [
+            2169,
+            1024,
+            2955,
+            2016
+          ],
+          "block_id": 1,
+          "block_order": 1,
+          "group_id": 1,
+          "block_polygon_points": [
+            [
+              2169.0,
+              1024.0
+            ],
+            [
+              2955.0,
+              1024.0
+            ],
+            [
+              2955.0,
+              2016.0
+            ],
+            [
+              2169.0,
+              2016.0
+            ]
+          ]
+        }
+      ],
+      "layout_det_res": {
+        "boxes": [
+          {
+            "cls_id": 2,
+            "label": "aside_text",
+            "score": 0.3077089488506317,
+            "coordinate": [
+              1501,
+              1025,
+              2212,
+              1095
+            ],
+            "polygon_points": [
+              [
+                1501.0,
+                1025.0
+              ],
+              [
+                2212.0,
+                1025.0
+              ],
+              [
+                2212.0,
+                1095.0
+              ],
+              [
+                1501.0,
+                1095.0
+              ]
+            ]
+          },
+          {
+            "cls_id": 22,
+            "label": "text",
+            "score": 0.6015931963920593,
+            "coordinate": [
+              2169,
+              1024,
+              2955,
+              2016
+            ],
+            "order": 1,
+            "polygon_points": [
+              [
+                2169.0,
+                1024.0
+              ],
+              [
+                2955.0,
+                1024.0
+              ],
+              [
+                2955.0,
+                2016.0
+              ],
+              [
+                2169.0,
+                2016.0
+              ]
+            ]
+          }
+        ]
+      },
+      "doc_preprocessor_res": {
+        "model_settings": {
+          "use_doc_orientation_classify": true,
+          "use_doc_unwarping": true
+        },
+        "angle": 0
+      }
+    },
+    "markdown": {
+      "text": "Faut-il appeler Renseignement\n\nCet esser général du dos\n\nZàma sídola vend un élot de\n\ncirculation fort et harmonie\n\naux lot qu'il a sera accompli par\n\nZàma² Gu du moins faut-il et\n\nserver pour une partie de ce\n\nphénomène de l'éveil et de\n\nprogrès celle appellation de\n\nRenaissance qui nous est de\n\nvenue si familière, trop fami\n\ncière parfois pour étiquetron\n\ndes mouvements historiques.\n\nVoilà des questions bien gravées\n\npour qui allace que les valeurs\n\nà une terminologie exacte et\n\nsignificative dans l'histoire\n\nde l'espèce que vous connaissait,\n\nsoit par lecture ou de nom,\n\nla beau cirme de l'histoire\n\naméricain M. Haskiné, parmi il y\n\na trois ans, et appelle The Renaissance\n\nof the Twelfth Century. Dant\n\nuna série de chapitres d'une\n\nsichesses et d'une solideité ad-\n\nmirades l'auteur passe en revue\n\nlout ce qui zend ce douzième\n\nsiècle si fécond, si mouvement\n\nsi vinant. D'abord c'est la déve\n\ncompensant très curieux d'une poésie",
+      "images": {}
+    },
+    "outputImages": {
+      "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2Ff7344a1bc5e7eae8524e575b29416971e8325857c207d48d923b39ec0dc05af9"
+    },
+    "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F776e2e244004b586e5320d2f726a82b14dbaf07e228af9496bb9716523ee01f2"
+  }
+]
