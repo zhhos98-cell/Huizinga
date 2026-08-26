@@ -75,5 +75,47 @@
     "content": "Il me semble permis de regarder la relation du moyen âge à la tradition de l'antiquité sous une lumière un peu différente, pour bien comprendre la nature du long et lent processus dont, pendant sept siècles, du cinquième au douzième, sortira la civilisation nouvelle et indépendante, dont nous vivons toujours au fond ; je voudrais varier la parole évangélique :",
     "confidence": "medium-high",
     "source": "chunk_002_62-122.pdf p.2"
+  },
+  {
+    "page": 64,
+    "block_id": 3,
+    "content": "avec circonspection. Le moyen âge avait eu toujours devant soi le modèle de civilisation inimitable, et qui pourtant s'imposait. Il fallait liquider cette tradition classique, ou bien s'y adapter, ou bien la transformer pour s'en servir à nouvel usage. On faisait, ou du moins on tâchait de faire tous les trois. Saint Augustin, dans son œuvre magistrale et infiniment féconde, pourrait sembler avoir liquidé ce passé païen. Ce passé antique cependant reparaissait toujours, obligeait à en tenir compte.",
+    "confidence": "medium-high",
+    "source": "chunk_002_62-122.pdf p.3"
+  },
+  {
+    "page": 64,
+    "block_id": 4,
+    "content": "Au commencement, on en comprenait encore la superficie. Les poètes des temps mérovingiens, les Venantius Fortunatus, sont encore quasi classiques. Puis chaque fois que le moyen âge eut besoin de culture raffinée, d'un esprit d'élite, il eut recours au modèle classique. Ce qu'on s'est accoutumé d'appeler la renaissance carolingienne, c'est un de ces recours à un classicisme factice et superficiel qui devait couvrir la pauvreté d'une société encore barbare mais pleine d'aspirations à l'humanisme.",
+    "confidence": "medium-high",
+    "source": "chunk_002_62-122.pdf p.3"
+  },
+  {
+    "page": 65,
+    "block_id": 1,
+    "content": "Ce n'est pas de ces tentatives de classicisme que dépend la formation de la civilisation du moyen âge.",
+    "confidence": "high",
+    "source": "chunk_002_62-122.pdf p.4"
+  },
+  {
+    "page": 65,
+    "block_id": 2,
+    "content": "Tous les hommes, pendant ces siècles, qui réussirent à approfondir un peu mieux que les autres l'esprit classique, nous font l'effet d'un humaniste. Tel Alcuin au huitième, tel Gerbert au dixième. Il y a, tout le temps, un abîme entre l'état réel de la civilisation générale et cette culture quasi-classique qui était le privilège de quelques rares lettrés.",
+    "confidence": "medium-high",
+    "source": "chunk_002_62-122.pdf p.4"
+  },
+  {
+    "page": 65,
+    "block_id": 4,
+    "content": "Elle ne se développe pas par le moyen d'une littérature, mais d'abord et par les formes mêmes que prend la vie sociale : par le monasticisme, par la féodalité, par la formation d'organismes politiques, par l'organisation corporative de la vie communale et économique. Aucun de ces grands phénomènes ne devait beaucoup à l'inspiration ou à l'imitation des classiques.",
+    "confidence": "medium",
+    "source": "chunk_002_62-122.pdf p.4"
+  },
+  {
+    "page": 65,
+    "block_id": 5,
+    "content": "Et l'Europe du douzième siècle à son début se présente une société qui a atteint sa majorité.",
+    "confidence": "medium-high",
+    "source": "chunk_002_62-122.pdf p.4"
   }
 ]
