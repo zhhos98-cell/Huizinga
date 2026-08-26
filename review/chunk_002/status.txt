@@ -4,6 +4,7 @@ raw_ocr_sha: 8f18ee80abe94170255c4f1955d833ce4db96b3d
 raw_ocr_preserved: YES
 ocr_layer_substantive_review: CALIBRATED
 absolute_page_alignment: PENDING
+alignment_blocker: review/chunk_002/alignment_blocker_v1.md
 page_level_class_manifest: DEFERRED_UNTIL_ALIGNMENT_AND_SCAN_ACCESS
 visual_audit: NOT_COMPLETE
 retrieval_grade_visual_complete: NO
