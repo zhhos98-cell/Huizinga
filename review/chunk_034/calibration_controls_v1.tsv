@@ -1,0 +1,12 @@
+page	visual_class	visual_observation	raw_ocr_calibration	confidence
+p0001	blank/no-substantive	Blank light card on dark mount; no substantive visible text.	Raw OCR first record is empty; this is a true-empty control.	HIGH
+p0002	high-noise	Dense composite dark mounting board with multiple handwritten slips and an envelope/backside; nonlinear spatial reading order.	Raw OCR contains partly plausible fragments but catastrophic repeated Chinese character over-generation (`选`) with no visual support; scan-first for all substantive use.	HIGH
+p0005	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0009	blank/no-substantive	Blank light card/backside on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0014	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0017	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0021	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0024	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0028	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0032	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0039	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
