@@ -1,6 +1,6 @@
 # chunk_002 core-theme hits
 
-Calibration level: **substantive OCR-layer second pass; not visually complete**. Absolute `pXXXX` alignment remains pending. A scan segment for `p0123-p0183` is confirmed in the File Library but could not be opened/materialized in the current review environment.
+Calibration level: **substantive OCR-layer second pass; not visually complete**. Absolute `pXXXX` alignment remains pending. Two scan segments are now confirmed in the File Library: `p0001-p0061` and `p0123-p0183`. In the current review environment page-image rendering returned no scan images and raw-file materialization failed with HTTP 403, so neither segment is claimed as visually audited.
 
 ## Tier 1 — ludic competition and scholastic disputation
 
@@ -47,4 +47,6 @@ These are useful retrieval complexes but are secondary to the play/primitive/per
 
 The French twelfth-century passages are strong enough to be retained as first-order OCR-layer research leads, but exact wording, page IDs, document form and authorship remain scan-dependent. In particular, this file does not identify the passages as a specific published Huizinga text merely from OCR resemblance.
 
-See `review_summary_v1.md` and `ocr_anchor_index_v1.tsv` for the fuller calibration state.
+The two currently confirmed scan blocks (`p0001-p0061`, `p0123-p0183`) should be visually audited as soon as scan pixels become accessible. Coverage for `p0062-p0122` and material after `p0183` is not yet surfaced in the current Library listing and should remain explicitly unresolved.
+
+See `review_summary_v1.md`, `ocr_anchor_index_v1.tsv`, and `scan_availability_v1.tsv` for the fuller calibration state.
