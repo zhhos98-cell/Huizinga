@@ -1,12 +1,12 @@
 name: tmp-split-chunk002
 on:
-  push:
-    paths:
-      - '.github/workflows/tmp_split_chunk002.yml'
+  issues:
+    types: [opened]
 permissions:
   contents: write
 jobs:
   split:
+    if: github.event.issue.title == 'tmp trigger chunk002 split'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
