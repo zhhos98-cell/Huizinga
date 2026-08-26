@@ -1,3 +1,5 @@
 span	scan_source	availability	visual_review_status	note
-p0123-p0183	/Huizinga/chunk_002_123-183.pdf	CONFIRMED_IN_FILE_LIBRARY	NOT_REVIEWED_ACCESS_BLOCKED	61-page source is present in the Library, but current review environment could not read or materialize the PDF; no visual claims are made.
-outside_p0123-p0183	UNRESOLVED	NOT_CONFIRMED	NOT_REVIEWED	No additional scan coverage was securely confirmed in this pass. Do not infer absence; search again when continuing visual review.
+p0001-p0061	/Huizinga/chunk_002_1-61.pdf	CONFIRMED_IN_FILE_LIBRARY	NOT_REVIEWED_ACCESS_BLOCKED	61-page source confirmed in Library on 2026-08-26; current review environment returned no rendered page images and raw-file materialization failed with 403, so no visual claims are made.
+p0062-p0122	UNRESOLVED	NOT_CONFIRMED	NOT_REVIEWED	No scan source is currently surfaced in the Library listing used for this pass. Do not infer archival absence.
+p0123-p0183	/Huizinga/chunk_002_123-183.pdf	CONFIRMED_IN_FILE_LIBRARY	NOT_REVIEWED_ACCESS_BLOCKED	61-page source is present in the Library, but current review environment could not read rendered page images or materialize the PDF; no visual claims are made.
+after_p0183	UNRESOLVED	NOT_CONFIRMED	NOT_REVIEWED	No additional scan coverage is currently surfaced in the Library listing used for this pass. Do not infer archival absence.
