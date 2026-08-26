@@ -1,0 +1,20 @@
+chunk_038
+raw_ocr: NOT_FOUND_IN_CURRENT_REPOSITORY_SEARCH
+raw_ocr_preserved: NOT_APPLICABLE
+scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
+scan_total_pages: 226
+scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200;p0201-p0226
+reviewed_scan_spans: p0121-p0160
+reviewed_scan_pages: 40
+remaining_visual_spans: p0001-p0120;p0161-p0226
+page_level_visual_manifests: review/chunk_038/page_visual_run_manifest_p0121-p0160_v1.tsv
+page_level_visual_coverage: 40/226
+whole_chunk_page_level_visual_complete: NO
+page_level_ocr_usability_manifest: NOT_YET_COMPLETE
+ocr_string_semantic_proofread_all_nonblank_pages: NO
+current_visual_class_counts: high_noise_layout_risk=26;blank_no_substantive_visual=5;short_text_or_nontext=1;usable_with_noise_visual=8
+selective_high_resolution_short_or_nontext_controls: p0127
+selective_high_resolution_usable_packet: p0121-p0122;p0125-p0126;p0130-p0133
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;newspaper_columns;clipped_columns;rotations;nonlinear_reading_order;faint_text
+priority: review p0001-p0120 and p0161-p0226; exactly five supplied PDFs remain, sufficient for the next five-PDF round closure
+note: No indexed raw OCR file for chunk_038 was found in the current repository search. Round 008 visually classifies p0121-p0160; OCR strings were not exhaustively proofread page by page.

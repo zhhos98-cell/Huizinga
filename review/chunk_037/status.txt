@@ -1,18 +1,20 @@
 chunk_037
-raw_ocr: NOT_FOUND_IN_REPOSITORY_AS_OF_2026-08-26
-raw_ocr_preserved: N/A
+raw_ocr: NOT_FOUND_IN_CURRENT_REPOSITORY_SEARCH
+raw_ocr_preserved: NOT_APPLICABLE
 scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
 scan_total_pages: 243
 scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200;p0201-p0240;p0241-p0243
-reviewed_scan_spans: p0001-p0120
-reviewed_scan_pages: 120
-remaining_visual_spans: p0121-p0243
-page_level_visual_manifests: review/chunk_037/page_visual_run_manifest_p0001-p0120_v1.tsv
-page_level_visual_coverage: 120/243
-whole_chunk_page_level_visual_complete: NO
+reviewed_scan_spans: p0001-p0243
+reviewed_scan_pages: 243
+remaining_visual_spans: NONE
+page_level_visual_manifests: review/chunk_037/page_visual_run_manifest_p0001-p0120_v1.tsv;review/chunk_037/page_visual_run_manifest_p0121-p0243_v1.tsv
+page_level_visual_coverage: 243/243
+whole_chunk_page_level_visual_complete: YES
+page_level_ocr_usability_manifest: NOT_YET_COMPLETE
 ocr_string_semantic_proofread_all_nonblank_pages: NO
-current_visual_class_counts: high_noise_layout_risk=82;blank_no_substantive_visual=31;short_text_or_nontext=0;usable_with_noise_visual=7
-linear_or_manuscript_usable_packet: p0058;p0112-p0117
-layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;typewriting;small_source_regions;blank_source_cards;rotations;nonlinear_reading_order
-priority: review p0121-p0243 to close the 243-page visual layer
-note: This is page-level visual/layout calibration. No chunk_037 raw OCR file was found in the current repository search, so no OCR-string corrections are claimed.
+whole_chunk_visual_class_counts: high_noise_layout_risk=174;blank_no_substantive_visual=61;short_text_or_nontext=1;usable_with_noise_visual=7
+selective_high_resolution_short_or_nontext_controls: p0218
+selective_high_resolution_usable_packet: p0058;p0112-p0117
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;rotations;nonlinear_reading_order
+priority: retrieval-grade visual layer closed; perform OCR-string audit only if OCR usability closure is required
+note: No indexed raw OCR file for chunk_037 was found in the current repository search. Round 008 closes p0121-p0243 and the full 243-page visual layer; OCR strings were not exhaustively proofread page by page.
