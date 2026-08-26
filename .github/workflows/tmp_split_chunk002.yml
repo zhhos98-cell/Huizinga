@@ -1,21 +1,45 @@
-name: tmp-split-chunk002
+name: chunk002-pdf-correction
 on:
   push:
     paths:
       - '.github/workflows/tmp_split_chunk002.yml'
+      - 'corrections/chunk_002_manual.json'
 permissions:
   contents: write
 jobs:
-  split:
+  correct:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Split rough OCR JSON page-by-page
+      - name: Apply PDF-verified corrections and split pages
         run: |
           python - <<'PY'
           import json, pathlib
           src = pathlib.Path('chunk_002.pdf_by_PaddleOCR-VL-1.6.json')
           data = json.loads(src.read_text(encoding='utf-8'))
+          patch_path = pathlib.Path('corrections/chunk_002_manual.json')
+          if patch_path.exists():
+              patches = json.loads(patch_path.read_text(encoding='utf-8'))
+              for p in patches:
+                  page_no = int(p['page'])
+                  block_id = int(p['block_id'])
+                  blocks = data[page_no-1]['prunedResult']['parsing_res_list']
+                  target = next((b for b in blocks if int(b.get('block_id', -1)) == block_id), None)
+                  if target is None:
+                      raise RuntimeError(f'missing page {page_no} block {block_id}')
+                  target['block_content'] = p['content']
+              ignore = {'number','footnote','header','header_image','footer','footer_image','aside_text'}
+              for page in data:
+                  if 'markdown' not in page:
+                      continue
+                  text=[]
+                  for b in page.get('prunedResult',{}).get('parsing_res_list',[]):
+                      c=(b.get('block_content') or '').strip()
+                      if c and b.get('block_label') not in ignore:
+                          text.append(c)
+                  page['markdown']['text']='\n\n'.join(text)
+          corrected = pathlib.Path('chunk_002.pdf_by_PaddleOCR-VL-1.6.corrected.json')
+          corrected.write_text(json.dumps(data, ensure_ascii=False, separators=(',',':')), encoding='utf-8')
           out = pathlib.Path('_tmp_chunk002_pages')
           out.mkdir(exist_ok=True)
           for i, page in enumerate(data, 1):
@@ -29,10 +53,10 @@ jobs:
               (out/f'p{i:03d}.txt').write_text('\n\n'.join(lines), encoding='utf-8')
           (out/'manifest.txt').write_text(f'pages={len(data)}\n', encoding='utf-8')
           PY
-      - name: Commit page files
+      - name: Commit corrected copy and page files
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add _tmp_chunk002_pages
-          git commit -m 'tmp: split chunk_002 OCR JSON page by page' || exit 0
+          git add chunk_002.pdf_by_PaddleOCR-VL-1.6.corrected.json _tmp_chunk002_pages
+          git commit -m 'data: apply PDF-verified chunk_002 OCR corrections' || exit 0
           git push
