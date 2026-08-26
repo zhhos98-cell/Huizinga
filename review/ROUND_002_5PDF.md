@@ -12,35 +12,31 @@ Operational unit: five supplied scan PDFs. Raw PaddleOCR JSON files are preserve
 4. `chunk_034__p0041-0080.pdf` — 40 pages
 5. `chunk_034__p0121-0160.pdf` — 40 pages
 
-Total scan pages visually swept: **263**.
+Total scan pages reviewed: **263**.
 
-## Per-PDF calibration result
+## `chunk_002` — three PDFs / 183 pages
 
-### `chunk_002_1-61.pdf`
+The three contiguous 61-page PDFs were reviewed page by page across `p0001-p0183`. The scan set is dominated by dark-background archival/microfilm-style images carrying pale slips, cards, forms, typewritten sheets, manuscript leaves, signatures, stamps, and rotated or paired source objects.
 
-The 61 pages are dark-background archival/microfilm-style scans, commonly carrying one or two pale paper slips, cards, forms, or manuscript leaves. Small typewriting, handwriting, signatures/stamps, source-object borders, rotations, and paired objects are the principal OCR hazards. Some photographed cards are genuinely blank or nearly blank; local p20 is a direct visual control showing blank source objects rather than missing rendering. No gross renderer failure, whole-page duplication, or sequence-level visual break was observed.
+Round 002 upgrades the former macro-only state to a true **183/183 page-level visual manifest** and an exhaustive baseline OCR empty/nonempty-signal audit. The raw split OCR is empty on ten pages:
 
-This is a revalidation of the already calibrated `chunk_002` scan set, not a replacement calibration. No new macro-level finding requires overriding the existing corrected/review layer.
+`p0001;p0005;p0015;p0016;p0048;p0053;p0096;p0137;p0174;p0175`
 
-### `chunk_002_62-122.pdf`
+Nine are visually true blank/no-substantive pages. `p0016` is the single false-empty recovery: the OCR signal is empty while faint substantive text is visible in the scan.
 
-All 61 pages were visually swept. The same dark-mount archival structure continues: typed and manuscript sheets, cards/forms, occasional headings/logos, and recurrent blank or near-blank source objects. OCR risk remains concentrated in small source regions, handwriting, rotations, card/background segmentation, and multi-object reading order. No gross rendering catastrophe or sequence-level duplication was observed.
+Two nonempty machine-pathology controls remain especially strong: `p0089`, where normal continuous French handwriting becomes catastrophic repeated-number/table-like OCR output, and `p0143`, where a backside/blank-slip montage produces unsupported modern `2024`/numeric material.
 
-Result: existing `chunk_002` calibration is revalidated at macro level.
+Visual/layout manifest counts are: `usable-with-noise=138`, `high-noise=32`, `blank-no-substantive=9`, `short-text=3`, `false-empty-recovery=1`.
 
-### `chunk_002_123-183.pdf`
+This is page-level visual and false-empty closure, not line-by-line semantic proofreading of every nonempty OCR string. Exact quotation remains scan-first.
 
-All 61 pages were visually swept. The sequence again consists of archival boards or dark backgrounds carrying pale source objects, with mixed manuscript, typewritten, form, and card material. Later pages include several sparse or nearly blank photographed source sheets/cards. These are documentary objects, not evidence of dropped PDF rendering. No gross rendering failure or whole-page duplication was observed.
-
-Result: existing `chunk_002` calibration is revalidated at macro level.
-
-### `chunk_034__p0041-0080.pdf`
+## `chunk_034__p0041-0080.pdf` — 40 pages
 
 All 40 pages were visually swept. The segment continues the dark-background archival-card sequence, with small typed/handwritten record content, signatures, stamps, numbers, and index-card layouts. Local p33 (absolute `chunk_034:p0073`) was re-rendered at higher resolution and confirmed as a genuine blank source card on a dark background, not a rendering failure. No gross page-order or rendering break was observed.
 
 Result: macro visual calibration PASS for `p0041-p0080`; `p0073` is added as a high-confidence blank/no-substantive negative control.
 
-### `chunk_034__p0121-0160.pdf`
+## `chunk_034__p0121-0160.pdf` — 40 pages
 
 All 40 pages were visually swept. The same archival-card structure continues; denser writing is visible in parts of the later local sequence, while several pages are sparse or blank-card records. Local p5 (absolute `chunk_034:p0125`) was checked at higher resolution and confirmed as a genuine blank source card on a dark background. No gross rendering catastrophe was observed.
 
@@ -49,11 +45,11 @@ Result: macro visual calibration PASS for `p0121-p0160`; `p0125` is added as a h
 ## Round result
 
 - **5 PDFs / 263 pages** completed.
-- `chunk_002:p0001-p0183` received a complete second macro visual revalidation across all three 61-page source PDFs.
-- `chunk_034` gained **80 newly reviewed pages**, bringing macro-reviewed coverage to `p0001-p0080` and `p0121-p0160`.
+- `chunk_002:p0001-p0183`: page-level visual coverage **183/183 COMPLETE**; baseline empty/false-empty audit **183/183 COMPLETE**; one false-empty recovery at `p0016`.
+- `chunk_034`: **80 newly reviewed pages**, bringing macro-reviewed coverage to `p0001-p0080` and `p0121-p0160`; new true-blank controls at `p0073` and `p0125`.
 - A photographed blank card/sheet must not be treated as a missing rendered page. Blank-source controls remain important OCR negative controls.
-- Dominant OCR hazards in this round are dark-background/source-object segmentation, tiny typewriting, handwriting/signatures/stamps, rotation, multi-object pages, and semantic over-generation on sparse/composite archival layouts.
+- Dominant OCR hazards are dark-background/source-object segmentation, tiny typewriting, handwriting/signatures/stamps, rotation, multi-object pages, nonlinear reading order, and semantic over-generation on sparse/composite archival layouts.
 
 ## Calibration policy
 
-This round is a macro visual calibration/revalidation pass with direct control pages. It does not claim diplomatic transcription or a complete page-level OCR usability/false-empty manifest. Exact quotation from manuscript/composite pages remains scan-first. Raw PaddleOCR JSON files remain unchanged.
+Raw PaddleOCR JSON remains unchanged. `chunk_002` has genuine page-level visual and baseline false-empty closure, but not full semantic proofreading of every nonempty OCR string. The newly reviewed `chunk_034` spans remain macro calibration with direct control pages rather than diplomatic transcription or a complete page-level OCR usability manifest. Exact quotation from manuscript/composite pages remains scan-first.
