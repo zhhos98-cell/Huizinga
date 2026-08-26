@@ -10,7 +10,12 @@ It is **not** a retrieval-grade visual completion. Absolute `pXXXX` alignment of
 
 ## Scan situation
 
-A scan source for `p0123-p0183` is confirmed in the File Library as `/Huizinga/chunk_002_123-183.pdf`. In the current review environment the PDF could not be read or materialized, so those 61 pages are **not claimed as visually audited**. Scan coverage outside that segment has not been confirmed in this pass.
+Two scan sources are now confirmed in the File Library:
+
+- `p0001-p0061`: `/Huizinga/chunk_002_1-61.pdf`
+- `p0123-p0183`: `/Huizinga/chunk_002_123-183.pdf`
+
+Both are 61-page segments. In the current review environment the PDF page-image reader returned no rendered scan images, and raw-file materialization failed with HTTP 403. Therefore neither segment is **claimed as visually audited**. Coverage for `p0062-p0122` and material after `p0183` is not currently surfaced in the Library listing used for this pass; this must not be treated as evidence that those scans do not exist.
 
 ## Substantive structure established from raw OCR
 
