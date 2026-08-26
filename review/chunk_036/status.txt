@@ -1,0 +1,21 @@
+chunk_036
+raw_ocr: PRESENT
+raw_ocr_sha: 9ab00b5cf6de19d316c9c9e3d5fbb2fe395a083d
+raw_ocr_preserved: YES
+scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
+scan_total_pages: 240
+scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200;p0201-p0240
+reviewed_scan_spans: p0001-p0160
+reviewed_scan_pages: 160
+remaining_visual_spans: p0161-p0240
+page_level_visual_manifests: review/chunk_036/page_visual_run_manifest_p0001-p0160_v1.tsv
+page_level_visual_coverage: 160/240
+whole_chunk_page_level_visual_complete: NO
+page_level_ocr_usability_manifest: NOT_YET_COMPLETE
+ocr_string_semantic_proofread_all_nonblank_pages: NO
+current_visual_class_counts: high_noise_layout_risk=113;blank_no_substantive_visual=39;short_text_or_nontext=4;usable_with_noise_visual=4
+selective_high_resolution_short_or_nontext_controls: p0041-p0042;p0047-p0048
+selective_high_resolution_usable_packet: p0043-p0046
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;typewriting;small_source_regions;blank_source_cards;rotations;nonlinear_reading_order
+priority: review p0161-p0240 to close the 240-page visual layer
+note: Raw JSON remains unchanged. Round 006 visually classifies p0001-p0160; OCR strings were not exhaustively proofread page by page.
