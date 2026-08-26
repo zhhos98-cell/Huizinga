@@ -1,0 +1,20 @@
+chunk_045
+raw_ocr: PRESENT
+raw_ocr_preserved: YES
+scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
+scan_total_pages: 200
+scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200
+reviewed_scan_spans: p0001-p0200
+reviewed_scan_pages: 200
+remaining_visual_spans: NONE
+page_level_visual_manifests: review/chunk_045/page_visual_run_manifest_p0001-p0200_v1.tsv
+page_level_visual_coverage: 200/200
+whole_chunk_page_level_visual_complete: YES
+page_level_ocr_usability_manifest: COMPLETE
+ocr_string_semantic_proofread_all_nonblank_pages: NO
+current_visual_class_counts: high_noise_layout_risk=77;blank_no_substantive_visual=30;short_text_or_nontext=14;usable_with_noise_visual=79
+selective_high_resolution_short_or_nontext_controls: p0011;p0015;p0022;p0075-p0077;p0098;p0115;p0127;p0131;p0160-p0161;p0190;p0194
+selective_high_resolution_usable_packet: p0001-p0008;p0010;p0012-p0014;p0016-p0020;p0023-p0069;p0074;p0078;p0085;p0087-p0091;p0100;p0124-p0125;p0145;p0167;p0192-p0193
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;postcards;maps_or_diagrams;nonlinear_reading_order;faint_text
+priority: none; supplied chunk scan set visually closed
+note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
