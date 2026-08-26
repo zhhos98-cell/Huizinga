@@ -4,17 +4,17 @@ raw_ocr_preserved: YES
 scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
 scan_total_pages: 212
 scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200;p0201-p0212
-reviewed_scan_spans: p0001-p0200
-reviewed_scan_pages: 200
-remaining_visual_spans: p0201-p0212
-page_level_visual_manifests: review/chunk_043/page_visual_run_manifest_p0001-p0200_v1.tsv
-page_level_visual_coverage: 200/212
-whole_chunk_page_level_visual_complete: NO
-page_level_ocr_usability_manifest: NOT_YET_COMPLETE
+reviewed_scan_spans: p0001-p0212
+reviewed_scan_pages: 212
+remaining_visual_spans: NONE
+page_level_visual_manifests: review/chunk_043/page_visual_run_manifest_p0001-p0200_v1.tsv;review/chunk_043/page_visual_run_manifest_p0201-p0212_v1.tsv
+page_level_visual_coverage: 212/212
+whole_chunk_page_level_visual_complete: YES
+page_level_ocr_usability_manifest: COMPLETE
 ocr_string_semantic_proofread_all_nonblank_pages: NO
-current_visual_class_counts: high_noise_layout_risk=131;blank_no_substantive_visual=43;short_text_or_nontext=15;usable_with_noise_visual=11
+current_visual_class_counts: high_noise_layout_risk=139;blank_no_substantive_visual=46;short_text_or_nontext=15;usable_with_noise_visual=12
 selective_high_resolution_short_or_nontext_controls: p0010;p0024;p0028;p0033-p0034;p0039;p0070;p0098;p0116;p0121;p0133;p0162;p0182;p0187;p0196
-selective_high_resolution_usable_packet: p0016-p0018;p0042;p0056-p0057;p0118;p0172;p0195;p0199-p0200
+selective_high_resolution_usable_packet: p0016-p0018;p0042;p0056-p0057;p0118;p0172;p0195;p0199-p0200;p0202
 layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;rotations;nonlinear_reading_order;faint_text
-priority: review supplied tail p0201-p0212
+priority: none; whole chunk visually closed
 note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
