@@ -4,21 +4,34 @@ This directory calibrates `chunk_033.pdf_by_PaddleOCR-VL-1.6.json` against the s
 
 ## Current calibration level
 
-A macro visual audit is complete for 156 scan pages in four supplied segments: `p0041-p0080`, `p0081-p0120`, `p0121-p0160`, and `p0201-p0236`.
+All four currently available scan segments now have explicit page-level visual classification:
 
-The two missing spans `p0001-p0040` and `p0161-p0200` prevent chunk-level closure. The present layer is therefore scan-calibrated but partial. It is designed for retrieval and triage, not diplomatic transcription, and does not claim a full page-by-page OCR usability manifest.
+- `p0041-p0080` — 40/40 pages
+- `p0081-p0120` — 40/40 pages
+- `p0121-p0160` — 40/40 pages
+- `p0201-p0236` — 36/36 pages
+
+That gives **156/156 available scan pages visually classified**. The two missing spans `p0001-p0040` and `p0161-p0200` still prevent whole-chunk closure.
+
+The compact `page_visual_run_manifest_available_spans_v1.tsv` encodes contiguous page runs with the same class/flags. It is a lossless compression of the page-level visual classification rather than a macro/contact-sheet-only label.
+
+This work is still not diplomatic transcription and does not claim exhaustive OCR-string proofreading for every nonblank page. Newly classified pages carry `ocr_signal=not_crosschecked_in_this_round` unless an earlier exact control or a new high-resolution control exists.
 
 ## Main visual result
 
-The reviewed material is strongly layout-dependent. Much of `p0041-p0160` consists of dark mounting boards carrying multiple slips, cards, letters, forms and clippings, often with handwriting, skew, rotated fragments and two-up/composite layouts. `p0201-p0236` continues with correspondence, manuscript material, cards and printed clippings/brochure-like pieces.
+The dominant regime is the dark archival mounting board: multiple small handwritten or typed slips, envelopes, clipped fragments and nonlinear reading order. Smaller groups of full-sheet manuscript/notebook leaves and printed clippings are materially more OCR-friendly.
 
-A direct pathology control is visible at `p0041`: the scan is a composite board of handwritten slips, while the corresponding rough OCR around the visible `[25]g` archival header contains mixed-script substitutions and invented table semantics. Exact quotation from such mounted-board pages must remain scan-first.
+`p0041` remains the principal direct pathology control: the scan is a dense handwritten composite board while the rough OCR contains mixed-script substitutions and invented table-like semantics.
 
-Confirmed visual blank/minimal controls within the first supplied segment include `p0046`, `p0052`, `p0056`, `p0060`, `p0068`, and `p0071`; `p0049` is an envelope/backside with only faint marks. See `calibration_controls_v1.tsv`.
+The expanded visual pass establishes 27 blank/no-substantive pages across the available spans. High-resolution controls at `p0094`, `p0123`, and `p0204` confirm that recurring pale source sheets/cards can be genuinely blank rather than rendering failures. `p0205` is a useful opposite sparse control: a small note/envelope source region is visibly present, so the page is minimal but not blank.
 
 ## Files
 
 - `status.txt` — compact machine-readable state.
-- `scan_availability_v1.tsv` — supplied and missing scan spans.
-- `calibration_controls_v1.tsv` — exact scan-level pathology/blank/minimal controls established in this pass.
-- `review_summary_v1.md` — narrative account of the current partial visual calibration.
+- `scan_availability_v1.tsv` — supplied/missing scan spans and page-level review status.
+- `page_visual_run_manifest_available_spans_v1.tsv` — compact page-level visual classification for all 156 available scan pages.
+- `calibration_controls_v1.tsv` — exact pathology/blank/minimal controls.
+- `review_summary_v2.md` — strict scope, counts and limits of the page-level pass.
+- `review_summary_v1.md` — earlier macro-level calibration narrative.
+
+Whole-chunk completion is not claimed until `p0001-p0040` and `p0161-p0200` are supplied/reviewed. Full OCR-usability closure would additionally require page-by-page semantic checking of the raw OCR layer.
