@@ -1,0 +1,19 @@
+chunk_034
+raw_ocr: PRESENT
+raw_ocr_sha: 77f37da1caa09d15d7728f74bc33d992ce32a69f
+raw_ocr_preserved: YES
+scan_access: PARTIAL_WORKING_LOCAL_RENDER_ACCESS
+reviewed_scan_spans: p0001-p0040
+reviewed_scan_pages: 40
+available_but_not_reviewed_this_round: p0121-p0160
+not_supplied_in_current_review_input: p0041-p0120;after_p0160_not_assessed
+macro_visual_sweep_reviewed_spans: COMPLETE
+page_level_ocr_usability_manifest: NOT_YET_COMPLETE
+visual_audit: PARTIAL_MACRO_COMPLETE_FOR_P0001_P0040
+retrieval_grade_visual_complete: NO
+true_empty_control: p0001_blank_card_and_empty_raw_OCR
+catastrophic_overgeneration_control: p0002_dense_composite_board_vs_repeated_Chinese_character_sequence_in_raw_OCR
+verified_blank_no_substantive_controls: p0001;p0005;p0009;p0014;p0017;p0021;p0024;p0028;p0032;p0039
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;envelope_backs;small_source_regions;nonlinear_reading_order
+priority: continue_scan_batches; obtain_or_supply_missing_intervening_spans; build_full_page_level_OCR_usability_false_empty_manifest_before_chunk_closure
+note: Raw JSON remains unchanged. Corrections and confidence limits live only in the review layer.
