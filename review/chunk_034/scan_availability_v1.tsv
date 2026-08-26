@@ -1,0 +1,5 @@
+span	scan_source	availability	visual_review_status	note
+p0001-p0040	chunk_034__p0001-0040.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	40 pages rendered and inspected in the current five-PDF round; mounted slip boards and recurring blank/backside pages dominate.
+p0041-p0120	current review input	NOT_AVAILABLE_IN_CURRENT_REVIEW_INPUT	NOT_REVIEWED	No scan segment for this intervening span was supplied in the current review input.
+p0121-p0160	chunk_034__p0121-0160.pdf	CONFIRMED_LOCAL_SCAN	NOT_REVIEWED_THIS_ROUND	Available locally but intentionally deferred because the current review unit is five PDFs.
+after_p0160	current review input	NOT_ASSESSED	NOT_REVIEWED	No claim is made here about later scan availability or chunk extent.
