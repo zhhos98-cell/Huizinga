@@ -1,6 +1,8 @@
 # chunk_032 OCR page-class index
 
-This is an OCR-only triage index for `chunk_032:p0001-p0235`. No chunk-032 scan PDF is currently available in the review workspace or File Library, so every class below remains **visually unverified**. Raw PaddleOCR text is preserved unchanged.
+This is the canonical OCR-only triage index for `chunk_032:p0001-p0235`. A second pass through the raw PaddleOCR JSON has now refined the packet interpretation and research anchors, but **no chunk-032 scan PDF is currently available**, so every class below remains visually unverified. Raw PaddleOCR text is preserved unchanged.
+
+Second-pass calibration status: **OCR layer calibrated for retrieval/triage; visual audit still blocked by scan unavailability.** No baseline-empty page has been reclassified without a scan.
 
 ## baseline-empty-unresolved — 66
 
@@ -26,12 +28,21 @@ p0005,p0016,p0018,p0022,p0032,p0035,p0036,p0039,p0040,p0041,p0043,p0044,p0046,p0
 
 This class marks pages with strong evidence of semantic hallucination, mixed-script substitution, repetitive over-generation, modern stock prose/URLs, numerical runs, or severe corruption. It does not imply that the underlying scan lacks useful content.
 
-## Provisional packet map
+## Refined provisional packet map
 
-- `A1 p0001-p0028`: pre-Revolution/mixed historical notes, heavily corrupted OCR.
-- `A2 p0029-p0043`: early 1789 / Revolution source and bibliography anchors.
-- `A3 p0044-p0107`: mixed political/social-history notes, severe OCR instability.
-- `A4 p0108-p0159`: strongest OCR-coherent French Revolution working complex.
-- `A5 p0160-p0180`: Leiden office/stationery and administrative transition; includes `p0175` with “J. HUIZINGA, Voorzitter, Leiden. L. VAN ITALLIE, Leiden.”
-- `A6 p0181-p0218`: mixed medieval/bibliographical/working notes; many pathological pages.
-- `A7 p0219-p0235`: academic-relief/committee fragments mixed with unrelated working notes; `p0233` contains the clearest Huizinga/POW-student aid anchor.
+- `A1 p0001-p0028`: heavily corrupted pre-Revolution/mixed historical notes. `p0022` `ethnologia` is a machine-corruption negative control.
+- `A2 p0029-p0043`: early Revolution/1789 source and bibliography anchors.
+- `A3 p0044-p0107`: mixed political/social-history notes with severe semantic instability.
+- `A4 p0108-p0159`: strongest OCR-coherent packet. Second pass establishes a source-triangulation sequence involving Assemblée nationale biographical/reference lookup, Robespierre/Lafayette/Dumouriez, Convention/Frimaire, Barère/Le Chapelier, and Stanhope/Pitt checked against `Parliamentary History`.
+- `A5 p0160-p0180`: Leiden administrative/stationery/institutional transition; `p0175` has `J. HUIZINGA, Voorzitter, Leiden. L. VAN ITALLIE, Leiden.` Possible relation to A7 remains unresolved.
+- `A6 p0181-p0218`: mixed medieval/bibliographical working notes; many pathological or empty records.
+- `A7 p0219-p0235`: academic-relief / POW-and-interned-student committee material amid noisy pages. `p0233` is the clearest anchor; OCR describes aid for `krijgsgevangen of geinterneerde studenten` and names Huizinga as `Voorzitter`.
+
+## Second-pass research controls
+
+- Strongest methodological hit: A4 historical source triangulation and parliamentary cross-checking.
+- Strongest institutional hit: A7 academic relief for prisoner/interned students, with Huizinga as chair.
+- No secure `Malinowski`, `primitive/primitief`, Rockefeller Memorial or first-order play/game hit was established in the raw OCR.
+- `ethnologia` at `p0022` and OCR `play` strings on pathological pages are explicitly rejected as research hits.
+
+See `ocr_anchor_index_v1.tsv`, `core_theme_hits_v1.md` and `review_summary_v1.md` for the calibrated interpretation.
