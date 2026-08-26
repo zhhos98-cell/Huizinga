@@ -1,7 +1,7 @@
 span	scan_source	availability	visual_review_status	note
-p0001-p0040	chunk_033__p0001-0040.pdf	NOT_AVAILABLE_IN_CURRENT_REVIEW_INPUT	NOT_REVIEWED	Missing from the supplied scan set.
+p0001-p0040	chunk_033__p0001-0040.pdf	CONFIRMED_LOCAL_SCAN	PAGE_LEVEL_VISUAL_COMPLETE	40/40 pages visually classified in round 004; p0001 high-resolution blank control.
 p0041-p0080	chunk_033__p0041-0080.pdf	CONFIRMED_LOCAL_SCAN	PAGE_LEVEL_VISUAL_COMPLETE	40/40 pages rendered and visually classified; mounted boards dominate, with blank/minimal controls and later notebook/printed material.
 p0081-p0120	chunk_033__p0081-0120.pdf	CONFIRMED_LOCAL_SCAN	PAGE_LEVEL_VISUAL_COMPLETE	40/40 pages rendered and visually classified; clippings, letters/forms, sparse cards and mounted composites; p0094 high-resolution blank control.
 p0121-p0160	chunk_033__p0121-0160.pdf	CONFIRMED_LOCAL_SCAN	PAGE_LEVEL_VISUAL_COMPLETE	40/40 pages rendered and visually classified; mounted slip/envelope rhythm with recurring genuine blank cards; p0123 high-resolution blank control.
-p0161-p0200	chunk_033__p0161-0200.pdf	NOT_AVAILABLE_IN_CURRENT_REVIEW_INPUT	NOT_REVIEWED	Missing from the supplied scan set.
+p0161-p0200	chunk_033__p0161-0200.pdf	CONFIRMED_LOCAL_SCAN	PAGE_LEVEL_VISUAL_COMPLETE	40/40 pages visually classified in round 004; p0161 high-resolution blank control.
 p0201-p0236	chunk_033__p0201-0236.pdf	CONFIRMED_LOCAL_SCAN	PAGE_LEVEL_VISUAL_COMPLETE	36/36 pages rendered and visually classified; mounted correspondence/slips dominate; p0204 high-resolution blank control and p0205 sparse-note control.

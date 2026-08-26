@@ -3,21 +3,21 @@ raw_ocr: PRESENT
 raw_ocr_sha: 77f37da1caa09d15d7728f74bc33d992ce32a69f
 raw_ocr_preserved: YES
 scan_access: PARTIAL_WORKING_LOCAL_RENDER_ACCESS
-reviewed_scan_spans: p0001-p0080;p0121-p0160;p0201-p0240
-reviewed_scan_pages: 160
-available_but_not_reviewed_this_round: p0241-p0246
-not_available_in_current_local_scan_set: p0081-p0120;p0161-p0200
-page_level_visual_manifests: review/chunk_034/page_visual_manifest_p0001-p0080_v1.tsv;review/chunk_034/page_visual_manifest_p0121-p0160_v1.tsv;review/chunk_034/page_visual_run_manifest_p0201-p0240_v1.tsv
-page_level_visual_coverage: 160/246
+reviewed_scan_spans: p0001-p0080;p0121-p0246
+reviewed_scan_pages: 206
+not_available_in_current_local_scan_set: p0081-p0120
+page_level_visual_manifests: review/chunk_034/page_visual_manifest_p0001-p0080_v1.tsv;review/chunk_034/page_visual_manifest_p0121-p0160_v1.tsv;review/chunk_034/page_visual_run_manifest_p0161-p0200_v1.tsv;review/chunk_034/page_visual_run_manifest_p0201-p0240_v1.tsv;review/chunk_034/page_visual_run_manifest_p0241-p0246_v1.tsv
+page_level_visual_coverage: 206/246
 whole_chunk_page_level_visual_complete: NO
 page_level_ocr_usability_manifest: NOT_YET_COMPLETE
 ocr_string_semantic_proofread_all_nonblank_pages: NO
 true_empty_control: p0001_blank_card_and_empty_raw_OCR
 catastrophic_overgeneration_control: p0002_dense_composite_board_vs_repeated_Chinese_character_sequence_in_raw_OCR
-verified_blank_no_substantive_controls: p0001;p0005;p0009;p0014;p0017;p0021;p0024;p0028;p0032;p0039;p0073;p0125;p0201;p0205;p0208;p0214;p0222;p0225;p0228;p0233;p0238
-high_resolution_blank_controls: p0073;p0125;p0201
+verified_blank_no_substantive_controls: p0001;p0005;p0009;p0014;p0017;p0021;p0024;p0028;p0032;p0039;p0073;p0125;p0164;p0168;p0171;p0177;p0182;p0187;p0191;p0198;p0201;p0205;p0208;p0214;p0222;p0225;p0228;p0233;p0238;p0242
+high_resolution_blank_controls: p0073;p0125;p0198;p0201;p0242
 high_resolution_short_text_control: p0217
-p0201_p0240_visual_class_counts: high_noise_layout_risk=29;blank_no_substantive_visual=9;short_text_or_nontext=2
+p0161_p0200_visual_class_counts: high_noise_layout_risk=26;blank_no_substantive_visual=8;usable_with_noise_visual=2;short_text_or_nontext=4
+p0241_p0246_visual_class_counts: high_noise_layout_risk=5;blank_no_substantive_visual=1
 layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;typewriting;signatures;stamps;blank_source_cards;small_source_regions;rotations;nonlinear_reading_order
-priority: review_p0241-p0246_in_next_batch; obtain_or_supply_p0081-p0120_and_p0161-p0200; perform full OCR-string audit only if OCR usability closure is required
-note: Raw JSON remains unchanged. The new p0201-p0240 work is page-level visual/layout calibration; OCR strings were not exhaustively proofread page by page.
+priority: obtain_or_supply_p0081-p0120; perform full OCR-string audit only if OCR usability closure is required
+note: Raw JSON remains unchanged. The p0161-p0200 span and final six-page tail now have page-level visual classifications; OCR strings were not exhaustively proofread page by page.

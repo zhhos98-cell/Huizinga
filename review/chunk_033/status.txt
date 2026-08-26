@@ -2,20 +2,20 @@ chunk_033
 raw_ocr: PRESENT
 raw_ocr_sha: 3cc46a02b7d9506916fe7d597defb9c9795ed473
 raw_ocr_preserved: YES
-scan_access: PARTIAL_WORKING_LOCAL_RENDER_ACCESS
-reviewed_scan_spans: p0041-p0160;p0201-p0236
-reviewed_scan_pages: 156
-missing_scan_spans: p0001-p0040;p0161-p0200
-page_level_visual_manifest: review/chunk_033/page_visual_run_manifest_available_spans_v1.tsv
-page_level_visual_coverage_of_available_scans: 156/156 COMPLETE
-whole_chunk_page_level_visual_complete: NO
+scan_access: COMPLETE_LOCAL_SCAN_SET
+reviewed_scan_spans: p0001-p0236
+reviewed_scan_pages: 236
+missing_scan_spans: NONE
+page_level_visual_manifests: review/chunk_033/page_visual_run_manifest_available_spans_v1.tsv;review/chunk_033/page_visual_run_manifest_round004_missing_spans_v1.tsv
+page_level_visual_coverage: 236/236 COMPLETE
+whole_chunk_page_level_visual_complete: YES
 page_level_ocr_usability_manifest: NOT_YET_COMPLETE
 ocr_string_semantic_proofread_all_nonblank_pages: NO
-visual_class_counts: high_noise_layout_risk=98;blank_no_substantive_visual=27;usable_with_noise_visual=20;short_text_or_nontext=11
+visual_class_counts: high_noise_layout_risk=152;blank_no_substantive_visual=45;usable_with_noise_visual=23;short_text_or_nontext=16
 direct_machine_pathology_control: p0041_composite_handwritten_board_vs_mixed_script_and_invented_table_semantics_in_rough_OCR
-high_resolution_blank_controls: p0094;p0123;p0204
-verified_blank_no_substantive_controls: p0046;p0052;p0056;p0060;p0071;p0094;p0099;p0106;p0110;p0115;p0119;p0123;p0126;p0130;p0133;p0136;p0139;p0145;p0151;p0156;p0204;p0208;p0213;p0216;p0222;p0230;p0233
-verified_short_text_minimal_controls: p0049;p0068;p0069;p0072;p0087;p0088;p0089;p0090;p0146;p0157;p0205
+high_resolution_blank_controls: p0001;p0094;p0123;p0161;p0204
+verified_blank_no_substantive_controls: p0001;p0006;p0009;p0013;p0019;p0027;p0030;p0034;p0046;p0052;p0056;p0060;p0071;p0094;p0099;p0106;p0110;p0115;p0119;p0123;p0126;p0130;p0133;p0136;p0139;p0145;p0151;p0156;p0161;p0164;p0167;p0175;p0179;p0185;p0193;p0194;p0197;p0200;p0204;p0208;p0213;p0216;p0222;p0230;p0233
+verified_short_text_minimal_controls: p0008;p0049;p0068;p0069;p0072;p0087;p0088;p0089;p0090;p0146;p0157;p0168;p0169;p0186;p0187;p0205
 layout_hazards: dark_mounting_boards;multi_slip_composites;two_up_layouts;handwriting;skew;rotated_fragments;small_source_regions;nonlinear_reading_order
-priority: obtain_p0001-p0040_and_p0161-p0200; then extend page-level visual coverage and perform OCR-string audit only if full OCR usability closure is required
-note: All currently available scan pages now have page-level visual classifications. Raw JSON remains unchanged. New pages were not exhaustively OCR-string-proofread; corrections and confidence limits live only in the review layer.
+priority: chunk_level_visual_closed; perform OCR-string audit only if full OCR usability closure is required
+note: All 236 scan pages now have page-level visual classifications. Raw JSON remains unchanged. Visual closure is retrieval-grade calibration, not diplomatic transcription or exhaustive semantic proofreading.

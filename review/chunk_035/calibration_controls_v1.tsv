@@ -1,0 +1,3 @@
+page	visual_class	visual_observation	raw_ocr_calibration	confidence
+p0001	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on the dark archival background.	No chunk_035 raw OCR file is currently indexed in the repository; retain as a future false-positive/false-empty calibration control.	HIGH
+p0029	short-text/minimal	Sparse modern catalogue/cover sheet with barcode and limited metadata; not a dense archival text page.	If raw OCR is later added, only short metadata-level text should be expected from this page.	HIGH
