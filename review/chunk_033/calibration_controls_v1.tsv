@@ -1,0 +1,9 @@
+page	visual_class	visual_observation	raw_ocr_calibration	confidence
+p0041	high-noise	Composite dark mounting board with many handwritten slips on two boards/pages; reading order is spatial and non-linear.	Rough OCR associated with the visible [25]g archival header contains mixed-script substitutions and invented table semantics; scan-first for any quotation.	HIGH
+p0046	blank/no-substantive	Dark mount with a blank light card; no substantive visible text.	Treat any substantive OCR prose as hallucination.	HIGH
+p0049	short-text/minimal	Envelope/backside with only faint postal/handling marks.	Do not infer substantive body text from OCR.	HIGH
+p0052	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0056	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0060	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0068	short-text/minimal	Mostly blank ruled notebook spread with a tiny mark/annotation on the right leaf.	At most minimal text is visually supported.	HIGH
+p0071	blank/no-substantive	Small blank light card mounted centrally on dark board.	Treat any substantive OCR prose as hallucination.	HIGH
