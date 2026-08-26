@@ -1,0 +1,18 @@
+chunk_033
+raw_ocr: PRESENT
+raw_ocr_sha: 3cc46a02b7d9506916fe7d597defb9c9795ed473
+raw_ocr_preserved: YES
+scan_access: PARTIAL_WORKING_LOCAL_RENDER_ACCESS
+reviewed_scan_spans: p0041-p0080;p0081-p0120;p0121-p0160;p0201-p0236
+reviewed_scan_pages: 156
+missing_scan_spans: p0001-p0040;p0161-p0200
+macro_visual_sweep_reviewed_spans: COMPLETE
+page_level_ocr_usability_manifest: NOT_YET_COMPLETE
+visual_audit: PARTIAL_MACRO_COMPLETE_FOR_AVAILABLE_SPANS
+retrieval_grade_visual_complete: NO
+direct_machine_pathology_control: p0041_composite_handwritten_board_vs_mixed_script_and_invented_table_semantics_in_rough_OCR
+verified_blank_no_substantive_controls: p0046;p0052;p0056;p0060;p0071
+verified_short_text_minimal_controls: p0049_envelope_backside_faint_marks;p0068_mostly_blank_ruled_spread_with_tiny_mark
+layout_hazards: dark_mounting_boards;multi_slip_composites;two_up_layouts;handwriting;skew;rotated_fragments;small_source_regions
+priority: obtain_p0001-p0040_and_p0161-p0200; then build_full_page_level_OCR_usability_false_empty_manifest
+note: Raw JSON remains unchanged. Corrections and confidence limits live only in the review layer.
