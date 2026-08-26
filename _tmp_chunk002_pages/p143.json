@@ -1,0 +1,166 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "image",
+        "block_content": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_922_1106_2330_1995.jpg\" alt=\"Image\" width=\"47%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_922_1106_2330_1995.jpg\" alt=\"Image\" width=\"47%\" />\n\n17. (18.19.20.23.202)\n43. 000 BE III. REIV.\n\n</div>\n\n\n</div>\n",
+        "block_bbox": [
+          922,
+          1106,
+          2330,
+          1995
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            922.0,
+            1106.0
+          ],
+          [
+            2330.0,
+            1106.0
+          ],
+          [
+            2330.0,
+            1995.0
+          ],
+          [
+            922.0,
+            1995.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "19.18.19.20.23.2024.\n\n43.00.BE III.BEIV.",
+        "block_bbox": [
+          1016,
+          1691,
+          1395,
+          1758
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1016.0,
+            1691.0
+          ],
+          [
+            1395.0,
+            1691.0
+          ],
+          [
+            1395.0,
+            1758.0
+          ],
+          [
+            1016.0,
+            1758.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 14,
+          "label": "image",
+          "score": 0.36324042081832886,
+          "coordinate": [
+            922,
+            1106,
+            2330,
+            1995
+          ],
+          "polygon_points": [
+            [
+              922.0,
+              1106.0
+            ],
+            [
+              2330.0,
+              1106.0
+            ],
+            [
+              2330.0,
+              1995.0
+            ],
+            [
+              922.0,
+              1995.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.31081050634384155,
+          "coordinate": [
+            1016,
+            1691,
+            1395,
+            1758
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1016.0,
+              1691.0
+            ],
+            [
+              1395.0,
+              1691.0
+            ],
+            [
+              1395.0,
+              1758.0
+            ],
+            [
+              1016.0,
+              1758.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_922_1106_2330_1995.jpg\" alt=\"Image\" width=\"47%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_922_1106_2330_1995.jpg\" alt=\"Image\" width=\"47%\" />\n\n17. (18.19.20.23.202)\n43. 000 BE III. REIV.\n\n</div>\n\n\n</div>\n\n\n19.18.19.20.23.2024.\n\n43.00.BE III.BEIV.",
+    "images": {
+      "imgs/img_in_image_box_922_1106_2330_1995.jpg": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/markdown_2/imgs/img_in_image_box_922_1106_2330_1995.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F4f9cae29f83a47bddc127b547a1c5dc20024662008f43a64bc5404c6fc6b37c4"
+    }
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2Fcf3a548c8d23e42c245deafc469564b495c950a0d88ba45117634d55937e51ff"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A41Z%2F-1%2F%2F6b30bd13185ee01cb987a41940284e3f27f89c69c19d13ff3d6c4c88b70fcdf2"
+}

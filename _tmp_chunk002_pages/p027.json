@@ -1,0 +1,318 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "van het popolo\n\ngoldmacat. de7grote goldam en de 14\n\nkleine.\n\nartii maggioni: in theorie ustari of zest\n\nters not, maar is macht 2 arta di Colima\n\nca, wantimid\n\nflor verfilm. 3 cambio. 4. lama=werens. 5\n\napstecarii, 6. seta, 7. publicciai. -als mid\n\ndelta weldra daarli: lakankramen, slo\n\ngers schonnalkers, bouwvelen, smeden &\n\nslotmaers. - tot bescherming v.d. arbeid\n\nen Tegan de goldwordingen der grand\n\n1282 eald. v. prionen der7gildot ingelt\n\ntrads voor 2. mind.-adel loot z. nu in-\n\nschrijven in goldam. maar 1293 adimamen\n\nto justitie van Gians odelos bella: alle\n\ngrondli uitgelsten v.d. 2eg., man moet\n\nwerdeig in gildot werdeam zijn. -de\n\nzachtemacht bij de 3 rectores: poddelta,\n\ncapitano en den gongdoniere odella\n\nginstizia. (wexdiffer institution) om bij\n\nzcatueig. of geweld de nadering der\n\nwet af de duingen, door bij bolsslag de\n\ngilder op te roepem gong. heeft garde\n\nvan 1000 man. -geen odela kom prio of\n\ngong. Zijn. - Gians zal verbannen.",
+        "block_bbox": [
+          2228,
+          1022,
+          2955,
+          1595
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2228.0,
+            1022.0
+          ],
+          [
+            2955.0,
+            1022.0
+          ],
+          [
+            2955.0,
+            1595.0
+          ],
+          [
+            2228.0,
+            1595.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "daarmee de stamocr. voorloopig voltooid\n\nmoor de aad verdwijnt niet, doel ass\n\nmilaert z. aan zijde burgerig. Koopderen\n\nverwenen aadcl. Bexit in en buiten de\n\nstod (in Tode, roog bewegelig, grondberkt\n\nzo onstaat het popolo grasso, het patrik\n\nciopt. v. aadbl. levanswarne en burgard.\n\necon. basis, waarlig Vlam. en Z. Puli. paidis\n\nteracatig schijnen. Reccolsi lokmoes, Ten\n\nnaquinci rule wil, Parkzi gerken, Pulci\n\nvolsoien. Acciajuali staal homdeless. eve\n\ntwistziek als oude aadcl. neri- Bianchi",
+        "block_bbox": [
+          2223,
+          1592,
+          2954,
+          1866
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2223.0,
+            1592.0
+          ],
+          [
+            2954.0,
+            1592.0
+          ],
+          [
+            2954.0,
+            1866.0
+          ],
+          [
+            2223.0,
+            1866.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "intrusional macat vitisgeid: Corso Dati\n\nnati brengt alla zijublaamen\n\nonder haar jurist, verdoost 1289 de Are\n\ntijnen en Ghib. bij Campoedino.",
+        "block_bbox": [
+          2224,
+          1864,
+          2954,
+          1965
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2224.0,
+            1864.0
+          ],
+          [
+            2954.0,
+            1864.0
+          ],
+          [
+            2954.0,
+            1965.0
+          ],
+          [
+            2224.0,
+            1965.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Sept. 1250 de groupe contus. non gelliamde\n\n1252 commune des�uit no seu overwinn",
+        "block_bbox": [
+          2221,
+          1964,
+          2954,
+          2017
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2221.0,
+            1964.0
+          ],
+          [
+            2954.0,
+            1964.0
+          ],
+          [
+            2954.0,
+            2017.0
+          ],
+          [
+            2221.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4647585451602936,
+          "coordinate": [
+            2230,
+            1009,
+            2953,
+            1078
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2229.189453125,
+              1011.96435546875
+            ],
+            [
+              2951.9248046875,
+              1002.955322265625
+            ],
+            [
+              2952.7353515625,
+              1067.990966796875
+            ],
+            [
+              2230.0,
+              1077.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7260196208953857,
+          "coordinate": [
+            2228,
+            1022,
+            2955,
+            1595
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2228.0,
+              1022.0
+            ],
+            [
+              2955.0,
+              1022.0
+            ],
+            [
+              2955.0,
+              1595.0
+            ],
+            [
+              2228.0,
+              1595.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7175014615058899,
+          "coordinate": [
+            2223,
+            1592,
+            2954,
+            1866
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2223.0,
+              1592.0
+            ],
+            [
+              2954.0,
+              1592.0
+            ],
+            [
+              2954.0,
+              1866.0
+            ],
+            [
+              2223.0,
+              1866.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6384361386299133,
+          "coordinate": [
+            2224,
+            1864,
+            2954,
+            1965
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2224.0,
+              1864.0
+            ],
+            [
+              2954.0,
+              1864.0
+            ],
+            [
+              2954.0,
+              1965.0
+            ],
+            [
+              2224.0,
+              1965.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5423341989517212,
+          "coordinate": [
+            2221,
+            1964,
+            2954,
+            2017
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2221.0,
+              1964.0
+            ],
+            [
+              2954.0,
+              1964.0
+            ],
+            [
+              2954.0,
+              2017.0
+            ],
+            [
+              2221.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "van het popolo\n\ngoldmacat. de7grote goldam en de 14\n\nkleine.\n\nartii maggioni: in theorie ustari of zest\n\nters not, maar is macht 2 arta di Colima\n\nca, wantimid\n\nflor verfilm. 3 cambio. 4. lama=werens. 5\n\napstecarii, 6. seta, 7. publicciai. -als mid\n\ndelta weldra daarli: lakankramen, slo\n\ngers schonnalkers, bouwvelen, smeden &\n\nslotmaers. - tot bescherming v.d. arbeid\n\nen Tegan de goldwordingen der grand\n\n1282 eald. v. prionen der7gildot ingelt\n\ntrads voor 2. mind.-adel loot z. nu in-\n\nschrijven in goldam. maar 1293 adimamen\n\nto justitie van Gians odelos bella: alle\n\ngrondli uitgelsten v.d. 2eg., man moet\n\nwerdeig in gildot werdeam zijn. -de\n\nzachtemacht bij de 3 rectores: poddelta,\n\ncapitano en den gongdoniere odella\n\nginstizia. (wexdiffer institution) om bij\n\nzcatueig. of geweld de nadering der\n\nwet af de duingen, door bij bolsslag de\n\ngilder op te roepem gong. heeft garde\n\nvan 1000 man. -geen odela kom prio of\n\ngong. Zijn. - Gians zal verbannen.\n\ndaarmee de stamocr. voorloopig voltooid\n\nmoor de aad verdwijnt niet, doel ass\n\nmilaert z. aan zijde burgerig. Koopderen\n\nverwenen aadcl. Bexit in en buiten de\n\nstod (in Tode, roog bewegelig, grondberkt\n\nzo onstaat het popolo grasso, het patrik\n\nciopt. v. aadbl. levanswarne en burgard.\n\necon. basis, waarlig Vlam. en Z. Puli. paidis\n\nteracatig schijnen. Reccolsi lokmoes, Ten\n\nnaquinci rule wil, Parkzi gerken, Pulci\n\nvolsoien. Acciajuali staal homdeless. eve\n\ntwistziek als oude aadcl. neri- Bianchi\n\nintrusional macat vitisgeid: Corso Dati\n\nnati brengt alla zijublaamen\n\nonder haar jurist, verdoost 1289 de Are\n\ntijnen en Ghib. bij Campoedino.\n\nSept. 1250 de groupe contus. non gelliamde\n\n1252 commune des�uit no seu overwinn",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4ac50bd5-c0f9-4404-83b1-6a42b46ea373/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A57%3A15Z%2F-1%2F%2F83c2e4ad64f6da8e4992251aecec0166e23c13906ff9c5fd71df0f87a6ce99b6"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4ac50bd5-c0f9-4404-83b1-6a42b46ea373/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A57%3A15Z%2F-1%2F%2F523b6287f588712d327238f2b9459a460afb61df8715f09e6b642e4683b3adb3"
+}

@@ -1,0 +1,409 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "12",
+        "block_bbox": [
+          1513,
+          1012,
+          1580,
+          1047
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1527.0,
+            1012.0
+          ],
+          [
+            1579.0,
+            1012.0
+          ],
+          [
+            1579.0,
+            1046.0
+          ],
+          [
+            1527.0,
+            1046.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Ce n'est pas de ces lenclaires de classicisme que dépend la formation de la civilité, tient du moyen âge.",
+        "block_bbox": [
+          1501,
+          1450,
+          2212,
+          1574
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1501.0,
+            1450.0
+          ],
+          [
+            2212.0,
+            1450.0
+          ],
+          [
+            2212.0,
+            1574.0
+          ],
+          [
+            1501.0,
+            1574.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "2alion à l’urbanisme. Tous homme, pendant ces siècles, qui s'estit à approfondir un pour mieux que les autres l'esprit classique (nous fait l'effet d’un harmonista. Teo Alcuin au hetième, tel Gerbert au distième 12 y a, tout la lamps, un abime entre l'état réel de la civilisation générale et celle culture quasi-classique qui était la priorité de quelques 2000s.",
+        "block_bbox": [
+          2205,
+          1006,
+          2954,
+          1439
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2205.0,
+            1006.0
+          ],
+          [
+            2954.0,
+            1006.0
+          ],
+          [
+            2954.0,
+            1439.0
+          ],
+          [
+            2205.0,
+            1439.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Em allianzant cello civilità\n\ntias gérida era è to eròia\n\nElla no se developpe",
+        "block_bbox": [
+          2213,
+          1439,
+          2952,
+          1529
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2213.0,
+            1439.0
+          ],
+          [
+            2952.0,
+            1439.0
+          ],
+          [
+            2952.0,
+            1529.0
+          ],
+          [
+            2213.0,
+            1529.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Pada 1. Ella no da devolta para\n\nPas la moyena, (ve\n\npas demoram para uma lillie rota\n\n(Las frames) mais daud et par les formes même\n\nque prend la vie sociale : par\n\nla monasticisme, par la pe\n\ndàité, par la formation d'cr\n\nganisme politique, par l'er\n\nganisation corporaine de la\n\nvia communa et économique\n\nAucun de ces grands phénomène\n\nna devait beaucoup à l'inspir\n\nation ou à l'imitation des clav\n\nsigues.",
+        "block_bbox": [
+          2204,
+          1518,
+          2955,
+          1932
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2204.0,
+            1518.0
+          ],
+          [
+            2955.0,
+            1518.0
+          ],
+          [
+            2955.0,
+            1932.0
+          ],
+          [
+            2204.0,
+            1932.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "G2 2' Europe du doszième siècle\n\nà son début 2e présente une so-\n\nciété qui a atteint sa majorité.",
+        "block_bbox": [
+          2201,
+          1928,
+          2952,
+          2017
+        ],
+        "block_id": 5,
+        "block_order": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2201.0,
+            1928.0
+          ],
+          [
+            2952.0,
+            1928.0
+          ],
+          [
+            2952.0,
+            2017.0
+          ],
+          [
+            2201.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.3220677673816681,
+          "coordinate": [
+            1513,
+            1012,
+            1580,
+            1047
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1527.0,
+              1012.0
+            ],
+            [
+              1579.0,
+              1012.0
+            ],
+            [
+              1579.0,
+              1046.0
+            ],
+            [
+              1527.0,
+              1046.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4754907488822937,
+          "coordinate": [
+            1501,
+            1450,
+            2212,
+            1574
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1501.0,
+              1450.0
+            ],
+            [
+              2212.0,
+              1450.0
+            ],
+            [
+              2212.0,
+              1574.0
+            ],
+            [
+              1501.0,
+              1574.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7893291115760803,
+          "coordinate": [
+            2205,
+            1006,
+            2954,
+            1439
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2205.0,
+              1006.0
+            ],
+            [
+              2954.0,
+              1006.0
+            ],
+            [
+              2954.0,
+              1439.0
+            ],
+            [
+              2205.0,
+              1439.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.44743385910987854,
+          "coordinate": [
+            2213,
+            1439,
+            2952,
+            1529
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2213.0,
+              1439.0
+            ],
+            [
+              2952.0,
+              1439.0
+            ],
+            [
+              2952.0,
+              1529.0
+            ],
+            [
+              2213.0,
+              1529.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7694894671440125,
+          "coordinate": [
+            2204,
+            1518,
+            2955,
+            1932
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2204.0,
+              1518.0
+            ],
+            [
+              2955.0,
+              1518.0
+            ],
+            [
+              2955.0,
+              1932.0
+            ],
+            [
+              2204.0,
+              1932.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5224372744560242,
+          "coordinate": [
+            2201,
+            1928,
+            2952,
+            2017
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2201.0,
+              1928.0
+            ],
+            [
+              2952.0,
+              1928.0
+            ],
+            [
+              2952.0,
+              2017.0
+            ],
+            [
+              2201.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Ce n'est pas de ces lenclaires de classicisme que dépend la formation de la civilité, tient du moyen âge.\n\n2alion à l’urbanisme. Tous homme, pendant ces siècles, qui s'estit à approfondir un pour mieux que les autres l'esprit classique (nous fait l'effet d’un harmonista. Teo Alcuin au hetième, tel Gerbert au distième 12 y a, tout la lamps, un abime entre l'état réel de la civilisation générale et celle culture quasi-classique qui était la priorité de quelques 2000s.\n\nEm allianzant cello civilità\n\ntias gérida era è to eròia\n\nElla no se developpe\n\nPada 1. Ella no da devolta para\n\nPas la moyena, (ve\n\npas demoram para uma lillie rota\n\n(Las frames) mais daud et par les formes même\n\nque prend la vie sociale : par\n\nla monasticisme, par la pe\n\ndàité, par la formation d'cr\n\nganisme politique, par l'er\n\nganisation corporaine de la\n\nvia communa et économique\n\nAucun de ces grands phénomène\n\nna devait beaucoup à l'inspir\n\nation ou à l'imitation des clav\n\nsigues.\n\nG2 2' Europe du doszième siècle\n\nà son début 2e présente une so-\n\nciété qui a atteint sa majorité.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b1d3586e-e8c7-41e0-8abd-4cb939951adb/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2Fc6d7e139ab50dd899057d55ba90be7fd438701950a1aa6af81e17342bed8d9c4"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b1d3586e-e8c7-41e0-8abd-4cb939951adb/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2F056dbdd82af21634d4ca02fa95ff15cc24fac26b620bcd618afa9bf42da8991e"
+}

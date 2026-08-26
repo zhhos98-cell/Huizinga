@@ -1,0 +1,227 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Co n'est plus uma élita d'un société Barbara qui, à défaut d'une culture originale, cherche à s'approlier, l'ant soit mal, une vie littéraire du passé. On fera subir, maintenant à l'Antiquité la sévère exame que lui avait fait l'adroison.\n\nAugustin, pour en selonir ce qui sera véritablement précieux et en sejolar tout la reelle.",
+        "block_bbox": [
+          2210,
+          994,
+          2952,
+          1360
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2210.0,
+            994.0
+          ],
+          [
+            2952.0,
+            994.0
+          ],
+          [
+            2952.0,
+            1360.0
+          ],
+          [
+            2210.0,
+            1360.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "El voida que pour l’esprit œu\n\net vigoureux du douzième siècle\n\nl’Antiquité prend un sens nu\n\neau et un accent nouveau. Re\n\nnoissance? - le la veux bien, pour\n\nce qu’il n’y ait pas de modern\n\ntendez est un mot qui dit\n\ntoujours un peu plus que on vou\n\ncrait exprimer. Gu’est ce qui\n\n2001? L’Antiquité? Évidemment\n\nrom. Come la forme classique\n\nLa forme était morta et la 20\n\nter teit à moind de porter un sens\n\nout nouveau. Ce qui naît c’est une\n\ncivilisation médiocada, cha\n\ntienne, stimulée par un élé\n\nment classique qu’elle absorbe",
+        "block_bbox": [
+          2144,
+          1360,
+          2955,
+          1922
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2144.0,
+            1360.0
+          ],
+          [
+            2955.0,
+            1360.0
+          ],
+          [
+            2955.0,
+            1922.0
+          ],
+          [
+            2144.0,
+            1922.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "le n'ya rien qui remait. Le 4 ao Edo sera classique à son tour, naissance, non pas renaissance. La 6 ao sens universel du mot que plutôt encore, ce n'est pas",
+        "block_bbox": [
+          1509,
+          1924,
+          2955,
+          2013
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1509.0,
+            1924.0
+          ],
+          [
+            2956.0,
+            1924.0
+          ],
+          [
+            2956.0,
+            2013.0
+          ],
+          [
+            1509.0,
+            2013.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8918795585632324,
+          "coordinate": [
+            2210,
+            994,
+            2952,
+            1360
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2210.0,
+              994.0
+            ],
+            [
+              2952.0,
+              994.0
+            ],
+            [
+              2952.0,
+              1360.0
+            ],
+            [
+              2210.0,
+              1360.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6972912549972534,
+          "coordinate": [
+            2144,
+            1360,
+            2955,
+            1922
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2144.0,
+              1360.0
+            ],
+            [
+              2955.0,
+              1360.0
+            ],
+            [
+              2955.0,
+              1922.0
+            ],
+            [
+              2144.0,
+              1922.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6271339058876038,
+          "coordinate": [
+            1509,
+            1924,
+            2955,
+            2013
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1509.0,
+              1924.0
+            ],
+            [
+              2956.0,
+              1924.0
+            ],
+            [
+              2956.0,
+              2013.0
+            ],
+            [
+              1509.0,
+              2013.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Co n'est plus uma élita d'un société Barbara qui, à défaut d'une culture originale, cherche à s'approlier, l'ant soit mal, une vie littéraire du passé. On fera subir, maintenant à l'Antiquité la sévère exame que lui avait fait l'adroison.\n\nAugustin, pour en selonir ce qui sera véritablement précieux et en sejolar tout la reelle.\n\nEl voida que pour l’esprit œu\n\net vigoureux du douzième siècle\n\nl’Antiquité prend un sens nu\n\neau et un accent nouveau. Re\n\nnoissance? - le la veux bien, pour\n\nce qu’il n’y ait pas de modern\n\ntendez est un mot qui dit\n\ntoujours un peu plus que on vou\n\ncrait exprimer. Gu’est ce qui\n\n2001? L’Antiquité? Évidemment\n\nrom. Come la forme classique\n\nLa forme était morta et la 20\n\nter teit à moind de porter un sens\n\nout nouveau. Ce qui naît c’est une\n\ncivilisation médiocada, cha\n\ntienne, stimulée par un élé\n\nment classique qu’elle absorbe\n\nle n'ya rien qui remait. Le 4 ao Edo sera classique à son tour, naissance, non pas renaissance. La 6 ao sens universel du mot que plutôt encore, ce n'est pas",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b1d3586e-e8c7-41e0-8abd-4cb939951adb/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F76eaa3628b75ea9a969c60e702281641ad394cd58ed35827f6893b402b5f020c"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b1d3586e-e8c7-41e0-8abd-4cb939951adb/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F4ad74fd787ee797c2669ef8660f8dba2e3551df7b90493a9e48d0899e7d158c6"
+}

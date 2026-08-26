@@ -1,0 +1,314 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "six années après la mort de Thomas Beckett",
+        "block_bbox": [
+          1651,
+          1343,
+          2207,
+          1415
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1651.0,
+            1343.0
+          ],
+          [
+            2207.0,
+            1343.0
+          ],
+          [
+            2207.0,
+            1415.0
+          ],
+          [
+            1651.0,
+            1415.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1. 282 le consciller prudent et saga\n\n2. 235 que fut Thomas Baccalti\n\ndu saint impénuaux (1e est la\n\nprobable que celui-ci est le\n\nsoin de ces conseils. Gusiqu'il\n\nsont libérés à affaiscé, c'est\n\nimpressant d'un amour morale\n\ntrès licite par son découlement\n\nsincera et touchant à l'homme\n\nd'Église virant et au martyr\n\nBienheureux. Il a dit que bien\n\nles conséquelsือz en fin, comme\n\nce qui l'accompagne bien mériel\n\nlée élevée de Cantred. Le 20\n\nde France, Louis VII, l'en fliccité\n\nen l'appelage sont les chauviers,\n\nLe casix parait avoir été moti\n\nle expédiment comme élant\n\nen l'homme du Bienheureux\n\nmarty Thomas, de qui Jean de\n\nSalisbury avait mérité la foi\n\nmilitarité par ses mames mérités\n\net c'est comme les quels en\n\ndait Jean lui-même. Le s'appelle\n\nJohannes dirivind dignations et\n\nmeritis sancit Thomas, Cornstesi\n\necclesiae minister humilis. C'est\n\nlait là son titre de goire.\n\nS'il n'a pas vu lui-même tout\n\nla splendeur de vitraux et de\n\nsépolure qui addit décross les\n\n",
+        "block_bbox": [
+          2091,
+          1006,
+          2955,
+          2009
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2091.0,
+            1006.0
+          ],
+          [
+            2955.0,
+            1006.0
+          ],
+          [
+            2955.0,
+            2009.0
+          ],
+          [
+            2091.0,
+            2009.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.675673246383667,
+          "coordinate": [
+            1651,
+            1343,
+            2207,
+            1415
+          ],
+          "polygon_points": [
+            [
+              1651.0,
+              1343.0
+            ],
+            [
+              2207.0,
+              1343.0
+            ],
+            [
+              2207.0,
+              1415.0
+            ],
+            [
+              1651.0,
+              1415.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.31735605001449585,
+          "coordinate": [
+            2091,
+            1006,
+            2955,
+            2009
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2091.0,
+              1006.0
+            ],
+            [
+              2955.0,
+              1006.0
+            ],
+            [
+              2955.0,
+              2009.0
+            ],
+            [
+              2091.0,
+              2009.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3041040897369385,
+          "coordinate": [
+            2086,
+            1020,
+            2953,
+            1065
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2086.0,
+              1020.0
+            ],
+            [
+              2953.0,
+              1020.0
+            ],
+            [
+              2953.0,
+              1065.0
+            ],
+            [
+              2086.0,
+              1065.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4127998352050781,
+          "coordinate": [
+            2216,
+            1080,
+            2955,
+            1344
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2216.0,
+              1080.0
+            ],
+            [
+              2955.0,
+              1080.0
+            ],
+            [
+              2955.0,
+              1344.0
+            ],
+            [
+              2216.0,
+              1344.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6336144208908081,
+          "coordinate": [
+            2213,
+            1348,
+            2955,
+            1673
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2213.0,
+              1348.0
+            ],
+            [
+              2955.0,
+              1348.0
+            ],
+            [
+              2955.0,
+              1673.0
+            ],
+            [
+              2213.0,
+              1673.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5503994822502136,
+          "coordinate": [
+            2081,
+            1676,
+            2954,
+            1894
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2081.0,
+              1676.0
+            ],
+            [
+              2954.0,
+              1676.0
+            ],
+            [
+              2954.0,
+              1894.0
+            ],
+            [
+              2081.0,
+              1894.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5742460489273071,
+          "coordinate": [
+            2204,
+            1897,
+            2955,
+            2016
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2204.0,
+              1897.0
+            ],
+            [
+              2955.0,
+              1897.0
+            ],
+            [
+              2955.0,
+              2016.0
+            ],
+            [
+              2204.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "1. 282 le consciller prudent et saga\n\n2. 235 que fut Thomas Baccalti\n\ndu saint impénuaux (1e est la\n\nprobable que celui-ci est le\n\nsoin de ces conseils. Gusiqu'il\n\nsont libérés à affaiscé, c'est\n\nimpressant d'un amour morale\n\ntrès licite par son découlement\n\nsincera et touchant à l'homme\n\nd'Église virant et au martyr\n\nBienheureux. Il a dit que bien\n\nles conséquelsือz en fin, comme\n\nce qui l'accompagne bien mériel\n\nlée élevée de Cantred. Le 20\n\nde France, Louis VII, l'en fliccité\n\nen l'appelage sont les chauviers,\n\nLe casix parait avoir été moti\n\nle expédiment comme élant\n\nen l'homme du Bienheureux\n\nmarty Thomas, de qui Jean de\n\nSalisbury avait mérité la foi\n\nmilitarité par ses mames mérités\n\net c'est comme les quels en\n\ndait Jean lui-même. Le s'appelle\n\nJohannes dirivind dignations et\n\nmeritis sancit Thomas, Cornstesi\n\necclesiae minister humilis. C'est\n\nlait là son titre de goire.\n\nS'il n'a pas vu lui-même tout\n\nla splendeur de vitraux et de\n\nsépolure qui addit décross les\n\n",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Ff6b0780fb995f7bc14d3c4e9bc217c29601282ea9b3973731abd70597e15b9eb"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F846ea308d3c519c27f4f51d251d46a15d20c7c1db1a10ce28306b75e88efbf18"
+}

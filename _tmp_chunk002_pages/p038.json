@@ -1,0 +1,530 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "vision_footnote",
+        "block_content": "Florence's most, sile, arre�, moulue, ligeland, tenemibait, ep. llame",
+        "block_bbox": [
+          1583,
+          1570,
+          2220,
+          1627
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1583.0,
+            1570.0
+          ],
+          [
+            2220.0,
+            1570.0
+          ],
+          [
+            2220.0,
+            1627.0
+          ],
+          [
+            1583.0,
+            1627.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "beoffered, moer belemmered door vlook versiering: cosmaten, mzaieck. - de kom tel. walkken.",
+        "block_bbox": [
+          2230,
+          1006,
+          2955,
+          1081
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2230.0,
+            1006.0
+          ],
+          [
+            2955.0,
+            1006.0
+          ],
+          [
+            2955.0,
+            1081.0
+          ],
+          [
+            2230.0,
+            1081.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Niccolò Piscano, un Apuile $ ^{2} $, 1260 kantec Capri. Pisa. ziel 2000m. Dorn Sarcefagen bestudert volgend Vasari graf v. Bestrix Tosc. met gri. Hippolylus. relief. graffitius",
+        "block_bbox": [
+          2231,
+          1078,
+          2952,
+          1180
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1078.0
+          ],
+          [
+            2952.0,
+            1078.0
+          ],
+          [
+            2952.0,
+            1180.0
+          ],
+          [
+            2231.0,
+            1180.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "in zijn Geberato de Moogd een Juids-ernstust, goed gebruik daar ruimte meer limbisch en Zwaar, die krutiging list geen ant. In Uisend Lee, daar het werd de hegtige gemiddelweging en gebaron (Pendto Beno ventura). (geb. Pisa).",
+        "block_bbox": [
+          2231,
+          1177,
+          2953,
+          1314
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1177.0
+          ],
+          [
+            2953.0,
+            1177.0
+          ],
+          [
+            2953.0,
+            1314.0
+          ],
+          [
+            2231.0,
+            1314.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Zoom Giovanni 126 kented dom Siena + no 1320, minder antielle, overallige be weging en grimad, wewarote compositie ca sculpture pittoreloque (Gebhart).",
+        "block_bbox": [
+          2228,
+          1309,
+          2953,
+          1403
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2228.0,
+            1309.0
+          ],
+          [
+            2953.0,
+            1309.0
+          ],
+          [
+            2953.0,
+            1403.0
+          ],
+          [
+            2228.0,
+            1403.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Ceeling Antea Pisano, in Pontربelos, Bica, gasi near Flor., 1330 dem u. Bapt.: Le lev u. S. Jan en duogolon, 28 vallem. volgant Vasari maula Giotto de la lekanimgen. Klaus otonomnie, expressio Zondor de la 200 weinig magelik figuren, de large Grimle, FRythone u. Giotto en grati enver diari. fra includé? - in cider gevel war nader aan geld. de antieba al weer en wonnen. - Campanile?",
+        "block_bbox": [
+          2222,
+          1399,
+          2955,
+          1620
+        ],
+        "block_id": 5,
+        "block_order": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2222.0,
+            1399.0
+          ],
+          [
+            2955.0,
+            1399.0
+          ],
+          [
+            2955.0,
+            1620.0
+          ],
+          [
+            2222.0,
+            1620.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Vooel inringgender die werking u.anticba\n\nin die litt.-Fz. Petronco (teeds Latiniseerim\n\nu. Petracco of Zoo isds). Vader met Dante ver\n\nGannon, geo. 1304 Le Arezzo, familie 1313 nos\n\nAivignon, door in cleus, mosr geen prieter",
+        "block_bbox": [
+          2224,
+          1662,
+          2954,
+          1775
+        ],
+        "block_id": 6,
+        "block_order": 6,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2224.0,
+            1662.0
+          ],
+          [
+            2954.0,
+            1662.0
+          ],
+          [
+            2954.0,
+            1775.0
+          ],
+          [
+            2224.0,
+            1775.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "het Imacaton naar en de Iduitis van een schosne, verhever oudheid, de open mensch, grenzenlode empfänglicheheit, /bro di 53; un peu de scepticisme, un peu d'in différence et beaucoup de�ogeste, tel et le fond de som caractère (Gebr). wat voor wijdeid? - wereZutwijdeid, half stoïsch half car. 1342 de contemplé mundi. P.n's plus qu'un lettre et la plat aux idées d'un ordre deconvolne aux idées et aux tenti ments qui échappent à l'abattre et dont",
+        "block_bbox": [
+          2224,
+          1776,
+          2954,
+          2017
+        ],
+        "block_id": 7,
+        "block_order": 7,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2224.0,
+            1776.0
+          ],
+          [
+            2954.0,
+            1776.0
+          ],
+          [
+            2954.0,
+            2017.0
+          ],
+          [
+            2224.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 24,
+          "label": "vision_footnote",
+          "score": 0.3107585310935974,
+          "coordinate": [
+            1583,
+            1570,
+            2220,
+            1627
+          ],
+          "polygon_points": [
+            [
+              1583.0,
+              1570.0
+            ],
+            [
+              2220.0,
+              1570.0
+            ],
+            [
+              2220.0,
+              1627.0
+            ],
+            [
+              1583.0,
+              1627.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7727202773094177,
+          "coordinate": [
+            2230,
+            1006,
+            2955,
+            1081
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2230.0,
+              1006.0
+            ],
+            [
+              2955.0,
+              1006.0
+            ],
+            [
+              2955.0,
+              1081.0
+            ],
+            [
+              2230.0,
+              1081.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6688396334648132,
+          "coordinate": [
+            2231,
+            1078,
+            2952,
+            1180
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2231.0,
+              1078.0
+            ],
+            [
+              2952.0,
+              1078.0
+            ],
+            [
+              2952.0,
+              1180.0
+            ],
+            [
+              2231.0,
+              1180.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6787900924682617,
+          "coordinate": [
+            2231,
+            1177,
+            2953,
+            1314
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2231.0,
+              1177.0
+            ],
+            [
+              2953.0,
+              1177.0
+            ],
+            [
+              2953.0,
+              1314.0
+            ],
+            [
+              2231.0,
+              1314.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6157931089401245,
+          "coordinate": [
+            2228,
+            1309,
+            2953,
+            1403
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2228.0,
+              1309.0
+            ],
+            [
+              2953.0,
+              1309.0
+            ],
+            [
+              2953.0,
+              1403.0
+            ],
+            [
+              2228.0,
+              1403.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6568974256515503,
+          "coordinate": [
+            2222,
+            1399,
+            2955,
+            1620
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2222.0,
+              1399.0
+            ],
+            [
+              2955.0,
+              1399.0
+            ],
+            [
+              2955.0,
+              1620.0
+            ],
+            [
+              2222.0,
+              1620.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7104108333587646,
+          "coordinate": [
+            2224,
+            1662,
+            2954,
+            1775
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2224.0,
+              1662.0
+            ],
+            [
+              2954.0,
+              1662.0
+            ],
+            [
+              2954.0,
+              1775.0
+            ],
+            [
+              2224.0,
+              1775.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.774625301361084,
+          "coordinate": [
+            2224,
+            1776,
+            2954,
+            2017
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2224.0,
+              1776.0
+            ],
+            [
+              2954.0,
+              1776.0
+            ],
+            [
+              2954.0,
+              2017.0
+            ],
+            [
+              2224.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Florence's most, sile, arre�, moulue, ligeland, tenemibait, ep. llame\n\nbeoffered, moer belemmered door vlook versiering: cosmaten, mzaieck. - de kom tel. walkken.\n\nNiccolò Piscano, un Apuile $ ^{2} $, 1260 kantec Capri. Pisa. ziel 2000m. Dorn Sarcefagen bestudert volgend Vasari graf v. Bestrix Tosc. met gri. Hippolylus. relief. graffitius\n\nin zijn Geberato de Moogd een Juids-ernstust, goed gebruik daar ruimte meer limbisch en Zwaar, die krutiging list geen ant. In Uisend Lee, daar het werd de hegtige gemiddelweging en gebaron (Pendto Beno ventura). (geb. Pisa).\n\nZoom Giovanni 126 kented dom Siena + no 1320, minder antielle, overallige be weging en grimad, wewarote compositie ca sculpture pittoreloque (Gebhart).\n\nCeeling Antea Pisano, in Pontربelos, Bica, gasi near Flor., 1330 dem u. Bapt.: Le lev u. S. Jan en duogolon, 28 vallem. volgant Vasari maula Giotto de la lekanimgen. Klaus otonomnie, expressio Zondor de la 200 weinig magelik figuren, de large Grimle, FRythone u. Giotto en grati enver diari. fra includé? - in cider gevel war nader aan geld. de antieba al weer en wonnen. - Campanile?\n\nVooel inringgender die werking u.anticba\n\nin die litt.-Fz. Petronco (teeds Latiniseerim\n\nu. Petracco of Zoo isds). Vader met Dante ver\n\nGannon, geo. 1304 Le Arezzo, familie 1313 nos\n\nAivignon, door in cleus, mosr geen prieter\n\nhet Imacaton naar en de Iduitis van een schosne, verhever oudheid, de open mensch, grenzenlode empfänglicheheit, /bro di 53; un peu de scepticisme, un peu d'in différence et beaucoup de�ogeste, tel et le fond de som caractère (Gebr). wat voor wijdeid? - wereZutwijdeid, half stoïsch half car. 1342 de contemplé mundi. P.n's plus qu'un lettre et la plat aux idées d'un ordre deconvolne aux idées et aux tenti ments qui échappent à l'abattre et dont",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//a5471489-ff41-413f-b18c-7e7a7c47fb83/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F5751d8782df9baee7a77a87852e5030131331150285cebff917deb9e41aca341"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//a5471489-ff41-413f-b18c-7e7a7c47fb83/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F43109c0a25374bc61d344ff8f82c6792d68d1c22387dec3cbbb4dd06f3388e81"
+}

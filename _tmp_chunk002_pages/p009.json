@@ -1,0 +1,892 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "[15]:",
+        "block_bbox": [
+          153,
+          6,
+          445,
+          79
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            153.0,
+            6.0
+          ],
+          [
+            445.0,
+            6.0
+          ],
+          [
+            445.0,
+            79.0
+          ],
+          [
+            153.0,
+            79.0
+          ]
+        ]
+      },
+      {
+        "block_label": "header",
+        "block_content": "Hui 1Ⅱ:4[2]d",
+        "block_bbox": [
+          2548,
+          1,
+          2862,
+          70
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2548.0,
+            1.0
+          ],
+          [
+            2862.0,
+            1.0
+          ],
+          [
+            2862.0,
+            70.0
+          ],
+          [
+            2548.0,
+            70.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "module deमatersextime.br\n\nkein",
+        "block_bbox": [
+          479,
+          135,
+          1103,
+          218
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            479.0,
+            135.0
+          ],
+          [
+            1103.0,
+            135.0
+          ],
+          [
+            1103.0,
+            218.0
+          ],
+          [
+            479.0,
+            218.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "from Niceland the Norman,\n\nsticking of versterling can\n\ngezop. hier evenwel begin",
+        "block_bbox": [
+          417,
+          310,
+          1079,
+          463
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            417.0,
+            310.0
+          ],
+          [
+            1079.0,
+            310.0
+          ],
+          [
+            1079.0,
+            463.0
+          ],
+          [
+            417.0,
+            463.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "L. Lemnius de Zecamonia in Scriverii Balon, c. 165. 114 152.",
+        "block_bbox": [
+          456,
+          577,
+          1098,
+          685
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            456.0,
+            577.0
+          ],
+          [
+            1098.0,
+            577.0
+          ],
+          [
+            1098.0,
+            685.0
+          ],
+          [
+            456.0,
+            685.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Bi zuck een adoselag den miss acal stelt, zonder vom weer.",
+        "block_bbox": [
+          415,
+          857,
+          1105,
+          939
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            415.0,
+            857.0
+          ],
+          [
+            1105.0,
+            857.0
+          ],
+          [
+            1105.0,
+            939.0
+          ],
+          [
+            415.0,
+            939.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ertfeier der kön. Friedrich-Wilhelms-Universität zu Berlin 1910.",
+        "block_bbox": [
+          413,
+          1204,
+          1059,
+          1269
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            413.0,
+            1204.0
+          ],
+          [
+            1059.0,
+            1204.0
+          ],
+          [
+            1059.0,
+            1269.0
+          ],
+          [
+            413.0,
+            1269.0
+          ]
+        ]
+      },
+      {
+        "block_label": "table",
+        "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>1.148:</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>de oammonkelyio</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Dil handscapif</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>directe coris van A</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>(B.U.1253 na 1353, 1388 na 1396 enx de le</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1. de uog orda der he</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>den boltt den kaine</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A ordgenomm. A harp</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>meend uter dada la</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>baven der zogel le wesom. &quot;C&quot; nam d</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>in jaoa.&quot;</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Zijn verpijding, en</td></tr></table>",
+        "block_bbox": [
+          397,
+          1543,
+          1120,
+          2015
+        ],
+        "block_id": 7,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            397.0,
+            1543.0
+          ],
+          [
+            1120.0,
+            1543.0
+          ],
+          [
+            1120.0,
+            2015.0
+          ],
+          [
+            397.0,
+            2015.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Arundutia & Ramwellas, Calcut, d'Est., 262.",
+        "block_bbox": [
+          1868,
+          179,
+          2466,
+          228
+        ],
+        "block_id": 8,
+        "block_order": 6,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1868.0,
+            179.0
+          ],
+          [
+            2466.0,
+            179.0
+          ],
+          [
+            2466.0,
+            228.0
+          ],
+          [
+            1868.0,
+            228.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Corval's Crucities II 374.\n\nMissingew.\n\nHero / same those Birth\n\ncalled Storkw that have\n\nbefore mentioned in my\n\nobservations of foundry\n\nBelieve.\n\nf. I. 185-188.",
+        "block_bbox": [
+          1890,
+          334,
+          2540,
+          617
+        ],
+        "block_id": 9,
+        "block_order": 7,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            1890.0,
+            334.0
+          ],
+          [
+            2540.0,
+            334.0
+          ],
+          [
+            2540.0,
+            617.0
+          ],
+          [
+            1890.0,
+            617.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "from U. Amerina 1284 shows Roadop\n\nlot general, vicari is Tuscali\n\namongested, amongest but most\n\nD24 V.78",
+        "block_bbox": [
+          1934,
+          754,
+          2508,
+          861
+        ],
+        "block_id": 10,
+        "block_order": 8,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            1934.0,
+            754.0
+          ],
+          [
+            2508.0,
+            754.0
+          ],
+          [
+            2508.0,
+            861.0
+          ],
+          [
+            1934.0,
+            861.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Monday, 3.12.5. 20mm. Eng. depaper big large.\n\nKeen has 4x200cm olds slown moons\n\nZionities geclagen.\n\nZoland.",
+        "block_bbox": [
+          1852,
+          1058,
+          2566,
+          1175
+        ],
+        "block_id": 11,
+        "block_order": 9,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            1852.0,
+            1058.0
+          ],
+          [
+            2566.0,
+            1058.0
+          ],
+          [
+            2566.0,
+            1175.0
+          ],
+          [
+            1852.0,
+            1175.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Tag.Stall. - Bemelow. kato ude idend\n\nZal. III. Br.Wakening\n\nkaant.\n\nBemelow 1615 doop Gues geluscal.166 body\n\nWest borselow.4ve. Monstern. 5.Collearmes\n\nava. 6 dimpas alle verzweigern.\n\n-Broll.101.136.173.\n\nMiel op de plesel u. Monstern. in 200.\n\n1849 krtig gelound.\n\nwiedberg.berg v. Troya",
+        "block_bbox": [
+          1905,
+          1286,
+          2509,
+          1568
+        ],
+        "block_id": 12,
+        "block_order": 10,
+        "group_id": 12,
+        "block_polygon_points": [
+          [
+            1905.0,
+            1286.0
+          ],
+          [
+            2509.0,
+            1286.0
+          ],
+          [
+            2509.0,
+            1568.0
+          ],
+          [
+            1905.0,
+            1568.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1. Vier Umbacalon. p.36 - p.42.\n\nMuller p.70 ug. (over v.Heus.2v.p.4).\n\n1108. Burgaard scherdt aus S.Salvator\n\ndie keinen in die 4 Vla. amb. (Oude Car. p.210, Brom no. 268).\n\np.71, I 447 Eigt der Dommilksee parochiel\n\nvon 1330/1.\n\nugc. Liigster Ulr. dsmfabriik.\n\np.72. die witsprech v.1264.\n\nBienwiel wel, moon Yzandtyke es Codrand\n\nnocit erlos. (p.73)",
+        "block_bbox": [
+          1832,
+          1679,
+          2554,
+          2002
+        ],
+        "block_id": 13,
+        "block_order": 11,
+        "group_id": 13,
+        "block_polygon_points": [
+          [
+            1832.0,
+            1679.0
+          ],
+          [
+            2554.0,
+            1679.0
+          ],
+          [
+            2554.0,
+            2002.0
+          ],
+          [
+            1832.0,
+            2002.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.5516015291213989,
+          "coordinate": [
+            153,
+            6,
+            445,
+            79
+          ],
+          "polygon_points": [
+            [
+              153.0,
+              6.0
+            ],
+            [
+              445.0,
+              6.0
+            ],
+            [
+              445.0,
+              79.0
+            ],
+            [
+              153.0,
+              79.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.6417593359947205,
+          "coordinate": [
+            2548,
+            1,
+            2862,
+            70
+          ],
+          "polygon_points": [
+            [
+              2548.0,
+              1.0
+            ],
+            [
+              2862.0,
+              1.0
+            ],
+            [
+              2862.0,
+              70.0
+            ],
+            [
+              2548.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3579757809638977,
+          "coordinate": [
+            479,
+            135,
+            1103,
+            218
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              479.0,
+              135.0
+            ],
+            [
+              1103.0,
+              135.0
+            ],
+            [
+              1103.0,
+              218.0
+            ],
+            [
+              479.0,
+              218.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6418654322624207,
+          "coordinate": [
+            417,
+            310,
+            1079,
+            463
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              417.0,
+              310.0
+            ],
+            [
+              1079.0,
+              310.0
+            ],
+            [
+              1079.0,
+              463.0
+            ],
+            [
+              417.0,
+              463.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6342899799346924,
+          "coordinate": [
+            456,
+            577,
+            1098,
+            685
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              456.0,
+              577.0
+            ],
+            [
+              1098.0,
+              577.0
+            ],
+            [
+              1098.0,
+              685.0
+            ],
+            [
+              456.0,
+              685.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.42715516686439514,
+          "coordinate": [
+            415,
+            857,
+            1105,
+            939
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              415.0,
+              857.0
+            ],
+            [
+              1105.0,
+              857.0
+            ],
+            [
+              1105.0,
+              939.0
+            ],
+            [
+              415.0,
+              939.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5295600295066833,
+          "coordinate": [
+            413,
+            1204,
+            1059,
+            1269
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              413.0,
+              1204.0
+            ],
+            [
+              1059.0,
+              1204.0
+            ],
+            [
+              1059.0,
+              1269.0
+            ],
+            [
+              413.0,
+              1269.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 21,
+          "label": "table",
+          "score": 0.49498817324638367,
+          "coordinate": [
+            397,
+            1543,
+            1120,
+            2015
+          ],
+          "polygon_points": [
+            [
+              397.0,
+              1543.0
+            ],
+            [
+              1120.0,
+              1543.0
+            ],
+            [
+              1120.0,
+              2015.0
+            ],
+            [
+              397.0,
+              2015.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3351048529148102,
+          "coordinate": [
+            1868,
+            179,
+            2466,
+            228
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1868.0,
+              179.0
+            ],
+            [
+              2466.0,
+              179.0
+            ],
+            [
+              2466.0,
+              228.0
+            ],
+            [
+              1868.0,
+              228.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7333142161369324,
+          "coordinate": [
+            1890,
+            334,
+            2540,
+            617
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1890.0,
+              334.0
+            ],
+            [
+              2540.0,
+              334.0
+            ],
+            [
+              2540.0,
+              617.0
+            ],
+            [
+              1890.0,
+              617.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6035340428352356,
+          "coordinate": [
+            1934,
+            754,
+            2508,
+            861
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1934.0,
+              754.0
+            ],
+            [
+              2508.0,
+              754.0
+            ],
+            [
+              2508.0,
+              861.0
+            ],
+            [
+              1934.0,
+              861.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6694892644882202,
+          "coordinate": [
+            1852,
+            1058,
+            2566,
+            1175
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              1852.0,
+              1058.0
+            ],
+            [
+              2566.0,
+              1058.0
+            ],
+            [
+              2566.0,
+              1175.0
+            ],
+            [
+              1852.0,
+              1175.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.582474410533905,
+          "coordinate": [
+            1905,
+            1286,
+            2509,
+            1568
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              1905.0,
+              1286.0
+            ],
+            [
+              2509.0,
+              1286.0
+            ],
+            [
+              2509.0,
+              1568.0
+            ],
+            [
+              1905.0,
+              1568.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.47727280855178833,
+          "coordinate": [
+            1832,
+            1679,
+            2554,
+            2002
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              1832.0,
+              1679.0
+            ],
+            [
+              2554.0,
+              1679.0
+            ],
+            [
+              2554.0,
+              2002.0
+            ],
+            [
+              1832.0,
+              2002.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "module deमatersextime.br\n\nkein\n\nfrom Niceland the Norman,\n\nsticking of versterling can\n\ngezop. hier evenwel begin\n\nL. Lemnius de Zecamonia in Scriverii Balon, c. 165. 114 152.\n\nBi zuck een adoselag den miss acal stelt, zonder vom weer.\n\nertfeier der kön. Friedrich-Wilhelms-Universität zu Berlin 1910.\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>1.148:</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>de oammonkelyio</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Dil handscapif</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>directe coris van A</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>(B.U.1253 na 1353, 1388 na 1396 enx de le</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1. de uog orda der he</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>den boltt den kaine</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>A ordgenomm. A harp</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>meend uter dada la</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>baven der zogel le wesom. &quot;C&quot; nam d</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>in jaoa.&quot;</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Zijn verpijding, en</td></tr></table>\n\nArundutia & Ramwellas, Calcut, d'Est., 262.\n\nCorval's Crucities II 374.\n\nMissingew.\n\nHero / same those Birth\n\ncalled Storkw that have\n\nbefore mentioned in my\n\nobservations of foundry\n\nBelieve.\n\nf. I. 185-188.\n\nfrom U. Amerina 1284 shows Roadop\n\nlot general, vicari is Tuscali\n\namongested, amongest but most\n\nD24 V.78\n\nMonday, 3.12.5. 20mm. Eng. depaper big large.\n\nKeen has 4x200cm olds slown moons\n\nZionities geclagen.\n\nZoland.\n\nTag.Stall. - Bemelow. kato ude idend\n\nZal. III. Br.Wakening\n\nkaant.\n\nBemelow 1615 doop Gues geluscal.166 body\n\nWest borselow.4ve. Monstern. 5.Collearmes\n\nava. 6 dimpas alle verzweigern.\n\n-Broll.101.136.173.\n\nMiel op de plesel u. Monstern. in 200.\n\n1849 krtig gelound.\n\nwiedberg.berg v. Troya\n\n1. Vier Umbacalon. p.36 - p.42.\n\nMuller p.70 ug. (over v.Heus.2v.p.4).\n\n1108. Burgaard scherdt aus S.Salvator\n\ndie keinen in die 4 Vla. amb. (Oude Car. p.210, Brom no. 268).\n\np.71, I 447 Eigt der Dommilksee parochiel\n\nvon 1330/1.\n\nugc. Liigster Ulr. dsmfabriik.\n\np.72. die witsprech v.1264.\n\nBienwiel wel, moon Yzandtyke es Codrand\n\nnocit erlos. (p.73)",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//eda81e7f-cc5b-4c16-9f41-32e597b90e41/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A30Z%2F-1%2F%2F6f0930d9f68d6297a503edbc4c28756908b07d0911470465190182f28ee7cf19"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//eda81e7f-cc5b-4c16-9f41-32e597b90e41/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A31Z%2F-1%2F%2F354c85989e3ed6b7e1c12d2a08d86841c232f27a321806947e7e24ba328f0c91"
+}

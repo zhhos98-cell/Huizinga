@@ -1,0 +1,349 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Dans caecen de ces lois hommes\n\nCe dans de la couleur d'exprime\n\ndifféremment, selon le peinture\n\ngénérale de leurs esprits.\n\nHugues, le mystique délicat et\n\nsublimé en verser les ricades\n\ndans l'harmonie de ses visions,\n\nSuger, la prélot réalité, musée\n\ncrista la beauté des vitrées de\n\ndes caldeurades, Alain, le poète, en\n\nséaussera l'écol de ses vers.\n\nM.177",
+        "block_bbox": [
+          1517,
+          1365,
+          2229,
+          1711
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1517.0,
+            1365.0
+          ],
+          [
+            2229.0,
+            1365.0
+          ],
+          [
+            2229.0,
+            1711.0
+          ],
+          [
+            1517.0,
+            1711.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "une soif de beauté par la cou\n\nleur, et un sens de souduite\n\nvif et très fin, qua je voudrais\n\nagorder comme la complème\n\nesthétique de ce renouvelle\n\nment général, de cette force\n\n(de l'esprit qui annonce la\n\nCréatrice qui va produire\n\nqui vient)\n\n×112 séclat le la louure, ce sen",
+        "block_bbox": [
+          2227,
+          1019,
+          2952,
+          1284
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2227.0,
+            1019.0
+          ],
+          [
+            2952.0,
+            1019.0
+          ],
+          [
+            2952.0,
+            1284.0
+          ],
+          [
+            2227.0,
+            1284.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "de Ponce la couleur, dans Hugues de Saint Victor, dans Suger de Saint",
+        "block_bbox": [
+          2171,
+          1287,
+          2955,
+          1351
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2171.0,
+            1287.0
+          ],
+          [
+            2956.0,
+            1287.0
+          ],
+          [
+            2956.0,
+            1351.0
+          ],
+          [
+            2171.0,
+            1351.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Denis et dans Alain de Lillo.\n\nl'exprience le menifศ, au chacun d'acres\n\ns'estence de lait par\n\ns'estime de lait par\n\ndenon. Huyque, le pente dans d'hon\n\nmonie de des braids mphique\n\nle Câtissem ins décrit des vi\n\nl'eux aimés, Alain d'en cas",
+        "block_bbox": [
+          2231,
+          1356,
+          2954,
+          1585
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1356.0
+          ],
+          [
+            2954.0,
+            1356.0
+          ],
+          [
+            2954.0,
+            1585.0
+          ],
+          [
+            2231.0,
+            1585.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Écoutez Hughes de Saint Victor si du moins la \"de gestics et alliez-il\" dit être attribué à lui. Observant les couleurs changées des colombies, qui font pensée à une mer agité, pour en liser leur signification symbolique qual exercice des sans de couleurs les lapidaires! - Hughes de Saint Victor est un des fondateurs de la théorie est-il que des moyers âge, tout ce qui le nous dit de la boon (des cassettes et plain) la est le nom de un sentiment",
+        "block_bbox": [
+          2222,
+          1620,
+          2953,
+          2013
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2222.0,
+            1620.0
+          ],
+          [
+            2953.0,
+            1620.0
+          ],
+          [
+            2953.0,
+            2013.0
+          ],
+          [
+            2222.0,
+            2013.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6021428108215332,
+          "coordinate": [
+            1517,
+            1365,
+            2229,
+            1711
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1517.0,
+              1365.0
+            ],
+            [
+              2229.0,
+              1365.0
+            ],
+            [
+              2229.0,
+              1711.0
+            ],
+            [
+              1517.0,
+              1711.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5644611716270447,
+          "coordinate": [
+            2227,
+            1019,
+            2952,
+            1284
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2227.0,
+              1019.0
+            ],
+            [
+              2952.0,
+              1019.0
+            ],
+            [
+              2952.0,
+              1284.0
+            ],
+            [
+              2227.0,
+              1284.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4367225468158722,
+          "coordinate": [
+            2171,
+            1287,
+            2955,
+            1351
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2171.0,
+              1287.0
+            ],
+            [
+              2956.0,
+              1287.0
+            ],
+            [
+              2956.0,
+              1351.0
+            ],
+            [
+              2171.0,
+              1351.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5848549008369446,
+          "coordinate": [
+            2231,
+            1356,
+            2954,
+            1585
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2231.0,
+              1356.0
+            ],
+            [
+              2954.0,
+              1356.0
+            ],
+            [
+              2954.0,
+              1585.0
+            ],
+            [
+              2231.0,
+              1585.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6533287763595581,
+          "coordinate": [
+            2222,
+            1620,
+            2953,
+            2013
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2222.0,
+              1620.0
+            ],
+            [
+              2953.0,
+              1620.0
+            ],
+            [
+              2953.0,
+              2013.0
+            ],
+            [
+              2222.0,
+              2013.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Dans caecen de ces lois hommes\n\nCe dans de la couleur d'exprime\n\ndifféremment, selon le peinture\n\ngénérale de leurs esprits.\n\nHugues, le mystique délicat et\n\nsublimé en verser les ricades\n\ndans l'harmonie de ses visions,\n\nSuger, la prélot réalité, musée\n\ncrista la beauté des vitrées de\n\ndes caldeurades, Alain, le poète, en\n\nséaussera l'écol de ses vers.\n\nM.177\n\nune soif de beauté par la cou\n\nleur, et un sens de souduite\n\nvif et très fin, qua je voudrais\n\nagorder comme la complème\n\nesthétique de ce renouvelle\n\nment général, de cette force\n\n(de l'esprit qui annonce la\n\nCréatrice qui va produire\n\nqui vient)\n\n×112 séclat le la louure, ce sen\n\nde Ponce la couleur, dans Hugues de Saint Victor, dans Suger de Saint\n\nDenis et dans Alain de Lillo.\n\nl'exprience le menifศ, au chacun d'acres\n\ns'estence de lait par\n\ns'estime de lait par\n\ndenon. Huyque, le pente dans d'hon\n\nmonie de des braids mphique\n\nle Câtissem ins décrit des vi\n\nl'eux aimés, Alain d'en cas\n\nÉcoutez Hughes de Saint Victor si du moins la \"de gestics et alliez-il\" dit être attribué à lui. Observant les couleurs changées des colombies, qui font pensée à une mer agité, pour en liser leur signification symbolique qual exercice des sans de couleurs les lapidaires! - Hughes de Saint Victor est un des fondateurs de la théorie est-il que des moyers âge, tout ce qui le nous dit de la boon (des cassettes et plain) la est le nom de un sentiment",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2F4396a0d073f7b0552842218d53ae17201327da96c0e881f2d535d70cc9f716f0"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2Fe86a1ec74c226fb184d9f019a4643ef25a8bcb83fc96f5d890b75105749a60fe"
+}

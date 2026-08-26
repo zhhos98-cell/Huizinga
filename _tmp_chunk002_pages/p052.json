@@ -1,0 +1,1083 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "paragraph_title",
+        "block_content": "##### Cusa",
+        "block_bbox": [
+          1540,
+          1102,
+          1673,
+          1122
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1540.0,
+            1102.0
+          ],
+          [
+            1672.0,
+            1102.0
+          ],
+          [
+            1672.0,
+            1121.0
+          ],
+          [
+            1540.0,
+            1121.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Vanita Tsenberg P. 232.",
+        "block_bbox": [
+          1541,
+          1127,
+          2013,
+          1151
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1541.0,
+            1127.0
+          ],
+          [
+            2013.0,
+            1127.0
+          ],
+          [
+            2013.0,
+            1151.0
+          ],
+          [
+            1541.0,
+            1151.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "is edition Bozak 1565 er? p. 879-932.",
+        "block_bbox": [
+          1541,
+          1153,
+          2222,
+          1184
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1541.0,
+            1153.0
+          ],
+          [
+            2222.0,
+            1153.0
+          ],
+          [
+            2222.0,
+            1184.0
+          ],
+          [
+            1541.0,
+            1184.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Aicon.Cant.",
+        "block_bbox": [
+          1535,
+          1203,
+          1773,
+          1227
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1535.0,
+            1203.0
+          ],
+          [
+            1773.0,
+            1203.0
+          ],
+          [
+            1773.0,
+            1227.0
+          ],
+          [
+            1535.0,
+            1227.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "c",
+        "block_bbox": [
+          1533,
+          1232,
+          1916,
+          1257
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1533.0,
+            1232.0
+          ],
+          [
+            1916.0,
+            1232.0
+          ],
+          [
+            1916.0,
+            1257.0
+          ],
+          [
+            1533.0,
+            1257.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "2020 is old. Moments",
+        "block_bbox": [
+          1530,
+          1259,
+          2029,
+          1285
+        ],
+        "block_id": 5,
+        "block_order": 6,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1530.0,
+            1259.0
+          ],
+          [
+            2029.0,
+            1259.0
+          ],
+          [
+            2029.0,
+            1285.0
+          ],
+          [
+            1530.0,
+            1285.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Aerosus Services",
+        "block_bbox": [
+          1527,
+          1313,
+          1877,
+          1339
+        ],
+        "block_id": 6,
+        "block_order": 7,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            1527.0,
+            1313.0
+          ],
+          [
+            1877.0,
+            1313.0
+          ],
+          [
+            1877.0,
+            1339.0
+          ],
+          [
+            1527.0,
+            1339.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Bibleiander p. 259.",
+        "block_bbox": [
+          1529,
+          1345,
+          1927,
+          1371
+        ],
+        "block_id": 7,
+        "block_order": 8,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            1529.0,
+            1345.0
+          ],
+          [
+            1927.0,
+            1345.0
+          ],
+          [
+            1927.0,
+            1371.0
+          ],
+          [
+            1529.0,
+            1371.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "epital.396",
+        "block_bbox": [
+          1529,
+          1374,
+          1752,
+          1398
+        ],
+        "block_id": 8,
+        "block_order": 9,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1529.0,
+            1374.0
+          ],
+          [
+            1752.0,
+            1374.0
+          ],
+          [
+            1752.0,
+            1398.0
+          ],
+          [
+            1529.0,
+            1398.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Raymondus 1461.34-112",
+        "block_bbox": [
+          1524,
+          1400,
+          1987,
+          1426
+        ],
+        "block_id": 9,
+        "block_order": 10,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            1524.0,
+            1400.0
+          ],
+          [
+            1987.0,
+            1400.0
+          ],
+          [
+            1987.0,
+            1426.0
+          ],
+          [
+            1524.0,
+            1426.0
+          ]
+        ]
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "### TenrecremoTa",
+        "block_bbox": [
+          1517,
+          1462,
+          1831,
+          1484
+        ],
+        "block_id": 10,
+        "block_order": 11,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            1517.0,
+            1462.0
+          ],
+          [
+            1831.0,
+            1462.0
+          ],
+          [
+            1831.0,
+            1484.0
+          ],
+          [
+            1517.0,
+            1484.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "addison dialogus",
+        "block_bbox": [
+          1517,
+          1489,
+          1898,
+          1513
+        ],
+        "block_id": 11,
+        "block_order": 12,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            1517.0,
+            1489.0
+          ],
+          [
+            1898.0,
+            1489.0
+          ],
+          [
+            1898.0,
+            1513.0
+          ],
+          [
+            1517.0,
+            1513.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Savonarola, Bibliavdar² Comp. 3.\n\nen Mars. Ficimus, de Ver. C. 12.35/37",
+        "block_bbox": [
+          1504,
+          1541,
+          2177,
+          1631
+        ],
+        "block_id": 12,
+        "block_order": 13,
+        "group_id": 12,
+        "block_polygon_points": [
+          [
+            1504.0,
+            1541.0
+          ],
+          [
+            2177.0,
+            1541.0
+          ],
+          [
+            2177.0,
+            1631.0
+          ],
+          [
+            1504.0,
+            1631.0
+          ]
+        ]
+      },
+      {
+        "block_label": "paragraph_title",
+        "block_content": "### Virees",
+        "block_bbox": [
+          1499,
+          1641,
+          1652,
+          1664
+        ],
+        "block_id": 13,
+        "block_order": 14,
+        "group_id": 13,
+        "block_polygon_points": [
+          [
+            1499.0,
+            1641.0
+          ],
+          [
+            1652.0,
+            1641.0
+          ],
+          [
+            1652.0,
+            1664.0
+          ],
+          [
+            1499.0,
+            1664.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "da Ver. e.IV. - vergelich Biblion.\n\nder 2 Conf. 1.",
+        "block_bbox": [
+          1498,
+          1666,
+          2145,
+          1727
+        ],
+        "block_id": 14,
+        "block_order": 15,
+        "group_id": 14,
+        "block_polygon_points": [
+          [
+            1498.0,
+            1666.0
+          ],
+          [
+            2145.0,
+            1666.0
+          ],
+          [
+            2145.0,
+            1727.0
+          ],
+          [
+            1498.0,
+            1727.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 17,
+          "label": "paragraph_title",
+          "score": 0.526582658290863,
+          "coordinate": [
+            1540,
+            1102,
+            1673,
+            1122
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1540.0,
+              1102.0
+            ],
+            [
+              1672.0,
+              1102.0
+            ],
+            [
+              1672.0,
+              1121.0
+            ],
+            [
+              1540.0,
+              1121.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5698773860931396,
+          "coordinate": [
+            1541,
+            1127,
+            2013,
+            1151
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1541.0,
+              1127.0
+            ],
+            [
+              2013.0,
+              1127.0
+            ],
+            [
+              2013.0,
+              1151.0
+            ],
+            [
+              1541.0,
+              1151.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.46210548281669617,
+          "coordinate": [
+            1541,
+            1153,
+            2222,
+            1184
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1541.0,
+              1153.0
+            ],
+            [
+              2222.0,
+              1153.0
+            ],
+            [
+              2222.0,
+              1184.0
+            ],
+            [
+              1541.0,
+              1184.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 15,
+          "label": "inline_formula",
+          "score": 0.303356796503067,
+          "coordinate": [
+            1742,
+            1155,
+            2214,
+            1181
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1742.0,
+              1155.0
+            ],
+            [
+              2214.0,
+              1155.0
+            ],
+            [
+              2214.0,
+              1181.0
+            ],
+            [
+              1742.0,
+              1181.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5546653866767883,
+          "coordinate": [
+            1535,
+            1203,
+            1773,
+            1227
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1535.0,
+              1203.0
+            ],
+            [
+              1773.0,
+              1203.0
+            ],
+            [
+              1773.0,
+              1227.0
+            ],
+            [
+              1535.0,
+              1227.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.46624234318733215,
+          "coordinate": [
+            1533,
+            1232,
+            1916,
+            1257
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1533.0,
+              1232.0
+            ],
+            [
+              1916.0,
+              1232.0
+            ],
+            [
+              1916.0,
+              1257.0
+            ],
+            [
+              1533.0,
+              1257.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5529022216796875,
+          "coordinate": [
+            1530,
+            1259,
+            2029,
+            1285
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1530.0,
+              1259.0
+            ],
+            [
+              2029.0,
+              1259.0
+            ],
+            [
+              2029.0,
+              1285.0
+            ],
+            [
+              1530.0,
+              1285.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5492655634880066,
+          "coordinate": [
+            1527,
+            1313,
+            1877,
+            1339
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1527.0,
+              1313.0
+            ],
+            [
+              1877.0,
+              1313.0
+            ],
+            [
+              1877.0,
+              1339.0
+            ],
+            [
+              1527.0,
+              1339.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 15,
+          "label": "inline_formula",
+          "score": 0.30227601528167725,
+          "coordinate": [
+            1686,
+            1315,
+            1869,
+            1338
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              1686.0,
+              1315.0
+            ],
+            [
+              1869.0,
+              1315.0
+            ],
+            [
+              1869.0,
+              1338.0
+            ],
+            [
+              1686.0,
+              1338.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4888021945953369,
+          "coordinate": [
+            1529,
+            1345,
+            1927,
+            1371
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              1529.0,
+              1345.0
+            ],
+            [
+              1927.0,
+              1345.0
+            ],
+            [
+              1927.0,
+              1371.0
+            ],
+            [
+              1529.0,
+              1371.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 15,
+          "label": "inline_formula",
+          "score": 0.34640800952911377,
+          "coordinate": [
+            1796,
+            1346,
+            1916,
+            1369
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              1796.0,
+              1346.0
+            ],
+            [
+              1796.0,
+              1368.0
+            ],
+            [
+              1915.0,
+              1368.0
+            ],
+            [
+              1915.0,
+              1354.0
+            ],
+            [
+              1900.0,
+              1346.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3849181830883026,
+          "coordinate": [
+            1529,
+            1374,
+            1752,
+            1398
+          ],
+          "order": 12,
+          "polygon_points": [
+            [
+              1529.0,
+              1374.0
+            ],
+            [
+              1752.0,
+              1374.0
+            ],
+            [
+              1752.0,
+              1398.0
+            ],
+            [
+              1529.0,
+              1398.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5279747843742371,
+          "coordinate": [
+            1524,
+            1400,
+            1987,
+            1426
+          ],
+          "order": 13,
+          "polygon_points": [
+            [
+              1524.0,
+              1400.0
+            ],
+            [
+              1987.0,
+              1400.0
+            ],
+            [
+              1987.0,
+              1426.0
+            ],
+            [
+              1524.0,
+              1426.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 17,
+          "label": "paragraph_title",
+          "score": 0.40999510884284973,
+          "coordinate": [
+            1517,
+            1462,
+            1831,
+            1484
+          ],
+          "order": 14,
+          "polygon_points": [
+            [
+              1517.0,
+              1462.0
+            ],
+            [
+              1831.0,
+              1462.0
+            ],
+            [
+              1831.0,
+              1484.0
+            ],
+            [
+              1517.0,
+              1484.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.51296067237854,
+          "coordinate": [
+            1517,
+            1489,
+            1898,
+            1513
+          ],
+          "order": 15,
+          "polygon_points": [
+            [
+              1517.0,
+              1489.0
+            ],
+            [
+              1898.0,
+              1489.0
+            ],
+            [
+              1898.0,
+              1513.0
+            ],
+            [
+              1517.0,
+              1513.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3772422671318054,
+          "coordinate": [
+            1510,
+            1543,
+            2177,
+            1574
+          ],
+          "order": 16,
+          "polygon_points": [
+            [
+              1510.0,
+              1543.0
+            ],
+            [
+              2177.0,
+              1543.0
+            ],
+            [
+              2177.0,
+              1574.0
+            ],
+            [
+              1510.0,
+              1574.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.40186643600463867,
+          "coordinate": [
+            1504,
+            1541,
+            2177,
+            1631
+          ],
+          "order": 17,
+          "polygon_points": [
+            [
+              1504.0,
+              1541.0
+            ],
+            [
+              2177.0,
+              1541.0
+            ],
+            [
+              2177.0,
+              1631.0
+            ],
+            [
+              1504.0,
+              1631.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 17,
+          "label": "paragraph_title",
+          "score": 0.3449997901916504,
+          "coordinate": [
+            1499,
+            1641,
+            1652,
+            1664
+          ],
+          "order": 18,
+          "polygon_points": [
+            [
+              1499.0,
+              1641.0
+            ],
+            [
+              1652.0,
+              1641.0
+            ],
+            [
+              1652.0,
+              1664.0
+            ],
+            [
+              1499.0,
+              1664.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6099193692207336,
+          "coordinate": [
+            1498,
+            1666,
+            2145,
+            1727
+          ],
+          "order": 19,
+          "polygon_points": [
+            [
+              1498.0,
+              1666.0
+            ],
+            [
+              2145.0,
+              1666.0
+            ],
+            [
+              2145.0,
+              1727.0
+            ],
+            [
+              1498.0,
+              1727.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "##### Cusa\n\nVanita Tsenberg P. 232.\n\nis edition Bozak 1565 er? p. 879-932.\n\nAicon.Cant.\n\nc\n\n2020 is old. Moments\n\nAerosus Services\n\nBibleiander p. 259.\n\nepital.396\n\nRaymondus 1461.34-112\n\n### TenrecremoTa\n\naddison dialogus\n\nSavonarola, Bibliavdar² Comp. 3.\n\nen Mars. Ficimus, de Ver. C. 12.35/37\n\n### Virees\n\nda Ver. e.IV. - vergelich Biblion.\n\nder 2 Conf. 1.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2Fedc37f9013a2b596bf3c42fc72a09e36cbd0e6f4626b08c8a62616e8523cb3a3"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2F4abb2dbbdad3d68ce6d5fe80cef7ae39a838fa05d21acf1e838348a5327815e6"
+}

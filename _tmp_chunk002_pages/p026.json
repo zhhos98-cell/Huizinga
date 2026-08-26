@@ -1,0 +1,650 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "may be limited to one day!",
+        "block_bbox": [
+          1891,
+          977,
+          2188,
+          999
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1891.0,
+            977.0
+          ],
+          [
+            2188.0,
+            977.0
+          ],
+          [
+            2188.0,
+            999.0
+          ],
+          [
+            1891.0,
+            999.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "hongq.1226.217",
+        "block_bbox": [
+          1540,
+          1266,
+          1753,
+          1297
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1540.0,
+            1266.0
+          ],
+          [
+            1753.0,
+            1266.0
+          ],
+          [
+            1753.0,
+            1297.0
+          ],
+          [
+            1540.0,
+            1297.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "verwüstigt also zealter Quiten Stadt\n\ncoat verkocat keckegord Zonder scho.\n\ndeloosstelling aan kerk teung.",
+        "block_bbox": [
+          1532,
+          1104,
+          2224,
+          1184
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1532.0,
+            1104.0
+          ],
+          [
+            2224.0,
+            1104.0
+          ],
+          [
+            2224.0,
+            1184.0
+          ],
+          [
+            1532.0,
+            1184.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "constitutionale logique.\nage. Resume. 2020. Comité.",
+        "block_bbox": [
+          1532,
+          1403,
+          2011,
+          1452
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1532.0,
+            1403.0
+          ],
+          [
+            2011.0,
+            1403.0
+          ],
+          [
+            2011.0,
+            1452.0
+          ],
+          [
+            1532.0,
+            1452.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "erflating v. Mathilde † 115 can pour Glaop\n\nd'oode letter, de Iose. Stedeu autonsom\n\nPita, Siena, Lucca gas vón Flor. - 1138 Co\n\nrude gensemol. 1158 podidi. 1193 gildon. 202\n\n1185 Flor. 202. T hoofel v. 200 Iosc. Stedenber\n\n- Barb. tracet landael en Kerk in macot\n\nover Aod. Te henstodam, ZOT haizerd. gazing\n\nedolen an het hoofd, maan 2000 1187 kri\n\nFl. van Hender. VI. zijn recaten Terug. Frad. 11\n\nkrigt haan gribel. Jden autonomie Te\n\nlater.",
+        "block_bbox": [
+          2235,
+          977,
+          2955,
+          1241
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2235.0,
+            977.0
+          ],
+          [
+            2955.0,
+            977.0
+          ],
+          [
+            2955.0,
+            1241.0
+          ],
+          [
+            2235.0,
+            1241.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Adol in die Stadt, terns zu western, 1215 d.\n\nVesta. Tagen Buondalmassiti monstt uit in\n\ngureft, zu gнlib. - Tegelijk inwendige strip\n\nzu met Buren. Adlwenaar Burgert zu mit\n\nderd. u. adol gureft. - Burgers hebben genast\n\nu. vlaaten. 1248 gureft. dosr Ulbert's. s. verjaag\n\n1250. commentaling: naast podstaß & comune\n\nTresst Capitans der popolo met zood van\n\n12 oudsten (amozioni) en 20 compagnie. 68\n\nker by klichlag Burgerloger opzapen, mas\n\nin het lied blift podstaß aanwender. de\n\nman vertagen. Ze die stod naar Buiten\n\n- Tozans van gureft, zu gнlib. tot 50 el verlaat\n\ndaarna wel en verwest (teen sociototo\n\nDZG 1.203). beide aanwenderers weemdem.",
+        "block_bbox": [
+          2230,
+          1242,
+          2954,
+          1583
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2230.0,
+            1242.0
+          ],
+          [
+            2954.0,
+            1242.0
+          ],
+          [
+            2954.0,
+            1583.0
+          ],
+          [
+            2230.0,
+            1583.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Flor. Ghib. verbimolen z. met Pida, Siena\n\nPistoja, Arezzo. Flor. wil aan zoo komen\n\noorlogt geluchlig. groto opblesi. maar 126\n\ngroot flor. leger dat Siena was namem\n\ndien Siem. en koizerd. (Monkred's gen. vic. van\n\nTosc.) verslagen Gij Montaperti.",
+        "block_bbox": [
+          2231,
+          1583,
+          2953,
+          1722
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1583.0
+          ],
+          [
+            2953.0,
+            1583.0
+          ],
+          [
+            2953.0,
+            1722.0
+          ],
+          [
+            2231.0,
+            1722.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Farimoto degel'ulertir zedt da Tad. Vio",
+        "block_bbox": [
+          2231,
+          1722,
+          2954,
+          1766
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1722.0
+          ],
+          [
+            2954.0,
+            1722.0
+          ],
+          [
+            2954.0,
+            1766.0
+          ],
+          [
+            2231.0,
+            1766.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "volagemente opgelaven, gild. 2.Sukura\n\nTie DZG.1.38. - pod. en vic. Quido Ncarello onda\n\nkwaan. Farinata † 1264. - slimma pol. u. par\n\nbreigt 1267 Karol v. hmi. als nedesticater\n\nnicene organisatio: de 12 amziani old\n\nBusuomimi hardtold. hoofdimuload war\n\nlegd u. contiglio del comune non const\n\nstad popolo. stadd de ouda inst22. bewa\n\nstastmacchi staddu ingevikkader met tepe\n\nwictoe en zemmem.",
+        "block_bbox": [
+          2231,
+          1766,
+          2955,
+          1995
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1766.0
+          ],
+          [
+            2955.0,
+            1766.0
+          ],
+          [
+            2955.0,
+            1995.0
+          ],
+          [
+            2231.0,
+            1995.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "het econ. moment nie zaer sterch. grand",
+        "block_bbox": [
+          2235,
+          1997,
+          2955,
+          2017
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2235.0,
+            1997.0
+          ],
+          [
+            2954.0,
+            1997.0
+          ],
+          [
+            2954.0,
+            2016.0
+          ],
+          [
+            2235.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.42797866463661194,
+          "coordinate": [
+            1891,
+            977,
+            2188,
+            999
+          ],
+          "polygon_points": [
+            [
+              1891.0,
+              977.0
+            ],
+            [
+              2188.0,
+              977.0
+            ],
+            [
+              2188.0,
+              999.0
+            ],
+            [
+              1891.0,
+              999.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3425575792789459,
+          "coordinate": [
+            1540,
+            1266,
+            1753,
+            1297
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1540.0,
+              1266.0
+            ],
+            [
+              1753.0,
+              1266.0
+            ],
+            [
+              1753.0,
+              1297.0
+            ],
+            [
+              1540.0,
+              1297.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6160596013069153,
+          "coordinate": [
+            1532,
+            1104,
+            2224,
+            1184
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1532.0,
+              1104.0
+            ],
+            [
+              2224.0,
+              1104.0
+            ],
+            [
+              2224.0,
+              1184.0
+            ],
+            [
+              1532.0,
+              1184.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6155542135238647,
+          "coordinate": [
+            1532,
+            1403,
+            2011,
+            1452
+          ],
+          "polygon_points": [
+            [
+              1532.0,
+              1403.0
+            ],
+            [
+              2011.0,
+              1403.0
+            ],
+            [
+              2011.0,
+              1452.0
+            ],
+            [
+              1532.0,
+              1452.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8854296207427979,
+          "coordinate": [
+            2235,
+            977,
+            2955,
+            1241
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2235.0,
+              977.0
+            ],
+            [
+              2955.0,
+              977.0
+            ],
+            [
+              2955.0,
+              1241.0
+            ],
+            [
+              2235.0,
+              1241.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8437033891677856,
+          "coordinate": [
+            2230,
+            1242,
+            2954,
+            1583
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2230.0,
+              1242.0
+            ],
+            [
+              2954.0,
+              1242.0
+            ],
+            [
+              2954.0,
+              1583.0
+            ],
+            [
+              2230.0,
+              1583.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7519035339355469,
+          "coordinate": [
+            2231,
+            1583,
+            2953,
+            1722
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2231.0,
+              1583.0
+            ],
+            [
+              2953.0,
+              1583.0
+            ],
+            [
+              2953.0,
+              1722.0
+            ],
+            [
+              2231.0,
+              1722.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6978068351745605,
+          "coordinate": [
+            2231,
+            1722,
+            2954,
+            1766
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2231.0,
+              1722.0
+            ],
+            [
+              2954.0,
+              1722.0
+            ],
+            [
+              2954.0,
+              1766.0
+            ],
+            [
+              2231.0,
+              1766.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9129787087440491,
+          "coordinate": [
+            2231,
+            1766,
+            2955,
+            1995
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2231.0,
+              1766.0
+            ],
+            [
+              2955.0,
+              1766.0
+            ],
+            [
+              2955.0,
+              1995.0
+            ],
+            [
+              2231.0,
+              1995.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3130474388599396,
+          "coordinate": [
+            2235,
+            1997,
+            2955,
+            2017
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2235.0,
+              1997.0
+            ],
+            [
+              2954.0,
+              1997.0
+            ],
+            [
+              2954.0,
+              2016.0
+            ],
+            [
+              2235.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "hongq.1226.217\n\nverwüstigt also zealter Quiten Stadt\n\ncoat verkocat keckegord Zonder scho.\n\ndeloosstelling aan kerk teung.\n\nerflating v. Mathilde † 115 can pour Glaop\n\nd'oode letter, de Iose. Stedeu autonsom\n\nPita, Siena, Lucca gas vón Flor. - 1138 Co\n\nrude gensemol. 1158 podidi. 1193 gildon. 202\n\n1185 Flor. 202. T hoofel v. 200 Iosc. Stedenber\n\n- Barb. tracet landael en Kerk in macot\n\nover Aod. Te henstodam, ZOT haizerd. gazing\n\nedolen an het hoofd, maan 2000 1187 kri\n\nFl. van Hender. VI. zijn recaten Terug. Frad. 11\n\nkrigt haan gribel. Jden autonomie Te\n\nlater.\n\nAdol in die Stadt, terns zu western, 1215 d.\n\nVesta. Tagen Buondalmassiti monstt uit in\n\ngureft, zu gнlib. - Tegelijk inwendige strip\n\nzu met Buren. Adlwenaar Burgert zu mit\n\nderd. u. adol gureft. - Burgers hebben genast\n\nu. vlaaten. 1248 gureft. dosr Ulbert's. s. verjaag\n\n1250. commentaling: naast podstaß & comune\n\nTresst Capitans der popolo met zood van\n\n12 oudsten (amozioni) en 20 compagnie. 68\n\nker by klichlag Burgerloger opzapen, mas\n\nin het lied blift podstaß aanwender. de\n\nman vertagen. Ze die stod naar Buiten\n\n- Tozans van gureft, zu gнlib. tot 50 el verlaat\n\ndaarna wel en verwest (teen sociototo\n\nDZG 1.203). beide aanwenderers weemdem.\n\nFlor. Ghib. verbimolen z. met Pida, Siena\n\nPistoja, Arezzo. Flor. wil aan zoo komen\n\noorlogt geluchlig. groto opblesi. maar 126\n\ngroot flor. leger dat Siena was namem\n\ndien Siem. en koizerd. (Monkred's gen. vic. van\n\nTosc.) verslagen Gij Montaperti.\n\nFarimoto degel'ulertir zedt da Tad. Vio\n\nvolagemente opgelaven, gild. 2.Sukura\n\nTie DZG.1.38. - pod. en vic. Quido Ncarello onda\n\nkwaan. Farinata † 1264. - slimma pol. u. par\n\nbreigt 1267 Karol v. hmi. als nedesticater\n\nnicene organisatio: de 12 amziani old\n\nBusuomimi hardtold. hoofdimuload war\n\nlegd u. contiglio del comune non const\n\nstad popolo. stadd de ouda inst22. bewa\n\nstastmacchi staddu ingevikkader met tepe\n\nwictoe en zemmem.\n\nhet econ. moment nie zaer sterch. grand",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4ac50bd5-c0f9-4404-83b1-6a42b46ea373/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A57%3A13Z%2F-1%2F%2Fa2f0c4305379dd1e3ae8b72ed99101c1a4f4febdf88b956ad13609bd305e43eb"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4ac50bd5-c0f9-4404-83b1-6a42b46ea373/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A57%3A13Z%2F-1%2F%2F32cbafce83d7b598b77a1f4a16607a5aba8f51cf9ebf52b4326c9310cafc08c5"
+}

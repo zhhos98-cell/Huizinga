@@ -1,0 +1,133 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "table",
+        "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>Cette�ion ulteriérienne, en dans d&#x27;autres clans de Roman de la Rosa, et dans le &quot;Dolce stile musico&quot;. Remanquera ensuite, qualldes sont les figurances qui, dans d&#x27;Anticlans chies, entrent en scène comme puissances hostilises à l&#x27;écuine de Nature. Gm y l&#x27;acqua Vénus, cerbeaument, elle est unincens et tuéa. Mais en y louve aussi après discours qui commence le coup de l&#x27;ancien écure des saloon.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cella d&#x27;armée Ine co rues Nand par du tout à la série des crédés capçalerie鑑que d&#x27;entendité. L&#x27;Égale.</td><td style='text-align: center; word-wrap: break-word;'>Gal : Paunreal avec ses saloon. Fairne et Labaren, l&#x27;informie. Vénne, la, Penne, Découés (Excepte) l&#x27;impédié, Aravice, J&#x27;Cette armée.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>de la Capitalé d&#x27;Europe, qui l&#x27;iennent la musique parle dans de l&#x27;une de la visage Mum.</td><td style='text-align: center; word-wrap: break-word;'>2 appalée simguérinement à café gorie des affaixs anti-countois.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>(Alain blâume de Pannale des Vues-de-378 C. - Loue et P. 565/3.)</td><td style='text-align: center; word-wrap: break-word;'>c.a.d. et les défunseurs du château du la Rose.&#x27; Gm est assez loin cici. clés précis et d&#x27;ascétisme. la Paunale dans le camp ennemi et peut. àne bainl François clés et part.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>589</td><td style='text-align: center; word-wrap: break-word;'>el part. àne bainl François clés et part. Salon des reparées de M. Huteau de l&#x27;écuine d&#x27;Amsterdam fut écri en enseigne 1184 à 1184.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>8. Simplicien coeces produisent du carecun/Ne caend caecum du cal in andes duu. et fait suine : sec. tomane insameun prohibene ne.</td><td style='text-align: center; word-wrap: break-word;'>les vers croquied au l&#x27;écuine d&#x27;Alain dit : colorum, où Alain dit :</td></tr></table>",
+        "block_bbox": [
+          0,
+          0,
+          1510,
+          1024
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            -5.0,
+            0.0
+          ],
+          [
+            1510.0,
+            0.0
+          ],
+          [
+            1510.0,
+            1024.0
+          ],
+          [
+            -5.0,
+            1024.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 21,
+          "label": "table",
+          "score": 0.7521956562995911,
+          "coordinate": [
+            0,
+            0,
+            1510,
+            1024
+          ],
+          "polygon_points": [
+            [
+              -5.0,
+              0.0
+            ],
+            [
+              1510.0,
+              0.0
+            ],
+            [
+              1510.0,
+              1024.0
+            ],
+            [
+              -5.0,
+              1024.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.3961617946624756,
+          "coordinate": [
+            1429,
+            981,
+            1479,
+            1006
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1429.0,
+              981.0
+            ],
+            [
+              1429.0,
+              1005.0
+            ],
+            [
+              1478.0,
+              1005.0
+            ],
+            [
+              1478.0,
+              981.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 180
+    }
+  },
+  "markdown": {
+    "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>27</td><td style='text-align: center; word-wrap: break-word;'>Cette�ion ulteriérienne, en dans d&#x27;autres clans de Roman de la Rosa, et dans le &quot;Dolce stile musico&quot;. Remanquera ensuite, qualldes sont les figurances qui, dans d&#x27;Anticlans chies, entrent en scène comme puissances hostilises à l&#x27;écuine de Nature. Gm y l&#x27;acqua Vénus, cerbeaument, elle est unincens et tuéa. Mais en y louve aussi après discours qui commence le coup de l&#x27;ancien écure des saloon.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cella d&#x27;armée Ine co rues Nand par du tout à la série des crédés capçalerie鑑que d&#x27;entendité. L&#x27;Égale.</td><td style='text-align: center; word-wrap: break-word;'>Gal : Paunreal avec ses saloon. Fairne et Labaren, l&#x27;informie. Vénne, la, Penne, Découés (Excepte) l&#x27;impédié, Aravice, J&#x27;Cette armée.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>de la Capitalé d&#x27;Europe, qui l&#x27;iennent la musique parle dans de l&#x27;une de la visage Mum.</td><td style='text-align: center; word-wrap: break-word;'>2 appalée simguérinement à café gorie des affaixs anti-countois.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>(Alain blâume de Pannale des Vues-de-378 C. - Loue et P. 565/3.)</td><td style='text-align: center; word-wrap: break-word;'>c.a.d. et les défunseurs du château du la Rose.&#x27; Gm est assez loin cici. clés précis et d&#x27;ascétisme. la Paunale dans le camp ennemi et peut. àne bainl François clés et part.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>589</td><td style='text-align: center; word-wrap: break-word;'>el part. àne bainl François clés et part. Salon des reparées de M. Huteau de l&#x27;écuine d&#x27;Amsterdam fut écri en enseigne 1184 à 1184.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>8. Simplicien coeces produisent du carecun/Ne caend caecum du cal in andes duu. et fait suine : sec. tomane insameun prohibene ne.</td><td style='text-align: center; word-wrap: break-word;'>les vers croquied au l&#x27;écuine d&#x27;Alain dit : colorum, où Alain dit :</td></tr></table>",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//2a22e394-8e80-4f7b-bd77-01409d832496/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A41Z%2F-1%2F%2Fd1dfe185a6d43473c66b3bd5086edce9e02292115f5c0437465fa4d24abb6405"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//2a22e394-8e80-4f7b-bd77-01409d832496/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A41Z%2F-1%2F%2Fee36a8d03c2b3d6f95c9dce7044bb12b59f7cf50a147dd58b63e6d1ded6dc4cb"
+}

@@ -1,0 +1,743 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Beite2.2.G. den Phil.d.M.\n\nⅡ.1898.V2507",
+        "block_bbox": [
+          1533,
+          1320,
+          1949,
+          1383
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1533.0,
+            1320.0
+          ],
+          [
+            1949.0,
+            1320.0
+          ],
+          [
+            1949.0,
+            1383.0
+          ],
+          [
+            1533.0,
+            1383.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Area.1.Red.Wiss.Cgo.\n\n(train).1x.1906.V557",
+        "block_bbox": [
+          1532,
+          1389,
+          1949,
+          1450
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1532.0,
+            1389.0
+          ],
+          [
+            1949.0,
+            1389.0
+          ],
+          [
+            1949.0,
+            1450.0
+          ],
+          [
+            1532.0,
+            1450.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Wechseler.918E.",
+        "block_bbox": [
+          1538,
+          1529,
+          1907,
+          1559
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1538.0,
+            1529.0
+          ],
+          [
+            1907.0,
+            1529.0
+          ],
+          [
+            1907.0,
+            1559.0
+          ],
+          [
+            1538.0,
+            1559.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Migne (Mildrobert,\n\nMorbad etc.)\n\n424736",
+        "block_bbox": [
+          1539,
+          1749,
+          1939,
+          1837
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1539.0,
+            1749.0
+          ],
+          [
+            1939.0,
+            1749.0
+          ],
+          [
+            1939.0,
+            1837.0
+          ],
+          [
+            1539.0,
+            1837.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Boethius 465 F.\n\nKB - Bayart, P. - Ludus\n\nKB - to up in. Ab. x\n\nKB. - Lat. O. x\n\nK.B.",
+        "block_bbox": [
+          1545,
+          1931,
+          1916,
+          1963
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1545.0,
+            1931.0
+          ],
+          [
+            1916.0,
+            1931.0
+          ],
+          [
+            1916.0,
+            1963.0
+          ],
+          [
+            1545.0,
+            1963.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "",
+        "block_bbox": [
+          2001,
+          1795,
+          2422,
+          1895
+        ],
+        "block_id": 5,
+        "block_order": 6,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2001.0,
+            1795.0
+          ],
+          [
+            2422.0,
+            1795.0
+          ],
+          [
+            2422.0,
+            1895.0
+          ],
+          [
+            2001.0,
+            1895.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "",
+        "block_bbox": [
+          2493,
+          1385,
+          2588,
+          1413
+        ],
+        "block_id": 6,
+        "block_order": 7,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2493.0,
+            1385.0
+          ],
+          [
+            2588.0,
+            1385.0
+          ],
+          [
+            2588.0,
+            1413.0
+          ],
+          [
+            2493.0,
+            1413.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "G200mm, G.d.800\n\nMach. 859 B 14",
+        "block_bbox": [
+          2489,
+          1418,
+          2918,
+          1483
+        ],
+        "block_id": 7,
+        "block_order": 8,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2504.0,
+            1418.0
+          ],
+          [
+            2917.0,
+            1418.0
+          ],
+          [
+            2917.0,
+            1482.0
+          ],
+          [
+            2504.0,
+            1482.0
+          ]
+        ]
+      },
+      {
+        "block_label": "inline_formula",
+        "block_content": " $$ \\angle A M P\\angle0=30^{\\circ}.O G\\_{i} r\\_{g} i n\\angle A $$ ",
+        "block_bbox": [
+          2499,
+          1486,
+          2886,
+          1514
+        ],
+        "block_id": 8,
+        "block_order": 9,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2499.0,
+            1486.0
+          ],
+          [
+            2886.0,
+            1486.0
+          ],
+          [
+            2886.0,
+            1514.0
+          ],
+          [
+            2499.0,
+            1514.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "M. Brinkmann\n\nErnst. Minnesdaug\n\n5 425.8.",
+        "block_bbox": [
+          2494,
+          1553,
+          2942,
+          1644
+        ],
+        "block_id": 9,
+        "block_order": 10,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2494.0,
+            1553.0
+          ],
+          [
+            2942.0,
+            1553.0
+          ],
+          [
+            2942.0,
+            1644.0
+          ],
+          [
+            2494.0,
+            1644.0
+          ]
+        ]
+      },
+      {
+        "block_label": "footer",
+        "block_content": "SECOL THETFFORD NODEOLV H",
+        "block_bbox": [
+          1499,
+          2002,
+          1738,
+          2017
+        ],
+        "block_id": 10,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            1499.0,
+            2002.0
+          ],
+          [
+            1737.0,
+            2002.0
+          ],
+          [
+            1737.0,
+            2017.0
+          ],
+          [
+            1499.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3115442395210266,
+          "coordinate": [
+            1533,
+            1320,
+            1949,
+            1383
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1533.0,
+              1320.0
+            ],
+            [
+              1949.0,
+              1320.0
+            ],
+            [
+              1949.0,
+              1383.0
+            ],
+            [
+              1533.0,
+              1383.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.34328389167785645,
+          "coordinate": [
+            1532,
+            1389,
+            1949,
+            1450
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1532.0,
+              1389.0
+            ],
+            [
+              1949.0,
+              1389.0
+            ],
+            [
+              1949.0,
+              1450.0
+            ],
+            [
+              1532.0,
+              1450.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.32823023200035095,
+          "coordinate": [
+            1538,
+            1529,
+            1907,
+            1559
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1538.0,
+              1529.0
+            ],
+            [
+              1907.0,
+              1529.0
+            ],
+            [
+              1907.0,
+              1559.0
+            ],
+            [
+              1538.0,
+              1559.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.39378562569618225,
+          "coordinate": [
+            1539,
+            1749,
+            1939,
+            1837
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1539.0,
+              1749.0
+            ],
+            [
+              1939.0,
+              1749.0
+            ],
+            [
+              1939.0,
+              1837.0
+            ],
+            [
+              1539.0,
+              1837.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.33993953466415405,
+          "coordinate": [
+            1545,
+            1931,
+            1916,
+            1963
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1545.0,
+              1931.0
+            ],
+            [
+              1916.0,
+              1931.0
+            ],
+            [
+              1916.0,
+              1963.0
+            ],
+            [
+              1545.0,
+              1963.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3376832902431488,
+          "coordinate": [
+            2001,
+            1795,
+            2422,
+            1895
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2001.0,
+              1795.0
+            ],
+            [
+              2422.0,
+              1795.0
+            ],
+            [
+              2422.0,
+              1895.0
+            ],
+            [
+              2001.0,
+              1895.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.36164090037345886,
+          "coordinate": [
+            2493,
+            1385,
+            2588,
+            1413
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2493.0,
+              1385.0
+            ],
+            [
+              2588.0,
+              1385.0
+            ],
+            [
+              2588.0,
+              1413.0
+            ],
+            [
+              2493.0,
+              1413.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3113197684288025,
+          "coordinate": [
+            2489,
+            1418,
+            2918,
+            1483
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2504.0,
+              1418.0
+            ],
+            [
+              2917.0,
+              1418.0
+            ],
+            [
+              2917.0,
+              1482.0
+            ],
+            [
+              2504.0,
+              1482.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 15,
+          "label": "inline_formula",
+          "score": 0.3022376000881195,
+          "coordinate": [
+            2499,
+            1486,
+            2886,
+            1514
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              2499.0,
+              1486.0
+            ],
+            [
+              2886.0,
+              1486.0
+            ],
+            [
+              2886.0,
+              1514.0
+            ],
+            [
+              2499.0,
+              1514.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.31571003794670105,
+          "coordinate": [
+            2495,
+            1555,
+            2827,
+            1581
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              2495.0,
+              1555.0
+            ],
+            [
+              2827.0,
+              1555.0
+            ],
+            [
+              2827.0,
+              1581.0
+            ],
+            [
+              2495.0,
+              1581.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3384331166744232,
+          "coordinate": [
+            2494,
+            1553,
+            2942,
+            1644
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              2494.0,
+              1553.0
+            ],
+            [
+              2942.0,
+              1553.0
+            ],
+            [
+              2942.0,
+              1644.0
+            ],
+            [
+              2494.0,
+              1644.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 8,
+          "label": "footer",
+          "score": 0.3819628953933716,
+          "coordinate": [
+            1499,
+            2002,
+            1738,
+            2017
+          ],
+          "polygon_points": [
+            [
+              1499.0,
+              2002.0
+            ],
+            [
+              1737.0,
+              2002.0
+            ],
+            [
+              1737.0,
+              2017.0
+            ],
+            [
+              1499.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Beite2.2.G. den Phil.d.M.\n\nⅡ.1898.V2507\n\nArea.1.Red.Wiss.Cgo.\n\n(train).1x.1906.V557\n\nWechseler.918E.\n\nMigne (Mildrobert,\n\nMorbad etc.)\n\n424736\n\nBoethius 465 F.\n\nKB - Bayart, P. - Ludus\n\nKB - to up in. Ab. x\n\nKB. - Lat. O. x\n\nK.B.\n\n\n\n\n\nG200mm, G.d.800\n\nMach. 859 B 14\n\n $$ \\angle A M P\\angle0=30^{\\circ}.O G\\_{i} r\\_{g} i n\\angle A $$ \n\nM. Brinkmann\n\nErnst. Minnesdaug\n\n5 425.8.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F9e25b97e256aee78edd0af90be457da653bdd5d79b96c3ddef8a80e9dc74eef0"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F14a0bdf6ccd811c3c478f523945ac5798558de5f60286e1ee632eeb3563ad88f"
+}

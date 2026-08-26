@@ -1,0 +1,536 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "vision_footnote",
+        "block_content": "We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world.",
+        "block_bbox": [
+          1534,
+          1571,
+          2188,
+          1623
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1534.0,
+            1571.0
+          ],
+          [
+            2188.0,
+            1571.0
+          ],
+          [
+            2188.0,
+            1623.0
+          ],
+          [
+            1534.0,
+            1623.0
+          ]
+        ]
+      },
+      {
+        "block_label": "footer",
+        "block_content": "Quotient� to least time",
+        "block_bbox": [
+          363,
+          1990,
+          771,
+          2017
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            363.0,
+            1990.0
+          ],
+          [
+            771.0,
+            1990.0
+          ],
+          [
+            771.0,
+            2017.0
+          ],
+          [
+            363.0,
+            2017.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "En nict frisool, Governo della famiglia B. 2.122, uadey, maden lot usaw.v. erfenis Zelf iels olsem B.1 84. - Costimo zeef in Dani Zalem, truiniert, zeef frugoad la midola v. Zifu kunstscatten. het Burgersla karabler warbiedol nog het Pompense - Lorez frugoad, envoudig. Piers en Lucr.Tama - Busni hadden hem ernstig opgevoerd: 2e Studio, Sport - Liberi dieibarder dan lichri. Macchiav.: ti diellassie, digiusch pierili pio che a tanto huomo non pa Zena ti convenisse; i modo che molte volta fu visto tra i tuoi higliusli e fi glinsed tra i loro trastudi mescolandi ook is het nog ch. - Costimo's huilestium da Moradia. Billicci beschowut zu kerb-bouws als goods werben.",
+        "block_bbox": [
+          2240,
+          1013,
+          2954,
+          1400
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2240.0,
+            1013.0
+          ],
+          [
+            2954.0,
+            1013.0
+          ],
+          [
+            2954.0,
+            1400.0
+          ],
+          [
+            2240.0,
+            1400.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Fra Ingalico en Demotello Triggenstein de lewsonatering voor de vla. Huurt... er is nog geen contrast lusscoon hem roomdeid en waarldozin. geen ketterij, geen libertij nisma, geen dogmat, nagen, wel eenige spot (moest die was oud), een onbekvanger uiter. roomdeid vol vanigde aan de schoonheid. het gelass mag ingemwervshast.",
+        "block_bbox": [
+          2234,
+          1398,
+          2953,
+          1577
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2234.0,
+            1398.0
+          ],
+          [
+            2953.0,
+            1398.0
+          ],
+          [
+            2953.0,
+            1577.0
+          ],
+          [
+            2234.0,
+            1577.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "het doïcde geused heette contemplated\n\nmumdi. masr hos! Polix, aan mod. Clavica\n\n8.1V.1476: wit raden des weegs, zingerote en\n\nnu en dan van padd. dingen d'prebende\n\nom dan vassentief niet te vergelen. In Sam\n\nMiniato lepssegden unij als van dech. het\n\ngustinus le czem, maar de lechuw ging\n\nwelda over in muziele en het beuwden\n\nvan een dancer, diens wij hier controlstof\n\nid. Verging zilucente, per le sola et sent\n\nquanto bem è nel monolo.\n\np.14",
+        "block_bbox": [
+          2235,
+          1577,
+          2954,
+          1820
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2235.0,
+            1577.0
+          ],
+          [
+            2954.0,
+            1577.0
+          ],
+          [
+            2954.0,
+            1820.0
+          ],
+          [
+            2235.0,
+            1820.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Pico over the mendedeemwaarde: opening led a user 900 thatan die niel doorgingen",
+        "block_bbox": [
+          2241,
+          1817,
+          2952,
+          1861
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2241.0,
+            1817.0
+          ],
+          [
+            2952.0,
+            1817.0
+          ],
+          [
+            2952.0,
+            1861.0
+          ],
+          [
+            2241.0,
+            1861.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "net accord gap photo. opgenomme zoon broger trittololos: berwigs voor de cecini go harmonie v. goddel. waarheid en wel zeldsche schonheid.",
+        "block_bbox": [
+          2241,
+          1860,
+          2953,
+          1948
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2241.0,
+            1870.0
+          ],
+          [
+            2241.0,
+            1947.0
+          ],
+          [
+            2952.0,
+            1947.0
+          ],
+          [
+            2952.0,
+            1890.0
+          ],
+          [
+            2952.0,
+            1870.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Petrarca's Homemade die high-net Cezar kon Bocc.'s miscellaneous studies. 1996 Manual Carry 40L024, 1438 Balsarion. Gemmild as Plethon",
+        "block_bbox": [
+          2237,
+          1949,
+          2953,
+          2017
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2237.0,
+            1949.0
+          ],
+          [
+            2953.0,
+            1949.0
+          ],
+          [
+            2953.0,
+            2017.0
+          ],
+          [
+            2237.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 24,
+          "label": "vision_footnote",
+          "score": 0.34956005215644836,
+          "coordinate": [
+            1534,
+            1571,
+            2188,
+            1623
+          ],
+          "polygon_points": [
+            [
+              1534.0,
+              1571.0
+            ],
+            [
+              2188.0,
+              1571.0
+            ],
+            [
+              2188.0,
+              1623.0
+            ],
+            [
+              1534.0,
+              1623.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 8,
+          "label": "footer",
+          "score": 0.3483276069164276,
+          "coordinate": [
+            363,
+            1990,
+            771,
+            2017
+          ],
+          "polygon_points": [
+            [
+              363.0,
+              1990.0
+            ],
+            [
+              771.0,
+              1990.0
+            ],
+            [
+              771.0,
+              2017.0
+            ],
+            [
+              363.0,
+              2017.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.864342987537384,
+          "coordinate": [
+            2240,
+            1013,
+            2954,
+            1400
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2240.0,
+              1013.0
+            ],
+            [
+              2954.0,
+              1013.0
+            ],
+            [
+              2954.0,
+              1400.0
+            ],
+            [
+              2240.0,
+              1400.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7400146126747131,
+          "coordinate": [
+            2234,
+            1398,
+            2953,
+            1577
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2234.0,
+              1398.0
+            ],
+            [
+              2953.0,
+              1398.0
+            ],
+            [
+              2953.0,
+              1577.0
+            ],
+            [
+              2234.0,
+              1577.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.762923002243042,
+          "coordinate": [
+            2235,
+            1577,
+            2954,
+            1820
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2235.0,
+              1577.0
+            ],
+            [
+              2954.0,
+              1577.0
+            ],
+            [
+              2954.0,
+              1820.0
+            ],
+            [
+              2235.0,
+              1820.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.39299216866493225,
+          "coordinate": [
+            2241,
+            1817,
+            2952,
+            1861
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2241.0,
+              1817.0
+            ],
+            [
+              2952.0,
+              1817.0
+            ],
+            [
+              2952.0,
+              1861.0
+            ],
+            [
+              2241.0,
+              1861.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4990520477294922,
+          "coordinate": [
+            2241,
+            1860,
+            2953,
+            1948
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2241.0,
+              1870.0
+            ],
+            [
+              2241.0,
+              1947.0
+            ],
+            [
+              2952.0,
+              1947.0
+            ],
+            [
+              2952.0,
+              1890.0
+            ],
+            [
+              2952.0,
+              1870.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6873442530632019,
+          "coordinate": [
+            2237,
+            1949,
+            2953,
+            2017
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2237.0,
+              1949.0
+            ],
+            [
+              2953.0,
+              1949.0
+            ],
+            [
+              2953.0,
+              2017.0
+            ],
+            [
+              2237.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world. We are to be prepared to, embody the good people who live in the world.\n\nEn nict frisool, Governo della famiglia B. 2.122, uadey, maden lot usaw.v. erfenis Zelf iels olsem B.1 84. - Costimo zeef in Dani Zalem, truiniert, zeef frugoad la midola v. Zifu kunstscatten. het Burgersla karabler warbiedol nog het Pompense - Lorez frugoad, envoudig. Piers en Lucr.Tama - Busni hadden hem ernstig opgevoerd: 2e Studio, Sport - Liberi dieibarder dan lichri. Macchiav.: ti diellassie, digiusch pierili pio che a tanto huomo non pa Zena ti convenisse; i modo che molte volta fu visto tra i tuoi higliusli e fi glinsed tra i loro trastudi mescolandi ook is het nog ch. - Costimo's huilestium da Moradia. Billicci beschowut zu kerb-bouws als goods werben.\n\nFra Ingalico en Demotello Triggenstein de lewsonatering voor de vla. Huurt... er is nog geen contrast lusscoon hem roomdeid en waarldozin. geen ketterij, geen libertij nisma, geen dogmat, nagen, wel eenige spot (moest die was oud), een onbekvanger uiter. roomdeid vol vanigde aan de schoonheid. het gelass mag ingemwervshast.\n\nhet doïcde geused heette contemplated\n\nmumdi. masr hos! Polix, aan mod. Clavica\n\n8.1V.1476: wit raden des weegs, zingerote en\n\nnu en dan van padd. dingen d'prebende\n\nom dan vassentief niet te vergelen. In Sam\n\nMiniato lepssegden unij als van dech. het\n\ngustinus le czem, maar de lechuw ging\n\nwelda over in muziele en het beuwden\n\nvan een dancer, diens wij hier controlstof\n\nid. Verging zilucente, per le sola et sent\n\nquanto bem è nel monolo.\n\np.14\n\nPico over the mendedeemwaarde: opening led a user 900 thatan die niel doorgingen\n\nnet accord gap photo. opgenomme zoon broger trittololos: berwigs voor de cecini go harmonie v. goddel. waarheid en wel zeldsche schonheid.\n\nPetrarca's Homemade die high-net Cezar kon Bocc.'s miscellaneous studies. 1996 Manual Carry 40L024, 1438 Balsarion. Gemmild as Plethon",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F4c244358b1dc0d579a861fe4fb0ec1fb234b64bbf0d5cedb29b233825796127f"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4873c3ac-6c91-4b20-ab56-ffb8f3a4c76d/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F448a6e7b938d5dfa57310a4f034bb86064f3fbdaf24edef85bf91e506d6cc7db"
+}

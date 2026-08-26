@@ -1,0 +1,1018 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "Goseenift:",
+        "block_bbox": [
+          1500,
+          1050,
+          1776,
+          1076
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1500.0,
+            1050.0
+          ],
+          [
+            1776.0,
+            1050.0
+          ],
+          [
+            1776.0,
+            1076.0
+          ],
+          [
+            1500.0,
+            1076.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Notes known would be updated\n\nto order reapta cifard omnemo",
+        "block_bbox": [
+          2174,
+          1032,
+          2955,
+          1088
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2174.0,
+            1032.0
+          ],
+          [
+            2955.0,
+            1032.0
+          ],
+          [
+            2955.0,
+            1088.0
+          ],
+          [
+            2174.0,
+            1088.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "M.I.gna, P.L.t.210",
+        "block_bbox": [
+          1699,
+          1088,
+          2145,
+          1119
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1699.0,
+            1088.0
+          ],
+          [
+            2145.0,
+            1088.0
+          ],
+          [
+            2145.0,
+            1119.0
+          ],
+          [
+            1699.0,
+            1119.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "De citaten genuurmoord a.u.B.:",
+        "block_bbox": [
+          1512,
+          1131,
+          2332,
+          1158
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1512.0,
+            1131.0
+          ],
+          [
+            2332.0,
+            1131.0
+          ],
+          [
+            2332.0,
+            1158.0
+          ],
+          [
+            1512.0,
+            1158.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1. 5/13: \"Leis Siconii - pavo 2000\" 320000",
+        "block_bbox": [
+          1506,
+          1167,
+          2700,
+          1205
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1506.0,
+            1167.0
+          ],
+          [
+            2700.0,
+            1167.0
+          ],
+          [
+            2700.0,
+            1205.0
+          ],
+          [
+            1506.0,
+            1205.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "2. col. 447: \"Que noys - Poisonie formos\". Se��peau. Ceast: parais",
+        "block_bbox": [
+          1510,
+          1208,
+          2955,
+          1251
+        ],
+        "block_id": 5,
+        "block_order": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1510.0,
+            1208.0
+          ],
+          [
+            2957.0,
+            1208.0
+          ],
+          [
+            2957.0,
+            1251.0
+          ],
+          [
+            1510.0,
+            1251.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "\" \" , , Guise Polcom - Milita Complani\", 429000",
+        "block_bbox": [
+          1560,
+          1253,
+          2761,
+          1293
+        ],
+        "block_id": 6,
+        "block_order": 6,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            1559.758056640625,
+            1263.0018310546875
+          ],
+          [
+            2759.999755859375,
+            1252.9998779296875
+          ],
+          [
+            2760.241455078125,
+            1281.9979248046875
+          ],
+          [
+            1559.999755859375,
+            1291.9998779296875
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "3. \" 534: \" Haczened insonut - 535: Xona... carada ventzo\". 41 28",
+        "block_bbox": [
+          1507,
+          1296,
+          2955,
+          1339
+        ],
+        "block_id": 7,
+        "block_order": 7,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            1507.0,
+            1296.0
+          ],
+          [
+            2957.0,
+            1296.0
+          ],
+          [
+            2957.0,
+            1339.0
+          ],
+          [
+            1507.0,
+            1339.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "4. \"491: O novos-singula mulat\". 4 ageo",
+        "block_bbox": [
+          1508,
+          1347,
+          2581,
+          1380
+        ],
+        "block_id": 8,
+        "block_order": 8,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1508.0,
+            1347.0
+          ],
+          [
+            2581.0,
+            1347.0
+          ],
+          [
+            2581.0,
+            1380.0
+          ],
+          [
+            1508.0,
+            1380.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "“:,” Hae pots-perquirera lemlat”. 7 apals.",
+        "block_bbox": [
+          1559,
+          1390,
+          2809,
+          1421
+        ],
+        "block_id": 9,
+        "block_order": 9,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            1559.0,
+            1390.0
+          ],
+          [
+            2809.0,
+            1390.0
+          ],
+          [
+            2809.0,
+            1421.0
+          ],
+          [
+            1559.0,
+            1421.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "5. “602: Have pictures - consolidate in a number.” for good.",
+        "block_bbox": [
+          1504,
+          1431,
+          2864,
+          1467
+        ],
+        "block_id": 10,
+        "block_order": 10,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            1504.0,
+            1431.0
+          ],
+          [
+            2864.0,
+            1431.0
+          ],
+          [
+            2864.0,
+            1467.0
+          ],
+          [
+            1504.0,
+            1467.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "6. 494: ..... from Lidia adagual. 1/2 2epel",
+        "block_bbox": [
+          1507,
+          1474,
+          2710,
+          1507
+        ],
+        "block_id": 11,
+        "block_order": 11,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            1507.0,
+            1474.0
+          ],
+          [
+            2710.0,
+            1474.0
+          ],
+          [
+            2710.0,
+            1507.0
+          ],
+          [
+            1507.0,
+            1507.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "“: „Sommiet – zusuchland.“ / zapa2.",
+        "block_bbox": [
+          1546,
+          1519,
+          2561,
+          1550
+        ],
+        "block_id": 12,
+        "block_order": 12,
+        "group_id": 12,
+        "block_polygon_points": [
+          [
+            1546.0,
+            1519.0
+          ],
+          [
+            2561.0,
+            1519.0
+          ],
+          [
+            2561.0,
+            1550.0
+          ],
+          [
+            1546.0,
+            1550.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "2. \"5/1\" \"Terborn - lotere\". 22000",
+        "block_bbox": [
+          1509,
+          1560,
+          2499,
+          1595
+        ],
+        "block_id": 13,
+        "block_order": 13,
+        "group_id": 13,
+        "block_polygon_points": [
+          [
+            1509.0,
+            1560.0
+          ],
+          [
+            2499.0,
+            1560.0
+          ],
+          [
+            2499.0,
+            1595.0
+          ],
+          [
+            1509.0,
+            1595.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "8. \" 589 : \" Simplicietor - caola velit. \" 4 20pecd.",
+        "block_bbox": [
+          1510,
+          1604,
+          2699,
+          1636
+        ],
+        "block_id": 14,
+        "block_order": 14,
+        "group_id": 14,
+        "block_polygon_points": [
+          [
+            1510.0,
+            1604.0
+          ],
+          [
+            2699.0,
+            1604.0
+          ],
+          [
+            2699.0,
+            1636.0
+          ],
+          [
+            1510.0,
+            1636.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "2 \" 574 : \" Pugna - uBigue. 3 2epiles.",
+        "block_bbox": [
+          1514,
+          1646,
+          2490,
+          1680
+        ],
+        "block_id": 15,
+        "block_order": 15,
+        "group_id": 15,
+        "block_polygon_points": [
+          [
+            1513.7330322265625,
+            1646.4862060546875
+          ],
+          [
+            2488.938232421875,
+            1638.4844970703125
+          ],
+          [
+            2489.205078125,
+            1670.9981689453125
+          ],
+          [
+            1513.999755859375,
+            1678.9998779296875
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.42417144775390625,
+          "coordinate": [
+            1500,
+            1050,
+            1776,
+            1076
+          ],
+          "polygon_points": [
+            [
+              1500.0,
+              1050.0
+            ],
+            [
+              1776.0,
+              1050.0
+            ],
+            [
+              1776.0,
+              1076.0
+            ],
+            [
+              1500.0,
+              1076.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.36988288164138794,
+          "coordinate": [
+            2174,
+            1032,
+            2955,
+            1088
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2174.0,
+              1032.0
+            ],
+            [
+              2955.0,
+              1032.0
+            ],
+            [
+              2955.0,
+              1088.0
+            ],
+            [
+              2174.0,
+              1088.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.376395583152771,
+          "coordinate": [
+            1699,
+            1088,
+            2145,
+            1119
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1699.0,
+              1088.0
+            ],
+            [
+              2145.0,
+              1088.0
+            ],
+            [
+              2145.0,
+              1119.0
+            ],
+            [
+              1699.0,
+              1119.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5081216096878052,
+          "coordinate": [
+            1512,
+            1131,
+            2332,
+            1158
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1512.0,
+              1131.0
+            ],
+            [
+              2332.0,
+              1131.0
+            ],
+            [
+              2332.0,
+              1158.0
+            ],
+            [
+              1512.0,
+              1158.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7034914493560791,
+          "coordinate": [
+            1506,
+            1167,
+            2700,
+            1205
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1506.0,
+              1167.0
+            ],
+            [
+              2700.0,
+              1167.0
+            ],
+            [
+              2700.0,
+              1205.0
+            ],
+            [
+              1506.0,
+              1205.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7109087705612183,
+          "coordinate": [
+            1510,
+            1208,
+            2955,
+            1251
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1510.0,
+              1208.0
+            ],
+            [
+              2957.0,
+              1208.0
+            ],
+            [
+              2957.0,
+              1251.0
+            ],
+            [
+              1510.0,
+              1251.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6726141571998596,
+          "coordinate": [
+            1560,
+            1253,
+            2761,
+            1293
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1559.758056640625,
+              1263.0018310546875
+            ],
+            [
+              2759.999755859375,
+              1252.9998779296875
+            ],
+            [
+              2760.241455078125,
+              1281.9979248046875
+            ],
+            [
+              1559.999755859375,
+              1291.9998779296875
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6960614323616028,
+          "coordinate": [
+            1507,
+            1296,
+            2955,
+            1339
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1507.0,
+              1296.0
+            ],
+            [
+              2957.0,
+              1296.0
+            ],
+            [
+              2957.0,
+              1339.0
+            ],
+            [
+              1507.0,
+              1339.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6909144520759583,
+          "coordinate": [
+            1508,
+            1347,
+            2581,
+            1380
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1508.0,
+              1347.0
+            ],
+            [
+              2581.0,
+              1347.0
+            ],
+            [
+              2581.0,
+              1380.0
+            ],
+            [
+              1508.0,
+              1380.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6313647627830505,
+          "coordinate": [
+            1559,
+            1390,
+            2809,
+            1421
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              1559.0,
+              1390.0
+            ],
+            [
+              2809.0,
+              1390.0
+            ],
+            [
+              2809.0,
+              1421.0
+            ],
+            [
+              1559.0,
+              1421.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7028268575668335,
+          "coordinate": [
+            1504,
+            1431,
+            2864,
+            1467
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              1504.0,
+              1431.0
+            ],
+            [
+              2864.0,
+              1431.0
+            ],
+            [
+              2864.0,
+              1467.0
+            ],
+            [
+              1504.0,
+              1467.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6455655097961426,
+          "coordinate": [
+            1507,
+            1474,
+            2710,
+            1507
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              1507.0,
+              1474.0
+            ],
+            [
+              2710.0,
+              1474.0
+            ],
+            [
+              2710.0,
+              1507.0
+            ],
+            [
+              1507.0,
+              1507.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4012656509876251,
+          "coordinate": [
+            1546,
+            1519,
+            2561,
+            1550
+          ],
+          "order": 12,
+          "polygon_points": [
+            [
+              1546.0,
+              1519.0
+            ],
+            [
+              2561.0,
+              1519.0
+            ],
+            [
+              2561.0,
+              1550.0
+            ],
+            [
+              1546.0,
+              1550.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7086063623428345,
+          "coordinate": [
+            1509,
+            1560,
+            2499,
+            1595
+          ],
+          "order": 13,
+          "polygon_points": [
+            [
+              1509.0,
+              1560.0
+            ],
+            [
+              2499.0,
+              1560.0
+            ],
+            [
+              2499.0,
+              1595.0
+            ],
+            [
+              1509.0,
+              1595.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7056878805160522,
+          "coordinate": [
+            1510,
+            1604,
+            2699,
+            1636
+          ],
+          "order": 14,
+          "polygon_points": [
+            [
+              1510.0,
+              1604.0
+            ],
+            [
+              2699.0,
+              1604.0
+            ],
+            [
+              2699.0,
+              1636.0
+            ],
+            [
+              1510.0,
+              1636.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6648815274238586,
+          "coordinate": [
+            1514,
+            1646,
+            2490,
+            1680
+          ],
+          "order": 15,
+          "polygon_points": [
+            [
+              1513.7330322265625,
+              1646.4862060546875
+            ],
+            [
+              2488.938232421875,
+              1638.4844970703125
+            ],
+            [
+              2489.205078125,
+              1670.9981689453125
+            ],
+            [
+              1513.999755859375,
+              1678.9998779296875
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Notes known would be updated\n\nto order reapta cifard omnemo\n\nM.I.gna, P.L.t.210\n\nDe citaten genuurmoord a.u.B.:\n\n1. 5/13: \"Leis Siconii - pavo 2000\" 320000\n\n2. col. 447: \"Que noys - Poisonie formos\". Se��peau. Ceast: parais\n\n\" \" , , Guise Polcom - Milita Complani\", 429000\n\n3. \" 534: \" Haczened insonut - 535: Xona... carada ventzo\". 41 28\n\n4. \"491: O novos-singula mulat\". 4 ageo\n\n“:,” Hae pots-perquirera lemlat”. 7 apals.\n\n5. “602: Have pictures - consolidate in a number.” for good.\n\n6. 494: ..... from Lidia adagual. 1/2 2epel\n\n“: „Sommiet – zusuchland.“ / zapa2.\n\n2. \"5/1\" \"Terborn - lotere\". 22000\n\n8. \" 589 : \" Simplicietor - caola velit. \" 4 20pecd.\n\n2 \" 574 : \" Pugna - uBigue. 3 2epiles.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F3e57b83a540c352e79186e14bd1351284a8cb2f9f5693d44d7d63dcfa6e7e302"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fdfa9c2684b98ef678cc30cd0b78bb7bf2030f180d6540b1f7149d4a85853973e"
+}

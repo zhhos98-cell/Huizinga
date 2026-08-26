@@ -1,0 +1,286 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "Perlor du moyen âge ici à l'Université",
+        "block_bbox": [
+          1527,
+          1173,
+          2200,
+          1246
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1527.0,
+            1173.0
+          ],
+          [
+            2200.0,
+            1173.0
+          ],
+          [
+            2200.0,
+            1246.0
+          ],
+          [
+            1527.0,
+            1246.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "l'ai paré hier, dans mon court public, du sentiment qui scèille la médiéviste à le voir dans une chaîne à la Scrabonne, choiffée de protester sa science, te de Paris, où est né la scolastique où lui vie intolérable de moyen âge à trouvé son agone contrad, c'est comme si l'ad索\n\nlevirre moi-même un bout d'vie médiéviste.",
+        "block_bbox": [
+          2199,
+          1014,
+          2954,
+          1377
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2199.0,
+            1014.0
+          ],
+          [
+            2954.0,
+            1014.0
+          ],
+          [
+            2954.0,
+            1377.0
+          ],
+          [
+            2199.0,
+            1377.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "le ma temble que je na saurai traiter ici que de choses qui le sont passées ici, d'hommes qui y ont vécu ou de parisées qui y ont été formulées.",
+        "block_bbox": [
+          2209,
+          1383,
+          2953,
+          1553
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2209.0,
+            1383.0
+          ],
+          [
+            2953.0,
+            1383.0
+          ],
+          [
+            2953.0,
+            1553.0
+          ],
+          [
+            2209.0,
+            1553.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Il serait exagéré si levou\n\nlais (dire que celle hantité\n\nde l'entre�poid m'emports tolla-\n\nment qu'il me coûte un effort\n\nde ma pas vous adresser en lotim\n\nAprès tout monolative serait pire\n\nque mon français, vous 4 gagne\n\n꿰ez aussi peu que moi. Quant\n\nà la question de mon language\n\nil ne me reste qu'à vous prier d'a\n\nvoir deuxoup d'indulgence pour\n\nun paurre étranger.",
+        "block_bbox": [
+          2208,
+          1554,
+          2954,
+          1938
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2208.0,
+            1554.0
+          ],
+          [
+            2954.0,
+            1554.0
+          ],
+          [
+            2954.0,
+            1938.0
+          ],
+          [
+            2208.0,
+            1938.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5043829679489136,
+          "coordinate": [
+            1527,
+            1173,
+            2200,
+            1246
+          ],
+          "polygon_points": [
+            [
+              1527.0,
+              1173.0
+            ],
+            [
+              2200.0,
+              1173.0
+            ],
+            [
+              2200.0,
+              1246.0
+            ],
+            [
+              1527.0,
+              1246.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.745783269405365,
+          "coordinate": [
+            2199,
+            1014,
+            2954,
+            1377
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2199.0,
+              1014.0
+            ],
+            [
+              2954.0,
+              1014.0
+            ],
+            [
+              2954.0,
+              1377.0
+            ],
+            [
+              2199.0,
+              1377.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8697161674499512,
+          "coordinate": [
+            2209,
+            1383,
+            2953,
+            1553
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2209.0,
+              1383.0
+            ],
+            [
+              2953.0,
+              1383.0
+            ],
+            [
+              2953.0,
+              1553.0
+            ],
+            [
+              2209.0,
+              1553.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6739501953125,
+          "coordinate": [
+            2208,
+            1554,
+            2954,
+            1938
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2208.0,
+              1554.0
+            ],
+            [
+              2954.0,
+              1554.0
+            ],
+            [
+              2954.0,
+              1938.0
+            ],
+            [
+              2208.0,
+              1938.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "l'ai paré hier, dans mon court public, du sentiment qui scèille la médiéviste à le voir dans une chaîne à la Scrabonne, choiffée de protester sa science, te de Paris, où est né la scolastique où lui vie intolérable de moyen âge à trouvé son agone contrad, c'est comme si l'ad索\n\nlevirre moi-même un bout d'vie médiéviste.\n\nle ma temble que je na saurai traiter ici que de choses qui le sont passées ici, d'hommes qui y ont vécu ou de parisées qui y ont été formulées.\n\nIl serait exagéré si levou\n\nlais (dire que celle hantité\n\nde l'entre�poid m'emports tolla-\n\nment qu'il me coûte un effort\n\nde ma pas vous adresser en lotim\n\nAprès tout monolative serait pire\n\nque mon français, vous 4 gagne\n\n꿰ez aussi peu que moi. Quant\n\nà la question de mon language\n\nil ne me reste qu'à vous prier d'a\n\nvoir deuxoup d'indulgence pour\n\nun paurre étranger.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F3461ffc313d02db14c5a7b7a435918a5796574f75c57bd4e78a708cea1bfc542"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F90e782bbbcb3107948fa7047328e95c1116f3043810d062d909a6925723ff433"
+}

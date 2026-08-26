@@ -1,0 +1,318 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "reference_content",
+        "block_content": "Comprise des Pères de l'Église qui se contradisent, pour les traiter par la délude.",
+        "block_bbox": [
+          2220,
+          1148,
+          2953,
+          1219
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2220.0,
+            1148.0
+          ],
+          [
+            2953.0,
+            1148.0
+          ],
+          [
+            2953.0,
+            1219.0
+          ],
+          [
+            2220.0,
+            1219.0
+          ]
+        ]
+      },
+      {
+        "block_label": "reference_content",
+        "block_content": "una lagom de scepticima d'ord\n\nLa Sic et Non\n\nParcilla. S. Comptent les germant",
+        "block_bbox": [
+          2221,
+          1315,
+          2955,
+          1377
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2221.0,
+            1315.0
+          ],
+          [
+            2956.0,
+            1315.0
+          ],
+          [
+            2956.0,
+            1377.0
+          ],
+          [
+            2221.0,
+            1377.0
+          ]
+        ]
+      },
+      {
+        "block_label": "reference_content",
+        "block_content": "Stances, qua las Paras audés crt\n\nParlé quelque\n\nquam ex veritola\", qua las pro-\n\nphélas ayant regu la dom de\n\nLa prophélia, en faisaient une\n\nhabitude, et ne s'avaient pas\n\nloquier si les élaient dirigés par\n\nl'impricales divines ou non. Ce\n\nqui, dit-il, était très utile pour\n\nles poins restent herribles.",
+        "block_bbox": [
+          2208,
+          1622,
+          2952,
+          1934
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2208.0,
+            1622.0
+          ],
+          [
+            2952.0,
+            1622.0
+          ],
+          [
+            2952.0,
+            1934.0
+          ],
+          [
+            2208.0,
+            1934.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Abailard interprète la parole éuangélique: Querita et inventitis\", par la paraparote: Dubitando enim ad",
+        "block_bbox": [
+          1910,
+          1936,
+          2948,
+          2015
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1910.0,
+            1936.0
+          ],
+          [
+            2948.0,
+            1936.0
+          ],
+          [
+            2948.0,
+            2015.0
+          ],
+          [
+            1910.0,
+            2015.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 18,
+          "label": "reference",
+          "score": 0.4306231439113617,
+          "coordinate": [
+            2208,
+            1017,
+            2952,
+            1981
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2208.0,
+              1017.0
+            ],
+            [
+              2952.0,
+              1017.0
+            ],
+            [
+              2952.0,
+              1981.0
+            ],
+            [
+              2208.0,
+              1981.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 19,
+          "label": "reference_content",
+          "score": 0.35184597969055176,
+          "coordinate": [
+            2220,
+            1148,
+            2953,
+            1219
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2220.0,
+              1148.0
+            ],
+            [
+              2953.0,
+              1148.0
+            ],
+            [
+              2953.0,
+              1219.0
+            ],
+            [
+              2220.0,
+              1219.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 19,
+          "label": "reference_content",
+          "score": 0.34089744091033936,
+          "coordinate": [
+            2221,
+            1315,
+            2955,
+            1377
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2221.0,
+              1315.0
+            ],
+            [
+              2956.0,
+              1315.0
+            ],
+            [
+              2956.0,
+              1377.0
+            ],
+            [
+              2221.0,
+              1377.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 19,
+          "label": "reference_content",
+          "score": 0.32512524724006653,
+          "coordinate": [
+            2208,
+            1622,
+            2952,
+            1934
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2208.0,
+              1622.0
+            ],
+            [
+              2952.0,
+              1622.0
+            ],
+            [
+              2952.0,
+              1934.0
+            ],
+            [
+              2208.0,
+              1934.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3262317180633545,
+          "coordinate": [
+            1910,
+            1936,
+            2948,
+            2015
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1910.0,
+              1936.0
+            ],
+            [
+              2948.0,
+              1936.0
+            ],
+            [
+              2948.0,
+              2015.0
+            ],
+            [
+              1910.0,
+              2015.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Comprise des Pères de l'Église qui se contradisent, pour les traiter par la délude.\n\nuna lagom de scepticima d'ord\n\nLa Sic et Non\n\nParcilla. S. Comptent les germant\n\nStances, qua las Paras audés crt\n\nParlé quelque\n\nquam ex veritola\", qua las pro-\n\nphélas ayant regu la dom de\n\nLa prophélia, en faisaient une\n\nhabitude, et ne s'avaient pas\n\nloquier si les élaient dirigés par\n\nl'impricales divines ou non. Ce\n\nqui, dit-il, était très utile pour\n\nles poins restent herribles.\n\nAbailard interprète la parole éuangélique: Querita et inventitis\", par la paraparote: Dubitando enim ad",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//dce87a52-0729-4f16-9fe7-8c2ed0d604dc/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A53Z%2F-1%2F%2F79fb23eb976d7f3aa9428db8a06d5b941a9659440e19fb6a55cfd4faa6a46106"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//dce87a52-0729-4f16-9fe7-8c2ed0d604dc/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A53Z%2F-1%2F%2F1cd41611eb06665b8dd4c92467e1aaa0a88f4701f251264c2265f7a28c2accee"
+}

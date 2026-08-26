@@ -1,0 +1,343 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "table",
+        "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>de harmonia met laren en poézie vadao men in Donatello: het zadele, zuivera, jong de gralin u. zij inmuniaities. het volgt nalumulike: urxamo, het politica: Damit heft familiepoetel. naat Christandafo Tormauonni. heken de Gustlen u. Froncoen Laurama (vond Bode. Flor. Bilddamm 225. loethelite canvoud en veredaling. het kinderpoiliel. was spreeel zeldend het kind zuid en zuid! (het verra ootlen). Ceramole modellen voor Car. en John. (Bode 242). uge. de kinderen v. Dieris Bouts etc. - donalele, Delid. de Selt., Irl. Poidell., Iu ca della Roblia. - sponansla naturalia van een nog me geeloot, cf Vergin ilhuent - het dunn man het reed Ben. da Maj. , Uina da Fielola en Indra dal Veru. moeten Uilfigur herleben (Bode 250). de putto. op woedelol u. zum. oudcar. gerieu masal Donatello des putto, masal vol gel. loch geen engel. ugl. de engelen van. Vau Eyche en Vam der Goed. - merad aange bracal, dameland en mutiearend. zeels che zudez zoo woggeteld. capp. Pazzia. - donal. &#x27;z zanggetelte Fir. 81. Marco Luca die Roblia&#x27;: Gap. degli Innocenti. Indres aereal mandola e mel kinderupjaed, Fir 85.87. die Eifelgeleid en het zatonise ladie geeren. Im die scailderkunst ad zoo rike en plesing, dat lae u. liene te volgen Zij de donlast-giolleshe cijm: Masaccio, Ue. F.A. 105/8.109.112. de Callagno: het herisae, tragicaes, plasticae gebaan. Fra Angelico reed een Beumel arelaide leung naar kinderighen liiden. reed een hiloisic zien: uge de bemondering voor de Vlam. - Benoxzo Gozzoli: die pracat, de overlading. - Christandajo&#x27;s transpolit van Hugo v.d. Goed. Kern v.h. flor. Quellrocento Christandajo, Lipai, Bolticoli - familiepaar. in Santa Maria, molle. - Liari: academio lond. (Pitt</td></tr></table>",
+        "block_bbox": [
+          12,
+          989,
+          2955,
+          2013
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            12.0,
+            989.0
+          ],
+          [
+            2956.0,
+            989.0
+          ],
+          [
+            2956.0,
+            2013.0
+          ],
+          [
+            12.0,
+            2013.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 21,
+          "label": "table",
+          "score": 0.3615449368953705,
+          "coordinate": [
+            12,
+            989,
+            2955,
+            2013
+          ],
+          "polygon_points": [
+            [
+              12.0,
+              989.0
+            ],
+            [
+              2956.0,
+              989.0
+            ],
+            [
+              2956.0,
+              2013.0
+            ],
+            [
+              12.0,
+              2013.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3378875255584717,
+          "coordinate": [
+            2234,
+            997,
+            2955,
+            1093
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2234.0,
+              997.0
+            ],
+            [
+              2955.0,
+              997.0
+            ],
+            [
+              2955.0,
+              1093.0
+            ],
+            [
+              2234.0,
+              1093.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4363878071308136,
+          "coordinate": [
+            2230,
+            1190,
+            2953,
+            1414
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2230.0,
+              1190.0
+            ],
+            [
+              2953.0,
+              1190.0
+            ],
+            [
+              2953.0,
+              1414.0
+            ],
+            [
+              2230.0,
+              1414.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6172308921813965,
+          "coordinate": [
+            2228,
+            1414,
+            2955,
+            1571
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2228.0,
+              1414.0
+            ],
+            [
+              2955.0,
+              1414.0
+            ],
+            [
+              2955.0,
+              1571.0
+            ],
+            [
+              2228.0,
+              1571.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6375595331192017,
+          "coordinate": [
+            2230,
+            1570,
+            2954,
+            1637
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2230.0,
+              1570.0
+            ],
+            [
+              2954.0,
+              1570.0
+            ],
+            [
+              2954.0,
+              1637.0
+            ],
+            [
+              2230.0,
+              1637.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5825977921485901,
+          "coordinate": [
+            2229,
+            1638,
+            2954,
+            1684
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2229.0,
+              1638.0
+            ],
+            [
+              2954.0,
+              1638.0
+            ],
+            [
+              2954.0,
+              1684.0
+            ],
+            [
+              2229.0,
+              1684.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7542937994003296,
+          "coordinate": [
+            2227,
+            1707,
+            2952,
+            1817
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2227.0,
+              1707.0
+            ],
+            [
+              2952.0,
+              1707.0
+            ],
+            [
+              2952.0,
+              1817.0
+            ],
+            [
+              2227.0,
+              1817.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8016279339790344,
+          "coordinate": [
+            2229,
+            1816,
+            2953,
+            1951
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2229.0,
+              1816.0
+            ],
+            [
+              2953.0,
+              1816.0
+            ],
+            [
+              2953.0,
+              1951.0
+            ],
+            [
+              2229.0,
+              1951.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6910810470581055,
+          "coordinate": [
+            2228,
+            1951,
+            2951,
+            2017
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2228.0,
+              1951.0
+            ],
+            [
+              2951.0,
+              1951.0
+            ],
+            [
+              2951.0,
+              2017.0
+            ],
+            [
+              2228.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>26</td><td style='text-align: center; word-wrap: break-word;'>de harmonia met laren en poézie vadao men in Donatello: het zadele, zuivera, jong de gralin u. zij inmuniaities. het volgt nalumulike: urxamo, het politica: Damit heft familiepoetel. naat Christandafo Tormauonni. heken de Gustlen u. Froncoen Laurama (vond Bode. Flor. Bilddamm 225. loethelite canvoud en veredaling. het kinderpoiliel. was spreeel zeldend het kind zuid en zuid! (het verra ootlen). Ceramole modellen voor Car. en John. (Bode 242). uge. de kinderen v. Dieris Bouts etc. - donalele, Delid. de Selt., Irl. Poidell., Iu ca della Roblia. - sponansla naturalia van een nog me geeloot, cf Vergin ilhuent - het dunn man het reed Ben. da Maj. , Uina da Fielola en Indra dal Veru. moeten Uilfigur herleben (Bode 250). de putto. op woedelol u. zum. oudcar. gerieu masal Donatello des putto, masal vol gel. loch geen engel. ugl. de engelen van. Vau Eyche en Vam der Goed. - merad aange bracal, dameland en mutiearend. zeels che zudez zoo woggeteld. capp. Pazzia. - donal. &#x27;z zanggetelte Fir. 81. Marco Luca die Roblia&#x27;: Gap. degli Innocenti. Indres aereal mandola e mel kinderupjaed, Fir 85.87. die Eifelgeleid en het zatonise ladie geeren. Im die scailderkunst ad zoo rike en plesing, dat lae u. liene te volgen Zij de donlast-giolleshe cijm: Masaccio, Ue. F.A. 105/8.109.112. de Callagno: het herisae, tragicaes, plasticae gebaan. Fra Angelico reed een Beumel arelaide leung naar kinderighen liiden. reed een hiloisic zien: uge de bemondering voor de Vlam. - Benoxzo Gozzoli: die pracat, de overlading. - Christandajo&#x27;s transpolit van Hugo v.d. Goed. Kern v.h. flor. Quellrocento Christandajo, Lipai, Bolticoli - familiepaar. in Santa Maria, molle. - Liari: academio lond. (Pitt</td></tr></table>",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fae08bae2c684d879654ec7e55adc9b80a8e1dfaafe79fc69f80ea9411bf53270"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fc15d4dd74b5661d417781c8cec0f9b935fce221138e3332584f9b86972a9998d"
+}

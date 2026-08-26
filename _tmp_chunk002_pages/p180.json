@@ -1,0 +1,771 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "[1]SⅢ3NH",
+        "block_bbox": [
+          51,
+          3,
+          369,
+          64
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            51.0,
+            3.0
+          ],
+          [
+            369.0,
+            3.0
+          ],
+          [
+            369.0,
+            64.0
+          ],
+          [
+            51.0,
+            64.0
+          ]
+        ]
+      },
+      {
+        "block_label": "header",
+        "block_content": "Hui 3⊥2[1]e",
+        "block_bbox": [
+          2640,
+          7,
+          2917,
+          67
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2640.0,
+            7.0
+          ],
+          [
+            2917.0,
+            7.0
+          ],
+          [
+            2917.0,
+            67.0
+          ],
+          [
+            2640.0,
+            67.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "00ges wondnt la E\n\ngeleesten 2000 helde\n\nLien keurdt Gtt\n\nwaardoeening:de on\n\nmet on eu geroed\n\nonvergelichtig en\n\nin rocaldville en\n\ngenis van Zijn ent\n\nloon hen Zell. Hel\n\nmoet moerzeam",
+        "block_bbox": [
+          411,
+          615,
+          887,
+          1095
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            411.0,
+            615.0
+          ],
+          [
+            887.0,
+            615.0
+          ],
+          [
+            887.0,
+            1095.0
+          ],
+          [
+            411.0,
+            1095.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Tianqi XiaoBa\n\nfirst treasence,\n\nstaple was! Nog an\n\ncontourt of weds\n\nmen. Do radio d\n\ncuteanniracleen\n\ndon was moker en\n\nhat were. Address\n\nschool, is do home\n\ndrift as tomeels\n\neicdot.",
+        "block_bbox": [
+          397,
+          1193,
+          886,
+          1715
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            397.0,
+            1193.0
+          ],
+          [
+            886.0,
+            1193.0
+          ],
+          [
+            886.0,
+            1715.0
+          ],
+          [
+            397.0,
+            1715.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "kan je mič niel od\n\nangelosden äidras\n\nnicht spreedig lot e",
+        "block_bbox": [
+          640,
+          1850,
+          1140,
+          1986
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            640.0,
+            1850.0
+          ],
+          [
+            1140.0,
+            1850.0
+          ],
+          [
+            1140.0,
+            1986.0
+          ],
+          [
+            640.0,
+            1986.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "12. 2.789. con schardesde verde.\n\ndiging.\n\nvon pijme komiscae knoxat.",
+        "block_bbox": [
+          1922,
+          87,
+          2563,
+          185
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1922.0,
+            87.0
+          ],
+          [
+            2563.0,
+            87.0
+          ],
+          [
+            2563.0,
+            185.0
+          ],
+          [
+            1922.0,
+            185.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Berangaris di Poiteau, Pen.\n\nScoolichien.\n\npoi sitrattato...\n\n.. in grandissimo porto di\n\nfondato...\n\nM.178.185729.",
+        "block_bbox": [
+          2034,
+          249,
+          2557,
+          452
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2034.0,
+            249.0
+          ],
+          [
+            2557.0,
+            249.0
+          ],
+          [
+            2557.0,
+            452.0
+          ],
+          [
+            2034.0,
+            452.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Met.Gotham\n\nWright 29.\n\n212 49. Nuppe queen...",
+        "block_bbox": [
+          2036,
+          518,
+          2633,
+          707
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2036.0,
+            518.0
+          ],
+          [
+            2633.0,
+            518.0
+          ],
+          [
+            2633.0,
+            707.0
+          ],
+          [
+            2036.0,
+            707.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "AB. 2.771. Berengenius AB's least.\n\nLegan Bernard.\n\nquoniam auditirimus a primil\n\nfere adolesc.... cantincundas\n\nminicas et urbanos modelos\n\nfaciliae. waddrid met bro-\n\ndars...\n\n772.100um iague commentando\n\nel negandi usum ad divinum\n\nsape instrumentum accentis, et\n\nastrum imperici graviter et\n\ngranditer dictum, quod abertim\n\net eloquenter effetius...\n\nde haal das andoreus legas ben\n\nnard's rhetoriae.\n\netc. scharp ironisch, Bernard's\n\n20em!",
+        "block_bbox": [
+          1998,
+          798,
+          2732,
+          1363
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1998.0,
+            798.0
+          ],
+          [
+            2732.0,
+            798.0
+          ],
+          [
+            2732.0,
+            1363.0
+          ],
+          [
+            1998.0,
+            1363.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "AB. het oude klasificatie dat\n\nboodspig overwonnen wordt?\n\nheel veel kleed. kende hij niet",
+        "block_bbox": [
+          2036,
+          1510,
+          2719,
+          1606
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2036.0,
+            1510.0
+          ],
+          [
+            2719.0,
+            1510.0
+          ],
+          [
+            2719.0,
+            1606.0
+          ],
+          [
+            2036.0,
+            1606.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "AB. 2.779. Lu cantico in elagos,\n\nCommino in larenos... convert\n\nbisi.\n\nhier eigt eupport: het consolaan,\n\nwas de tomaard, de geveld\n\nlosn.\n\nB. hier met de troub. Bereng.\n\nes ab. met de ouderen! im\n\nmajeurs met de vaganten en\n\nde citteroleu",
+        "block_bbox": [
+          2041,
+          1702,
+          2724,
+          2012
+        ],
+        "block_id": 10,
+        "block_order": 9,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            2041.0,
+            1702.0
+          ],
+          [
+            2724.0,
+            1702.0
+          ],
+          [
+            2724.0,
+            2012.0
+          ],
+          [
+            2041.0,
+            2012.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.42511090636253357,
+          "coordinate": [
+            51,
+            3,
+            369,
+            64
+          ],
+          "polygon_points": [
+            [
+              51.0,
+              3.0
+            ],
+            [
+              369.0,
+              3.0
+            ],
+            [
+              369.0,
+              64.0
+            ],
+            [
+              51.0,
+              64.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.6897991299629211,
+          "coordinate": [
+            2640,
+            7,
+            2917,
+            67
+          ],
+          "polygon_points": [
+            [
+              2640.0,
+              7.0
+            ],
+            [
+              2917.0,
+              7.0
+            ],
+            [
+              2917.0,
+              67.0
+            ],
+            [
+              2640.0,
+              67.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5440059304237366,
+          "coordinate": [
+            411,
+            615,
+            887,
+            1095
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              411.0,
+              615.0
+            ],
+            [
+              887.0,
+              615.0
+            ],
+            [
+              887.0,
+              1095.0
+            ],
+            [
+              411.0,
+              1095.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6066942811012268,
+          "coordinate": [
+            397,
+            1193,
+            886,
+            1715
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              397.0,
+              1193.0
+            ],
+            [
+              886.0,
+              1193.0
+            ],
+            [
+              886.0,
+              1715.0
+            ],
+            [
+              397.0,
+              1715.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6133819818496704,
+          "coordinate": [
+            640,
+            1850,
+            1140,
+            1986
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              640.0,
+              1850.0
+            ],
+            [
+              1140.0,
+              1850.0
+            ],
+            [
+              1140.0,
+              1986.0
+            ],
+            [
+              640.0,
+              1986.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6349177360534668,
+          "coordinate": [
+            1922,
+            87,
+            2563,
+            185
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1922.0,
+              87.0
+            ],
+            [
+              2563.0,
+              87.0
+            ],
+            [
+              2563.0,
+              185.0
+            ],
+            [
+              1922.0,
+              185.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6482520699501038,
+          "coordinate": [
+            2034,
+            249,
+            2557,
+            452
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2034.0,
+              249.0
+            ],
+            [
+              2557.0,
+              249.0
+            ],
+            [
+              2557.0,
+              452.0
+            ],
+            [
+              2034.0,
+              452.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6365033984184265,
+          "coordinate": [
+            2036,
+            518,
+            2633,
+            707
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2036.0,
+              518.0
+            ],
+            [
+              2633.0,
+              518.0
+            ],
+            [
+              2633.0,
+              707.0
+            ],
+            [
+              2036.0,
+              707.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5463125705718994,
+          "coordinate": [
+            1993,
+            799,
+            2701,
+            1028
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1993.0,
+              799.0
+            ],
+            [
+              2701.0,
+              799.0
+            ],
+            [
+              2701.0,
+              1028.0
+            ],
+            [
+              1993.0,
+              1028.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3215179741382599,
+          "coordinate": [
+            1998,
+            798,
+            2732,
+            1363
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1998.0,
+              798.0
+            ],
+            [
+              2732.0,
+              798.0
+            ],
+            [
+              2732.0,
+              1363.0
+            ],
+            [
+              1998.0,
+              1363.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6135398149490356,
+          "coordinate": [
+            2024,
+            1029,
+            2729,
+            1361
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              2024.0,
+              1029.0
+            ],
+            [
+              2729.0,
+              1029.0
+            ],
+            [
+              2729.0,
+              1361.0
+            ],
+            [
+              2024.0,
+              1361.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.789160430431366,
+          "coordinate": [
+            2036,
+            1510,
+            2719,
+            1606
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              2036.0,
+              1510.0
+            ],
+            [
+              2719.0,
+              1510.0
+            ],
+            [
+              2719.0,
+              1606.0
+            ],
+            [
+              2036.0,
+              1606.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8281256556510925,
+          "coordinate": [
+            2041,
+            1702,
+            2724,
+            2012
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              2041.0,
+              1702.0
+            ],
+            [
+              2724.0,
+              1702.0
+            ],
+            [
+              2724.0,
+              2012.0
+            ],
+            [
+              2041.0,
+              2012.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "00ges wondnt la E\n\ngeleesten 2000 helde\n\nLien keurdt Gtt\n\nwaardoeening:de on\n\nmet on eu geroed\n\nonvergelichtig en\n\nin rocaldville en\n\ngenis van Zijn ent\n\nloon hen Zell. Hel\n\nmoet moerzeam\n\nTianqi XiaoBa\n\nfirst treasence,\n\nstaple was! Nog an\n\ncontourt of weds\n\nmen. Do radio d\n\ncuteanniracleen\n\ndon was moker en\n\nhat were. Address\n\nschool, is do home\n\ndrift as tomeels\n\neicdot.\n\nkan je mič niel od\n\nangelosden äidras\n\nnicht spreedig lot e\n\n12. 2.789. con schardesde verde.\n\ndiging.\n\nvon pijme komiscae knoxat.\n\nBerangaris di Poiteau, Pen.\n\nScoolichien.\n\npoi sitrattato...\n\n.. in grandissimo porto di\n\nfondato...\n\nM.178.185729.\n\nMet.Gotham\n\nWright 29.\n\n212 49. Nuppe queen...\n\nAB. 2.771. Berengenius AB's least.\n\nLegan Bernard.\n\nquoniam auditirimus a primil\n\nfere adolesc.... cantincundas\n\nminicas et urbanos modelos\n\nfaciliae. waddrid met bro-\n\ndars...\n\n772.100um iague commentando\n\nel negandi usum ad divinum\n\nsape instrumentum accentis, et\n\nastrum imperici graviter et\n\ngranditer dictum, quod abertim\n\net eloquenter effetius...\n\nde haal das andoreus legas ben\n\nnard's rhetoriae.\n\netc. scharp ironisch, Bernard's\n\n20em!\n\nAB. het oude klasificatie dat\n\nboodspig overwonnen wordt?\n\nheel veel kleed. kende hij niet\n\nAB. 2.779. Lu cantico in elagos,\n\nCommino in larenos... convert\n\nbisi.\n\nhier eigt eupport: het consolaan,\n\nwas de tomaard, de geveld\n\nlosn.\n\nB. hier met de troub. Bereng.\n\nes ab. met de ouderen! im\n\nmajeurs met de vaganten en\n\nde citteroleu",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//24aa50cb-3b8c-4106-ae38-afe3500b4f37/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A42Z%2F-1%2F%2Fdec63c6a9a02e31ea7c3e158b05477b6ef3bb2f3d1772e8bbd5d0f14621c5727"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//24aa50cb-3b8c-4106-ae38-afe3500b4f37/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A42Z%2F-1%2F%2F85bfea1e35142e52c7de357042af8d508de9f9f0bb7fadd09b6235991cbcf587"
+}

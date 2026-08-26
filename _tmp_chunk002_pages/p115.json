@@ -1,0 +1,288 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "ture des lois, même des convoi\n\nle cœur plus de composition\n\nl'aim館的\n\nminor les possames, ou lisant\n\nles \"Moradia\" de Saint Grégoire\n\nque philosophique à la manière\n\ndes écolas. Toute la lettre est\n\nsemorquella par son tels liés de\n\nl'eux et très personnel ; elle n'est\n\ndonna des clartés singulaires\n\nsur la côté très actif qu'ajoué\n\nJeux de Sabisbury dans l'historie\n\ndu martyrs de Constorbeuf.",
+        "block_bbox": [
+          2215,
+          1018,
+          2955,
+          1437
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2215.0,
+            1018.0
+          ],
+          [
+            2956.0,
+            1018.0
+          ],
+          [
+            2956.0,
+            1437.0
+          ],
+          [
+            2215.0,
+            1437.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Let an dominant dans les collines de Veau de Salisbury est décidement en majeur. Il s'y trouve pour de l'acest de cel ennuie de vienne, \"taddium vitoo\", de ces gémisse-ments carnoquants sur le monde qui va de mal en pines, de colle préoccupation complète de la mort du ingrémant dernier et de l'enfer, avec les visions macadred ou horribles qu'elle évoque, qui est sont caractéristiques pour la moyen âge apprécant à la fin.",
+        "block_bbox": [
+          2204,
+          1435,
+          2955,
+          1829
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2204.0,
+            1435.0
+          ],
+          [
+            2955.0,
+            1435.0
+          ],
+          [
+            2955.0,
+            1829.0
+          ],
+          [
+            2204.0,
+            1829.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "V. 463. 283 10 four lacin measure dans la médiation sur la mort, dit-il.",
+        "block_bbox": [
+          2068,
+          1830,
+          2953,
+          1891
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2067.630615234375,
+            1838.333984375
+          ],
+          [
+            2951.988525390625,
+            1828.91357421875
+          ],
+          [
+            2952.553955078125,
+            1881.994140625
+          ],
+          [
+            2068.196044921875,
+            1891.41455078125
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "C'est mon impression, mais il four\n\ndroit la vérification, que cette absence\n\ndes fréthantaisies se voit assistant\n\nPierre (sembrés et menazantes) le Ve",
+        "block_bbox": [
+          2207,
+          1890,
+          2953,
+          2015
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2207.0,
+            1890.0
+          ],
+          [
+            2953.0,
+            1890.0
+          ],
+          [
+            2953.0,
+            2015.0
+          ],
+          [
+            2207.0,
+            2015.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9161794781684875,
+          "coordinate": [
+            2215,
+            1018,
+            2955,
+            1437
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2215.0,
+              1018.0
+            ],
+            [
+              2956.0,
+              1018.0
+            ],
+            [
+              2956.0,
+              1437.0
+            ],
+            [
+              2215.0,
+              1437.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8297121524810791,
+          "coordinate": [
+            2204,
+            1435,
+            2955,
+            1829
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2204.0,
+              1435.0
+            ],
+            [
+              2955.0,
+              1435.0
+            ],
+            [
+              2955.0,
+              1829.0
+            ],
+            [
+              2204.0,
+              1829.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5561642050743103,
+          "coordinate": [
+            2068,
+            1830,
+            2953,
+            1891
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2067.630615234375,
+              1838.333984375
+            ],
+            [
+              2951.988525390625,
+              1828.91357421875
+            ],
+            [
+              2952.553955078125,
+              1881.994140625
+            ],
+            [
+              2068.196044921875,
+              1891.41455078125
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7806439399719238,
+          "coordinate": [
+            2207,
+            1890,
+            2953,
+            2015
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2207.0,
+              1890.0
+            ],
+            [
+              2953.0,
+              1890.0
+            ],
+            [
+              2953.0,
+              2015.0
+            ],
+            [
+              2207.0,
+              2015.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "ture des lois, même des convoi\n\nle cœur plus de composition\n\nl'aim館的\n\nminor les possames, ou lisant\n\nles \"Moradia\" de Saint Grégoire\n\nque philosophique à la manière\n\ndes écolas. Toute la lettre est\n\nsemorquella par son tels liés de\n\nl'eux et très personnel ; elle n'est\n\ndonna des clartés singulaires\n\nsur la côté très actif qu'ajoué\n\nJeux de Sabisbury dans l'historie\n\ndu martyrs de Constorbeuf.\n\nLet an dominant dans les collines de Veau de Salisbury est décidement en majeur. Il s'y trouve pour de l'acest de cel ennuie de vienne, \"taddium vitoo\", de ces gémisse-ments carnoquants sur le monde qui va de mal en pines, de colle préoccupation complète de la mort du ingrémant dernier et de l'enfer, avec les visions macadred ou horribles qu'elle évoque, qui est sont caractéristiques pour la moyen âge apprécant à la fin.\n\nV. 463. 283 10 four lacin measure dans la médiation sur la mort, dit-il.\n\nC'est mon impression, mais il four\n\ndroit la vérification, que cette absence\n\ndes fréthantaisies se voit assistant\n\nPierre (sembrés et menazantes) le Ve",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c99a4ec6-d516-4b99-9ba0-7f8ab720e9fd/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2Fb0fc1e7197443c8c491ce7845e92bf922f16e5f63115acbdff84ecc38ee09c3f"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c99a4ec6-d516-4b99-9ba0-7f8ab720e9fd/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2F350319f6affa9b8417add0a27bb9b31e8a9dc94ee905a8ddca135f54aecc4efa"
+}

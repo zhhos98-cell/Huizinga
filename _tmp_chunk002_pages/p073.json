@@ -1,0 +1,284 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "20",
+        "block_bbox": [
+          1512,
+          1029,
+          1590,
+          1064
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1512.0,
+            1029.0
+          ],
+          [
+            1590.0,
+            1029.0
+          ],
+          [
+            1590.0,
+            1064.0
+          ],
+          [
+            1512.0,
+            1064.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "mé�atail",
+        "block_bbox": [
+          1980,
+          1743,
+          2204,
+          1775
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1980.0,
+            1743.0
+          ],
+          [
+            2204.0,
+            1743.0
+          ],
+          [
+            2204.0,
+            1775.0
+          ],
+          [
+            1980.0,
+            1775.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Loujois qu'un auteur du dos\n\nziama siècle a peu convoisir\n\nl'amour sous une couleur si\n\nvira et l'exprimer dans une\n\nforme si extravagante qu'après\n\nhuit siècles tout être humain\n\ny son la vérité et la vie.\n\nL'amour d'Abildard et d'Helo\n\nc'est à côté de la benne heure\n\n(de l'illévature)\n\nun sujet, une coute calabro et\n\nd'histoire des magasins qui\n\nviently apres eux, qu'il est\n\ndevenue un peu difficilesly de\n\nformer une image déportive de\n\nprécoccupations laissées par ce\n\nqu'est dit les autres. S'il me\n\nfaideait porter un ingement sur\n\nla nature et sur la valeur comm\n\nodument d'histoire de ce cas,\n\nle serais enclin à la nommer de\n\ndeux documents que nous avons\n\nde l'amour pré-courtois.\n\nLes sentiments d'Héloise, car\n\nc'est d'elle qu'il s'agit et non\n\npas de lui, et la forme dans\n\nlaquelle elle les exprima, n'ont\n\nliés à faire avec la système de\n\nl'amour courtois qui bien déprès\n\naccès impésper son code au monde\n\ncirélisé. Le fait seul que c'est\n\nl'amour les que le flébreur\n\ns'il est",
+        "block_bbox": [
+          2201,
+          1029,
+          2954,
+          2014
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2201.0,
+            1029.0
+          ],
+          [
+            2954.0,
+            1029.0
+          ],
+          [
+            2954.0,
+            2014.0
+          ],
+          [
+            2201.0,
+            2014.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.4533994495868683,
+          "coordinate": [
+            1512,
+            1029,
+            1590,
+            1064
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1512.0,
+              1029.0
+            ],
+            [
+              1590.0,
+              1029.0
+            ],
+            [
+              1590.0,
+              1064.0
+            ],
+            [
+              1512.0,
+              1064.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3531038761138916,
+          "coordinate": [
+            1980,
+            1743,
+            2204,
+            1775
+          ],
+          "polygon_points": [
+            [
+              1980.0,
+              1743.0
+            ],
+            [
+              2204.0,
+              1743.0
+            ],
+            [
+              2204.0,
+              1775.0
+            ],
+            [
+              1980.0,
+              1775.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4337451159954071,
+          "coordinate": [
+            2201,
+            1029,
+            2954,
+            2014
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2201.0,
+              1029.0
+            ],
+            [
+              2954.0,
+              1029.0
+            ],
+            [
+              2954.0,
+              2014.0
+            ],
+            [
+              2201.0,
+              2014.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.42034944891929626,
+          "coordinate": [
+            2216,
+            1032,
+            2953,
+            1259
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2216.0,
+              1032.0
+            ],
+            [
+              2953.0,
+              1032.0
+            ],
+            [
+              2953.0,
+              1259.0
+            ],
+            [
+              2216.0,
+              1259.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4176572859287262,
+          "coordinate": [
+            2201,
+            1750,
+            2953,
+            2015
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2201.0,
+              1750.0
+            ],
+            [
+              2953.0,
+              1750.0
+            ],
+            [
+              2953.0,
+              2015.0
+            ],
+            [
+              2201.0,
+              2015.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Loujois qu'un auteur du dos\n\nziama siècle a peu convoisir\n\nl'amour sous une couleur si\n\nvira et l'exprimer dans une\n\nforme si extravagante qu'après\n\nhuit siècles tout être humain\n\ny son la vérité et la vie.\n\nL'amour d'Abildard et d'Helo\n\nc'est à côté de la benne heure\n\n(de l'illévature)\n\nun sujet, une coute calabro et\n\nd'histoire des magasins qui\n\nviently apres eux, qu'il est\n\ndevenue un peu difficilesly de\n\nformer une image déportive de\n\nprécoccupations laissées par ce\n\nqu'est dit les autres. S'il me\n\nfaideait porter un ingement sur\n\nla nature et sur la valeur comm\n\nodument d'histoire de ce cas,\n\nle serais enclin à la nommer de\n\ndeux documents que nous avons\n\nde l'amour pré-courtois.\n\nLes sentiments d'Héloise, car\n\nc'est d'elle qu'il s'agit et non\n\npas de lui, et la forme dans\n\nlaquelle elle les exprima, n'ont\n\nliés à faire avec la système de\n\nl'amour courtois qui bien déprès\n\naccès impésper son code au monde\n\ncirélisé. Le fait seul que c'est\n\nl'amour les que le flébreur\n\ns'il est",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//71a7e1fc-7d4b-40f5-bd50-bfbb5dfd43dd/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2F28926f46d397b0fe91e39fdc521b05172e7e092554b5c4074c0f257719803d18"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//71a7e1fc-7d4b-40f5-bd50-bfbb5dfd43dd/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2Fcc0566ddab3eb92ab0a539ab89ea5c9fe9ea2feb455becc5b4af88321babd1ba"
+}

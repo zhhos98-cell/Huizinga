@@ -1,0 +1,288 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Cada espírito commo expos a una prada de la civilisation can-tienna de mochen-ágo. 169 me ser irrigat commo point de départ",
+        "block_bbox": [
+          615,
+          16,
+          1237,
+          130
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            615.0,
+            16.0
+          ],
+          [
+            1237.0,
+            16.0
+          ],
+          [
+            1237.0,
+            130.0
+          ],
+          [
+            615.0,
+            130.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "loous parlen de trois esprits que la ma sieu permis et appeler prégiantniques. Je ne pas pas nommer les parliers parmi les parmi de la Paix.\n\nPiano\n\nAbailand de son de Salisbury et\n\nAlain de Lillo (que je veux n'accuper)\n\ngenes impécables dans d'his-\n\ntoire de la partie au douxbique\n\nsiècle. Paragénique ne doit-ce pas\n\nParcequi j'ai crédité à Panee que\n\nen amonsant une déniè de la\n\nfranche sur ces leis pensements, par\n\nainsi des jeunes dans le riour à un\n\nmod���ier. Gm te lente atter\n\nde peut-être à un cours de\n\nphilosopie médiévale. Grès\n\nle semieie chose à lequille je\n\nsont l'entretient, et me harrocher. Je\n\nne suis pas philosophe, et si je\n\nl'étais je enignerais et\n\nd'entrer dans un tenirn que\n\ndominant et M. E. Cienne q�ion,\n\nè qui je dois de plus édin de\n\nmed noticiens sur ce staple, ne ags\n\nce que je veux enrapproضع\n\nd'état de classer piers ou moins\n\nce esprits comme type d'une\n\npros de la civilisation cané-",
+        "block_bbox": [
+          595,
+          57,
+          1281,
+          965
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            595.0,
+            57.0
+          ],
+          [
+            1281.0,
+            57.0
+          ],
+          [
+            1281.0,
+            965.0
+          ],
+          [
+            595.0,
+            965.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Hacim Persomneillement écrasé par\n\nforé no des rommes pas par au\n\nlance dans la délégée",
+        "block_bbox": [
+          1254,
+          591,
+          1903,
+          697
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1254.0,
+            591.0
+          ],
+          [
+            1903.0,
+            591.0
+          ],
+          [
+            1903.0,
+            697.0
+          ],
+          [
+            1254.0,
+            697.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "La mère court dans 4 meilleurs\n\n1°ai semoraué que l'afficao de\n\nmor court bous a dépè rénéol\n\nceurs noms: que ce tene de",
+        "block_bbox": [
+          1279,
+          732,
+          1920,
+          855
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1279.0,
+            732.0
+          ],
+          [
+            1920.0,
+            732.0
+          ],
+          [
+            1920.0,
+            855.0
+          ],
+          [
+            1279.0,
+            855.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.30331069231033325,
+          "coordinate": [
+            615,
+            16,
+            1237,
+            130
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              615.0,
+              16.0
+            ],
+            [
+              1237.0,
+              16.0
+            ],
+            [
+              1237.0,
+              130.0
+            ],
+            [
+              615.0,
+              130.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3839884102344513,
+          "coordinate": [
+            595,
+            57,
+            1281,
+            965
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              595.0,
+              57.0
+            ],
+            [
+              1281.0,
+              57.0
+            ],
+            [
+              1281.0,
+              965.0
+            ],
+            [
+              595.0,
+              965.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3715645968914032,
+          "coordinate": [
+            1254,
+            591,
+            1903,
+            697
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1254.0,
+              591.0
+            ],
+            [
+              1903.0,
+              591.0
+            ],
+            [
+              1903.0,
+              697.0
+            ],
+            [
+              1254.0,
+              697.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3708273768424988,
+          "coordinate": [
+            1279,
+            732,
+            1920,
+            855
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1279.0,
+              732.0
+            ],
+            [
+              1920.0,
+              732.0
+            ],
+            [
+              1920.0,
+              855.0
+            ],
+            [
+              1279.0,
+              855.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 180
+    }
+  },
+  "markdown": {
+    "text": "Cada espírito commo expos a una prada de la civilisation can-tienna de mochen-ágo. 169 me ser irrigat commo point de départ\n\nloous parlen de trois esprits que la ma sieu permis et appeler prégiantniques. Je ne pas pas nommer les parliers parmi les parmi de la Paix.\n\nPiano\n\nAbailand de son de Salisbury et\n\nAlain de Lillo (que je veux n'accuper)\n\ngenes impécables dans d'his-\n\ntoire de la partie au douxbique\n\nsiècle. Paragénique ne doit-ce pas\n\nParcequi j'ai crédité à Panee que\n\nen amonsant une déniè de la\n\nfranche sur ces leis pensements, par\n\nainsi des jeunes dans le riour à un\n\nmod���ier. Gm te lente atter\n\nde peut-être à un cours de\n\nphilosopie médiévale. Grès\n\nle semieie chose à lequille je\n\nsont l'entretient, et me harrocher. Je\n\nne suis pas philosophe, et si je\n\nl'étais je enignerais et\n\nd'entrer dans un tenirn que\n\ndominant et M. E. Cienne q�ion,\n\nè qui je dois de plus édin de\n\nmed noticiens sur ce staple, ne ags\n\nce que je veux enrapproضع\n\nd'état de classer piers ou moins\n\nce esprits comme type d'une\n\npros de la civilisation cané-\n\nHacim Persomneillement écrasé par\n\nforé no des rommes pas par au\n\nlance dans la délégée\n\nLa mère court dans 4 meilleurs\n\n1°ai semoraué que l'afficao de\n\nmor court bous a dépè rénéol\n\nceurs noms: que ce tene de",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F592e9b812fd0482bd16f8f4d682dc4f46bda031597efa579b7fdb653b8cea07e"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4d6c6e78-1546-423f-95e9-0d8119e8ab1f/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F4e87a71cfd467c7006f47616137a1c35e3eca55e92f365e34f568715364b0862"
+}

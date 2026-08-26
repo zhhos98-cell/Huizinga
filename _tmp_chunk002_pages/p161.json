@@ -1,0 +1,438 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "18",
+        "block_bbox": [
+          1511,
+          1003,
+          1564,
+          1033
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1511.0,
+            1003.0
+          ],
+          [
+            1563.0,
+            1003.0
+          ],
+          [
+            1563.0,
+            1032.0
+          ],
+          [
+            1511.0,
+            1032.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "M210.482. Viri Boni et Perfecti, en coup\n\ncirres, Claudiamus, environ 100 de\n\nNotre ère Cavait Composé une saire, don",
+        "block_bbox": [
+          1997,
+          996,
+          2953,
+          1090
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1997.0,
+            996.0
+          ],
+          [
+            2953.0,
+            996.0
+          ],
+          [
+            2953.0,
+            1090.0
+          ],
+          [
+            1997.0,
+            1090.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "En deux livres contra Requiem, d'en laquela il fait compraison des v\n\nnemci de Stilicien, dont Ces pour chasser la vertu how de",
+        "block_bbox": [
+          1506,
+          1092,
+          2954,
+          1166
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1505.3160400390625,
+            1110.0084228515625
+          ],
+          [
+            2952.999755859375,
+            1091.9998779296875
+          ],
+          [
+            2953.68408203125,
+            1146.9913330078125
+          ],
+          [
+            1506.000244140625,
+            1164.9998779296875
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "monda par le moyens d'un homme\n\nabsolument vicieux appale Rufie\n\nrue. Alain de lille en imagina\n\nle contraste: la Nature opérant\n\navec la secours des verts fait\n\nd'une âme absslement pure cré\n\npar dieu, un homme parfait.\n\nThème simple, mais qui lui donne oc.\n\nCasion à développer loule une\n\nsérie d'images concernant la\n\nNature. L'Antiquité, les Vertus, et\n\nà décrire un voyage à l'Uni\n\nvers fait par l'audence que qu'ils\n\nd'abord la Reiser, pruit dans les\n\nlégions plus haulés la Foi (on se\n\nconnait la trama de la Divine\n\nComédie), de scria que son poème\n\nprend les allures encyclopédique\n\nsi chères aux moyens âge.",
+        "block_bbox": [
+          2084,
+          1150,
+          2954,
+          1766
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2084.0,
+            1150.0
+          ],
+          [
+            2954.0,
+            1150.0
+          ],
+          [
+            2954.0,
+            1766.0
+          ],
+          [
+            2084.0,
+            1766.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "fe na m'occuperzi pas d'une\n\namuletsia le na vous qu'en tirar\n\ndu poème l'élément que is viens\n\nd'annoncer : c'est à dire l'ex\n\npression des Résultats médiéva\n\nen poèse. Pour vous prouver que\n\nc'est de la poèse véritable, mal\n\ns'il toute la bixonnerie de la forme",
+        "block_bbox": [
+          2206,
+          1775,
+          2954,
+          2016
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2206.0,
+            1775.0
+          ],
+          [
+            2954.0,
+            1775.0
+          ],
+          [
+            2954.0,
+            2016.0
+          ],
+          [
+            2206.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.469392329454422,
+          "coordinate": [
+            1511,
+            1003,
+            1564,
+            1033
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1511.0,
+              1003.0
+            ],
+            [
+              1563.0,
+              1003.0
+            ],
+            [
+              1563.0,
+              1032.0
+            ],
+            [
+              1511.0,
+              1032.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.33278343081474304,
+          "coordinate": [
+            1997,
+            996,
+            2953,
+            1090
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1997.0,
+              996.0
+            ],
+            [
+              2953.0,
+              996.0
+            ],
+            [
+              2953.0,
+              1090.0
+            ],
+            [
+              1997.0,
+              1090.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4136938750743866,
+          "coordinate": [
+            1997,
+            1061,
+            2953,
+            1092
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1997.0,
+              1061.0
+            ],
+            [
+              2953.0,
+              1061.0
+            ],
+            [
+              2953.0,
+              1092.0
+            ],
+            [
+              1997.0,
+              1092.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7017382979393005,
+          "coordinate": [
+            1506,
+            1092,
+            2954,
+            1166
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1505.3160400390625,
+              1110.0084228515625
+            ],
+            [
+              2952.999755859375,
+              1091.9998779296875
+            ],
+            [
+              2953.68408203125,
+              1146.9913330078125
+            ],
+            [
+              1506.000244140625,
+              1164.9998779296875
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.48914432525634766,
+          "coordinate": [
+            2202,
+            1160,
+            2953,
+            1384
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2202.0,
+              1160.0
+            ],
+            [
+              2953.0,
+              1160.0
+            ],
+            [
+              2953.0,
+              1384.0
+            ],
+            [
+              2202.0,
+              1384.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.32946789264678955,
+          "coordinate": [
+            2084,
+            1150,
+            2954,
+            1766
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2084.0,
+              1150.0
+            ],
+            [
+              2954.0,
+              1150.0
+            ],
+            [
+              2954.0,
+              1766.0
+            ],
+            [
+              2084.0,
+              1766.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5720771551132202,
+          "coordinate": [
+            2179,
+            1390,
+            2955,
+            1774
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2179.0,
+              1390.0
+            ],
+            [
+              2955.0,
+              1390.0
+            ],
+            [
+              2955.0,
+              1774.0
+            ],
+            [
+              2179.0,
+              1774.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7873509526252747,
+          "coordinate": [
+            2206,
+            1775,
+            2954,
+            2016
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2206.0,
+              1775.0
+            ],
+            [
+              2954.0,
+              1775.0
+            ],
+            [
+              2954.0,
+              2016.0
+            ],
+            [
+              2206.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "M210.482. Viri Boni et Perfecti, en coup\n\ncirres, Claudiamus, environ 100 de\n\nNotre ère Cavait Composé une saire, don\n\nEn deux livres contra Requiem, d'en laquela il fait compraison des v\n\nnemci de Stilicien, dont Ces pour chasser la vertu how de\n\nmonda par le moyens d'un homme\n\nabsolument vicieux appale Rufie\n\nrue. Alain de lille en imagina\n\nle contraste: la Nature opérant\n\navec la secours des verts fait\n\nd'une âme absslement pure cré\n\npar dieu, un homme parfait.\n\nThème simple, mais qui lui donne oc.\n\nCasion à développer loule une\n\nsérie d'images concernant la\n\nNature. L'Antiquité, les Vertus, et\n\nà décrire un voyage à l'Uni\n\nvers fait par l'audence que qu'ils\n\nd'abord la Reiser, pruit dans les\n\nlégions plus haulés la Foi (on se\n\nconnait la trama de la Divine\n\nComédie), de scria que son poème\n\nprend les allures encyclopédique\n\nsi chères aux moyens âge.\n\nfe na m'occuperzi pas d'une\n\namuletsia le na vous qu'en tirar\n\ndu poème l'élément que is viens\n\nd'annoncer : c'est à dire l'ex\n\npression des Résultats médiéva\n\nen poèse. Pour vous prouver que\n\nc'est de la poèse véritable, mal\n\ns'il toute la bixonnerie de la forme",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//41584da4-7b50-4b6b-892d-7abd0b1c307a/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F67d5cde5c2ff68eba7136401cf68dc69d1842229302e6da7bca9b60ac7b0fdc9"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//41584da4-7b50-4b6b-892d-7abd0b1c307a/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fd790390048ea35afe4e1ff88931214c44b2d930c56f177e82295c9ecac77dd5c"
+}

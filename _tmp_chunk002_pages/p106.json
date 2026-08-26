@@ -1,0 +1,165 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Beaucié tout de même, à côté part d'être la monument de l'époque non-assortement admirable des génie artistiques de France et de la vénération portée aux glorieux mortus anglais, témoins grâce audi, à ce jour, du dévassement fidèle de Jean de Salis.\n\nCung. Nous avons toujours naisci de l'honorer, entre autres l'itre de gratitude, comme l'honme\n\nqu'il a l'entre eau, pourrait-on de-mender, plus hessard qu'ecclesi siэsique, plus chaudier que pro-\n\nLout. - Il appartient à un lipo-\n\nQu'il ne se retrouve guère, plus tard que je suis lente d'appeler le clore-gentledomme. C'est commerzi les deux grandes conceptiques de la sociale qui ont donné sa forme au moyen-âge, celle du chavadier et celle du docteur ne s'élèvent pas encore complètement détachée d'une de l'autre. l'en connais plus un de ce lupe. Suger de Saint Denis en",
+        "block_bbox": [
+          2130,
+          1003,
+          2954,
+          2012
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2130.0,
+            1003.0
+          ],
+          [
+            2954.0,
+            1003.0
+          ],
+          [
+            2954.0,
+            2012.0
+          ],
+          [
+            2130.0,
+            2012.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.32981786131858826,
+          "coordinate": [
+            2130,
+            1003,
+            2954,
+            2012
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2130.0,
+              1003.0
+            ],
+            [
+              2954.0,
+              1003.0
+            ],
+            [
+              2954.0,
+              2012.0
+            ],
+            [
+              2130.0,
+              2012.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4166102111339569,
+          "coordinate": [
+            2182,
+            1014,
+            2955,
+            1483
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2182.0,
+              1014.0
+            ],
+            [
+              2955.0,
+              1014.0
+            ],
+            [
+              2955.0,
+              1483.0
+            ],
+            [
+              2182.0,
+              1483.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3355239927768707,
+          "coordinate": [
+            2154,
+            1493,
+            2953,
+            1790
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2154.0,
+              1493.0
+            ],
+            [
+              2952.0,
+              1493.0
+            ],
+            [
+              2952.0,
+              1769.0
+            ],
+            [
+              2154.0,
+              1769.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Beaucié tout de même, à côté part d'être la monument de l'époque non-assortement admirable des génie artistiques de France et de la vénération portée aux glorieux mortus anglais, témoins grâce audi, à ce jour, du dévassement fidèle de Jean de Salis.\n\nCung. Nous avons toujours naisci de l'honorer, entre autres l'itre de gratitude, comme l'honme\n\nqu'il a l'entre eau, pourrait-on de-mender, plus hessard qu'ecclesi siэsique, plus chaudier que pro-\n\nLout. - Il appartient à un lipo-\n\nQu'il ne se retrouve guère, plus tard que je suis lente d'appeler le clore-gentledomme. C'est commerzi les deux grandes conceptiques de la sociale qui ont donné sa forme au moyen-âge, celle du chavadier et celle du docteur ne s'élèvent pas encore complètement détachée d'une de l'autre. l'en connais plus un de ce lupe. Suger de Saint Denis en",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F6ca6b1b90db84e6abea8372217379d3da1fb2fc1b09735c8ba33f7d746c892b4"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F0a36e710551343694b61e79cc36b3ea25537003254badd0e799f478f20adc9de"
+}

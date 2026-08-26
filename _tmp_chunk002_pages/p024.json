@@ -1,0 +1,166 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "florence x111.-xv.\n\n1917.",
+        "block_bbox": [
+          1474,
+          1322,
+          1960,
+          1428
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1474.0,
+            1322.0
+          ],
+          [
+            1960.0,
+            1322.0
+          ],
+          [
+            1960.0,
+            1428.0
+          ],
+          [
+            1474.0,
+            1428.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Eenh. & versch. Ital. besch.\n\n1934.28.1X.",
+        "block_bbox": [
+          1413,
+          1438,
+          2059,
+          1515
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1413.0,
+            1438.0
+          ],
+          [
+            2059.0,
+            1438.0
+          ],
+          [
+            2059.0,
+            1515.0
+          ],
+          [
+            1413.0,
+            1515.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5803009271621704,
+          "coordinate": [
+            1474,
+            1322,
+            1960,
+            1428
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1474.0,
+              1322.0
+            ],
+            [
+              1960.0,
+              1322.0
+            ],
+            [
+              1960.0,
+              1428.0
+            ],
+            [
+              1474.0,
+              1428.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6261592507362366,
+          "coordinate": [
+            1413,
+            1438,
+            2059,
+            1515
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1413.0,
+              1438.0
+            ],
+            [
+              2059.0,
+              1438.0
+            ],
+            [
+              2059.0,
+              1515.0
+            ],
+            [
+              1413.0,
+              1515.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "florence x111.-xv.\n\n1917.\n\nEenh. & versch. Ital. besch.\n\n1934.28.1X.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//079cc51d-cd70-499e-9750-2366c10e761d/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2F7432599caeaa0de8ad3e4702f4d7513470f1404b1d42b6181607b760a9bfad63"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//079cc51d-cd70-499e-9750-2366c10e761d/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A49Z%2F-1%2F%2F6c3ed4234685f2d3a998a3ebff786360e4d5f418be9c90987a72e06840185e6c"
+}

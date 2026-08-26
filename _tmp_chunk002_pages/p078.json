@@ -1,0 +1,344 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "25",
+        "block_bbox": [
+          1507,
+          1032,
+          1592,
+          1066
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1507.0,
+            1032.0
+          ],
+          [
+            1592.0,
+            1032.0
+          ],
+          [
+            1592.0,
+            1066.0
+          ],
+          [
+            1507.0,
+            1066.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "de scuver",
+        "block_bbox": [
+          1959,
+          1125,
+          2192,
+          1155
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1959.0,
+            1125.0
+          ],
+          [
+            2192.0,
+            1125.0
+          ],
+          [
+            2192.0,
+            1155.0
+          ],
+          [
+            1959.0,
+            1155.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "il garde des secrets qu'il propre\n\ngero révéler, si nous le random\n\npropice.",
+        "block_bbox": [
+          2152,
+          1023,
+          2955,
+          1124
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2152.0,
+            1023.0
+          ],
+          [
+            2957.0,
+            1023.0
+          ],
+          [
+            2957.0,
+            1124.0
+          ],
+          [
+            2152.0,
+            1124.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "logicas you drive the grammy",
+        "block_bbox": [
+          1895,
+          1850,
+          2212,
+          1919
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1895.0,
+            1850.0
+          ],
+          [
+            2197.0,
+            1850.0
+          ],
+          [
+            2197.0,
+            1918.0
+          ],
+          [
+            1895.0,
+            1918.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Gù lasbrower, ces mailed? De\n\nLes écolés. Elles aussi sont\n\nlors au douzième siècle, et\n\nChacune d'elles est un foyer\n\nde savoir. Là où les tirres man\n\nquent, et où la peur qu'il en y\n\na est extrêmement précieux et\n\ninaccessible à la foule, où il\n\nn'existe pas d'échange) de peu\n\nséc. Gù'gudier/par écrit, et où\n\nen même temps la produit une\n\naspiration fermentée et garnérale\n\nau savoir. L'école devient un\n\ninstrument de culture de pre\n\nmier adra. C'est la cas du\n\nZúima siècle. Rares Loujoard\n\nsi cm/compara la présent, edde\n\npubulent en comparaider\n\nsièclees antérieure. Le est besoin\n\nde peu de casse pour formater\n\nune école : une solde, une\n\ncasira et un maire, voilà Tout\n\n62, au douzième siècle, ce\n\nn'est pas seulement la normaire\n\net la préquantitation des écolés\n\nqui augmente, c'est aussi l'as\n\npréparation scientifique qui change",
+        "block_bbox": [
+          2202,
+          1117,
+          2955,
+          2017
+        ],
+        "block_id": 4,
+        "block_order": 2,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2202.0,
+            1117.0
+          ],
+          [
+            2956.0,
+            1117.0
+          ],
+          [
+            2956.0,
+            2017.0
+          ],
+          [
+            2202.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.3718007206916809,
+          "coordinate": [
+            1507,
+            1032,
+            1592,
+            1066
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1507.0,
+              1032.0
+            ],
+            [
+              1592.0,
+              1032.0
+            ],
+            [
+              1592.0,
+              1066.0
+            ],
+            [
+              1507.0,
+              1066.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.42992672324180603,
+          "coordinate": [
+            1959,
+            1125,
+            2192,
+            1155
+          ],
+          "polygon_points": [
+            [
+              1959.0,
+              1125.0
+            ],
+            [
+              2192.0,
+              1125.0
+            ],
+            [
+              2192.0,
+              1155.0
+            ],
+            [
+              1959.0,
+              1155.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7098848223686218,
+          "coordinate": [
+            2152,
+            1023,
+            2955,
+            1124
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2152.0,
+              1023.0
+            ],
+            [
+              2957.0,
+              1023.0
+            ],
+            [
+              2957.0,
+              1124.0
+            ],
+            [
+              2152.0,
+              1124.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.31129395961761475,
+          "coordinate": [
+            1895,
+            1850,
+            2212,
+            1919
+          ],
+          "polygon_points": [
+            [
+              1895.0,
+              1850.0
+            ],
+            [
+              2197.0,
+              1850.0
+            ],
+            [
+              2197.0,
+              1918.0
+            ],
+            [
+              1895.0,
+              1918.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8185169696807861,
+          "coordinate": [
+            2202,
+            1117,
+            2955,
+            2017
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2202.0,
+              1117.0
+            ],
+            [
+              2956.0,
+              1117.0
+            ],
+            [
+              2956.0,
+              2017.0
+            ],
+            [
+              2202.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "il garde des secrets qu'il propre\n\ngero révéler, si nous le random\n\npropice.\n\nGù lasbrower, ces mailed? De\n\nLes écolés. Elles aussi sont\n\nlors au douzième siècle, et\n\nChacune d'elles est un foyer\n\nde savoir. Là où les tirres man\n\nquent, et où la peur qu'il en y\n\na est extrêmement précieux et\n\ninaccessible à la foule, où il\n\nn'existe pas d'échange) de peu\n\nséc. Gù'gudier/par écrit, et où\n\nen même temps la produit une\n\naspiration fermentée et garnérale\n\nau savoir. L'école devient un\n\ninstrument de culture de pre\n\nmier adra. C'est la cas du\n\nZúima siècle. Rares Loujoard\n\nsi cm/compara la présent, edde\n\npubulent en comparaider\n\nsièclees antérieure. Le est besoin\n\nde peu de casse pour formater\n\nune école : une solde, une\n\ncasira et un maire, voilà Tout\n\n62, au douzième siècle, ce\n\nn'est pas seulement la normaire\n\net la préquantitation des écolés\n\nqui augmente, c'est aussi l'as\n\npréparation scientifique qui change",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3b22018b-924b-4698-83ba-4b0383455c9f/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F53d27afd53c71f5057d7816585fba942971874ab46e6eddec6d7bce77c15f029"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3b22018b-924b-4698-83ba-4b0383455c9f/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F1ae5a98e8bb33d282a41db8a39ee228f7d3d66aff1f1c0b4d9524b700a63b214"
+}

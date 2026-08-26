@@ -1,0 +1,286 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "22",
+        "block_bbox": [
+          1548,
+          1025,
+          1618,
+          1056
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1548.0,
+            1025.0
+          ],
+          [
+            1618.0,
+            1025.0
+          ],
+          [
+            1618.0,
+            1056.0
+          ],
+          [
+            1548.0,
+            1056.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "des \"sagas\" d'Islamde. Glaz de l'histoire d'Abailard et d'He loie l'élément christian, la conscience du péché et la 20 périin tardif, et ce qui restle serait bien digne de figurer dans un de ces récits pércues de passion et de violences que nous a laissés l'esprit secondimano de ces mêmes temps, le ma 20p-pélèbre avec une espèce de com-partement qu'elle aussi portait un nom bien germinain : Helsinki c'est à dire Heilswidis ou Halwita, comme son emball fulbert et l'ont d'autres, enfin comme la plupart des français d'alors.",
+        "block_bbox": [
+          2230,
+          1018,
+          2954,
+          1575
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2230.0,
+            1018.0
+          ],
+          [
+            2954.0,
+            1018.0
+          ],
+          [
+            2954.0,
+            1575.0
+          ],
+          [
+            2230.0,
+            1575.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Gh, na criúguez pas que je na vericilla hondador del thérios de 2200. le les heis, ces hupothà thériiles destinées à souloger des tentatives bescinié nels-naux d'aujourd'hui, le na pré lends pas que Heloïso fut une perscruise de sang ou de senti- ments garmoins. le vœux vout 2000 peler seulement que la monde français d'alors était encore plus proche de ses origines bar- bres, et qu'il fait son oublier un peu l'accent 2omantique qu'a",
+        "block_bbox": [
+          2218,
+          1579,
+          2955,
+          2017
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2218.0,
+            1579.0
+          ],
+          [
+            2955.0,
+            1579.0
+          ],
+          [
+            2955.0,
+            2017.0
+          ],
+          [
+            2218.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.5145189762115479,
+          "coordinate": [
+            1548,
+            1025,
+            1618,
+            1056
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1548.0,
+              1025.0
+            ],
+            [
+              1618.0,
+              1025.0
+            ],
+            [
+              1618.0,
+              1056.0
+            ],
+            [
+              1548.0,
+              1056.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4030051529407501,
+          "coordinate": [
+            2235,
+            1017,
+            2954,
+            1314
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2235.0,
+              1017.0
+            ],
+            [
+              2954.0,
+              1017.0
+            ],
+            [
+              2954.0,
+              1314.0
+            ],
+            [
+              2235.0,
+              1314.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.527722954750061,
+          "coordinate": [
+            2230,
+            1018,
+            2954,
+            1575
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2230.0,
+              1018.0
+            ],
+            [
+              2954.0,
+              1018.0
+            ],
+            [
+              2954.0,
+              1575.0
+            ],
+            [
+              2230.0,
+              1575.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.36371883749961853,
+          "coordinate": [
+            2231,
+            1321,
+            2952,
+            1574
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2231.0,
+              1321.0
+            ],
+            [
+              2952.0,
+              1321.0
+            ],
+            [
+              2952.0,
+              1574.0
+            ],
+            [
+              2231.0,
+              1574.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8072963953018188,
+          "coordinate": [
+            2218,
+            1579,
+            2955,
+            2017
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2218.0,
+              1579.0
+            ],
+            [
+              2955.0,
+              1579.0
+            ],
+            [
+              2955.0,
+              2017.0
+            ],
+            [
+              2218.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "des \"sagas\" d'Islamde. Glaz de l'histoire d'Abailard et d'He loie l'élément christian, la conscience du péché et la 20 périin tardif, et ce qui restle serait bien digne de figurer dans un de ces récits pércues de passion et de violences que nous a laissés l'esprit secondimano de ces mêmes temps, le ma 20p-pélèbre avec une espèce de com-partement qu'elle aussi portait un nom bien germinain : Helsinki c'est à dire Heilswidis ou Halwita, comme son emball fulbert et l'ont d'autres, enfin comme la plupart des français d'alors.\n\nGh, na criúguez pas que je na vericilla hondador del thérios de 2200. le les heis, ces hupothà thériiles destinées à souloger des tentatives bescinié nels-naux d'aujourd'hui, le na pré lends pas que Heloïso fut une perscruise de sang ou de senti- ments garmoins. le vœux vout 2000 peler seulement que la monde français d'alors était encore plus proche de ses origines bar- bres, et qu'il fait son oublier un peu l'accent 2omantique qu'a",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//71a7e1fc-7d4b-40f5-bd50-bfbb5dfd43dd/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F08086a2d7936a02e30a45f08be5c157cb06acc604befb2b3d00b16aaecc42a56"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//71a7e1fc-7d4b-40f5-bd50-bfbb5dfd43dd/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F4c4fc24aadee8093263f23d00c6071f2c9411c7f158909665ce256c94fc636d3"
+}

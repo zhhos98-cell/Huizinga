@@ -1,0 +1,314 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "B.Ceu.589",
+        "block_bbox": [
+          2008,
+          1617,
+          2184,
+          1644
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2008.0,
+            1617.0
+          ],
+          [
+            2184.0,
+            1617.0
+          ],
+          [
+            2184.0,
+            1644.0
+          ],
+          [
+            2008.0,
+            1644.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "grande\n610",
+        "block_bbox": [
+          2052,
+          1855,
+          2175,
+          1896
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2052.0,
+            1855.0
+          ],
+          [
+            2175.0,
+            1855.0
+          ],
+          [
+            2175.0,
+            1896.0
+          ],
+          [
+            2052.0,
+            1896.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "380 - le thème: NOBiles officit animum\n\nVoilà de là au xIIe siècle ce thème qu'on\n\nprévent parfois émment une annonce\n\nde la Renaissance. Tout s'engeent\n\nde vie (présente quelque chose de\n\ntraitement 2004. Il ne prend jamaie\n\nles 2005 sans que des pauvres soi\n\nent présents auxquels il transmet\n\nlaissez tout ce qui 2010. Il est « humane »\n\nsatis et jocundent\", quand il est\n\n« jocundissimes » il a l'habitude\n\nde 2000 sur parfois jusqu'à me\n\nnuit. Les des hautes fâles de l'an\n\nnée il ne souffra pas les vitages\n\nTrustes.",
+        "block_bbox": [
+          2078,
+          1015,
+          2955,
+          1486
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2078.0,
+            1015.0
+          ],
+          [
+            2958.0,
+            1015.0
+          ],
+          [
+            2958.0,
+            1486.0
+          ],
+          [
+            2078.0,
+            1486.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Une des figures les plus sempre-\n\nthiques de ce lypo est Pierre la\n\nVéne rabbs, abde de Clumq. Il est\n\ntotus iocundo granidato, gravique\n\nlocunditato redimitus. Il est d'un\n\npart admirada, Scri lui-même\n\nde la haute noblassa d'Avergn\n\ngrand de stature, beau de vie\n\ndage, composé de mœurs et de\n\ngesles. Sem pame gristo Pierre de\n\nPoitou nourment ser amirée\n\nau milieu de la poule, bourget\n\ncéronnia, de la 2 appolda commu voice:\n\nFondueau pour la voce: G acius h\n\nloris nec honora severion udes.\n\nquam pia, pulcara, nitent, imperii\n\nadis eras! - C'est Pierre de Clumq\n\nqui a racé dans ses monastère",
+        "block_bbox": [
+          2191,
+          1488,
+          2952,
+          2010
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2191.0,
+            1488.0
+          ],
+          [
+            2952.0,
+            1488.0
+          ],
+          [
+            2952.0,
+            2010.0
+          ],
+          [
+            2191.0,
+            2010.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.4726167917251587,
+          "coordinate": [
+            2008,
+            1617,
+            2184,
+            1644
+          ],
+          "polygon_points": [
+            [
+              2008.0,
+              1617.0
+            ],
+            [
+              2184.0,
+              1617.0
+            ],
+            [
+              2184.0,
+              1644.0
+            ],
+            [
+              2008.0,
+              1644.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5118921995162964,
+          "coordinate": [
+            2052,
+            1855,
+            2175,
+            1896
+          ],
+          "polygon_points": [
+            [
+              2052.0,
+              1855.0
+            ],
+            [
+              2175.0,
+              1855.0
+            ],
+            [
+              2175.0,
+              1896.0
+            ],
+            [
+              2052.0,
+              1896.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6125455498695374,
+          "coordinate": [
+            2078,
+            1015,
+            2955,
+            1486
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2078.0,
+              1015.0
+            ],
+            [
+              2958.0,
+              1015.0
+            ],
+            [
+              2958.0,
+              1486.0
+            ],
+            [
+              2078.0,
+              1486.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5538362860679626,
+          "coordinate": [
+            2191,
+            1488,
+            2952,
+            2010
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2191.0,
+              1488.0
+            ],
+            [
+              2952.0,
+              1488.0
+            ],
+            [
+              2952.0,
+              2010.0
+            ],
+            [
+              2191.0,
+              2010.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4513547122478485,
+          "coordinate": [
+            2206,
+            1897,
+            2952,
+            2016
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2206.0,
+              1897.0
+            ],
+            [
+              2952.0,
+              1897.0
+            ],
+            [
+              2952.0,
+              2016.0
+            ],
+            [
+              2206.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "380 - le thème: NOBiles officit animum\n\nVoilà de là au xIIe siècle ce thème qu'on\n\nprévent parfois émment une annonce\n\nde la Renaissance. Tout s'engeent\n\nde vie (présente quelque chose de\n\ntraitement 2004. Il ne prend jamaie\n\nles 2005 sans que des pauvres soi\n\nent présents auxquels il transmet\n\nlaissez tout ce qui 2010. Il est « humane »\n\nsatis et jocundent\", quand il est\n\n« jocundissimes » il a l'habitude\n\nde 2000 sur parfois jusqu'à me\n\nnuit. Les des hautes fâles de l'an\n\nnée il ne souffra pas les vitages\n\nTrustes.\n\nUne des figures les plus sempre-\n\nthiques de ce lypo est Pierre la\n\nVéne rabbs, abde de Clumq. Il est\n\ntotus iocundo granidato, gravique\n\nlocunditato redimitus. Il est d'un\n\npart admirada, Scri lui-même\n\nde la haute noblassa d'Avergn\n\ngrand de stature, beau de vie\n\ndage, composé de mœurs et de\n\ngesles. Sem pame gristo Pierre de\n\nPoitou nourment ser amirée\n\nau milieu de la poule, bourget\n\ncéronnia, de la 2 appolda commu voice:\n\nFondueau pour la voce: G acius h\n\nloris nec honora severion udes.\n\nquam pia, pulcara, nitent, imperii\n\nadis eras! - C'est Pierre de Clumq\n\nqui a racé dans ses monastère",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F00a37d99dbee458ca9457c465c1ae915081e13a1140d38f9b9a66821584ae121"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fe98af731b14af3c02c86751d429d84983a4d8d8d38ccdb06d68940c9bf77aa32"
+}

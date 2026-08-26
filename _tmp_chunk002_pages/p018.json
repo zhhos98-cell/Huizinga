@@ -1,0 +1,739 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "HN13Ⅲ[3]O",
+        "block_bbox": [
+          72,
+          10,
+          347,
+          84
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            66.81185150146484,
+            32.53337478637695
+          ],
+          [
+            345.3725280761719,
+            3.8962669372558594
+          ],
+          [
+            352.6313781738281,
+            74.50515747070312
+          ],
+          [
+            74.07070922851562,
+            103.14227294921875
+          ]
+        ]
+      },
+      {
+        "block_label": "header",
+        "block_content": "Hui 3πc 4.5",
+        "block_bbox": [
+          2563,
+          14,
+          2830,
+          68
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2563.0,
+            14.0
+          ],
+          [
+            2830.0,
+            14.0
+          ],
+          [
+            2830.0,
+            68.0
+          ],
+          [
+            2563.0,
+            68.0
+          ]
+        ]
+      },
+      {
+        "block_label": "table",
+        "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Buren uit Adorp, Beyum, Dorkwerd, Fee terburen uit het Cartularium van Selv Abeke (Noon, Vat. Tot. 1 2 3</td><td style='text-align: center; word-wrap: break-word;'>Femme</td><td style='text-align: center; word-wrap: break-word;'>Noon Vat. tot. 1</td><td style='text-align: center; word-wrap: break-word;'>Aelke (o)</td><td style='text-align: center; word-wrap: break-word;'>Aelka</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelka</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>A</td></tr></table>",
+        "block_bbox": [
+          628,
+          270,
+          942,
+          981
+        ],
+        "block_id": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            628.0,
+            270.0
+          ],
+          [
+            942.0,
+            270.0
+          ],
+          [
+            942.0,
+            981.0
+          ],
+          [
+            628.0,
+            981.0
+          ]
+        ]
+      },
+      {
+        "block_label": "image",
+        "block_content": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1243_1065_1874.jpg\" alt=\"Image\" width=\"22%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1243_1065_1874.jpg\" alt=\"Image\" width=\"22%\" />\n\nzuck der Geschenkons\nKranz\nThe quick brown fox jumps over the lazy dog\n\n\n\n</div>\n\n\n</div>\n",
+        "block_bbox": [
+          391,
+          1243,
+          1065,
+          1874
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            391.0,
+            1243.0
+          ],
+          [
+            1065.0,
+            1243.0
+          ],
+          [
+            1065.0,
+            1874.0
+          ],
+          [
+            391.0,
+            1874.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Codex Vatic 7260-272102.\n\nautograph. emizen1.XXVII.\n\nwerden: 1.1-207.\n\n363.3748436.468-472.\n\n475-479 em 2.H.\n\nzweigemund.\n\nzeff operation.\n\nGuggenp. p.XXVII.",
+        "block_bbox": [
+          1973,
+          185,
+          2551,
+          466
+        ],
+        "block_id": 4,
+        "block_order": 1,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1973.0,
+            185.0
+          ],
+          [
+            2551.0,
+            185.0
+          ],
+          [
+            2551.0,
+            466.0
+          ],
+          [
+            1973.0,
+            466.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "S. krillisst zu Voltages mit, moen\n\nconigeant zeu\n\nSicard in vermaerd vorm\n\nmeh Uraatstap\n\ndage mit folgend,\n\n1986. v. M.C. grandisop lat 1280",
+        "block_bbox": [
+          1949,
+          614,
+          2594,
+          816
+        ],
+        "block_id": 5,
+        "block_order": 2,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1949.0,
+            614.0
+          ],
+          [
+            2594.0,
+            614.0
+          ],
+          [
+            2594.0,
+            816.0
+          ],
+          [
+            1949.0,
+            816.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Serving on Vergie. Meroid VI.136.\n\nPeru 56/57.\n\nAmta. Lat. 1076.",
+        "block_bbox": [
+          1912,
+          935,
+          2455,
+          1030
+        ],
+        "block_id": 6,
+        "block_order": 3,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            1912.0,
+            935.0
+          ],
+          [
+            2455.0,
+            935.0
+          ],
+          [
+            2455.0,
+            1030.0
+          ],
+          [
+            1912.0,
+            1030.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "254-294. tracta du de Gerardo Ega\n\nLoblo Parmenis.\n\n294 f. crus review 1248, 1249.\n\n333-444, - hal 1201 1250.\n\n444-506. 1251-1280. maest will\n\nLíbaos das hamparibens.\n\n1251-1287 maest clíges\n\nmit N. 8 N. Italie",
+        "block_bbox": [
+          1971,
+          1129,
+          2600,
+          1372
+        ],
+        "block_id": 7,
+        "block_order": 4,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            1971.0,
+            1129.0
+          ],
+          [
+            2600.0,
+            1129.0
+          ],
+          [
+            2600.0,
+            1372.0
+          ],
+          [
+            1971.0,
+            1372.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1-29. Gernest gronnders of Second\n\n29-187. 1812. 1247 mit 1000 an over\n\n187-254. 1247. 1298 op zuin rein brach\n\n188. XXIV.",
+        "block_bbox": [
+          1957,
+          1446,
+          2599,
+          1584
+        ],
+        "block_id": 8,
+        "block_order": 5,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1957.0,
+            1446.0
+          ],
+          [
+            2599.0,
+            1446.0
+          ],
+          [
+            2599.0,
+            1584.0
+          ],
+          [
+            1957.0,
+            1584.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Heimbacher. -\n\nRepetitivo\n\nLector.\n\nof Buchal, i.v. Francure.",
+        "block_bbox": [
+          1949,
+          1671,
+          2293,
+          1798
+        ],
+        "block_id": 9,
+        "block_order": 6,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            1949.0,
+            1671.0
+          ],
+          [
+            2293.0,
+            1671.0
+          ],
+          [
+            2293.0,
+            1798.0
+          ],
+          [
+            1949.0,
+            1798.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "micledimo = 100tall",
+        "block_bbox": [
+          1962,
+          1906,
+          2369,
+          1941
+        ],
+        "block_id": 10,
+        "block_order": 7,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            1962.0,
+            1906.0
+          ],
+          [
+            2369.0,
+            1906.0
+          ],
+          [
+            2369.0,
+            1941.0
+          ],
+          [
+            1962.0,
+            1941.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.5614636540412903,
+          "coordinate": [
+            72,
+            10,
+            347,
+            84
+          ],
+          "polygon_points": [
+            [
+              66.81185150146484,
+              32.53337478637695
+            ],
+            [
+              345.3725280761719,
+              3.8962669372558594
+            ],
+            [
+              352.6313781738281,
+              74.50515747070312
+            ],
+            [
+              74.07070922851562,
+              103.14227294921875
+            ]
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.3733169734477997,
+          "coordinate": [
+            2563,
+            14,
+            2830,
+            68
+          ],
+          "polygon_points": [
+            [
+              2563.0,
+              14.0
+            ],
+            [
+              2830.0,
+              14.0
+            ],
+            [
+              2830.0,
+              68.0
+            ],
+            [
+              2563.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 21,
+          "label": "table",
+          "score": 0.3316940665245056,
+          "coordinate": [
+            628,
+            270,
+            942,
+            981
+          ],
+          "polygon_points": [
+            [
+              628.0,
+              270.0
+            ],
+            [
+              942.0,
+              270.0
+            ],
+            [
+              942.0,
+              981.0
+            ],
+            [
+              628.0,
+              981.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 14,
+          "label": "image",
+          "score": 0.32162442803382874,
+          "coordinate": [
+            391,
+            1243,
+            1065,
+            1874
+          ],
+          "polygon_points": [
+            [
+              391.0,
+              1243.0
+            ],
+            [
+              1065.0,
+              1243.0
+            ],
+            [
+              1065.0,
+              1874.0
+            ],
+            [
+              391.0,
+              1874.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 14,
+          "label": "image",
+          "score": 0.3483915328979492,
+          "coordinate": [
+            481,
+            1275,
+            1054,
+            1712
+          ],
+          "polygon_points": [
+            [
+              481.0,
+              1275.0
+            ],
+            [
+              1054.0,
+              1275.0
+            ],
+            [
+              1054.0,
+              1712.0
+            ],
+            [
+              481.0,
+              1712.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.435282438993454,
+          "coordinate": [
+            1973,
+            185,
+            2551,
+            466
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1973.0,
+              185.0
+            ],
+            [
+              2551.0,
+              185.0
+            ],
+            [
+              2551.0,
+              466.0
+            ],
+            [
+              1973.0,
+              466.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.49625927209854126,
+          "coordinate": [
+            1949,
+            614,
+            2594,
+            816
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1949.0,
+              614.0
+            ],
+            [
+              2594.0,
+              614.0
+            ],
+            [
+              2594.0,
+              816.0
+            ],
+            [
+              1949.0,
+              816.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.30065077543258667,
+          "coordinate": [
+            1912,
+            935,
+            2455,
+            1030
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1912.0,
+              935.0
+            ],
+            [
+              2455.0,
+              935.0
+            ],
+            [
+              2455.0,
+              1030.0
+            ],
+            [
+              1912.0,
+              1030.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5420433282852173,
+          "coordinate": [
+            1971,
+            1129,
+            2600,
+            1372
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1971.0,
+              1129.0
+            ],
+            [
+              2600.0,
+              1129.0
+            ],
+            [
+              2600.0,
+              1372.0
+            ],
+            [
+              1971.0,
+              1372.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.594510555267334,
+          "coordinate": [
+            1957,
+            1446,
+            2599,
+            1584
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1957.0,
+              1446.0
+            ],
+            [
+              2599.0,
+              1446.0
+            ],
+            [
+              2599.0,
+              1584.0
+            ],
+            [
+              1957.0,
+              1584.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3883911073207855,
+          "coordinate": [
+            1949,
+            1671,
+            2293,
+            1798
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1949.0,
+              1671.0
+            ],
+            [
+              2293.0,
+              1671.0
+            ],
+            [
+              2293.0,
+              1798.0
+            ],
+            [
+              1949.0,
+              1798.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.30726757645606995,
+          "coordinate": [
+            1962,
+            1906,
+            2369,
+            1941
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1962.0,
+              1906.0
+            ],
+            [
+              2369.0,
+              1906.0
+            ],
+            [
+              2369.0,
+              1941.0
+            ],
+            [
+              1962.0,
+              1941.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Buren uit Adorp, Beyum, Dorkwerd, Fee terburen uit het Cartularium van Selv Abeke (Noon, Vat. Tot. 1 2 3</td><td style='text-align: center; word-wrap: break-word;'>Femme</td><td style='text-align: center; word-wrap: break-word;'>Noon Vat. tot. 1</td><td style='text-align: center; word-wrap: break-word;'>Aelke (o)</td><td style='text-align: center; word-wrap: break-word;'>Aelka</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelka</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>Aelke</td><td style='text-align: center; word-wrap: break-word;'>A</td></tr></table>\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1243_1065_1874.jpg\" alt=\"Image\" width=\"22%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_391_1243_1065_1874.jpg\" alt=\"Image\" width=\"22%\" />\n\nzuck der Geschenkons\nKranz\nThe quick brown fox jumps over the lazy dog\n\n\n\n</div>\n\n\n</div>\n\n\nCodex Vatic 7260-272102.\n\nautograph. emizen1.XXVII.\n\nwerden: 1.1-207.\n\n363.3748436.468-472.\n\n475-479 em 2.H.\n\nzweigemund.\n\nzeff operation.\n\nGuggenp. p.XXVII.\n\nS. krillisst zu Voltages mit, moen\n\nconigeant zeu\n\nSicard in vermaerd vorm\n\nmeh Uraatstap\n\ndage mit folgend,\n\n1986. v. M.C. grandisop lat 1280\n\nServing on Vergie. Meroid VI.136.\n\nPeru 56/57.\n\nAmta. Lat. 1076.\n\n254-294. tracta du de Gerardo Ega\n\nLoblo Parmenis.\n\n294 f. crus review 1248, 1249.\n\n333-444, - hal 1201 1250.\n\n444-506. 1251-1280. maest will\n\nLíbaos das hamparibens.\n\n1251-1287 maest clíges\n\nmit N. 8 N. Italie\n\n1-29. Gernest gronnders of Second\n\n29-187. 1812. 1247 mit 1000 an over\n\n187-254. 1247. 1298 op zuin rein brach\n\n188. XXIV.\n\nHeimbacher. -\n\nRepetitivo\n\nLector.\n\nof Buchal, i.v. Francure.\n\nmicledimo = 100tall",
+    "images": {
+      "imgs/img_in_image_box_391_1243_1065_1874.jpg": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b0ea45f7-766e-4a5f-9f1c-13a01791a134/markdown_1/imgs/img_in_image_box_391_1243_1065_1874.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A49Z%2F-1%2F%2F7ae8213e3a30bc6eb71529f746d9d17a8aa834b983408887ee0c1c67082e2365",
+      "imgs/img_in_image_box_481_1275_1054_1712.jpg": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b0ea45f7-766e-4a5f-9f1c-13a01791a134/markdown_1/imgs/img_in_image_box_481_1275_1054_1712.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A49Z%2F-1%2F%2Fdc1f9b079150b8f05459672a19cbcef69e9ebf813b467be5b6ab0f11d3d1c12a"
+    }
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b0ea45f7-766e-4a5f-9f1c-13a01791a134/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2Fff67d7c1895a79598004d4d1037898b1c1fcf35f621c1402adf47bb4eb323b7a"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b0ea45f7-766e-4a5f-9f1c-13a01791a134/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2Fa4b063fcaa55a6ec8fbe57a1bb0c5cc3e4bab8a1962d2ccb83433273d9209e8c"
+}

@@ -1,0 +1,288 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Luxures, sieraden, reichwerden, spiegals,\n\nLuier, hooger Eudon, harpen, school,\n\nGorden, koarden en Bovenop endel schuld\n\nLijen - een vanel, koopman Good 22.000g\n\nGulden. - signoria op pui, gezang, trompett\n\nin klokker, cailstloem. - 1498 nogmaals en\n\ntoen 23 mai San. Zelf.",
+        "block_bbox": [
+          2229,
+          984,
+          2955,
+          1164
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2229.0,
+            984.0
+          ],
+          [
+            2955.0,
+            984.0
+          ],
+          [
+            2955.0,
+            1164.0
+          ],
+          [
+            2229.0,
+            1164.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "de ran, was n't hit. Mick, en Lionardo n'iong. - maar het floe quattrocents was uit die verheid u. harms. leven niet weer van wexentief. - al was de ran. bedoewheeft komt later: de holle fraze, het pagemt me en libertinisme, de Garst. - In Flor Zelf Med. lot hooger groot, maar misder glord.",
+        "block_bbox": [
+          2231,
+          1169,
+          2954,
+          1363
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1169.0
+          ],
+          [
+            2954.0,
+            1169.0
+          ],
+          [
+            2954.0,
+            1363.0
+          ],
+          [
+            2231.0,
+            1363.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "oude Michelang. vertolde: Zeļēna Cardins Zangimprovisator Crij instr. muziek, door Lor. bescharm, Zag host na L. Votod dien Salim, een herulooze Zwarta mantel om de naodite lelen, die hem Piero's verban ring vorspelte. en Italie's ongebrue",
+        "block_bbox": [
+          2229,
+          1362,
+          2954,
+          1513
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2229.0,
+            1362.0
+          ],
+          [
+            2954.0,
+            1362.0
+          ],
+          [
+            2954.0,
+            1513.0
+          ],
+          [
+            2229.0,
+            1513.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "him USAGE heengoom: Loz. 43, Gind. 25, Piero 12.34, Leo x 46, Nemours 87, Urbino 27, Gicv. da Oda Bande nara 28 - Pico 32, Ghir. 45, Lippi 47, Pol. 4 (Petrano, het zai, lid zaj om le slapan, wannier wif order de aorde liggen. War Bracal San. es was verniolde his of masel het spadip ordergass?",
+        "block_bbox": [
+          2226,
+          1512,
+          2954,
+          1688
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2226.0,
+            1512.0
+          ],
+          [
+            2954.0,
+            1512.0
+          ],
+          [
+            2954.0,
+            1688.0
+          ],
+          [
+            2226.0,
+            1688.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8283349275588989,
+          "coordinate": [
+            2229,
+            984,
+            2955,
+            1164
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2229.0,
+              984.0
+            ],
+            [
+              2955.0,
+              984.0
+            ],
+            [
+              2955.0,
+              1164.0
+            ],
+            [
+              2229.0,
+              1164.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8419862389564514,
+          "coordinate": [
+            2231,
+            1169,
+            2954,
+            1363
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2231.0,
+              1169.0
+            ],
+            [
+              2954.0,
+              1169.0
+            ],
+            [
+              2954.0,
+              1363.0
+            ],
+            [
+              2231.0,
+              1363.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8222255110740662,
+          "coordinate": [
+            2229,
+            1362,
+            2954,
+            1513
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2229.0,
+              1362.0
+            ],
+            [
+              2954.0,
+              1362.0
+            ],
+            [
+              2954.0,
+              1513.0
+            ],
+            [
+              2229.0,
+              1513.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5785614252090454,
+          "coordinate": [
+            2226,
+            1512,
+            2954,
+            1688
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2226.0,
+              1512.0
+            ],
+            [
+              2954.0,
+              1512.0
+            ],
+            [
+              2954.0,
+              1688.0
+            ],
+            [
+              2226.0,
+              1688.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Luxures, sieraden, reichwerden, spiegals,\n\nLuier, hooger Eudon, harpen, school,\n\nGorden, koarden en Bovenop endel schuld\n\nLijen - een vanel, koopman Good 22.000g\n\nGulden. - signoria op pui, gezang, trompett\n\nin klokker, cailstloem. - 1498 nogmaals en\n\ntoen 23 mai San. Zelf.\n\nde ran, was n't hit. Mick, en Lionardo n'iong. - maar het floe quattrocents was uit die verheid u. harms. leven niet weer van wexentief. - al was de ran. bedoewheeft komt later: de holle fraze, het pagemt me en libertinisme, de Garst. - In Flor Zelf Med. lot hooger groot, maar misder glord.\n\noude Michelang. vertolde: Zeļēna Cardins Zangimprovisator Crij instr. muziek, door Lor. bescharm, Zag host na L. Votod dien Salim, een herulooze Zwarta mantel om de naodite lelen, die hem Piero's verban ring vorspelte. en Italie's ongebrue\n\nhim USAGE heengoom: Loz. 43, Gind. 25, Piero 12.34, Leo x 46, Nemours 87, Urbino 27, Gicv. da Oda Bande nara 28 - Pico 32, Ghir. 45, Lippi 47, Pol. 4 (Petrano, het zai, lid zaj om le slapan, wannier wif order de aorde liggen. War Bracal San. es was verniolde his of masel het spadip ordergass?",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F9ee8c442fd300c183c5ddb0d5255ecce0494c9f97f5c742b0da2aa853cc56f6c"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b4e0da79-c9f4-44db-9312-7eb9c3c50781/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F194e6493e6aa7d3b2ff67b66f6f91f366d477600ba527a20a59aec75ceae5216"
+}

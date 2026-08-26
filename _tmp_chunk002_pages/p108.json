@@ -1,0 +1,468 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "12",
+        "block_bbox": [
+          1518,
+          1036,
+          1582,
+          1066
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1518.0,
+            1036.0
+          ],
+          [
+            1582.0,
+            1036.0
+          ],
+          [
+            1582.0,
+            1066.0
+          ],
+          [
+            1518.0,
+            1066.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "dans ses dernières anubés. A Bailard perséculé et vagabond c'est qui qui prise la pape de Qussi permetté",
+        "block_bbox": [
+          1743,
+          1035,
+          2955,
+          1102
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1743.0,
+            1035.0
+          ],
+          [
+            2955.0,
+            1035.0
+          ],
+          [
+            2955.0,
+            1102.0
+          ],
+          [
+            1743.0,
+            1102.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "qu'Abildard reste à Chumyd's roster, et qui consqu'il peut mort écrivit comme l'elle très à hélsise.",
+        "block_bbox": [
+          1746,
+          1106,
+          2955,
+          1174
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1746.0,
+            1106.0
+          ],
+          [
+            2956.0,
+            1106.0
+          ],
+          [
+            2956.0,
+            1174.0
+          ],
+          [
+            1746.0,
+            1174.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "digna et les touchants guirnon\n\nfait l'effet comme si dans ce\n\ncoeur pur de grand soime les\n\nlait une élincolla de compel-\n\npoule) horsion qu'Côté terrostre des mal\n\nheurs au couple fameux.",
+        "block_bbox": [
+          2205,
+          1167,
+          2954,
+          1359
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2205.0,
+            1167.0
+          ],
+          [
+            2954.0,
+            1167.0
+          ],
+          [
+            2954.0,
+            1359.0
+          ],
+          [
+            2205.0,
+            1359.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "C'est surtout Saint Thomas de Cantorbéry qu'il est permit de classer dans ce groupe de clers gentilishommes. Jean de Sabidourn nous le décrit comme évitant à propos les excellents de l'ascète pour ne paraître hypocrite à nul prix le ne veut pas expéter l'abstience. Le porte des vêtements précieux, il se montre goi, il veut cacher la chevalier de Christ sous le splandeur des habils, a-t-on que la voire gossure ne oi-du caire mûches minua pas le marit. Sa laddre est assez abondante, pour qu'il sait pour les pauvres. Le confame son dehors à ce qu'c'est l'état de lui, tout se restent contrit de cœur dans son interieur. Avec sa vocation ecclésiastique il était",
+        "block_bbox": [
+          2184,
+          1359,
+          2954,
+          2012
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2184.0,
+            1359.0
+          ],
+          [
+            2954.0,
+            1359.0
+          ],
+          [
+            2954.0,
+            2012.0
+          ],
+          [
+            2184.0,
+            2012.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.3434244990348816,
+          "coordinate": [
+            1518,
+            1036,
+            1582,
+            1066
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1518.0,
+              1036.0
+            ],
+            [
+              1582.0,
+              1036.0
+            ],
+            [
+              1582.0,
+              1066.0
+            ],
+            [
+              1518.0,
+              1066.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4233306646347046,
+          "coordinate": [
+            1743,
+            1035,
+            2955,
+            1102
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1743.0,
+              1035.0
+            ],
+            [
+              2955.0,
+              1035.0
+            ],
+            [
+              2955.0,
+              1102.0
+            ],
+            [
+              1743.0,
+              1102.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.32475003600120544,
+          "coordinate": [
+            1746,
+            1106,
+            2955,
+            1174
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1746.0,
+              1106.0
+            ],
+            [
+              2956.0,
+              1106.0
+            ],
+            [
+              2956.0,
+              1174.0
+            ],
+            [
+              1746.0,
+              1174.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.39464429020881653,
+          "coordinate": [
+            2205,
+            1167,
+            2954,
+            1359
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2205.0,
+              1167.0
+            ],
+            [
+              2954.0,
+              1167.0
+            ],
+            [
+              2954.0,
+              1359.0
+            ],
+            [
+              2205.0,
+              1359.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3537886142730713,
+          "coordinate": [
+            2205,
+            1361,
+            2955,
+            1485
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2205.0,
+              1361.0
+            ],
+            [
+              2955.0,
+              1361.0
+            ],
+            [
+              2955.0,
+              1485.0
+            ],
+            [
+              2205.0,
+              1485.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5266520977020264,
+          "coordinate": [
+            2184,
+            1359,
+            2954,
+            2012
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2184.0,
+              1359.0
+            ],
+            [
+              2954.0,
+              1359.0
+            ],
+            [
+              2954.0,
+              2012.0
+            ],
+            [
+              2184.0,
+              2012.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.32961973547935486,
+          "coordinate": [
+            2200,
+            1484,
+            2954,
+            1712
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2200.0,
+              1484.0
+            ],
+            [
+              2954.0,
+              1484.0
+            ],
+            [
+              2954.0,
+              1712.0
+            ],
+            [
+              2200.0,
+              1712.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3352358639240265,
+          "coordinate": [
+            2197,
+            1742,
+            2954,
+            1908
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2197.0,
+              1742.0
+            ],
+            [
+              2954.0,
+              1742.0
+            ],
+            [
+              2954.0,
+              1908.0
+            ],
+            [
+              2197.0,
+              1908.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4504220485687256,
+          "coordinate": [
+            1913,
+            1908,
+            2954,
+            2016
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              1913.0,
+              1908.0
+            ],
+            [
+              2954.0,
+              1908.0
+            ],
+            [
+              2954.0,
+              2016.0
+            ],
+            [
+              1913.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "dans ses dernières anubés. A Bailard perséculé et vagabond c'est qui qui prise la pape de Qussi permetté\n\nqu'Abildard reste à Chumyd's roster, et qui consqu'il peut mort écrivit comme l'elle très à hélsise.\n\ndigna et les touchants guirnon\n\nfait l'effet comme si dans ce\n\ncoeur pur de grand soime les\n\nlait une élincolla de compel-\n\npoule) horsion qu'Côté terrostre des mal\n\nheurs au couple fameux.\n\nC'est surtout Saint Thomas de Cantorbéry qu'il est permit de classer dans ce groupe de clers gentilishommes. Jean de Sabidourn nous le décrit comme évitant à propos les excellents de l'ascète pour ne paraître hypocrite à nul prix le ne veut pas expéter l'abstience. Le porte des vêtements précieux, il se montre goi, il veut cacher la chevalier de Christ sous le splandeur des habils, a-t-on que la voire gossure ne oi-du caire mûches minua pas le marit. Sa laddre est assez abondante, pour qu'il sait pour les pauvres. Le confame son dehors à ce qu'c'est l'état de lui, tout se restent contrit de cœur dans son interieur. Avec sa vocation ecclésiastique il était",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F131a7ff8c0665af19a2388c1ff19a565d1c0a344ea5b73b211b6b68b445f1212"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//98b0ad62-a5bd-4305-aa67-9ffb51d0a400/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fd7d5af6942deceac27dbe5f0e7aa852a8b5ca560cf4cc58313c1be41ee5f5cdf"
+}

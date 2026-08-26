@@ -1,0 +1,349 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "lymologies davanted, et feit ver\n\ncrates liberales de xpert, ou zé\n\ndans \"analytica d'un\" and qu\n\nsignificait \"acquale et l'exim",
+        "block_bbox": [
+          2218,
+          1030,
+          2951,
+          1155
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2218.0,
+            1030.0
+          ],
+          [
+            2951.0,
+            1030.0
+          ],
+          [
+            2951.0,
+            1155.0
+          ],
+          [
+            2218.0,
+            1155.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1V. 371. qui venut die 'locutionem,\n\nMais eu omâma lempes (et en)\n\nPonlawco (certain)\n\nNus qui lui envie des Productions du grec, avec des remorqu",
+        "block_bbox": [
+          2089,
+          1158,
+          2955,
+          1324
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2089.0,
+            1158.0
+          ],
+          [
+            2955.0,
+            1158.0
+          ],
+          [
+            2955.0,
+            1324.0
+          ],
+          [
+            2089.0,
+            1324.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1.269 La signification de 5000 etc.\n\nQuant à Pierre la Véminé, qui lui-même s'appelle modé",
+        "block_bbox": [
+          2094,
+          1375,
+          2955,
+          1471
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2094.0,
+            1375.0
+          ],
+          [
+            2956.0,
+            1375.0
+          ],
+          [
+            2956.0,
+            1471.0
+          ],
+          [
+            2094.0,
+            1471.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1125 Lament homo tantum latimend\n\non soit que c'est à lui qu'endoit\n\nla première lentaliva intollegent\n\nd’acquerir una connaissance\n\nsûra de la religion des Infidoles\n\net qu’au seizième siècle encore\n\nla traduction du Korâm et les\n\nlaisés sur l'Islam, qui furent\n\nla résultat de son zéro formé\n\nla base des études qu'afflaient\n\naprendre lesमناطق المطلوبات du\n\ndix-séptième siècle.",
+        "block_bbox": [
+          2113,
+          1461,
+          2955,
+          1856
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2113.0,
+            1461.0
+          ],
+          [
+            2955.0,
+            1461.0
+          ],
+          [
+            2955.0,
+            1856.0
+          ],
+          [
+            2113.0,
+            1856.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "S-lip 7\n\nPar rapport au style de Jean\n\nde Salisbury la comparaison\n\navec les humanités persit plus\n\nlui l'ont à qui qu'a eux.10 n'a rie\n\nde celle éloquence complète, de",
+        "block_bbox": [
+          2021,
+          1867,
+          2954,
+          2016
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2021.0,
+            1867.0
+          ],
+          [
+            2954.0,
+            1867.0
+          ],
+          [
+            2954.0,
+            2016.0
+          ],
+          [
+            2021.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6207943558692932,
+          "coordinate": [
+            2218,
+            1030,
+            2951,
+            1155
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2218.0,
+              1030.0
+            ],
+            [
+              2951.0,
+              1030.0
+            ],
+            [
+              2951.0,
+              1155.0
+            ],
+            [
+              2218.0,
+              1155.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6051448583602905,
+          "coordinate": [
+            2089,
+            1158,
+            2955,
+            1324
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2089.0,
+              1158.0
+            ],
+            [
+              2955.0,
+              1158.0
+            ],
+            [
+              2955.0,
+              1324.0
+            ],
+            [
+              2089.0,
+              1324.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.43164700269699097,
+          "coordinate": [
+            2094,
+            1375,
+            2955,
+            1471
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2094.0,
+              1375.0
+            ],
+            [
+              2956.0,
+              1375.0
+            ],
+            [
+              2956.0,
+              1471.0
+            ],
+            [
+              2094.0,
+              1471.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5737388134002686,
+          "coordinate": [
+            2113,
+            1461,
+            2955,
+            1856
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2113.0,
+              1461.0
+            ],
+            [
+              2955.0,
+              1461.0
+            ],
+            [
+              2955.0,
+              1856.0
+            ],
+            [
+              2113.0,
+              1856.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6608693599700928,
+          "coordinate": [
+            2021,
+            1867,
+            2954,
+            2016
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2021.0,
+              1867.0
+            ],
+            [
+              2954.0,
+              1867.0
+            ],
+            [
+              2954.0,
+              2016.0
+            ],
+            [
+              2021.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "lymologies davanted, et feit ver\n\ncrates liberales de xpert, ou zé\n\ndans \"analytica d'un\" and qu\n\nsignificait \"acquale et l'exim\n\n1V. 371. qui venut die 'locutionem,\n\nMais eu omâma lempes (et en)\n\nPonlawco (certain)\n\nNus qui lui envie des Productions du grec, avec des remorqu\n\n1.269 La signification de 5000 etc.\n\nQuant à Pierre la Véminé, qui lui-même s'appelle modé\n\n1125 Lament homo tantum latimend\n\non soit que c'est à lui qu'endoit\n\nla première lentaliva intollegent\n\nd’acquerir una connaissance\n\nsûra de la religion des Infidoles\n\net qu’au seizième siècle encore\n\nla traduction du Korâm et les\n\nlaisés sur l'Islam, qui furent\n\nla résultat de son zéro formé\n\nla base des études qu'afflaient\n\naprendre lesमناطق المطلوبات du\n\ndix-séptième siècle.\n\nS-lip 7\n\nPar rapport au style de Jean\n\nde Salisbury la comparaison\n\navec les humanités persit plus\n\nlui l'ont à qui qu'a eux.10 n'a rie\n\nde celle éloquence complète, de",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F5d233a1ff75697ff614e8cd0a1acc00bcee2760acde90c2a914cfebd41437107"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F4784adeb7756ea7e0eb0347dfa4a9d9bf95d2f46a776489a13998b9a8467c99f"
+}

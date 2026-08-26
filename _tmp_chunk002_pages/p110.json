@@ -1,0 +1,465 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "Ce costume des vigiles chevalier\n2esque est bien comme.",
+        "block_bbox": [
+          1505,
+          1404,
+          2174,
+          1464
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1505.0,
+            1404.0
+          ],
+          [
+            2174.0,
+            1404.0
+          ],
+          [
+            2174.0,
+            1464.0
+          ],
+          [
+            1505.0,
+            1464.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "1.227",
+        "block_bbox": [
+          2066,
+          1325,
+          2182,
+          1350
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2066.0,
+            1325.0
+          ],
+          [
+            2182.0,
+            1325.0
+          ],
+          [
+            2182.0,
+            1350.0
+          ],
+          [
+            2066.0,
+            1350.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "cella",
+        "block_bbox": [
+          2104,
+          1096,
+          2206,
+          1115
+        ],
+        "block_id": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2104.0,
+            1096.0
+          ],
+          [
+            2205.0,
+            1096.0
+          ],
+          [
+            2205.0,
+            1114.0
+          ],
+          [
+            2104.0,
+            1114.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "m'est pas clair de quoi il s'agit\n\nlà, mais la passage l'émission de",
+        "block_bbox": [
+          2201,
+          1013,
+          2955,
+          1109
+        ],
+        "block_id": 3,
+        "block_order": 1,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2201.0,
+            1013.0
+          ],
+          [
+            2955.0,
+            1013.0
+          ],
+          [
+            2955.0,
+            1109.0
+          ],
+          [
+            2201.0,
+            1109.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "qui s'accordait si bien avec Lou la nature de Jean de Sal既矣  \n\n10 nous reconnais une autre fois  \n\ncomment Thomas Bechtel a passé  \n\nune nuit en vigiles auprès de  \n\nl'aînéol de Saint Braunin à Sois  \n\nfans, ou se yendant ceux qui cont  \n\ncombaître, parca que le bon évent  \n\nsurveincible). Robert de Melfort,  \n\nà la paix la nuit avant son du  \n\nce avec Henri d'Essex.",
+        "block_bbox": [
+          2200,
+          1101,
+          2953,
+          1476
+        ],
+        "block_id": 4,
+        "block_order": 2,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2200.0,
+            1101.0
+          ],
+          [
+            2953.0,
+            1101.0
+          ],
+          [
+            2953.0,
+            1476.0
+          ],
+          [
+            2200.0,
+            1476.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "La vie ecclésiaしい\n\nnotique au moyen âge a été\n\nbien plus que seulement une forme\n\nde vie purement�igible. Com\n\nma forme sociala e’état decler\n\nge a l'ampli una pouca de fene\n\ntiens lement à la civilisation,\n\nsans déroger par cela à la vo\n\ncation essentielle.",
+        "block_bbox": [
+          2188,
+          1491,
+          2955,
+          1778
+        ],
+        "block_id": 5,
+        "block_order": 3,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2188.0,
+            1491.0
+          ],
+          [
+            2955.0,
+            1491.0
+          ],
+          [
+            2955.0,
+            1778.0
+          ],
+          [
+            2188.0,
+            1778.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "10 serait très important, par exemple, d'étudiers la monastie. Cisme comme spaire d'activité de les conversation intelligeants, étendue devant comme un sujet de sociologie, non pas de l'emment de l'histoire de la peau.",
+        "block_bbox": [
+          2190,
+          1784,
+          2955,
+          2016
+        ],
+        "block_id": 6,
+        "block_order": 4,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2190.0,
+            1784.0
+          ],
+          [
+            2955.0,
+            1784.0
+          ],
+          [
+            2955.0,
+            2016.0
+          ],
+          [
+            2190.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6951088309288025,
+          "coordinate": [
+            1505,
+            1404,
+            2174,
+            1464
+          ],
+          "polygon_points": [
+            [
+              1505.0,
+              1404.0
+            ],
+            [
+              2174.0,
+              1404.0
+            ],
+            [
+              2174.0,
+              1464.0
+            ],
+            [
+              1505.0,
+              1464.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6152588725090027,
+          "coordinate": [
+            2066,
+            1325,
+            2182,
+            1350
+          ],
+          "polygon_points": [
+            [
+              2066.0,
+              1325.0
+            ],
+            [
+              2182.0,
+              1325.0
+            ],
+            [
+              2182.0,
+              1350.0
+            ],
+            [
+              2066.0,
+              1350.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5419800281524658,
+          "coordinate": [
+            2104,
+            1096,
+            2206,
+            1115
+          ],
+          "polygon_points": [
+            [
+              2104.0,
+              1096.0
+            ],
+            [
+              2205.0,
+              1096.0
+            ],
+            [
+              2205.0,
+              1114.0
+            ],
+            [
+              2104.0,
+              1114.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3693450689315796,
+          "coordinate": [
+            2201,
+            1013,
+            2955,
+            1109
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2201.0,
+              1013.0
+            ],
+            [
+              2955.0,
+              1013.0
+            ],
+            [
+              2955.0,
+              1109.0
+            ],
+            [
+              2201.0,
+              1109.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5991821885108948,
+          "coordinate": [
+            2200,
+            1101,
+            2953,
+            1476
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2200.0,
+              1101.0
+            ],
+            [
+              2953.0,
+              1101.0
+            ],
+            [
+              2953.0,
+              1476.0
+            ],
+            [
+              2200.0,
+              1476.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8591272830963135,
+          "coordinate": [
+            2188,
+            1491,
+            2955,
+            1778
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2188.0,
+              1491.0
+            ],
+            [
+              2955.0,
+              1491.0
+            ],
+            [
+              2955.0,
+              1778.0
+            ],
+            [
+              2188.0,
+              1778.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8657188415527344,
+          "coordinate": [
+            2190,
+            1784,
+            2955,
+            2016
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2190.0,
+              1784.0
+            ],
+            [
+              2955.0,
+              1784.0
+            ],
+            [
+              2955.0,
+              2016.0
+            ],
+            [
+              2190.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "m'est pas clair de quoi il s'agit\n\nlà, mais la passage l'émission de\n\nqui s'accordait si bien avec Lou la nature de Jean de Sal既矣  \n\n10 nous reconnais une autre fois  \n\ncomment Thomas Bechtel a passé  \n\nune nuit en vigiles auprès de  \n\nl'aînéol de Saint Braunin à Sois  \n\nfans, ou se yendant ceux qui cont  \n\ncombaître, parca que le bon évent  \n\nsurveincible). Robert de Melfort,  \n\nà la paix la nuit avant son du  \n\nce avec Henri d'Essex.\n\nLa vie ecclésiaしい\n\nnotique au moyen âge a été\n\nbien plus que seulement une forme\n\nde vie purement�igible. Com\n\nma forme sociala e’état decler\n\nge a l'ampli una pouca de fene\n\ntiens lement à la civilisation,\n\nsans déroger par cela à la vo\n\ncation essentielle.\n\n10 serait très important, par exemple, d'étudiers la monastie. Cisme comme spaire d'activité de les conversation intelligeants, étendue devant comme un sujet de sociologie, non pas de l'emment de l'histoire de la peau.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c1114529-204b-4584-903f-fd138c8499cb/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F6c18546d0b56544defa2753c8fb70ccc7b64a3ffb643ef71381762c4098dbe13"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c1114529-204b-4584-903f-fd138c8499cb/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2Fb526bf4214546b6ab4490643efda947d74382f8ee8dc8f72b29596b996a1fb43"
+}

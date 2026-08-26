@@ -1,0 +1,282 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "no issue to place",
+        "block_bbox": [
+          1774,
+          1200,
+          2225,
+          1225
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1774.0,
+            1200.0
+          ],
+          [
+            2225.0,
+            1200.0
+          ],
+          [
+            2225.0,
+            1225.0
+          ],
+          [
+            1774.0,
+            1225.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "la villa bien commu\ncu sud de l'Angleterre",
+        "block_bbox": [
+          1539,
+          1311,
+          2039,
+          1361
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1539.0,
+            1311.0
+          ],
+          [
+            2039.0,
+            1311.0
+          ],
+          [
+            2039.0,
+            1361.0
+          ],
+          [
+            1539.0,
+            1361.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "all",
+        "block_bbox": [
+          2110,
+          1802,
+          2202,
+          1825
+        ],
+        "block_id": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2110.0,
+            1802.0
+          ],
+          [
+            2201.0,
+            1802.0
+          ],
+          [
+            2201.0,
+            1824.0
+          ],
+          [
+            2110.0,
+            1824.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "I don't like the water in the land. I don't like the water in the land. I don't",
+        "block_bbox": [
+          2219,
+          1035,
+          2954,
+          2015
+        ],
+        "block_id": 3,
+        "block_order": 1,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2219.0,
+            1035.0
+          ],
+          [
+            2954.0,
+            1035.0
+          ],
+          [
+            2954.0,
+            2015.0
+          ],
+          [
+            2219.0,
+            2015.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6516978740692139,
+          "coordinate": [
+            1774,
+            1200,
+            2225,
+            1225
+          ],
+          "polygon_points": [
+            [
+              1774.0,
+              1200.0
+            ],
+            [
+              2225.0,
+              1200.0
+            ],
+            [
+              2225.0,
+              1225.0
+            ],
+            [
+              1774.0,
+              1225.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.7186611294746399,
+          "coordinate": [
+            1539,
+            1311,
+            2039,
+            1361
+          ],
+          "polygon_points": [
+            [
+              1539.0,
+              1311.0
+            ],
+            [
+              2039.0,
+              1311.0
+            ],
+            [
+              2039.0,
+              1361.0
+            ],
+            [
+              1539.0,
+              1361.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6120243072509766,
+          "coordinate": [
+            2110,
+            1802,
+            2202,
+            1825
+          ],
+          "polygon_points": [
+            [
+              2110.0,
+              1802.0
+            ],
+            [
+              2201.0,
+              1802.0
+            ],
+            [
+              2201.0,
+              1824.0
+            ],
+            [
+              2110.0,
+              1824.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8837233781814575,
+          "coordinate": [
+            2219,
+            1035,
+            2954,
+            2015
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2219.0,
+              1035.0
+            ],
+            [
+              2954.0,
+              1035.0
+            ],
+            [
+              2954.0,
+              2015.0
+            ],
+            [
+              2219.0,
+              2015.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "I don't like the water in the land. I don't like the water in the land. I don't",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//d6fa7acf-a0d2-40c8-8298-d15fd37d6fd6/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A51Z%2F-1%2F%2F58dde994f016a32de702193d3fcc4e5f7021540e5887daefb5dc6e527ad859e9"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//d6fa7acf-a0d2-40c8-8298-d15fd37d6fd6/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A52Z%2F-1%2F%2Fadc79999ef2d126eccfa384787400643d388225eb2bd23920aa7d7e1b17c2e41"
+}

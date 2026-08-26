@@ -1,0 +1,410 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Em parlant d'Abailard j'ai en visage, mes figures prégothiques survols principalement du côté intollicent (essayer plus ou moinduel : j'ai tâche de classer /cm)",
+        "block_bbox": [
+          1736,
+          1098,
+          2709,
+          1238
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1736.0,
+            1098.0
+          ],
+          [
+            2709.0,
+            1098.0
+          ],
+          [
+            2709.0,
+            1238.0
+          ],
+          [
+            1736.0,
+            1238.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "forma que prenoit sa vie de pai.\n\nlosopão, En\n\nerrant.",
+        "block_bbox": [
+          1193,
+          1240,
+          1899,
+          1329
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1193.0,
+            1240.0
+          ],
+          [
+            1899.0,
+            1240.0
+          ],
+          [
+            1899.0,
+            1329.0
+          ],
+          [
+            1193.0,
+            1329.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "portant de Jean de Salisbury j'ai\n\nétienné à l'insistisseur de côté mo-\n\n200 : j'ai décrit son caractère, de\n\nPersonnalité, avec dans la métaux\n\nde son siècle.",
+        "block_bbox": [
+          1893,
+          1235,
+          2672,
+          1406
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1893.0,
+            1235.0
+          ],
+          [
+            2672.0,
+            1235.0
+          ],
+          [
+            2672.0,
+            1406.0
+          ],
+          [
+            1893.0,
+            1406.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Adeiré de Lillo, ma servira pour\n\ndévelopper quelques vues sur la\n\ncélé stratetique de la�cirélisat\n\ntice du XIIe siècle ; je parlerai\n\navant tout ser en impéristion,\n\ndes la fantaisie, c'est à dire\n\nque je m'occuperai du pâte, et\n\nnon pas ou très peu du pâte.\n\nJoplie et l'hologien.",
+        "block_bbox": [
+          1865,
+          1445,
+          2605,
+          1698
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1865.0,
+            1445.0
+          ],
+          [
+            2605.0,
+            1445.0
+          ],
+          [
+            2605.0,
+            1698.0
+          ],
+          [
+            1865.0,
+            1698.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Mais est il encore proglothique,\n\nAloin de Lille². On lui trouve tout\n\nde traits qui nous font penser aux\n\népoues plus récentes qu'en a été\n\nla peine. À de préférence\n\nqu'il s'agit de un esprit aux fils\n\ndes Ehrn bien nous verrons à il y\n\na lieu de la romper parmi les\n\nprégolothiques.",
+        "block_bbox": [
+          1852,
+          1701,
+          2565,
+          1953
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1852.0,
+            1701.0
+          ],
+          [
+            2565.0,
+            1701.0
+          ],
+          [
+            2565.0,
+            1953.0
+          ],
+          [
+            1852.0,
+            1953.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Quant à la vie et de personne,\n\nOn est dit encore moins que de",
+        "block_bbox": [
+          1849,
+          1954,
+          2548,
+          2010
+        ],
+        "block_id": 5,
+        "block_order": 6,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1849.0,
+            1954.0
+          ],
+          [
+            2548.0,
+            1954.0
+          ],
+          [
+            2548.0,
+            2010.0
+          ],
+          [
+            1849.0,
+            2010.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4515831172466278,
+          "coordinate": [
+            1736,
+            1098,
+            2709,
+            1238
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1736.0,
+              1098.0
+            ],
+            [
+              2709.0,
+              1098.0
+            ],
+            [
+              2709.0,
+              1238.0
+            ],
+            [
+              1736.0,
+              1238.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.48696357011795044,
+          "coordinate": [
+            1193,
+            1240,
+            1899,
+            1329
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1193.0,
+              1240.0
+            ],
+            [
+              1899.0,
+              1240.0
+            ],
+            [
+              1899.0,
+              1329.0
+            ],
+            [
+              1193.0,
+              1329.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.47224244475364685,
+          "coordinate": [
+            1893,
+            1235,
+            2672,
+            1406
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1893.0,
+              1235.0
+            ],
+            [
+              2672.0,
+              1235.0
+            ],
+            [
+              2672.0,
+              1406.0
+            ],
+            [
+              1893.0,
+              1406.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.594090461730957,
+          "coordinate": [
+            1865,
+            1445,
+            2605,
+            1698
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1865.0,
+              1445.0
+            ],
+            [
+              2605.0,
+              1445.0
+            ],
+            [
+              2605.0,
+              1698.0
+            ],
+            [
+              1865.0,
+              1698.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8186594247817993,
+          "coordinate": [
+            1852,
+            1701,
+            2565,
+            1953
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1852.0,
+              1701.0
+            ],
+            [
+              2565.0,
+              1701.0
+            ],
+            [
+              2565.0,
+              1953.0
+            ],
+            [
+              1852.0,
+              1953.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6011662483215332,
+          "coordinate": [
+            1849,
+            1954,
+            2548,
+            2010
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1849.0,
+              1954.0
+            ],
+            [
+              2548.0,
+              1954.0
+            ],
+            [
+              2548.0,
+              2010.0
+            ],
+            [
+              1849.0,
+              2010.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Em parlant d'Abailard j'ai en visage, mes figures prégothiques survols principalement du côté intollicent (essayer plus ou moinduel : j'ai tâche de classer /cm)\n\nforma que prenoit sa vie de pai.\n\nlosopão, En\n\nerrant.\n\nportant de Jean de Salisbury j'ai\n\nétienné à l'insistisseur de côté mo-\n\n200 : j'ai décrit son caractère, de\n\nPersonnalité, avec dans la métaux\n\nde son siècle.\n\nAdeiré de Lillo, ma servira pour\n\ndévelopper quelques vues sur la\n\ncélé stratetique de la�cirélisat\n\ntice du XIIe siècle ; je parlerai\n\navant tout ser en impéristion,\n\ndes la fantaisie, c'est à dire\n\nque je m'occuperai du pâte, et\n\nnon pas ou très peu du pâte.\n\nJoplie et l'hologien.\n\nMais est il encore proglothique,\n\nAloin de Lille². On lui trouve tout\n\nde traits qui nous font penser aux\n\népoues plus récentes qu'en a été\n\nla peine. À de préférence\n\nqu'il s'agit de un esprit aux fils\n\ndes Ehrn bien nous verrons à il y\n\na lieu de la romper parmi les\n\nprégolothiques.\n\nQuant à la vie et de personne,\n\nOn est dit encore moins que de",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A42Z%2F-1%2F%2Ffff7d095e02e5e954b307666b186b4a9aee637501c528485fea191c7cc737702"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//ff53bd71-b692-4db5-8452-436ea920f867/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A43Z%2F-1%2F%2F3bcd6a0a0dc51e8acd36bda60c744ba5b028913b9b8a88ad16a5a055edb8203a"
+}

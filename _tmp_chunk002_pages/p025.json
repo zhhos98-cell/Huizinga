@@ -1,0 +1,408 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "de Belzerki v. Flor. in de gesch. v. Bosch. v. Kurst. waarom niet: de Flor. romais: omz. er tipp. zum. los la makar uit de gesch. v. F. want of de zem. beginst absurd insop. of er te een verhaende gramstijn midder in de ontu",
+        "block_bbox": [
+          2214,
+          1024,
+          2955,
+          1146
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2214.0,
+            1024.0
+          ],
+          [
+            2955.0,
+            1024.0
+          ],
+          [
+            2955.0,
+            1146.0
+          ],
+          [
+            2214.0,
+            1146.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Fl. wereldstad, omnisbaar voor de wereld\n\nals Althene en Parijs, iels eigen gewenels.",
+        "block_bbox": [
+          2217,
+          1144,
+          2952,
+          1186
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2217.0,
+            1144.0
+          ],
+          [
+            2952.0,
+            1144.0
+          ],
+          [
+            2952.0,
+            1186.0
+          ],
+          [
+            2217.0,
+            1186.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Waarden also? - voor Italie in het a.g. ze aardad factoen aan te wijzen: die vele stངات líquas centres. die zelfgenoemde u.d.it stadtloot het zwakker dooverte u.d.feo dat-leit, de landjka, der Bild, het meerdra. Contact liische die stondens, Zoouel clar. loser als odel & burgert. Hoogera ontw. de leken - minster doverwiding der scholen lieb, die druk v. Parijs entlo. - ondraden va sterke bestenmac. en: de rom. traditie als men wil, de carrobling met Buyz zu brak meer waaron in Italie Tosc. een 250 Bijz Pleals² feed, daar zwabben nog de others³.\n\nenz. - Thode 64: gelubk. vernering v.d. artis begaafde Ehrusk. met 'dem jungen, plantas holden germanium³. de taal het zuivert lot. c. 1300 zegl een Paolaan: lingua lucca met apla est ad literum stis literaturum waarom in Tosc. weer Flot.² de oude hoofd stad v.h. marugraessd. was Lucca met heel oude wol- en Zij-industrie. Fl. na rom. lijd in poin (Armslib over om. muurretten 8% V.246) - omstandigh. niet 250 gunstig: nie as ze, macaligen zondom, ook niet door Vucalbaards. - nogc. 1250 heeten de Fl. over ze Pisamen, voeren op pis schapen. VildaniVI 63",
+        "block_bbox": [
+          2207,
+          1180,
+          2955,
+          1759
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2207.0,
+            1180.0
+          ],
+          [
+            2955.0,
+            1180.0
+          ],
+          [
+            2955.0,
+            1759.0
+          ],
+          [
+            2207.0,
+            1759.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ontu.v. Flor las de ophomot star Mastic.\n\ncon Closeige gesch. - de procaliga Blos.\n\nniot embog in placide beschouvel. maste.\n\npartijstijot en hebben. niot alled gratie\n\nen licalo levensinangda, het grize, strak\n\nke Flor. - ni nog ils eren van het stijdba\n\nte aspect: de balozzi. Pal. della sigmaria\n\n(lacalia). warom zoo hoog? Pal. det podosta\n\n(Bargello). Pitti, Stoszi. Leuwige Burgar\n\ntwist. de torrent der edelom.",
+        "block_bbox": [
+          2214,
+          1775,
+          2954,
+          2008
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2214.0,
+            1775.0
+          ],
+          [
+            2954.0,
+            1775.0
+          ],
+          [
+            2954.0,
+            2008.0
+          ],
+          [
+            2214.0,
+            2008.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5676543712615967,
+          "coordinate": [
+            2214,
+            1024,
+            2955,
+            1146
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2214.0,
+              1024.0
+            ],
+            [
+              2955.0,
+              1024.0
+            ],
+            [
+              2955.0,
+              1146.0
+            ],
+            [
+              2214.0,
+              1146.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4129904806613922,
+          "coordinate": [
+            2217,
+            1144,
+            2952,
+            1186
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2217.0,
+              1144.0
+            ],
+            [
+              2952.0,
+              1144.0
+            ],
+            [
+              2952.0,
+              1186.0
+            ],
+            [
+              2217.0,
+              1186.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.38471922278404236,
+          "coordinate": [
+            2215,
+            1182,
+            2954,
+            1433
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2215.0,
+              1182.0
+            ],
+            [
+              2954.0,
+              1182.0
+            ],
+            [
+              2954.0,
+              1433.0
+            ],
+            [
+              2215.0,
+              1433.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5114585161209106,
+          "coordinate": [
+            2207,
+            1180,
+            2955,
+            1759
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2207.0,
+              1180.0
+            ],
+            [
+              2955.0,
+              1180.0
+            ],
+            [
+              2955.0,
+              1759.0
+            ],
+            [
+              2207.0,
+              1759.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.33127278089523315,
+          "coordinate": [
+            2216,
+            1434,
+            2955,
+            1588
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2216.0,
+              1434.0
+            ],
+            [
+              2955.0,
+              1434.0
+            ],
+            [
+              2955.0,
+              1588.0
+            ],
+            [
+              2216.0,
+              1588.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3220599591732025,
+          "coordinate": [
+            2210,
+            1434,
+            2953,
+            1760
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2210.0,
+              1434.0
+            ],
+            [
+              2953.0,
+              1434.0
+            ],
+            [
+              2953.0,
+              1760.0
+            ],
+            [
+              2210.0,
+              1760.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3306914269924164,
+          "coordinate": [
+            2212,
+            1582,
+            2953,
+            1757
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2212.0,
+              1582.0
+            ],
+            [
+              2953.0,
+              1582.0
+            ],
+            [
+              2953.0,
+              1757.0
+            ],
+            [
+              2212.0,
+              1757.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8105902671813965,
+          "coordinate": [
+            2214,
+            1775,
+            2954,
+            2008
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2214.0,
+              1775.0
+            ],
+            [
+              2954.0,
+              1775.0
+            ],
+            [
+              2954.0,
+              2008.0
+            ],
+            [
+              2214.0,
+              2008.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "de Belzerki v. Flor. in de gesch. v. Bosch. v. Kurst. waarom niet: de Flor. romais: omz. er tipp. zum. los la makar uit de gesch. v. F. want of de zem. beginst absurd insop. of er te een verhaende gramstijn midder in de ontu\n\nFl. wereldstad, omnisbaar voor de wereld\n\nals Althene en Parijs, iels eigen gewenels.\n\nWaarden also? - voor Italie in het a.g. ze aardad factoen aan te wijzen: die vele stངات líquas centres. die zelfgenoemde u.d.it stadtloot het zwakker dooverte u.d.feo dat-leit, de landjka, der Bild, het meerdra. Contact liische die stondens, Zoouel clar. loser als odel & burgert. Hoogera ontw. de leken - minster doverwiding der scholen lieb, die druk v. Parijs entlo. - ondraden va sterke bestenmac. en: de rom. traditie als men wil, de carrobling met Buyz zu brak meer waaron in Italie Tosc. een 250 Bijz Pleals² feed, daar zwabben nog de others³.\n\nenz. - Thode 64: gelubk. vernering v.d. artis begaafde Ehrusk. met 'dem jungen, plantas holden germanium³. de taal het zuivert lot. c. 1300 zegl een Paolaan: lingua lucca met apla est ad literum stis literaturum waarom in Tosc. weer Flot.² de oude hoofd stad v.h. marugraessd. was Lucca met heel oude wol- en Zij-industrie. Fl. na rom. lijd in poin (Armslib over om. muurretten 8% V.246) - omstandigh. niet 250 gunstig: nie as ze, macaligen zondom, ook niet door Vucalbaards. - nogc. 1250 heeten de Fl. over ze Pisamen, voeren op pis schapen. VildaniVI 63\n\nontu.v. Flor las de ophomot star Mastic.\n\ncon Closeige gesch. - de procaliga Blos.\n\nniot embog in placide beschouvel. maste.\n\npartijstijot en hebben. niot alled gratie\n\nen licalo levensinangda, het grize, strak\n\nke Flor. - ni nog ils eren van het stijdba\n\nte aspect: de balozzi. Pal. della sigmaria\n\n(lacalia). warom zoo hoog? Pal. det podosta\n\n(Bargello). Pitti, Stoszi. Leuwige Burgar\n\ntwist. de torrent der edelom.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4ac50bd5-c0f9-4404-83b1-6a42b46ea373/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A57%3A11Z%2F-1%2F%2Fb5c7d0bfe8f5cc013fc58fb91998d8f09d6f5f80ea22f970b652a4b4a50da70c"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//4ac50bd5-c0f9-4404-83b1-6a42b46ea373/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A57%3A11Z%2F-1%2F%2Ff69aca6470e9fc765e9a7f709c6126f34e9b6c26d4589dc0ebc53996eb4af983"
+}

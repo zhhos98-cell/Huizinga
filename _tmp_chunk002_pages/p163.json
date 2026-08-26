@@ -1,0 +1,952 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "SECIL THETEORD NORGEOIL K ILK",
+        "block_bbox": [
+          1270,
+          0,
+          1500,
+          14
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1270.0,
+            0.0
+          ],
+          [
+            1499.0,
+            0.0
+          ],
+          [
+            1499.0,
+            13.0
+          ],
+          [
+            1270.0,
+            13.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "reclase moment.",
+        "block_bbox": [
+          415,
+          208,
+          794,
+          229
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            415.0000305175781,
+            208.0
+          ],
+          [
+            793.0,
+            208.0
+          ],
+          [
+            793.0,
+            228.0
+          ],
+          [
+            415.0000305175781,
+            228.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Nox ociansole nctland, development",
+        "block_bbox": [
+          402,
+          234,
+          1100,
+          292
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            402.0,
+            234.0
+          ],
+          [
+            1100.0,
+            234.0
+          ],
+          [
+            1100.0,
+            292.0
+          ],
+          [
+            402.0,
+            292.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Spirits� esetam getelons, calomnied",
+        "block_bbox": [
+          402,
+          293,
+          1115,
+          339
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            402.0,
+            293.0
+          ],
+          [
+            1115.0,
+            293.0
+          ],
+          [
+            1115.0,
+            339.0
+          ],
+          [
+            402.0,
+            339.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Claro, Convent\n\nFille, develop & co-produce, and",
+        "block_bbox": [
+          395,
+          344,
+          1117,
+          413
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            395.0,
+            344.0
+          ],
+          [
+            1117.0,
+            344.0
+          ],
+          [
+            1117.0,
+            413.0
+          ],
+          [
+            395.0,
+            413.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "scriba weaverton\n\nles lescomans, relicens scipioris",
+        "block_bbox": [
+          403,
+          421,
+          1118,
+          471
+        ],
+        "block_id": 5,
+        "block_order": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            403.0,
+            421.0
+          ],
+          [
+            1118.0,
+            421.0
+          ],
+          [
+            1118.0,
+            471.0
+          ],
+          [
+            403.0,
+            471.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Commission he乡",
+        "block_bbox": [
+          405,
+          476,
+          1122,
+          513
+        ],
+        "block_id": 6,
+        "block_order": 6,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            405.0,
+            476.0
+          ],
+          [
+            1122.0,
+            476.0
+          ],
+          [
+            1122.0,
+            513.0
+          ],
+          [
+            405.0,
+            513.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "3",
+        "block_bbox": [
+          1146,
+          256,
+          1171,
+          289
+        ],
+        "block_id": 7,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            1146.0,
+            256.0
+          ],
+          [
+            1170.0,
+            256.0
+          ],
+          [
+            1170.0,
+            288.0
+          ],
+          [
+            1146.0,
+            288.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Verbo 800i, leidenque locumn",
+        "block_bbox": [
+          413,
+          512,
+          1123,
+          564
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            413.0,
+            512.0
+          ],
+          [
+            1123.0,
+            512.0
+          ],
+          [
+            1123.0,
+            564.0
+          ],
+          [
+            413.0,
+            564.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Muse lumi, verb isque poetic parisian",
+        "block_bbox": [
+          420,
+          564,
+          1124,
+          612
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            420.0,
+            564.0
+          ],
+          [
+            1124.0,
+            564.0
+          ],
+          [
+            1124.0,
+            612.0
+          ],
+          [
+            420.0,
+            612.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Propelota.\n\nCelestei musca larenus cecet",
+        "block_bbox": [
+          423,
+          613,
+          1125,
+          668
+        ],
+        "block_id": 10,
+        "block_order": 9,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            423.0,
+            613.0
+          ],
+          [
+            1125.0,
+            613.0
+          ],
+          [
+            1125.0,
+            668.0
+          ],
+          [
+            423.0,
+            668.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Articed. M. 210.534.\n\nHactensd insonuit cennui mea\n\nMeda subiando\n\n... Mojic our nune lanto cagrano,\n\nLolaemojca poetom\n\nDepoeneu usurpo midi roco vanda",
+        "block_bbox": [
+          408,
+          672,
+          1129,
+          843
+        ],
+        "block_id": 11,
+        "block_order": 10,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            408.0,
+            672.0
+          ],
+          [
+            1129.0,
+            672.0
+          ],
+          [
+            1129.0,
+            843.0
+          ],
+          [
+            408.0,
+            843.0
+          ]
+        ]
+      },
+      {
+        "block_label": "number",
+        "block_content": "to be",
+        "block_bbox": [
+          1426,
+          944,
+          1509,
+          975
+        ],
+        "block_id": 12,
+        "group_id": 12,
+        "block_polygon_points": [
+          [
+            1426.0,
+            944.0
+          ],
+          [
+            1509.0,
+            944.0
+          ],
+          [
+            1509.0,
+            975.0
+          ],
+          [
+            1426.0,
+            975.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.4337475299835205,
+          "coordinate": [
+            1270,
+            0,
+            1500,
+            14
+          ],
+          "polygon_points": [
+            [
+              1270.0,
+              0.0
+            ],
+            [
+              1499.0,
+              0.0
+            ],
+            [
+              1499.0,
+              13.0
+            ],
+            [
+              1270.0,
+              13.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3756147623062134,
+          "coordinate": [
+            415,
+            208,
+            794,
+            229
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              415.0000305175781,
+              208.0
+            ],
+            [
+              793.0,
+              208.0
+            ],
+            [
+              793.0,
+              228.0
+            ],
+            [
+              415.0000305175781,
+              228.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4297094941139221,
+          "coordinate": [
+            402,
+            234,
+            1100,
+            292
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              402.0,
+              234.0
+            ],
+            [
+              1100.0,
+              234.0
+            ],
+            [
+              1100.0,
+              292.0
+            ],
+            [
+              402.0,
+              292.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3605875074863434,
+          "coordinate": [
+            402,
+            293,
+            1115,
+            339
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              402.0,
+              293.0
+            ],
+            [
+              1115.0,
+              293.0
+            ],
+            [
+              1115.0,
+              339.0
+            ],
+            [
+              402.0,
+              339.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4496493935585022,
+          "coordinate": [
+            395,
+            344,
+            1117,
+            413
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              395.0,
+              344.0
+            ],
+            [
+              1117.0,
+              344.0
+            ],
+            [
+              1117.0,
+              413.0
+            ],
+            [
+              395.0,
+              413.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5519438982009888,
+          "coordinate": [
+            403,
+            421,
+            1118,
+            471
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              403.0,
+              421.0
+            ],
+            [
+              1118.0,
+              421.0
+            ],
+            [
+              1118.0,
+              471.0
+            ],
+            [
+              403.0,
+              471.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4044559895992279,
+          "coordinate": [
+            405,
+            476,
+            1122,
+            513
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              405.0,
+              476.0
+            ],
+            [
+              1122.0,
+              476.0
+            ],
+            [
+              1122.0,
+              513.0
+            ],
+            [
+              405.0,
+              513.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3023238480091095,
+          "coordinate": [
+            1146,
+            256,
+            1171,
+            289
+          ],
+          "polygon_points": [
+            [
+              1146.0,
+              256.0
+            ],
+            [
+              1170.0,
+              256.0
+            ],
+            [
+              1170.0,
+              288.0
+            ],
+            [
+              1146.0,
+              288.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4443487226963043,
+          "coordinate": [
+            413,
+            512,
+            1123,
+            564
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              413.0,
+              512.0
+            ],
+            [
+              1123.0,
+              512.0
+            ],
+            [
+              1123.0,
+              564.0
+            ],
+            [
+              413.0,
+              564.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5288442373275757,
+          "coordinate": [
+            420,
+            564,
+            1124,
+            612
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              420.0,
+              564.0
+            ],
+            [
+              1124.0,
+              564.0
+            ],
+            [
+              1124.0,
+              612.0
+            ],
+            [
+              420.0,
+              612.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5794951915740967,
+          "coordinate": [
+            423,
+            613,
+            1125,
+            668
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              423.0,
+              613.0
+            ],
+            [
+              1125.0,
+              613.0
+            ],
+            [
+              1125.0,
+              668.0
+            ],
+            [
+              423.0,
+              668.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.38343700766563416,
+          "coordinate": [
+            403,
+            670,
+            1126,
+            727
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              403.0,
+              670.0
+            ],
+            [
+              1126.0,
+              670.0
+            ],
+            [
+              1126.0,
+              727.0
+            ],
+            [
+              403.0,
+              727.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.35846173763275146,
+          "coordinate": [
+            408,
+            672,
+            1129,
+            843
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              408.0,
+              672.0
+            ],
+            [
+              1129.0,
+              672.0
+            ],
+            [
+              1129.0,
+              843.0
+            ],
+            [
+              408.0,
+              843.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3538071811199188,
+          "coordinate": [
+            425,
+            721,
+            1120,
+            777
+          ],
+          "order": 12,
+          "polygon_points": [
+            [
+              425.0,
+              721.0
+            ],
+            [
+              1120.0,
+              721.0
+            ],
+            [
+              1120.0,
+              777.0
+            ],
+            [
+              425.0,
+              777.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.37171638011932373,
+          "coordinate": [
+            460,
+            781,
+            1124,
+            845
+          ],
+          "order": 13,
+          "polygon_points": [
+            [
+              460.0,
+              781.0
+            ],
+            [
+              1124.0,
+              781.0
+            ],
+            [
+              1124.0,
+              845.0
+            ],
+            [
+              460.0,
+              845.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 15,
+          "label": "inline_formula",
+          "score": 0.32003578543663025,
+          "coordinate": [
+            503,
+            814,
+            539,
+            845
+          ],
+          "order": 14,
+          "polygon_points": [
+            [
+              503.0,
+              814.0
+            ],
+            [
+              503.0,
+              844.0
+            ],
+            [
+              538.0,
+              844.0
+            ],
+            [
+              538.0,
+              814.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.3414912521839142,
+          "coordinate": [
+            1426,
+            944,
+            1509,
+            975
+          ],
+          "order": 15,
+          "polygon_points": [
+            [
+              1426.0,
+              944.0
+            ],
+            [
+              1509.0,
+              944.0
+            ],
+            [
+              1509.0,
+              975.0
+            ],
+            [
+              1426.0,
+              975.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 180
+    }
+  },
+  "markdown": {
+    "text": "reclase moment.\n\nNox ociansole nctland, development\n\nSpirits� esetam getelons, calomnied\n\nClaro, Convent\n\nFille, develop & co-produce, and\n\nscriba weaverton\n\nles lescomans, relicens scipioris\n\nCommission he乡\n\nVerbo 800i, leidenque locumn\n\nMuse lumi, verb isque poetic parisian\n\nPropelota.\n\nCelestei musca larenus cecet\n\nArticed. M. 210.534.\n\nHactensd insonuit cennui mea\n\nMeda subiando\n\n... Mojic our nune lanto cagrano,\n\nLolaemojca poetom\n\nDepoeneu usurpo midi roco vanda",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//41584da4-7b50-4b6b-892d-7abd0b1c307a/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A42Z%2F-1%2F%2Fcfcde2ef6b111319d70254bce544c6f8ba4cd0b82fd8755208d3fae94b66906b"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//41584da4-7b50-4b6b-892d-7abd0b1c307a/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A42Z%2F-1%2F%2Fc417c0483cfc14a0ad69ee56af5c20691f2baef27bc69817bb4e31ff14564119"
+}

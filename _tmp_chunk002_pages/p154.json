@@ -1,0 +1,524 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "513",
+        "block_bbox": [
+          2122,
+          1472,
+          2175,
+          1497
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2122.0,
+            1472.0
+          ],
+          [
+            2174.0,
+            1472.0
+          ],
+          [
+            2174.0,
+            1496.0
+          ],
+          [
+            2122.0,
+            1496.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "Des tournes\ncomme \"Sider\n555",
+        "block_bbox": [
+          1910,
+          1296,
+          2198,
+          1347
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1910.0,
+            1296.0
+          ],
+          [
+            2183.0,
+            1296.0
+          ],
+          [
+            2183.0,
+            1346.0
+          ],
+          [
+            1910.0,
+            1346.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "447",
+        "block_bbox": [
+          2121,
+          1913,
+          2193,
+          1942
+        ],
+        "block_id": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2121.0,
+            1913.0
+          ],
+          [
+            2193.0,
+            1913.0
+          ],
+          [
+            2193.0,
+            1942.0
+          ],
+          [
+            2121.0,
+            1942.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "55\\div7",
+        "block_bbox": [
+          2097,
+          1166,
+          2201,
+          1187
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2097.0,
+            1166.0
+          ],
+          [
+            2200.0,
+            1166.0
+          ],
+          [
+            2200.0,
+            1186.0
+          ],
+          [
+            2097.0,
+            1186.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Parole par la splandeur des couleurs, Virgile aussi colorat\". Beaucoup de passages de son, Au lichard, l'étiquette \"littéralement si poudre amie verbale.",
+        "block_bbox": [
+          2215,
+          1015,
+          2953,
+          1165
+        ],
+        "block_id": 4,
+        "block_order": 1,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2215.0,
+            1015.0
+          ],
+          [
+            2953.0,
+            1015.0
+          ],
+          [
+            2953.0,
+            1165.0
+          ],
+          [
+            2215.0,
+            1165.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "\"On a low flowers was couldard,\n\nfor lesquelles les mots crident\n\nétaيلs, et la parola zavé la\n\nbeurte et la phrase 20splande\n\nd'une lumière abondante.\"\n\nverbi\" in vario prosignit verbo\n\ncoloro\" sout stos expressant cou\n\ntambes pocos lui.",
+        "block_bbox": [
+          2206,
+          1167,
+          2953,
+          1410
+        ],
+        "block_id": 5,
+        "block_order": 2,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2206.0,
+            1167.0
+          ],
+          [
+            2953.0,
+            1167.0
+          ],
+          [
+            2953.0,
+            1410.0
+          ],
+          [
+            2206.0,
+            1410.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Certainly pages form I'd affect d'un vitrait point, par exemple collait de le long les auleurs classiques, l'idic Sidonius trobatus sormo 2refulgans/sidora multiplici splan des, gemmisque colorum/lucat, et in dictis depictus paro resultat C'est bien digna de l'ancien Siolaine Apollimaire qui lui m'aurait parlé des verboreum vislist versicolozibus\"dont il amait le bord.",
+        "block_bbox": [
+          2195,
+          1413,
+          2954,
+          1778
+        ],
+        "block_id": 6,
+        "block_order": 3,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2195.0,
+            1413.0
+          ],
+          [
+            2954.0,
+            1413.0
+          ],
+          [
+            2954.0,
+            1778.0
+          ],
+          [
+            2195.0,
+            1778.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Escoles encore ce bout de poème\n\n(dans un métradHéorcé, et n'est\n\nmoins que ce docteur Alain fut\n\nun poêle : c'est lire des Verba Alani\n\nad natureux, qui mériteraient\n\nd'être célébré tout complète. Toi, Na-\n\nture, dit-il :",
+        "block_bbox": [
+          2209,
+          1784,
+          2952,
+          1997
+        ],
+        "block_id": 7,
+        "block_order": 4,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2209.0,
+            1784.0
+          ],
+          [
+            2952.0,
+            1784.0
+          ],
+          [
+            2952.0,
+            1997.0
+          ],
+          [
+            2209.0,
+            1997.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6632557511329651,
+          "coordinate": [
+            2122,
+            1472,
+            2175,
+            1497
+          ],
+          "polygon_points": [
+            [
+              2122.0,
+              1472.0
+            ],
+            [
+              2174.0,
+              1472.0
+            ],
+            [
+              2174.0,
+              1496.0
+            ],
+            [
+              2122.0,
+              1496.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.7409160137176514,
+          "coordinate": [
+            1910,
+            1296,
+            2198,
+            1347
+          ],
+          "polygon_points": [
+            [
+              1910.0,
+              1296.0
+            ],
+            [
+              2183.0,
+              1296.0
+            ],
+            [
+              2183.0,
+              1346.0
+            ],
+            [
+              1910.0,
+              1346.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6407129168510437,
+          "coordinate": [
+            2121,
+            1913,
+            2193,
+            1942
+          ],
+          "polygon_points": [
+            [
+              2121.0,
+              1913.0
+            ],
+            [
+              2193.0,
+              1913.0
+            ],
+            [
+              2193.0,
+              1942.0
+            ],
+            [
+              2121.0,
+              1942.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6643282175064087,
+          "coordinate": [
+            2097,
+            1166,
+            2201,
+            1187
+          ],
+          "polygon_points": [
+            [
+              2097.0,
+              1166.0
+            ],
+            [
+              2200.0,
+              1166.0
+            ],
+            [
+              2200.0,
+              1186.0
+            ],
+            [
+              2097.0,
+              1186.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7841485738754272,
+          "coordinate": [
+            2215,
+            1015,
+            2953,
+            1165
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2215.0,
+              1015.0
+            ],
+            [
+              2953.0,
+              1015.0
+            ],
+            [
+              2953.0,
+              1165.0
+            ],
+            [
+              2215.0,
+              1165.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7111013531684875,
+          "coordinate": [
+            2206,
+            1167,
+            2953,
+            1410
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2206.0,
+              1167.0
+            ],
+            [
+              2953.0,
+              1167.0
+            ],
+            [
+              2953.0,
+              1410.0
+            ],
+            [
+              2206.0,
+              1410.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7404735088348389,
+          "coordinate": [
+            2195,
+            1413,
+            2954,
+            1778
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2195.0,
+              1413.0
+            ],
+            [
+              2954.0,
+              1413.0
+            ],
+            [
+              2954.0,
+              1778.0
+            ],
+            [
+              2195.0,
+              1778.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8421416878700256,
+          "coordinate": [
+            2209,
+            1784,
+            2952,
+            1997
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2209.0,
+              1784.0
+            ],
+            [
+              2952.0,
+              1784.0
+            ],
+            [
+              2952.0,
+              1997.0
+            ],
+            [
+              2209.0,
+              1997.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Parole par la splandeur des couleurs, Virgile aussi colorat\". Beaucoup de passages de son, Au lichard, l'étiquette \"littéralement si poudre amie verbale.\n\n\"On a low flowers was couldard,\n\nfor lesquelles les mots crident\n\nétaيلs, et la parola zavé la\n\nbeurte et la phrase 20splande\n\nd'une lumière abondante.\"\n\nverbi\" in vario prosignit verbo\n\ncoloro\" sout stos expressant cou\n\ntambes pocos lui.\n\nCertainly pages form I'd affect d'un vitrait point, par exemple collait de le long les auleurs classiques, l'idic Sidonius trobatus sormo 2refulgans/sidora multiplici splan des, gemmisque colorum/lucat, et in dictis depictus paro resultat C'est bien digna de l'ancien Siolaine Apollimaire qui lui m'aurait parlé des verboreum vislist versicolozibus\"dont il amait le bord.\n\nEscoles encore ce bout de poème\n\n(dans un métradHéorcé, et n'est\n\nmoins que ce docteur Alain fut\n\nun poêle : c'est lire des Verba Alani\n\nad natureux, qui mériteraient\n\nd'être célébré tout complète. Toi, Na-\n\nture, dit-il :",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F05de153166c5f19459673e9de692d0fbde300e8a9bebcccb3e841f4783dd55d0"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3de2dd39-a029-4d57-bcb0-705e2a489b05/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fe9c028a9a18cd225a52aec377a3793e0230810fc25193d1a94ac9cf59416379d"
+}

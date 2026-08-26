@@ -1,0 +1,284 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "v.9",
+        "block_bbox": [
+          2078,
+          1097,
+          2149,
+          1125
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2078.0,
+            1097.0
+          ],
+          [
+            2149.0,
+            1097.0
+          ],
+          [
+            2149.0,
+            1125.0
+          ],
+          [
+            2078.0,
+            1125.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "V.131.\nL'art des",
+        "block_bbox": [
+          2036,
+          1787,
+          2206,
+          1889
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2036.0,
+            1787.0
+          ],
+          [
+            2206.0,
+            1787.0
+          ],
+          [
+            2206.0,
+            1889.0
+          ],
+          [
+            2036.0,
+            1889.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "pas de l'inférieur des lamp modernes�compond à Antiqués Capendant se foi virando et pour ainsi dira sa naissance et son optimisme na la font (he titerà la cour preferer les tontes des modernes long qu'il s'agit de la religion. l'intéordence dit il est obtus et la mémoire trop infédale pour que je pa te percevoir la subtilité des ci-ciens ou 20tenir plus longtemps les choses que l'ai une fois com prites. Mais au maïs tempus: se n'ai pas profusé de l'appel les tenterces des modernes que je crois devoir préférer aux anciens dans la plupart des cas.",
+        "block_bbox": [
+          2206,
+          1020,
+          2955,
+          1625
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2206.0,
+            1020.0
+          ],
+          [
+            2955.0,
+            1020.0
+          ],
+          [
+            2955.0,
+            1625.0
+          ],
+          [
+            2206.0,
+            1625.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "C'est lui qui nous a liré de l'amande)\n\nParola (de Bernard de Charros, de\n\nsant : nous scorné comme des\n\nnoirs assis sur les épaules de\n\ngésants afin que nous puisse\n\nvoir plus aux et plus au loin\n\nMotif qu'elle est seprésent\n\nimages les viraux, motif d'ail\n\nleurs qui se trouve déjà dans l'\n\ndoudaïque, soit-il dans un bon\n\nabsolument different.\n\nC'est également Jean des S. qui",
+        "block_bbox": [
+          2205,
+          1613,
+          2954,
+          2008
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2205.0,
+            1613.0
+          ],
+          [
+            2954.0,
+            1613.0
+          ],
+          [
+            2954.0,
+            2008.0
+          ],
+          [
+            2205.0,
+            2008.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.4844888150691986,
+          "coordinate": [
+            2078,
+            1097,
+            2149,
+            1125
+          ],
+          "polygon_points": [
+            [
+              2078.0,
+              1097.0
+            ],
+            [
+              2149.0,
+              1097.0
+            ],
+            [
+              2149.0,
+              1125.0
+            ],
+            [
+              2078.0,
+              1125.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5710771083831787,
+          "coordinate": [
+            2036,
+            1787,
+            2206,
+            1889
+          ],
+          "polygon_points": [
+            [
+              2036.0,
+              1787.0
+            ],
+            [
+              2206.0,
+              1787.0
+            ],
+            [
+              2206.0,
+              1889.0
+            ],
+            [
+              2036.0,
+              1889.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8853220343589783,
+          "coordinate": [
+            2206,
+            1020,
+            2955,
+            1625
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2206.0,
+              1020.0
+            ],
+            [
+              2955.0,
+              1020.0
+            ],
+            [
+              2955.0,
+              1625.0
+            ],
+            [
+              2206.0,
+              1625.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8020315766334534,
+          "coordinate": [
+            2205,
+            1613,
+            2954,
+            2008
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2205.0,
+              1613.0
+            ],
+            [
+              2954.0,
+              1613.0
+            ],
+            [
+              2954.0,
+              2008.0
+            ],
+            [
+              2205.0,
+              2008.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "pas de l'inférieur des lamp modernes�compond à Antiqués Capendant se foi virando et pour ainsi dira sa naissance et son optimisme na la font (he titerà la cour preferer les tontes des modernes long qu'il s'agit de la religion. l'intéordence dit il est obtus et la mémoire trop infédale pour que je pa te percevoir la subtilité des ci-ciens ou 20tenir plus longtemps les choses que l'ai une fois com prites. Mais au maïs tempus: se n'ai pas profusé de l'appel les tenterces des modernes que je crois devoir préférer aux anciens dans la plupart des cas.\n\nC'est lui qui nous a liré de l'amande)\n\nParola (de Bernard de Charros, de\n\nsant : nous scorné comme des\n\nnoirs assis sur les épaules de\n\ngésants afin que nous puisse\n\nvoir plus aux et plus au loin\n\nMotif qu'elle est seprésent\n\nimages les viraux, motif d'ail\n\nleurs qui se trouve déjà dans l'\n\ndoudaïque, soit-il dans un bon\n\nabsolument different.\n\nC'est également Jean des S. qui",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fce6a63ef11b92059ee841b83f6037f28d8a884c0b4cf214ac03494d1a0d82939"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//b5fdc63a-8e36-4d2c-8e1e-8f86cd3fe4ae/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F66c8a866f8cf1f8b3988f1ed9aa648af2ca519030fbdb0d5cdf98869bfddf09d"
+}

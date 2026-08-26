@@ -1,0 +1,472 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "+9.V11.1290.woon den wab moast",
+        "block_bbox": [
+          1970,
+          1969,
+          2217,
+          2015
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1970.0,
+            1969.0
+          ],
+          [
+            2217.0,
+            1969.0
+          ],
+          [
+            2217.0,
+            2015.0
+          ],
+          [
+            1970.0,
+            2015.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "dolea still neuro, purg. 24.57.—\n\nher hoofsche minnelied der troub. opgade\n\nmen mit het meiledt. Eof es dient. het\n\nweren der Eipofe het stmochen en dem\n\nken. Zee irreal, en convent. de rouw ver\n\nheven tot volmoelheid, de werling der\n\nliepe de de dougd zof, het estate hort\n\nalleen volbaan. Steeds meer vergafte\n\nlight en bloedolozen. - nadcaei op Sicili\n\nde Eologmeel Guido Guinacelli † 1276 moet\n\ner geoorde filozofie nam.",
+        "block_bbox": [
+          2219,
+          1041,
+          2953,
+          1281
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2219.0,
+            1041.0
+          ],
+          [
+            2953.0,
+            1041.0
+          ],
+          [
+            2953.0,
+            1281.0
+          ],
+          [
+            2219.0,
+            1281.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "don Homen Dante em Zifri Iriemdot Lapa Gianni, Guido Caratconti, Cino do Pisto ja, em gíeto in die Wittt gasomplicciard verifiato vomm woen nieun Laven es nie we wasdeiol. D.1265-1321.1302 verGomen.",
+        "block_bbox": [
+          2224,
+          1280,
+          2954,
+          1405
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2224.0,
+            1280.0
+          ],
+          [
+            2954.0,
+            1280.0
+          ],
+          [
+            2954.0,
+            1405.0
+          ],
+          [
+            2224.0,
+            1405.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Zij gaven het beodloe element prijs, doornw ween jong maisje in pl. v. gehaswde wasd het voorwerp, en het begrip diendt af.",
+        "block_bbox": [
+          2221,
+          1476,
+          2954,
+          1551
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2221.0,
+            1476.0
+          ],
+          [
+            2954.0,
+            1476.0
+          ],
+          [
+            2954.0,
+            1551.0
+          ],
+          [
+            2221.0,
+            1551.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Incipit vito nova. em commonman op.\n\n1283-12\n\nZija Comxomau e sommatem, do geda. vo\n\n121298\n\nZij liepde. hat prozzt hat belangrikste.\n\nconventia of 20000000 - 加尔及尔\n\nlingen: Gal. Rosalli: A. = monarcia,\n\nAnderer B = filosofia, hoogsta wildeid,\n\nKerke. 1906 Salverda de Grave, Bonte au W\n\nGids: een letterseparing, wasme B'z ziel\n\nniet werd te maken haapt gebod. ondel\n\nVasqueiras, Guillem de Cabetting, Saugré\n\nRudell obi Zullo verleisingen Scaveri\n\nV.N. verwaardigst naar het mod\n\nvan een\n\ndien pro. leuensbeach - i nderdood:\n\nU. Baal, symf. U. Baath. naar het model enz\n\n- och ad zijn alle elementen.\n\nnotief u kind af in trouwen diant, de\n\ngroot als eon. de gezichem\n\nBoee.",
+        "block_bbox": [
+          2216,
+          1554,
+          2952,
+          1954
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2216.0,
+            1554.0
+          ],
+          [
+            2952.0,
+            1554.0
+          ],
+          [
+            2952.0,
+            1954.0
+          ],
+          [
+            2216.0,
+            1954.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "mospilha com Beatrice le ident. B.Porti nari n Simone dei Bandi, D. Zoff Gemma Donati. Noemlem da filosofia Bice?",
+        "block_bbox": [
+          2215,
+          1937,
+          2954,
+          2014
+        ],
+        "block_id": 5,
+        "block_order": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2215.0,
+            1937.0
+          ],
+          [
+            2954.0,
+            1937.0
+          ],
+          [
+            2954.0,
+            2014.0
+          ],
+          [
+            2215.0,
+            2014.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3701536953449249,
+          "coordinate": [
+            1970,
+            1969,
+            2217,
+            2015
+          ],
+          "polygon_points": [
+            [
+              1970.0,
+              1969.0
+            ],
+            [
+              2217.0,
+              1969.0
+            ],
+            [
+              2217.0,
+              2015.0
+            ],
+            [
+              1970.0,
+              2015.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.37035825848579407,
+          "coordinate": [
+            2219,
+            1041,
+            2953,
+            1281
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2219.0,
+              1041.0
+            ],
+            [
+              2953.0,
+              1041.0
+            ],
+            [
+              2953.0,
+              1281.0
+            ],
+            [
+              2219.0,
+              1281.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3146282434463501,
+          "coordinate": [
+            2226,
+            1061,
+            2954,
+            1128
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2226.0,
+              1071.0
+            ],
+            [
+              2226.0,
+              1127.0
+            ],
+            [
+              2939.0,
+              1127.0
+            ],
+            [
+              2953.0,
+              1118.0
+            ],
+            [
+              2953.0,
+              1061.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.36189883947372437,
+          "coordinate": [
+            2224,
+            1137,
+            2953,
+            1280
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2224.0,
+              1137.0
+            ],
+            [
+              2953.0,
+              1137.0
+            ],
+            [
+              2953.0,
+              1280.0
+            ],
+            [
+              2224.0,
+              1280.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4407091736793518,
+          "coordinate": [
+            2224,
+            1280,
+            2954,
+            1405
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2224.0,
+              1280.0
+            ],
+            [
+              2954.0,
+              1280.0
+            ],
+            [
+              2954.0,
+              1405.0
+            ],
+            [
+              2224.0,
+              1405.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3632338047027588,
+          "coordinate": [
+            2221,
+            1476,
+            2954,
+            1551
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2221.0,
+              1476.0
+            ],
+            [
+              2954.0,
+              1476.0
+            ],
+            [
+              2954.0,
+              1551.0
+            ],
+            [
+              2221.0,
+              1551.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5924831032752991,
+          "coordinate": [
+            2216,
+            1554,
+            2952,
+            1954
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2216.0,
+              1554.0
+            ],
+            [
+              2952.0,
+              1554.0
+            ],
+            [
+              2952.0,
+              1954.0
+            ],
+            [
+              2216.0,
+              1954.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3780032694339752,
+          "coordinate": [
+            2215,
+            1937,
+            2954,
+            2014
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2215.0,
+              1937.0
+            ],
+            [
+              2954.0,
+              1937.0
+            ],
+            [
+              2954.0,
+              2014.0
+            ],
+            [
+              2215.0,
+              2014.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "dolea still neuro, purg. 24.57.—\n\nher hoofsche minnelied der troub. opgade\n\nmen mit het meiledt. Eof es dient. het\n\nweren der Eipofe het stmochen en dem\n\nken. Zee irreal, en convent. de rouw ver\n\nheven tot volmoelheid, de werling der\n\nliepe de de dougd zof, het estate hort\n\nalleen volbaan. Steeds meer vergafte\n\nlight en bloedolozen. - nadcaei op Sicili\n\nde Eologmeel Guido Guinacelli † 1276 moet\n\ner geoorde filozofie nam.\n\ndon Homen Dante em Zifri Iriemdot Lapa Gianni, Guido Caratconti, Cino do Pisto ja, em gíeto in die Wittt gasomplicciard verifiato vomm woen nieun Laven es nie we wasdeiol. D.1265-1321.1302 verGomen.\n\nZij gaven het beodloe element prijs, doornw ween jong maisje in pl. v. gehaswde wasd het voorwerp, en het begrip diendt af.\n\nIncipit vito nova. em commonman op.\n\n1283-12\n\nZija Comxomau e sommatem, do geda. vo\n\n121298\n\nZij liepde. hat prozzt hat belangrikste.\n\nconventia of 20000000 - 加尔及尔\n\nlingen: Gal. Rosalli: A. = monarcia,\n\nAnderer B = filosofia, hoogsta wildeid,\n\nKerke. 1906 Salverda de Grave, Bonte au W\n\nGids: een letterseparing, wasme B'z ziel\n\nniet werd te maken haapt gebod. ondel\n\nVasqueiras, Guillem de Cabetting, Saugré\n\nRudell obi Zullo verleisingen Scaveri\n\nV.N. verwaardigst naar het mod\n\nvan een\n\ndien pro. leuensbeach - i nderdood:\n\nU. Baal, symf. U. Baath. naar het model enz\n\n- och ad zijn alle elementen.\n\nnotief u kind af in trouwen diant, de\n\ngroot als eon. de gezichem\n\nBoee.\n\nmospilha com Beatrice le ident. B.Porti nari n Simone dei Bandi, D. Zoff Gemma Donati. Noemlem da filosofia Bice?",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8ae30ee2-176c-4da4-9d41-85f6d24fe618/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2Fd91ac8ce335337afdcbe744a3abe08237d04218da468a4e88617b2a15ddb7551"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8ae30ee2-176c-4da4-9d41-85f6d24fe618/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F6c29d42452f29662b5be9426ea7e321083594a54791645b6ffd19511eb7b724c"
+}

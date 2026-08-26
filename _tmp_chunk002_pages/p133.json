@@ -1,0 +1,642 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "37",
+        "block_bbox": [
+          1525,
+          1019,
+          1600,
+          1063
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1525.0,
+            1019.0
+          ],
+          [
+            1600.0,
+            1019.0
+          ],
+          [
+            1600.0,
+            1063.0
+          ],
+          [
+            1525.0,
+            1063.0
+          ]
+        ]
+      },
+      {
+        "block_label": "figure_title",
+        "block_content": "<div style=\"text-align: center;\"><div style=\"text-align: center;\">Enla.5.280</div> </div>\n",
+        "block_bbox": [
+          2024,
+          1302,
+          2203,
+          1329
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2024.0,
+            1302.0
+          ],
+          [
+            2203.0,
+            1302.0
+          ],
+          [
+            2203.0,
+            1329.0
+          ],
+          [
+            2024.0,
+            1329.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "P.3.217",
+        "block_bbox": [
+          2107,
+          1093,
+          2223,
+          1122
+        ],
+        "block_id": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2107.0,
+            1093.0
+          ],
+          [
+            2223.0,
+            1093.0
+          ],
+          [
+            2223.0,
+            1122.0
+          ],
+          [
+            2107.0,
+            1122.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "P.4.219\n218\nV.Tho.366",
+        "block_bbox": [
+          2045,
+          1785,
+          2195,
+          1868
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2045.0,
+            1785.0
+          ],
+          [
+            2195.0,
+            1785.0
+          ],
+          [
+            2195.0,
+            1868.0
+          ],
+          [
+            2045.0,
+            1868.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "plus clains et plus impératif de l'état de liberté politique.",
+        "block_bbox": [
+          1492,
+          1901,
+          2181,
+          1963
+        ],
+        "block_id": 4,
+        "block_order": 1,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1491.31982421875,
+            1910.009033203125
+          ],
+          [
+            2180.0,
+            1901.000244140625
+          ],
+          [
+            2180.79541015625,
+            1961.806640625
+          ],
+          [
+            1492.115234375,
+            1970.8154296875
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "national",
+        "block_bbox": [
+          2111,
+          1341,
+          2213,
+          1443
+        ],
+        "block_id": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2111.0,
+            1341.0
+          ],
+          [
+            2213.0,
+            1341.0
+          ],
+          [
+            2213.0,
+            1443.0
+          ],
+          [
+            2111.0,
+            1443.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "833",
+        "block_bbox": [
+          2173,
+          1149,
+          2219,
+          1178
+        ],
+        "block_id": 6,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2173.0,
+            1149.0
+          ],
+          [
+            2218.0,
+            1149.0
+          ],
+          [
+            2218.0,
+            1177.0
+          ],
+          [
+            2173.0,
+            1177.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "La famquise inculpation du ton, allant jusqu'à prônon le tyrannicida.\"Paro tyrannum occidenta non modo licitum est ad aquum et justum.\"quis cum non persequitur, in deippus et in lotum crepere quibus moda non corpus delinquit.\"12 dirade Thomas Bocket, charcelier du boy acuma: \"C'est lui qui fut chaucelier, par son que ceux que c'A flatirra longtemps esclave aux pour 2015 élaient naiment des 2015, landis qu'elle a souffant dans eux des tycam.\"",
+        "block_bbox": [
+          2211,
+          1021,
+          2955,
+          1497
+        ],
+        "block_id": 7,
+        "block_order": 2,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2211.0,
+            1021.0
+          ],
+          [
+            2955.0,
+            1021.0
+          ],
+          [
+            2955.0,
+            1497.0
+          ],
+          [
+            2211.0,
+            1497.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "le n'hérite pas à comprendr\n\ndans la condominiation des pré\n\nvericolours ecclésiastiquel; en\n\nchristianes, évêques, légals mé-\n\nmes, sévissant dans la province\n\ncomme la Sotham scrait pour\n\nfagellon d'Eglise.",
+        "block_bbox": [
+          2215,
+          1500,
+          2954,
+          1718
+        ],
+        "block_id": 8,
+        "block_order": 3,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2215.0,
+            1500.0
+          ],
+          [
+            2954.0,
+            1500.0
+          ],
+          [
+            2954.0,
+            1718.0
+          ],
+          [
+            2215.0,
+            1718.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "C'est l'esprit de Dieu qui sauf peut contenir et guérir louscade manx.\" Spiritué est qui coquiter aequitatem, in compactor princi. Pum nom embescit, et pauperaed spiritu agibuey antapont.\" Caer caex la vandei et vous actian dreez la cibertie. Ubi enim spirius dei, ibi cibertos.\"Ic serait if piciia da houver una expression",
+        "block_bbox": [
+          2208,
+          1718,
+          2955,
+          2017
+        ],
+        "block_id": 9,
+        "block_order": 4,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2208.0,
+            1718.0
+          ],
+          [
+            2955.0,
+            1718.0
+          ],
+          [
+            2955.0,
+            2017.0
+          ],
+          [
+            2208.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3608253002166748,
+          "coordinate": [
+            1525,
+            1019,
+            1600,
+            1063
+          ],
+          "polygon_points": [
+            [
+              1525.0,
+              1019.0
+            ],
+            [
+              1600.0,
+              1019.0
+            ],
+            [
+              1600.0,
+              1063.0
+            ],
+            [
+              1525.0,
+              1063.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 7,
+          "label": "figure_title",
+          "score": 0.5188630819320679,
+          "coordinate": [
+            2024,
+            1302,
+            2203,
+            1329
+          ],
+          "polygon_points": [
+            [
+              2024.0,
+              1302.0
+            ],
+            [
+              2203.0,
+              1302.0
+            ],
+            [
+              2203.0,
+              1329.0
+            ],
+            [
+              2024.0,
+              1329.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5169841051101685,
+          "coordinate": [
+            2107,
+            1093,
+            2223,
+            1122
+          ],
+          "polygon_points": [
+            [
+              2107.0,
+              1093.0
+            ],
+            [
+              2223.0,
+              1093.0
+            ],
+            [
+              2223.0,
+              1122.0
+            ],
+            [
+              2107.0,
+              1122.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.4579891860485077,
+          "coordinate": [
+            2045,
+            1785,
+            2195,
+            1868
+          ],
+          "polygon_points": [
+            [
+              2045.0,
+              1785.0
+            ],
+            [
+              2195.0,
+              1785.0
+            ],
+            [
+              2195.0,
+              1868.0
+            ],
+            [
+              2045.0,
+              1868.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3121303915977478,
+          "coordinate": [
+            1492,
+            1901,
+            2181,
+            1963
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1491.31982421875,
+              1910.009033203125
+            ],
+            [
+              2180.0,
+              1901.000244140625
+            ],
+            [
+              2180.79541015625,
+              1961.806640625
+            ],
+            [
+              1492.115234375,
+              1970.8154296875
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3523501753807068,
+          "coordinate": [
+            2111,
+            1341,
+            2213,
+            1443
+          ],
+          "polygon_points": [
+            [
+              2111.0,
+              1341.0
+            ],
+            [
+              2213.0,
+              1341.0
+            ],
+            [
+              2213.0,
+              1443.0
+            ],
+            [
+              2111.0,
+              1443.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.30620670318603516,
+          "coordinate": [
+            2173,
+            1149,
+            2219,
+            1178
+          ],
+          "polygon_points": [
+            [
+              2173.0,
+              1149.0
+            ],
+            [
+              2218.0,
+              1149.0
+            ],
+            [
+              2218.0,
+              1177.0
+            ],
+            [
+              2173.0,
+              1177.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8926752805709839,
+          "coordinate": [
+            2211,
+            1021,
+            2955,
+            1497
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2211.0,
+              1021.0
+            ],
+            [
+              2955.0,
+              1021.0
+            ],
+            [
+              2955.0,
+              1497.0
+            ],
+            [
+              2211.0,
+              1497.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9018936157226562,
+          "coordinate": [
+            2215,
+            1500,
+            2954,
+            1718
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2215.0,
+              1500.0
+            ],
+            [
+              2954.0,
+              1500.0
+            ],
+            [
+              2954.0,
+              1718.0
+            ],
+            [
+              2215.0,
+              1718.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9066148400306702,
+          "coordinate": [
+            2208,
+            1718,
+            2955,
+            2017
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2208.0,
+              1718.0
+            ],
+            [
+              2955.0,
+              1718.0
+            ],
+            [
+              2955.0,
+              2017.0
+            ],
+            [
+              2208.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "<div style=\"text-align: center;\"><div style=\"text-align: center;\">Enla.5.280</div> </div>\n\n\nplus clains et plus impératif de l'état de liberté politique.\n\nLa famquise inculpation du ton, allant jusqu'à prônon le tyrannicida.\"Paro tyrannum occidenta non modo licitum est ad aquum et justum.\"quis cum non persequitur, in deippus et in lotum crepere quibus moda non corpus delinquit.\"12 dirade Thomas Bocket, charcelier du boy acuma: \"C'est lui qui fut chaucelier, par son que ceux que c'A flatirra longtemps esclave aux pour 2015 élaient naiment des 2015, landis qu'elle a souffant dans eux des tycam.\"\n\nle n'hérite pas à comprendr\n\ndans la condominiation des pré\n\nvericolours ecclésiastiquel; en\n\nchristianes, évêques, légals mé-\n\nmes, sévissant dans la province\n\ncomme la Sotham scrait pour\n\nfagellon d'Eglise.\n\nC'est l'esprit de Dieu qui sauf peut contenir et guérir louscade manx.\" Spiritué est qui coquiter aequitatem, in compactor princi. Pum nom embescit, et pauperaed spiritu agibuey antapont.\" Caer caex la vandei et vous actian dreez la cibertie. Ubi enim spirius dei, ibi cibertos.\"Ic serait if piciia da houver una expression",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//758a1a23-edd4-4ce5-af8f-c97b26f1df05/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fdc0e88ccc44e89abe7bb073be76c54b0d690325458fcac6d873411642da35b0e"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//758a1a23-edd4-4ce5-af8f-c97b26f1df05/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F24efb29d62d993b20beeb4168a730dc0cdbdaa2ecd234e7d6d288689807b0a6d"
+}

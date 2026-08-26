@@ -1,0 +1,164 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "religions",
+        "block_bbox": [
+          1995,
+          1456,
+          2220,
+          1497
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1995.0,
+            1456.0
+          ],
+          [
+            2220.0,
+            1456.0
+          ],
+          [
+            2220.0,
+            1497.0
+          ],
+          [
+            1995.0,
+            1497.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Augustine 2019, at Hugue de Saint Victor Linguia Augustine de St. Augustine.\n\nmol d'crore du parti consér valeur, la symbole du respect profond pour l'autorité et les traditions. Comme c'est la cœur pour les esprits des deux Pèreux eux-mâmes, leurs noms aussi, dans l'histoire de la religion chrétienne, ont eu un poésie bien chiffrent. Tocles les�s qu'il s'agissait d'une grande crise de nom.\n\nplus courubons la Balance de temps. Que cœur de l'étoque",
+        "block_bbox": [
+          2204,
+          1023,
+          2955,
+          1585
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2204.0,
+            1023.0
+          ],
+          [
+            2955.0,
+            1023.0
+          ],
+          [
+            2955.0,
+            1585.0
+          ],
+          [
+            2204.0,
+            1585.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6598041653633118,
+          "coordinate": [
+            1995,
+            1456,
+            2220,
+            1497
+          ],
+          "polygon_points": [
+            [
+              1995.0,
+              1456.0
+            ],
+            [
+              2220.0,
+              1456.0
+            ],
+            [
+              2220.0,
+              1497.0
+            ],
+            [
+              1995.0,
+              1497.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.822646975517273,
+          "coordinate": [
+            2204,
+            1023,
+            2955,
+            1585
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2204.0,
+              1023.0
+            ],
+            [
+              2955.0,
+              1023.0
+            ],
+            [
+              2955.0,
+              1585.0
+            ],
+            [
+              2204.0,
+              1585.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Augustine 2019, at Hugue de Saint Victor Linguia Augustine de St. Augustine.\n\nmol d'crore du parti consér valeur, la symbole du respect profond pour l'autorité et les traditions. Comme c'est la cœur pour les esprits des deux Pèreux eux-mâmes, leurs noms aussi, dans l'histoire de la religion chrétienne, ont eu un poésie bien chiffrent. Tocles les�s qu'il s'agissait d'une grande crise de nom.\n\nplus courubons la Balance de temps. Que cœur de l'étoque",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//05bdff62-cae0-4a22-b14f-7786cc61f869/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fab8a4d737f735088eeba3d363b1a68599d3af6fafd3307164e471de1351af060"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//05bdff62-cae0-4a22-b14f-7786cc61f869/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fae9479ecad63872dae3affef860674fd6daa6e5462256a6eb4f63543c1229cfe"
+}

@@ -1,0 +1,103 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "table",
+        "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Maem&quot; Cover摄</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Bezornon no 1423, ca</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>of Rambliheid van</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>is can hot afunghe</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>hier en in 2 book</td></tr></table>",
+        "block_bbox": [
+          13,
+          1388,
+          357,
+          2077
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            13.0,
+            1388.0
+          ],
+          [
+            357.0,
+            1388.0
+          ],
+          [
+            357.0,
+            2077.0
+          ],
+          [
+            13.0,
+            2077.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 21,
+          "label": "table",
+          "score": 0.5368516445159912,
+          "coordinate": [
+            13,
+            1388,
+            357,
+            2077
+          ],
+          "polygon_points": [
+            [
+              13.0,
+              1388.0
+            ],
+            [
+              357.0,
+              1388.0
+            ],
+            [
+              357.0,
+              2077.0
+            ],
+            [
+              13.0,
+              2077.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 270
+    }
+  },
+  "markdown": {
+    "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Maem&quot; Cover摄</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Bezornon no 1423, ca</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>of Rambliheid van</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>is can hot afunghe</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>hier en in 2 book</td></tr></table>",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//eda81e7f-cc5b-4c16-9f41-32e597b90e41/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A32Z%2F-1%2F%2F05b0de38ae9738426262be6b017071ef2623bb89dee5717c4a08bfb50722d9a4"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//eda81e7f-cc5b-4c16-9f41-32e597b90e41/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A32Z%2F-1%2F%2Fec3a9a576fc1479c912705354cd1d3177fc2fbdbfe7552a546e95d915e1d5b83"
+}

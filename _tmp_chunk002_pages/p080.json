@@ -1,0 +1,285 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "27",
+        "block_bbox": [
+          1521,
+          1029,
+          1604,
+          1075
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1521.0,
+            1029.0
+          ],
+          [
+            1604.0,
+            1029.0
+          ],
+          [
+            1604.0,
+            1075.0
+          ],
+          [
+            1521.0,
+            1075.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "Ricaer\n111.57",
+        "block_bbox": [
+          1992,
+          1760,
+          2146,
+          1814
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1992.0,
+            1760.0
+          ],
+          [
+            2146.0,
+            1760.0
+          ],
+          [
+            2146.0,
+            1814.0
+          ],
+          [
+            1992.0,
+            1814.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "D'un jeux sériaux et impôtant périaleux même, mais toujours d'un jeux. Ce n'est pas une métal phora, c'est un fait de ci-ci logique de la première impôtance. On peut la trouver comme firmé dans toutes les époques de la civilisation humaine : dans l'âge des Soprièles grecs dans l'âge antique à l'époque des Brâmanes et des premiers siècles choudriques. Le piloétopée c'est celui qui sait poser et se loudrer des enigmes comme la poète et celui qui sait compéter des poètes que ne comprennent que les intérêts. La semaine s'encaillage n'est rien qu'un jeux solennel de la course. Si l'avait le temps, je vous s'accompagnent à l'histoire de Gerbert, épée par son étoilé Strie écolâtre de Mapdebourg qui entrapre de la compagnie en présence de l'Emperure à Revenue.",
+        "block_bbox": [
+          2217,
+          1028,
+          2955,
+          1820
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2217.0,
+            1028.0
+          ],
+          [
+            2955.0,
+            1028.0
+          ],
+          [
+            2955.0,
+            1820.0
+          ],
+          [
+            2217.0,
+            1820.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Le mouvement philosophique\n\ndu douzième siècle reient\n\nbeaucoup de ce caractère de\n\njeu, de sport libéral et vérité\n\nà l'abri de la population\n\nparodie et d'un certain degré",
+        "block_bbox": [
+          2213,
+          1821,
+          2952,
+          2016
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2213.0,
+            1821.0
+          ],
+          [
+            2952.0,
+            1821.0
+          ],
+          [
+            2952.0,
+            2016.0
+          ],
+          [
+            2213.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.35581961274147034,
+          "coordinate": [
+            1521,
+            1029,
+            1604,
+            1075
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1521.0,
+              1029.0
+            ],
+            [
+              1604.0,
+              1029.0
+            ],
+            [
+              1604.0,
+              1075.0
+            ],
+            [
+              1521.0,
+              1075.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.7334432601928711,
+          "coordinate": [
+            1992,
+            1760,
+            2146,
+            1814
+          ],
+          "polygon_points": [
+            [
+              1992.0,
+              1760.0
+            ],
+            [
+              2146.0,
+              1760.0
+            ],
+            [
+              2146.0,
+              1814.0
+            ],
+            [
+              1992.0,
+              1814.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9364486932754517,
+          "coordinate": [
+            2217,
+            1028,
+            2955,
+            1820
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2217.0,
+              1028.0
+            ],
+            [
+              2955.0,
+              1028.0
+            ],
+            [
+              2955.0,
+              1820.0
+            ],
+            [
+              2217.0,
+              1820.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8182006478309631,
+          "coordinate": [
+            2213,
+            1821,
+            2952,
+            2016
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2213.0,
+              1821.0
+            ],
+            [
+              2952.0,
+              1821.0
+            ],
+            [
+              2952.0,
+              2016.0
+            ],
+            [
+              2213.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "D'un jeux sériaux et impôtant périaleux même, mais toujours d'un jeux. Ce n'est pas une métal phora, c'est un fait de ci-ci logique de la première impôtance. On peut la trouver comme firmé dans toutes les époques de la civilisation humaine : dans l'âge des Soprièles grecs dans l'âge antique à l'époque des Brâmanes et des premiers siècles choudriques. Le piloétopée c'est celui qui sait poser et se loudrer des enigmes comme la poète et celui qui sait compéter des poètes que ne comprennent que les intérêts. La semaine s'encaillage n'est rien qu'un jeux solennel de la course. Si l'avait le temps, je vous s'accompagnent à l'histoire de Gerbert, épée par son étoilé Strie écolâtre de Mapdebourg qui entrapre de la compagnie en présence de l'Emperure à Revenue.\n\nLe mouvement philosophique\n\ndu douzième siècle reient\n\nbeaucoup de ce caractère de\n\njeu, de sport libéral et vérité\n\nà l'abri de la population\n\nparodie et d'un certain degré",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3b22018b-924b-4698-83ba-4b0383455c9f/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F0d5d1c49f48374b5fd6f3d65febe5d0be7c775b73c16d7a35e14617c729007ff"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//3b22018b-924b-4698-83ba-4b0383455c9f/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2Fd93f5961230784b6192b9c456fc3622e102109c52a8cb29f56b6169502bb7412"
+}

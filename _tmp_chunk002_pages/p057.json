@@ -1,0 +1,437 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "4",
+        "block_bbox": [
+          1537,
+          1014,
+          1580,
+          1053
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1537.0,
+            1014.0
+          ],
+          [
+            1580.0,
+            1014.0
+          ],
+          [
+            1580.0,
+            1053.0
+          ],
+          [
+            1537.0,
+            1053.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Mais les pays de Bouygues, la part de Céaux et des Clumys, le patrie de SI. Bernard n'ait-il pas été aussi la soiré fécond où a germé la culture du moyen âge?",
+        "block_bbox": [
+          1535,
+          1241,
+          2223,
+          1442
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1535.0,
+            1241.0
+          ],
+          [
+            2223.0,
+            1241.0
+          ],
+          [
+            2223.0,
+            1442.0
+          ],
+          [
+            1535.0,
+            1442.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "et au plus haut dégré\n\nel glacie de toula l'églite, et\n\nles occupations variés des ph\n\nlosophandes\", il la compara à\n\néchelles de focob, dont la somme\n\ntoucheait au ciel et qui était\n\nla voie des anges qui ascendait\n\nent et descendaient. Il cita l'\n\ncriture : \"vera dominue est in\n\nloco isto, et ego nescie bom\". Il ciel\n\nencora la paréla : \"Felix exilium\n\ncui locus isto dotur\".",
+        "block_bbox": [
+          1740,
+          1437,
+          2193,
+          1475
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1740.0,
+            1437.0
+          ],
+          [
+            2193.0,
+            1437.0
+          ],
+          [
+            2193.0,
+            1475.0
+          ],
+          [
+            1740.0,
+            1475.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "",
+        "block_bbox": [
+          2231,
+          1010,
+          2954,
+          1372
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2231.0,
+            1010.0
+          ],
+          [
+            2954.0,
+            1010.0
+          ],
+          [
+            2954.0,
+            1372.0
+          ],
+          [
+            2231.0,
+            1372.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "S'il ma faolait préciser la temps où s'est formée déﬁiniéntivement la civilisation chrétienne de l'Occident, je na di pas celle du moyen âge, commu ni elle aurait passé sans lois, les des traces, mais calda dont nous virons à ce jour, je nomme mais la douzième siècle. C'est une époque créatrice et forma trice comme nullo autre. C'est un réveil, une éclosion à la transition dans une modaité plus claire et plus scmora, c'est la soleil qui perca les nuages. Que de formes nouveilles de l'écrit et de la vie (qui éclosent au douzième siècle. C'est, pour c'est M. Bédier les énumérations",
+        "block_bbox": [
+          2219,
+          1384,
+          2954,
+          1985
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2219.0,
+            1384.0
+          ],
+          [
+            2954.0,
+            1384.0
+          ],
+          [
+            2954.0,
+            1985.0
+          ],
+          [
+            2219.0,
+            1985.0
+          ]
+        ]
+      },
+      {
+        "block_label": "footer",
+        "block_content": "Manotaux, Hist. not. ma. 208",
+        "block_bbox": [
+          1528,
+          1949,
+          2073,
+          1987
+        ],
+        "block_id": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1528.0,
+            1949.0
+          ],
+          [
+            2073.0,
+            1949.0
+          ],
+          [
+            2073.0,
+            1987.0
+          ],
+          [
+            1528.0,
+            1987.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.4514998495578766,
+          "coordinate": [
+            1537,
+            1014,
+            1580,
+            1053
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1537.0,
+              1014.0
+            ],
+            [
+              1580.0,
+              1014.0
+            ],
+            [
+              1580.0,
+              1053.0
+            ],
+            [
+              1537.0,
+              1053.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7960358262062073,
+          "coordinate": [
+            1535,
+            1241,
+            2223,
+            1442
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1535.0,
+              1241.0
+            ],
+            [
+              2223.0,
+              1241.0
+            ],
+            [
+              2223.0,
+              1442.0
+            ],
+            [
+              1535.0,
+              1442.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5782789587974548,
+          "coordinate": [
+            1740,
+            1437,
+            2193,
+            1475
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1740.0,
+              1437.0
+            ],
+            [
+              2193.0,
+              1437.0
+            ],
+            [
+              2193.0,
+              1475.0
+            ],
+            [
+              1740.0,
+              1475.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8955847024917603,
+          "coordinate": [
+            2231,
+            1010,
+            2954,
+            1372
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2231.0,
+              1010.0
+            ],
+            [
+              2954.0,
+              1010.0
+            ],
+            [
+              2954.0,
+              1372.0
+            ],
+            [
+              2231.0,
+              1372.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5283384323120117,
+          "coordinate": [
+            2219,
+            1384,
+            2954,
+            1985
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2219.0,
+              1384.0
+            ],
+            [
+              2954.0,
+              1384.0
+            ],
+            [
+              2954.0,
+              1985.0
+            ],
+            [
+              2219.0,
+              1985.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 8,
+          "label": "footer",
+          "score": 0.3714132308959961,
+          "coordinate": [
+            1528,
+            1949,
+            2073,
+            1987
+          ],
+          "polygon_points": [
+            [
+              1528.0,
+              1949.0
+            ],
+            [
+              2073.0,
+              1949.0
+            ],
+            [
+              2073.0,
+              1987.0
+            ],
+            [
+              1528.0,
+              1987.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3217996060848236,
+          "coordinate": [
+            2225,
+            1858,
+            2952,
+            2006
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2225.0,
+              1858.0
+            ],
+            [
+              2952.0,
+              1858.0
+            ],
+            [
+              2952.0,
+              2006.0
+            ],
+            [
+              2225.0,
+              2006.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Mais les pays de Bouygues, la part de Céaux et des Clumys, le patrie de SI. Bernard n'ait-il pas été aussi la soiré fécond où a germé la culture du moyen âge?\n\net au plus haut dégré\n\nel glacie de toula l'églite, et\n\nles occupations variés des ph\n\nlosophandes\", il la compara à\n\néchelles de focob, dont la somme\n\ntoucheait au ciel et qui était\n\nla voie des anges qui ascendait\n\nent et descendaient. Il cita l'\n\ncriture : \"vera dominue est in\n\nloco isto, et ego nescie bom\". Il ciel\n\nencora la paréla : \"Felix exilium\n\ncui locus isto dotur\".\n\n\n\nS'il ma faolait préciser la temps où s'est formée déﬁiniéntivement la civilisation chrétienne de l'Occident, je na di pas celle du moyen âge, commu ni elle aurait passé sans lois, les des traces, mais calda dont nous virons à ce jour, je nomme mais la douzième siècle. C'est une époque créatrice et forma trice comme nullo autre. C'est un réveil, une éclosion à la transition dans une modaité plus claire et plus scmora, c'est la soleil qui perca les nuages. Que de formes nouveilles de l'écrit et de la vie (qui éclosent au douzième siècle. C'est, pour c'est M. Bédier les énumérations",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2Ffd285a4faa7df8d1c438de0265af5a53a6fef578da11983581dc2f3ef9345dc1"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8eb62858-9997-4488-8763-bf1d3eae1bcb/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A33Z%2F-1%2F%2F2d21c5da0b69a617187e4524b751b881c4975c4ecd8c40d6288dbb0648d785ac"
+}

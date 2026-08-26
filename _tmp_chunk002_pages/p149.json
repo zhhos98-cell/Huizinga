@@ -1,0 +1,598 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "6",
+        "block_bbox": [
+          1514,
+          1023,
+          1557,
+          1050
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1514.0,
+            1023.0
+          ],
+          [
+            1556.0,
+            1023.0
+          ],
+          [
+            1556.0,
+            1049.0
+          ],
+          [
+            1514.0,
+            1049.0
+          ]
+        ]
+      },
+      {
+        "block_label": "header",
+        "block_content": "genia, do ces ornamentations soi",
+        "block_bbox": [
+          2213,
+          1016,
+          2947,
+          1054
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2213.0,
+            1016.0
+          ],
+          [
+            2947.0,
+            1016.0
+          ],
+          [
+            2947.0,
+            1054.0
+          ],
+          [
+            2213.0,
+            1054.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "de chapitaux, soit d'évanegéliques récapulaires, soit pointes, ou\n\nsoit d'éloîtes tissues, présentant les formes en",
+        "block_bbox": [
+          1512,
+          1057,
+          2952,
+          1123
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1512.0,
+            1057.0
+          ],
+          [
+            2952.0,
+            1057.0
+          ],
+          [
+            2952.0,
+            1123.0
+          ],
+          [
+            1512.0,
+            1123.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Le résultat de cette pauvrole\n\ngénérale d'images a du étra\n\nque, de même que la parole\n\navait une efficaceilé presque\n\nmegique par l'absence des lines\n\nainsi toute image que créait\n\nl'art naissant avait un effet\n\nsurprenant et infiniment sug-\n\ngestif.\n\nCées et parfois monstrueuses, on\n\nSaint Bernard addit fétrin et\n\nimpédié et la ridicule. fema-\n\nte au cédule, de coûte pauvreté\n\nd'images que loule image qui\n\nfar céréale par l'art naissance\n\nqui sugeriseit a été avocé",
+        "block_bbox": [
+          1498,
+          1219,
+          2195,
+          1490
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1498.0,
+            1219.0
+          ],
+          [
+            2195.0,
+            1219.0
+          ],
+          [
+            2195.0,
+            1490.0
+          ],
+          [
+            1498.0,
+            1490.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "",
+        "block_bbox": [
+          2197,
+          1119,
+          2954,
+          1363
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2197.0,
+            1130.0
+          ],
+          [
+            2953.0,
+            1130.0
+          ],
+          [
+            2953.0,
+            1362.0
+          ],
+          [
+            2197.0,
+            1362.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "D'autre part il est réduit à que\n\nl'imagination, comme formule\n\nde l'esprit social, ne louvert\n\nsuffisamment)\n\npas moyen de se réduir à dans\n\nla création ou dans la formation",
+        "block_bbox": [
+          2205,
+          1371,
+          2954,
+          1544
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2205.0,
+            1371.0
+          ],
+          [
+            2954.0,
+            1371.0
+          ],
+          [
+            2954.0,
+            1544.0
+          ],
+          [
+            2205.0,
+            1544.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "l'aspect d'une multilitude de figurent\n\nsculpté et ou peintes, devait cher\n\ncher une compensation dont le\n\nlittérature de la parole.",
+        "block_bbox": [
+          2040,
+          1539,
+          2954,
+          1674
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2040.0,
+            1539.0
+          ],
+          [
+            2954.0,
+            1539.0
+          ],
+          [
+            2954.0,
+            1674.0
+          ],
+          [
+            2040.0,
+            1674.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "62 c'est ce qui ma parait ce\n\n2ochéristique pour la XIIe siècle\n\nc'est une époque qui pour as-\n\nsouvrir sa faim de l'image, vit\n\nencore de la parole. Elle va com-\n\nmencer à s'exprimer aussi dans\n\nles arts plastiqués, mais l'expres-\n\nsion verbale, comme pour l'élément\n\nestoucoa propre-\n\nda civilisation, prêtenir encon-",
+        "block_bbox": [
+          2203,
+          1679,
+          2953,
+          1967
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2203.0,
+            1679.0
+          ],
+          [
+            2953.0,
+            1679.0
+          ],
+          [
+            2953.0,
+            1967.0
+          ],
+          [
+            2203.0,
+            1967.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "derroto de beaucoup. Enfin, je n'ai pas été élevé par sa pièce des 2000s. D'une tradition de celui-ci, il n'a pas été élevé par sa pièce des 2000s.",
+        "block_bbox": [
+          1684,
+          1960,
+          2955,
+          2014
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1684.0,
+            1969.0
+          ],
+          [
+            1684.0,
+            2004.0
+          ],
+          [
+            1699.0,
+            2013.0
+          ],
+          [
+            2954.0,
+            2013.0
+          ],
+          [
+            2954.0,
+            1969.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.34394487738609314,
+          "coordinate": [
+            1514,
+            1023,
+            1557,
+            1050
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1514.0,
+              1023.0
+            ],
+            [
+              1556.0,
+              1023.0
+            ],
+            [
+              1556.0,
+              1049.0
+            ],
+            [
+              1514.0,
+              1049.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.45291435718536377,
+          "coordinate": [
+            2213,
+            1016,
+            2947,
+            1054
+          ],
+          "polygon_points": [
+            [
+              2213.0,
+              1016.0
+            ],
+            [
+              2947.0,
+              1016.0
+            ],
+            [
+              2947.0,
+              1054.0
+            ],
+            [
+              2213.0,
+              1054.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.45560696721076965,
+          "coordinate": [
+            1512,
+            1057,
+            2952,
+            1123
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1512.0,
+              1057.0
+            ],
+            [
+              2952.0,
+              1057.0
+            ],
+            [
+              2952.0,
+              1123.0
+            ],
+            [
+              1512.0,
+              1123.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8604040145874023,
+          "coordinate": [
+            1498,
+            1219,
+            2195,
+            1490
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1498.0,
+              1219.0
+            ],
+            [
+              2195.0,
+              1219.0
+            ],
+            [
+              2195.0,
+              1490.0
+            ],
+            [
+              1498.0,
+              1490.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5101486444473267,
+          "coordinate": [
+            2197,
+            1119,
+            2954,
+            1363
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2197.0,
+              1130.0
+            ],
+            [
+              2953.0,
+              1130.0
+            ],
+            [
+              2953.0,
+              1362.0
+            ],
+            [
+              2197.0,
+              1362.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4619911015033722,
+          "coordinate": [
+            2205,
+            1371,
+            2954,
+            1544
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2205.0,
+              1371.0
+            ],
+            [
+              2954.0,
+              1371.0
+            ],
+            [
+              2954.0,
+              1544.0
+            ],
+            [
+              2205.0,
+              1544.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.46515196561813354,
+          "coordinate": [
+            2040,
+            1539,
+            2954,
+            1674
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2040.0,
+              1539.0
+            ],
+            [
+              2954.0,
+              1539.0
+            ],
+            [
+              2954.0,
+              1674.0
+            ],
+            [
+              2040.0,
+              1674.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7564617395401001,
+          "coordinate": [
+            2203,
+            1679,
+            2953,
+            1967
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2203.0,
+              1679.0
+            ],
+            [
+              2953.0,
+              1679.0
+            ],
+            [
+              2953.0,
+              1967.0
+            ],
+            [
+              2203.0,
+              1967.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.47776514291763306,
+          "coordinate": [
+            1684,
+            1960,
+            2955,
+            2014
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1684.0,
+              1969.0
+            ],
+            [
+              1684.0,
+              2004.0
+            ],
+            [
+              1699.0,
+              2013.0
+            ],
+            [
+              2954.0,
+              2013.0
+            ],
+            [
+              2954.0,
+              1969.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "de chapitaux, soit d'évanegéliques récapulaires, soit pointes, ou\n\nsoit d'éloîtes tissues, présentant les formes en\n\nLe résultat de cette pauvrole\n\ngénérale d'images a du étra\n\nque, de même que la parole\n\navait une efficaceilé presque\n\nmegique par l'absence des lines\n\nainsi toute image que créait\n\nl'art naissant avait un effet\n\nsurprenant et infiniment sug-\n\ngestif.\n\nCées et parfois monstrueuses, on\n\nSaint Bernard addit fétrin et\n\nimpédié et la ridicule. fema-\n\nte au cédule, de coûte pauvreté\n\nd'images que loule image qui\n\nfar céréale par l'art naissance\n\nqui sugeriseit a été avocé\n\n\n\nD'autre part il est réduit à que\n\nl'imagination, comme formule\n\nde l'esprit social, ne louvert\n\nsuffisamment)\n\npas moyen de se réduir à dans\n\nla création ou dans la formation\n\nl'aspect d'une multilitude de figurent\n\nsculpté et ou peintes, devait cher\n\ncher une compensation dont le\n\nlittérature de la parole.\n\n62 c'est ce qui ma parait ce\n\n2ochéristique pour la XIIe siècle\n\nc'est une époque qui pour as-\n\nsouvrir sa faim de l'image, vit\n\nencore de la parole. Elle va com-\n\nmencer à s'exprimer aussi dans\n\nles arts plastiqués, mais l'expres-\n\nsion verbale, comme pour l'élément\n\nestoucoa propre-\n\nda civilisation, prêtenir encon-\n\nderroto de beaucoup. Enfin, je n'ai pas été élevé par sa pièce des 2000s. D'une tradition de celui-ci, il n'a pas été élevé par sa pièce des 2000s.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A49Z%2F-1%2F%2Fcc3e408b22593fc065a524b0ccfa816409dba8845636c9db6706235765a62884"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8bf154c9-6f33-4139-8239-6f701e46e6d6/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A49Z%2F-1%2F%2Fe38c8daef854d19fb299110156da4ed3e9d4630da66e2ebce0aa30c573c0d3b9"
+}

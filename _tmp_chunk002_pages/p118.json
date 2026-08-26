@@ -1,0 +1,226 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "22",
+        "block_bbox": [
+          1507,
+          1013,
+          1598,
+          1051
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1507.0,
+            1013.0
+          ],
+          [
+            1598.0,
+            1013.0
+          ],
+          [
+            1598.0,
+            1051.0
+          ],
+          [
+            1507.0,
+            1051.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "au moyen âge dans laquet qui appaînent un certain déminuit qu'elles, mort depuis peu. Il s'en prasse de demander au mort: \"Et est-ce bien roi ce que nous croyant concernant Dieu, et est elle nais, dans aucun doute, la foi que nous l'envoisant ?\" - Nihil lait, ita verum, nihil ilo certum, zé pond la Biendeuraux.",
+        "block_bbox": [
+          2199,
+          1017,
+          2955,
+          1340
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2199.0,
+            1017.0
+          ],
+          [
+            2956.0,
+            1017.0
+          ],
+          [
+            2956.0,
+            1340.0
+          ],
+          [
+            2199.0,
+            1340.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "On a remarqué de Jean de Salé\n\nBurq qu'il possède longs verts\n\ndes Humanités et aucun de long\n\nrices, et c'est peut-être la maïs\n\nlors de conséritiques qu'on saut\n\nlait donner de lui. Il avait été\n\nprêt libre et émergique, la sem\n\npour la radioth, la variété de\n\nconnaissance et des intermédiaires.\n\nSon latin est clair et nouraux\n\nsur stule moins théorique et\n\nplus le序 que celui de la plan\n\nde plus tard\n\npart des humanités (le semble\n\navoir déjà lié quelques probit\n\nmatériel de ses connaissance\n\nlille-raiss, ne potia l’ibler\n\n266 zum� qu’au midi solotium pari\n\nles ac subsidien probot. La\n\ncomte de Champagne lui semble\n\nnot une série de questions prâto\n\nséparées et c’il iraise, auxquelles",
+        "block_bbox": [
+          2144,
+          1349,
+          2953,
+          2017
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2144.0,
+            1349.0
+          ],
+          [
+            2953.0,
+            1349.0
+          ],
+          [
+            2953.0,
+            2018.0
+          ],
+          [
+            2144.0,
+            2018.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.31692731380462646,
+          "coordinate": [
+            1507,
+            1013,
+            1598,
+            1051
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1507.0,
+              1013.0
+            ],
+            [
+              1598.0,
+              1013.0
+            ],
+            [
+              1598.0,
+              1051.0
+            ],
+            [
+              1507.0,
+              1051.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9114218354225159,
+          "coordinate": [
+            2199,
+            1017,
+            2955,
+            1340
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2199.0,
+              1017.0
+            ],
+            [
+              2956.0,
+              1017.0
+            ],
+            [
+              2956.0,
+              1340.0
+            ],
+            [
+              2199.0,
+              1340.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8608403205871582,
+          "coordinate": [
+            2144,
+            1349,
+            2953,
+            2017
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2144.0,
+              1349.0
+            ],
+            [
+              2953.0,
+              1349.0
+            ],
+            [
+              2953.0,
+              2018.0
+            ],
+            [
+              2144.0,
+              2018.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "au moyen âge dans laquet qui appaînent un certain déminuit qu'elles, mort depuis peu. Il s'en prasse de demander au mort: \"Et est-ce bien roi ce que nous croyant concernant Dieu, et est elle nais, dans aucun doute, la foi que nous l'envoisant ?\" - Nihil lait, ita verum, nihil ilo certum, zé pond la Biendeuraux.\n\nOn a remarqué de Jean de Salé\n\nBurq qu'il possède longs verts\n\ndes Humanités et aucun de long\n\nrices, et c'est peut-être la maïs\n\nlors de conséritiques qu'on saut\n\nlait donner de lui. Il avait été\n\nprêt libre et émergique, la sem\n\npour la radioth, la variété de\n\nconnaissance et des intermédiaires.\n\nSon latin est clair et nouraux\n\nsur stule moins théorique et\n\nplus le序 que celui de la plan\n\nde plus tard\n\npart des humanités (le semble\n\navoir déjà lié quelques probit\n\nmatériel de ses connaissance\n\nlille-raiss, ne potia l’ibler\n\n266 zum� qu’au midi solotium pari\n\nles ac subsidien probot. La\n\ncomte de Champagne lui semble\n\nnot une série de questions prâto\n\nséparées et c’il iraise, auxquelles",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//82cd0a75-900e-4120-a8a4-a7dde99c0239/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2F87ffe359f6d3ddad0eb34b07d91c5f88d37203ed9e6be62621c9a10b814b486d"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//82cd0a75-900e-4120-a8a4-a7dde99c0239/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A37Z%2F-1%2F%2Fa0d0d786e420d229abb0d93b6604c5695e84eb882ff3fc7e7eacf81e6da87e1e"
+}

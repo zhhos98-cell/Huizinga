@@ -1,0 +1,773 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Van Meier, Gioel Cardenas I 176.",
+        "block_bbox": [
+          141,
+          1063,
+          893,
+          1098
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            141.0,
+            1063.0
+          ],
+          [
+            893.0,
+            1063.0
+          ],
+          [
+            893.0,
+            1098.0
+          ],
+          [
+            141.0,
+            1098.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "A Chirimina Permissione olicetù palavianca Minastoli. Milianus olicetù in Caridito fratribù in Chariacomo in Otto Beatae Mariae ed in Bockium abdaticum ad Custom in Domino et oliceticianem. Lataed praetendit cum Romanum decamnum et magittrium intipiar at Carterod craca dignatus de Bestergas, qui antiquam variant in Baram Verodolimitamam et postquam nociosum intervenunt Aegyptium, macias difficil. Eales pasti atent in laboribus et expendit, olimiti mus cicatizati et abduntos secundum indudam genziam romanoe eccadias in generali condilis comditum, genici Prisonum perhibentet Bonam Bestimnium, to guod Roman conversationem vix erunt et in servitio Sedus Christi Strassa Colouravent at otus. Quocines olicetionem wellnam momentum in Domino et 2ogamund, ut cossam Aridomest peragrimat at las 2ostumles Gemigno tuscipitatis. Et di quid compara Paragrinatcomit 2000 super 2000 dals 200 molos. Prostatum per per eccadiasticam carmuram et aut. coritatem Romanoe accilvia clasma idlator 2000 civi faci 2000 eridans. E contra illos craca dignatus qui inobotientet 2000 sunt contra formam para. grimaticis constituitam in generali conicitis argmatis et ut asterniam ad Caridti obedientam faci.",
+        "block_bbox": [
+          138,
+          1128,
+          1367,
+          1980
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            138.0,
+            1128.0
+          ],
+          [
+            1367.0,
+            1128.0
+          ],
+          [
+            1367.0,
+            1980.0
+          ],
+          [
+            138.0,
+            1980.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Qianren u. Padeng",
+        "block_bbox": [
+          170,
+          1990,
+          845,
+          2016
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            170.0,
+            1990.0
+          ],
+          [
+            845.0,
+            1990.0
+          ],
+          [
+            845.0,
+            2016.0
+          ],
+          [
+            170.0,
+            2016.0
+          ]
+        ]
+      },
+      {
+        "block_label": "number",
+        "block_content": "12",
+        "block_bbox": [
+          1536,
+          981,
+          1584,
+          1007
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1535.9998779296875,
+            981.0
+          ],
+          [
+            1582.9998779296875,
+            981.0
+          ],
+          [
+            1582.9998779296875,
+            1006.0
+          ],
+          [
+            1535.9998779296875,
+            1006.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "D. op da grand uan He on mod.",
+        "block_bbox": [
+          1538,
+          1124,
+          1983,
+          1152
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1538.0,
+            1124.0
+          ],
+          [
+            1983.0,
+            1124.0
+          ],
+          [
+            1983.0,
+            1152.0
+          ],
+          [
+            1538.0,
+            1152.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "her vision is\nu.Goga!",
+        "block_bbox": [
+          1913,
+          1400,
+          2167,
+          1451
+        ],
+        "block_id": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1913.0,
+            1400.0
+          ],
+          [
+            2167.0,
+            1400.0
+          ],
+          [
+            2167.0,
+            1451.0
+          ],
+          [
+            1913.0,
+            1451.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "One hoarsely zelfus will, allied in lamenธయng met de gedescale. - de heede me. litt, werdt me dromm- en angelmotien. cij D. zipe ze alligd scorp en belangweel kend, b.o. Peng.17.",
+        "block_bbox": [
+          2235,
+          975,
+          2954,
+          1101
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2235.0,
+            975.0
+          ],
+          [
+            2954.0,
+            975.0
+          ],
+          [
+            2954.0,
+            1101.0
+          ],
+          [
+            2235.0,
+            1101.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "het lucide is now klare van Back het cosmic de en het palas u. Beelover",
+        "block_bbox": [
+          2239,
+          1101,
+          2953,
+          1157
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2239.0,
+            1101.0
+          ],
+          [
+            2953.0,
+            1101.0
+          ],
+          [
+            2953.0,
+            1157.0
+          ],
+          [
+            2239.0,
+            1157.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "om hat plot element in D. la ziion, zou me de vergeltigung mosten witwarkern lusscher D. an Giotto. - op granot u. Pang. 11.9 Cimabera en Giotto door Valerii la willde lend op vorgrompt gesteld. andres stade geer voor: Giunto u. Pisa 1202/55 bebrand Guido en buccio in Sioma.",
+        "block_bbox": [
+          2237,
+          1177,
+          2954,
+          1353
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2237.0,
+            1177.0
+          ],
+          [
+            2954.0,
+            1177.0
+          ],
+          [
+            2954.0,
+            1353.0
+          ],
+          [
+            2237.0,
+            1353.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Van Cinn. weinig authenticity. Giotto\n\ndo plast. beperking lot het delangripke\n\nhet ean. geboon, het strooke zaflaame\n\nde most lucken de hierarises idea\n\nkunst en de afbeolting der andsening\n\nZeep. nog geen realisme nog stark decora\n\nliep. Legegik beeddelouwer en bouwer",
+        "block_bbox": [
+          2236,
+          1353,
+          2954,
+          1522
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2236.0,
+            1353.0
+          ],
+          [
+            2954.0,
+            1353.0
+          ],
+          [
+            2954.0,
+            1522.0
+          ],
+          [
+            2236.0,
+            1522.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "A2s nova, geem Kunst zoo kerkelige als\n\nmuziek. verlies v.d. oude matr. toomen\n\ncontus planus \"firmus Zonder eigend\n\nmost - leguantia - alles constemmig.\n\norganum v. Huckald v. S. Amonat 850-930.\n\nmoliligk. met theorie en noumas: quart,\n\nquint en octaap. - gelig met gold. schadst\n\nen 122. de nieuwe meerstemmigh. op. -\n\nde Paris ans antiqua des mensuralisten\n\ndiscentus naast tenor of Bourdon. con-\n\ntrapunctus floridus, disc. wordt eigend.\n\nmelodie, mater wroll noodig.",
+        "block_bbox": [
+          2234,
+          1537,
+          2953,
+          1813
+        ],
+        "block_id": 10,
+        "block_order": 9,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            2234.0,
+            1537.0
+          ],
+          [
+            2953.0,
+            1537.0
+          ],
+          [
+            2953.0,
+            1813.0
+          ],
+          [
+            2234.0,
+            1813.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "mit hroub. lyriche dringer element. v.h. oude domlied Binnen. door was most a form (also) omnildoon. Nicowe harmoniein (eng. hall. modilie?) werede. kurstmu ziel: modrigd, caccia, ballota: wellui dende. er nitdrubling, hot notnundik schsone in p. v.h. begrippalike. - roagen Logedend aos Paris, oberne as de",
+        "block_bbox": [
+          2225,
+          1812,
+          2953,
+          2016
+        ],
+        "block_id": 11,
+        "block_order": 10,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            2225.0,
+            1812.0
+          ],
+          [
+            2953.0,
+            1812.0
+          ],
+          [
+            2953.0,
+            2016.0
+          ],
+          [
+            2225.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5992036461830139,
+          "coordinate": [
+            141,
+            1063,
+            893,
+            1098
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              141.0,
+              1063.0
+            ],
+            [
+              893.0,
+              1063.0
+            ],
+            [
+              893.0,
+              1098.0
+            ],
+            [
+              141.0,
+              1098.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9004579782485962,
+          "coordinate": [
+            138,
+            1128,
+            1367,
+            1980
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              138.0,
+              1128.0
+            ],
+            [
+              1367.0,
+              1128.0
+            ],
+            [
+              1367.0,
+              1980.0
+            ],
+            [
+              138.0,
+              1980.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.30711331963539124,
+          "coordinate": [
+            170,
+            1990,
+            845,
+            2016
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              170.0,
+              1990.0
+            ],
+            [
+              845.0,
+              1990.0
+            ],
+            [
+              845.0,
+              2016.0
+            ],
+            [
+              170.0,
+              2016.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.3720155954360962,
+          "coordinate": [
+            1536,
+            981,
+            1584,
+            1007
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1535.9998779296875,
+              981.0
+            ],
+            [
+              1582.9998779296875,
+              981.0
+            ],
+            [
+              1582.9998779296875,
+              1006.0
+            ],
+            [
+              1535.9998779296875,
+              1006.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3745294511318207,
+          "coordinate": [
+            1538,
+            1124,
+            1983,
+            1152
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1538.0,
+              1124.0
+            ],
+            [
+              1983.0,
+              1124.0
+            ],
+            [
+              1983.0,
+              1152.0
+            ],
+            [
+              1538.0,
+              1152.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5733988285064697,
+          "coordinate": [
+            1913,
+            1400,
+            2167,
+            1451
+          ],
+          "polygon_points": [
+            [
+              1913.0,
+              1400.0
+            ],
+            [
+              2167.0,
+              1400.0
+            ],
+            [
+              2167.0,
+              1451.0
+            ],
+            [
+              1913.0,
+              1451.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7894282937049866,
+          "coordinate": [
+            2235,
+            975,
+            2954,
+            1101
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2235.0,
+              975.0
+            ],
+            [
+              2954.0,
+              975.0
+            ],
+            [
+              2954.0,
+              1101.0
+            ],
+            [
+              2235.0,
+              1101.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.757061779499054,
+          "coordinate": [
+            2239,
+            1101,
+            2953,
+            1157
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2239.0,
+              1101.0
+            ],
+            [
+              2953.0,
+              1101.0
+            ],
+            [
+              2953.0,
+              1157.0
+            ],
+            [
+              2239.0,
+              1157.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8402585983276367,
+          "coordinate": [
+            2237,
+            1177,
+            2954,
+            1353
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2237.0,
+              1177.0
+            ],
+            [
+              2954.0,
+              1177.0
+            ],
+            [
+              2954.0,
+              1353.0
+            ],
+            [
+              2237.0,
+              1353.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8538492918014526,
+          "coordinate": [
+            2236,
+            1353,
+            2954,
+            1522
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              2236.0,
+              1353.0
+            ],
+            [
+              2954.0,
+              1353.0
+            ],
+            [
+              2954.0,
+              1522.0
+            ],
+            [
+              2236.0,
+              1522.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8626747727394104,
+          "coordinate": [
+            2234,
+            1537,
+            2953,
+            1813
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              2234.0,
+              1537.0
+            ],
+            [
+              2953.0,
+              1537.0
+            ],
+            [
+              2953.0,
+              1813.0
+            ],
+            [
+              2234.0,
+              1813.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8370993137359619,
+          "coordinate": [
+            2225,
+            1812,
+            2953,
+            2016
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              2225.0,
+              1812.0
+            ],
+            [
+              2953.0,
+              1812.0
+            ],
+            [
+              2953.0,
+              2016.0
+            ],
+            [
+              2225.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Van Meier, Gioel Cardenas I 176.\n\nA Chirimina Permissione olicetù palavianca Minastoli. Milianus olicetù in Caridito fratribù in Chariacomo in Otto Beatae Mariae ed in Bockium abdaticum ad Custom in Domino et oliceticianem. Lataed praetendit cum Romanum decamnum et magittrium intipiar at Carterod craca dignatus de Bestergas, qui antiquam variant in Baram Verodolimitamam et postquam nociosum intervenunt Aegyptium, macias difficil. Eales pasti atent in laboribus et expendit, olimiti mus cicatizati et abduntos secundum indudam genziam romanoe eccadias in generali condilis comditum, genici Prisonum perhibentet Bonam Bestimnium, to guod Roman conversationem vix erunt et in servitio Sedus Christi Strassa Colouravent at otus. Quocines olicetionem wellnam momentum in Domino et 2ogamund, ut cossam Aridomest peragrimat at las 2ostumles Gemigno tuscipitatis. Et di quid compara Paragrinatcomit 2000 super 2000 dals 200 molos. Prostatum per per eccadiasticam carmuram et aut. coritatem Romanoe accilvia clasma idlator 2000 civi faci 2000 eridans. E contra illos craca dignatus qui inobotientet 2000 sunt contra formam para. grimaticis constituitam in generali conicitis argmatis et ut asterniam ad Caridti obedientam faci.\n\nQianren u. Padeng\n\nD. op da grand uan He on mod.\n\nOne hoarsely zelfus will, allied in lamenธయng met de gedescale. - de heede me. litt, werdt me dromm- en angelmotien. cij D. zipe ze alligd scorp en belangweel kend, b.o. Peng.17.\n\nhet lucide is now klare van Back het cosmic de en het palas u. Beelover\n\nom hat plot element in D. la ziion, zou me de vergeltigung mosten witwarkern lusscher D. an Giotto. - op granot u. Pang. 11.9 Cimabera en Giotto door Valerii la willde lend op vorgrompt gesteld. andres stade geer voor: Giunto u. Pisa 1202/55 bebrand Guido en buccio in Sioma.\n\nVan Cinn. weinig authenticity. Giotto\n\ndo plast. beperking lot het delangripke\n\nhet ean. geboon, het strooke zaflaame\n\nde most lucken de hierarises idea\n\nkunst en de afbeolting der andsening\n\nZeep. nog geen realisme nog stark decora\n\nliep. Legegik beeddelouwer en bouwer\n\nA2s nova, geem Kunst zoo kerkelige als\n\nmuziek. verlies v.d. oude matr. toomen\n\ncontus planus \"firmus Zonder eigend\n\nmost - leguantia - alles constemmig.\n\norganum v. Huckald v. S. Amonat 850-930.\n\nmoliligk. met theorie en noumas: quart,\n\nquint en octaap. - gelig met gold. schadst\n\nen 122. de nieuwe meerstemmigh. op. -\n\nde Paris ans antiqua des mensuralisten\n\ndiscentus naast tenor of Bourdon. con-\n\ntrapunctus floridus, disc. wordt eigend.\n\nmelodie, mater wroll noodig.\n\nmit hroub. lyriche dringer element. v.h. oude domlied Binnen. door was most a form (also) omnildoon. Nicowe harmoniein (eng. hall. modilie?) werede. kurstmu ziel: modrigd, caccia, ballota: wellui dende. er nitdrubling, hot notnundik schsone in p. v.h. begrippalike. - roagen Logedend aos Paris, oberne as de",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8ae30ee2-176c-4da4-9d41-85f6d24fe618/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2Fa8c245449764b54b5685d4f4e070a0859e5d054f6c71125f765e80f14b0298ef"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//8ae30ee2-176c-4da4-9d41-85f6d24fe618/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A48Z%2F-1%2F%2F09ecc93b6adc22183901a6d540b5db7131fa8c533ec03219a7b131c2d376e574"
+}

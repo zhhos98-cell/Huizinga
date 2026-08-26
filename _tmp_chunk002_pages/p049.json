@@ -1,0 +1,166 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "thui 00315",
+        "block_bbox": [
+          1395,
+          1292,
+          1617,
+          1346
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1395.0,
+            1292.0
+          ],
+          [
+            1617.0,
+            1292.0
+          ],
+          [
+            1617.0,
+            1346.0
+          ],
+          [
+            1395.0,
+            1346.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Trois esprits prégothiques\n\n< Parijs 1930 >",
+        "block_bbox": [
+          1381,
+          1361,
+          1866,
+          1502
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1381.0,
+            1361.0
+          ],
+          [
+            1866.0,
+            1361.0
+          ],
+          [
+            1866.0,
+            1502.0
+          ],
+          [
+            1381.0,
+            1502.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.41695213317871094,
+          "coordinate": [
+            1395,
+            1292,
+            1617,
+            1346
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1395.0,
+              1292.0
+            ],
+            [
+              1617.0,
+              1292.0
+            ],
+            [
+              1617.0,
+              1346.0
+            ],
+            [
+              1395.0,
+              1346.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.667752742767334,
+          "coordinate": [
+            1381,
+            1361,
+            1866,
+            1502
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1381.0,
+              1361.0
+            ],
+            [
+              1866.0,
+              1361.0
+            ],
+            [
+              1866.0,
+              1502.0
+            ],
+            [
+              1381.0,
+              1502.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "thui 00315\n\nTrois esprits prégothiques\n\n< Parijs 1930 >",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A45Z%2F-1%2F%2Fc86cbde89d90e27223acb722c1adcec452f55621762e70f227e61ee6d66f5071"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//9bcf2bc7-a489-41df-97c9-19f1468aba74/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A45Z%2F-1%2F%2F8665b843bdb9ff775ed703daafbc75ce25c6c8a48a7566fe0d5c3db506ed7d9a"
+}

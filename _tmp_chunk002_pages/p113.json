@@ -1,0 +1,163 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "table",
+        "block_content": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>l&#x27;en a résumé au 40c, de celle amitié et j&#x27;ai reg�elle qu&#x27;il é- lait lap éloit pour contenir lout. Cangé de ce non précient le n&#x27;ai pas senti ses poés, parce que non fondent me soulaait. Et mentionnel après le long 40e ge je l&#x27;est une mon sac encore plein, rien n&#x27;est l&#x27;ombé, par- ceque, charisles nungues existit parfois ces afféries d&#x27;ami- lié monacée portent un accent qui nous fait penter aux beaux iours que deniméssime. Tol les express ces sont se sent sur- gen, écrivant à Saint Bernard 283 et à�oléin de Soissons. Tol Pierre de Céurné écrivant à Héloïse, en réponse de la lettre qu&#x27;elle est écrivit après la binté j&#x27;est que Pierre de Véminérée l&#x27;entient au Parocet.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>1.118/9</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>par la poin sec. Un ami muuel</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>lui a dit que Pierre de a addre,</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Pierre doit dein c&#x27;est Cott qui n&#x27;est pas qui qui n&#x27;est pas le qui n&#x27;est pas le qui n&#x27;</td></tr></table>",
+        "block_bbox": [
+          0,
+          0,
+          1518,
+          1024
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            -8.0,
+            -1.0
+          ],
+          [
+            1518.0,
+            -1.0
+          ],
+          [
+            1518.0,
+            1024.0
+          ],
+          [
+            -8.0,
+            1024.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 21,
+          "label": "table",
+          "score": 0.42435479164123535,
+          "coordinate": [
+            0,
+            0,
+            1518,
+            1024
+          ],
+          "polygon_points": [
+            [
+              -8.0,
+              -1.0
+            ],
+            [
+              1518.0,
+              -1.0
+            ],
+            [
+              1518.0,
+              1024.0
+            ],
+            [
+              -8.0,
+              1024.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3308528661727905,
+          "coordinate": [
+            0,
+            354,
+            806,
+            1020
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              -1.0,
+              354.0
+            ],
+            [
+              806.0,
+              354.0
+            ],
+            [
+              806.0,
+              1020.0
+            ],
+            [
+              -1.0,
+              1020.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.40520358085632324,
+          "coordinate": [
+            1459,
+            981,
+            1504,
+            1013
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1459.0,
+              981.0
+            ],
+            [
+              1503.0,
+              981.0
+            ],
+            [
+              1503.0,
+              1012.0
+            ],
+            [
+              1459.0,
+              1012.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 180
+    }
+  },
+  "markdown": {
+    "text": "\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>17</td><td style='text-align: center; word-wrap: break-word;'>l&#x27;en a résumé au 40c, de celle amitié et j&#x27;ai reg�elle qu&#x27;il é- lait lap éloit pour contenir lout. Cangé de ce non précient le n&#x27;ai pas senti ses poés, parce que non fondent me soulaait. Et mentionnel après le long 40e ge je l&#x27;est une mon sac encore plein, rien n&#x27;est l&#x27;ombé, par- ceque, charisles nungues existit parfois ces afféries d&#x27;ami- lié monacée portent un accent qui nous fait penter aux beaux iours que deniméssime. Tol les express ces sont se sent sur- gen, écrivant à Saint Bernard 283 et à�oléin de Soissons. Tol Pierre de Céurné écrivant à Héloïse, en réponse de la lettre qu&#x27;elle est écrivit après la binté j&#x27;est que Pierre de Véminérée l&#x27;entient au Parocet.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>1.118/9</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>par la poin sec. Un ami muuel</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>lui a dit que Pierre de a addre,</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Pierre doit dein c&#x27;est Cott qui n&#x27;est pas qui qui n&#x27;est pas le qui n&#x27;est pas le qui n&#x27;</td></tr></table>",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c99a4ec6-d516-4b99-9ba0-7f8ab720e9fd/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2Fcc8116d9b98e21ca7c266eb4eff882625647fa67371960b03d6a9b16e627a489"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c99a4ec6-d516-4b99-9ba0-7f8ab720e9fd/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A46Z%2F-1%2F%2F2aad901b7111fc61ad8a1b4af9e6a8f90567d4a344560a26f9cdfb3d2b64473f"
+}

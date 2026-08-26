@@ -1,0 +1,654 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "Dilactis in Canisca amicis, alcatibus, prioribus, are-\n\npositive, decanis, alcatamis et constituat feidia des-\n\nbus empliciusююююююююююююю\n\nColoniensis racemamamara, leamamacificae et ac-\n\nportium etroca lacutis anhedora. Reimpolator in id-\n\ncada, a quo-datum omna optimumus et omna domum\n\nperfectum, gamtem vectram, devotam et in Caobirdis\n\nParagrinolicis parthenorantam magnificari deper-\n\nlenna, quadrigam epid component, in guen premium\n\netermus premarerunt et farmam lamporolans, guam\n\nAerodora nom postum, de in capite ilimae peralvenne.\n\nLint adqua in finam April Damietam eiguideam humi-\n\ncilatem magnam olandarum, Cargitatum, oboeion\n\net audaciam, Sabracamid formidodi, Caridliamid caeni.\n\nUnda was pbotatox eccobiumu hollamur et obde-\n\ncramid in Carislo, quatemus dicub ex dlatuto latera-\n\nnerid concicil inimilatoris eorum, qui aquad Damis-\n\nlabam deae et fuerunt, par caudram eccobidicam,\n\nguam patriancha publica et nos coneram malaportior\n\nParagrinornus teplonot, furat et adion franotonea et\n\nmodimorans promodamim, non negligatis. Et ver-\n\ncondus letra prolatis estris in hac te non contra-\n\ndicatis, sed diamurciatus volis imicriatoris caetis\n\nciliatis. Nam Paragrinos, quod Deud exaltam, homi-\n\nned honoras Lemonius. Scriptum aquad Damietam\n\nin exaetationa sancta curid.",
+        "block_bbox": [
+          170,
+          999,
+          1377,
+          1805
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            170.0,
+            999.0
+          ],
+          [
+            1377.0,
+            999.0
+          ],
+          [
+            1377.0,
+            1805.0
+          ],
+          [
+            170.0,
+            1805.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Vora Bapt. de acatuma varu sleads\n\nBewand. Bapt. S. Gier. oaspr. kolbadr. U.\n\nFLO2. 7/8 lew gebouwd. architecture\n\nweinig vermoeder. 1193/1205 inw. vertie\n\nling, kost dearm v. Buten.",
+        "block_bbox": [
+          2244,
+          994,
+          2952,
+          1135
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2244.0,
+            994.0
+          ],
+          [
+            2952.0,
+            994.0
+          ],
+          [
+            2952.0,
+            1135.0
+          ],
+          [
+            2244.0,
+            1135.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "5. Minims de montre, l'acadé 1062/93. Zuel antique, kapiteolier les doles oub. ucer, preelstoo. - hoest goes 20moam. scha elementem.",
+        "block_bbox": [
+          2242,
+          1136,
+          2953,
+          1231
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2242.0,
+            1136.0
+          ],
+          [
+            2953.0,
+            1136.0
+          ],
+          [
+            2953.0,
+            1231.0
+          ],
+          [
+            2242.0,
+            1231.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Tuss�en 20m. en gold. in 16th. de scai.\n\nding nog zwalten den elden. -de go\n\nthieß in 16th. wertend mit de bedeter\n\nden, hat oderp. cilliencienter modl.",
+        "block_bbox": [
+          2238,
+          1236,
+          2953,
+          1334
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2238.0,
+            1236.0
+          ],
+          [
+            2953.0,
+            1236.0
+          ],
+          [
+            2953.0,
+            1334.0
+          ],
+          [
+            2238.0,
+            1334.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "het gola. principe: added op die pilend en zullem, het verticade, de miner wege verstand. Sculpture was u. kapiloo en Goog, naar briten, de inwend versiering glasscalderkunst. Zurem, aleweil nog verstand (mindes lica).",
+        "block_bbox": [
+          2239,
+          1334,
+          2954,
+          1455
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2239.0,
+            1334.0
+          ],
+          [
+            2954.0,
+            1334.0
+          ],
+          [
+            2954.0,
+            1455.0
+          ],
+          [
+            2239.0,
+            1455.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Hal. daventagem: levantei ele muni.\n\nwelft weinig, houdt daardser soberder\n\nformen en horizontale. vertiest de\n\nzhuflamide, mist het gasscalderig.\n\nhoudt plaats voor rije versiering: imlag,fret\n\nco. C. 59: die gold. formen, losgelraemt v.\n\nihren unzul, werden nur als ein deco-\n\nzelines gewand übergeworfen.",
+        "block_bbox": [
+          2232,
+          1454,
+          2953,
+          1636
+        ],
+        "block_id": 5,
+        "block_order": 6,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2232.0,
+            1454.0
+          ],
+          [
+            2953.0,
+            1454.0
+          ],
+          [
+            2953.0,
+            1636.0
+          ],
+          [
+            2232.0,
+            1636.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "her results in her age, on being digend\n\nher lymphonica effoli v. eco fra katha\n\ndrood nargors heraile, Miloam pompeus\n\ndom v. flor., Os taumicade van Gimman\n\ndoodsa.",
+        "block_bbox": [
+          2228,
+          1635,
+          2953,
+          1750
+        ],
+        "block_id": 6,
+        "block_order": 7,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2228.0,
+            1635.0
+          ],
+          [
+            2953.0,
+            1635.0
+          ],
+          [
+            2953.0,
+            1750.0
+          ],
+          [
+            2228.0,
+            1750.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "maar: S. Croce. kind 13. eeww. Arms&po di\n\nCambio + 1301 - most doben zijn. en ziem.\n\nS. Maria novella (Dominic.) 1278 Lot 1490",
+        "block_bbox": [
+          2225,
+          1751,
+          2954,
+          1824
+        ],
+        "block_id": 7,
+        "block_order": 8,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2225.0,
+            1751.0
+          ],
+          [
+            2954.0,
+            1751.0
+          ],
+          [
+            2954.0,
+            1824.0
+          ],
+          [
+            2225.0,
+            1824.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Overigent in ital. goldish weald 2010 on-manhangends. de facade can goi solserd pronblituk, weadae nu nog in- crustatie (Fin. 30), moderne pas. v.com an S.enoc. -de lossse campanile op. z.zalf logisch (elostoran).",
+        "block_bbox": [
+          2224,
+          1831,
+          2954,
+          1969
+        ],
+        "block_id": 8,
+        "block_order": 9,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2224.0,
+            1831.0
+          ],
+          [
+            2954.0,
+            1831.0
+          ],
+          [
+            2954.0,
+            1969.0
+          ],
+          [
+            2224.0,
+            1969.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Dom: Projectet u. hromsefo di Cambio. most\n\ncolles overtroppen. zaer lang anw gelv",
+        "block_bbox": [
+          2227,
+          1968,
+          2955,
+          2017
+        ],
+        "block_id": 9,
+        "block_order": 10,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2227.0,
+            1968.0
+          ],
+          [
+            2955.0,
+            1968.0
+          ],
+          [
+            2955.0,
+            2017.0
+          ],
+          [
+            2227.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9160091280937195,
+          "coordinate": [
+            170,
+            999,
+            1377,
+            1805
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              170.0,
+              999.0
+            ],
+            [
+              1377.0,
+              999.0
+            ],
+            [
+              1377.0,
+              1805.0
+            ],
+            [
+              170.0,
+              1805.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7679163813591003,
+          "coordinate": [
+            2244,
+            994,
+            2952,
+            1135
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2244.0,
+              994.0
+            ],
+            [
+              2952.0,
+              994.0
+            ],
+            [
+              2952.0,
+              1135.0
+            ],
+            [
+              2244.0,
+              1135.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8631095290184021,
+          "coordinate": [
+            2242,
+            1136,
+            2953,
+            1231
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2242.0,
+              1136.0
+            ],
+            [
+              2953.0,
+              1136.0
+            ],
+            [
+              2953.0,
+              1231.0
+            ],
+            [
+              2242.0,
+              1231.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8479253649711609,
+          "coordinate": [
+            2238,
+            1236,
+            2953,
+            1334
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2238.0,
+              1236.0
+            ],
+            [
+              2953.0,
+              1236.0
+            ],
+            [
+              2953.0,
+              1334.0
+            ],
+            [
+              2238.0,
+              1334.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7344823479652405,
+          "coordinate": [
+            2239,
+            1334,
+            2954,
+            1455
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2239.0,
+              1334.0
+            ],
+            [
+              2954.0,
+              1334.0
+            ],
+            [
+              2954.0,
+              1455.0
+            ],
+            [
+              2239.0,
+              1455.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7211623191833496,
+          "coordinate": [
+            2232,
+            1454,
+            2953,
+            1636
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2232.0,
+              1454.0
+            ],
+            [
+              2953.0,
+              1454.0
+            ],
+            [
+              2953.0,
+              1636.0
+            ],
+            [
+              2232.0,
+              1636.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8644710183143616,
+          "coordinate": [
+            2228,
+            1635,
+            2953,
+            1750
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2228.0,
+              1635.0
+            ],
+            [
+              2953.0,
+              1635.0
+            ],
+            [
+              2953.0,
+              1750.0
+            ],
+            [
+              2228.0,
+              1750.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.832495391368866,
+          "coordinate": [
+            2225,
+            1751,
+            2954,
+            1824
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2225.0,
+              1751.0
+            ],
+            [
+              2954.0,
+              1751.0
+            ],
+            [
+              2954.0,
+              1824.0
+            ],
+            [
+              2225.0,
+              1824.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8871261477470398,
+          "coordinate": [
+            2224,
+            1831,
+            2954,
+            1969
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              2224.0,
+              1831.0
+            ],
+            [
+              2954.0,
+              1831.0
+            ],
+            [
+              2954.0,
+              1969.0
+            ],
+            [
+              2224.0,
+              1969.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6826721429824829,
+          "coordinate": [
+            2227,
+            1968,
+            2955,
+            2017
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              2227.0,
+              1968.0
+            ],
+            [
+              2955.0,
+              1968.0
+            ],
+            [
+              2955.0,
+              2017.0
+            ],
+            [
+              2227.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Dilactis in Canisca amicis, alcatibus, prioribus, are-\n\npositive, decanis, alcatamis et constituat feidia des-\n\nbus empliciusююююююююююююю\n\nColoniensis racemamamara, leamamacificae et ac-\n\nportium etroca lacutis anhedora. Reimpolator in id-\n\ncada, a quo-datum omna optimumus et omna domum\n\nperfectum, gamtem vectram, devotam et in Caobirdis\n\nParagrinolicis parthenorantam magnificari deper-\n\nlenna, quadrigam epid component, in guen premium\n\netermus premarerunt et farmam lamporolans, guam\n\nAerodora nom postum, de in capite ilimae peralvenne.\n\nLint adqua in finam April Damietam eiguideam humi-\n\ncilatem magnam olandarum, Cargitatum, oboeion\n\net audaciam, Sabracamid formidodi, Caridliamid caeni.\n\nUnda was pbotatox eccobiumu hollamur et obde-\n\ncramid in Carislo, quatemus dicub ex dlatuto latera-\n\nnerid concicil inimilatoris eorum, qui aquad Damis-\n\nlabam deae et fuerunt, par caudram eccobidicam,\n\nguam patriancha publica et nos coneram malaportior\n\nParagrinornus teplonot, furat et adion franotonea et\n\nmodimorans promodamim, non negligatis. Et ver-\n\ncondus letra prolatis estris in hac te non contra-\n\ndicatis, sed diamurciatus volis imicriatoris caetis\n\nciliatis. Nam Paragrinos, quod Deud exaltam, homi-\n\nned honoras Lemonius. Scriptum aquad Damietam\n\nin exaetationa sancta curid.\n\nVora Bapt. de acatuma varu sleads\n\nBewand. Bapt. S. Gier. oaspr. kolbadr. U.\n\nFLO2. 7/8 lew gebouwd. architecture\n\nweinig vermoeder. 1193/1205 inw. vertie\n\nling, kost dearm v. Buten.\n\n5. Minims de montre, l'acadé 1062/93. Zuel antique, kapiteolier les doles oub. ucer, preelstoo. - hoest goes 20moam. scha elementem.\n\nTuss�en 20m. en gold. in 16th. de scai.\n\nding nog zwalten den elden. -de go\n\nthieß in 16th. wertend mit de bedeter\n\nden, hat oderp. cilliencienter modl.\n\nhet gola. principe: added op die pilend en zullem, het verticade, de miner wege verstand. Sculpture was u. kapiloo en Goog, naar briten, de inwend versiering glasscalderkunst. Zurem, aleweil nog verstand (mindes lica).\n\nHal. daventagem: levantei ele muni.\n\nwelft weinig, houdt daardser soberder\n\nformen en horizontale. vertiest de\n\nzhuflamide, mist het gasscalderig.\n\nhoudt plaats voor rije versiering: imlag,fret\n\nco. C. 59: die gold. formen, losgelraemt v.\n\nihren unzul, werden nur als ein deco-\n\nzelines gewand übergeworfen.\n\nher results in her age, on being digend\n\nher lymphonica effoli v. eco fra katha\n\ndrood nargors heraile, Miloam pompeus\n\ndom v. flor., Os taumicade van Gimman\n\ndoodsa.\n\nmaar: S. Croce. kind 13. eeww. Arms&po di\n\nCambio + 1301 - most doben zijn. en ziem.\n\nS. Maria novella (Dominic.) 1278 Lot 1490\n\nOverigent in ital. goldish weald 2010 on-manhangends. de facade can goi solserd pronblituk, weadae nu nog in- crustatie (Fin. 30), moderne pas. v.com an S.enoc. -de lossse campanile op. z.zalf logisch (elostoran).\n\nDom: Projectet u. hromsefo di Cambio. most\n\ncolles overtroppen. zaer lang anw gelv",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//1ef7154e-c414-4404-a99f-a301d85f1425/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2F58d42a4956052aa1789ea531be04778534d243d8ff3e3d33db8396ae0f2d6b24"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//1ef7154e-c414-4404-a99f-a301d85f1425/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A38Z%2F-1%2F%2Fbfbf08617fca17e375526c9d51fc4660a40f40f5b61d54eef02eb17762959452"
+}

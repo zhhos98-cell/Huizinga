@@ -1,0 +1,349 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "dans la l'incidition classique\n\nreprise qu'il voit au fond\n\ncustom de remission, 20\n\nvirals, de la civilisation en\n\nligue qui allait fructifion,\n\nmanciper, élargir ce do\n\nDane c'est le\n\nGecident craction.",
+        "block_bbox": [
+          1497,
+          1183,
+          2195,
+          1246
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1497.0,
+            1183.0
+          ],
+          [
+            2195.0,
+            1183.0
+          ],
+          [
+            2195.0,
+            1246.0
+          ],
+          [
+            1497.0,
+            1246.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "",
+        "block_bbox": [
+          2213,
+          1015,
+          2955,
+          1178
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2213.0,
+            1015.0
+          ],
+          [
+            2955.0,
+            1015.0
+          ],
+          [
+            2955.0,
+            1178.0
+          ],
+          [
+            2213.0,
+            1178.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "La causa principada de cello é evolución qui nous donnent la prémitude de��ivisation médiévale au leroizème siècle",
+        "block_bbox": [
+          2209,
+          1181,
+          2953,
+          1319
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2209.0,
+            1181.0
+          ],
+          [
+            2953.0,
+            1181.0
+          ],
+          [
+            2953.0,
+            1319.0
+          ],
+          [
+            2209.0,
+            1319.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "le ma demanda si M. Haskimé n°ait pas expéré l'effet de cela reprise de l'élément classique pour la développement de la culture christiane Sans doute, Aristotle à lui seul constitue une véritable 20 naissance d'une impéance extrême. Ainsi fait la droit 20 main. Tout de même je crois que les grandes forces notaires gident célébrer que dans la cultivation d'un nouveau classique dans les écolas. A mon avis M. Haskimé, en insistant sur le grand rôle qu'est joué",
+        "block_bbox": [
+          2200,
+          1322,
+          2955,
+          1855
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2200.0,
+            1322.0
+          ],
+          [
+            2956.0,
+            1322.0
+          ],
+          [
+            2956.0,
+            1855.0
+          ],
+          [
+            2200.0,
+            1855.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "sicismo comuna exelice mental pour l'expitifment et raida du moyen âge, nocid fait courir la risque de perdre de vue les grandes forces fonds mentales et motrices opérant",
+        "block_bbox": [
+          1803,
+          1857,
+          2955,
+          2014
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1803.0,
+            1857.0
+          ],
+          [
+            2956.0,
+            1857.0
+          ],
+          [
+            2956.0,
+            2014.0
+          ],
+          [
+            1803.0,
+            2014.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.48056212067604065,
+          "coordinate": [
+            1497,
+            1183,
+            2195,
+            1246
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1497.0,
+              1183.0
+            ],
+            [
+              2195.0,
+              1183.0
+            ],
+            [
+              2195.0,
+              1246.0
+            ],
+            [
+              1497.0,
+              1246.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7134271860122681,
+          "coordinate": [
+            2213,
+            1015,
+            2955,
+            1178
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2213.0,
+              1015.0
+            ],
+            [
+              2955.0,
+              1015.0
+            ],
+            [
+              2955.0,
+              1178.0
+            ],
+            [
+              2213.0,
+              1178.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.660038411617279,
+          "coordinate": [
+            2209,
+            1181,
+            2953,
+            1319
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2209.0,
+              1181.0
+            ],
+            [
+              2953.0,
+              1181.0
+            ],
+            [
+              2953.0,
+              1319.0
+            ],
+            [
+              2209.0,
+              1319.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7342870235443115,
+          "coordinate": [
+            2200,
+            1322,
+            2955,
+            1855
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2200.0,
+              1322.0
+            ],
+            [
+              2956.0,
+              1322.0
+            ],
+            [
+              2956.0,
+              1855.0
+            ],
+            [
+              2200.0,
+              1855.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6091460585594177,
+          "coordinate": [
+            1803,
+            1857,
+            2955,
+            2014
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1803.0,
+              1857.0
+            ],
+            [
+              2956.0,
+              1857.0
+            ],
+            [
+              2956.0,
+              2014.0
+            ],
+            [
+              1803.0,
+              2014.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "dans la l'incidition classique\n\nreprise qu'il voit au fond\n\ncustom de remission, 20\n\nvirals, de la civilisation en\n\nligue qui allait fructifion,\n\nmanciper, élargir ce do\n\nDane c'est le\n\nGecident craction.\n\n\n\nLa causa principada de cello é evolución qui nous donnent la prémitude de��ivisation médiévale au leroizème siècle\n\nle ma demanda si M. Haskimé n°ait pas expéré l'effet de cela reprise de l'élément classique pour la développement de la culture christiane Sans doute, Aristotle à lui seul constitue une véritable 20 naissance d'une impéance extrême. Ainsi fait la droit 20 main. Tout de même je crois que les grandes forces notaires gident célébrer que dans la cultivation d'un nouveau classique dans les écolas. A mon avis M. Haskimé, en insistant sur le grand rôle qu'est joué\n\nsicismo comuna exelice mental pour l'expitifment et raida du moyen âge, nocid fait courir la risque de perdre de vue les grandes forces fonds mentales et motrices opérant",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//88bccc69-5902-4e92-becd-be31058ce97b/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F27b826b2f87d183f276a267461ac524850ff185d6426e0b7b8ce3bb2a5db4291"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//88bccc69-5902-4e92-becd-be31058ce97b/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2Fc4241a94e19f48188ad9c39af1cabfb9b288750c56a4e5b41fab04363595045a"
+}

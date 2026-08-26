@@ -1,0 +1,165 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "AB. néglige les leçons de Grillanne\n\nde champaux. les disciples lui en\n\nventueux, un jour après quelques col\n\ncolisues des sentences, nos scolares\n\ninvicem iocoromur\". on lui deman\n\nde son opinion sur la lecture\"des\n\ncinnes dirins, parce qu'il n'avait é\n\nludie que la physique. A: lès sa-\n\ncuisins pour comm \\\\\n\nla satiest de\n\nl'âme, mais il s'étonne qu'aux\n\ncétrés ces écrits saids ne suffisent\n\npour comprandre les expositions\n\ndes saints, en se réduire\n\nc'est l'entrepreneur, si vous voudez\n\ngué- clameurs et ris: lès bien, on\n\nlui donne un « expé歇mathrm aliciques\n\nincisitions scriptures\". Il les invie\n\npour la landemain, on lui conseille\n\nla prenude plus de temps pour, ni\n\nmer\" et \"former\" 4 cm exposition. la\n\nn'ai pas l'habitude de procéder\n\npar utile\", sed par ingerium\". la\n\nPremière Legeur pour d'auditeurs,\n\netc.",
+        "block_bbox": [
+          1667,
+          1102,
+          2312,
+          1797
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1667.0,
+            1102.0
+          ],
+          [
+            2312.0,
+            1102.0
+          ],
+          [
+            2312.0,
+            1797.0
+          ],
+          [
+            1667.0,
+            1797.0
+          ]
+        ]
+      },
+      {
+        "block_label": "number",
+        "block_content": "296",
+        "block_bbox": [
+          1651,
+          1995,
+          1705,
+          2017
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1651.0,
+            1995.0
+          ],
+          [
+            1704.0,
+            1995.0
+          ],
+          [
+            1704.0,
+            2016.0
+          ],
+          [
+            1651.0,
+            2016.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9034373164176941,
+          "coordinate": [
+            1667,
+            1102,
+            2312,
+            1797
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1667.0,
+              1102.0
+            ],
+            [
+              2312.0,
+              1102.0
+            ],
+            [
+              2312.0,
+              1797.0
+            ],
+            [
+              1667.0,
+              1797.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.43246686458587646,
+          "coordinate": [
+            1651,
+            1995,
+            1705,
+            2017
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1651.0,
+              1995.0
+            ],
+            [
+              1704.0,
+              1995.0
+            ],
+            [
+              1704.0,
+              2016.0
+            ],
+            [
+              1651.0,
+              2016.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "AB. néglige les leçons de Grillanne\n\nde champaux. les disciples lui en\n\nventueux, un jour après quelques col\n\ncolisues des sentences, nos scolares\n\ninvicem iocoromur\". on lui deman\n\nde son opinion sur la lecture\"des\n\ncinnes dirins, parce qu'il n'avait é\n\nludie que la physique. A: lès sa-\n\ncuisins pour comm \\\\\n\nla satiest de\n\nl'âme, mais il s'étonne qu'aux\n\ncétrés ces écrits saids ne suffisent\n\npour comprandre les expositions\n\ndes saints, en se réduire\n\nc'est l'entrepreneur, si vous voudez\n\ngué- clameurs et ris: lès bien, on\n\nlui donne un « expé歇mathrm aliciques\n\nincisitions scriptures\". Il les invie\n\npour la landemain, on lui conseille\n\nla prenude plus de temps pour, ni\n\nmer\" et \"former\" 4 cm exposition. la\n\nn'ai pas l'habitude de procéder\n\npar utile\", sed par ingerium\". la\n\nPremière Legeur pour d'auditeurs,\n\netc.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//172f01f2-ab55-40aa-811e-0faa5a9e5901/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A54%3A36Z%2F-1%2F%2F1edeafb85d3a049da65a56cf12b3e54fbe5fe622530da5c4b97cfa939eee3b30"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//172f01f2-ab55-40aa-811e-0faa5a9e5901/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A54%3A36Z%2F-1%2F%2F79d92dbe757d98ada110be90079a37e6f00b5c7cff561cd4303b45816c1edb01"
+}

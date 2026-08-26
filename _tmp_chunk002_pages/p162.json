@@ -1,0 +1,225 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "M.210\n534",
+        "block_bbox": [
+          2075,
+          1011,
+          2195,
+          1061
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2075.0,
+            1011.0
+          ],
+          [
+            2195.0,
+            1011.0
+          ],
+          [
+            2195.0,
+            1061.0
+          ],
+          [
+            2075.0,
+            1061.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "il sufférent de citer en entier la prière (mojesturess) précédent pour une innovation pratique qui, au milieu du livre cinq ourra la partie où la Theology prend la te古人 de guider peu dence par les écrigons calles. Cella seule page contient à peu près tout ce que l'aurai à dire sur Aesim poéla du Re's-lisme. Mais en la traduitant du laim, elle perdoit tout. Voici du moins la fin de cette prière. Tu michi preradia divina luce meamque/Plenius inorans divine nectara mentem/Complue, lege notas animi, lenebrassque reciden Discula meque luas lucis splan clora serena/Tu rapara coloamum purgo rubigine linguam/Da qua lo, lua verda loqui, mutoque lo quelam/Praba, da fontem sitient, diriga caldem/Errami, duc nae ta talem, pertumqua tiomenti/Dena, coeloti perflam mea carba le vento.",
+        "block_bbox": [
+          2197,
+          999,
+          2955,
+          1859
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2197.0,
+            999.0
+          ],
+          [
+            2955.0,
+            999.0
+          ],
+          [
+            2955.0,
+            1859.0
+          ],
+          [
+            2197.0,
+            1859.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "On pourra analyser cette pièce\n\nmot pour mot, en n'y trouvera\n\nque des images justes et\n\nsimples, des paroles fortes et nettes\n\nsans ce��ado sentiment vague.",
+        "block_bbox": [
+          2206,
+          1860,
+          2954,
+          2017
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2206.0,
+            1860.0
+          ],
+          [
+            2954.0,
+            1860.0
+          ],
+          [
+            2954.0,
+            2017.0
+          ],
+          [
+            2206.0,
+            2017.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.47931286692619324,
+          "coordinate": [
+            2075,
+            1011,
+            2195,
+            1061
+          ],
+          "polygon_points": [
+            [
+              2075.0,
+              1011.0
+            ],
+            [
+              2195.0,
+              1011.0
+            ],
+            [
+              2195.0,
+              1061.0
+            ],
+            [
+              2075.0,
+              1061.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.872715175151825,
+          "coordinate": [
+            2197,
+            999,
+            2955,
+            1859
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2197.0,
+              999.0
+            ],
+            [
+              2955.0,
+              999.0
+            ],
+            [
+              2955.0,
+              1859.0
+            ],
+            [
+              2197.0,
+              1859.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6821594834327698,
+          "coordinate": [
+            2206,
+            1860,
+            2954,
+            2017
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2206.0,
+              1860.0
+            ],
+            [
+              2954.0,
+              1860.0
+            ],
+            [
+              2954.0,
+              2017.0
+            ],
+            [
+              2206.0,
+              2017.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "il sufférent de citer en entier la prière (mojesturess) précédent pour une innovation pratique qui, au milieu du livre cinq ourra la partie où la Theology prend la te古人 de guider peu dence par les écrigons calles. Cella seule page contient à peu près tout ce que l'aurai à dire sur Aesim poéla du Re's-lisme. Mais en la traduitant du laim, elle perdoit tout. Voici du moins la fin de cette prière. Tu michi preradia divina luce meamque/Plenius inorans divine nectara mentem/Complue, lege notas animi, lenebrassque reciden Discula meque luas lucis splan clora serena/Tu rapara coloamum purgo rubigine linguam/Da qua lo, lua verda loqui, mutoque lo quelam/Praba, da fontem sitient, diriga caldem/Errami, duc nae ta talem, pertumqua tiomenti/Dena, coeloti perflam mea carba le vento.\n\nOn pourra analyser cette pièce\n\nmot pour mot, en n'y trouvera\n\nque des images justes et\n\nsimples, des paroles fortes et nettes\n\nsans ce��ado sentiment vague.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//41584da4-7b50-4b6b-892d-7abd0b1c307a/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F0d77b9717abedae992eae2b02fffe8e9ebe1f4a79306bdd48f1613c58bf631df"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//41584da4-7b50-4b6b-892d-7abd0b1c307a/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2Fbc4bc439a70c4ded50caa9e41bc45480be32319bdae674ed47378228c1230eed"
+}

@@ -1,0 +1,495 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "2.183",
+        "block_bbox": [
+          2119,
+          1224,
+          2206,
+          1247
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2119.0,
+            1224.0
+          ],
+          [
+            2205.0,
+            1224.0
+          ],
+          [
+            2205.0,
+            1246.0
+          ],
+          [
+            2119.0,
+            1246.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "2.59",
+        "block_bbox": [
+          2120,
+          1137,
+          2205,
+          1161
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2120.0,
+            1137.0
+          ],
+          [
+            2204.0,
+            1137.0
+          ],
+          [
+            2204.0,
+            1160.0
+          ],
+          [
+            2120.0,
+            1160.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "l'ai vécu dans l'exil, mais est devenu moins dur: j'ai de la nourriture et des vêtement et abondance, et la nombre d'honoraux amis doux et utilise la croissant.",
+        "block_bbox": [
+          2230,
+          1025,
+          2954,
+          1217
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2230.0,
+            1025.0
+          ],
+          [
+            2954.0,
+            1025.0
+          ],
+          [
+            2954.0,
+            1217.0
+          ],
+          [
+            2230.0,
+            1217.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "M.176.1011.",
+        "block_bbox": [
+          2047,
+          1673,
+          2221,
+          1695
+        ],
+        "block_id": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2047.0,
+            1673.0
+          ],
+          [
+            2220.0,
+            1673.0
+          ],
+          [
+            2220.0,
+            1694.0
+          ],
+          [
+            2047.0,
+            1694.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "\"La cargue, dit il allouem amitié viae,�, est aussi première des vertus, n'est aussi chose que l'amitié vrai, qui surpassa tout ce qu'en peut-être serait sur la terre, pour la majorité mais aussi par sa carole\". Depuis la jeunesse il a vêtant offerré de l'acquerin et de la mérite 12 cui est devenu une habitude d'aimer même ceux qui ne l'aimant pas.",
+        "block_bbox": [
+          2218,
+          1216,
+          2955,
+          1568
+        ],
+        "block_id": 4,
+        "block_order": 2,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2218.0,
+            1216.0
+          ],
+          [
+            2956.0,
+            1216.0
+          ],
+          [
+            2956.0,
+            1568.0
+          ],
+          [
+            2218.0,
+            1568.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "on le 200000 que bugues était d'origine taxonne (peut est que flomande comme on a aussi sou-lence)",
+        "block_bbox": [
+          1515,
+          1819,
+          2217,
+          1941
+        ],
+        "block_id": 5,
+        "block_order": 3,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1515.0,
+            1819.0
+          ],
+          [
+            2217.0,
+            1819.0
+          ],
+          [
+            2217.0,
+            1941.0
+          ],
+          [
+            1515.0,
+            1941.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Hugues de Saint Victor, dans la terre Cattre de quelques lignes qui est à la tête de son œuvre épidéloaire (contenant trois pièces de soulement) nous donnent un éloge de l'amilie naiment tout chant, sur la làme, chariot, nunguam excidit\" (1 cor. xiii). l'état parti bien à contre cœur, et je benais à vous dans la paré étoigre, et m'était pas étranger.\n\nPonce que i'y trouai des amis, mais je ne sois pas si i'ai commençé à les faire ou à la devenir",
+        "block_bbox": [
+          2210,
+          1574,
+          2955,
+          2014
+        ],
+        "block_id": 6,
+        "block_order": 4,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2210.0,
+            1574.0
+          ],
+          [
+            2955.0,
+            1574.0
+          ],
+          [
+            2955.0,
+            2014.0
+          ],
+          [
+            2210.0,
+            2014.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6243376135826111,
+          "coordinate": [
+            2119,
+            1224,
+            2206,
+            1247
+          ],
+          "polygon_points": [
+            [
+              2119.0,
+              1224.0
+            ],
+            [
+              2205.0,
+              1224.0
+            ],
+            [
+              2205.0,
+              1246.0
+            ],
+            [
+              2119.0,
+              1246.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6469186544418335,
+          "coordinate": [
+            2120,
+            1137,
+            2205,
+            1161
+          ],
+          "polygon_points": [
+            [
+              2120.0,
+              1137.0
+            ],
+            [
+              2204.0,
+              1137.0
+            ],
+            [
+              2204.0,
+              1160.0
+            ],
+            [
+              2120.0,
+              1160.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.727642834186554,
+          "coordinate": [
+            2230,
+            1025,
+            2954,
+            1217
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2230.0,
+              1025.0
+            ],
+            [
+              2954.0,
+              1025.0
+            ],
+            [
+              2954.0,
+              1217.0
+            ],
+            [
+              2230.0,
+              1217.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.31565606594085693,
+          "coordinate": [
+            2047,
+            1673,
+            2221,
+            1695
+          ],
+          "polygon_points": [
+            [
+              2047.0,
+              1673.0
+            ],
+            [
+              2220.0,
+              1673.0
+            ],
+            [
+              2220.0,
+              1694.0
+            ],
+            [
+              2047.0,
+              1694.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8626024723052979,
+          "coordinate": [
+            2218,
+            1216,
+            2955,
+            1568
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2218.0,
+              1216.0
+            ],
+            [
+              2956.0,
+              1216.0
+            ],
+            [
+              2956.0,
+              1568.0
+            ],
+            [
+              2218.0,
+              1568.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5928488969802856,
+          "coordinate": [
+            1515,
+            1819,
+            2217,
+            1941
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1515.0,
+              1819.0
+            ],
+            [
+              2217.0,
+              1819.0
+            ],
+            [
+              2217.0,
+              1941.0
+            ],
+            [
+              1515.0,
+              1941.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.33688047528266907,
+          "coordinate": [
+            2218,
+            1571,
+            2954,
+            1668
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2218.0,
+              1571.0
+            ],
+            [
+              2954.0,
+              1571.0
+            ],
+            [
+              2954.0,
+              1668.0
+            ],
+            [
+              2218.0,
+              1668.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7201712727546692,
+          "coordinate": [
+            2210,
+            1574,
+            2955,
+            2014
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2210.0,
+              1574.0
+            ],
+            [
+              2955.0,
+              1574.0
+            ],
+            [
+              2955.0,
+              2014.0
+            ],
+            [
+              2210.0,
+              2014.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "l'ai vécu dans l'exil, mais est devenu moins dur: j'ai de la nourriture et des vêtement et abondance, et la nombre d'honoraux amis doux et utilise la croissant.\n\n\"La cargue, dit il allouem amitié viae,�, est aussi première des vertus, n'est aussi chose que l'amitié vrai, qui surpassa tout ce qu'en peut-être serait sur la terre, pour la majorité mais aussi par sa carole\". Depuis la jeunesse il a vêtant offerré de l'acquerin et de la mérite 12 cui est devenu une habitude d'aimer même ceux qui ne l'aimant pas.\n\non le 200000 que bugues était d'origine taxonne (peut est que flomande comme on a aussi sou-lence)\n\nHugues de Saint Victor, dans la terre Cattre de quelques lignes qui est à la tête de son œuvre épidéloaire (contenant trois pièces de soulement) nous donnent un éloge de l'amilie naiment tout chant, sur la làme, chariot, nunguam excidit\" (1 cor. xiii). l'état parti bien à contre cœur, et je benais à vous dans la paré étoigre, et m'était pas étranger.\n\nPonce que i'y trouai des amis, mais je ne sois pas si i'ai commençé à les faire ou à la devenir",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c1114529-204b-4584-903f-fd138c8499cb/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F983f52ed8519140d40e1cc9b5233a85cc03440471cfbc9a43768853140a63d01"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//c1114529-204b-4584-903f-fd138c8499cb/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F42bc1dd7ca43bab2692f36e753776fc4d607dd8e47862548cc5b0d19f37abedc"
+}

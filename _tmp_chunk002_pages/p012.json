@@ -1,0 +1,802 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "S's carver",
+        "block_bbox": [
+          1879,
+          1658,
+          2070,
+          1683
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1879.0,
+            1658.0
+          ],
+          [
+            2070.0,
+            1658.0
+          ],
+          [
+            2070.0,
+            1683.0
+          ],
+          [
+            1879.0,
+            1683.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "verhomodelingem.",
+        "block_bbox": [
+          1751,
+          1282,
+          2109,
+          1304
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1751.0,
+            1282.0
+          ],
+          [
+            2109.0,
+            1282.0
+          ],
+          [
+            2109.0,
+            1304.0
+          ],
+          [
+            1751.0,
+            1304.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Wilgarow as verbalింగ은 Cronica fratris Salimbene de Adam O M",
+        "block_bbox": [
+          1734,
+          1009,
+          2952,
+          1050
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1734.0,
+            1009.0
+          ],
+          [
+            2952.0,
+            1009.0
+          ],
+          [
+            2952.0,
+            1050.0
+          ],
+          [
+            1734.0,
+            1050.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Cronica fratni Salimbena da Adam O Med. O. Holden-Egger. MG SS 32. 1905. 1913.\n\n- Queter, involved in geostigeerde uit Men. hist. ad pro. Parmandem et Placentium pertinentis, Chron. fr. Sal. O.M. 1857. nuol noan het cig. mt. geeig. tilad beusart.\n\nC. Cantarotti, Cronaca di Fra Sal. etc. III 18 A. Derem, Die Chronik des Sal. u. Parma. (Die Gesch. sch. d. deu. Vorzeit Od. 93) I. 1914.\n\nZie vorder tot. MG. Maof. XXX1.",
+        "block_bbox": [
+          2154,
+          1009,
+          2952,
+          1264
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2154.0,
+            1009.0
+          ],
+          [
+            2952.0,
+            1009.0
+          ],
+          [
+            2952.0,
+            1264.0
+          ],
+          [
+            2154.0,
+            1264.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "6. Holder-Egger, Z. Lebengesch返回. des Bruder Sao. als Adam (N. Archiv 37. 38).",
+        "block_bbox": [
+          2168,
+          1275,
+          2954,
+          1327
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2167.489501953125,
+            1275.9122314453125
+          ],
+          [
+            2952.836181640625,
+            1267.9088134765625
+          ],
+          [
+            2953.346435546875,
+            1317.9967041015625
+          ],
+          [
+            2167.999755859375,
+            1326.0001220703125
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "A. Dave, Die doppelcaromile u. Ruggio u. Die Guellau Saeimbened 1873.",
+        "block_bbox": [
+          2163,
+          1327,
+          2954,
+          1378
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2163.0,
+            1327.0
+          ],
+          [
+            2954.0,
+            1327.0
+          ],
+          [
+            2954.0,
+            1378.0
+          ],
+          [
+            2163.0,
+            1378.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Erzimmerungen eines Bellotmönchels\n\nE. Michael, Sal. u. Seine Chronik 1889.",
+        "block_bbox": [
+          2170,
+          1378,
+          2955,
+          1428
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            2170.0,
+            1378.0
+          ],
+          [
+            2955.0,
+            1378.0
+          ],
+          [
+            2955.0,
+            1428.0
+          ],
+          [
+            2170.0,
+            1428.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "E. Geberant, Fra So2., Franciscain du XII. d. (La remais ilo. et la pailosopais de l'hist. 1887).",
+        "block_bbox": [
+          2173,
+          1431,
+          2954,
+          1498
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2173.0,
+            1431.0
+          ],
+          [
+            2954.0,
+            1431.0
+          ],
+          [
+            2954.0,
+            1498.0
+          ],
+          [
+            2173.0,
+            1498.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "C.G. Coulson, From S. Francis to Daniel, from\n\ndon 1906.",
+        "block_bbox": [
+          2177,
+          1501,
+          2953,
+          1547
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2177.0,
+            1501.0
+          ],
+          [
+            2953.0,
+            1501.0
+          ],
+          [
+            2953.0,
+            1547.0
+          ],
+          [
+            2177.0,
+            1547.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "B. Scamailder, 1100. Gessmann der 12.\n\n13. Jh. 1909.",
+        "block_bbox": [
+          2176,
+          1549,
+          2953,
+          1592
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2176.0,
+            1549.0
+          ],
+          [
+            2953.0,
+            1549.0
+          ],
+          [
+            2953.0,
+            1592.0
+          ],
+          [
+            2176.0,
+            1592.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Verder Holder Egger. Scamollerer Proof. VII em XXX1.",
+        "block_bbox": [
+          2178,
+          1594,
+          2948,
+          1642
+        ],
+        "block_id": 10,
+        "block_order": 9,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            2178.0,
+            1594.0
+          ],
+          [
+            2948.0,
+            1594.0
+          ],
+          [
+            2948.0,
+            1642.0
+          ],
+          [
+            2178.0,
+            1642.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "1221 geboren le Parma, 32 zoon U. Burger coletman Guido de Adam. Kriegt naam Ognibene (Omme Bonum), later also een minorial verstoord in Salimbard - ont vlucht 1238 vaartel. Huit om minorial le woolen, naetal ouder Oron Quiot\n\nI reeds erster dead. vergaefsca poginger van water hem terug te teruggen. in ver\n\nSedl. klossterw. v. N. es M. (advis. - 1247 de Oe\n\nLegering v. Parma also Fred. It ass kaarput\n\nIse hem. Zeizen naar Frankrijk. Later\n\nnog wel Zwerwend is Hacia, tenslotte moed\n\nAicale� Parma. Leefde nog 1287/88.",
+        "block_bbox": [
+          2148,
+          1656,
+          2953,
+          1992
+        ],
+        "block_id": 11,
+        "block_order": 10,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            2148.0,
+            1656.0
+          ],
+          [
+            2953.0,
+            1656.0
+          ],
+          [
+            2953.0,
+            1992.0
+          ],
+          [
+            2148.0,
+            1992.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.624405562877655,
+          "coordinate": [
+            1879,
+            1658,
+            2070,
+            1683
+          ],
+          "polygon_points": [
+            [
+              1879.0,
+              1658.0
+            ],
+            [
+              2070.0,
+              1658.0
+            ],
+            [
+              2070.0,
+              1683.0
+            ],
+            [
+              1879.0,
+              1683.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6356054544448853,
+          "coordinate": [
+            1751,
+            1282,
+            2109,
+            1304
+          ],
+          "polygon_points": [
+            [
+              1751.0,
+              1282.0
+            ],
+            [
+              2109.0,
+              1282.0
+            ],
+            [
+              2109.0,
+              1304.0
+            ],
+            [
+              1751.0,
+              1304.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3206009566783905,
+          "coordinate": [
+            1734,
+            1009,
+            2952,
+            1050
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1734.0,
+              1009.0
+            ],
+            [
+              2952.0,
+              1009.0
+            ],
+            [
+              2952.0,
+              1050.0
+            ],
+            [
+              1734.0,
+              1050.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4903629720211029,
+          "coordinate": [
+            2154,
+            1009,
+            2952,
+            1264
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2154.0,
+              1009.0
+            ],
+            [
+              2952.0,
+              1009.0
+            ],
+            [
+              2952.0,
+              1264.0
+            ],
+            [
+              2154.0,
+              1264.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6982613205909729,
+          "coordinate": [
+            2168,
+            1275,
+            2954,
+            1327
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2167.489501953125,
+              1275.9122314453125
+            ],
+            [
+              2952.836181640625,
+              1267.9088134765625
+            ],
+            [
+              2953.346435546875,
+              1317.9967041015625
+            ],
+            [
+              2167.999755859375,
+              1326.0001220703125
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.49385783076286316,
+          "coordinate": [
+            2163,
+            1327,
+            2954,
+            1378
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2163.0,
+              1327.0
+            ],
+            [
+              2954.0,
+              1327.0
+            ],
+            [
+              2954.0,
+              1378.0
+            ],
+            [
+              2163.0,
+              1378.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5126041769981384,
+          "coordinate": [
+            2170,
+            1378,
+            2955,
+            1428
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2170.0,
+              1378.0
+            ],
+            [
+              2955.0,
+              1378.0
+            ],
+            [
+              2955.0,
+              1428.0
+            ],
+            [
+              2170.0,
+              1428.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5424257516860962,
+          "coordinate": [
+            2173,
+            1431,
+            2954,
+            1498
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2173.0,
+              1431.0
+            ],
+            [
+              2954.0,
+              1431.0
+            ],
+            [
+              2954.0,
+              1498.0
+            ],
+            [
+              2173.0,
+              1498.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5944640040397644,
+          "coordinate": [
+            2177,
+            1501,
+            2953,
+            1547
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2177.0,
+              1501.0
+            ],
+            [
+              2953.0,
+              1501.0
+            ],
+            [
+              2953.0,
+              1547.0
+            ],
+            [
+              2177.0,
+              1547.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.48752161860466003,
+          "coordinate": [
+            2176,
+            1549,
+            2953,
+            1592
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2176.0,
+              1549.0
+            ],
+            [
+              2953.0,
+              1549.0
+            ],
+            [
+              2953.0,
+              1592.0
+            ],
+            [
+              2176.0,
+              1592.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4334362745285034,
+          "coordinate": [
+            2178,
+            1594,
+            2948,
+            1642
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              2178.0,
+              1594.0
+            ],
+            [
+              2948.0,
+              1594.0
+            ],
+            [
+              2948.0,
+              1642.0
+            ],
+            [
+              2178.0,
+              1642.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5779245495796204,
+          "coordinate": [
+            2148,
+            1656,
+            2953,
+            1992
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              2148.0,
+              1656.0
+            ],
+            [
+              2953.0,
+              1656.0
+            ],
+            [
+              2953.0,
+              1992.0
+            ],
+            [
+              2148.0,
+              1992.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4340950846672058,
+          "coordinate": [
+            2154,
+            1855,
+            2955,
+            1990
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              2154.0,
+              1855.0
+            ],
+            [
+              2957.0,
+              1855.0
+            ],
+            [
+              2957.0,
+              1990.0
+            ],
+            [
+              2154.0,
+              1990.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Wilgarow as verbalింగ은 Cronica fratris Salimbene de Adam O M\n\nCronica fratni Salimbena da Adam O Med. O. Holden-Egger. MG SS 32. 1905. 1913.\n\n- Queter, involved in geostigeerde uit Men. hist. ad pro. Parmandem et Placentium pertinentis, Chron. fr. Sal. O.M. 1857. nuol noan het cig. mt. geeig. tilad beusart.\n\nC. Cantarotti, Cronaca di Fra Sal. etc. III 18 A. Derem, Die Chronik des Sal. u. Parma. (Die Gesch. sch. d. deu. Vorzeit Od. 93) I. 1914.\n\nZie vorder tot. MG. Maof. XXX1.\n\n6. Holder-Egger, Z. Lebengesch返回. des Bruder Sao. als Adam (N. Archiv 37. 38).\n\nA. Dave, Die doppelcaromile u. Ruggio u. Die Guellau Saeimbened 1873.\n\nErzimmerungen eines Bellotmönchels\n\nE. Michael, Sal. u. Seine Chronik 1889.\n\nE. Geberant, Fra So2., Franciscain du XII. d. (La remais ilo. et la pailosopais de l'hist. 1887).\n\nC.G. Coulson, From S. Francis to Daniel, from\n\ndon 1906.\n\nB. Scamailder, 1100. Gessmann der 12.\n\n13. Jh. 1909.\n\nVerder Holder Egger. Scamollerer Proof. VII em XXX1.\n\n1221 geboren le Parma, 32 zoon U. Burger coletman Guido de Adam. Kriegt naam Ognibene (Omme Bonum), later also een minorial verstoord in Salimbard - ont vlucht 1238 vaartel. Huit om minorial le woolen, naetal ouder Oron Quiot\n\nI reeds erster dead. vergaefsca poginger van water hem terug te teruggen. in ver\n\nSedl. klossterw. v. N. es M. (advis. - 1247 de Oe\n\nLegering v. Parma also Fred. It ass kaarput\n\nIse hem. Zeizen naar Frankrijk. Later\n\nnog wel Zwerwend is Hacia, tenslotte moed\n\nAicale� Parma. Leefde nog 1287/88.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//eda81e7f-cc5b-4c16-9f41-32e597b90e41/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2F827c844a594ae1bcfc4c99ede5aa747b7b1c284e603fc94c8f12588ba806a38b"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//eda81e7f-cc5b-4c16-9f41-32e597b90e41/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fa01cc341f1890f1a29b348e58aad8200b1afacd43c7a48c450c79959eace8b9e"
+}

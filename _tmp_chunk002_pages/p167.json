@@ -1,0 +1,430 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "4930.1.\n4920.7",
+        "block_bbox": [
+          2102,
+          1280,
+          2228,
+          1333
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2102.0,
+            1280.0
+          ],
+          [
+            2228.0,
+            1280.0
+          ],
+          [
+            2228.0,
+            1333.0
+          ],
+          [
+            2102.0,
+            1333.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "497/8",
+        "block_bbox": [
+          2059,
+          1652,
+          2160,
+          1682
+        ],
+        "block_id": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2059.0,
+            1652.0
+          ],
+          [
+            2160.0,
+            1652.0
+          ],
+          [
+            2160.0,
+            1682.0
+          ],
+          [
+            2059.0,
+            1682.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "us inlot. book probat, isla facil\n\nMais étslement porca que, pe\n\ngera\" pour Alain étesme un pa\n\nlout acta formateur ou 2aprolser\n\nlaour, la significatio du\n\npour lui s'affaiblit pour ne cor\n\nporter plus qua seulement\" endre\n\nciment.",
+        "block_bbox": [
+          2232,
+          1030,
+          2954,
+          1277
+        ],
+        "block_id": 2,
+        "block_order": 1,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2232.0,
+            1030.0
+          ],
+          [
+            2954.0,
+            1030.0
+          ],
+          [
+            2954.0,
+            1277.0
+          ],
+          [
+            2232.0,
+            1277.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Pingent (awes) are by room ... 490\n\nNostern stium pingit 2010-579",
+        "block_bbox": [
+          2211,
+          1272,
+          2953,
+          1339
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2211.0,
+            1282.0
+          ],
+          [
+            2211.0,
+            1291.0
+          ],
+          [
+            2211.0,
+            1301.0
+          ],
+          [
+            2211.0,
+            1329.0
+          ],
+          [
+            2226.0,
+            1338.0
+          ],
+          [
+            2952.0,
+            1329.0
+          ],
+          [
+            2952.0,
+            1272.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Mais la conception d'une 2apré dénation, d'une figurention, d'un symbole 2est la loupour vivante. Toul en dépendent de ces autours d'un bas âge » Boèce et Martianne Capella, qui limaient au moyen âge les modèles de l'allégorie limnesque, Alain de l'illa en a fait un instrument sonora. Pour lui ces allégories ont une vie, cela parure clincable de la quelle il revêt des idées n'est pas un vainir falros de mots, parce qua pour lui loule 2essemblance, tout crément signifie la 2-laticien même entre la monde et Dieu. En décrivant la beauté de Prudence, il dit :",
+        "block_bbox": [
+          2215,
+          1335,
+          2955,
+          1895
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2215.0,
+            1335.0
+          ],
+          [
+            2956.0,
+            1335.0
+          ],
+          [
+            2956.0,
+            1895.0
+          ],
+          [
+            2215.0,
+            1895.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "6. ...from lilia, Balsama noris\n\nDenz elur, osqua 20am parit,\n\noffert, 2ddit, adsaquat.\n\nNotez Dien cet enlissement de verbe",
+        "block_bbox": [
+          2151,
+          1894,
+          2953,
+          2012
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2151.0,
+            1894.0
+          ],
+          [
+            2953.0,
+            1894.0
+          ],
+          [
+            2953.0,
+            2012.0
+          ],
+          [
+            2151.0,
+            2012.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5741474032402039,
+          "coordinate": [
+            2102,
+            1280,
+            2228,
+            1333
+          ],
+          "polygon_points": [
+            [
+              2102.0,
+              1280.0
+            ],
+            [
+              2228.0,
+              1280.0
+            ],
+            [
+              2228.0,
+              1333.0
+            ],
+            [
+              2102.0,
+              1333.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.48748648166656494,
+          "coordinate": [
+            2059,
+            1652,
+            2160,
+            1682
+          ],
+          "polygon_points": [
+            [
+              2059.0,
+              1652.0
+            ],
+            [
+              2160.0,
+              1652.0
+            ],
+            [
+              2160.0,
+              1682.0
+            ],
+            [
+              2059.0,
+              1682.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8666643500328064,
+          "coordinate": [
+            2232,
+            1030,
+            2954,
+            1277
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2232.0,
+              1030.0
+            ],
+            [
+              2954.0,
+              1030.0
+            ],
+            [
+              2954.0,
+              1277.0
+            ],
+            [
+              2232.0,
+              1277.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6408520936965942,
+          "coordinate": [
+            2211,
+            1272,
+            2953,
+            1339
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2211.0,
+              1282.0
+            ],
+            [
+              2211.0,
+              1291.0
+            ],
+            [
+              2211.0,
+              1301.0
+            ],
+            [
+              2211.0,
+              1329.0
+            ],
+            [
+              2226.0,
+              1338.0
+            ],
+            [
+              2952.0,
+              1329.0
+            ],
+            [
+              2952.0,
+              1272.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8943901062011719,
+          "coordinate": [
+            2215,
+            1335,
+            2955,
+            1895
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2215.0,
+              1335.0
+            ],
+            [
+              2956.0,
+              1335.0
+            ],
+            [
+              2956.0,
+              1895.0
+            ],
+            [
+              2215.0,
+              1895.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6449635624885559,
+          "coordinate": [
+            2151,
+            1894,
+            2953,
+            2012
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2151.0,
+              1894.0
+            ],
+            [
+              2953.0,
+              1894.0
+            ],
+            [
+              2953.0,
+              2012.0
+            ],
+            [
+              2151.0,
+              2012.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "us inlot. book probat, isla facil\n\nMais étslement porca que, pe\n\ngera\" pour Alain étesme un pa\n\nlout acta formateur ou 2aprolser\n\nlaour, la significatio du\n\npour lui s'affaiblit pour ne cor\n\nporter plus qua seulement\" endre\n\nciment.\n\nPingent (awes) are by room ... 490\n\nNostern stium pingit 2010-579\n\nMais la conception d'une 2apré dénation, d'une figurention, d'un symbole 2est la loupour vivante. Toul en dépendent de ces autours d'un bas âge » Boèce et Martianne Capella, qui limaient au moyen âge les modèles de l'allégorie limnesque, Alain de l'illa en a fait un instrument sonora. Pour lui ces allégories ont une vie, cela parure clincable de la quelle il revêt des idées n'est pas un vainir falros de mots, parce qua pour lui loule 2essemblance, tout crément signifie la 2-laticien même entre la monde et Dieu. En décrivant la beauté de Prudence, il dit :\n\n6. ...from lilia, Balsama noris\n\nDenz elur, osqua 20am parit,\n\noffert, 2ddit, adsaquat.\n\nNotez Dien cet enlissement de verbe",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//d0148a8e-7d5c-4c7f-8545-2e71b5d3f730/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F927116f130646b5c9732b5577a6d5c20d46bef6a644a42e7d8756c6bca34e9b8"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//d0148a8e-7d5c-4c7f-8545-2e71b5d3f730/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2Ffa94f895b27cd7ffaa0e0aac988924dd531a1dbb6b9bb3a1584dcc926632a805"
+}

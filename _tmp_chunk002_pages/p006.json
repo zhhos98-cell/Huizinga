@@ -1,0 +1,711 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "header",
+        "block_content": "NY11Ⅱ：4[2]a",
+        "block_bbox": [
+          2538,
+          38,
+          2870,
+          108
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2538.0,
+            38.0
+          ],
+          [
+            2870.0,
+            38.0
+          ],
+          [
+            2870.0,
+            108.0
+          ],
+          [
+            2538.0,
+            108.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Zelandensia",
+        "block_bbox": [
+          355,
+          1871,
+          795,
+          1918
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            355.0,
+            1871.0
+          ],
+          [
+            795.0,
+            1871.0
+          ],
+          [
+            795.0,
+            1918.0
+          ],
+          [
+            355.0,
+            1918.0
+          ]
+        ]
+      },
+      {
+        "block_label": "aside_text",
+        "block_content": "第",
+        "block_bbox": [
+          1704,
+          234,
+          1734,
+          269
+        ],
+        "block_id": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1704.0,
+            234.0
+          ],
+          [
+            1733.0,
+            234.0
+          ],
+          [
+            1733.0,
+            268.0
+          ],
+          [
+            1704.0,
+            268.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Pictor des Huygens, roadpens. v. 19 Moant\n\n1664-1687. daarna lid v. 1696.\n\nZie Zab. 124. # p. 111. de Stopp. b. 23.\n\ngebruikde met knouf Elesab. v. Pankway\n\nNagloos 443.",
+        "block_bbox": [
+          1765,
+          175,
+          2492,
+          334
+        ],
+        "block_id": 3,
+        "block_order": 2,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            1765.0,
+            175.0
+          ],
+          [
+            2492.0,
+            175.0
+          ],
+          [
+            2492.0,
+            334.0
+          ],
+          [
+            1765.0,
+            334.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Hollastalle, Czech. Becher, v. This has a omel\n\n1897.\n\nop amwasast u. Scharber,\n\nSticens buscheu Poortwe. & Scharber.",
+        "block_bbox": [
+          1793,
+          430,
+          2477,
+          566
+        ],
+        "block_id": 4,
+        "block_order": 3,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1793.0,
+            430.0
+          ],
+          [
+            2477.0,
+            430.0
+          ],
+          [
+            2477.0,
+            566.0
+          ],
+          [
+            1793.0,
+            566.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Rengens 1.353 (big das Brief 1572). und also Keiden Carls in den brigers nengand was was torgades, dam das das Framtoes wal in Zolamb 1005555555.",
+        "block_bbox": [
+          1742,
+          670,
+          2493,
+          797
+        ],
+        "block_id": 5,
+        "block_order": 4,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1742.0,
+            670.0
+          ],
+          [
+            2493.0,
+            670.0
+          ],
+          [
+            2493.0,
+            797.0
+          ],
+          [
+            1742.0,
+            797.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Revue de Paris 21.15 ffe. M. Louise Favet\n\nWaldmann",
+        "block_bbox": [
+          1770,
+          919,
+          2450,
+          1024
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            1768.6632080078125,
+            922.1589965820312
+          ],
+          [
+            2448.789794921875,
+            913.1441040039062
+          ],
+          [
+            2450.12646484375,
+            1013.9850463867188
+          ],
+          [
+            1769.999755859375,
+            1022.9999389648438
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Les Boodes aux U.Mandeau, later\n\naw P.Ed.v.d. Penne,",
+        "block_bbox": [
+          1698,
+          1105,
+          2423,
+          1193
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            1698.0,
+            1105.0
+          ],
+          [
+            2423.0,
+            1105.0
+          ],
+          [
+            2423.0,
+            1193.0
+          ],
+          [
+            1698.0,
+            1193.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Jacob v. Kargerob, Brosen v. Maria v. v. a. Brandt, - met hem stoffet stæcol mit.",
+        "block_bbox": [
+          1703,
+          1209,
+          2433,
+          1305
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            1703.0,
+            1209.0
+          ],
+          [
+            2433.0,
+            1209.0
+          ],
+          [
+            2433.0,
+            1305.0
+          ],
+          [
+            1703.0,
+            1305.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "II. I 408 de fulyenne\n\n(het Jec�ip u de Hennigend)\n\nCRH. Voyager des onn.",
+        "block_bbox": [
+          1838,
+          1438,
+          2310,
+          1547
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            1838.0,
+            1438.0
+          ],
+          [
+            2310.0,
+            1438.0
+          ],
+          [
+            2310.0,
+            1547.0
+          ],
+          [
+            1838.0,
+            1547.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "A. Havenils, la Zelande, Eluda, his\n\nlorio-geographique. Liège. Romical,\n\n1911\n\ncf. EHR. 27.832.",
+        "block_bbox": [
+          1714,
+          1812,
+          2467,
+          1947
+        ],
+        "block_id": 10,
+        "block_order": 9,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            1714.0,
+            1812.0
+          ],
+          [
+            2467.0,
+            1812.0
+          ],
+          [
+            2467.0,
+            1947.0
+          ],
+          [
+            1714.0,
+            1947.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 12,
+          "label": "header",
+          "score": 0.6611440777778625,
+          "coordinate": [
+            2538,
+            38,
+            2870,
+            108
+          ],
+          "polygon_points": [
+            [
+              2538.0,
+              38.0
+            ],
+            [
+              2870.0,
+              38.0
+            ],
+            [
+              2870.0,
+              108.0
+            ],
+            [
+              2538.0,
+              108.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4031252861022949,
+          "coordinate": [
+            355,
+            1871,
+            795,
+            1918
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              355.0,
+              1871.0
+            ],
+            [
+              795.0,
+              1871.0
+            ],
+            [
+              795.0,
+              1918.0
+            ],
+            [
+              355.0,
+              1918.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.3060281574726105,
+          "coordinate": [
+            1704,
+            234,
+            1734,
+            269
+          ],
+          "polygon_points": [
+            [
+              1704.0,
+              234.0
+            ],
+            [
+              1733.0,
+              234.0
+            ],
+            [
+              1733.0,
+              268.0
+            ],
+            [
+              1704.0,
+              268.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6682344675064087,
+          "coordinate": [
+            1765,
+            175,
+            2492,
+            334
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1765.0,
+              175.0
+            ],
+            [
+              2492.0,
+              175.0
+            ],
+            [
+              2492.0,
+              334.0
+            ],
+            [
+              1765.0,
+              334.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5672406554222107,
+          "coordinate": [
+            1793,
+            430,
+            2477,
+            566
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1793.0,
+              430.0
+            ],
+            [
+              2477.0,
+              430.0
+            ],
+            [
+              2477.0,
+              566.0
+            ],
+            [
+              1793.0,
+              566.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6411510705947876,
+          "coordinate": [
+            1742,
+            670,
+            2493,
+            797
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              1742.0,
+              670.0
+            ],
+            [
+              2493.0,
+              670.0
+            ],
+            [
+              2493.0,
+              797.0
+            ],
+            [
+              1742.0,
+              797.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6386133432388306,
+          "coordinate": [
+            1770,
+            919,
+            2450,
+            1024
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1768.6632080078125,
+              922.1589965820312
+            ],
+            [
+              2448.789794921875,
+              913.1441040039062
+            ],
+            [
+              2450.12646484375,
+              1013.9850463867188
+            ],
+            [
+              1769.999755859375,
+              1022.9999389648438
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.477983683347702,
+          "coordinate": [
+            1698,
+            1105,
+            2423,
+            1193
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1698.0,
+              1105.0
+            ],
+            [
+              2423.0,
+              1105.0
+            ],
+            [
+              2423.0,
+              1193.0
+            ],
+            [
+              1698.0,
+              1193.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.47325924038887024,
+          "coordinate": [
+            1703,
+            1209,
+            2433,
+            1305
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1703.0,
+              1209.0
+            ],
+            [
+              2433.0,
+              1209.0
+            ],
+            [
+              2433.0,
+              1305.0
+            ],
+            [
+              1703.0,
+              1305.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.40323686599731445,
+          "coordinate": [
+            1838,
+            1438,
+            2310,
+            1547
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1838.0,
+              1438.0
+            ],
+            [
+              2310.0,
+              1438.0
+            ],
+            [
+              2310.0,
+              1547.0
+            ],
+            [
+              1838.0,
+              1547.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.529259443283081,
+          "coordinate": [
+            1714,
+            1812,
+            2467,
+            1947
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              1714.0,
+              1812.0
+            ],
+            [
+              2467.0,
+              1812.0
+            ],
+            [
+              2467.0,
+              1947.0
+            ],
+            [
+              1714.0,
+              1947.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Zelandensia\n\nPictor des Huygens, roadpens. v. 19 Moant\n\n1664-1687. daarna lid v. 1696.\n\nZie Zab. 124. # p. 111. de Stopp. b. 23.\n\ngebruikde met knouf Elesab. v. Pankway\n\nNagloos 443.\n\nHollastalle, Czech. Becher, v. This has a omel\n\n1897.\n\nop amwasast u. Scharber,\n\nSticens buscheu Poortwe. & Scharber.\n\nRengens 1.353 (big das Brief 1572). und also Keiden Carls in den brigers nengand was was torgades, dam das das Framtoes wal in Zolamb 1005555555.\n\nRevue de Paris 21.15 ffe. M. Louise Favet\n\nWaldmann\n\nLes Boodes aux U.Mandeau, later\n\naw P.Ed.v.d. Penne,\n\nJacob v. Kargerob, Brosen v. Maria v. v. a. Brandt, - met hem stoffet stæcol mit.\n\nII. I 408 de fulyenne\n\n(het Jec�ip u de Hennigend)\n\nCRH. Voyager des onn.\n\nA. Havenils, la Zelande, Eluda, his\n\nlorio-geographique. Liège. Romical,\n\n1911\n\ncf. EHR. 27.832.",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7d56ec88-fd53-4fcc-8c85-844b6b7622b3/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A31Z%2F-1%2F%2Fdb412ceb4ecedde9c65112c49d12e586427958424c99ca2209cd61006e793318"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7d56ec88-fd53-4fcc-8c85-844b6b7622b3/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A32Z%2F-1%2F%2F9503513dc3596495f1fba26886bdc88c524ba9014cc1dcf7be47def47098363f"
+}

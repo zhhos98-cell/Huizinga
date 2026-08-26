@@ -1,0 +1,653 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "number",
+        "block_content": "1864",
+        "block_bbox": [
+          2822,
+          1248,
+          2937,
+          1291
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2822.0,
+            1248.0
+          ],
+          [
+            2937.0,
+            1248.0
+          ],
+          [
+            2937.0,
+            1291.0
+          ],
+          [
+            2822.0,
+            1291.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Bibliotheek der Rijksuniversiteit te Leiden.",
+        "block_bbox": [
+          1844,
+          1326,
+          2605,
+          1373
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1844.0,
+            1326.0
+          ],
+          [
+            2605.0,
+            1326.0
+          ],
+          [
+            2605.0,
+            1373.0
+          ],
+          [
+            1844.0,
+            1373.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "De ondergeteekende vraagt te leen:",
+        "block_bbox": [
+          1784,
+          1415,
+          2212,
+          1453
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            1784.0,
+            1415.0
+          ],
+          [
+            2212.0,
+            1415.0
+          ],
+          [
+            2212.0,
+            1453.0
+          ],
+          [
+            1784.0,
+            1453.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "NIET in C. C.",
+        "block_bbox": [
+          2490,
+          1417,
+          2684,
+          1534
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2490.0,
+            1417.0
+          ],
+          [
+            2684.0,
+            1417.0
+          ],
+          [
+            2684.0,
+            1534.0
+          ],
+          [
+            2490.0,
+            1534.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "KONINKLIJKE\n\nBIBLIOTHEEK\n\nWORDT\n\nAANGEKOCHT",
+        "block_bbox": [
+          1649,
+          1600,
+          1827,
+          1703
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            1649.0,
+            1600.0
+          ],
+          [
+            1827.0,
+            1600.0
+          ],
+          [
+            1827.0,
+            1703.0
+          ],
+          [
+            1649.0,
+            1703.0
+          ]
+        ]
+      },
+      {
+        "block_label": "image",
+        "block_content": "<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1807_1499_2820_1730.jpg\" alt=\"Image\" width=\"34%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1807_1499_2820_1730.jpg\" alt=\"Image\" width=\"34%\" />\n\nAnspirins (Alb.),\nQlaan de Lille. Lille 185g\n\n</div>\n\n\n</div>\n",
+        "block_bbox": [
+          1807,
+          1499,
+          2820,
+          1730
+        ],
+        "block_id": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1807.0,
+            1499.0
+          ],
+          [
+            2820.0,
+            1499.0
+          ],
+          [
+            2820.0,
+            1730.0
+          ],
+          [
+            1807.0,
+            1730.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "LEIDEN,  $ 25\\sqrt{x} $ 1910.",
+        "block_bbox": [
+          1784,
+          1785,
+          2245,
+          1839
+        ],
+        "block_id": 6,
+        "block_order": 5,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            1784.0,
+            1785.0
+          ],
+          [
+            2245.0,
+            1785.0
+          ],
+          [
+            2245.0,
+            1839.0
+          ],
+          [
+            1784.0,
+            1839.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "De Bibliothecaris,",
+        "block_bbox": [
+          2453,
+          1788,
+          2669,
+          1831
+        ],
+        "block_id": 7,
+        "block_order": 6,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2453.0,
+            1788.0
+          ],
+          [
+            2669.0,
+            1788.0
+          ],
+          [
+            2669.0,
+            1831.0
+          ],
+          [
+            2453.0,
+            1831.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Q.2. Poles",
+        "block_bbox": [
+          2506,
+          1843,
+          2807,
+          1957
+        ],
+        "block_id": 8,
+        "block_order": 7,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2506.0,
+            1843.0
+          ],
+          [
+            2807.0,
+            1843.0
+          ],
+          [
+            2807.0,
+            1957.0
+          ],
+          [
+            2506.0,
+            1957.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Versocke, his due woodily, Chorus写",
+        "block_bbox": [
+          1520,
+          1945,
+          2234,
+          2015
+        ],
+        "block_id": 9,
+        "block_order": 8,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            1520.0,
+            1945.0
+          ],
+          [
+            2234.0,
+            1945.0
+          ],
+          [
+            2234.0,
+            2015.0
+          ],
+          [
+            1520.0,
+            2015.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.5120684504508972,
+          "coordinate": [
+            2822,
+            1248,
+            2937,
+            1291
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2822.0,
+              1248.0
+            ],
+            [
+              2937.0,
+              1248.0
+            ],
+            [
+              2937.0,
+              1291.0
+            ],
+            [
+              2822.0,
+              1291.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6584818959236145,
+          "coordinate": [
+            1844,
+            1326,
+            2605,
+            1373
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              1844.0,
+              1326.0
+            ],
+            [
+              2605.0,
+              1326.0
+            ],
+            [
+              2605.0,
+              1373.0
+            ],
+            [
+              1844.0,
+              1373.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6939690709114075,
+          "coordinate": [
+            1784,
+            1415,
+            2212,
+            1453
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1784.0,
+              1415.0
+            ],
+            [
+              2212.0,
+              1415.0
+            ],
+            [
+              2212.0,
+              1453.0
+            ],
+            [
+              1784.0,
+              1453.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.40210583806037903,
+          "coordinate": [
+            2490,
+            1417,
+            2684,
+            1534
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2490.0,
+              1417.0
+            ],
+            [
+              2684.0,
+              1417.0
+            ],
+            [
+              2684.0,
+              1534.0
+            ],
+            [
+              2490.0,
+              1534.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.38331854343414307,
+          "coordinate": [
+            1649,
+            1600,
+            1827,
+            1703
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              1649.0,
+              1600.0
+            ],
+            [
+              1827.0,
+              1600.0
+            ],
+            [
+              1827.0,
+              1703.0
+            ],
+            [
+              1649.0,
+              1703.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 14,
+          "label": "image",
+          "score": 0.30066952109336853,
+          "coordinate": [
+            1807,
+            1499,
+            2820,
+            1730
+          ],
+          "polygon_points": [
+            [
+              1807.0,
+              1499.0
+            ],
+            [
+              2820.0,
+              1499.0
+            ],
+            [
+              2820.0,
+              1730.0
+            ],
+            [
+              1807.0,
+              1730.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5126855373382568,
+          "coordinate": [
+            1784,
+            1785,
+            2245,
+            1839
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              1784.0,
+              1785.0
+            ],
+            [
+              2245.0,
+              1785.0
+            ],
+            [
+              2245.0,
+              1839.0
+            ],
+            [
+              1784.0,
+              1839.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.39484989643096924,
+          "coordinate": [
+            2453,
+            1788,
+            2669,
+            1831
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              2453.0,
+              1788.0
+            ],
+            [
+              2669.0,
+              1788.0
+            ],
+            [
+              2669.0,
+              1831.0
+            ],
+            [
+              2453.0,
+              1831.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.34584376215934753,
+          "coordinate": [
+            2506,
+            1843,
+            2807,
+            1957
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              2506.0,
+              1843.0
+            ],
+            [
+              2807.0,
+              1843.0
+            ],
+            [
+              2807.0,
+              1957.0
+            ],
+            [
+              2506.0,
+              1957.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.47146928310394287,
+          "coordinate": [
+            1520,
+            1945,
+            2234,
+            2015
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              1520.0,
+              1945.0
+            ],
+            [
+              2234.0,
+              1945.0
+            ],
+            [
+              2234.0,
+              2015.0
+            ],
+            [
+              1520.0,
+              2015.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Bibliotheek der Rijksuniversiteit te Leiden.\n\nDe ondergeteekende vraagt te leen:\n\nNIET in C. C.\n\nKONINKLIJKE\n\nBIBLIOTHEEK\n\nWORDT\n\nAANGEKOCHT\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1807_1499_2820_1730.jpg\" alt=\"Image\" width=\"34%\" />\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_image_box_1807_1499_2820_1730.jpg\" alt=\"Image\" width=\"34%\" />\n\nAnspirins (Alb.),\nQlaan de Lille. Lille 185g\n\n</div>\n\n\n</div>\n\n\nLEIDEN,  $ 25\\sqrt{x} $ 1910.\n\nDe Bibliothecaris,\n\nQ.2. Poles\n\nVersocke, his due woodily, Chorus写",
+    "images": {
+      "imgs/img_in_image_box_1807_1499_2820_1730.jpg": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//6827bae2-0706-44e3-a5df-8830fee18765/markdown_3/imgs/img_in_image_box_1807_1499_2820_1730.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F80e5d3e8aad50b9b6ab0e7a910441070303be31734610f3a1e63c92de78e70dd"
+    }
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//6827bae2-0706-44e3-a5df-8830fee18765/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2Fecd04faba375d4bf565830a3ca7bf762a63dac731286cec804c999ade2715d76"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//6827bae2-0706-44e3-a5df-8830fee18765/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A40Z%2F-1%2F%2F8f1e8a1e3f3479ef5f712f70c8f3b0c0056571e46640504cdaeb73d22b935167"
+}

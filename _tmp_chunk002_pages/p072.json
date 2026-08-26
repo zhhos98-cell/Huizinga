@@ -1,0 +1,225 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "Scam凭边，AKG.×1.",
+        "block_bbox": [
+          1824,
+          1729,
+          2195,
+          1760
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1824.0,
+            1729.0
+          ],
+          [
+            2195.0,
+            1729.0
+          ],
+          [
+            2195.0,
+            1760.0
+          ],
+          [
+            1824.0,
+            1760.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Cas pièces à Si A Bailard fut traitant poésie une fois, il a du père celle facule d'après la grande catastrophe. Ses poésies latines, conservées en assez grand nombre, ont quelque chose de pleasure et de boîteux. Le trobe peu de qualités dans des vermes comme ceux-ci, pris à حماد palme une poule de semblables, 300�s tole cadet en hame, qui carret équis minera; pro nocturnes luces nas gratia, pauper hobbit lumnes et siècles.",
+        "block_bbox": [
+          2157,
+          1000,
+          2955,
+          1459
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2157.0,
+            1000.0
+          ],
+          [
+            2955.0,
+            1000.0
+          ],
+          [
+            2955.0,
+            1459.0
+          ],
+          [
+            2157.0,
+            1459.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "lo me feroi qu'effleureu l'his\n\nloira de son amour et de sa\n\ncorrespondance avec héloison.\n\nPour éviter la modern拳\n\ndesd mot sur l'authenticité de\n\nCes documents humain. On a vou\n\nlu prouver qu'Abailard à lui\n\ndesd aurait composé loule de\n\ncorrespondance et tout le roman\n\nIl me semble impossible de l'ac\n\nCopter. Mais, s'il est en simi: est\n\noù donc a-t-lo trouvé ces accents\n\nréminues\n\nd'une passion dans l'ornier? Est-\n\nPour sa propre gloire qu'il s'est\n\ndonné dans l'historie calomie\n\nl'alum\" un côté qui est loin d'être\n\ncelui du héros - Le fait resto",
+        "block_bbox": [
+          2216,
+          1455,
+          2955,
+          2014
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2216.0,
+            1455.0
+          ],
+          [
+            2955.0,
+            1455.0
+          ],
+          [
+            2955.0,
+            2014.0
+          ],
+          [
+            2216.0,
+            2014.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5232722759246826,
+          "coordinate": [
+            1824,
+            1729,
+            2195,
+            1760
+          ],
+          "polygon_points": [
+            [
+              1824.0,
+              1729.0
+            ],
+            [
+              2195.0,
+              1729.0
+            ],
+            [
+              2195.0,
+              1760.0
+            ],
+            [
+              1824.0,
+              1760.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8046110272407532,
+          "coordinate": [
+            2157,
+            1000,
+            2955,
+            1459
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2157.0,
+              1000.0
+            ],
+            [
+              2955.0,
+              1000.0
+            ],
+            [
+              2955.0,
+              1459.0
+            ],
+            [
+              2157.0,
+              1459.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7630352973937988,
+          "coordinate": [
+            2216,
+            1455,
+            2955,
+            2014
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2216.0,
+              1455.0
+            ],
+            [
+              2955.0,
+              1455.0
+            ],
+            [
+              2955.0,
+              2014.0
+            ],
+            [
+              2216.0,
+              2014.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "Cas pièces à Si A Bailard fut traitant poésie une fois, il a du père celle facule d'après la grande catastrophe. Ses poésies latines, conservées en assez grand nombre, ont quelque chose de pleasure et de boîteux. Le trobe peu de qualités dans des vermes comme ceux-ci, pris à حماد palme une poule de semblables, 300�s tole cadet en hame, qui carret équis minera; pro nocturnes luces nas gratia, pauper hobbit lumnes et siècles.\n\nlo me feroi qu'effleureu l'his\n\nloira de son amour et de sa\n\ncorrespondance avec héloison.\n\nPour éviter la modern拳\n\ndesd mot sur l'authenticité de\n\nCes documents humain. On a vou\n\nlu prouver qu'Abailard à lui\n\ndesd aurait composé loule de\n\ncorrespondance et tout le roman\n\nIl me semble impossible de l'ac\n\nCopter. Mais, s'il est en simi: est\n\noù donc a-t-lo trouvé ces accents\n\nréminues\n\nd'une passion dans l'ornier? Est-\n\nPour sa propre gloire qu'il s'est\n\ndonné dans l'historie calomie\n\nl'alum\" un côté qui est loin d'être\n\ncelui du héros - Le fait resto",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//2b5270f3-5d7d-46f7-a59b-5ad72fa6bfab/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2F95ad3e0e4b1ed95c2b58f6f131bb4fd07a2f9ec0ece10cef58a7e0d97e63bf92"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//2b5270f3-5d7d-46f7-a59b-5ad72fa6bfab/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A36Z%2F-1%2F%2Fa92443eaad5ff2f576d8cf2fe6e0686dbc9f65a8c9bc184bb8f81e31709af95d"
+}

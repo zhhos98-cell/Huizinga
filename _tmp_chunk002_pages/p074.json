@@ -1,0 +1,286 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "Borbonel",
+        "block_bbox": [
+          1978,
+          1869,
+          2167,
+          1897
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1978.0,
+            1869.0
+          ],
+          [
+            2167.0,
+            1869.0
+          ],
+          [
+            2167.0,
+            1897.0
+          ],
+          [
+            1978.0,
+            1897.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "suffit à mettre la cas hors de\n\nconceps : essentiellement\n\nculins de la courtoisie.",
+        "block_bbox": [
+          2234,
+          1015,
+          2954,
+          1114
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2234.0,
+            1015.0
+          ],
+          [
+            2954.0,
+            1015.0
+          ],
+          [
+            2954.0,
+            1114.0
+          ],
+          [
+            2234.0,
+            1114.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Ce n'est pas non plus l'amou\n\nà l'antique, la sentiment d'O\n\nbista, ou bien la sentiment no\n\nif et populaire d'un classique\n\nmoderne lot qu'il se espondait\n\ndans la lyrique des écoliers et\n\ntants. C'est un amour l'émolue\n\net forouche, c'est un cœur de\n\nchiré par les deux forces abso\n\nlument opposés de la foi caractérisme et de la plus profonde\n\npassion terrissiva. Il y a dans les\n\neffusions d'héloïse quelque chose\n\nde si direct, de si excellent,\n\nqu'en se demanda où trouver les\n\nparallèdes si ce n'est dans Shaba\n\nspara. Ella n'héiserait pas, dit\n\nelle, de la suivre, si elle le voit\n\nait courant à l'enfer. Qu'il ne\n\nla cusi est sait rejetée par l'est\n\nLouis and passent pour sa pièce et l'affenser lui que d'off\n\nenser Dieu.",
+        "block_bbox": [
+          2215,
+          1116,
+          2954,
+          1860
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2215.0,
+            1116.0
+          ],
+          [
+            2954.0,
+            1116.0
+          ],
+          [
+            2954.0,
+            1860.0
+          ],
+          [
+            2215.0,
+            1860.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Colle absence de réserve et primitive et barbara² l'y trouvique classe qui n'est pas latin qui est exagéré et extravagant, hérosïse ma fait penser à ces femme",
+        "block_bbox": [
+          2214,
+          1858,
+          2953,
+          2015
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2214.0,
+            1858.0
+          ],
+          [
+            2953.0,
+            1858.0
+          ],
+          [
+            2953.0,
+            2015.0
+          ],
+          [
+            2214.0,
+            2015.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.6633036732673645,
+          "coordinate": [
+            1978,
+            1869,
+            2167,
+            1897
+          ],
+          "polygon_points": [
+            [
+              1978.0,
+              1869.0
+            ],
+            [
+              2167.0,
+              1869.0
+            ],
+            [
+              2167.0,
+              1897.0
+            ],
+            [
+              1978.0,
+              1897.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8792921304702759,
+          "coordinate": [
+            2234,
+            1015,
+            2954,
+            1114
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2234.0,
+              1015.0
+            ],
+            [
+              2954.0,
+              1015.0
+            ],
+            [
+              2954.0,
+              1114.0
+            ],
+            [
+              2234.0,
+              1114.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.9349920153617859,
+          "coordinate": [
+            2215,
+            1116,
+            2954,
+            1860
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2215.0,
+              1116.0
+            ],
+            [
+              2954.0,
+              1116.0
+            ],
+            [
+              2954.0,
+              1860.0
+            ],
+            [
+              2215.0,
+              1860.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8505992293357849,
+          "coordinate": [
+            2214,
+            1858,
+            2953,
+            2015
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2214.0,
+              1858.0
+            ],
+            [
+              2953.0,
+              1858.0
+            ],
+            [
+              2953.0,
+              2015.0
+            ],
+            [
+              2214.0,
+              2015.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "suffit à mettre la cas hors de\n\nconceps : essentiellement\n\nculins de la courtoisie.\n\nCe n'est pas non plus l'amou\n\nà l'antique, la sentiment d'O\n\nbista, ou bien la sentiment no\n\nif et populaire d'un classique\n\nmoderne lot qu'il se espondait\n\ndans la lyrique des écoliers et\n\ntants. C'est un amour l'émolue\n\net forouche, c'est un cœur de\n\nchiré par les deux forces abso\n\nlument opposés de la foi caractérisme et de la plus profonde\n\npassion terrissiva. Il y a dans les\n\neffusions d'héloïse quelque chose\n\nde si direct, de si excellent,\n\nqu'en se demanda où trouver les\n\nparallèdes si ce n'est dans Shaba\n\nspara. Ella n'héiserait pas, dit\n\nelle, de la suivre, si elle le voit\n\nait courant à l'enfer. Qu'il ne\n\nla cusi est sait rejetée par l'est\n\nLouis and passent pour sa pièce et l'affenser lui que d'off\n\nenser Dieu.\n\nColle absence de réserve et primitive et barbara² l'y trouvique classe qui n'est pas latin qui est exagéré et extravagant, hérosïse ma fait penser à ces femme",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//71a7e1fc-7d4b-40f5-bd50-bfbb5dfd43dd/layout_det_res_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A34Z%2F-1%2F%2F78aa6a92f82d1deb5dc1b858d83ecefafa65f42873160bcdaa24ab02dfe7809a"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//71a7e1fc-7d4b-40f5-bd50-bfbb5dfd43dd/input_img_1.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A35Z%2F-1%2F%2Fd648d6a596a09c8cf902132bedc804d91c7184ecbc672d418f528560feb7aeec"
+}

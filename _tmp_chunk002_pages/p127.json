@@ -1,0 +1,408 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "aside_text",
+        "block_content": "des traités d'Ecosome, en",
+        "block_bbox": [
+          1705,
+          1277,
+          2215,
+          1306
+        ],
+        "block_id": 0,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            1705.0,
+            1277.0
+          ],
+          [
+            2215.0,
+            1277.0
+          ],
+          [
+            2215.0,
+            1306.0
+          ],
+          [
+            1705.0,
+            1306.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "cinciment des la nature du\n\ntraité qu'en appolont son esprit\n\nun esprit érasmique. C'est à\n\nun esprit critique et humain\n\nbaixo, ecclésiastiqua et placée\n\nen, pieux et sérieux en même\n\ntempus que letra, et l'ager, ironique\n\nrossanula à galdo\n\nla forme aussi",
+        "block_bbox": [
+          2214,
+          1009,
+          2955,
+          1265
+        ],
+        "block_id": 1,
+        "block_order": 1,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            2214.0,
+            1009.0
+          ],
+          [
+            2955.0,
+            1009.0
+          ],
+          [
+            2955.0,
+            1265.0
+          ],
+          [
+            2214.0,
+            1265.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "tant qu'elle est discience, e\n\nqu'elle imagine, pour viluppère\n\nou pour lever la lourps présent\n\nun monde zampli de figurés\n\nantiques.",
+        "block_bbox": [
+          2211,
+          1266,
+          2954,
+          1430
+        ],
+        "block_id": 2,
+        "block_order": 2,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2211.0,
+            1266.0
+          ],
+          [
+            2954.0,
+            1266.0
+          ],
+          [
+            2954.0,
+            1430.0
+          ],
+          [
+            2211.0,
+            1430.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Cependant les différences très\n\nmerquées des deux conaclières,\n\ndont l'ai parlé au commencement, se font sentir aussi dans\n\nleurs conceptiques politiques. Jeux de Salisbury, homme d'action\n\nagent politique pour l'Église, est beaucoup plus positive et roi\n\nment politique, que les danses\n\nquai, le nommé « hollant thérior, que l'esprit la�tition »\n\nmais de trois siècles plus tard,\n\nqui vinait à l'écant des affaires\n\nau monde.",
+        "block_bbox": [
+          2203,
+          1429,
+          2954,
+          1849
+        ],
+        "block_id": 3,
+        "block_order": 3,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2203.0,
+            1429.0
+          ],
+          [
+            2954.0,
+            1429.0
+          ],
+          [
+            2954.0,
+            1849.0
+          ],
+          [
+            2203.0,
+            1849.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Tous les deux ils voient clair\n\nles grands déforts de tout régime\n\nactuales des éclats et des sociétés\n\n10 font que tout homme s'y intégrer\n\n2esse : Céleri à n'est pas classés",
+        "block_bbox": [
+          2196,
+          1849,
+          2951,
+          2003
+        ],
+        "block_id": 4,
+        "block_order": 4,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2194.324951171875,
+            1859.022705078125
+          ],
+          [
+            2949.862548828125,
+            1848.812744140625
+          ],
+          [
+            2951.913330078125,
+            2000.582275390625
+          ],
+          [
+            2196.375732421875,
+            2010.792236328125
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "3 POC. 3.160 2esss: Coloni ha n'est pas address",
+        "block_bbox": [
+          2014,
+          1978,
+          2952,
+          2011
+        ],
+        "block_id": 5,
+        "block_order": 5,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            2014.0,
+            1978.0
+          ],
+          [
+            2952.0,
+            1978.0
+          ],
+          [
+            2952.0,
+            2011.0
+          ],
+          [
+            2014.0,
+            2011.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 2,
+          "label": "aside_text",
+          "score": 0.5559622645378113,
+          "coordinate": [
+            1705,
+            1277,
+            2215,
+            1306
+          ],
+          "polygon_points": [
+            [
+              1705.0,
+              1277.0
+            ],
+            [
+              2215.0,
+              1277.0
+            ],
+            [
+              2215.0,
+              1306.0
+            ],
+            [
+              1705.0,
+              1306.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.48205703496932983,
+          "coordinate": [
+            2214,
+            1009,
+            2955,
+            1265
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              2214.0,
+              1009.0
+            ],
+            [
+              2955.0,
+              1009.0
+            ],
+            [
+              2955.0,
+              1265.0
+            ],
+            [
+              2214.0,
+              1265.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.48883646726608276,
+          "coordinate": [
+            2211,
+            1266,
+            2954,
+            1430
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2211.0,
+              1266.0
+            ],
+            [
+              2954.0,
+              1266.0
+            ],
+            [
+              2954.0,
+              1430.0
+            ],
+            [
+              2211.0,
+              1430.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.8799669742584229,
+          "coordinate": [
+            2203,
+            1429,
+            2954,
+            1849
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              2203.0,
+              1429.0
+            ],
+            [
+              2954.0,
+              1429.0
+            ],
+            [
+              2954.0,
+              1849.0
+            ],
+            [
+              2203.0,
+              1849.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.726868212223053,
+          "coordinate": [
+            2196,
+            1849,
+            2951,
+            2003
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2194.324951171875,
+              1859.022705078125
+            ],
+            [
+              2949.862548828125,
+              1848.812744140625
+            ],
+            [
+              2951.913330078125,
+              2000.582275390625
+            ],
+            [
+              2196.375732421875,
+              2010.792236328125
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.321550577878952,
+          "coordinate": [
+            2014,
+            1978,
+            2952,
+            2011
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2014.0,
+              1978.0
+            ],
+            [
+              2952.0,
+              1978.0
+            ],
+            [
+              2952.0,
+              2011.0
+            ],
+            [
+              2014.0,
+              2011.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "cinciment des la nature du\n\ntraité qu'en appolont son esprit\n\nun esprit érasmique. C'est à\n\nun esprit critique et humain\n\nbaixo, ecclésiastiqua et placée\n\nen, pieux et sérieux en même\n\ntempus que letra, et l'ager, ironique\n\nrossanula à galdo\n\nla forme aussi\n\ntant qu'elle est discience, e\n\nqu'elle imagine, pour viluppère\n\nou pour lever la lourps présent\n\nun monde zampli de figurés\n\nantiques.\n\nCependant les différences très\n\nmerquées des deux conaclières,\n\ndont l'ai parlé au commencement, se font sentir aussi dans\n\nleurs conceptiques politiques. Jeux de Salisbury, homme d'action\n\nagent politique pour l'Église, est beaucoup plus positive et roi\n\nment politique, que les danses\n\nquai, le nommé « hollant thérior, que l'esprit la�tition »\n\nmais de trois siècles plus tard,\n\nqui vinait à l'écant des affaires\n\nau monde.\n\nTous les deux ils voient clair\n\nles grands déforts de tout régime\n\nactuales des éclats et des sociétés\n\n10 font que tout homme s'y intégrer\n\n2esse : Céleri à n'est pas classés\n\n3 POC. 3.160 2esss: Coloni ha n'est pas address",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/layout_det_res_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fc8cc85c433e205315bf91066f562a6ae9b17c0089edf516b82eeaab518bad06f"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//7f95391c-eacb-4bbf-ae31-01b4ad51fb91/input_img_2.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2Fae64f8bdeff8c7de446d1095e112b17531b0f1871942656dcea9a84bc519eea6"
+}

@@ -1,0 +1,770 @@
+{
+  "prunedResult": {
+    "model_settings": {
+      "use_doc_preprocessor": true,
+      "use_layout_detection": true,
+      "use_chart_recognition": true,
+      "use_seal_recognition": true,
+      "use_ocr_for_image_block": true,
+      "format_block_content": true,
+      "merge_layout_blocks": true,
+      "markdown_ignore_labels": [
+        "number",
+        "footnote",
+        "header",
+        "header_image",
+        "footer",
+        "footer_image",
+        "aside_text"
+      ],
+      "return_layout_polygon_points": true
+    },
+    "parsing_res_list": [
+      {
+        "block_label": "text",
+        "block_content": "ab hoste pfermi.",
+        "block_bbox": [
+          2232,
+          1028,
+          2635,
+          1056
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            2232.0,
+            1028.0
+          ],
+          [
+            2635.0,
+            1028.0
+          ],
+          [
+            2635.0,
+            1056.0
+          ],
+          [
+            2232.0,
+            1056.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "24\n\nRomanquez le scriptule sur la Jean de S. s'adressant à un livraison qu'il vient d'achèver. 16 aux Anglais :",
+        "block_bbox": [
+          1540,
+          1037,
+          2953,
+          1150
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            1540.0,
+            1037.0
+          ],
+          [
+            2953.0,
+            1037.0
+          ],
+          [
+            2953.0,
+            1150.0
+          ],
+          [
+            1540.0,
+            1150.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Anglorum todem primum potas,\n\nSire Britonum; Si Britonum me\n\nvis dicera, nemo velat.",
+        "block_bbox": [
+          2065,
+          1147,
+          2955,
+          1237
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            2065.0,
+            1157.0
+          ],
+          [
+            2065.0,
+            1226.0
+          ],
+          [
+            2080.0,
+            1236.0
+          ],
+          [
+            2954.0,
+            1226.0
+          ],
+          [
+            2954.0,
+            1147.0
+          ],
+          [
+            2110.0,
+            1147.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "le nous explique, par des échymos logicie absurde, le mot et héroïet de domestication pour ajouter",
+        "block_bbox": [
+          2216,
+          1233,
+          2952,
+          1335
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            2216.0,
+            1233.0
+          ],
+          [
+            2952.0,
+            1233.0
+          ],
+          [
+            2952.0,
+            1335.0
+          ],
+          [
+            2216.0,
+            1335.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "que nous parlons de saints et\n\nnon pas de héros ou de daim",
+        "block_bbox": [
+          2230,
+          1336,
+          2953,
+          1404
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            2230.0,
+            1336.0
+          ],
+          [
+            2953.0,
+            1336.0
+          ],
+          [
+            2953.0,
+            1404.0
+          ],
+          [
+            2230.0,
+            1404.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Voilà donc quelques exemplés de l'humorisme naif de Jean de Saliberry.",
+        "block_bbox": [
+          1534,
+          1421,
+          2229,
+          1506
+        ],
+        "block_id": 5,
+        "block_order": 6,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            1534.0,
+            1421.0
+          ],
+          [
+            2229.0,
+            1421.0
+          ],
+          [
+            2229.0,
+            1506.0
+          ],
+          [
+            1534.0,
+            1506.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Les sujets diverses qu'il traitent dans son Polycractes, cas well-ciés de",
+        "block_bbox": [
+          1535,
+          1519,
+          2238,
+          1588
+        ],
+        "block_id": 6,
+        "block_order": 7,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            1535.0,
+            1519.0
+          ],
+          [
+            2238.0,
+            1519.0
+          ],
+          [
+            2238.0,
+            1588.0
+          ],
+          [
+            1535.0,
+            1588.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "10 est pâcaux que ces vérification est classicisme à cM porté à préfèrement (comme la personne porté tard traime et tant d'autres)",
+        "block_bbox": [
+          2235,
+          1414,
+          2953,
+          1551
+        ],
+        "block_id": 7,
+        "block_order": 8,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            2235.0,
+            1414.0
+          ],
+          [
+            2953.0,
+            1414.0
+          ],
+          [
+            2953.0,
+            1551.0
+          ],
+          [
+            2235.0,
+            1551.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Les exemplaires et les anecdotes am\n\nla plus, pour la fin de l'exemple\n\nBrands)\n\nLes biens sur le chevronie, au\n\nlieux de roux donner des faits",
+        "block_bbox": [
+          2230,
+          1552,
+          2955,
+          1670
+        ],
+        "block_id": 8,
+        "block_order": 9,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            2230.0,
+            1552.0
+          ],
+          [
+            2955.0,
+            1552.0
+          ],
+          [
+            2955.0,
+            1670.0
+          ],
+          [
+            2230.0,
+            1670.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "Pol. c.VI. Polítornas la via de son temps\n\nVII. 82. \"Cortains traits, dit il, que je\n\nf. AB. 1. 326, n'ai pas honné dans les livres\n\n89. des Autours, je les ai emprunté\n\nà l'usage quotidien et à l'ex",
+        "block_bbox": [
+          1975,
+          1678,
+          2955,
+          1863
+        ],
+        "block_id": 9,
+        "block_order": 10,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            2954.0,
+            1678.0
+          ],
+          [
+            2065.0,
+            1688.0
+          ],
+          [
+            2020.0,
+            1708.0
+          ],
+          [
+            1975.0,
+            1737.0
+          ],
+          [
+            1975.0,
+            1833.0
+          ],
+          [
+            2228.0,
+            1853.0
+          ],
+          [
+            2940.0,
+            1833.0
+          ],
+          [
+            2941.0,
+            1853.0
+          ],
+          [
+            2954.0,
+            1853.0
+          ]
+        ]
+      }
+    ],
+    "layout_det_res": {
+      "boxes": [
+        {
+          "cls_id": 16,
+          "label": "number",
+          "score": 0.34594765305519104,
+          "coordinate": [
+            1533,
+            1035,
+            1604,
+            1065
+          ],
+          "order": 1,
+          "polygon_points": [
+            [
+              1533.0,
+              1035.0
+            ],
+            [
+              1604.0,
+              1035.0
+            ],
+            [
+              1604.0,
+              1065.0
+            ],
+            [
+              1533.0,
+              1065.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.30106139183044434,
+          "coordinate": [
+            2232,
+            1028,
+            2635,
+            1056
+          ],
+          "order": 2,
+          "polygon_points": [
+            [
+              2232.0,
+              1028.0
+            ],
+            [
+              2635.0,
+              1028.0
+            ],
+            [
+              2635.0,
+              1056.0
+            ],
+            [
+              2232.0,
+              1056.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.6409856677055359,
+          "coordinate": [
+            1540,
+            1037,
+            2953,
+            1150
+          ],
+          "order": 3,
+          "polygon_points": [
+            [
+              1540.0,
+              1037.0
+            ],
+            [
+              2953.0,
+              1037.0
+            ],
+            [
+              2953.0,
+              1150.0
+            ],
+            [
+              1540.0,
+              1150.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.7305893301963806,
+          "coordinate": [
+            2065,
+            1147,
+            2955,
+            1237
+          ],
+          "order": 4,
+          "polygon_points": [
+            [
+              2065.0,
+              1157.0
+            ],
+            [
+              2065.0,
+              1226.0
+            ],
+            [
+              2080.0,
+              1236.0
+            ],
+            [
+              2954.0,
+              1226.0
+            ],
+            [
+              2954.0,
+              1147.0
+            ],
+            [
+              2110.0,
+              1147.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.44599688053131104,
+          "coordinate": [
+            2216,
+            1233,
+            2952,
+            1335
+          ],
+          "order": 5,
+          "polygon_points": [
+            [
+              2216.0,
+              1233.0
+            ],
+            [
+              2952.0,
+              1233.0
+            ],
+            [
+              2952.0,
+              1335.0
+            ],
+            [
+              2216.0,
+              1335.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.4407755136489868,
+          "coordinate": [
+            2230,
+            1336,
+            2953,
+            1404
+          ],
+          "order": 6,
+          "polygon_points": [
+            [
+              2230.0,
+              1336.0
+            ],
+            [
+              2953.0,
+              1336.0
+            ],
+            [
+              2953.0,
+              1404.0
+            ],
+            [
+              2230.0,
+              1404.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5801365375518799,
+          "coordinate": [
+            1534,
+            1421,
+            2229,
+            1506
+          ],
+          "order": 7,
+          "polygon_points": [
+            [
+              1534.0,
+              1421.0
+            ],
+            [
+              2229.0,
+              1421.0
+            ],
+            [
+              2229.0,
+              1506.0
+            ],
+            [
+              1534.0,
+              1506.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5937017798423767,
+          "coordinate": [
+            1535,
+            1519,
+            2238,
+            1588
+          ],
+          "order": 8,
+          "polygon_points": [
+            [
+              1535.0,
+              1519.0
+            ],
+            [
+              2238.0,
+              1519.0
+            ],
+            [
+              2238.0,
+              1588.0
+            ],
+            [
+              1535.0,
+              1588.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5906896591186523,
+          "coordinate": [
+            2235,
+            1414,
+            2953,
+            1551
+          ],
+          "order": 9,
+          "polygon_points": [
+            [
+              2235.0,
+              1414.0
+            ],
+            [
+              2953.0,
+              1414.0
+            ],
+            [
+              2953.0,
+              1551.0
+            ],
+            [
+              2235.0,
+              1551.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.5708454251289368,
+          "coordinate": [
+            2230,
+            1552,
+            2955,
+            1670
+          ],
+          "order": 10,
+          "polygon_points": [
+            [
+              2230.0,
+              1552.0
+            ],
+            [
+              2955.0,
+              1552.0
+            ],
+            [
+              2955.0,
+              1670.0
+            ],
+            [
+              2230.0,
+              1670.0
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.42348167300224304,
+          "coordinate": [
+            2028,
+            1679,
+            2955,
+            1740
+          ],
+          "order": 11,
+          "polygon_points": [
+            [
+              2027.61474609375,
+              1687.1351318359375
+            ],
+            [
+              2954.0,
+              1678.9998779296875
+            ],
+            [
+              2954.45654296875,
+              1730.9959716796875
+            ],
+            [
+              2028.0712890625,
+              1739.1312255859375
+            ]
+          ]
+        },
+        {
+          "cls_id": 22,
+          "label": "text",
+          "score": 0.3014802038669586,
+          "coordinate": [
+            1975,
+            1678,
+            2955,
+            1863
+          ],
+          "order": 12,
+          "polygon_points": [
+            [
+              2954.0,
+              1678.0
+            ],
+            [
+              2065.0,
+              1688.0
+            ],
+            [
+              2020.0,
+              1708.0
+            ],
+            [
+              1975.0,
+              1737.0
+            ],
+            [
+              1975.0,
+              1833.0
+            ],
+            [
+              2228.0,
+              1853.0
+            ],
+            [
+              2940.0,
+              1833.0
+            ],
+            [
+              2941.0,
+              1853.0
+            ],
+            [
+              2954.0,
+              1853.0
+            ]
+          ]
+        }
+      ]
+    },
+    "doc_preprocessor_res": {
+      "model_settings": {
+        "use_doc_orientation_classify": true,
+        "use_doc_unwarping": true
+      },
+      "angle": 0
+    }
+  },
+  "markdown": {
+    "text": "ab hoste pfermi.\n\n24\n\nRomanquez le scriptule sur la Jean de S. s'adressant à un livraison qu'il vient d'achèver. 16 aux Anglais :\n\nAnglorum todem primum potas,\n\nSire Britonum; Si Britonum me\n\nvis dicera, nemo velat.\n\nle nous explique, par des échymos logicie absurde, le mot et héroïet de domestication pour ajouter\n\nque nous parlons de saints et\n\nnon pas de héros ou de daim\n\nVoilà donc quelques exemplés de l'humorisme naif de Jean de Saliberry.\n\nLes sujets diverses qu'il traitent dans son Polycractes, cas well-ciés de\n\n10 est pâcaux que ces vérification est classicisme à cM porté à préfèrement (comme la personne porté tard traime et tant d'autres)\n\nLes exemplaires et les anecdotes am\n\nla plus, pour la fin de l'exemple\n\nBrands)\n\nLes biens sur le chevronie, au\n\nlieux de roux donner des faits\n\nPol. c.VI. Polítornas la via de son temps\n\nVII. 82. \"Cortains traits, dit il, que je\n\nf. AB. 1. 326, n'ai pas honné dans les livres\n\n89. des Autours, je les ai emprunté\n\nà l'usage quotidien et à l'ex",
+    "images": {}
+  },
+  "outputImages": {
+    "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//82cd0a75-900e-4120-a8a4-a7dde99c0239/layout_det_res_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F875b9c060a7bd694e18abf97260e0f6eb30fb1d91c0e3aaa84b83dc4a6b10e4b"
+  },
+  "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-16-online//82cd0a75-900e-4120-a8a4-a7dde99c0239/input_img_3.jpg?authorization=bce-auth-v1%2FALTAKDN8mY5KlNI7zaRpLmOqrw%2F2026-08-20T03%3A52%3A39Z%2F-1%2F%2F990ddb56c232e10afdc61f018808f1d0e9f371ee4ffedddce7a1d73c52964678"
+}
