@@ -10,3 +10,5 @@ p0024	blank/no-substantive	Blank light card on dark mount.	Treat any substantive
 p0028	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
 p0032	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
 p0039	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
+p0073	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on a dark archival background; this is not a failed render.	Treat any substantive OCR prose as unsupported unless the scan is rechecked.	HIGH
+p0125	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on a dark archival background; this is not a failed render.	Treat any substantive OCR prose as unsupported unless the scan is rechecked.	HIGH
