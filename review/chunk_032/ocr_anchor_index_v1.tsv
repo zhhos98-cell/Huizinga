@@ -1,0 +1,14 @@
+anchor_id	span_or_page	confidence	anchor	calibrated_use	caution
+A4_01	p0108-p0159	HIGH_OCR_PACKET	Assemblée nationale deputy research	Multi-source biographical/reference triangulation	Names and bibliographic details OCR-damaged; exact page-level quotation awaits scans
+A4_02	p0108-p0159	HIGH_OCR_PACKET	Robespierre : Idées religieuses ...	Robespierre/Lafayette/Dumouriez research sequence	Heading partly OCR-damaged; do not normalize exact title without scan
+A4_03	p0108-p0159	HIGH_OCR_PACKET	Parliamentary History	Cross-check Stanhope/Pitt parliamentary chronology against revolutionary wording	Several dates rendered as 994/1994 are obvious OCR corruption in a 1794 sequence
+A4_04	p0108-p0159	MEDIUM_HIGH_OCR	10 Frimaire II	French-Revolution religious-policy chronology anchor	Exact surrounding wording requires scan
+A4_05	p0108-p0159	MEDIUM_OCR	Barère	Revolution actor/reference anchor	At least one Barère page has severe generated English after a plausible heading
+A4_06	p0108-p0159	MEDIUM_OCR	Le Chapelier	Revolution actor/reference anchor	Surrounding date/prose OCR highly corrupt
+A5_01	p0175	HIGH_OCR_NAME	J. HUIZINGA, Voorzitter, Leiden; L. VAN ITALLIE, Leiden	Institutional/administrative linkage anchor	Relation to late relief committee unresolved without scan
+A7_01	p0219-p0235; clearest p0233	HIGH_OCR_PACKET	krijgsgevangen of geinterneerde studenten	Academic-relief committee purpose	Formal committee name and diplomatic wording await scan
+A7_02	p0219-p0235; clearest p0233	HIGH_OCR_PACKET	Vergel. taalwetenschap; Sanskrit; Vad. of alg. geschiedenis	Disciplinary allocation within relief apparatus	List punctuation/complete categories may be OCR-damaged
+A7_03	p0219-p0235; clearest p0233	HIGH_OCR_NAME	J. HUIZINGA, Voorzitter, Leiden	Huizinga explicitly named chairman	Exact document identity awaits scan
+NEG_01	p0022	REJECT	ethnologia	Negative control only	Embedded in severe generated English/sociological corruption; not an anthropology hit
+NEG_02	pathological page(s)	REJECT	play	Negative control only	Occurs in broken generated English; not a play/game hit
+NEG_03	pathological page(s)	REJECT	repeated modern year tables	Machine-pathology control	Generated sequences extend far beyond source chronology
