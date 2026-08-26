@@ -154,3 +154,30 @@ Detailed notes: `review/chunk_029/core_theme_hits_v1.md`.
 - No secure first-order play/game-theory hit was visually established despite incidental OCR strings resembling *spel/play*.
 
 Detailed notes: `review/chunk_030/core_theme_hits_v1.md`.
+
+## Chunk 032
+
+**Calibration level:** OCR-only second pass. These hits are not scan-verified; the 66 baseline-empty pages remain unresolved and the visual audit is still open.
+
+### Tier 1 — French Revolution research as source triangulation
+
+- `chunk_032:p0108-p0159`: the strongest coherent OCR packet shows a practical source-checking procedure rather than only thematic French-Revolution notes. One sequence reconstructs an Assemblée nationale deputy by consulting several biographical/bibliographical reference tools. Another follows Robespierre's statements about Lafayette and Dumouriez, explicitly records difficulty finding a precise factual match, and then compares the interpretation with Stanhope/Pitt biographical material and `Parliamentary History`.
+- The same broad run preserves stable retrieval anchors for the National Convention, `10 Frimaire II`, Barère and Le Chapelier. Exact names/dates on individual pages remain unsafe where OCR is pathological.
+- Research value: direct OCR-layer evidence for `problem/quotation -> identify actor -> consult multiple reference instruments -> check parliamentary/event chronology -> cautious historical interpretation`.
+
+### Tier 1 — academic relief / prisoner-and-interned students
+
+- `chunk_032:p0219-p0235`, clearest at `p0233`: OCR describes an organized relief effort for `krijgsgevangen of geinterneerde studenten`, including books/study means and support for scientific or scholarly activity. A disciplinary allocation includes comparative linguistics and Sanskrit.
+- The document environment explicitly lists **`J. HUIZINGA, Voorzitter, Leiden.`**, followed by L. van Itallie, J. H. Kern, A. Noordtzij and L. H. Scholte. This is a stronger institutional hit than the first-pass label `academic-relief fragments`, though the formal committee name still requires scan verification.
+
+### Tier 2 — earlier institutional linkage lead
+
+- `chunk_032:p0175` preserves **`J. HUIZINGA, Voorzitter, Leiden. L. VAN ITALLIE, Leiden.`** The recurrence of the same names in the late relief packet may indicate a related or duplicated institutional form. OCR alone cannot establish document identity or sequence.
+
+### Negative controls
+
+- `chunk_032:p0022` contains `ethnologia` embedded in severe generated English/sociological corruption; it is not evidence for an anthropology/ethnology dossier.
+- No secure `Malinowski`, `primitive/primitief`, Rockefeller Memorial or first-order play/game hit was established in the raw chunk-032 OCR.
+- OCR `play` strings occur in broken generated English and are explicitly rejected as research evidence.
+
+Detailed notes: `review/chunk_032/core_theme_hits_v1.md`.
