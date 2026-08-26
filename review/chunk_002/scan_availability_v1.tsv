@@ -1,0 +1,3 @@
+span	scan_source	availability	visual_review_status	note
+p0123-p0183	/Huizinga/chunk_002_123-183.pdf	CONFIRMED_IN_FILE_LIBRARY	NOT_REVIEWED_ACCESS_BLOCKED	61-page source is present in the Library, but current review environment could not read or materialize the PDF; no visual claims are made.
+outside_p0123-p0183	UNRESOLVED	NOT_CONFIRMED	NOT_REVIEWED	No additional scan coverage was securely confirmed in this pass. Do not infer absence; search again when continuing visual review.
