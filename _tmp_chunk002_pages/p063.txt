@@ -1,6 +1,6 @@
-[0|number] O
+[0|number] 10
 
-[1|text] à la base de la vie sociale et mentale l'outre entière.
+[1|text] à la base de la vie sociale et mentale toute entière.
 
 [2|text] c'est à dire cela de la libon. Lends l'idée prégorieune.
 
@@ -20,13 +20,9 @@ par parler des craut de la Soirande
 
 de son l'Hôpital et du Temple.
 
-[4|text] est bien plus élément parmi
+[4|text] est bien plus élément formateur, créateur de la vie médiévale que les trésors qu'on puisait à la source antique.
 
-leur, créateur de la vie médiévale que les trésors qu'en puisait à la source antique.
-
-[5|text] de cocoa qui émane du livre de
-
-M. haskins
+[5|text] de celle qui émane du livre de M. Haskins
 
 [6|text] Lends l'idée grégorieune,
 
@@ -44,7 +40,7 @@ parie de la Structure consiste
 
 lutionnelle du temps. Tout cela
 
-[7|text] (Le ma semble permis de 2e garder la tradition du moyen âge à la tradition de l'anti-quité sous une lumière (différence pour bien comprendre la nature du lang et l'ont procédé dont pendant sept siècles du cinquième au douzième scètes la civilisation nous voulait et indépendants, que nous viront toujours au fond et le mot, le voudre varier la parola évangélique
+[7|text] Il me semble permis de regarder la relation du moyen âge à la tradition de l'antiquité sous une lumière un peu différente, pour bien comprendre la nature du long et lent processus dont, pendant sept siècles, du cinquième au douzième, sortira la civilisation nouvelle et indépendante, dont nous vivons toujours au fond ; je voudrais varier la parole évangélique :
 
 [8|text] " Semper pouparos habilis usitis
 

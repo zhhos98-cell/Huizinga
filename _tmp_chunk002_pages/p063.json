@@ -22,7 +22,7 @@
     "parsing_res_list": [
       {
         "block_label": "number",
-        "block_content": "O",
+        "block_content": "10",
         "block_bbox": [
           1525,
           1034,
@@ -52,7 +52,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "à la base de la vie sociale et mentale l'outre entière.",
+        "block_content": "à la base de la vie sociale et mentale toute entière.",
         "block_bbox": [
           2217,
           1023,
@@ -145,7 +145,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "est bien plus élément parmi\n\nleur, créateur de la vie médiévale que les trésors qu'en puisait à la source antique.",
+        "block_content": "est bien plus élément formateur, créateur de la vie médiévale que les trésors qu'on puisait à la source antique.",
         "block_bbox": [
           1514,
           1346,
@@ -176,7 +176,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "de cocoa qui émane du livre de\n\nM. haskins",
+        "block_content": "de celle qui émane du livre de M. Haskins",
         "block_bbox": [
           1523,
           1494,
@@ -238,7 +238,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "(Le ma semble permis de 2e garder la tradition du moyen âge à la tradition de l'anti-quité sous une lumière (différence pour bien comprendre la nature du lang et l'ont procédé dont pendant sept siècles du cinquième au douzième scètes la civilisation nous voulait et indépendants, que nous viront toujours au fond et le mot, le voudre varier la parola évangélique",
+        "block_content": "Il me semble permis de regarder la relation du moyen âge à la tradition de l'antiquité sous une lumière un peu différente, pour bien comprendre la nature du long et lent processus dont, pendant sept siècles, du cinquième au douzième, sortira la civilisation nouvelle et indépendante, dont nous vivons toujours au fond ; je voudrais varier la parole évangélique :",
         "block_bbox": [
           2208,
           1365,
@@ -582,7 +582,7 @@
     }
   },
   "markdown": {
-    "text": "à la base de la vie sociale et mentale l'outre entière.\n\nc'est à dire cela de la libon. Lends l'idée prégorieune.\n\nla et de la primauté de l'Églisebrégiste comme le, la péro\n\nopposé au pouvoir tempéré\n\npuis la monothétique engen-\n\nclidité, la chupadérie d'esprit\n\ndroit, après Clune, Cléaux, Pré-\n\nla Caillure Tombré, pour ne\n\npar parler des craut de la Soirande\n\nde son l'Hôpital et du Temple.\n\nest bien plus élément parmi\n\nleur, créateur de la vie médiévale que les trésors qu'en puisait à la source antique.\n\nde cocoa qui émane du livre de\n\nM. haskins\n\nLends l'idée grégorieune,\n\nC'est l'écriture comme le, la po\n\nC'est la chavaderie d'esprit\n\ncosperatif qui nous donnerais\n\nl'épromouissement de toute la\n\nl'économique et d'une comme\n\nparie de la Structure consiste\n\nlutionnelle du temps. Tout cela\n\n(Le ma semble permis de 2e garder la tradition du moyen âge à la tradition de l'anti-quité sous une lumière (différence pour bien comprendre la nature du lang et l'ont procédé dont pendant sept siècles du cinquième au douzième scètes la civilisation nous voulait et indépendants, que nous viront toujours au fond et le mot, le voudre varier la parola évangélique\n\n\" Semper pouparos habilis usitis\n\ncum\", em disant:\n\na es, toujours l'antiquité\n\nla cattia dina la draper d'age\n\nl'ouais tojoorsd aupris de soi\n\nla culture ancienne (estait\n\ntoujours comme saut prتiois\n\nun traiser prodigieux et zodeur\n\nlable dont il fallait de servir",
+    "text": "à la base de la vie sociale et mentale toute entière.\n\nc'est à dire cela de la libon. Lends l'idée prégorieune.\n\nla et de la primauté de l'Églisebrégiste comme le, la péro\n\nopposé au pouvoir tempéré\n\npuis la monothétique engen-\n\nclidité, la chupadérie d'esprit\n\ndroit, après Clune, Cléaux, Pré-\n\nla Caillure Tombré, pour ne\n\npar parler des craut de la Soirande\n\nde son l'Hôpital et du Temple.\n\nest bien plus élément formateur, créateur de la vie médiévale que les trésors qu'on puisait à la source antique.\n\nde celle qui émane du livre de M. Haskins\n\nLends l'idée grégorieune,\n\nC'est l'écriture comme le, la po\n\nC'est la chavaderie d'esprit\n\ncosperatif qui nous donnerais\n\nl'épromouissement de toute la\n\nl'économique et d'une comme\n\nparie de la Structure consiste\n\nlutionnelle du temps. Tout cela\n\nIl me semble permis de regarder la relation du moyen âge à la tradition de l'antiquité sous une lumière un peu différente, pour bien comprendre la nature du long et lent processus dont, pendant sept siècles, du cinquième au douzième, sortira la civilisation nouvelle et indépendante, dont nous vivons toujours au fond ; je voudrais varier la parole évangélique :\n\n\" Semper pouparos habilis usitis\n\ncum\", em disant:\n\na es, toujours l'antiquité\n\nla cattia dina la draper d'age\n\nl'ouais tojoorsd aupris de soi\n\nla culture ancienne (estait\n\ntoujours comme saut prتiois\n\nun traiser prodigieux et zodeur\n\nlable dont il fallait de servir",
     "images": {}
   },
   "outputImages": {
