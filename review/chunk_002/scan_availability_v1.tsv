@@ -1,5 +1,5 @@
 span	scan_source	availability	visual_review_status	note
-p0001-p0061	/Huizinga/chunk_002_1-61.pdf	CONFIRMED_IN_FILE_LIBRARY	NOT_REVIEWED_ACCESS_BLOCKED	61-page source confirmed in Library on 2026-08-26; current review environment returned no rendered page images and raw-file materialization failed with 403, so no visual claims are made.
-p0062-p0122	UNRESOLVED	NOT_CONFIRMED	NOT_REVIEWED	No scan source is currently surfaced in the Library listing used for this pass. Do not infer archival absence.
-p0123-p0183	/Huizinga/chunk_002_123-183.pdf	CONFIRMED_IN_FILE_LIBRARY	NOT_REVIEWED_ACCESS_BLOCKED	61-page source is present in the Library, but current review environment could not read rendered page images or materialize the PDF; no visual claims are made.
-after_p0183	UNRESOLVED	NOT_CONFIRMED	NOT_REVIEWED	No additional scan coverage is currently surfaced in the Library listing used for this pass. Do not infer archival absence.
+p0001-p0061	/Huizinga/chunk_002_1-61.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	61-page source materialized in the review runtime on 2026-08-26; all pages rendered and inspected at scan level. Priority anchors were re-rendered at higher resolution for direct comparison with raw OCR.
+p0062-p0122	/Huizinga/chunk_002_62-122.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	Previously unresolved middle segment is now present. All 61 pages rendered and inspected at scan level; high-priority Abélard / play / primitive / Renaissance pages were checked at higher resolution.
+p0123-p0183	/Huizinga/chunk_002_123-183.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	61-page source materialized in the review runtime; all pages rendered and inspected at scan level.
+after_p0183	OUT_OF_SCOPE_FOR_CURRENT_SCAN_SET	NO_SCAN_EXPECTED_FROM_THREE_SEGMENT_SET	NOT_APPLICABLE	The three confirmed 61-page segments form a contiguous p0001-p0183 set. No claim is made here about whether a larger archival source exists beyond p0183.
