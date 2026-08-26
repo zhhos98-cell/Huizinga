@@ -7,3 +7,7 @@ p0056	blank/no-substantive	Blank light card on dark mount.	Treat any substantive
 p0060	blank/no-substantive	Blank light card on dark mount.	Treat any substantive OCR prose as hallucination.	HIGH
 p0068	short-text/minimal	Mostly blank ruled notebook spread with a tiny mark/annotation on the right leaf.	At most minimal text is visually supported.	HIGH
 p0071	blank/no-substantive	Small blank light card mounted centrally on dark board.	Treat any substantive OCR prose as hallucination.	HIGH
+p0094	blank/no-substantive	High-resolution check confirms a genuinely blank full pale source sheet on a dark archival background; not a failed render.	Any substantive OCR text would be unsupported unless independently rechecked against the scan.	HIGH
+p0123	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on a dark archival background.	Any substantive OCR text would be unsupported unless independently rechecked against the scan.	HIGH
+p0204	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on a dark archival background.	Any substantive OCR text would be unsupported unless independently rechecked against the scan.	HIGH
+p0205	short-text/minimal	Sparse small source region consisting of envelope/card material with a small visible note; not visually blank.	Only minimal localized text is supported; do not promote long OCR prose without direct scan verification.	HIGH
