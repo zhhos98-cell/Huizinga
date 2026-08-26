@@ -1,8 +1,8 @@
 [0|number] 12
 
-[1|text] Ce n'est pas de ces lenclaires de classicisme que dépend la formation de la civilité, tient du moyen âge.
+[1|text] Ce n'est pas de ces tentatives de classicisme que dépend la formation de la civilisation du moyen âge.
 
-[2|text] 2alion à l’urbanisme. Tous homme, pendant ces siècles, qui s'estit à approfondir un pour mieux que les autres l'esprit classique (nous fait l'effet d’un harmonista. Teo Alcuin au hetième, tel Gerbert au distième 12 y a, tout la lamps, un abime entre l'état réel de la civilisation générale et celle culture quasi-classique qui était la priorité de quelques 2000s.
+[2|text] Tous les hommes, pendant ces siècles, qui réussirent à approfondir un peu mieux que les autres l'esprit classique, nous font l'effet d'un humaniste. Tel Alcuin au huitième, tel Gerbert au dixième. Il y a, tout le temps, un abîme entre l'état réel de la civilisation générale et cette culture quasi-classique qui était le privilège de quelques rares lettrés.
 
 [3|text] Em allianzant cello civilità
 
@@ -10,36 +10,6 @@ tias gérida era è to eròia
 
 Ella no se developpe
 
-[4|text] Pada 1. Ella no da devolta para
+[4|text] Elle ne se développe pas par le moyen d'une littérature, mais d'abord et par les formes mêmes que prend la vie sociale : par le monasticisme, par la féodalité, par la formation d'organismes politiques, par l'organisation corporative de la vie communale et économique. Aucun de ces grands phénomènes ne devait beaucoup à l'inspiration ou à l'imitation des classiques.
 
-Pas la moyena, (ve
-
-pas demoram para uma lillie rota
-
-(Las frames) mais daud et par les formes même
-
-que prend la vie sociale : par
-
-la monasticisme, par la pe
-
-dàité, par la formation d'cr
-
-ganisme politique, par l'er
-
-ganisation corporaine de la
-
-via communa et économique
-
-Aucun de ces grands phénomène
-
-na devait beaucoup à l'inspir
-
-ation ou à l'imitation des clav
-
-sigues.
-
-[5|text] G2 2' Europe du doszième siècle
-
-à son début 2e présente une so-
-
-ciété qui a atteint sa majorité.
+[5|text] Et l'Europe du douzième siècle à son début se présente une société qui a atteint sa majorité.

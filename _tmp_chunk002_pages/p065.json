@@ -52,7 +52,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "Ce n'est pas de ces lenclaires de classicisme que dépend la formation de la civilité, tient du moyen âge.",
+        "block_content": "Ce n'est pas de ces tentatives de classicisme que dépend la formation de la civilisation du moyen âge.",
         "block_bbox": [
           1501,
           1450,
@@ -83,7 +83,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "2alion à l’urbanisme. Tous homme, pendant ces siècles, qui s'estit à approfondir un pour mieux que les autres l'esprit classique (nous fait l'effet d’un harmonista. Teo Alcuin au hetième, tel Gerbert au distième 12 y a, tout la lamps, un abime entre l'état réel de la civilisation générale et celle culture quasi-classique qui était la priorité de quelques 2000s.",
+        "block_content": "Tous les hommes, pendant ces siècles, qui réussirent à approfondir un peu mieux que les autres l'esprit classique, nous font l'effet d'un humaniste. Tel Alcuin au huitième, tel Gerbert au dixième. Il y a, tout le temps, un abîme entre l'état réel de la civilisation générale et cette culture quasi-classique qui était le privilège de quelques rares lettrés.",
         "block_bbox": [
           2205,
           1006,
@@ -145,7 +145,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "Pada 1. Ella no da devolta para\n\nPas la moyena, (ve\n\npas demoram para uma lillie rota\n\n(Las frames) mais daud et par les formes même\n\nque prend la vie sociale : par\n\nla monasticisme, par la pe\n\ndàité, par la formation d'cr\n\nganisme politique, par l'er\n\nganisation corporaine de la\n\nvia communa et économique\n\nAucun de ces grands phénomène\n\nna devait beaucoup à l'inspir\n\nation ou à l'imitation des clav\n\nsigues.",
+        "block_content": "Elle ne se développe pas par le moyen d'une littérature, mais d'abord et par les formes mêmes que prend la vie sociale : par le monasticisme, par la féodalité, par la formation d'organismes politiques, par l'organisation corporative de la vie communale et économique. Aucun de ces grands phénomènes ne devait beaucoup à l'inspiration ou à l'imitation des classiques.",
         "block_bbox": [
           2204,
           1518,
@@ -176,7 +176,7 @@
       },
       {
         "block_label": "text",
-        "block_content": "G2 2' Europe du doszième siècle\n\nà son début 2e présente une so-\n\nciété qui a atteint sa majorité.",
+        "block_content": "Et l'Europe du douzième siècle à son début se présente une société qui a atteint sa majorité.",
         "block_bbox": [
           2201,
           1928,
@@ -399,7 +399,7 @@
     }
   },
   "markdown": {
-    "text": "Ce n'est pas de ces lenclaires de classicisme que dépend la formation de la civilité, tient du moyen âge.\n\n2alion à l’urbanisme. Tous homme, pendant ces siècles, qui s'estit à approfondir un pour mieux que les autres l'esprit classique (nous fait l'effet d’un harmonista. Teo Alcuin au hetième, tel Gerbert au distième 12 y a, tout la lamps, un abime entre l'état réel de la civilisation générale et celle culture quasi-classique qui était la priorité de quelques 2000s.\n\nEm allianzant cello civilità\n\ntias gérida era è to eròia\n\nElla no se developpe\n\nPada 1. Ella no da devolta para\n\nPas la moyena, (ve\n\npas demoram para uma lillie rota\n\n(Las frames) mais daud et par les formes même\n\nque prend la vie sociale : par\n\nla monasticisme, par la pe\n\ndàité, par la formation d'cr\n\nganisme politique, par l'er\n\nganisation corporaine de la\n\nvia communa et économique\n\nAucun de ces grands phénomène\n\nna devait beaucoup à l'inspir\n\nation ou à l'imitation des clav\n\nsigues.\n\nG2 2' Europe du doszième siècle\n\nà son début 2e présente une so-\n\nciété qui a atteint sa majorité.",
+    "text": "Ce n'est pas de ces tentatives de classicisme que dépend la formation de la civilisation du moyen âge.\n\nTous les hommes, pendant ces siècles, qui réussirent à approfondir un peu mieux que les autres l'esprit classique, nous font l'effet d'un humaniste. Tel Alcuin au huitième, tel Gerbert au dixième. Il y a, tout le temps, un abîme entre l'état réel de la civilisation générale et cette culture quasi-classique qui était le privilège de quelques rares lettrés.\n\nEm allianzant cello civilità\n\ntias gérida era è to eròia\n\nElla no se developpe\n\nElle ne se développe pas par le moyen d'une littérature, mais d'abord et par les formes mêmes que prend la vie sociale : par le monasticisme, par la féodalité, par la formation d'organismes politiques, par l'organisation corporative de la vie communale et économique. Aucun de ces grands phénomènes ne devait beaucoup à l'inspiration ou à l'imitation des classiques.\n\nEt l'Europe du douzième siècle à son début se présente une société qui a atteint sa majorité.",
     "images": {}
   },
   "outputImages": {
