@@ -1,5 +1,8 @@
 span	scan_source	availability	visual_review_status	note
-p0001-p0040	chunk_034__p0001-0040.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	40 pages rendered and inspected in the current five-PDF round; mounted slip boards and recurring blank/backside pages dominate.
-p0041-p0120	current review input	NOT_AVAILABLE_IN_CURRENT_REVIEW_INPUT	NOT_REVIEWED	No scan segment for this intervening span was supplied in the current review input.
-p0121-p0160	chunk_034__p0121-0160.pdf	CONFIRMED_LOCAL_SCAN	NOT_REVIEWED_THIS_ROUND	Available locally but intentionally deferred because the current review unit is five PDFs.
-after_p0160	current review input	NOT_ASSESSED	NOT_REVIEWED	No claim is made here about later scan availability or chunk extent.
+p0001-p0040	chunk_034__p0001-0040.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	40 pages rendered and inspected in five-PDF round 001.
+p0041-p0080	chunk_034__p0041-0080.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	40 pages rendered and inspected in five-PDF round 002; p0073 confirmed as genuine blank source card.
+p0081-p0120	current local scan set	NOT_AVAILABLE	NOT_REVIEWED	Intervening scan segment is not present in the current local supplied set.
+p0121-p0160	chunk_034__p0121-0160.pdf	CONFIRMED_LOCAL_SCAN	MACRO_VISUAL_SWEEP_COMPLETE	40 pages rendered and inspected in five-PDF round 002; p0125 confirmed as genuine blank source card.
+p0161-p0200	current local scan set	NOT_AVAILABLE	NOT_REVIEWED	Intervening scan segment is not present in the current local supplied set.
+p0201-p0240	chunk_034__p0201-0240.pdf	CONFIRMED_LOCAL_SCAN	NOT_REVIEWED_THIS_ROUND	Locally available; reserved for a later five-PDF review round.
+p0241-p0246	chunk_034__p0241-0246.pdf	CONFIRMED_LOCAL_SCAN	NOT_REVIEWED_THIS_ROUND	Locally available; reserved for a later five-PDF review round.
