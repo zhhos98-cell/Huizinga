@@ -1,0 +1,7 @@
+page	visual_class	visual_observation	raw_ocr_calibration	confidence
+p0001	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on the dark archival background.	No chunk_035 raw OCR file is currently indexed in the repository; retain as a future false-positive/false-empty calibration control.	HIGH
+p0029	short-text/minimal	Sparse modern catalogue/cover sheet with barcode and limited metadata; not a dense archival text page.	If raw OCR is later added, only short metadata-level text should be expected from this page.	HIGH
+p0121	usable-with-noise	Large printed newspaper/periodical clipping with dense linear columns; materially different from the mounted-slip regime.	If raw OCR is later added, expect a substantial printed-text signal but preserve column/layout caution.	HIGH
+p0128	blank/no-substantive	High-resolution check confirms a genuinely blank folded pale sheet on the dark archival background; only paper texture/fold is visible.	Future substantive OCR output on this page should be treated as unsupported unless independently rechecked.	HIGH
+p0129	short-text/nontext	Single reproduced figurative image on a narrow pale support; no substantial text body is visible.	If raw OCR is later added, expect little or no meaningful text signal beyond incidental labels.	HIGH
+p0209	blank/no-substantive	High-resolution check confirms a genuinely blank pale source card on the dark archival background.	Future substantive OCR output on this page should be treated as unsupported unless independently rechecked.	HIGH
