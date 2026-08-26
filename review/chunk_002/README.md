@@ -4,9 +4,11 @@ This directory calibrates `chunk_002.pdf_by_PaddleOCR-VL-1.6.json` against the a
 
 ## Current calibration level
 
-The former scan/page-alignment blocker is resolved. All three contiguous 61-page PDF segments are available and form `p0001-p0183`. All 183 pages have been rendered and inspected at macro visual level; priority OCR anchors were re-rendered at higher resolution and compared directly with the manuscript scans.
+All three contiguous 61-page PDF segments are available and form `p0001-p0183`. The former scan/page-alignment blocker is resolved.
 
-Absolute `pXXXX` citation is therefore restored for the verified raw anchors. This does not make the rough JSON a diplomatic transcription: composite mounted boards, dense handwriting and severe machine over-generation still require scan-first reading for exact quotation.
+The current review now has a genuine page-by-page visual pass for **183/183 pages**, recorded in `full_page_visual_empty_signal_manifest_v1.tsv`. The same pass exhaustively cross-checks the split-OCR baseline empty/nonempty signal for all 183 pages and therefore closes the baseline-empty/false-empty question.
+
+This is stronger than the former macro-only state, but it is still important not to overstate the result: every page has been visually classified, while every nonempty OCR string has **not** been semantically proofread line by line. Thus page-level visual retrieval is complete; full semantic OCR-usability closure remains incomplete.
 
 ## Scan set
 
@@ -14,7 +16,18 @@ Absolute `pXXXX` citation is therefore restored for the verified raw anchors. Th
 - `p0062-p0122`: `/Huizinga/chunk_002_62-122.pdf`
 - `p0123-p0183`: `/Huizinga/chunk_002_123-183.pdf`
 
-The previously missing middle segment is now present. See `scan_availability_v1.tsv`.
+## Exhaustive empty / false-empty result
+
+The raw split OCR is empty on exactly ten pages:
+
+`p0001;p0005;p0015;p0016;p0048;p0053;p0096;p0137;p0174;p0175`
+
+Nine are visually true blank/no-substantive pages. `p0016` is the single false-empty recovery: its split OCR is empty, but faint substantive text is visible in the scan.
+
+Two nonempty machine-pathology controls remain especially useful:
+
+- `p0089`: normal continuous French handwriting becomes catastrophic repeated-number/table-like output.
+- `p0143`: a backside/blank-slip montage produces unsupported modern `2024`/numeric material.
 
 ## Visually secured retrieval complexes
 
@@ -29,18 +42,12 @@ The previously missing middle segment is now present. See `scan_availability_v1.
 - p0087 (ms p.32): `primitive` is visible in the continuation of the same medieval intellectual-history argument.
 - p0090 (ms p.35): Abélard is positioned not simply as a precursor of the Renaissance but `au contraire comme un prégothique`; nearby language retains the primitive/apparatus argument.
 
-These findings promote the play / competition / primitive / Renaissance complex from OCR-only lead to scan-verified evidence. `visual_anchor_alignment_v2.tsv` records raw UUID-to-page alignment and the correction of the earlier loose `Zelandensia` UUID association.
-
-## OCR pathology policy
-
-The rough JSON contains catastrophic over-generation as well as ordinary handwriting errors. p0089 is a direct control: a normal continuous French manuscript leaf becomes a huge repeated-number/table continuation in OCR. Generated modern-English `play`, long numerical strings, mixed scripts and contemporary/biomedical intrusions remain excluded from historical evidence unless the scan supports them.
-
-Raw-OCR negative controls for `Malinowski`, `anthropolog*` and `ethnolog*` remain in force. The verified p0087 `primitive` passage stays in its immediate medieval intellectual-history context.
-
 ## Files
 
-- `status.txt` — current machine-readable state.
-- `review_summary_v1.md` — scan-calibrated substantive review.
+- `status.txt` — compact machine-readable state.
+- `full_page_visual_empty_signal_manifest_v1.tsv` — 183/183 page-level visual classifications plus exhaustive baseline empty/nonempty signal and false-empty audit.
+- `review_summary_v2.md` — exact scope and limits of the page-level closure pass.
+- `review_summary_v1.md` — earlier scan-calibrated substantive review.
 - `core_theme_hits_v1.md` — research-relevant OCR hits and negative controls.
 - `composite_page_structure_v1.tsv` — scan-aligned packet structure.
 - `ocr_anchor_index_v1.tsv` — OCR/source anchors with absolute pages and visual status.
@@ -48,4 +55,4 @@ Raw-OCR negative controls for `Malinowski`, `anthropolog*` and `ethnolog*` remai
 - `visual_anchor_alignment_v2.tsv` — direct raw-batch-to-scan alignment and priority corrections.
 - `alignment_blocker_v1.md` — historical blocker note, now marked RESOLVED.
 
-A full page-by-page OCR usability/false-empty manifest remains a separate closure pass if chunk 002 is to be promoted to the exact same manifest standard as chunks 003-031.
+For exact quotation, continue to read the scan directly. `usable-with-noise` in the page manifest is a visual/layout retrieval class, not a diplomatic-transcription guarantee.
