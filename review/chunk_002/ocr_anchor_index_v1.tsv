@@ -1,0 +1,12 @@
+anchor_id	source_anchor	theme	confidence	key_text_or_signal	note
+O002-01	72bbc5ae-345d-4da0-9ddc-15bec83656f4	Zeeland / Middelburg	MEDIUM_HIGH	`Zelandensia`	Strong retrieval anchor; absolute pXXXX mapping pending.
+O002-02	eda81e7f-cc5b-4c16-9f41-32e597b90e41	Salimbene / medieval Italy	HIGH	`Salimbene`; `Cronica fratris Salimbene de Adam`	Coherent bibliographical/historical packet; exact scan verification pending.
+O002-03	1ef7154e-c414-4404-a99f-a301d85f1425	Florence communal history	HIGH	`Ciompi`; `Albizzi`; `Medici`; Florence civic/building sequence	Useful packet anchor but OCR table/order is unstable.
+O002-04	dce87a52-0729-4f16-9fe7-8c2ed0d604dc	play / competition / disputation	HIGH_OCR_LAYER	`élément ludique`; social competition; tournament/disputa; Abélard exchanging weapons of war for weapons of the mind	First-order conceptual hit at OCR layer; visually verify before exact quotation or authorship claim.
+O002-05	dce87a52-0729-4f16-9fe7-8c2ed0d604dc	primitive / twelfth-century thought	HIGH_OCR_LAYER	attitude of mind `qu'on peut nommer primitive`; dialectical masters / dispute	`primitive` is embedded in medieval intellectual-history argument, not anthropology.
+O002-06	f1e3ac39-ebfe-4aea-a9f7-94f1937ebe13	Renaissance periodization / Abélard	HIGH_OCR_LAYER	Abélard not simply precursor of Renaissance; `prégothique`; intellectual apparatus `primitive`	Strong category-boundary hit; OCR spelling/noise requires scan confirmation.
+O002-07	raw textual match: `M. Haskiné` + `The Renaissance of the Twelfth Century`	twelfth-century Renaissance historiography	MEDIUM_HIGH	modern historian/title explicitly named	Source UUID not locked in this pass; keep as textual retrieval anchor until page alignment is restored.
+O002-08	raw textual match: `Gilson`	medieval intellectual history / periodization	MEDIUM	Gilson near comparison of twelfth century with age of St Thomas	Context coherent but page/source alignment pending.
+O002-N1	raw negative search	anthropology negative control	HIGH	no secure `Malinowski`, `anthropolog*`, or `ethnolog*` raw-OCR match	Prevents promotion of `primitive` into an anthropology claim.
+O002-N2	multiple pathological records	play false-positive control	HIGH	synthetic modern-English `play` strings	Rejected; distinct from coherent French `élément ludique` packet.
+O002-N3	raw negative search	Rockefeller OCR negative control	MEDIUM	no raw-OCR Rockefeller Memorial match	Not a visual exclusion because scan audit is incomplete.
