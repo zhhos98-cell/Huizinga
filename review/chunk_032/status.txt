@@ -1,0 +1,21 @@
+chunk_032
+scope: p0001-p0235
+records: 235/235 represented in OCR page-class index
+raw_ocr: PRESERVED_UNCHANGED
+ocr_layer_second_pass: CALIBRATED
+visual_audit: BLOCKED_SCAN_UNAVAILABLE
+retrieval_grade_visual_complete: NO
+classes: baseline_empty_unresolved=66; ocr_coherent_with_noise=56; ocr_high_noise=17; ocr_short_unverified=7; ocr_pathological=89
+baseline_empty_policy: KEEP_UNRESOLVED_UNTIL_SCAN
+strongest_packet: p0108-p0159_French_Revolution_source_triangulation
+strongest_method_hit: biographical_reference_tools_to_Robespierre_Stanhope_Pitt_Parliamentary_History_crosscheck
+institutional_hit: p0219-p0235_academic_relief_for_POW_or_interned_students; p0233_clearest_anchor; J_Huizinga_Voorzitter
+administrative_linkage_lead: p0175_J_Huizinga_Voorzitter_Leiden_L_Van_Itallie_Leiden; relation_to_late_relief_packet_UNRESOLVED
+negative_controls: p0022_ethnologia_machine_corruption; play_generated_English_not_hit; no_secure_Malinowski; no_secure_primitive_primitief; no_secure_Rockefeller
+canonical_class_index: review/chunk_032/page_class_index_v1.md
+empty_queue: review/chunk_032/empty_ocr_unresolved_v1.tsv
+packet_map: review/chunk_032/composite_page_structure_v1.tsv
+anchor_index: review/chunk_032/ocr_anchor_index_v1.tsv
+core_theme_hits: review/chunk_032/core_theme_hits_v1.md
+review_summary: review/chunk_032/review_summary_v1.md
+priority_when_scans_arrive: resolve_66_baseline_empty; visually_verify_A4; identify_p0233_committee; test_p0175_A7_documentary_relation
