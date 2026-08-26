@@ -16,10 +16,11 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `chunk_036`: **page-level visual closure COMPLETE: 240/240 pages**. Round 007 reviewed the remaining `p0161-p0240` segments (80 pages). Whole-chunk aggregate: 171 high-noise, 59 blank/no-substantive, 6 short/nontext, 4 usable-with-noise. See `review/chunk_036/review_summary_v2.md`.
 - `chunk_037`: **page-level visual closure COMPLETE: 243/243 pages**. Round 008 reviewed the remaining `p0121-p0243` span. Whole-chunk aggregate: 174 high-noise, 61 blank/no-substantive, 1 short/nontext, 7 usable-with-noise. The retrieval-stronger packet remains `p0058` and `p0112-p0117`; a new higher-resolution short/nontext control is `p0218`. No indexed chunk_037 raw OCR file was found in the current repository search. See `review/chunk_037/review_summary_v2.md`.
 - `chunk_038`: **page-level visual closure COMPLETE: 226/226 pages**. Round 009 reviewed the five remaining supplied segments (186 pages). Whole-chunk aggregate: 150 high-noise, 42 blank/no-substantive, 2 short/nontext, 32 usable-with-noise. The strongest sustained retrieval packet is `p0100-p0120`, with additional usable exceptions at `p0055`, the Round 008 packet `p0121-p0122`, `p0125-p0126`, `p0130-p0133`, and `p0191`, `p0196`. Short/nontext controls are `p0013` and `p0127`; higher-resolution blank controls include `p0179-p0180`. No indexed chunk_038 raw OCR file was found in the current repository search. See `review/chunk_038/review_summary_v2.md`.
+- `chunk_039`: **page-level visual coverage 200/236** covering `p0001-p0200`. Round 010 reviews the first five supplied segments with 145 high-noise, 50 blank/no-substantive, 0 short/nontext, and 5 usable-with-noise pages. Selective higher-resolution retrieval exceptions are `p0026`, `p0066`, `p0111`, `p0126`, and `p0169`; `p0092` is a blank/no-substantive control. No indexed chunk_039 raw OCR file was found in the current repository search. Remaining supplied span: `p0201-p0236`. See `review/chunk_039/review_summary_v1.md`.
 
 ## Continuity statement
 
-`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033 ✅ 236/236 visual closure | 034 ✅ 246/246 visual closure | 035 ✅ 231/231 visual closure | 036 ✅ 240/240 visual closure | 037 ✅ 243/243 visual closure | 038 ✅ 226/226 visual closure`
+`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033 ✅ 236/236 visual closure | 034 ✅ 246/246 visual closure | 035 ✅ 231/231 visual closure | 036 ✅ 240/240 visual closure | 037 ✅ 243/243 visual closure | 038 ✅ 226/226 visual closure | 039 🟢 200/236 visual`
 
 ## Five-PDF rounds
 
@@ -32,6 +33,7 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `ROUND_007_5PDF.md`: five PDFs / 200 pages; chunk_036 closed at 240/240 and chunk_037 advanced through `p0120`.
 - `ROUND_008_5PDF.md`: five PDFs / 163 pages; chunk_037 closed at 243/243 and chunk_038 opened at `p0121-p0160`.
 - `ROUND_009_5PDF.md`: five PDFs / 186 pages; chunk_038 closed at 226/226 page-level visual coverage.
+- `ROUND_010_5PDF.md`: five PDFs / 200 pages; chunk_039 advanced through `p0200` at 200/236 page-level visual coverage.
 
 The operational unit remains five supplied PDFs per completed round. A round may cross chunk boundaries. Raw PaddleOCR JSON files remain unchanged unless a separate correction workflow explicitly writes a corrected derivative.
 
@@ -41,8 +43,8 @@ The strongest packet begins with `Trois esprits prégothiques < Paris 1930 >` at
 
 ## Next closure priorities
 
-1. Continue into chunk_039 with the next exact five-PDF round from `p0001-p0040`, `p0041-p0080`, `p0081-p0120`, `p0121-p0160`, and `p0161-p0200` (200 pages).
-2. Finish chunk_039 with its remaining `p0201-p0236` segment in the following cross-chunk round.
+1. Finish chunk_039 and open chunk_040 in the next exact five-PDF round from `chunk_039:p0201-p0236` plus `chunk_040:p0001-p0040`, `p0041-p0080`, `p0081-p0120`, and `p0121-p0160` (196 pages).
+2. Finish the remaining supplied chunk_040 tail (`p0161-p0243`) in the following cross-chunk round when two further PDFs are available to preserve the five-PDF operational unit.
 3. Close chunk_032 visually when scans become available.
 4. Locate/add the chunk_035 raw OCR layer only if OCR-string correction is required beyond retrieval-grade visual closure.
 5. Perform exhaustive nonempty OCR-string semantic proofreading only where full OCR-usability closure, rather than retrieval-grade visual calibration, is actually required.

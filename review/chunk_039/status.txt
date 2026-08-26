@@ -1,0 +1,21 @@
+chunk_039
+raw_ocr: NOT_FOUND_IN_CURRENT_REPOSITORY_SEARCH
+raw_ocr_preserved: NOT_APPLICABLE
+scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
+scan_total_pages: 236
+scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200;p0201-p0236
+reviewed_scan_spans: p0001-p0200
+reviewed_scan_pages: 200
+remaining_visual_spans: p0201-p0236
+page_level_visual_manifests: review/chunk_039/page_visual_run_manifest_p0001-p0200_v1.tsv
+page_level_visual_coverage: 200/236
+whole_chunk_page_level_visual_complete: NO
+page_level_ocr_usability_manifest: NOT_YET_COMPLETE
+ocr_string_semantic_proofread_all_nonblank_pages: NO
+current_visual_class_counts: high_noise_layout_risk=145;blank_no_substantive_visual=50;short_text_or_nontext=0;usable_with_noise_visual=5
+selective_high_resolution_short_or_nontext_controls: NONE
+selective_high_resolution_blank_controls: p0092
+selective_high_resolution_usable_packet: p0026;p0066;p0111;p0126;p0169
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;rotations;nonlinear_reading_order;faint_text
+priority: review p0201-p0236; combine with chunk_040:p0001-p0160 as the next exact five-PDF round
+note: No indexed raw OCR file for chunk_039 was found in the current repository search. Round 010 visually classifies p0001-p0200; OCR strings were not exhaustively proofread page by page.
