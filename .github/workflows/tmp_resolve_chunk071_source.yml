@@ -1,0 +1,94 @@
+name: resolve-chunk071-source
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp_resolve_chunk071_source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve HUI 75 Commons files and split chunk 071 OCR by page
+        run: |
+          python - <<'PY'
+          import csv, json, pathlib, urllib.parse, urllib.request
+
+          review = pathlib.Path('review/chunk_071')
+          review.mkdir(parents=True, exist_ok=True)
+
+          # Enumerate the public Commons category directly through MediaWiki API.
+          api = 'https://commons.wikimedia.org/w/api.php'
+          params = {
+              'action':'query', 'format':'json', 'list':'categorymembers',
+              'cmtitle':'Category:Huizinga Papers, Leiden University Library',
+              'cmtype':'file', 'cmlimit':'500'
+          }
+          rows=[]
+          cont=None
+          while True:
+              q=dict(params)
+              if cont:
+                  q['cmcontinue']=cont
+              url=api+'?'+urllib.parse.urlencode(q)
+              req=urllib.request.Request(url, headers={'User-Agent':'Huizinga-strict-reproofread-v2/1.0'})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  obj=json.load(r)
+              for m in obj.get('query',{}).get('categorymembers',[]):
+                  title=m.get('title','')
+                  if title.startswith('File:HUI 75') or title.startswith('File:HUI-075'):
+                      rows.append((m.get('pageid',''), title))
+              cont=obj.get('continue',{}).get('cmcontinue')
+              if not cont:
+                  break
+          rows=sorted(set(rows), key=lambda x:x[1])
+          with (review/'source_candidates_hui75.tsv').open('w',encoding='utf-8',newline='') as f:
+              w=csv.writer(f,delimiter='\t')
+              w.writerow(['commons_pageid','commons_title'])
+              w.writerows(rows)
+
+          # Split the repository's current corrected OCR JSON into auditable page text.
+          candidates=[
+              pathlib.Path('chunk_071.pdf_by_PaddleOCR-VL-1.6.corrected.json'),
+              pathlib.Path('chunk_071.pdf_by_PaddleOCR-VL-1.6.json')
+          ]
+          src=next((p for p in candidates if p.exists()), None)
+          if src is None:
+              raise FileNotFoundError('chunk_071 OCR JSON not found')
+          data=json.loads(src.read_text(encoding='utf-8'))
+          out=pathlib.Path('_tmp_chunk071_pages'); out.mkdir(exist_ok=True)
+          index=[]
+          for i,page in enumerate(data,1):
+              blocks=page.get('prunedResult',{}).get('parsing_res_list',[])
+              lines=[]
+              for b in blocks:
+                  c=(b.get('block_content') or '').strip()
+                  if c:
+                      lines.append(f"[{b.get('block_id','?')}|{b.get('block_label','?')}] {c}")
+              text='\n\n'.join(lines)
+              (out/f'p{i:04d}.txt').write_text(text,encoding='utf-8')
+              index.append((i,len(blocks),len(text)))
+          with (review/'strict_v2_ocr_page_index.tsv').open('w',encoding='utf-8',newline='') as f:
+              w=csv.writer(f,delimiter='\t')
+              w.writerow(['page','block_count','page_text_chars'])
+              w.writerows(index)
+
+          note=(
+              '# chunk_071 strict-v2 source resolution\n\n'
+              f'- Commons HUI 75 candidates enumerated by API: **{len(rows)}**.\n'
+              f'- OCR source split: `{src}`; pages: **{len(data)}**.\n'
+              '- `source_candidates_hui75.tsv` is discovery evidence only; a candidate earns no strict-v2 page credit until its scan image is visually matched to the chunk and page.\n'
+              '- `_tmp_chunk071_pages/` is the page-by-page repository OCR comparison surface for strict v2.\n'
+          )
+          (review/'SOURCE_RESOLUTION_V2.md').write_text(note,encoding='utf-8')
+          PY
+      - name: Commit resolver outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add review/chunk_071/source_candidates_hui75.tsv review/chunk_071/strict_v2_ocr_page_index.tsv review/chunk_071/SOURCE_RESOLUTION_V2.md _tmp_chunk071_pages
+          git commit -m 'data: resolve chunk_071 source candidates and page OCR' || exit 0
+          git pull --rebase origin main
+          git push origin main
