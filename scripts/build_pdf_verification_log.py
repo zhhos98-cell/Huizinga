@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
-"""Write one auditable row per page actually checked against supplied PDFs."""
+"""Build the legacy PDF span manifest.
+
+IMPORTANT: this script does NOT open PDF files and does NOT perform visual
+verification.  It only records page spans supplied on the command line and
+cross-references any existing correction-ledger actions.  Therefore its output
+must never be used as evidence that a page was actually checked against the
+original scan.
+
+Strict re-proofreading is tracked separately in review/STRICT_REPROOFREAD_V2_STATUS.tsv
+and requires page-by-page visual inspection before a page can be credited.
+"""
 
 import argparse
 import csv
@@ -33,10 +43,13 @@ def main() -> None:
             for page in range(start, end + 1):
                 actions = by_page.get(page, [])
                 writer.writerow([
-                    f"p{page:04d}", pdf, "checked_against_original_pdf",
-                    ";".join(actions) if actions else "no_high_confidence_change",
-                    "corrected JSON and audit ledger updated" if actions else
-                    "raw JSON retained after visual comparison",
+                    f"p{page:04d}",
+                    pdf,
+                    "legacy_span_manifest_NOT_visual_verification",
+                    ";".join(actions) if actions else "no_ledger_action",
+                    "correction ledger contains action(s); re-check scan in strict v2"
+                    if actions
+                    else "page was only listed in a supplied span; no visual-check claim",
                 ])
 
 
