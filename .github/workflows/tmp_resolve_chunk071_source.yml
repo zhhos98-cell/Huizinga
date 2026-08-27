@@ -11,111 +11,65 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Resolve HUI 75 Commons files and split chunk 071 OCR by page
+      - name: Resolve exact HUI 75 I 1.1 page thumbnails
         run: |
           python - <<'PY'
-          import csv, json, pathlib, urllib.parse, urllib.request
+          import csv, json, pathlib, time, urllib.error, urllib.parse, urllib.request
 
           review = pathlib.Path('review/chunk_071')
           review.mkdir(parents=True, exist_ok=True)
-
-          api = 'https://commons.wikimedia.org/w/api.php'
-          ua = {'User-Agent':'Huizinga-strict-reproofread-v2/1.0'}
-
-          # Enumerate public HUI 75 Commons files.
-          params = {
-              'action':'query', 'format':'json', 'list':'categorymembers',
-              'cmtitle':'Category:Huizinga Papers, Leiden University Library',
-              'cmtype':'file', 'cmlimit':'500'
-          }
-          rows=[]
-          cont=None
-          while True:
-              q=dict(params)
-              if cont:
-                  q['cmcontinue']=cont
-              url=api+'?'+urllib.parse.urlencode(q)
-              req=urllib.request.Request(url, headers=ua)
-              with urllib.request.urlopen(req, timeout=60) as r:
-                  obj=json.load(r)
-              for m in obj.get('query',{}).get('categorymembers',[]):
-                  title=m.get('title','')
-                  if title.startswith('File:HUI 75') or title.startswith('File:HUI-075'):
-                      rows.append((m.get('pageid',''), title))
-              cont=obj.get('continue',{}).get('cmcontinue')
-              if not cont:
-                  break
-          rows=sorted(set(rows), key=lambda x:x[1])
-          with (review/'source_candidates_hui75.tsv').open('w',encoding='utf-8',newline='') as f:
-              w=csv.writer(f,delimiter='\t')
-              w.writerow(['commons_pageid','commons_title'])
-              w.writerows(rows)
-
-          # Exact source probe for the first strict-v2 item. MediaWiki's PDF handler
-          # returns official page thumbnails via iiurlparam=pageN-1200px.
+          api='https://commons.wikimedia.org/w/api.php'
+          ua={'User-Agent':'Huizinga-strict-reproofread-v2/1.0 (research verification)'}
           exact_title='File:HUI 75 I 1.1.pdf'
-          q={
+
+          def get_json(params):
+              url=api+'?'+urllib.parse.urlencode(params)
+              for attempt in range(5):
+                  try:
+                      req=urllib.request.Request(url,headers=ua)
+                      with urllib.request.urlopen(req,timeout=60) as r:
+                          return json.load(r)
+                  except urllib.error.HTTPError as e:
+                      if e.code != 429 or attempt == 4:
+                          raise
+                      time.sleep(2 ** attempt)
+
+          # One exact metadata request. No category rescan.
+          meta=get_json({
               'action':'query','format':'json','prop':'imageinfo','titles':exact_title,
-              'iiprop':'url|size|mime','iiurlwidth':'1200','iiurlparam':'page1-1200px'
-          }
-          req=urllib.request.Request(api+'?'+urllib.parse.urlencode(q),headers=ua)
-          with urllib.request.urlopen(req,timeout=60) as r:
-              probe=json.load(r)
-          pg=next(iter(probe.get('query',{}).get('pages',{}).values()))
+              'iiprop':'url|size|mime'
+          })
+          pg=next(iter(meta.get('query',{}).get('pages',{}).values()))
           ii=(pg.get('imageinfo') or [{}])[0]
           pagecount=int(ii.get('pagecount') or 0)
-          thumb_rows=[]
-          for source_page in range(1,pagecount+1):
-              q={
+          pdf_url=ii.get('url','')
+
+          # Probe only the first four pages. These are enough to prove source/page alignment.
+          rows=[]
+          for source_page in range(1,min(pagecount,4)+1):
+              obj=get_json({
                   'action':'query','format':'json','prop':'imageinfo','titles':exact_title,
                   'iiprop':'url|size|mime','iiurlwidth':'1200',
                   'iiurlparam':f'page{source_page}-1200px'
-              }
-              req=urllib.request.Request(api+'?'+urllib.parse.urlencode(q),headers=ua)
-              with urllib.request.urlopen(req,timeout=60) as r:
-                  obj=json.load(r)
+              })
               p=next(iter(obj.get('query',{}).get('pages',{}).values()))
               info=(p.get('imageinfo') or [{}])[0]
-              thumb_rows.append((source_page,info.get('thumburl',''),info.get('url','')))
-          with (review/'source_hui75_i1_1_pages.tsv').open('w',encoding='utf-8',newline='') as f:
-              w=csv.writer(f,delimiter='\t')
-              w.writerow(['source_page','commons_thumb_1200','commons_pdf_url'])
-              w.writerows(thumb_rows)
+              rows.append((source_page,info.get('thumburl',''),info.get('thumbwidth',''),info.get('thumbheight',''),info.get('url','')))
+              time.sleep(1)
 
-          # Split the repository's current corrected OCR JSON into auditable page text.
-          candidates=[
-              pathlib.Path('chunk_071.pdf_by_PaddleOCR-VL-1.6.corrected.json'),
-              pathlib.Path('chunk_071.pdf_by_PaddleOCR-VL-1.6.json')
-          ]
-          src=next((p for p in candidates if p.exists()), None)
-          if src is None:
-              raise FileNotFoundError('chunk_071 OCR JSON not found')
-          data=json.loads(src.read_text(encoding='utf-8'))
-          out=pathlib.Path('_tmp_chunk071_pages'); out.mkdir(exist_ok=True)
-          index=[]
-          for i,page in enumerate(data,1):
-              blocks=page.get('prunedResult',{}).get('parsing_res_list',[])
-              lines=[]
-              for b in blocks:
-                  c=(b.get('block_content') or '').strip()
-                  if c:
-                      lines.append(f"[{b.get('block_id','?')}|{b.get('block_label','?')}] {c}")
-              text='\n\n'.join(lines)
-              (out/f'p{i:04d}.txt').write_text(text,encoding='utf-8')
-              index.append((i,len(blocks),len(text)))
-          with (review/'strict_v2_ocr_page_index.tsv').open('w',encoding='utf-8',newline='') as f:
+          with (review/'source_probe_hui75_i1_1.tsv').open('w',encoding='utf-8',newline='') as f:
               w=csv.writer(f,delimiter='\t')
-              w.writerow(['page','block_count','page_text_chars'])
-              w.writerows(index)
+              w.writerow(['source_page','commons_thumb_1200','thumb_width','thumb_height','commons_pdf_url'])
+              w.writerows(rows)
 
           note=(
               '# chunk_071 strict-v2 source resolution\n\n'
-              f'- Commons HUI 75 candidates enumerated by API: **{len(rows)}**.\n'
               f'- Exact first item resolved: `{exact_title}`; source pages: **{pagecount}**.\n'
-              '- `source_hui75_i1_1_pages.tsv` contains MediaWiki-generated 1200px page-thumbnail URLs for visual comparison; URLs are source-page renditions, not OCR evidence.\n'
-              f'- OCR source split: `{src}`; pages: **{len(data)}**.\n'
-              '- Candidate/source URL resolution alone earns no strict-v2 page credit: each scan page still has to be visually compared with its corresponding repository OCR page.\n'
-              '- `_tmp_chunk071_pages/` is the page-by-page repository OCR comparison surface for strict v2.\n'
+              f'- Commons PDF URL resolved by MediaWiki API: `{pdf_url}`.\n'
+              '- `source_probe_hui75_i1_1.tsv` contains official Commons PDF-handler page thumbnails for source pages 1-4.\n'
+              '- These URLs are only a visual comparison surface; no strict-v2 credit is awarded until each rendered scan page is actually compared to the corresponding repository OCR page.\n'
+              '- Existing `source_candidates_hui75.tsv` remains the broader HUI 75 discovery table.\n'
+              '- `_tmp_chunk071_pages/` remains the page-by-page repository OCR comparison surface.\n'
           )
           (review/'SOURCE_RESOLUTION_V2.md').write_text(note,encoding='utf-8')
           PY
@@ -123,7 +77,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add review/chunk_071/source_candidates_hui75.tsv review/chunk_071/source_hui75_i1_1_pages.tsv review/chunk_071/strict_v2_ocr_page_index.tsv review/chunk_071/SOURCE_RESOLUTION_V2.md _tmp_chunk071_pages
-          git commit -m 'data: resolve chunk_071 exact source page thumbnails' || exit 0
+          git add review/chunk_071/source_probe_hui75_i1_1.tsv review/chunk_071/SOURCE_RESOLUTION_V2.md
+          git commit -m 'data: probe exact HUI 75 I 1.1 source pages' || exit 0
           git pull --rebase origin main
           git push origin main
