@@ -1,0 +1,18 @@
+[
+  {"page":6,"action":"replace_block","block_id":0,"content":"Hui 74/2","confidence":"high","source":"PDF p0001-p0040","reason":"Corrected archival shelfmark; OCR misread final digit","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":10,"action":"replace_block","block_id":0,"content":"Hui 74/2\n2.7","confidence":"high","source":"PDF p0001-p0040","reason":"Corrected visible envelope shelfmark and item number","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":10,"action":"drop_block","block_id":1,"confidence":"high","source":"PDF p0001-p0040","reason":"Removed repeated-zero OCR hallucination absent from scan","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":11,"action":"append_manual_block","content":"Hui 74 II: 2.17\nLapas","confidence":"medium","source":"PDF p0001-p0040","reason":"Recovered legible shelfmark and short slip from OCR-empty scan","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":12,"action":"append_manual_block","content":"Hui 74 II: 2.17","confidence":"high","source":"PDF p0001-p0040 rotated 180 degrees","reason":"Recovered legible shelfmark from OCR-empty scan","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":26,"action":"clear_page","confidence":"high","source":"PDF p0001-p0040","reason":"Removed two hallucinated prose blocks from near-empty envelope control","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":26,"action":"append_manual_block","content":"Hui 74/2","confidence":"high","source":"PDF p0001-p0040","reason":"Retained the legible archival shelfmark after hallucination removal","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":29,"action":"clear_page","confidence":"high","source":"PDF p0001-p0040","reason":"Removed English OCR hallucination absent from envelope scan","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":29,"action":"append_manual_block","content":"Hui 74/2","confidence":"high","source":"PDF p0001-p0040","reason":"Recovered the visible archival shelfmark","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":32,"action":"clear_page","confidence":"high","source":"PDF p0001-p0040","reason":"Removed spurious formula and prose hallucinated from envelope back","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":32,"action":"append_manual_block","content":"Hui 74/2\n2.22","confidence":"high","source":"PDF p0001-p0040","reason":"Recovered visible shelfmark and item number","review_pdf":"chunk_070__p0001-0040.pdf"},
+  {"page":112,"action":"clear_page","confidence":"high","source":"PDF p0081-p0120","reason":"Removed header and number hallucinated from envelope control","review_pdf":"chunk_070__p0081-0120.pdf"},
+  {"page":163,"action":"replace_block","block_id":0,"content":"Hui 74/4\n1.10\nAngst en literatuur","confidence":"medium","source":"PDF p0161-p0186","reason":"Replaced wrong item number with legible envelope shelfmark and subject phrase","review_pdf":"chunk_070__p0161-0186.pdf"},
+  {"page":168,"action":"replace_block","block_id":0,"content":"Hui 74/4\n1.11","confidence":"high","source":"PDF p0161-p0186","reason":"Replaced hallucinated heading with legible envelope shelfmark","review_pdf":"chunk_070__p0161-0186.pdf"},
+  {"page":173,"action":"append_manual_block","content":"Hui 74/4\n1.12\nSociologische Ver...","confidence":"medium","source":"PDF p0161-p0186","reason":"Recovered legible portion of envelope label from OCR-empty scan; ellipsis marks unread continuation","review_pdf":"chunk_070__p0161-p0186.pdf"},
+  {"page":177,"action":"append_manual_block","content":"Hui 74/4\n1.13\nStadelmann: Geist der ...","confidence":"medium","source":"PDF p0161-p0186","reason":"Recovered legible portion of envelope label from OCR-empty scan; ellipsis marks unread continuation","review_pdf":"chunk_070__p0161-p0186.pdf"}
+]

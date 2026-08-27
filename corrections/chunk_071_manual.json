@@ -1,0 +1,5 @@
+[
+  {"page":2,"action":"replace_block","block_id":1,"content":"Huizinga","confidence":"high","source":"PDF p0001-p0040","reason":"Corrected notebook owner name on title page","review_pdf":"chunk_071__p0001-0040.pdf"},
+  {"page":2,"action":"replace_block","block_id":2,"content":"W. L. v. HELTEN\n1893. Januar.","confidence":"high","source":"PDF p0001-p0040","reason":"Corrected printed author line and handwritten date","review_pdf":"chunk_071__p0001-0040.pdf"},
+  {"page":2,"action":"replace_block","block_id":7,"content":"Etymologie.","confidence":"high","source":"PDF p0001-p0040","reason":"Corrected handwritten section heading","review_pdf":"chunk_071__p0001-0040.pdf"}
+]

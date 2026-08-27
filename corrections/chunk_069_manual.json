@@ -1,0 +1,17 @@
+[
+  {"page":41,"action":"drop_block","block_id":3,"confidence":"high","source":"PDF p0041-p0080","reason":"Removed a multi-thousand-character repeated-digit hallucination absent from the mounted slips","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":46,"action":"append_manual_block","content":"Max Weber","confidence":"medium","source":"PDF p0041-p0080","reason":"Recovered legible envelope subject from OCR-empty scan","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":55,"action":"drop_block","block_id":2,"confidence":"high","source":"PDF p0041-p0080","reason":"Removed Korean UI-like hallucination absent from the manuscript slips","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":55,"action":"drop_block","block_id":3,"confidence":"high","source":"PDF p0041-p0080","reason":"Removed a four-thousand-character repeated-zero hallucination","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":71,"action":"drop_block","block_id":4,"confidence":"high","source":"PDF p0041-p0080","reason":"Removed table block dominated by repeated-zero hallucination while preserving the other page blocks","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":73,"action":"append_manual_block","content":"Varia","confidence":"high","source":"PDF p0041-p0080","reason":"Recovered clearly legible envelope label from OCR-empty scan","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":80,"action":"replace_block","block_id":0,"content":"Menhirs\nGrottes\nMégalithes","confidence":"medium","source":"PDF p0041-p0080","reason":"Corrected three-line envelope subject heading","review_pdf":"chunk_069__p0041-0080.pdf"},
+  {"page":123,"action":"append_manual_block","content":"Hui 74 I: 3.29","confidence":"high","source":"PDF p0121-p0160","reason":"Recovered visible archival shelfmark from OCR-empty envelope scan","review_pdf":"chunk_069__p0121-0160.pdf"},
+  {"page":127,"action":"append_manual_block","content":"[Haskins]","confidence":"high","source":"PDF p0121-p0160","reason":"Recovered blue-pencil envelope label from OCR-empty scan","review_pdf":"chunk_069__p0121-0160.pdf"},
+  {"page":130,"action":"replace_block","block_id":0,"content":"[Invl. v. Isl. op W.]","confidence":"high","source":"PDF p0121-p0160","reason":"Corrected blue-pencil envelope label","review_pdf":"chunk_069__p0121-0160.pdf"},
+  {"page":186,"action":"drop_block","block_id":2,"confidence":"high","source":"PDF p0161-p0200","reason":"Removed twelve-thousand-character repeated-word hallucination while preserving the remaining page blocks","review_pdf":"chunk_069__p0161-0200.pdf"},
+  {"page":204,"action":"replace_block","block_id":0,"content":"Hui 74/2\n2.12","confidence":"high","source":"PDF p0201-p0214","reason":"Replaced unrelated webinar hallucination with visible archival shelfmark","review_pdf":"chunk_069__p0201-0214.pdf"},
+  {"page":208,"action":"replace_block","block_id":0,"content":"Hui 74 II: 2.25","confidence":"high","source":"PDF p0201-p0214","reason":"Replaced unrelated New York City hallucination with visible page shelfmark","review_pdf":"chunk_069__p0201-p0214.pdf"},
+  {"page":18,"action":"drop_block","block_id":0,"confidence":"high","source":"PDF p0001-p0040","reason":"Removed repeated-zero OCR hallucination from an otherwise blank envelope back","review_pdf":"chunk_069__p0001-0040.pdf"},
+  {"page":35,"action":"drop_block","block_id":4,"confidence":"high","source":"PDF p0001-p0040","reason":"Removed a 71,000-character nested HTML-table hallucination absent from the mounted manuscript slips","review_pdf":"chunk_069__p0001-0040.pdf"}
+]

@@ -167,5 +167,100 @@
     "confidence": "high",
     "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
     "reason": "PDF-verified full printed-block retranscription; repairs credietsstelsel and duplicate excerpt OCR"
+  },
+  {
+    "page": 188,
+    "action": "drop_block",
+    "block_id": 12,
+    "confidence": "high",
+    "source": "chunk_067__p0161-0200.pdf local p28 / global p188",
+    "reason": "PDF-verified removal of a 4,096-character synthetic year sequence absent from the mounted slips"
+  },
+  {
+    "page": 198,
+    "action": "drop_block",
+    "block_id": 1,
+    "confidence": "high",
+    "source": "chunk_067__p0161-0200.pdf local p38 / global p198",
+    "reason": "PDF-verified removal of an English header hallucination absent from the scan"
+  },
+  {
+    "page": 198,
+    "action": "drop_block",
+    "block_id": 2,
+    "confidence": "high",
+    "source": "chunk_067__p0161-0200.pdf local p38 / global p198",
+    "reason": "PDF-verified removal of a false 2024 date line absent from the scan"
+  },
+  {
+    "page": 198,
+    "action": "drop_block",
+    "block_id": 12,
+    "confidence": "high",
+    "source": "chunk_067__p0161-0200.pdf local p38 / global p198",
+    "reason": "PDF-verified removal of a 4,112-character repeated-zero hallucination"
+  },
+  {
+    "page": 205,
+    "action": "clear_page",
+    "confidence": "high",
+    "source": "chunk_067__p0201-0223.pdf local p5 / global p205",
+    "reason": "PDF-verified removal of a 5,938-character fabricated HTML table generated from sparse mounted slips"
+  },
+  {
+    "page": 205,
+    "action": "append_manual_block",
+    "content": "Hui 72:IV.96",
+    "confidence": "high",
+    "source": "chunk_067__p0201-0223.pdf local p5 / global p205",
+    "reason": "Recovered the clearly legible archival shelfmark after clearing the hallucinated table"
+  },
+  {
+    "page": 206,
+    "action": "drop_block",
+    "block_id": 4,
+    "confidence": "high",
+    "source": "chunk_067__p0201-0223.pdf local p6 / global p206",
+    "reason": "PDF-verified removal of unrelated French/Chinese hallucinated prose"
+  },
+  {
+    "page": 206,
+    "action": "drop_block",
+    "block_id": 5,
+    "confidence": "high",
+    "source": "chunk_067__p0201-0223.pdf local p6 / global p206",
+    "reason": "PDF-verified removal of a 6,162-character repeated-letter hallucination"
+  },
+  {
+    "page": 214,
+    "action": "drop_block",
+    "block_id": 0,
+    "confidence": "high",
+    "source": "chunk_067__p0201-0223.pdf local p14 / global p214",
+    "reason": "PDF-verified removal of an unrelated Chinese heading hallucinated over Dutch manuscript slips"
+  },
+  {
+    "page": 44,
+    "action": "drop_block",
+    "block_id": 12,
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p4 / global p44",
+    "reason": "PDF-verified removal of a 4,124-character synthetic counting sequence absent from the mounted manuscript slips"
+  },
+  {
+    "page": 50,
+    "action": "drop_block",
+    "block_id": 0,
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p10 / global p50",
+    "reason": "PDF-verified removal of the spurious OCR fragment 'no' from a page of mounted handwritten slips"
+  },
+  {
+    "page": 80,
+    "action": "drop_block",
+    "block_id": 1,
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p40 / global p80",
+    "reason": "PDF-verified removal of a 4,096-character repeated-2020 hallucination absent from the scan"
   }
 ]

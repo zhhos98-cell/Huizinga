@@ -1,9 +1,5 @@
 name: chunk067-pdf-correction
-on:
-  push:
-    paths:
-      - '.github/workflows/tmp_correct_chunk067.yml'
-      - 'corrections/chunk_067_manual*.json'
+on: workflow_dispatch
 permissions:
   contents: write
 jobs:

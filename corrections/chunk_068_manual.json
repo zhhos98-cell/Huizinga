@@ -1,0 +1,45 @@
+[
+  {
+    "page": 124,
+    "action": "drop_block",
+    "block_id": 0,
+    "confidence": "high",
+    "source": "chunk_068__p0121-0160.pdf local p4 / global p124",
+    "reason": "PDF-verified removal of unrelated English words hallucinated over a faint envelope label"
+  },
+  {
+    "page": 171,
+    "action": "replace_block",
+    "block_id": 0,
+    "content": "Litt.\nAlg. Godsd. gesch.",
+    "confidence": "medium",
+    "source": "chunk_068__p0161-0200.pdf local p11 / global p171",
+    "reason": "Corrected the short envelope subject label from the original PDF"
+  },
+  {
+    "page": 174,
+    "action": "replace_block",
+    "block_id": 0,
+    "content": "Utilitarisme\nThomisme",
+    "confidence": "medium",
+    "source": "chunk_068__p0161-0200.pdf local p14 / global p174",
+    "reason": "Corrected the two-line envelope subject label from the original PDF"
+  },
+  {
+    "page": 184,
+    "action": "replace_block",
+    "block_id": 0,
+    "content": "Occam",
+    "confidence": "high",
+    "source": "chunk_068__p0161-0200.pdf local p24 / global p184",
+    "reason": "Corrected the clearly legible envelope label (OCR Occan)"
+  },
+  {
+    "page": 199,
+    "action": "drop_block",
+    "block_id": 0,
+    "confidence": "high",
+    "source": "chunk_068__p0161-0200.pdf local p39 / global p199",
+    "reason": "PDF-verified removal of a fabricated 2024/Hospital/Lafayette heading absent from the mounted slips"
+  }
+]
