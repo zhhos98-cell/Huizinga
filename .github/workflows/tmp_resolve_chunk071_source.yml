@@ -81,7 +81,7 @@ jobs:
               f'- Exact first item resolved: `{exact_title}`; source pages: **{pagecount}**.\n'
               f'- Commons PDF URL resolved by MediaWiki API: `{pdf_url}`.\n'
               '- `source_probe_hui75_i1_1.tsv` contains official Commons PDF-handler page thumbnails for source pages 1-4.\n'
-              '- A workflow artifact named `chunk071-hui75-i1-1-source-probe` carries those four rendered scan pages for direct visual inspection.\n'
+              '- `_strict_v2_source_probe/` temporarily publishes the same four source-page renditions solely for direct visual inspection; remove after the strict-v2 pass no longer needs them.\n'
               '- These renditions earn no strict-v2 credit until each scan page is actually compared to the corresponding repository OCR page.\n'
               '- `_tmp_chunk071_pages/` remains the page-by-page repository OCR comparison surface.\n'
           )
@@ -94,11 +94,11 @@ jobs:
           path: _strict_v2_source_probe/*.jpg
           if-no-files-found: error
           retention-days: 1
-      - name: Commit resolver outputs
+      - name: Commit resolver outputs and temporary source probes
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add review/chunk_071/source_probe_hui75_i1_1.tsv review/chunk_071/SOURCE_RESOLUTION_V2.md
-          git commit -m 'data: probe exact HUI 75 I 1.1 source pages' || exit 0
+          git add review/chunk_071/source_probe_hui75_i1_1.tsv review/chunk_071/SOURCE_RESOLUTION_V2.md _strict_v2_source_probe/*.jpg
+          git commit -m 'data: publish HUI 75 I 1.1 strict-v2 source probes' || exit 0
           git pull --rebase origin main
           git push origin main
