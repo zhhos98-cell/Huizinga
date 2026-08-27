@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/tmp_correct_chunk067.yml'
-      - 'corrections/chunk_067_manual.json'
+      - 'corrections/chunk_067_manual*.json'
 permissions:
   contents: write
 jobs:
@@ -17,8 +17,9 @@ jobs:
           import json, pathlib, csv, re
           src = pathlib.Path('chunk_067.pdf_by_PaddleOCR-VL-1.6.json')
           data = json.loads(src.read_text(encoding='utf-8'))
-          patch_path = pathlib.Path('corrections/chunk_067_manual.json')
-          patches = json.loads(patch_path.read_text(encoding='utf-8')) if patch_path.exists() else []
+          patches=[]
+          for patch_path in sorted(pathlib.Path('corrections').glob('chunk_067_manual*.json')):
+              patches.extend(json.loads(patch_path.read_text(encoding='utf-8')))
           audit=[]
           for p in patches:
               page_no = int(p['page'])
