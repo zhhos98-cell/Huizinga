@@ -1,0 +1,11 @@
+[0|image] <div style="text-align: center;"><img src="imgs/img_in_image_box_1028_748_2069_1866.jpg" alt="Image" width="40%" />
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_1028_748_2069_1866.jpg" alt="Image" width="40%" />
+
+北京
+书局
+
+</div>
+
+
+</div>

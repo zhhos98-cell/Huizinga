@@ -1,0 +1,13 @@
+[0|text] —
+
+[1|display_formula] $$ (200\div)(200\div)(200\div)(200\div)(200\div). $$
+
+[2|inline_formula] $$ \therefore\angle1=\angle1,\angle2\angle1=\angle2\angle1 $$
+
+[3|inline_formula] $$ (200\div1)(200\div1)=(200\div1)(200\div1) $$
+
+[4|display_formula] $$ \bot\angle O C O\bot\angle O C O\vert\angle O C O $$
+
+[5|inline_formula] $$ (2,0,0-1)(2,0,0-1)=0 $$
+
+[6|text] —

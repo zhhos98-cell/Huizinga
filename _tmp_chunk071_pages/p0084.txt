@@ -1,0 +1,10 @@
+[0|image] <div style="text-align: center;"><img src="imgs/img_in_image_box_1_927_1305_1826.jpg" alt="Image" width="65%" />
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_1_927_1305_1826.jpg" alt="Image" width="65%" />
+
+
+
+</div>
+
+
+</div>
