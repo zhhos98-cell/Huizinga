@@ -1,1 +1,10 @@
-page	action	block_id	before	after	confidence	source	reason
+page	action	block_id	before	after	confidence	source	reason	review_pdf
+124	drop_block	0	Monday, Pecum, tomorrow		high	chunk_068__p0121-0160.pdf local p4 / global p124	PDF-verified removal of unrelated English words hallucinated over a faint envelope label	-
+171	replace_block	0	"Litt.
+
+Alg. God's research."	"Litt.
+Alg. Godsd. gesch."	medium	chunk_068__p0161-0200.pdf local p11 / global p171	Corrected the short envelope subject label from the original PDF	-
+174	replace_block	0	Lilionism Thomas	"Utilitarisme
+Thomisme"	medium	chunk_068__p0161-0200.pdf local p14 / global p174	Corrected the two-line envelope subject label from the original PDF	-
+184	replace_block	0	Occan	Occam	high	chunk_068__p0161-0200.pdf local p24 / global p184	Corrected the clearly legible envelope label (OCR Occan)	-
+199	drop_block	0	## 2024.  Hospital 2024.  Lafayette La Dame		high	chunk_068__p0161-0200.pdf local p39 / global p199	PDF-verified removal of a fabricated 2024/Hospital/Lafayette heading absent from the mounted slips	-

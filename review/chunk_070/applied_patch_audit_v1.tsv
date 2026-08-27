@@ -1,0 +1,50 @@
+page	action	block_id	before	after	confidence	source	reason	review_pdf
+6	replace_block	0	Hui 7412	Hui 74/2	high	PDF p0001-p0040	Corrected archival shelfmark; OCR misread final digit	chunk_070__p0001-0040.pdf
+10	replace_block	0	Hui 34/2	"Hui 74/2
+2.7"	high	PDF p0001-p0040	Corrected visible envelope shelfmark and item number	chunk_070__p0001-0040.pdf
+10	drop_block	1	1000000000000		high	PDF p0001-p0040	Removed repeated-zero OCR hallucination absent from scan	chunk_070__p0001-0040.pdf
+11	append_manual_block	0		"Hui 74 II: 2.17
+Lapas"	medium	PDF p0001-p0040	Recovered legible shelfmark and short slip from OCR-empty scan	chunk_070__p0001-0040.pdf
+12	append_manual_block	0		Hui 74 II: 2.17	high	PDF p0001-p0040 rotated 180 degrees	Recovered legible shelfmark from OCR-empty scan	chunk_070__p0001-0040.pdf
+26	clear_page		"de Vormern.
+
+waartoe dieren zi?
+
+Lele2020, metTode
+
+hormo faben
+
+ugl. de derie
+
+Imlaiding solgtvar"		high	PDF p0001-p0040	Removed two hallucinated prose blocks from near-empty envelope control	chunk_070__p0001-0040.pdf
+26	append_manual_block	0		Hui 74/2	high	PDF p0001-p0040	Retained the legible archival shelfmark after hallucination removal	chunk_070__p0001-0040.pdf
+29	clear_page		the magas; how know my hat? win madate		high	PDF p0001-p0040	Removed English OCR hallucination absent from envelope scan	chunk_070__p0001-0040.pdf
+29	append_manual_block	0		Hui 74/2	high	PDF p0001-p0040	Recovered the visible archival shelfmark	chunk_070__p0001-0040.pdf
+32	clear_page		"Somewhat
+
+ $$ (1)\because\frac{a}{b}=\frac{c}{d} $$ 
+
+da Bandeur
+
+ala pifau
+
+2.22"		high	PDF p0001-p0040	Removed spurious formula and prose hallucinated from envelope back	chunk_070__p0001-0040.pdf
+32	append_manual_block	0		"Hui 74/2
+2.22"	high	PDF p0001-p0040	Recovered visible shelfmark and item number	chunk_070__p0001-0040.pdf
+112	clear_page		"Franklin. 001. Get to
+Stout
+
+1.3"		high	PDF p0081-p0120	Removed header and number hallucinated from envelope control	chunk_070__p0081-0120.pdf
+163	replace_block	0	1.16	"Hui 74/4
+1.10
+Angst en literatuur"	medium	PDF p0161-p0186	Replaced wrong item number with legible envelope shelfmark and subject phrase	chunk_070__p0161-0186.pdf
+168	replace_block	0	"Scholar
+Sozialungstest
+Wissend"	"Hui 74/4
+1.11"	high	PDF p0161-p0186	Replaced hallucinated heading with legible envelope shelfmark	chunk_070__p0161-0186.pdf
+173	append_manual_block	0		"Hui 74/4
+1.12
+Sociologische Ver..."	medium	PDF p0161-p0186	Recovered legible portion of envelope label from OCR-empty scan; ellipsis marks unread continuation	chunk_070__p0161-p0186.pdf
+177	append_manual_block	0		"Hui 74/4
+1.13
+Stadelmann: Geist der ..."	medium	PDF p0161-p0186	Recovered legible portion of envelope label from OCR-empty scan; ellipsis marks unread continuation	chunk_070__p0161-p0186.pdf

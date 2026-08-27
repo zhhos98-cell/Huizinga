@@ -1,0 +1,7 @@
+page	action	block_id	before	after	confidence	source	reason	review_pdf
+2	replace_block	1	Huizing	Huizinga	high	PDF p0001-p0040	Corrected notebook owner name on title page	chunk_071__p0001-0040.pdf
+2	replace_block	2	"W.L.V. HELTEN
+
+1893. January."	"W. L. v. HELTEN
+1893. Januar."	high	PDF p0001-p0040	Corrected printed author line and handwritten date	chunk_071__p0001-0040.pdf
+2	replace_block	7	Elymology.	Etymologie.	high	PDF p0001-p0040	Corrected handwritten section heading	chunk_071__p0001-0040.pdf
