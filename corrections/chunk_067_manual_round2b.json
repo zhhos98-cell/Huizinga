@@ -1,0 +1,65 @@
+[
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 4,
+    "content": "26) M. Mauss, Essai sur le Don, Forme archaïque de l'échange, L'année sociologique n.s. I 1923/4, Paris, 1925, p. 102¹: „Le potlatch est en effet, un jeu et une épreuve.” — Ik kan mij niet onttrekken aan den indruk, dat G. W. Locher, The Serpent in Kwakiutl religion, Leiden, 1932, bij zijn doorgevoerde religieuze interpretatie van de potlatch de sociologische elementen te zeer verwaarloost. Men vergelijke ook R. Maunier, Recherches sur les échanges rituels en Afrique du Nord, L'année sociologique, n.s. II 1924/5, 1927.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified printed-text correction; restores superscript marker and bibliographic wording"
+  },
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 5,
+    "content": "27) Het kan op het eerste gezicht gezocht schijnen, dat ik aan die parallelen Le vœu du faisan, het buitensporige feestbanket van Philips den Goede te Rijsel in 1454, zou willen toevoegen. Niet om zijn spelkarakter in het algemeen, maar als specifiek voorbeeld van wedijverend, wederkeerig weeldevertoon en spilziek onthaal. Het feest van den hertog vormde het slot van een reeks van banketten onder den Bourgondischen hofadel, die elkaar bij tourbeurt gevolgd waren; men gaf daarbij elkander de beurt over door het aanbieden van een krans; zoo ging het van lager tot hooger, en werd steeds weelderiger, tot de hertog in pronk en overdaad alles overtrof. La Marche, Mémoires II p. 340 sq., vgl. mijn Herfsttij der Middeleeuwen³ p. 124, 370. Zoo heel ver van een potlatch is men hier niet verwijderd.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified full printed-block retranscription"
+  },
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 6,
+    "content": "32) Vgl. mijn Herfsttij der Middeleeuwen³, p. 112—127.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified bibliographic correction"
+  },
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 7,
+    "content": "20) Dit geldt onafhankelijk van de opvatting van de beteekenis der indigitamenta, waaromtrent Usener, Götternamen en Warde Fowler, Religious Experience of the Roman People, 1911, belangrijk verschillen.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified printed bibliographic note"
+  },
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 8,
+    "content": "21) Mahābhārata III. 122.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified bibliographic note"
+  },
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 9,
+    "content": "22) Schiller, Über die ästhetische Erziehung des Menschen, Vierzehnter Brief.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified bibliographic note"
+  },
+  {
+    "page": 73,
+    "action": "replace_block",
+    "block_id": 10,
+    "content": "23) G. G. Coulton, Art and the Reformation, Oxford, 1928, p. 136.\n24) Album de Villard de Honnecourt, ed. H. Omont, pl. XXIX. Van het perpetuum mobile, waarvan hij een proeve aanbiedt, ge-",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p33 / global p73",
+    "reason": "PDF-verified printed bibliographic notes; preserves page-break continuation"
+  }
+]
