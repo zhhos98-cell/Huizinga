@@ -5,16 +5,16 @@ scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE
 scan_terminal_boundary_visible: YES
 scan_total_pages: 233
 scan_spans_available: p0001-p0233
-reviewed_scan_spans: p0001-p0160
-reviewed_scan_pages: 160
-remaining_visual_spans: p0161-p0233
-page_level_visual_manifests: review/chunk_063/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_063/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_063/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_063/page_visual_run_manifest_p0121-p0160_v1.tsv
-page_level_visual_coverage: 160/233
-whole_chunk_page_level_visual_complete: NO
-page_level_ocr_usability_manifest: COMPLETE_FOR_P0001_P0160
+reviewed_scan_spans: p0001-p0233
+reviewed_scan_pages: 233
+remaining_visual_spans: NONE
+page_level_visual_manifests: review/chunk_063/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_063/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_063/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_063/page_visual_run_manifest_p0121-p0160_v1.tsv;review/chunk_063/page_visual_run_manifest_p0161-p0200_v1.tsv;review/chunk_063/page_visual_run_manifest_p0201-p0233_v1.tsv
+page_level_visual_coverage: 233/233
+whole_chunk_page_level_visual_complete: YES
+page_level_ocr_usability_manifest: COMPLETE_FOR_P0001_P0233
 ocr_string_semantic_proofread_all_nonblank_pages: NO
-current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=106;blank_no_substantive_visual=25;short_text_or_nontext=0;usable_with_noise_visual=29
-retrieval_stronger_packets: p0002-p0003;p0010;p0042-p0050;p0065-p0068;p0097;p0121-p0128;p0133-p0134;p0156-p0157
+whole_chunk_visual_class_counts: high_noise_layout_risk=165;blank_no_substantive_visual=36;short_text_or_nontext=0;usable_with_noise_visual=32
+retrieval_stronger_packets: p0002-p0003;p0010;p0042-p0050;p0065-p0068;p0097;p0121-p0128;p0133-p0134;p0156-p0157;p0168;p0212-p0213
 layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;nonlinear_reading_order
-priority: review p0161-p0233 to close the chunk
+priority: NONE_FOR_VISUAL_CLOSURE
 note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
