@@ -29,11 +29,12 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `chunk_049`: **page-level visual closure COMPLETE: 229/229 pages**. Whole-chunk aggregate: **117 high-noise, 57 blank/no-substantive, 27 short/nontext, 28 usable-with-noise**. Round 023 closes `p0081-p0229`; a marked retrieval-strong morphology break appears at `p0161-p0165` with printed/tabular and larger internally linear source regions before mounted-slip morphology returns. See `review/chunk_049/review_summary_v2.md`.
 - `chunk_050`: **page-level visual closure COMPLETE: 215/215 pages**. Whole-chunk aggregate: **55 high-noise, 49 blank/no-substantive, 30 short/nontext, 81 usable-with-noise**. Round 024 closes `p0041-p0215`; the major morphology break begins at `p0118`, leading into larger manuscript leaves, a compact notebook packet, and then a sustained correspondence/manuscript packet through `p0212`. See `review/chunk_050/review_summary_v2.md`.
 - `chunk_051`: **page-level visual closure COMPLETE: 203/203 pages**. Whole-chunk aggregate: **49 high-noise, 17 blank/no-substantive, 5 short/nontext, 132 usable-with-noise**. Round 025 covers `p0001-p0200`; Round 026 closes the three-page tail. The sustained retrieval-strong packet runs through `p0139`, followed by dark mounted-slip morphology through the tail. See `review/chunk_051/review_summary_v2.md`.
-- `chunk_052`: **page-level visual review IN PROGRESS: 160/200 pages of the currently visible scan set**. Current aggregate: **103 high-noise, 32 blank/no-substantive, 19 short/nontext, 6 usable-with-noise**. The principal retrieval-strong exception is `p0022-p0028`; `p0161-p0200` remains queued. See `review/chunk_052/review_summary_v1.md`.
+- `chunk_052`: **page-level visual closure COMPLETE: 200/200 pages for the supplied scan set**. Whole-set aggregate: **133 high-noise, 40 blank/no-substantive, 21 short/nontext, 6 usable-with-noise**. The principal retrieval-strong exception is `p0022-p0028`; dark mounted-slip morphology otherwise dominates through `p0200`. See `review/chunk_052/review_summary_v2.md`.
+- `chunk_053`: **page-level visual review IN PROGRESS through p0160; terminal boundary not yet supplied**. Current aggregate: **99 high-noise, 33 blank/no-substantive, 15 short/nontext, 13 usable-with-noise**. Retrieval-strong exceptions occur at `p0002-p0005`, `p0068-p0069`, `p0115`, `p0130`, and `p0155-p0158`. See `review/chunk_053/review_summary_v1.md`.
 
 ## Continuity statement
 
-`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–051 ✅ page-level visual closure | 052 🟡 visual 160/200 visible`
+`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–052 ✅ supplied-set visual closure | 053 🟡 visual through p0160`
 
 ## Five-PDF rounds
 
@@ -63,6 +64,7 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `ROUND_024_5PDF.md`: five PDFs / 175 pages; chunk_050 closed at 215/215 page-level visual coverage.
 - `ROUND_025_5PDF.md`: five PDFs / 200 pages; chunk_051 advanced through `p0200` at 200/203 page-level visual coverage, leaving only the 3-page supplied tail `p0201-p0203`.
 - `ROUND_026_5PDF.md`: five PDFs / 163 pages; chunk_051 closed at 203/203 and chunk_052 advanced through `p0160` at 160/200 of the currently visible scan set.
+- `ROUND_027_5PDF.md`: five PDFs / 200 pages; chunk_052 supplied set closed at 200/200 and chunk_053 advanced through `p0160` with its terminal boundary not yet supplied.
 
 The operational unit remains five supplied PDFs per completed round. A supplied terminal tail may be closed separately when waiting would create an artificial batch boundary. Raw PaddleOCR JSON files remain unchanged unless a separate correction workflow explicitly writes a corrected derivative.
 
@@ -72,6 +74,6 @@ The strongest packet begins with `Trois esprits prégothiques < Paris 1930 >` at
 
 ## Next closure priorities
 
-1. Continue with the supplied chunk_052 `p0161-p0200` segment, followed by chunk_053 in the next five-PDF round.
+1. Continue chunk_053 from `p0161` when the next contiguous scan segment is supplied; hold the isolated chunk_054 `p0081-p0120` segment until the preceding `p0001-p0080` scans or a complete queue are visible.
 2. Close chunk_032 visually when scans become available.
 3. Perform exhaustive nonempty OCR-string semantic proofreading only where full OCR-usability closure, rather than retrieval-grade visual calibration, is actually required.
