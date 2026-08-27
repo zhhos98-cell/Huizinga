@@ -35,11 +35,13 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `chunk_055`: **page-level visual review terminal-complete with one interior gap: 177/217 pages**. Reviewed spans are `p0001-p0120` and `p0161-p0217`; `p0121-p0160` remains unsupplied. Aggregate for reviewed pages: **76 high-noise, 36 blank/no-substantive, 13 short/nontext, 52 usable-with-noise**. See `review/chunk_055/review_summary_v2.md`.
 - `chunk_056`: **page-level visual closure COMPLETE: 225/225 pages**. Whole-chunk aggregate: **103 high-noise, 35 blank/no-substantive, 37 short/nontext, 50 usable-with-noise**. The tail adds a mounted-slip / larger-manuscript / mounted-slip sequence, with the strongest new retrieval packet at `p0173-p0191`. See `review/chunk_056/review_summary_v2.md`.
 - `chunk_057`: **page-level visual closure COMPLETE: 244/244 pages**. Whole-chunk aggregate: **43 high-noise, 3 blank/no-substantive, 38 short/nontext, 160 usable-with-noise**. A sustained morphology break at `p0142` introduces large internally linear notebook/manuscript leaves through the terminal sequence. See `review/chunk_057/review_summary_v2.md`.
-- `chunk_058`: **page-level visual review IN PROGRESS through p0040: 40/213 pages**. Current aggregate: **15 high-noise, 6 blank/no-substantive, 3 short/nontext, 16 usable-with-noise**. Continuous manuscript and notebook pages dominate through `p0021`; mounted-slip composites return from `p0024`. See `review/chunk_058/review_summary_v1.md`.
+- `chunk_058`: **page-level visual closure COMPLETE: 213/213 pages**. Whole-chunk aggregate: **68 high-noise, 16 blank/no-substantive, 12 short/nontext, 117 usable-with-noise**. The strongest sustained retrieval packet is `p0121-p0179`; dark mounted-slip morphology returns at `p0182-p0205`, followed by a retrieval-strong terminal sequence `p0207-p0213`. See `review/chunk_058/review_summary_v2.md`.
+- `chunk_059`: **page-level visual closure COMPLETE: 262/262 pages**. Whole-chunk aggregate: **162 high-noise, 42 blank/no-substantive, 22 short/nontext, 36 usable-with-noise**. `p0002-p0035` is the principal large-manuscript/correspondence packet; mounted-slip morphology dominates from `p0040` through the terminal page, with printed exceptions at `p0170-p0171`. See `review/chunk_059/review_summary_v2.md`.
+- `chunk_060`: **page-level visual review IN PROGRESS through p0120: 120/250 pages**. Current aggregate: **93 high-noise, 26 blank/no-substantive, 0 short/nontext, 1 usable-with-noise**. Dark mounted-slip/composite boards dominate almost uninterrupted; `p0102` is the clearest retrieval-strong printed-text exception. See `review/chunk_060/review_summary_v1.md`.
 
 ## Continuity statement
 
-`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–054 ✅ supplied-set visual closure | 055 🟡 177/217 with p0121-p0160 gap | 056–057 ✅ visual | 058 🟡 visual through p0040`
+`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–054 ✅ supplied-set visual closure | 055 🟡 177/217 with p0121-p0160 gap | 056–059 ✅ visual | 060 🟡 visual through p0120`
 
 ## Five-PDF rounds
 
@@ -75,6 +77,9 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `ROUND_030_5PDF.md`: five PDFs / 177 pages; chunk_055 terminal coverage completed through `p0217` while retaining the unsupplied `p0121-p0160` gap, and chunk_056 advanced through `p0120` at 120/225 page-level visual coverage.
 - `ROUND_031_5PDF.md`: five PDFs / 185 pages; chunk_056 closed at 225/225 and chunk_057 advanced through `p0120` at 120/244 page-level visual coverage.
 - `ROUND_032_5PDF.md`: five PDFs / 164 pages; chunk_057 closed at 244/244 and chunk_058 advanced through `p0040` at 40/213 page-level visual coverage.
+- `ROUND_033_5PDF.md`: five PDFs / 173 pages; chunk_058 closed at 213/213 page-level visual coverage.
+- `ROUND_034_5PDF.md`: five PDFs / 200 pages; chunk_059 advanced through `p0200` at 200/262 page-level visual coverage.
+- `ROUND_035_5PDF.md`: five PDFs / 182 pages; chunk_059 closed at 262/262 and chunk_060 advanced through `p0120` at 120/250 page-level visual coverage.
 
 The operational unit remains five supplied PDFs per completed round. A supplied terminal tail may be closed separately when waiting would create an artificial batch boundary. Raw PaddleOCR JSON files remain unchanged unless a separate correction workflow explicitly writes a corrected derivative.
 
@@ -84,7 +89,7 @@ The strongest packet begins with `Trois esprits prégothiques < Paris 1930 >` at
 
 ## Next closure priorities
 
-1. Continue chunk_058 with `p0041-p0213`; the five supplied PDFs form the next natural round.
+1. Continue chunk_060 with the four supplied terminal spans `p0121-p0250`; under strict five-PDF batching these can wait for the next supplied file, while the established terminal-tail exception also permits direct closure.
 2. Obtain and review the single missing chunk_055 span `p0121-p0160` to close it at 217/217.
 3. Close chunk_032 visually when scans become available.
 4. Perform exhaustive nonempty OCR-string semantic proofreading only where full OCR-usability closure, rather than retrieval-grade visual calibration, is actually required.
