@@ -5,16 +5,16 @@ scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE
 scan_terminal_boundary_visible: YES
 scan_total_pages: 226
 scan_spans_available: p0001-p0226
-reviewed_scan_spans: p0001-p0160
-reviewed_scan_pages: 160
-remaining_visual_spans: p0161-p0226
-page_level_visual_manifests: review/chunk_066/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_066/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_066/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_066/page_visual_run_manifest_p0121-p0160_v1.tsv
-page_level_visual_coverage: 160/226
-whole_chunk_page_level_visual_complete: NO
-page_level_ocr_usability_manifest: COMPLETE_FOR_P0001_P0160
+reviewed_scan_spans: p0001-p0226
+reviewed_scan_pages: 226
+remaining_visual_spans: NONE
+page_level_visual_manifests: review/chunk_066/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_066/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_066/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_066/page_visual_run_manifest_p0121-p0160_v1.tsv;review/chunk_066/page_visual_run_manifest_p0161-p0200_v1.tsv;review/chunk_066/page_visual_run_manifest_p0201-p0226_v1.tsv
+page_level_visual_coverage: 226/226
+whole_chunk_page_level_visual_complete: YES
+page_level_ocr_usability_manifest: COMPLETE_FOR_P0001_P0226
 ocr_string_semantic_proofread_all_nonblank_pages: NO
-current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=124;blank_no_substantive_visual=24;short_text_or_nontext=6;usable_with_noise_visual=6
-retrieval_stronger_packets: p0061-p0062;p0129-p0132
-layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;owner_series_cards;nonlinear_reading_order
-priority: review p0161-p0226 to close the chunk
+current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=170;blank_no_substantive_visual=37;short_text_or_nontext=9;usable_with_noise_visual=10
+retrieval_stronger_packets: p0061-p0062;p0129-p0132;p0197-p0198;p0201-p0202
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;owner_series_cards;institution_series_cards;printed_excerpt_composites;nonlinear_reading_order
+priority: whole_chunk_visual_complete
 note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
