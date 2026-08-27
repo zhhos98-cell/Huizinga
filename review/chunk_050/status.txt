@@ -1,0 +1,20 @@
+chunk_050
+raw_ocr: PRESENT
+raw_ocr_preserved: YES
+scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE_TO_CURRENT_SESSION
+scan_total_pages: 215
+scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200;p0201-p0215
+reviewed_scan_spans: p0001-p0040
+reviewed_scan_pages: 40
+remaining_visual_spans: p0041-p0215
+page_level_visual_manifests: review/chunk_050/page_visual_run_manifest_p0001-p0040_v1.tsv
+page_level_visual_coverage: 40/215
+whole_chunk_page_level_visual_complete: NO
+page_level_ocr_usability_manifest: COMPLETE_40_OF_215
+o cr_string_semantic_proofread_all_nonblank_pages: NO
+current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=26;blank_no_substantive_visual=9;short_text_or_nontext=3;usable_with_noise_visual=2
+selective_high_resolution_short_or_nontext_controls: p0001;p0006;p0033
+selective_high_resolution_usable_packet: p0030;p0034
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;illustrations;nonlinear_reading_order;faint_text
+priority: continue p0041-p0215
+note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
