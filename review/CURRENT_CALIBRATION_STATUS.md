@@ -31,11 +31,12 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `chunk_051`: **page-level visual closure COMPLETE: 203/203 pages**. Whole-chunk aggregate: **49 high-noise, 17 blank/no-substantive, 5 short/nontext, 132 usable-with-noise**. Round 025 covers `p0001-p0200`; Round 026 closes the three-page tail. The sustained retrieval-strong packet runs through `p0139`, followed by dark mounted-slip morphology through the tail. See `review/chunk_051/review_summary_v2.md`.
 - `chunk_052`: **page-level visual closure COMPLETE: 200/200 pages for the supplied scan set**. Whole-set aggregate: **133 high-noise, 40 blank/no-substantive, 21 short/nontext, 6 usable-with-noise**. The principal retrieval-strong exception is `p0022-p0028`; dark mounted-slip morphology otherwise dominates through `p0200`. See `review/chunk_052/review_summary_v2.md`.
 - `chunk_053`: **page-level visual closure COMPLETE: 200/200 pages for the supplied scan set**. Whole-set aggregate: **125 high-noise, 41 blank/no-substantive, 21 short/nontext, 13 usable-with-noise**. Round 028 closes `p0161-p0200`; the tail returns fully to mounted-slip morphology and adds no new retrieval-strong page. See `review/chunk_053/review_summary_v2.md`.
-- `chunk_054`: **page-level visual review IN PROGRESS through p0160: 160/228 pages**. Current aggregate: **101 high-noise, 35 blank/no-substantive, 24 short/nontext, 0 usable-with-noise**. The opening 160 pages are exceptionally homogeneous dark mounted-slip boards with regular blank-card and sparse-control interleaves. See `review/chunk_054/review_summary_v1.md`.
+- `chunk_054`: **page-level visual closure COMPLETE: 228/228 pages**. Whole-chunk aggregate: **145 high-noise, 50 blank/no-substantive, 33 short/nontext, 0 usable-with-noise**. Round 029 closes `p0161-p0228`; the entire chunk remains dominated by dark mounted-slip/composite morphology with no page promoted to retrieval-strong usable status. See `review/chunk_054/review_summary_v2.md`.
+- `chunk_055`: **page-level visual review IN PROGRESS through p0120: 120/217 pages**. Current reviewed-span aggregate: **41 high-noise, 21 blank/no-substantive, 8 short/nontext, 50 usable-with-noise**. A sustained morphology break begins at `p0069`, shifting from mounted slips to manuscript leaves, official documents and correspondence; terminal `p0201-p0217` is visible but `p0121-p0200` is not yet supplied to the review layer. See `review/chunk_055/review_summary_v1.md`.
 
 ## Continuity statement
 
-`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–053 ✅ supplied-set visual closure | 054 🟡 visual through p0160`
+`001 ✅ visual | 002 ✅ page-level visual + false-empty closure / semantic OCR proofreading partial | 003–031 ✅ visual | 032 🟡 OCR-calibrated / visual pending | 033–054 ✅ supplied-set visual closure | 055 🟡 visual through p0120 / terminal p0217 visible with gap`
 
 ## Five-PDF rounds
 
@@ -67,6 +68,7 @@ This file is the current roll-up. `review/PROGRESS.md` is historical and may lag
 - `ROUND_026_5PDF.md`: five PDFs / 163 pages; chunk_051 closed at 203/203 and chunk_052 advanced through `p0160` at 160/200 of the currently visible scan set.
 - `ROUND_027_5PDF.md`: five PDFs / 200 pages; chunk_052 supplied set closed at 200/200 and chunk_053 advanced through `p0160` with its terminal boundary not yet supplied.
 - `ROUND_028_5PDF.md`: five PDFs / 200 pages; chunk_053 closed at 200/200 and chunk_054 advanced through `p0160` at 160/228 page-level visual coverage.
+- `ROUND_029_5PDF.md`: five PDFs / 188 pages; chunk_054 closed at 228/228 and chunk_055 advanced through `p0120` at 120/217 page-level visual coverage.
 
 The operational unit remains five supplied PDFs per completed round. A supplied terminal tail may be closed separately when waiting would create an artificial batch boundary. Raw PaddleOCR JSON files remain unchanged unless a separate correction workflow explicitly writes a corrected derivative.
 
@@ -76,6 +78,6 @@ The strongest packet begins with `Trois esprits prégothiques < Paris 1930 >` at
 
 ## Next closure priorities
 
-1. Continue chunk_054 with `p0161-p0228`; the next five-PDF queue can then cross into chunk_055 `p0001-p0120`.
+1. Obtain/review chunk_055 `p0121-p0200`; then close the already visible terminal `p0201-p0217` scan without a gap.
 2. Close chunk_032 visually when scans become available.
 3. Perform exhaustive nonempty OCR-string semantic proofreading only where full OCR-usability closure, rather than retrieval-grade visual calibration, is actually required.
