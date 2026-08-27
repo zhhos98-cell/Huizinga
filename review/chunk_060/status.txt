@@ -1,0 +1,21 @@
+chunk_060
+raw_ocr: PRESENT
+raw_ocr_preserved: YES
+scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE
+scan_terminal_boundary_visible: YES
+scan_total_pages: 250
+scan_spans_available: p0001-p0250
+reviewed_scan_spans: p0001-p0250
+reviewed_scan_pages: 250
+remaining_visual_spans: NONE
+page_level_visual_manifests: review/chunk_060/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_060/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_060/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_060/page_visual_run_manifest_p0121-p0160_v1.tsv;review/chunk_060/page_visual_run_manifest_p0161-p0200_v1.tsv;review/chunk_060/page_visual_run_manifest_p0201-p0240_v1.tsv;review/chunk_060/page_visual_run_manifest_p0241-p0250_v1.tsv
+page_level_visual_coverage: 250/250
+whole_chunk_page_level_visual_complete: YES
+page_level_ocr_usability_manifest: COMPLETE_FOR_P0001_P0250
+ocr_string_semantic_proofread_all_nonblank_pages: NO
+whole_chunk_visual_class_counts: high_noise_layout_risk=187;blank_no_substantive_visual=51;short_text_or_nontext=0;usable_with_noise_visual=12
+terminal_packet_p0121_p0250_counts: high_noise_layout_risk=94;blank_no_substantive_visual=25;short_text_or_nontext=0;usable_with_noise_visual=11
+retrieval_strong_exceptions: p0102;p0138-p0139;p0172-p0179;p0201
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;folder_controls;faint_text;nonlinear_reading_order
+round_queue: terminal PDFs p0121-p0160,p0161-p0200,p0201-p0240,p0241-p0250 are first four inputs for ROUND_036_5PDF; await one additional supplied PDF before round-level closure
+note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
