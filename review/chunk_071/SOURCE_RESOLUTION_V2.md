@@ -1,6 +1,8 @@
 # chunk_071 strict-v2 source resolution
 
-- Commons HUI 75 candidates enumerated by API: **81**.
-- OCR source split: `chunk_071.pdf_by_PaddleOCR-VL-1.6.corrected.json`; pages: **186**.
-- `source_candidates_hui75.tsv` is discovery evidence only; a candidate earns no strict-v2 page credit until its scan image is visually matched to the chunk and page.
-- `_tmp_chunk071_pages/` is the page-by-page repository OCR comparison surface for strict v2.
+- Exact first item resolved: `File:HUI 75 I 1.1.pdf`; source pages: **43**.
+- Commons PDF URL resolved by MediaWiki API: `https://upload.wikimedia.org/wikipedia/commons/e/ef/HUI_75_I_1.1.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original`.
+- `source_probe_hui75_i1_1.tsv` contains official Commons PDF-handler page thumbnails for source pages 1-4.
+- These URLs are only a visual comparison surface; no strict-v2 credit is awarded until each rendered scan page is actually compared to the corresponding repository OCR page.
+- Existing `source_candidates_hui75.tsv` remains the broader HUI 75 discovery table.
+- `_tmp_chunk071_pages/` remains the page-by-page repository OCR comparison surface.
