@@ -1,38 +1,9 @@
-[0|image] <div style="text-align: center;"><img src="imgs/img_in_image_box_341_7_1164_1120.jpg" alt="Image" width="27%" />
-
-<div style="text-align: center;"><img src="imgs/img_in_image_box_341_7_1164_1120.jpg" alt="Image" width="27%" />
-
-9th CHESTER PLACE M
-
-Under the long, dark, dark day, under the blue sky, the blue sky is the most red and the blue sky is the blue sky.
-
-</div>
-
-
-</div>
-
-[1|chart] <table border=1 style='margin: auto; width: max-content;'>
-  <thead><tr><th style='text-align: center;'><table border=1 style='margin: auto; width: max-content;'></th></tr></thead>
-  <tbody>
-    <tr><td style='text-align: center;'><thead><tr><th style='text-align: center;'>Characteristic</th><th style='text-align: center;'>Value</th></tr></thead></td></tr>
-    <tr><td style='text-align: center;'><tbody></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>new</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>last</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>old</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>until</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>long</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>noon</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'><tr><td style='text-align: center;'>under</td><td style='text-align: center;'>1</td></tr></td></tr>
-    <tr><td style='text-align: center;'></tbody></td></tr>
-    <tr><td style='text-align: center;'></table></td></tr>
-  </tbody>
-</table>
-
 [2|vision_footnote] Volwassen menschen, Wereldbibliotheek, Amsterdam, 1928.
+6) Karl Groos, Die Spiele der Menschen, 1899, p. 13.
 
-[3|text] 7) Onverklaard blijft b.v. de samenhang met de grondbeteekenis in kerspel, dingspel als ook in het hd. Beispiel. Zie over dit alles het rijk gedocumenteerde artikel Spiel in het Deutsches Wörterbuch, ook op de samenstellingen. Het eigenaardige verschieten van de betekenis van het woord is reeds aan het Middelhoogduitsch eigen, b.v. in ebenspil, endespil, ein ungeteilte spil = een hachelijke keuze, sie ist miner ougen spil. — In de betekenis van een geestelijk stralen is spiln met de samenstellingen inspiln, widerspiln bij de mystici geliefd.
+[3|text] 7) Onverklaard blijft b.v. de samenhang met de grondbeteekenis in kerspel, dingspel als ook in het hd. Beispiel. Zie over dit alles het rijk gedocumenteerde artikel Spiel in het Deutsches Wörterbuch, ook op de samenstellingen. Het eigenaardige verschieten van de beteekenis van het woord is reeds aan het Middelhoogduitsch eigen, b.v. in ebenspil, endespil, ein ungeteiltez spil = een hachelijke keuze, sie ist mîner ougen spil. — In de beteekenis van een geestelijk stralen is spiln met de samenstellingen inspiln, widerspiln bij de mystici geliefd.
 
-[4|text] 8) Wortel la‘iba. Naar mij collega Wensinck meedeelt, varieert de beteekenis van dezen wortel, de verwante vormen inbegrepen, in de verschillende Semitische talen tussen, lachen, schertsen, spelen, coquetteeren, spotten, plagen en kwijlen.” — Zeer leerzaam voor de ontwikkeling van het spelbegrip is ook het Sanskrit. De wortel krīd dient voor het uitdrukken van het spel van mensch en dier, wind en golven, dikwijls ook in erotischen zin, doch niet voor muzikale vaardigheid; las-, waarvan vilāsa, ligt in het gebied van „stralen, oceens te voorschijn komen of opklinken, heen-en-werbewegen, eindelijk ook, evenals spel, spiel, handeln, bezig zijn” in het alge-
+[4|text] 8) Wortel laʿiba. Naar mij collega Wensinck meedeelt, varieert de beteekenis van dezen wortel, de verwante vormen inbegrepen, in de verschillende Semitische talen tusschen „lachen, schertsen, spelen, coquetteeren, spotten, plagen en kwijlen.” — Zeer leerzaam voor de ontwikkeling van het spelbegrip is ook het Sanskrit. De wortel krīd dient voor het uitdrukken van het spel van mensch en dier, wind en golven, dikwijls ook in erotischen zin, doch niet voor muzikale vaardigheid; las-, waarvan vilāsa, ligt in het gebied van „stralen, opeens te voorschijn komen of opklinken, heen-en-weerbewegen”, eindelijk ook, evenals spel, spiel „handelen, bezig zijn” in het alge-
 
 [5|text] In Portugal might mean a good,
 

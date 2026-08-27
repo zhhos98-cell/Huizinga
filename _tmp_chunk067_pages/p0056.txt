@@ -32,7 +32,7 @@ Toledo, 589.
 
 Lot, 1795, 180
 
-[6|text] 26) M. Mauss, Essai sur le Don, Forme archaïque de l'échange, L'année sociologique n.s. I 1923/4, Paris, 1925, p. 1021: „Le potlatch est en effet, un jeu et une épreuve.” — Ik kan mij niet onttrekken aan den indruk, dat G. W. Locher, The Serpent in Kwakiutl religion, Leiden, 1932, bij zijn doorgevoerde religieuze interpretatie van de potlatch de sociologische elementen te zeer verwaarloost. Men
+[6|text] 26) M. Mauss, Essai sur le Don, Forme archaïque de l'échange, L'année sociologique n.s. I 1923/4, Paris, 1925, p. 102¹: „Le potlatch est en effet, un jeu et une épreuve.” — Ik kan mij niet onttrekken aan den indruk, dat G. W. Locher, The Serpent in Kwakiutl religion, Leiden, 1932, bij zijn doorgevoerde religieuze interpretatie van de potlatch de sociologische elementen te zeer verwaarloost. Men
 
 [7|text] Sopraismata.o. Senecio Augustinius
 
@@ -76,10 +76,10 @@ Cynics: return to nature
 
 stoless lame: koning leg.typer
 
-[11|paragraph_title] #####  $ ^{18} $ Abaelard, Opera ed. V. Cousin, I p. 7.
+[11|paragraph_title] 13) Abaelard, Opera ed. V. Cousin, I p. 7.
 
-[12|text] $ ^{14} $ L.c., p. 4: „Et quoniam dialecticarum rationum armaturam omnibus philosophiae documentis praetuli, his armis alia commu-tavi, et trophaeis bellorum conflictus praetuli disputationum. Proinde diversas disputando perambulans provincias, ubicunque huius artis vigere studium audieram, Peripateticorum aemulator factus sum.” — Kan Abaelard met Peripateticus hier, als woordspeling, aan „zwervend philosoof“ gedacht hebben?
+[12|text] 14) L.c., p. 4: „Et quoniam dialecticarum rationum armaturam omnibus philosophiae documentis praetuli, his armis alia commutavi, et trophaeis bellorum conflictus praetuli disputationum. Proinde diversas disputando perambulans provincias, ubicunque huius artis vigere studium audieram, Peripateticorum aemulator factus sum.” — Kan Abaelard met Peripateticus hier, als woordspeling, aan „zwervend philosoof” gedacht hebben?
 
-[13|text] $ ^{15} $ O. a. Metalogicon l. III, I. c. 3, al is daarin een sterk satirisch element. Hugo van Sint Victor, De Vanitate mundi, Migne 176. 709, een school beschrijvend, vertoont ons de scholieren in hun verschillende bezigheden. „Alii autem acriori et ferventiori quodam studio de magnis, ut videtur, negotiis disceptationes quasdam ad invicem exercent et se quibusquam innexionibus et gryphis vicissim fallere contendunt.”
+[13|text] 15) O. a. Metalogicon l. IIII, I c. 3, al is daarin een sterk satirisch element. Hugo van Sint Victor, De Vanitate mundi, Migne 176. 709, een school beschrijvend, vertoont ons de scholieren in hun verschillende bezigheden. „Alii autem acriori et ferventiori quodam studio de magnis, ut videtur, negotiis disceptationes quasdam ad invicem exercent et se quibusquam innexionibus et gryphis vicissim fallere contendunt.”
 
-[14|text] Een levendig voorbeeld van wijsbegeerte in wedstrijdvorm levert de geschiedenis van het disput tussen Gerbert en zijn tegenstander Otrik van Maagdenburg, te Ravenna, voor keizer Otto II, in den winter van 980/1. Het wordt beschreven door Richer, Hist. ll. IV, ed. Waitz, Script. rer. Germ., p. 104—109, III c. 55—65. — Otrik zendt iemand naar Reims, om Gerbert heimelijk te laten
+[14|text] Een levendig voorbeeld van wijsbegeerte in wedstrijdvorm levert de geschiedenis van het dispuut tusschen Gerbert en zijn tegenstander Otrik van Maagdenburg, te Ravenna, voor keizer Otto II, in den winter van 980/1. Het wordt beschreven door Richer, Hist. ll. IV, ed. Waitz, Script. rer. Germ., p. 104—109, III c. 55—65. — Otrik zendt iemand naar Reims, om Gerbert heimelijk te laten
