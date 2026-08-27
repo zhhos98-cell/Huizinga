@@ -1,0 +1,20 @@
+chunk_052
+raw_ocr: PRESENT
+raw_ocr_preserved: YES
+scan_access: LOCAL_SCAN_SET_VISIBLE_THROUGH_P0200
+scan_total_pages_visible: 200
+scan_spans_available: p0001-p0040;p0041-p0080;p0081-p0120;p0121-p0160;p0161-p0200
+reviewed_scan_spans: p0001-p0160
+reviewed_scan_pages: 160
+remaining_visual_spans: p0161-p0200
+page_level_visual_manifests: review/chunk_052/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_052/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_052/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_052/page_visual_run_manifest_p0121-p0160_v1.tsv
+page_level_visual_coverage_of_visible_scan_set: 160/200
+whole_visible_scan_set_page_level_visual_complete: NO
+page_level_ocr_usability_manifest: COMPLETE_160_OF_200_VISIBLE
+ocr_string_semantic_proofread_all_nonblank_pages: NO
+current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=103;blank_no_substantive_visual=32;short_text_or_nontext=19;usable_with_noise_visual=6
+selective_high_resolution_short_or_nontext_controls: p0006;p0019;p0021;p0032;p0034-p0035;p0038;p0041;p0044-p0046;p0050;p0054;p0076;p0089;p0118-p0119;p0153;p0160
+selective_high_resolution_usable_packet: p0022-p0025;p0027-p0028
+layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;nonlinear_reading_order;faint_text
+priority: continue supplied p0161-p0200
+note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
