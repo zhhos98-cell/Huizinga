@@ -1,0 +1,102 @@
+name: chunk067-pdf-correction
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp_correct_chunk067.yml'
+      - 'corrections/chunk_067_manual.json'
+permissions:
+  contents: write
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply PDF-verified corrections and build audit split
+        run: |
+          python - <<'PY'
+          import json, pathlib, csv, re
+          src = pathlib.Path('chunk_067.pdf_by_PaddleOCR-VL-1.6.json')
+          data = json.loads(src.read_text(encoding='utf-8'))
+          patch_path = pathlib.Path('corrections/chunk_067_manual.json')
+          patches = json.loads(patch_path.read_text(encoding='utf-8')) if patch_path.exists() else []
+          audit=[]
+          for p in patches:
+              page_no = int(p['page'])
+              action = p.get('action','replace_block')
+              page = data[page_no-1]
+              blocks = page.get('prunedResult',{}).setdefault('parsing_res_list',[])
+              before = ''
+              if action == 'replace_block':
+                  block_id = int(p['block_id'])
+                  target = next((b for b in blocks if int(b.get('block_id', -1)) == block_id), None)
+                  if target is None:
+                      raise RuntimeError(f'missing page {page_no} block {block_id}')
+                  before = target.get('block_content') or ''
+                  target['block_content'] = p['content']
+                  target['manual_correction'] = {'source':p.get('source','PDF'),'confidence':p.get('confidence','high'),'reason':p.get('reason','PDF-verified correction')}
+              elif action == 'drop_block':
+                  block_id = int(p['block_id'])
+                  target = next((b for b in blocks if int(b.get('block_id', -1)) == block_id), None)
+                  if target is None:
+                      raise RuntimeError(f'missing page {page_no} block {block_id}')
+                  before = target.get('block_content') or ''
+                  blocks[:] = [b for b in blocks if int(b.get('block_id', -1)) != block_id]
+              elif action == 'clear_page':
+                  before = '\n\n'.join((b.get('block_content') or '') for b in blocks)
+                  blocks[:] = []
+              elif action == 'append_manual_block':
+                  new_id = max([int(b.get('block_id',-1)) for b in blocks] or [-1]) + 1
+                  content = p['content']
+                  blocks.append({'block_label':'text','block_content':content,'block_bbox':p.get('block_bbox',[]),'block_id':new_id,'block_order':p.get('block_order',new_id+1),'group_id':new_id,'block_polygon_points':p.get('block_polygon_points',[]),'manual_correction':{'source':p.get('source','PDF'),'confidence':p.get('confidence','high'),'reason':p.get('reason','PDF false-empty recovery')}})
+              else:
+                  raise RuntimeError(f'unknown action {action}')
+              audit.append((page_no,action,p.get('block_id',''),before,p.get('content',''),p.get('confidence',''),p.get('source',''),p.get('reason','')))
+          ignore = {'number','footnote','header','header_image','footer','footer_image','aside_text'}
+          for page in data:
+              if 'markdown' not in page:
+                  page['markdown']={'text':'','images':{}}
+              text=[]
+              for b in page.get('prunedResult',{}).get('parsing_res_list',[]):
+                  c=(b.get('block_content') or '').strip()
+                  if c and b.get('block_label') not in ignore:
+                      text.append(c)
+              page['markdown']['text']='\n\n'.join(text)
+          corrected = pathlib.Path('chunk_067.pdf_by_PaddleOCR-VL-1.6.corrected.json')
+          corrected.write_text(json.dumps(data, ensure_ascii=False, separators=(',',':')), encoding='utf-8')
+          out = pathlib.Path('_tmp_chunk067_pages'); out.mkdir(exist_ok=True)
+          review = pathlib.Path('review/chunk_067'); review.mkdir(parents=True,exist_ok=True)
+          rows=[]
+          for i,page in enumerate(data,1):
+              blocks=page.get('prunedResult',{}).get('parsing_res_list',[])
+              rawparts=[]
+              labels=[]
+              for b in blocks:
+                  c=(b.get('block_content') or '').strip()
+                  if c: rawparts.append(c)
+                  labels.append(str(b.get('block_label','')))
+              md=(page.get('markdown',{}).get('text') or '')
+              raw='\n\n'.join(rawparts)
+              preview=re.sub(r'\s+',' ',md)[:180]
+              rows.append((i,len(blocks),len(md),len(raw),','.join(labels),preview))
+              lines=[]
+              for b in blocks:
+                  c=(b.get('block_content') or '').strip()
+                  if c:
+                      lines.append(f"[{b.get('block_id','?')}|{b.get('block_label','?')}] {c}")
+              (out/f'p{i:04d}.txt').write_text('\n\n'.join(lines),encoding='utf-8')
+          with (review/'raw_ocr_signal_v1.tsv').open('w',encoding='utf-8',newline='') as f:
+              w=csv.writer(f,delimiter='\t'); w.writerow(['page','block_count','markdown_len','all_block_text_len','labels','markdown_preview']); w.writerows(rows)
+          cand=[r for r in rows if r[2] < 40 or r[3] < 40 or r[2] > 1800]
+          with (review/'raw_ocr_candidates_v1.tsv').open('w',encoding='utf-8',newline='') as f:
+              w=csv.writer(f,delimiter='\t'); w.writerow(['page','block_count','markdown_len','all_block_text_len','labels','markdown_preview']); w.writerows(cand)
+          with (review/'applied_patch_audit_v1.tsv').open('w',encoding='utf-8',newline='') as f:
+              w=csv.writer(f,delimiter='\t'); w.writerow(['page','action','block_id','before','after','confidence','source','reason']); w.writerows(audit)
+          PY
+      - name: Commit corrected copy and audit split
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add chunk_067.pdf_by_PaddleOCR-VL-1.6.corrected.json _tmp_chunk067_pages review/chunk_067
+          git commit -m 'data: build chunk_067 PDF-correction audit workspace' || exit 0
+          git pull --rebase origin main
+          git push origin main
