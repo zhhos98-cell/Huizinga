@@ -86,5 +86,86 @@
     "confidence": "high",
     "source": "chunk_067__p0041-0080.pdf local p17 / global p57",
     "reason": "PDF-verified printed-text correction; fixes OCR corruption in Sanskrit/Arabic transliteration and Dutch wording"
+  },
+  {
+    "page": 70,
+    "action": "replace_block",
+    "block_id": 0,
+    "content": "Wij komen tot een gebied, waar men misschien van den spelfactor geen enkel spoor verwachten zou, dat van bedrijfsleven en ruilverkeer. Ten opzichte van de uitwisseling der begeerde producten zal men, vooral in dezen tijd, geneigd zijn te zeggen: hier is toch zeker van den aanvang af alles bittere ernst geweest, behoefte aan het noodige, nuchtere berekening van de mogelijkheid der verwerving, spoedig ook snood winstbejag. Inderdaad, dit alles is overoud, maar het is niet het eenige wat de vormen van het ruilverkeer bepaalt. Het economische leven groeit niet uitsluitend op uit de nooddruft, maar ook, hoe paradoxaal het moge klinken, in de sfeer van mildheid, vriendschap, vertrouwen, eer, hoogmoed en avontuur. Ik moet kort zijn, en zal u enkel twee voorbeelden geven: een uit de volkenkunde, en een uit de moderne economische geschiedenis. Wie van u Malinowski's schitterende en boeiende Argonauts of the Western Pacific 25) gelezen heeft, begrijpt, waarop ik het oog heb. Hij kent de Kula, die wonderlijke zede van een groep Melanesische eilanders, waarbij van tijd tot tijd met veel plechtig ceremonieel gevaarlijke zeetochten worden ondernomen, van eiland tot eiland, in twee tegengestelde richtingen, welke enkel dienen, om aan de deelgenooten in dit spel van mildheid, vertrouwen en gemeenschap zekere voorwerpen, die biologisch waardeloos zijn (evenals het goud), nl. halssnoeren van roode schelpen en armbanden van witte schelpen, door te geven, tot tijdelijk bezit, als geschenk, onder duizend plechtigheden, met mythe en magie eng verbonden. De voorwerpen zelf zijn beroemd en begeerd als hedendaagsche sportbekers. Trots en eer zijn de roerselen. Men heeft in dit verschijnsel, hoewel on- ja anti-economisch van aard, met een zuiver credietsstelsel te doen. De kula is niet te beschouwen als de oor-",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p30 / global p70",
+    "reason": "PDF-verified full printed-block retranscription; fixes sfeer, winstbejag and credietsstelsel among OCR errors"
+  },
+  {
+    "page": 70,
+    "action": "replace_block",
+    "block_id": 1,
+    "content": "keuze van een nieuwen paus was er, zegt Ehrenberg, „ein ganz regelmässiger Verkehr in der Art unserer Rennwetten”. Het is welbekend, dat vooral de speelgrage Angelsaksische wereld het gebruik van wedden en verzekeren op den uitslag van alles en nog wat in hooge eere houdt. Men kan veilig beweren, dat bij het „spelen aan de beurs” de grens tusschen spel en ernst, die wij vergeefs zoeken, niet bepaald wordt door de vraag, of het den prijs der tarwe geldt of den uitslag van een sportprestatie, het economisch-gewaand-berekenbare of het menschelijk-toevallige.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p30 / global p70",
+    "reason": "PDF-verified full printed-block retranscription; repairs severe final-line OCR corruption"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 2,
+    "content": "door een wedloop, een worp van een bijl, een aanraking in den blinde, of door de primitieve roulette van een rollend ei 34). Onoplosbaar vermengen zich hier ernstig belang en spelvorm.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified printed-text correction (primitieve)"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 3,
+    "content": "Naast wedde staat met ongeveer gelijke beteekenis het Middeleeuwsch-Latijnsche plegium, van Germaansche herkomst, dat Oudfransch pleige en Engelsch pledge heeft opgeleverd. De beteekenis strekt zich uit van ‘borgstaan, borgstelling’ tot ‘het beantwoorden van een heildronk’. Als oorsprong geldt een Oudgermaansch plegan, ons plegen, waarvan als oudste beteekenis juist dit ‘borgstaan’ of ‘borgstellen’ wordt aangenomen. Van",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified printed-text retranscription; fixes historical spelling and recovers visible continuation fragment"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 5,
+    "content": "overal elders het rechte licht opgegaan, en een nieuw hoofdstuk aan de ethnologie toegevoegd. Het betreft vooral de Potlatch bij de Kwakiutl-Indianen van Britsch Columbia. Dit is een grootsche manifestatie van plechtig wegschenken van alle have, terwille van de eer en het aanzien van het geslacht, en met verplichting van wederkeerigheid voor later. Geloof en mythe zitten er innig doorheengeweven, maar vertoon van mildheid en vertrouwen schijnt toch de basis van het gebruik. Een spel moet de potlatch ongetwijfeld heeten, zoo noemt haar ook Marcel Mauss, die in zijn Essai sur le don 26) de parallelen van allerlei zijde, in het bijzonder uit de klassieke en uit de germaansche oudheid, verzameld heeft 27). De slotsom schijnt, dat schenken op crediet (wat wellicht juist heden nauwelijks als een contradictio in terminis gevoeld zal worden) even oud en veel eervoller is dan verkoopen voor een directe tegenwaarde.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified full printed-block retranscription; fixes juist/eervoller and footnote placement"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 6,
+    "content": "Waar loopt in deze dingen de grens tusschen ernst en spel? — Waar loopt zij in het voorbeeld uit de moderne economische geschiedenis, dat ik u beloofde? — In het tijdperk van het vroege kapitalisme ziet men te Genua, te Antwerpen zoowel den termijnhandel als de levensverzekering opkomen in onmiskenbaar verband met de zuivere weddenschap, zoodat men heeft kunnen twijfelen, of hier de ernstige economische vorm dan wel de spelvorm primair is geweest 28). Die „weddingen”, zooals ze nog in Anthonio van Neulighem’s Openbaringe van ’t Italiaens boeck-houden (1631) veelvuldig beschreven staan 29), en zooals ze o.a. door Karel V telkens weer verboden werden 30), hebben zeer bepaaldelijk betrekking op de volgende kansgevallen: „leven ende sterven van persoonen, reysen oft bevaerden, oft baeren van knechtkens of meyskens, oft opt inneemen van eenige landen, plaetzen oft steden”. Ook bij de",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified full printed-block retranscription; fixes tusschen, onmiskenbaar and historical spellings"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 8,
+    "content": "enkele jaren een directeur van een onzer groote scheepvaartmaatschappijen, dat de wedijver der natiën, om steeds grooter en sneller mailbooten te bouwen, op geen enkel economisch of technisch voordeel berustte? Wedijver, wedstrijd, concurrentie, reclame, spel, het ligt alles dicht bijeen.",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified printed-text retranscription and line-break normalization"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 9,
+    "content": "Wij komen tot een gebied, waar men misschien van den spelfactor geen enkel spoor verwachten zou, dat van bedrijfsleven en ruilverkeer. Ten opzichte van de uitwisseling der begeerde producten zal men, vooral in dezen tijd, geneigd zijn te zeggen: hier is toch zeker van den aanvang af alles bittere ernst geweest, behoefte aan het noodige, nuchtere berekening van de mogelijkheid der verwerving, spoedig ook snood winstbejag. Inderdaad, dit alles is overoud, maar het is niet het eenige wat de vormen van het ruilverkeer bepaalt. Het economische leven groeit niet uitsluitend op uit de nooddruft, maar ook, hoe paradoxaal het moge klinken, in de sfeer van mildheid, vriendschap, vertrouwen, eer, hoogmoed en avontuur. Ik moet kort zijn, en zal u enkel twee voorbeelden geven: een uit de volkenkunde, en een uit de moderne economische geschiedenis. Wie van u Malinowski's schitterende en boeiende",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified printed-text retranscription; fixes bitterer→bittere and normalizes line-break compounds"
+  },
+  {
+    "page": 71,
+    "action": "replace_block",
+    "block_id": 10,
+    "content": "Argonauts of the Western Pacific 25) gelezen heeft, begrijpt, waarop ik het oog heb. Hij kent de Kula, die wonderlijke zede van een groep Melanesische eilanders, waarbij van tijd tot tijd met veel plechtig ceremonieel gevaarlijke zeetochten worden ondernomen, van eiland tot eiland, in twee tegengestelde richtingen, welke enkel dienen, om aan de deelgenooten in dit spel van mildheid, vertrouwen en gemeenschap zekere voorwerpen, die biologisch waardeloos zijn (evenals het goud), nl. halssnoeren van roode schelpen en armbanden van witte schelpen, door te geven, tot tijdelijk bezit, als geschenk, onder duizend plechtigheden, met mythe en magie eng verbonden. De voorwerpen zelf zijn beroemd en begeerd als hedendaagsche sportbekers. Trots en eer zijn de roerselen. Men heeft in dit verschijnsel, hoewel on- ja anti-economisch van aard, met een zuiver credietsstelsel te doen. De kula is niet te beschouwen als de oor-",
+    "confidence": "high",
+    "source": "chunk_067__p0041-0080.pdf local p31 / global p71",
+    "reason": "PDF-verified full printed-block retranscription; repairs credietsstelsel and duplicate excerpt OCR"
   }
 ]
