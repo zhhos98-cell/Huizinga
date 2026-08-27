@@ -1,0 +1,29 @@
+[0|header] Hui 71π:31d
+
+[1|header] Utrecht 2 November 1927
+
+[2|doc_title] # Prof. Dr. J. Huizinga
+
+[3|text] Witte Singel 34
+
+[4|text] LEIDEN
+
+[5|doc_title] # Hooggeachte Professor,
+
+[6|text] Gelijk ik U laatst al meedeelde, is de heer Van Erp naar het oud- lid van den Raad van Indië, Westenenk, gegaan, om over de musicologische bestudeering van den archipel en mijn verlangens dienaangaande te spreken. De heer Westenenk bleek zeer veel voor het plan te voelen en zegde zijn volle medewerking toe. De beide heeren spraken af, het Kol. Inst. er warm voor te trachten te maken. Verder zou Westenenk, zoodra hij het oogenblik gekomen achtte, den Minister van Kol. erover abordeeren, waarbij hij Z.E. de toezegging zou trachten te ontlokken, ondershands erover te correspondeeren met den G.G. Tegelijk wilde hij dan zelf enkele leden van den Raad van Indië daarover schrijven, opdat de G.G. adviseurs zou worden door wel-ingelichte geraden. Van Erp zal nu den heer Westenenk nog vragen, te wachten met naar den Minister te gaan, todtat Uw Gidsartikel is verschenen.
+
+[7|text] Op verzoek van den heer Van Erp schreef ik, te zijner orienteering, voor hem een kleine nota; een afschrift daarvan sluit ik hierbij in.
+
+[8|text] Met vriendelijke groeten,
+
+[9|text] Hoogachtend,
+
+[10|text] U_{w} d_{w}.
+
+[11|text] tot 15 Nov. p/a Prof. Dr. Von Hornbostel
+
+Arndtstrasse 40 Berlin-Steglitz
+
+daarna weer: Papaverhof 10 Den Haag.
+
+[12|footer] Huiz.71Ⅱ

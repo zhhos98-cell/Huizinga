@@ -1,0 +1,19 @@
+[0|image] <div style="text-align: center;"><img src="imgs/img_in_image_box_911_1476_1247_1820.jpg" alt="Image" width="16%" />
+
+<div style="text-align: center;"><img src="imgs/img_in_image_box_911_1476_1247_1820.jpg" alt="Image" width="16%" />
+
+Code NCSV
+Maquinowski
+-
+Ethom. & Grettung.
+-
+awition. They
+-
+3/130/43
+1/2/70
+9
+
+</div>
+
+
+</div>

@@ -1,0 +1,33 @@
+[0|doc_title] # UITTREKSEL UIT HET REGLEMENT DER KONINKLIJKE BIBLIOTHEEK,
+
+[1|text] vastgesteld bij beschikkingen van den Minister van Binnenlandsche Zaken van 21 October, 6 November 1884 en 29 Maart 1896, nrs. 1467, 2687 en 824 afd. K.W.
+
+[2|text] Art. 35. De bezoekers der leeszalen verbinden zich, om aan de Bibliotheek kosteloos af te staan een exemplaar van het werk, tot de samenstelling waarvan zij van de Bibliotheek hebben gebruik gemaakt. Gelijke verplichting rust op hen, die boeken ter leen ontvangen.
+
+[3|text] Art. 40. Zij, die aanteekeningen maken uit werken, hun verstrekt, mogen het papier, waarop zij schrijven, niet leggen op het werk, hetwelk zij raadplegen.
+
+[4|text] Daarbij mag niet van inkt gebruik worden gemaakt, wanneer het geldt handschriften, zeldzame drukken, kostbare plaats- en kaartwerken.
+
+[5|text] Art. 41. Het calqueeren en doortrekken is verboden zonder uitdrukkelijke vergunning van den Bibliothecaris, welke vergunning alleen gegeven wordt, wanneer daarvan geen nadeelige gevolgen te voorzien zijn voor de boeken of prenten.
+
+[6|text] Art. 42. Net is niet geoorloofd in de boek-, plaats- en kaartwerken noch in de handschriften vouwen te leggen of iets daaraan te doen, waardoor beschadiging veroorzaakt wordt, noch ook daarin of daarop iets te schrijven of te teekenen.
+
+[7|text] Art. 43. De machtiging om een handschrift te copiëeren wordt niet verleend, tenzij de aanvrager zich schriftelijk verbinde, om ingeval het afschrift wordt uitgegeven, van de uitgave twee exemplaren aan de Koninklijke Bibliotheek kosteloos af te staan.
+
+[8|text] Art. 46. Het uitgeleende werk moet binnen den gestelden termijn door den leener vrachtvrij worden terugbezorgd.
+
+[9|text] Art. 47. Ook vóór het verstrijken van den gestelden termijn is de leener verplicht, op de schriftelijke aanvrage van den Bibliothecaris, het aan hem uitgeleende onverwijld en vrachtvrij terug te bezorgen.
+
+[10|text] Art. 48. Hij, die een werk uit de Koninklijke Bibliotheek ten gebruikel had tijdens dit te loor ging of beschadigd werd, is tot schade- vergoeding gehouden.
+
+[11|text] Hij, die deze schadevergoeding niet ten genoeg van den Bibliothecaris voldoet, wordt uitgesloten van het voorrecht om boeken ter leen te bekomen.
+
+[12|text] Art. 49. Alle kosten op het gebruik van uitgeleende werken vallende, komen ten laste van den gebruiker.
+
+[13|table] <table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Hofstedeen, Ch</td><td style='text-align: center; word-wrap: break-word;'>400</td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>Robert I. et. J. Y2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>De ondergetekende,</td><td style='text-align: center; word-wrap: break-word;'>Theo Hooijng, Hogelandts,</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>verklaart uit de Koninklijke Bibliotheek te &#x27;s-Gravenhage het boven genoemde boek ter leen ontvangen te hebben voor 4 weken en onder de voorwaarden, bepaald bij artt. 33, 40–43 en 46–49 van het reglement (hierachter afgedrukt).</td><td style='text-align: center; word-wrap: break-word;'>Handteekening:</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>122 JAN. 1937</td><td style='text-align: center; word-wrap: break-word;'>1.42.2000</td></tr></table>
+
+[14|aside_text] Huizi 29
+
+[15|number] 4
+
+[16|number] 0

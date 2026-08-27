@@ -1,0 +1,3 @@
+[0|header_image] <div style="text-align: center;"></div>
+
+[1|header] 2024
