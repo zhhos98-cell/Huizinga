@@ -1,0 +1,6 @@
+chunk	total_pages	strict_verified_pages	last_strict_verified	status	note
+chunk_067	223	0	-	NOT_STARTED	v2 reset; legacy v1 span rows carry no strict credit
+chunk_068	200	0	-	NOT_STARTED	v2 reset; legacy v1 span rows carry no strict credit
+chunk_069	214	0	-	NOT_STARTED	v2 reset; previous 214-row v1 log was span-generated, not proof
+chunk_070	186	0	-	NOT_STARTED	v2 reset; legacy v1 span rows carry no strict credit
+chunk_071	186	0	-	NOT_STARTED	v2 reset; begin re-proofreading from p0001
