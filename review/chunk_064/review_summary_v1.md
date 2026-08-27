@@ -4,21 +4,21 @@ Date: 2026-08-27
 
 ## Coverage
 
-Round 039 visually reviewed four contiguous supplied scan PDFs covering `p0001-p0160`. The supplied queue establishes a terminal boundary at **229 pages**. Current page-level visual coverage is **160/229**.
+Rounds 039-040 visually reviewed the complete supplied scan sequence `p0001-p0229`. The chunk is now **229/229** complete at page-level visual coverage.
 
 Raw PaddleOCR JSON is preserved unchanged. This is scan-first retrieval calibration and layout triage; exhaustive semantic proofreading of OCR strings is not claimed.
 
-## Aggregate classes for p0001-p0160
+## Final aggregate classes
 
-- high-noise-layout-risk: **121**
-- blank-no-substantive-visual: **31**
-- short-text-or-nontext: **3**
+- high-noise-layout-risk: **178**
+- blank-no-substantive-visual: **41**
+- short-text-or-nontext: **5**
 - usable-with-noise-visual: **5**
 
 ## Morphology
 
-The reviewed opening is exceptionally homogeneous: dark mounted-slip/composite boards dominate nearly the entire `p0001-p0160` span, with frequent envelope/card controls creating the 31 blank/non-substantive pages. `p0035` is an early retrieval-oriented printed-column exception, while `p0034` is primarily diagram/map material and remains a short/nontext control. A clearer break appears at `p0104-p0106`, where a larger manuscript region and full-page printed/diagram sheets become internally linear and retrieval-friendly. `p0147` adds another larger-manuscript exception. `p0140` is a short administrative/printed card and `p0148` a postal-card control.
+The chunk remains exceptionally homogeneous from beginning to end: dark mounted-slip/composite boards dominate, with recurrent envelope/card controls supplying most blank/non-substantive pages. The already identified stronger retrieval exceptions remain `p0035`, `p0104-p0106`, and `p0147`. The closing span `p0161-p0229` does not introduce a comparable internally linear packet; even pages containing larger printed or manuscript regions remain embedded in multi-slip boards and retain high-noise classification. `p0196` is a postcard/administrative-card control and `p0214` an owner/address-card control.
 
-## Remaining work
+## Completion
 
-Continue with supplied spans `p0161-p0200` and `p0201-p0229` to close the chunk.
+Whole-chunk page-level visual review is complete at **229/229**. Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
