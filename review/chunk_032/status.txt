@@ -18,4 +18,7 @@ packet_map: review/chunk_032/composite_page_structure_v1.tsv
 anchor_index: review/chunk_032/ocr_anchor_index_v1.tsv
 core_theme_hits: review/chunk_032/core_theme_hits_v1.md
 review_summary: review/chunk_032/review_summary_v1.md
-priority_when_scans_arrive: resolve_66_baseline_empty; visually_verify_A4; identify_p0233_committee; test_p0175_A7_documentary_relation
+active_priority: NONE
+closure_status: FROZEN_NONBLOCKING_SOURCE_IMAGE_DEBT
+reopen_condition: source scans become available and a source-level verification need is defined
+canonical_repo_state: ../../FINAL_CLOSURE_2026-08-30.md
