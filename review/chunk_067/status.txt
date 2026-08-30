@@ -5,16 +5,22 @@ scan_access: COMPLETE_LOCAL_SCAN_SET_VISIBLE
 scan_terminal_boundary_visible: YES
 scan_total_pages: 223
 scan_spans_available: p0001-p0223
-reviewed_scan_spans: p0001-p0160
-reviewed_scan_pages: 160
-remaining_visual_spans: p0161-p0223
+forward_visual_classification_spans: p0001-p0160
+forward_visual_classification_pages: 160
+backwards_original_pdf_comparison_spans: p0161-p0223
+backwards_original_pdf_comparison_pages: 63
+whole_source_span_inspected: YES
+remaining_source_image_spans: NONE
 page_level_visual_manifests: review/chunk_067/page_visual_run_manifest_p0001-p0040_v1.tsv;review/chunk_067/page_visual_run_manifest_p0041-p0080_v1.tsv;review/chunk_067/page_visual_run_manifest_p0081-p0120_v1.tsv;review/chunk_067/page_visual_run_manifest_p0121-p0160_v1.tsv
-page_level_visual_coverage: 160/223
-whole_chunk_page_level_visual_complete: NO
-page_level_ocr_usability_manifest: COMPLETE_FOR_P0001_P0160
+backwards_verification_log: review/chunk_067/pdf_verification_log_v1.tsv
+backwards_round: review/ROUND_BACKWARDS_003_PDF_CORRECTION.md
+additional_targeted_recheck: review/ROUND_BACKWARDS_004_PDF_CORRECTION.md
 ocr_string_semantic_proofread_all_nonblank_pages: NO
-current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=109;blank_no_substantive_visual=30;short_text_or_nontext=3;usable_with_noise_visual=18
+strict_reproofread_v2_credit: 0/223
+strict_reproofread_v2_status: FROZEN_NONBLOCKING_SEPARATE_EDITORIAL_SCOPE
+forward_visual_class_counts_p0001_p0160: high_noise_layout_risk=109;blank_no_substantive_visual=30;short_text_or_nontext=3;usable_with_noise_visual=18
 retrieval_stronger_packets: p0056-p0057;p0070-p0074;p0078;p0131-p0134;p0141-p0143;p0150-p0152
 layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;title_owner_series_cards;large_printed_excerpts;newspaper_clippings;image_or_advertising_ephemera;nonlinear_reading_order
-priority: review p0161-p0223 to close the chunk
-note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
+active_priority: NONE
+closure_note: full 223-page source span has been inspected across forward visual calibration plus Backwards Batch 003; tail source comparison does not equal diplomatic transcription and does not carry strict V2 credit
+canonical_repo_state: ../../FINAL_CLOSURE_2026-08-30.md
