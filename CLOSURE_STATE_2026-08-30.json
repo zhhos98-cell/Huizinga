@@ -1,0 +1,74 @@
+{
+  "repository": "zhhos98-cell/Huizinga",
+  "date": "2026-08-30",
+  "status": "CLOSED_AT_RETRIEVAL_GRADE_WITH_BOUNDED_SOURCE_IMAGE_DEBT",
+  "research_discovery": "CLOSED",
+  "retrieval_grade_programme": "CLOSED_AT_AVAILABLE_SOURCE_BOUNDARY",
+  "core_theme_index": "FROZEN",
+  "generic_expansion": "STOP",
+  "active_user_actions": [],
+  "raw_ocr_policy": "PRESERVE_UNCHANGED",
+  "manual_corrections": "PRESERVE_IN_CORRECTED_DERIVATIVES_AND_LEDGER_FILES",
+  "strict_reproofread_v2": {
+    "status": "FROZEN_NOT_RUN_SEPARATE_PUBLICATION_GRADE_SCOPE",
+    "strict_verified_pages": {
+      "chunk_067": 0,
+      "chunk_068": 0,
+      "chunk_069": 0,
+      "chunk_070": 0,
+      "chunk_071": 0
+    },
+    "guardrail": "zero strict credit is not an active research blocker and must not be represented as completed diplomatic proofreading"
+  },
+  "bounded_source_image_debt": [
+    {
+      "chunk": "chunk_032",
+      "span": "p0001-p0235",
+      "status": "OCR_CALIBRATED_VISUAL_SOURCE_UNAVAILABLE",
+      "note": "235/235 OCR-indexed; 66 baseline-empty pages unresolved until source scans exist"
+    },
+    {
+      "chunk": "chunk_055",
+      "span": "p0121-p0160",
+      "status": "UNSUPPLIED_SOURCE_IMAGE_DEBT"
+    },
+    {
+      "chunk": "chunk_068",
+      "span": "p0001-p0120",
+      "status": "UNSUPPLIED_SOURCE_IMAGE_DEBT"
+    },
+    {
+      "chunk": "chunk_070",
+      "span": "p0121-p0160",
+      "status": "UNSUPPLIED_SOURCE_IMAGE_DEBT"
+    },
+    {
+      "chunk": "chunk_071",
+      "span": "p0041-p0186",
+      "status": "UNSUPPLIED_SOURCE_IMAGE_DEBT"
+    }
+  ],
+  "source_checked_tail": {
+    "chunk_060": "250/250 visual source review complete",
+    "chunk_061": "234/234 visual source review complete",
+    "chunk_062": "235/235 visual source review complete",
+    "chunk_063": "233/233 visual source review complete",
+    "chunk_064": "229/229 visual source review complete",
+    "chunk_065": "228/228 visual source review complete",
+    "chunk_066": "226/226 visual source review complete",
+    "chunk_067": "p0001-p0160 forward visual classification + p0161-p0223 original-PDF comparison; whole chunk source-inspected, tail lacks matching visual-class manifest structure",
+    "chunk_069": "214/214 original-PDF comparison complete across Backwards Batches 002-003"
+  },
+  "calibration_benchmark_residual": {
+    "chunk_008_s5105_s5106": "IDENTITY_MISMATCH_PARTIAL / EXTERNAL_SOURCE_MATRIX_INCOMPLETE",
+    "blocking": false
+  },
+  "reopen_only_for": [
+    "exact missing source-image span becomes available and source-level verification is useful",
+    "load-bearing historical claim requires exact scan control",
+    "publication deliberately scopes strict V2 diplomatic proofreading",
+    "new primary source materially contradicts a retained first-order interpretation",
+    "new Huizinga dossier is deliberately scoped as a separate project"
+  ],
+  "canonical_closure": "FINAL_CLOSURE_2026-08-30.md"
+}
