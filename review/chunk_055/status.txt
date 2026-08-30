@@ -18,5 +18,8 @@ ocr_string_semantic_proofread_all_nonblank_pages: NO
 current_visual_class_counts_for_reviewed_span: high_noise_layout_risk=76;blank_no_substantive_visual=36;short_text_or_nontext=13;usable_with_noise_visual=52
 selective_high_resolution_usable_packet: p0028-p0029;p0036-p0037;p0047;p0059-p0061;p0069-p0081;p0083-p0086;p0088-p0089;p0092;p0094;p0097;p0099;p0102-p0120;p0171;p0174
 layout_hazards: dark_mounting_boards;multi_slip_composites;handwriting;small_source_regions;blank_source_cards;envelopes;official_documents;faint_text;nonlinear_reading_order
-priority: obtain/review p0121-p0160 to close the chunk
+active_priority: NONE
+closure_status: FROZEN_NONBLOCKING_SOURCE_IMAGE_DEBT
+reopen_condition: p0121-p0160 becomes available and a source-level verification need is defined
+canonical_repo_state: ../../FINAL_CLOSURE_2026-08-30.md
 note: Raw OCR is preserved; OCR strings were not exhaustively proofread page by page.
