@@ -1,6 +1,6 @@
 chunk	total_pages	strict_verified_pages	last_strict_verified	status	note
-chunk_067	223	0	-	NOT_STARTED	v2 reset; legacy v1 span rows carry no strict credit
-chunk_068	200	0	-	NOT_STARTED	v2 reset; legacy v1 span rows carry no strict credit
-chunk_069	214	0	-	NOT_STARTED	v2 reset; previous 214-row v1 log was span-generated, not proof
-chunk_070	186	0	-	NOT_STARTED	v2 reset; legacy v1 span rows carry no strict credit
-chunk_071	186	0	-	NOT_STARTED	v2 reset; begin re-proofreading from p0001
+chunk_067	223	0	-	FROZEN_NONBLOCKING	v2 not run; legacy/source-PDF review carries no strict credit; separate publication-grade editorial scope
+chunk_068	200	0	-	FROZEN_NONBLOCKING	v2 not run; source-image gap p0001-p0120 remains bounded debt; separate publication-grade editorial scope
+chunk_069	214	0	-	FROZEN_NONBLOCKING	v2 not run; complete legacy source-PDF comparison is not strict diplomatic proof; separate publication-grade editorial scope
+chunk_070	186	0	-	FROZEN_NONBLOCKING	v2 not run; source-image gap p0121-p0160 remains bounded debt; separate publication-grade editorial scope
+chunk_071	186	0	-	FROZEN_NONBLOCKING	v2 not run; source-image gap p0041-p0186 remains bounded debt; separate publication-grade editorial scope
