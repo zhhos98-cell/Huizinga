@@ -133,6 +133,30 @@ Open Archieven independently resolves the dossier identifier as **DS 5647**. The
 - The 1926/1927 dating of *Sex and Repression* does not by itself establish an advance-state issue.
 - Generic Nationaal Archief viewer controls do not prove an item is digitized; verify an item-specific METS/scan object.
 
+## 13. KVK / KVB catalogue-discovery route
+
+The Karlsruhe Virtual Catalog (KVK) is useful here as a **metacatalogue radar** rather than as an evidential endpoint: the Saint Lucas catalogues may be inconsistently catalogued by title, catalogue number, issuer, or bookseller name across national and union catalogues. Searches should therefore vary the access point (`Saint Lucas Society`, `St. Lucas Society`, `C.J.J.G. Vosmaer`, `Rapenburg 83`, `Wetenschappelijke adversaria`, `Catalogue 3`) rather than rely on the subtitle alone.
+
+The strongest repository prior is now the KVB / former Bibliotheek van het Boekenvak at the Allard Pierson. Heijbroek's 2019 postscript reports that **Catalogue I of the Saint Lucas Society was found in the library of the Vereniging met de Lange Naam (now KVB) in the University Library Amsterdam**, and that this copy was manually annotated `’s-Gravenhage (1938)`. This proves that at least one Saint Lucas catalogue survived in that specific book-trade collection and that its copy can preserve unique handwritten metadata.
+
+Allard Pierson currently describes the KVB/book-trade holdings as including a dedicated **collection of antiquarian booksellers' and auction catalogues**. An older KVB collection description estimates approximately **150,000 antiquarian, publisher and auction catalogues**. The number is historical and should not be treated as a current audited count, but it confirms the intended collecting scope.
+
+A concrete UvA Erfgoed object demonstrates the digital infrastructure for this collection: a KVB copy of Van Stockum's *Boekveilingcatalogus, 25 mei 1936* is digitized as **UBM: KVB NV 4337**, with a persistent handle and downloadable METS/IIIF/full-work images. Therefore a digitized Saint Lucas catalogue, if present in the legacy UvA/KVB corpus, could plausibly surface through the old UvA Erfgoed viewer even when the current Allard Pierson catalogue search is unhelpful.
+
+Sources:
+- Heijbroek postscript identifying Saint Lucas Catalogue I at KVB/UB Amsterdam: https://www.bibliotheek.universiteitleiden.nl/binaries/content/assets/ul2ub/bijzondere-collecties/de-boekenwereld/de-boekenwereld-35_4-2019compressed.pdf
+- Allard Pierson, Book trade collections: https://www.allardpierson.nl/en/book-trade
+- UvA Erfgoed, digitized KVB Van Stockum catalogue, shelfmark KVB NV 4337: https://uvaerfgoed.nl/viewer/image/11245_3_25589/
+
+### Operational implication
+
+For Catalogue 3, prioritize **series/issuer discovery** over exact-title search. The best sequence is:
+
+1. KVK / union catalogues: issuer and bookseller-name variants.
+2. KVB / Allard Pierson catalogue and legacy UvA Erfgoed corpus.
+3. If Catalogue 3 remains invisible, ask the KVB curator specifically for adjacent Saint Lucas catalogue shelfmarks around the Catalogue I record rather than asking only for `Wetenschappelijke adversaria` by title.
+4. Prefer an annotated or accessioned KVB copy because handwritten date/place/provenance marks may be bibliographically decisive.
+
 ## Running conclusion
 
-The direct chain remains **Malinowski -> Huizinga (certain by 12 Dec. 1926) -> C.J.J.G. Vosmaer / family / other post-1945 disposition -> unknown**. The strongest new documentary target is no longer the inherited *Bibliotheca Vosmaeriana* catalogue or its 1986 sale, but **Nationaal Archief 2.21.271 inv. 836**, the 1947+n.d. file explicitly documenting C.J.J.G. Vosmaer's work as director of the Saint Lucas Society. Combined with the postwar Catalogue 3 advertisement and the material fingerprint of C.J.J.G.'s ex libris/ink numbering, this gives a substantially cleaner route to the three missing Malinowski copies.
+The direct chain remains **Malinowski -> Huizinga (certain by 12 Dec. 1926) -> C.J.J.G. Vosmaer / family / other post-1945 disposition -> unknown**. The strongest documentary target remains **Nationaal Archief 2.21.271 inv. 836**, the 1947+n.d. file explicitly documenting C.J.J.G. Vosmaer's work as director of the Saint Lucas Society. For Catalogue 3, the discovery strategy is now sharper: use KVK as a multi-catalogue radar, but treat the KVB/Allard Pierson book-trade collection as the highest-probability repository because Saint Lucas Catalogue I is already known there and KVB catalogues can preserve handwritten annotations and digitized METS/IIIF surrogates.
