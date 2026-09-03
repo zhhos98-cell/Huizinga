@@ -68,21 +68,49 @@ For a recovered physical copy, the following marks would be especially probative
 
 ## 6. Immediate search queue
 
-1. Verify whether a surviving copy of the postwar Saint Lucas Society/Vosmaer Catalogue no. 3, *Wetenschappelijke adversaria*, is held anywhere, and obtain its exact call number/location.
-2. Search that catalogue for Malinowski, *Argonauts*, *Crime and Custom*, and *Sex and Repression*.
-3. Recheck current Leiden HUIZIN catalogue records beyond the older public PDF; the absence of Malinowski from the older recovered-books list is only a date-bounded negative.
-4. Investigate Koninklijke Bibliotheek accession/donation documentation for the Huizinga family gift(s), where older descriptions may preserve provenance not exposed in public catalogue fields.
-5. Inspect the Yale Malinowski Papers, Huizinga correspondence file (reported as 1926–1933), for accompanying notes, presentation language, or dispatch details around December 1926.
-6. Search antiquarian-auction databases for the three titles using combinations of `Huizinga`, `Vosmaer`, `ex libris`, `inscribed`, `presentation copy`, and Dutch provenance vocabulary (`opdracht`, `exemplaar`, `uit bibliotheek`).
+1. Inspect Nationaal Archief, Collectie 548 Vosmaer, inv. 999: the five-volume standcatalogus/systematic catalogue of the *Bibliotheca Vosmaeriana*. Search Malinowski, Huizinga, the three titles, and any accession/ownership notation that could postdate 1945.
+2. Verify whether a surviving copy of the postwar Saint Lucas Society/Vosmaer Catalogue no. 3, *Wetenschappelijke adversaria*, is held anywhere, and obtain its exact call number/location.
+3. Search that catalogue for Malinowski, *Argonauts*, *Crime and Custom*, and *Sex and Repression*.
+4. Identify the unnamed Hague auction house whose late-1986 catalogue Boudewijn Büch says contained books/manuscripts from Carel Vosmaer's collection with weak provenance descriptions.
+5. Recheck current Leiden HUIZIN catalogue records beyond the older public PDF; the absence of Malinowski from the older recovered-books list is only a date-bounded negative.
+6. Investigate Koninklijke Bibliotheek accession/donation documentation for the Huizinga family gift(s), where older descriptions may preserve provenance not exposed in public catalogue fields.
+7. Inspect the Yale Malinowski Papers, Huizinga correspondence file (reported as 1926–1933), for accompanying notes, presentation language, or dispatch details around December 1926.
+8. Search antiquarian-auction databases for the three titles using combinations of `Huizinga`, `Vosmaer`, `ex libris`, `inscribed`, `presentation copy`, and Dutch provenance vocabulary (`opdracht`, `exemplaar`, `uit bibliotheek`).
 
-## 7. Evidential cautions
+## 7. Nationaal Archief: Bibliotheca Vosmaeriana lead
+
+The Nationaal Archief inventory for Collectie 548 Vosmaer (2.21.271) contains a potentially decisive shelf-level source. Under "Zorg voor het archief en de bibliotheek," inv. 999 is described as a **standcatalogus and systematic catalogue of the Bibliotheca Vosmaeriana, compiled by Catalina Suzanna Röell, Carel J.J.G. Vosmaer and others, five volumes**. The same cluster contains inv. 995, an overview of the family archive continued and supplemented by Carel J.J.G. Vosmaer, and inv. 1000, a catalogue of Greek and Latin authors also involving Carel J.J.G. Vosmaer.
+
+This matters because the Huizinga books are known to have passed in large part to C.J.J.G. Vosmaer after 1945. If he retained any of the Malinowski presentation copies long enough to integrate them into his own library rather than selling them immediately, inv. 999 may preserve a shelf location or classified entry even if the physical books were later dispersed. The catalogue is therefore now at least as important as Saint Lucas Society Catalogue 3.
+
+The inventory does **not** itself prove that inv. 999 contains post-1945 acquisitions, nor that Huizinga-origin books were incorporated into the Bibliotheca Vosmaeriana. Physical inspection of the five volumes is required. The online inventory text does not expose their internal entries.
+
+Source:
+- Nationaal Archief, Collectie 548 Vosmaer, 2.21.271, inv. 999: https://www.nationaalarchief.nl/onderzoeken/archief/2.21.271/download/pdf
+
+## 8. 1986 estate-disposal model
+
+The evidence now points to a multi-channel dispersal after C.J.J.G. Vosmaer's death in 1986 rather than a single auction event. Boudewijn Büch states that in late 1986 he worked through the catalogue of a "sympathetic Hague auction house" whose books and manuscripts turned out to derive from Carel Vosmaer, though the catalogue barely disclosed that provenance. Separately, Rijksmuseum provenance records show a direct 1986 purchase from C.J.J.G. Vosmaer / his estate chain of a group of objects for fl. 13,000. Some Vosmaer-family material also remained with the family beyond 1986.
+
+Working model:
+
+**Vosmaer estate, 1986 -> direct institutional purchase(s) + Hague auction consignment(s) + family retention.**
+
+This means that failure to find the three Malinowski titles in one 1986 auction catalogue would not close the case.
+
+Sources:
+- Boudewijn Büch, "Bibliopolis 3," *Maatstaf* 35 (1987), on the late-1986 Hague auction catalogue: https://www.dbnl.org/tekst/_maa003198701_01/_maa003198701_01_0044.php
+- Rijksmuseum object provenances recording direct 1986 acquisition from C.J.J.G. Vosmaer / estate chain, e.g. RP-T-1986 group.
+
+## 9. Evidential cautions
 
 - A Vosmaer bookplate is a provenance lead, not by itself proof of Huizinga ownership.
 - The postwar Catalogue 3 advertisement is highly suggestive but must be read against the catalogue itself before assigning the three Malinowski copies to it.
 - The public Leiden recovered-books PDF is an older snapshot; a title's absence from it is not evidence that it has never subsequently been recovered.
 - The 1926/1927 dating of *Sex and Repression* is valuable but does not by itself establish an advance-state issue without physical bibliographical evidence.
 - Do not currently cite Allard Pierson/KVB as the confirmed holding place of Catalogue 3; that remains an active search hypothesis.
+- Do not yet assume that the Bibliotheca Vosmaeriana catalogue includes Saint Lucas Society trading stock or post-1945 Huizinga acquisitions; this is the central question to test by archival inspection.
 
 ## Running conclusion
 
-Three Malinowski books are securely documented in Huizinga's possession by December 1926, and the letter proves immediate intended reading. Huizinga's library was later dispersed, with the majority passing through C.J.J.G. Vosmaer and then the antiquarian market. Vosmaer's postwar Catalogue 3 is securely attested and explicitly advertised Huizinga-associated books with letters/dedications, making it a high-value provenance bottleneck. The next decisive step is to locate a surviving copy of that catalogue and inspect its entries rather than infer its contents from the advertisement alone.
+Three Malinowski books are securely documented in Huizinga's possession by December 1926, and the letter proves immediate intended reading. Huizinga's library was later dispersed, with the majority passing through C.J.J.G. Vosmaer and then the antiquarian market. The investigation now has two unusually concrete documentary bottlenecks: the postwar Saint Lucas Society Catalogue 3, explicitly advertising Huizinga-associated books with letters/dedications, and Nationaal Archief inv. 999, the five-volume catalogue of the *Bibliotheca Vosmaeriana*. The latter may be the fastest route to determining whether any Huizinga-origin Malinowski volumes were retained by Vosmaer before the 1986 estate dispersal.
