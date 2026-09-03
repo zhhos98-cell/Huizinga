@@ -43,11 +43,14 @@ Source:
 
 ## 4. Vosmaer Catalogue 3 lead
 
-A high-priority lead is the postwar catalogue of the Saint Lucas Society / C.J.J.G. Vosmaer, catalogue no. 3, titled *Wetenschappelijke adversaria*. A contemporary/retrospectively quoted advertisement reportedly emphasizes books associated with the late Prof. Huizinga, including copies with letters and dedications. This wording needs inspection in the catalogue itself before deciding exactly whether it means books inscribed to Huizinga, books containing letters from him, or a broader Huizinga-associated group.
+J.F. Heijbroek's 2018 article on the Saint Lucas Society establishes the catalogue sequence more precisely. The wartime catalogue intended as no. 3 disappeared before printing because the type metal was taken during the occupation; only after the war did a new catalogue no. 3 appear. Heijbroek further notes that around 1948 Vosmaer founded *Bibliopolis*, where he mentioned his Catalogue 3, *Wetenschappelijke adversaria*, and characterized it as: "An international collection with many important works. We note several books with letters and dedications of the late Prof. Huizinga."
 
-The likely archival route is the historical Dutch book-trade collection now administered by the Allard Pierson. Allard Pierson confirms that its holdings include extensive archives and special collections searchable through CataloguePlus and ArchivesSpace. Locating the exact surviving copy and call number of *Wetenschappelijke adversaria* is now the main catalogue-level task.
+This is a strong Huizinga-library dispersal lead, but its grammar must remain open until the catalogue itself is inspected: "letters and dedications of the late Prof. Huizinga" could refer to letters/dedications by Huizinga, material addressed to him, or a mixed Huizinga-associated group. It is therefore not yet evidence that the three Malinowski presentation copies were in Catalogue 3.
 
-Source for present institutional search route:
+Crucial correction to the working route: Heijbroek's article confirms the existence and advertising of the postwar no. 3, but does **not** identify a present holding institution or call number for that catalogue. The Allard Pierson / former Bibliotheek van het Boekenvak remains a plausible repository to search because it holds extensive historical book-trade documentation, but the survival/location of this specific Catalogue 3 must be independently verified.
+
+Sources:
+- J.F. Heijbroek, "De Saint Lucas Society," *De Boekenwereld* 34.4 (2018), esp. pp. 44–48: https://www.bibliotheek.universiteitleiden.nl/binaries/content/assets/ul2ub/bijzondere-collecties/de-boekenwereld/de-boekenwereld-34_4-2018.pdf
 - Allard Pierson, "Researching the collections": https://www.allardpierson.nl/en/researching-the-collections
 
 ## 5. Current provenance model
@@ -65,7 +68,7 @@ For a recovered physical copy, the following marks would be especially probative
 
 ## 6. Immediate search queue
 
-1. Locate a surviving copy and call number for Saint Lucas Society/Vosmaer catalogue no. 3, *Wetenschappelijke adversaria*, preferably in Allard Pierson/KVB historical book-trade holdings.
+1. Verify whether a surviving copy of the postwar Saint Lucas Society/Vosmaer Catalogue no. 3, *Wetenschappelijke adversaria*, is held anywhere, and obtain its exact call number/location.
 2. Search that catalogue for Malinowski, *Argonauts*, *Crime and Custom*, and *Sex and Repression*.
 3. Recheck current Leiden HUIZIN catalogue records beyond the older public PDF; the absence of Malinowski from the older recovered-books list is only a date-bounded negative.
 4. Investigate Koninklijke Bibliotheek accession/donation documentation for the Huizinga family gift(s), where older descriptions may preserve provenance not exposed in public catalogue fields.
@@ -75,10 +78,11 @@ For a recovered physical copy, the following marks would be especially probative
 ## 7. Evidential cautions
 
 - A Vosmaer bookplate is a provenance lead, not by itself proof of Huizinga ownership.
-- The postwar Catalogue 3 advertisement is highly suggestive but must be read in the original catalogue before assigning the three Malinowski copies to it.
+- The postwar Catalogue 3 advertisement is highly suggestive but must be read against the catalogue itself before assigning the three Malinowski copies to it.
 - The public Leiden recovered-books PDF is an older snapshot; a title's absence from it is not evidence that it has never subsequently been recovered.
 - The 1926/1927 dating of *Sex and Repression* is valuable but does not by itself establish an advance-state issue without physical bibliographical evidence.
+- Do not currently cite Allard Pierson/KVB as the confirmed holding place of Catalogue 3; that remains an active search hypothesis.
 
 ## Running conclusion
 
-Three Malinowski books are securely documented in Huizinga's possession by December 1926, and the letter proves immediate intended reading. Huizinga's library was later dispersed, with the majority passing through C.J.J.G. Vosmaer and then the antiquarian market. The best current route to the lost Malinowski copies is therefore not a generic library-title search but a provenance reconstruction centred on Vosmaer/Saint Lucas Society records, supplemented by Leiden HUIZIN reacquisition data, family-donation accession files, and the Malinowski correspondence originals.
+Three Malinowski books are securely documented in Huizinga's possession by December 1926, and the letter proves immediate intended reading. Huizinga's library was later dispersed, with the majority passing through C.J.J.G. Vosmaer and then the antiquarian market. Vosmaer's postwar Catalogue 3 is securely attested and explicitly advertised Huizinga-associated books with letters/dedications, making it a high-value provenance bottleneck. The next decisive step is to locate a surviving copy of that catalogue and inspect its entries rather than infer its contents from the advertisement alone.
