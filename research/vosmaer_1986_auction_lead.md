@@ -17,6 +17,18 @@ Sources:
 - *Van Gogh Museum Journal* 1996, article on Carel Vosmaer / Alma-Tadema, note stating the final Bibliotheca Vosmaeriana sale at Van Stockum, 3–5 Dec. 1986: https://www.dbnl.org/tekst/_van012199601_01/_van012199601_01.pdf
 - *De Boekenwereld* 3 (1986–1987), auction agenda listing Van Stockum, 's-Gravenhage, 3–5 Dec. 1986: https://www.dbnl.org/tekst/_boe022198601_01/_boe022198601_01_0021.php
 
+## Physical survival lead for Van Stockum catalogues
+
+Google-indexed antiquarian listings now establish that Van Stockum's 1980s auction catalogues continue to circulate as physical objects. Celler Versandantiquariat currently lists a group described as **"28 Buch-Auktions-Kataloge aus 1984-1994"**, Van Stockum, Den Haag, self-published, approximately 85 pages per catalogue with illustrations; the description notes that some may contain marginalia. The seller's inventory number is **1p4944**. The lot is bundled with twelve Bubb Kuyper catalogues.
+
+This does **not** yet prove that the 3–5 December 1986 catalogue is one of the 28 volumes, because the listing does not enumerate every date. But a 28-volume run spanning 1984–1994 makes it a concrete physical-survival target worth checking, especially because marginal annotations could be provenance-bearing.
+
+A separate seller, Literary Cat Books, currently lists multiple individual Van Stockum auction catalogues from the same period, including the **11–13 June 1986** *Auction Sale of Books and Manuscripts*. This independently confirms that individual 1986 Van Stockum catalogues survive and are traded, even though the December target has not yet surfaced as a separately indexed listing.
+
+Sources:
+- Celler Versandantiquariat / ZVAB, seller inventory `1p4944`, *28 Buch-Auktions-Kataloge aus 1984-1994*.
+- Literary Cat Books / AbeBooks, Van Stockum publisher listings, including 11–13 June 1986.
+
 ## Multi-channel 1986 dispersal
 
 The 1986 disposal was not a single auction event. Rijksmuseum provenance records show direct acquisition in 1986 from C.J.J.G. Vosmaer / the estate chain of a group of drawings and related objects for fl. 13,000. Other family material remained in family hands and surfaced later. The correct model is therefore:
@@ -35,12 +47,13 @@ Source:
 The Malinowski provenance chase should now prioritize:
 
 1. Locate the **Van Stockum auction catalogue, 3–5 December 1986, The Hague**.
-2. Examine every book/manuscript lot from the Vosmaer consignment, including lots with no explicit Vosmaer/Huizinga provenance.
-3. Search the catalogue for `Malinowski`, `Argonauts`, `Crime and Custom`, `Sex and Repression`, plus generic anthropology/ethnology group lots.
-4. Cross-check lot descriptions against Nationaal Archief 2.21.271 inv. 999, the five-volume stand/systematic catalogue of the *Bibliotheca Vosmaeriana*.
-5. Track buyer annotations or priced copies of the Van Stockum catalogue if available; these could provide the first post-1986 owner.
-6. Continue searches across 1986–1989 sale records for the three Malinowski titles, but now treat the December 1986 Van Stockum sale as the central bottleneck.
-7. Attend to provenance marks rather than catalogue wording alone: C.J.J.G. Vosmaer ex libris, Huizinga ownership/annotation marks, Malinowski presentation inscriptions, and inserted letters.
+2. Check whether the Celler `1p4944` 28-volume run contains the target December 1986 catalogue and whether that copy has marginalia, prices, or buyer marks.
+3. Examine every book/manuscript lot from the Vosmaer consignment, including lots with no explicit Vosmaer/Huizinga provenance.
+4. Search the catalogue for `Malinowski`, `Argonauts`, `Crime and Custom`, `Sex and Repression`, plus generic anthropology/ethnology group lots.
+5. Cross-check lot descriptions against Nationaal Archief 2.21.271 inv. 999, the five-volume stand/systematic catalogue of the *Bibliotheca Vosmaeriana*.
+6. Track buyer annotations or priced copies of the Van Stockum catalogue if available; these could provide the first post-1986 owner.
+7. Continue searches across 1986–1989 sale records for the three Malinowski titles, but now treat the December 1986 Van Stockum sale as the central bottleneck.
+8. Attend to provenance marks rather than catalogue wording alone: C.J.J.G. Vosmaer ex libris, Huizinga ownership/annotation marks, Malinowski presentation inscriptions, and inserted letters.
 
 ## Evidential status
 
