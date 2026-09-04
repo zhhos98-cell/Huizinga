@@ -1,0 +1,34 @@
+name: Patch Draft 04 from DBNL fifteenth pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_dbnl_fifteenth_pass_2026_09_04.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against post-fourteenth-pass edits
+        shell: bash
+        run: |
+          current=$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)
+          controlled=$(git show 06015e78cb9cbab6029218eb1f47623aac66fce3:writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md | git hash-object --stdin)
+          test "$current" = "$controlled"
+      - name: Apply source-locked wording calibration
+        run: python scripts/patch_draft04_dbnl_fifteenth_pass_2026_09_04.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Calibrate 1930 play and primitive as same argument'
+          git pull --rebase origin main
+          git push origin main
