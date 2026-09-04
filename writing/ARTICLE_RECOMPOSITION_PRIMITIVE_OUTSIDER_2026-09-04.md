@@ -15,6 +15,26 @@ Every paragraph should contain its own counter-test. A paragraph should not simp
 
 This applies to every major paragraph.
 
+## Governing historical metaphor: the waning of `primitive`
+
+The article's deepest movement is now **the waning of `primitive`**, using `waning` in Huizinga's own sense rather than as shorthand for disappearance, simple decline, or lexical obsolescence.
+
+In *Herfsttij der Middeleeuwen*, Huizinga's historical object is an old cultural form at full maturity: overripe, highly articulated, still powerful and visible, yet increasingly stiffened, overgrown, and less able to contain the living core it once organized. His own preface makes the point through `overripe fruit`, the overgrowth of old compelling forms, and the simultaneous withering / stiffening of a rich civilization. He also warned against letting the shadow of death fall too heavily over the object. `Waning` must therefore retain coexistence: persistence + overdevelopment + loss of former sufficiency + recomposition.
+
+Apply this structurally, not metaphorically, to `primitive`.
+
+`Primitive` does **not** simply disappear between Huizinga and Malinowski. It remains in titles, letters, teaching, institutional proposals, and comparative language. What wanes is its former capacity to act as a self-sufficient inferential form. It becomes less able by itself to settle chronology, mentality, law, exchange, civilizational position, historical analogy, or disciplinary jurisdiction. More relations, evidence, and qualifications have to stand between the label and the conclusion.
+
+Thus:
+
+`WANING OF PRIMITIVE != DEATH OF THE WORD`
+
+Better:
+
+`FORM PERSISTS + INFERENTIAL SUFFICIENCY WANES + NEW RELATIONS GROW THROUGH / AROUND IT`.
+
+This is also why 1933 should remain incomplete. Huizinga is moving toward comparison through named practices — gift, rivalry, prestige, ceremony, play — while `primitive` remains available. Do not turn this into a teleology toward *Homo Ludens*.
+
 ## Opening strategy
 
 The introduction must not explain the article in advance.
@@ -59,6 +79,61 @@ Outsiderhood therefore has to be read as both:
 
 This is the key relation to prove across the article.
 
+## Retrospective method genealogies: embed, do not section
+
+Do **not** create a separate section on `method origins`. Recover each scholar's training, self-description, and later recollection only where a scene makes it useful. These are retrospective flashes, normally one or two sentences, and each must itself be counter-tested.
+
+### Huizinga
+
+Primary retrospective source: Johan Huizinga, *Mijn weg tot de historie*.
+
+Useful actor-made genealogy:
+
+- he remembered himself before historical professionalization as a `linguist and Sanskritist`;
+- Sanskrit study under J. S. Speyer led to the *Jātakamālā*, Indian religion/mysticism, and reading of the Upanishads;
+- he had wanted comparative linguistics and studied in the Leipzig `Junggrammatiker` environment;
+- he later described the move into a history chair as a `salto mortale` after years in `the East and linguistics`;
+- his later historical practice did not erase those earlier philological habits of comparison, semantic discrimination, textual relation, and layered reconstruction.
+
+Primary text: DBNL, `Mijn weg tot de historie`: https://www.dbnl.org/tekst/huiz003verz02_01/huiz003verz02_01_0003.php
+
+Use this backward-looking genealogy sparingly. It should block the idea that Malinowski supplied Huizinga with comparison, ethnological interest, or the category `primitive` from scratch. It should not become a prehistory chapter.
+
+Counter-test: Huizinga himself admits that when he first taught history he was not a well-trained historian and initially cared little about `critical groundedness`, preferring the vivid living story. His mature historical criticality therefore should not be projected intact back into the 1890s. The method genealogy is one of retention and recomposition, not an origin essence.
+
+### Malinowski
+
+Primary retrospective source: the dedication / opening of the 1925 Frazer Lecture, later printed with *Myth in Primitive Psychology*.
+
+Useful actor-made genealogy:
+
+- Malinowski remembered himself as interrupted in physical / chemical research by illness;
+- reading Frazer's *Golden Bough* produced a deliberately dramatic conversion story in which anthropology appeared as a science worthy of devotion beside the older exact sciences;
+- the self-description explicitly says he became `bound to the service of Frazerian anthropology`.
+
+Counter-test from biographical / intellectual-history work:
+
+- the story is a retrospective charter myth, not a transparent origin report;
+- his Cracow doctorate was philosophical and centrally engaged Ernst Mach;
+- Leipzig brought Wundt and other Central European intellectual formations into the background;
+- LSE training and fieldwork later transformed the evidentiary form of anthropology without eliminating Frazerian vocabulary or the category `primitive`.
+
+Useful secondary control: the 1993 *Early Writings of Bronislaw Malinowski* collection identifies late nineteenth-century Central European philosophy, especially Mach, Nietzsche, and Frazer, as important to the pre-fieldwork formation.
+
+The point is not to replace Frazer with Mach as the `real origin`. It is to show that Malinowski's own genealogy was already selective and retrospective. His mature method emerged by retaining and reworking earlier forms.
+
+### Structural use
+
+These two genealogies should echo the article's `waning` structure.
+
+Huizinga did not cease to be a Sanskritist / linguist in the sense of losing those habits when he became a historian. Malinowski did not simply cease to be Frazerian when he built fieldwork and functional analysis. Older forms persisted while their explanatory and evidentiary relations were reorganized.
+
+Thus the scholars' own careers supply a micro-model for the larger argument:
+
+`OLD FORM PERSISTS -> NEW WARRANTS GROW AROUND IT -> FORMER SUFFICIENCY WANES`.
+
+Do not state this formula every time. Let the retrospective flashes make it felt.
+
 ## Four-scene architecture
 
 The article should move through four scenes rather than four abstract methods.
@@ -75,10 +150,12 @@ Function of the scene:
 
 Do not turn Wells, Spengler, Bloch, or Utrecht into separate mini-sections. Wells/Spengler can be compressed to a sentence showing that Huizinga already resisted sequence or morphology when either claimed to settle historical meaning in advance. Bloch, if retained, should appear only as brief evidence that ritual efficacy was already a legitimate historical problem for Huizinga.
 
+A brief retrospective flash from *Mijn weg tot de historie* can be inserted here or at the first point where Huizinga's prior comparative habits matter: he later remembered arriving at history by a `salto mortale` from Sanskrit, linguistics, and `the East`. This should take no more than one or two sentences.
+
 The scene's counter-test:
 
 - plausible reading: America / Malinowski introduced Huizinga to a new anthropology and new comparative categories;
-- counter-evidence: Huizinga arrived with morphology, `primitive`, and anti-evolutionary historical criticism already in place;
+- counter-evidence: Huizinga arrived with morphology, `primitive`, philological comparison, and anti-evolutionary historical criticism already in place;
 - narrower claim: America altered the scale, interlocutors, and institutional setting in which those existing practices were tested.
 
 `Primitive` is not yet fully defined here. It enters a new circulation network.
@@ -90,6 +167,8 @@ Scene anchors: Trekvaart conversation; the three books and the calf joke; `funct
 This is the core scene of mutual calibration.
 
 Malinowski's ethnography made labels such as `primitive law` less able to explain by themselves. Law had to be unpacked into reciprocity, pressure, kinship, obligation, and practice. Huizinga immediately carried those relational questions back to feudalism, troubadour culture, word efficacy, generosity, honour, and medieval forms.
+
+Here Malinowski's 1925 Frazer self-genealogy can appear as a short backward glance. The irony matters: the man making `primitive` less self-explanatory still publicly described himself as having been `bound to the service of Frazerian anthropology`. Fieldwork and function grow through an inherited comparative vocabulary rather than replacing it wholesale.
 
 But do not write this as one-way influence or disciplinary conversion.
 
@@ -104,15 +183,19 @@ Therefore `mutual shaping` must remain asymmetrical. It means that each became a
 
 ### Scene III — Travel and knowledge production
 
-Scene anchor: movement from travel and encounter into notes, cards, reading, and comparative prose.
+Scene anchor: movement from travel and encounter into notes, cards, reading, memory, and comparative prose.
 
 Use Huizinga's surviving American materials as a workbench rather than as generic background: Turner, Helen Hunt Jackson, James Mooney, Ghost Dance, treaties, reservations, Indian Territory, and the transition from card montage to comparative writing.
 
 Operational chain:
 
-`travel -> encounter -> note/card -> reading -> comparison -> cultural diagnosis`.
+`travel -> encounter -> note/card or memory -> reading -> comparison -> cultural diagnosis`.
 
-This scene explains why `primitive` could circulate between the two scholars at all: distant living societies were being made portable through travel, fieldwork, books, reports, collections, cards, and comparative prose.
+A primary retrospective control is now available for **Hong Kong**. In *Mijn weg tot de historie*, Huizinga explicitly contrasts the two journeys: for the 1926 United States trip he made day-to-day notes (though he refused to call them a diary); for the winter 1930/31 journey to **Java, Bali and Hong Kong**, an injury to his right eye meant that he had to rely entirely on memory.
+
+This changes the previous Hong Kong rule. Hong Kong no longer needs to be excluded merely because the repository OCR hits are contamination. The autobiography supplies a genuine primary anchor. Use Hong Kong only where this source matters — as part of the contrast between inscription regimes and the production of travel knowledge — not as a new geographic detour.
+
+This scene explains why `primitive` could circulate between the two scholars at all: distant living societies were being made portable through travel, fieldwork, books, reports, collections, cards, memory, and comparative prose.
 
 Malinowski's fieldwork and Huizinga's travel/reading/card-based historical production are not the same knowledge practice. Their materials could enter comparison while their warrants remained different.
 
@@ -122,9 +205,8 @@ The scene's counter-test:
 
 - plausible reading: mobility and thicker empirical knowledge dissolved old civilizational stages;
 - counter-evidence: the same infrastructures that produced more specific knowledge could also make peoples newly portable within developmental maps;
+- additional counter-evidence: even Huizinga's own journeys entered later knowledge through unequal documentary forms — notes in one case, memory in another;
 - narrower claim: `primitive` became simultaneously more empirically burdened and more operationally mobile.
-
-Hong Kong should not be used unless a real historical source of the same evidentiary level is recovered. Current repository `Hong Kong` hits are OCR / modern contamination and must remain excluded.
 
 ### Scene IV — Institution: the Leiden Centre for Anthropological Research, 1931
 
@@ -200,6 +282,10 @@ Conceptual movement of `primitive`:
 
 `available category -> contested shared vocabulary -> product of mobile knowledge practices -> institutional problem`
 
+Deeper conceptual movement:
+
+`self-sufficient inferential form -> increasingly burdened category -> qualified bridge -> waning jurisdiction`.
+
 Movement of outsiderhood:
 
 `implicit difference -> negotiated intellectual proximity -> asymmetry of warrant -> explicit jurisdictional boundary`
@@ -235,9 +321,25 @@ Each paragraph should contain at least one internal pressure point. Examples:
 - Malinowski made `primitive` harder to use loosely, yet did not abolish the term.
 - Huizinga's materials circulated anthropologically, yet circulation did not confer disciplinary jurisdiction.
 - Malinowski praised Huizinga's historical method as anthropological, yet still demanded a proper anthropological principle and leadership for Leiden.
+- Huizinga later remembered a route from Sanskrit / linguistics into history, but that retrospective genealogy must not be projected backward as a finished method.
+- Malinowski publicly narrated a Frazerian conversion, but the conversion story itself obscures the layered Mach / Leipzig / LSE formation and the persistence of Frazerian categories in his mature work.
 
 The article should therefore feel argumentative at sentence level rather than explanatory at section level.
+
+## Revision workflow: no more draft proliferation
+
+Do not create another article draft in order to incorporate these refinements.
+
+The canonical prose file remains:
+
+`writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`
+
+Future writing work should **layer directly onto that existing draft** by compression, replacement, and short retrospective insertions. New research may still be logged in research notes when needed for source control, but conceptual revisions should not generate draft_05, draft_06, or parallel synthetic prose files.
+
+The governing memo may be updated as architecture changes. It is not a replacement draft.
 
 ## Final prohibition
 
 Do not let `primitive` become merely a history of a word, and do not let `benevolent outsider` become merely a professional-identity anecdote. Their historical relation is the article.
+
+Do not let `waning` become a decorative metaphor. It must describe the historical redistribution of explanatory work while the old form remains visibly alive.
