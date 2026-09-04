@@ -78,7 +78,39 @@ Article-relevant result: the Laura Spelman Rockefeller Memorial letterhead is no
 
 Other recovered false-empty material is primarily agrarian history, Zeeland/legal reference slips, or fragmentary notes and does not currently alter the article argument.
 
-Required next action: continue with every file in `review/chunk_002`, then sequentially through `review/chunk_071`.
+#### `review/chunk_002` — CLOSED
+
+Directory contains eleven files; all eleven have now been read completely in this pass:
+
+- `README.md`: `READ_FULL`.
+- `alignment_blocker_v1.md`: `READ_FULL`.
+- `composite_page_structure_v1.tsv`: `READ_FULL`.
+- `core_theme_hits_v1.md`: `READ_FULL`.
+- `full_page_visual_empty_signal_manifest_v1.tsv`: `READ_FULL` in two explicit ranges; all 183 page rows inspected.
+- `ocr_anchor_index_v1.tsv`: `READ_FULL`.
+- `review_summary_v1.md`: `READ_FULL`.
+- `review_summary_v2.md`: `READ_FULL`.
+- `scan_availability_v1.tsv`: `READ_FULL`.
+- `status.txt`: `READ_FULL`.
+- `visual_anchor_alignment_v2.tsv`: `READ_FULL`.
+
+Audit state confirmed: contiguous scan coverage p0001–p0183 in three 61-page PDFs; page-level visual and baseline empty/false-empty checks are 183/183 complete. Nonempty OCR strings have **not** all been semantically proofread line by line; scan remains required for exact quotation.
+
+Argument-changing result: the 1930 *Trois esprits prégothiques* material is not a set of isolated lexical hits. The packet begins at p0049 and the priority sequence is scan-verified:
+
+- p0086 (ms p.31): `Cet élément ludique` within an argument about competition/disputation.
+- p0087 (ms p.32): `primitive` in the continuation of that medieval intellectual-history argument.
+- p0090 (ms p.35): Abélard should not be treated simply as a precursor of the Renaissance but `au contraire comme un prégothique`; nearby language characterizes the underlying intellectual apparatus as `primitive`.
+
+Article consequence: the current 1930 lexical paragraph should not rely on polysemy alone. This packet directly supports a stronger operation:
+
+`temporal/intellectual classification -> historical form -> refusal of simple precursor inference`.
+
+Thus `primitive` can locate/characterize an intellectual apparatus while Huizinga separately polices what that location licenses as periodization. This belongs to the warrant argument, not to a word-example catalogue.
+
+No secure Malinowski/anthropology/ethnology occurrence was found in this packet. The immediate context must remain medieval intellectual history.
+
+Required next action: continue sequentially with every file in `review/chunk_003` through `review/chunk_071`.
 
 ## Corpus D — GitHub research / writing / archive / scripts
 
@@ -98,7 +130,7 @@ At least five existing passages currently contain evidence or scholarship that i
 1. Intro final historiography paragraph: Rydin -> Wickberg -> Morgan currently behaves largely as a literature shelf; the final inference about retention/reassignment does more work than the citations leading to it.
 2. End of America section: Biehn + “five years later” is a floating bridge rather than a demonstrated 1926-to-1931 causal relation.
 3. 1926 Malinowski published-self-description paragraph: Frazer conversion, Central European formation, *Crime and Custom*, primitive mentality and Chimisso accumulate side by side; the strongest functional core is the shift of explanatory burden inside *Crime and Custom*.
-4. 1930 lexical paragraph: multiple senses of `primitive/primitief` risk becoming a word-example display unless changing inferential licence is demonstrated.
+4. 1930 lexical paragraph: multiple senses of `primitive/primitief` risk becoming a word-example display unless changing inferential licence is demonstrated. Chunk 002 now supplies a stronger route: classify an intellectual apparatus as primitive while separately rejecting a simple precursor relation.
 5. Travel historiography paragraph: Small/van der Lem and Arnade/Vale form two scholarship clusters that need to alter particular evidentiary claims rather than remain adjacent literature.
 
 These are not yet prose-edit instructions. Full corpus traversal may supply missing historical connections or show that some material belongs in notes rather than body.
