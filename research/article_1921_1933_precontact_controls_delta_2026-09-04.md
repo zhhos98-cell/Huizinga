@@ -2,6 +2,36 @@
 
 _Status: bounded article-facing research delta. This does not reopen generic Huizinga discovery. The purpose is to identify compact controls that strengthen the 1921–1933 Huizinga–Malinowski article without creating new scenes or an influence genealogy._
 
+## Meta-historical controls — *Herfsttij* and *Mijn weg*
+
+These two sources should be treated as **second-order actor evidence**, not as direct descriptions of the article's interwar object.
+
+### *Herfsttij der Middeleeuwen* (1919), first-edition preface
+
+The useful material is Huizinga's reflection on his own historiographical operation, not the descriptive resemblance between late medieval culture and `primitive`.
+
+Three controls matter:
+
+- he opens by criticizing the habit of viewing a period chiefly for the promises it contains for the next period;
+- after writing a book deliberately oriented toward decline, he warns that sustained attention to decline can cast `te veel van de schaduw des doods` over the work;
+- he ends by describing his object as forms of life and thought and asks whether historical inquiry can approach `den wezenlijken inhoud ... die in die vormen heeft gerust`.
+
+Article use: `waning` may be borrowed as a **meta-historical grammar for persistence, form/content, and retrospective bias**, but *Herfsttij* must not be used as evidence that the interwar `primitive` resembles late medieval civilization. The historical claim about `primitive` still has to be proved from its own documentary sequence.
+
+Primary source control: Johan Huizinga, *Herfsttij der Middeleeuwen*, `Voorbericht bij den eersten druk`, Leiden, 31 January 1919; DBNL / *Verzamelde Werken* III: https://www.dbnl.org/tekst/huiz003verz04_01/huiz003verz04_01_0002.php
+
+### *Mijn weg tot de historie* (written 1943; published 1947)
+
+Huizinga's retrospective genealogy supplies a second, stronger control for uneven intellectual persistence.
+
+He recalls that his father first brought him Max Müller's *Biographies of Words and The Home of the Aryans*. Huizinga read and excerpted it and initially treated Müller's position as unquestionable wisdom. Further reading weakened that certainty. He then recalls E. B. Tylor's *Primitive Culture* opening vistas that remained `kiemen van mijn wetenschappelijk denken`, even though Tylor's animist master-thesis had long become obsolete and been abandoned.
+
+This is not evidence that young Huizinga already possessed his mature historical method. It is evidence for how the late Huizinga **historicized his own formation**: a doctrine can lose authority while an intellectual horizon opened by it persists inside a later repertoire. This is a better second-order ground for the article's use of `waning` than the biographical `salto mortale` taken by itself.
+
+The same text still supplies the existing counter-control: Huizinga admits that his early historical teaching preferred vivid narration to critical groundedness, so the retrospective genealogy must not be projected backward as a finished method.
+
+Primary source control: Johan Huizinga, *Mijn weg tot de historie*, written 27 December 1943, published 1947; DBNL / *Verzamelde Werken* I, esp. the early-reading passage around pp. 16–17: https://www.dbnl.org/tekst/huiz003verz02_01/huiz003verz02_01_0003.php
+
 ## 1. Marc Bloch, *Les rois thaumaturges* review (1925): best used as a footnote-level pre-contact contrast
 
 Huizinga reviewed Marc Bloch's *Les rois thaumaturges* in *Tijdschrift voor Rechtsgeschiedenis* VI (1925), pp. 354–356; the review is reprinted in *Verzamelde Werken* IV, pp. 127–129.
@@ -141,6 +171,10 @@ For the present Huizinga–Malinowski article this is **lower priority than the 
 
 The strongest bounded internal chronology is now:
 
+`1919` — *Herfsttij* first-edition preface: warning against precursor/decline bias; form/content problem; `waning` available as meta-historical grammar, not analogy
+
+`1943 retrospective control on the earlier formation` — *Mijn weg*: Max Müller / Tylor sequence; obsolete doctrine can leave a durable intellectual horizon; use only as second-order evidence
+
 `1921` — optional Wells/Spengler control on totalizing world-history architectures
 
 `1925` — Bloch review: ritual / sacred power / persistent belief already legible as historical subject matter; methodological handling remains a point of judgment
@@ -161,9 +195,10 @@ The strongest bounded internal chronology is now:
 
 Do not add another article scene.
 
-Promote only two items into active writing support:
+Promote only evidence that changes an existing sentence or paragraph-level inference. The most useful present controls are:
 
-1. **Bloch 1925** — one footnote-level contrast, primarily defensive/chronological.
-2. **7 Apr 1926 → 1929 → 1931 sequence** — potentially one dense contextual paragraph or a strategically placed note, because it directly sharpens the meaning of `benevolent outsider` as contact-without-reduction rather than modesty or conversion.
-
-Keep the 1930 Dutch-culture dossier as a reserve internal control if a referee asks for evidence that this boundary logic operated outside the explicit Malinowski correspondence.
+1. ***Herfsttij* meta statements** — use to define the borrowing of `waning` and its anti-teleological warning; do not analogize the medieval object to `primitive`.
+2. ***Mijn weg* Müller/Tylor retrospective** — use as second-order evidence for retained intellectual horizons after doctrinal abandonment, not as a claim about a continuous method.
+3. **7 Apr 1926 → 1929 → 1931 sequence** — use to sharpen the meaning of `benevolent outsider` as contact-without-reduction rather than modesty or conversion.
+4. **1930 Dutch-culture dossier** — internal first-order control that legitimate social/ethnographic inputs need not exhaust historical explanation.
+5. **Bloch 1925** — footnote-level contrast only if needed to block an ex nihilo influence claim.
