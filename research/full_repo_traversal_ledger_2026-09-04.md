@@ -41,36 +41,44 @@ Technical rule: no claim that the raw OCR corpus has been fully read will be mad
 ## Directory-tree inventory
 
 - `archive/`: complete recursive tree inventoried. File contents not all reread yet.
-- `corrections/`: 8 files inventoried.
-- `research/`: complete recursive tree inventoried; `research/README.md` read in full; remaining files pending.
-- `review/`: complete recursive tree inventoried, including chunk directories 001–071 and all round/protocol files. Individual-file reread pending except where listed below.
-- `scripts/`: 2 files inventoried; pending.
+- `corrections/`: 8 files inventoried; **8/8 read in full**.
+- `research/`: complete recursive tree inventoried; `research/README.md` and this ledger read; remaining files pending.
+- `review/`: complete recursive tree inventoried, including chunk directories 001–071 and all round/protocol files. Individual-file reread pending except where later recorded.
+- `scripts/`: 2 files inventoried; **2/2 read in full**.
 - `writing/`: 7 files inventoried; pending full reread as a set.
 
 ## Files fully read so far in this traversal
 
-### `corrections/`
+### `corrections/` — COMPLETE 8/8
 
 - `corrections/chunk_002_manual.json` — `READ_FULL`.
 - `corrections/chunk_067_manual.json` — `READ_FULL`.
 - `corrections/chunk_067_manual_round2a.json` — `READ_FULL`.
-- `corrections/chunk_067_manual_round2b.json` — `NOT_YET_READ`.
-- `corrections/chunk_068_manual.json` — `NOT_YET_READ`.
-- `corrections/chunk_069_manual.json` — `NOT_YET_READ`.
-- `corrections/chunk_070_manual.json` — `NOT_YET_READ`.
-- `corrections/chunk_071_manual.json` — `NOT_YET_READ`.
+- `corrections/chunk_067_manual_round2b.json` — `READ_FULL`.
+- `corrections/chunk_068_manual.json` — `READ_FULL`.
+- `corrections/chunk_069_manual.json` — `READ_FULL`.
+- `corrections/chunk_070_manual.json` — `READ_FULL`.
+- `corrections/chunk_071_manual.json` — `READ_FULL`.
+
+### `scripts/` — COMPLETE 2/2
+
+- `scripts/apply_pdf_corrections.py` — `READ_FULL`. It applies page/block correction ledgers, rewrites corrected JSON, and emits an auditable patch table.
+- `scripts/build_pdf_verification_log.py` — `READ_FULL`. Critical limitation: its `pdf_verification_log_v1.tsv` is explicitly a **legacy span manifest, not visual verification**. Strict re-proofreading is tracked separately in `review/STRICT_REPROOFREAD_V2_STATUS.tsv` and requires page-by-page visual inspection.
 
 ### Other
 
 - `research/README.md` — `READ_FULL`.
+- `research/full_repo_traversal_ledger_2026-09-04.md` — working traversal record.
 
 ## Already visible article-relevant implications from the correction layer
 
 These are observations to test against the full corpus, not yet instructions to patch Draft 04:
 
 - Chunk 067 corrections preserve the exact 1933 sequence in which Malinowski’s Kula supplies an ethnological example, Mauss’s potlatch is explicitly called play, and the text moves onward to economic history. This supports a concept-history reconstruction only if `primitive` remains the object whose explanatory work is being redistributed; it does not warrant a parallel autonomous `play` thesis.
-- Chunk 067 also contains `primitieve roulette`, confirming that the lexical family still survives inside the 1933 address. This is potentially important counterevidence against any narrative of lexical disappearance.
+- Chunk 067 contains `primitieve roulette`, confirming that the lexical family still survives inside the 1933 address. This is counterevidence against any narrative of lexical disappearance.
+- Chunk 067 round2b restores Huizinga’s full *Vœu du Faisan* comparison: a chain of Burgundian court banquets passed the turn by a wreath, rose from lower to higher rank, and culminated in Philip the Good surpassing the others in competitive, reciprocal display. This can do more argumentative work than the present one-line “not so very far from a potlatch” summary because it shows exactly which relation Huizinga carried across the comparison.
 - Chunk 002 corrected French material emphasizes transformation/adaptation/reuse of classical tradition and social forms. Its article function, if any, must be demonstrated rather than appended as a thematic parallel.
+- Chunks 068–071 corrections are chiefly OCR/source-control repairs. Chunks 069–070 recover labels such as `Max Weber`, `Menhirs / Grottes / Mégalithes`, `Angst en literatuur`, and `Sociologische Ver...`; these are currently directory/context signals only, not article evidence.
 
 ## Article-function audit to be performed after traversal
 
@@ -89,8 +97,7 @@ No Draft 04 patch should be made from this audit until the relevant source files
 
 ## Next traversal batch
 
-1. Finish the remaining 5/8 `corrections/` files.
-2. Read both `scripts/` files.
-3. Traverse every file under `review/chunk_001` onward, recording exact completion by chunk; do not substitute `CORE_THEME_HITS.md` or `PROGRESS.md` for the underlying derivative files.
-4. Traverse every `research/`, `writing/`, and `archive/` text file.
-5. Resolve the carrier and extent of Huizinga’s collected works; if the repository only stores locators rather than the full corpus, record that and begin a separate volume-by-volume published-work traversal.
+1. Traverse every file under `review/chunk_001` onward, recording exact completion by chunk; do not substitute `CORE_THEME_HITS.md` or `PROGRESS.md` for the underlying derivative files.
+2. Read review-level protocol/status files, especially strict-v2 controls, separately from legacy manifests.
+3. Traverse every `research/`, `writing/`, and `archive/` text file.
+4. Resolve the carrier and extent of Huizinga’s collected works; if the repository only stores locators rather than the full corpus, record that and begin a separate volume-by-volume published-work traversal.
