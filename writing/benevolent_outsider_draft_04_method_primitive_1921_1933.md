@@ -15,6 +15,8 @@ The interwar *primitive* was not fading into obscurity. The emerging human scien
 
 Most accounts stop at the disciplinary edge. They explain how anthropology reworked its own *primitive*; they say less about what happened when its questions entered another historical craft whose sources, comparisons and claims to authority were organized differently. The encounter matters precisely because neither man entered it as a stranger to *primitive*. The term belonged to a wider human-scientific atmosphere, but a shared vocabulary did not make its uses identical. This article follows the category at the scale of situations—book, course, letter, museum memorandum, historical comparison—and asks how Huizinga and Malinowski themselves qualified, redirected or withheld the claims that *primitive* invited.
 
+Recent Huizinga scholarship has also insisted on putting his historical work back inside the pressures of his own present. Rydin (2024) reads that work through interwar rupture and loss; the pair archive extends the historicization into the reorganizing human sciences, where books, foundations, museums and disciplinary projects became sites of choice.
+
 Recent intellectual history has already moved from older models of origins and influence toward reception, circulation and active reuse (Wickberg, 2023); work on the ‘(non-)globalisation’ of ideas has gone further by treating actors’ decisions to appropriate or not appropriate an idea as causal historical action (Morgan, 2025). The present case applies that sensitivity to a disciplinary boundary: a transfer deliberately not completed is part of the exchange, not an evidentiary absence.
 
 ## America, 1926
@@ -31,9 +33,9 @@ That recollection appears in Huizinga’s letter of 12 December 1926. He thanked
 
 Malinowski had just staged his own origin more cleanly. In the dedication to *Myth in Primitive Psychology*, adapted from his 1925 Frazer Lecture, he recalled illness interrupting physical and chemical research, *The Golden Bough*, and becoming ‘bound to the service of Frazerian anthropology’ (Malinowski, 1926b: 5–6). His early writings preserve a broader Central European formation behind that conversion story (Thornton and Skalník, 1993). *Crime and Custom* still named ‘primitive law’, but its account of how rules bound moved through reciprocal services, kin relations, public knowledge and obligations of return (Malinowski, 1926a). His attack on ‘primitive mentality’ worked in a similar way: Trobriand agriculture, navigation and technical knowledge stood against allowing the label to determine the contents of mind in advance (Tilley, 2010). The interwar controversy over ‘primitive mentality’ was also a dispute over disciplinary competence: claims about the universality or transformation of mind were tied to claims about the scientific status of ethnology itself (Chimisso, 2000). Huizinga’s letters carry that jurisdictional problem across a disciplinary boundary: the issue becomes not only who may speak for a ‘primitive mind’, but what an ethnological relation can warrant in historical argument.
 
-Huizinga’s 31 December letter moved from ‘so-called primitive culture’ to vanity, generosity, friendship, words and feudal relations. Elsewhere a working slip called knightly games ‘beleving der Feodaltijd’.[^4] The slip cannot establish Malinowskian influence. It does show the sort of historical form to which a question about social efficacy could attach. Huizinga already had *primitive* and historically effective forms; Malinowski gave him a living case in which the adjective did less than the relations around it.
+Huizinga’s 31 December letter moved from ‘so-called primitive culture’ to vanity, generosity, friendship, words and feudal relations. Elsewhere a working slip called knightly games ‘beleving der Feodaltijd’.[^4] The slip cannot establish Malinowskian influence. It does show the sort of historical form to which a question about social efficacy could attach. Huizinga already had *primitive* and historically effective forms; Malinowski gave him a living case in which the adjective did less than the relations around it.[^17]
 
-On 29 March 1928 *Sex and Repression in Savage Society* gave Huizinga ‘new visions concerning the very origins of culture’, while *Crime and Custom* remained perhaps more useful ‘for historical use’.[^5] In the same letter he resisted one Freudian argument by invoking ‘the immense complexity of the smallest social phenomenon’. He then generalized about Freud and Marx through the antisemitic stereotype of a ‘Talmudic mind’. Complexity and flattening sat on the same page.
+On 29 March 1928 *Sex and Repression in Savage Society* gave Huizinga ‘new visions concerning the very origins of culture’, while *Crime and Custom* remained perhaps more useful ‘for historical use’.[^5] In the same letter he resisted one Freudian argument by invoking ‘the immense complexity of the smallest social phenomenon’. He then generalized about Freud and Marx through the antisemitic stereotype of a ‘Talmudic mind’. Complexity and flattening sat on the same page. The letter also sent Huizinga’s remarks on American culture to Malinowski for judgment.
 
 Malinowski replied on 15 August that Huizinga’s American notes had been ‘a most stimulating event’: ‘we read them aloud’.[^6] On 13 May 1929 Huizinga, for his part, said he felt ‘quite at home in the Trobriands’. Almost in the same breath he described a Delft course running from ‘the stage of savage life’ through old Aryan culture to Rome and its decay.[^7] Thick familiarity and stadial order coexisted. What we do not have is comparable evidence that Huizinga reorganized Malinowski’s anthropology as a theory. That same year Huizinga gave the crossing a more general formulation. ‘The primitive cultures of the whole world’, he wrote, had become components of modern civilization; yet a history adequate to that civilization still had to answer to critically scientific verification (Huizinga, 1929: 156–168). In the same essay he divided the labour more exactly: ethnology and related sciences could define recurrent forms, while cultural history followed their changing operation in historical events; the boundary was crossed from both sides and retained its significance. Cultural history could learn from ‘de praktische sociologie der Amerikanen’ and from Mauss without becoming subordinate labour for sociology (Huizinga, 1929).
 
@@ -41,7 +43,9 @@ Malinowski replied on 15 August that Huizinga’s American notes had been ‘a m
 
 Huizinga’s American archive shows what ‘notes’ meant. Cards on frontier history, Indian policy and the Ghost Dance lead into comparative prose on America and Europe.[^8] In *Mijn weg tot de historie* he contrasted those day-to-day American notes with his 1930–31 journey to Java, Bali and Hong Kong, remembered ‘entirely’ from memory after an injury to his right eye (Huizinga, 1947). The difference did not prevent comparison. Malinowski could revisit living relations; Huizinga moved through notes, memory, cards, reproductions and surviving texts. Both made distant worlds portable, but not under the same checks.
 
-That distinction also bears on Huizinga’s historiography. Recent reassessment has warned against making him an anthropologist *avant la lettre* at the cost of the philological and linguistic formation that continued to shape his historical work (Vale, 2021). The point is less to decide whether Huizinga was ‘anthropological’ than to recover a moment when anthropological questions could alter historical comparison without displacing philological checks. The word *primitive* was portable in a different sense. In *Trois esprits prégothiques* it appears inside twelfth-century intellectual history near *Cet élément ludique*; a few pages later the text refuses a simple Renaissance-precursor reading.[^9] A separate Renaissance packet begins ‘Met dien primitief begrip der Renaissance…’—*primitief* modifying a concept, not a people.[^3] The same lexical form could mark different relations without carrying one anthropology-derived meaning.
+Work on the making of *Herfsttij* has already made Huizinga’s selective source use and material organization objects of historiography (Small, 2019; van der Lem, 2019). The later archive extends that problem across different media: cards and travel memory sit beside photographs, autograph letters and surviving texts, without constituting one unchanged method.
+
+Huizinga scholarship has pulled his relation to anthropology in opposite directions. Arnade (2019) emphasizes anthropological affinities in his treatment of ritual and cultural form; Vale (2021) warns that an *anthropologist avant la lettre* can obscure the philological and linguistic formation that continued to shape his historical work. The correspondence makes the opposition too clean: anthropology was not merely a retrospective resemblance, but direct exchange still did not displace the historian’s philological checks. The word *primitive* was portable in a different sense. In *Trois esprits prégothiques* it appears inside twelfth-century intellectual history near *Cet élément ludique*; a few pages later the text refuses a simple Renaissance-precursor reading.[^9] A separate Renaissance packet begins ‘Met dien primitief begrip der Renaissance…’—*primitief* modifying a concept, not a people.[^3] The same lexical form could mark different relations without carrying one anthropology-derived meaning.
 
 Huizinga’s Burgundian dossier gives the other side of this mobility. Portrait copies and museum photographs are compared; newly recovered autograph letters can correct an earlier historical image.[^10] Working notes from the same period distinguish collecting or establishing historical material from ordering it under a point of view.[^11]
 
@@ -57,7 +61,7 @@ Malinowski replied on 30 July. Van Sickle had already spoken to him about Leiden
 
 Malinowski could still call Huizinga’s historical method the ‘right sort of really anthropological approach’. Yet praise did not supply personnel or a principle. In Leiden, proximity became a question of who could define and lead the field. That is close to what histories of the interwar human sciences have found elsewhere: disputes over an object such as ‘primitive mentality’ could become disputes over which discipline was competent to speak for it (Chimisso, 2000). Leiden made the same problem administrative.
 
-Nor did the boundary stop traffic. On 15 September Huizinga wrote, ‘I am sending you a volume just pubished’. On 4 October Malinowski thanked him for the new *Encyclopaedie der Karaïben*, already in use by a pupil working on the couvade, and carried the Leiden conversation onward toward Paris.[^15]
+Nor did the boundary stop traffic. On 15 September Huizinga wrote, ‘I am sending you a volume just pubished’. On 4 October Malinowski thanked him for the new *Encyclopaedie der Karaïben*, already in use by a pupil working on the couvade. The same letter enclosed a review of Huizinga’s book and said that Malinowski was taking Huizinga’s 12 August institute letter to Paris, where he would raise Leiden with Van Sickle if necessary.[^15]
 
 ## Coda: 1933
 
@@ -99,17 +103,21 @@ Leiden had already given this waning an institutional form. Shared questions cou
 
 [^11]: Huizinga papers, seventeenth-century Dutch-civilization lectures and history/science notes, `review/chunk_020`.
 
-[^12]: Huizinga to Malinowski, 19 July 1931.
+[^12]: Huizinga to Malinowski, 19 July 1931. Two days earlier Van Vollenhoven told Huizinga that the paper had already been shown locally, including to Van Eerde, revised, and proposed for another reading by Snouck Hurgronje; the 19 July letter followed visits to Leiden by Van Sickle and Kittredge. Correspondence items [897]–[898].
 
 [^13]: A. W. Nieuwenhuis, ‘Ethnographical objects as data for psychological research about primitive or semi-cultured races’, annex to Leiden Centre memorandum, July 1931.
 
 [^14]: Malinowski to Huizinga, 30 July 1931.
 
-[^15]: Huizinga to Malinowski, 15 September 1931, Yale inventory; Malinowski to Huizinga, 4 October 1931, correspondence item [910]. The September volume is very probably W. Ahlbrinck, *Encyclopaedie der Karaïben* (1931), but the unpublished letter body remains unchecked.
+[^15]: Huizinga to Malinowski, 15 September 1931, Yale inventory; Malinowski to Huizinga, 4 October 1931, correspondence item [910]. The September volume is very probably W. Ahlbrinck, *Encyclopaedie der Karaïben* (1931), but the unpublished letter body remains unchecked. The 4 October letter also encloses a Bertrand Russell review of Huizinga’s book and records Malinowski carrying Huizinga’s 12 August institute letter to Paris for possible discussion with Van Sickle.
 
 [^16]: Huizinga to Malinowski, 23 May 1933.
 
+[^17]: Pre-contact control: Huizinga had already reviewed Marc Bloch’s *Les rois thaumaturges* in 1925, treating ritual efficacy, sacral kingship and persistent belief as historical problems while criticizing the organization of a large evidentiary corpus (Huizinga, 1925). Greilsammer (2019) places the review within Huizinga’s later, ambivalent relation to French historians. Its function here is chronological: Malinowski changed the direct traffic, examples and jurisdictional problem rather than introducing ritual efficacy as a historical subject from nothing.
+
 ## References
+
+Arnade, P. (2019) ‘Huizinga: Anthropologist Avant la Lettre?’, in P. Arnade, M. Howell and A. van der Lem (eds), *Rereading Huizinga: Autumn of the Middle Ages, a Century Later*. Amsterdam: Amsterdam University Press, pp. 259–274.
 
 Banerjee, P. (2006) *Politics of Time: ‘Primitives’ and History-writing in a Colonial Society*. New Delhi: Oxford University Press.
 
@@ -121,9 +129,13 @@ Fabian, J. (1983) *Time and the Other: How Anthropology Makes Its Object*. New Y
 
 Foks, F. (2024) ‘Finding modernity in England’s past: Social anthropology and the remaking of social history in Britain, 1959–77’, *History of the Human Sciences* 37(3–4): 106–129.
 
+Greilsammer, M. (2019) ‘A Late and Ambivalent Recognition: (The Autumn of) Johan Huizinga and the French Historians of the nouvelle histoire’, in P. Arnade, M. Howell and A. van der Lem (eds), *Rereading Huizinga: Autumn of the Middle Ages, a Century Later*. Amsterdam: Amsterdam University Press, pp. 275–308.
+
 Huizinga, J. (1919) *Herfsttij der Middeleeuwen*. Haarlem: H. D. Tjeenk Willink & Zoon.
 
 Huizinga, J. (1921) ‘Twee worstelaars met den engel’, *De Gids* 85.
+
+Huizinga, J. (1925) Review of Marc Bloch, *Les rois thaumaturges*, *Tijdschrift voor Rechtsgeschiedenis* 6: 354–356.
 
 Huizinga, J. (1927) ‘Taak en termen der beschavingsgeschiedenis’, *Verslag van de algemeene vergadering der leden van het Historisch Genootschap, gehouden te Utrecht op 7 April 1926*, pp. 5–7. Utrecht: Kemink & Zoon.
 
@@ -143,10 +155,16 @@ Morgan, P. D. (2025) ‘The (non-)Globalisation of Ideas Revisited’, *Global I
 
 Pels, P. (2022) ‘Classification revisited: On time, methodology and position in decolonizing anthropology’, *Anthropological Theory* 22(1): 78–101.
 
+Rydin, T. (2024) *The Works and Times of Johan Huizinga (1872–1945): Writing History in the Age of Collapse*. Amsterdam: Amsterdam University Press.
+
+Small, G. (2019) ‘The Making of The Autumn of the Middle Ages I: Narrative Sources and Their Treatment in Huizinga’s Herfsttij’, in P. Arnade, M. Howell and A. van der Lem (eds), *Rereading Huizinga: Autumn of the Middle Ages, a Century Later*. Amsterdam: Amsterdam University Press, pp. 169–210.
+
 Thornton, R. J. and Skalník, P. (eds) (1993) *The Early Writings of Bronislaw Malinowski*. Cambridge: Cambridge University Press.
 
 Tilley, H. (2010) ‘Global histories, vernacular science, and African genealogies; or, Is the history of science ready for the world?’, *Isis* 101(1): 110–119.
 
 Vale, M. (2021) ‘Huizinga’s Autumntide: The centenary of a masterpiece’, *The English Historical Review* 136(580): 672–693.
+
+van der Lem, A. (2019) ‘The Making of The Autumn of the Middle Ages II: The Eagle and His Pigeonholes: How Huizinga Organized His Sources’, in P. Arnade, M. Howell and A. van der Lem (eds), *Rereading Huizinga: Autumn of the Middle Ages, a Century Later*. Amsterdam: Amsterdam University Press, pp. 211–226.
 
 Wickberg, D. (2023) ‘Better to Receive Than to Give’, *Modern Intellectual History* 20(4): 1297–1305.
