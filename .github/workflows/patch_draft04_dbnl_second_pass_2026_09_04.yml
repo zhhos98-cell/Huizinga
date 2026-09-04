@@ -1,0 +1,31 @@
+name: Patch Draft 04 from DBNL second pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_dbnl_second_pass_2026_09_04.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft blob
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "4eac472ffb04b3362ff56a765989d8e0a8d66999"
+      - name: Apply source-locked local patch
+        run: python scripts/patch_draft04_dbnl_second_pass_2026_09_04.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Broaden 1926 functional-language context in Draft 04'
+          git pull --rebase origin main
+          git push origin main
