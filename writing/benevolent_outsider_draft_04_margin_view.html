@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Only a Benevolent Outsider — margin-note view</title>
+<style>
+:root{--main-width:760px;--note-width:300px;--gap:58px;--rule:#d8d8d8;--muted:#555}html{background:#f7f7f5}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:#171717;line-height:1.62}.shell{max-width:calc(var(--main-width) + var(--note-width) + var(--gap));margin:0 auto;padding:64px 40px 100px}.label{font-family:Arial,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:26px}.layout{display:grid;grid-template-columns:minmax(0,var(--main-width)) var(--note-width);gap:var(--gap);align-items:start}main{min-width:0}aside{min-width:0;font-size:12.5px;line-height:1.45;color:#333;border-left:1px solid var(--rule);padding-left:22px}aside h2{font-family:Arial,sans-serif;font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin:2px 0 18px}h1{font-size:34px;line-height:1.08;margin:0 0 8px;font-weight:600}main>h2:first-of-type{font-size:18px;font-weight:400;line-height:1.35;color:#444;margin:0 0 42px}main h2{font-size:22px;line-height:1.2;margin:48px 0 18px}p{margin:0 0 18px;font-size:16.5px}.fn-ref{font-family:Arial,sans-serif;font-size:10px;line-height:0;vertical-align:super}.fn-ref a{color:inherit;text-decoration:none;border-bottom:1px solid #aaa}.note{display:grid;grid-template-columns:22px 1fr;gap:7px;margin:0 0 15px}.note-num{font-family:Arial,sans-serif;font-size:10px;padding-top:2px}code{font-family:"SFMono-Regular",Consolas,monospace;font-size:.86em}.references{max-width:var(--main-width);margin-top:70px;padding-top:28px;border-top:1px solid var(--rule)}.references h2{font-size:21px;margin:0 0 22px}.references p{font-size:13.5px;line-height:1.48;margin-bottom:11px;padding-left:1.4em;text-indent:-1.4em}@media(max-width:980px){.layout{grid-template-columns:1fr}aside{border-left:0;border-top:1px solid var(--rule);padding:24px 0 0;margin-top:36px}.shell{padding:36px 22px 70px}}@media print{html{background:white}.shell{padding:0}.layout{grid-template-columns:68% 27%;gap:5%}p{font-size:10.5pt}aside{font-size:8pt}}
+</style>
+</head>
+<body>
+<div class="shell">
+<div class="label">Generated reading view · canonical source remains Draft 04</div>
+<div id="app">Loading canonical Draft 04…</div>
+</div>
+<script>
+const source='benevolent_outsider_draft_04_method_primitive_1921_1933.md';
+function inline(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/`([^`]+)`/g,'<code>$1</code>').replace(/\*([^*]+)\*/g,'<em>$1</em>').replace(/\[\^(\d+)\]/g,'<sup class="fn-ref"><a href="#note-$1">$1</a></sup>')}
+function renderBasic(text){return text.trim().split(/\n\s*\n/).map(block=>{if(block.startsWith('# '))return '<h1>'+inline(block.slice(2).trim())+'</h1>';if(block.startsWith('## '))return '<h2>'+inline(block.slice(3).trim())+'</h2>';return '<p>'+inline(block.replace(/\n/g,' '))+'</p>'}).join('\n')}
+fetch(source).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}).then(md=>{const a=md.split('\n## Notes\n');const b=a[1].split('\n## References\n');const body=a[0],notesText=b[0],refs=b[1];const notes=notesText.trim().split(/\n\s*\n/).map(block=>{const m=block.match(/^\[\^(\d+)\]:\s*([\s\S]*)$/);return m?'<div class="note" id="note-'+m[1]+'"><span class="note-num">'+m[1]+'</span><div>'+inline(m[2].replace(/\n/g,' '))+'</div></div>':''}).join('');document.getElementById('app').innerHTML='<div class="layout"><main>'+renderBasic(body)+'</main><aside><h2>Notes</h2>'+notes+'</aside></div><section class="references"><h2>References</h2>'+renderBasic(refs)+'</section>'}).catch(err=>{document.getElementById('app').innerHTML='<p>This is a generated reading view. It must be served from the <code>writing/</code> directory so it can read the canonical Draft 04 markdown beside it.</p><p><code>'+inline(String(err))+'</code></p>'});
+</script>
+</body>
+</html>
