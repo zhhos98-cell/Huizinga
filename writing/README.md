@@ -9,20 +9,29 @@ Canonical working draft:
 Current title:
 
 - **Only a Benevolent Outsider**
-- **Johan Huizinga and Bronisław Malinowski on the Primitive, 1921–1933**
+- **Johan Huizinga, Bronisław Malinowski, and the Waning of the Primitive, 1926–1933**
 
-The draft begins with the 1926 exchange and then turns backward to the materials needed to understand it. Its four sections use phrases from the sources rather than project-made labels:
+The draft now opens from Huizinga’s 1931 phrase `I myself am only a benevolent outsider` and treats it as a simultaneous institutional and methodological problem. Its governing historical movement is the **waning of `primitive`** in Huizinga’s *Herfsttij* sense: persistence of an old, still vigorous form while its former explanatory sufficiency is redistributed into more specific relations, evidentiary warrants and institutional jurisdictions.
 
-1. `Just the one I can profit by for my historical method`
-2. `Quite at home in the Trobriands`
-3. `The weakest spots in our scheme`
-4. `Being no anthropologist`
+The article proceeds through scenes rather than method modules:
 
-Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the sources already supply the term. Keep repository QA vocabulary, evidence-ranking language and later conceptual shorthand out of the article prose.
+1. `America, 1926` — Rockefeller-linked social-science space; retrospective Huizinga training flash.
+2. `Books and Letters, 1926–1929` — the three books, functional side, Frazerian retrospective genealogy, reciprocal reading, Trobriands / savage-stage tension.
+3. `Travel and the Work of Comparison` — American notes, Java–Bali–Hong Kong memory contrast, cards, photographs, medieval source production.
+4. `Leiden, 1931` — the anthropological centre proposal, `primitive or semi-cultured races`, Malinowski’s audit and Huizinga’s outsiderhood.
+5. `Coda: 1933` — Academy candidature and the Kula–potlatch–Burgundy comparison as an incomplete movement toward play, not a fifth method module or a teleology to *Homo Ludens*.
+
+Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the sources already supply the term. Every paragraph should contain a counter-test rather than merely prove a thesis. Compress background into retrospective flashes. Do not create `draft_05`, `draft_06`, or another parallel article draft; all future prose revision layers directly onto Draft 04.
+
+## Governing architecture
+
+- `ARTICLE_RECOMPOSITION_PRIMITIVE_OUTSIDER_2026-09-04.md` — live architecture / compression memo. This is not a parallel draft.
 
 ## Article support
 
 - `benevolent_outsider_full_corpus_evidence_map_2026-09-03.md` — source map for the article; use to locate evidence, not as prose.
+- `../research/primitive_full_history_contemporary_historiography_sweep_2026-09-04.md` — long-history / contemporary-historiography control for `primitive`.
+- `../research/primitive_interwar_1900_1940_historiography_delta_2026-09-04.md` — interwar historiography control.
 
 ## Superseded writing
 
