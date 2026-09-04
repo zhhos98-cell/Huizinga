@@ -1,32 +1,70 @@
 # Current handoff — Huizinga
 
-## Canonical state
+## Two separate states
 
-**RESEARCH / RETRIEVAL PROGRAMME CLOSED — 2026-08-30.**
+### Corpus / retrieval
 
-Read first:
+**CLOSED — 2026-08-30.**
+
+Canonical closure files:
 
 1. `FINAL_CLOSURE_2026-08-30.md`
 2. `CLOSURE_STATE_2026-08-30.json`
 3. `review/CURRENT_CALIBRATION_STATUS.md`
 4. `review/CORE_THEME_HITS.md`
 
-Older round notes, `review/PROGRESS.md`, chunk-local `priority` fields, and pre-closure status language are research provenance. If they conflict with the files above, the closure state controls.
+Older round notes, `review/PROGRESS.md`, chunk-local priority fields and pre-closure status language are research provenance. They do not reopen the corpus.
 
-## Operational state
+### Article writing
 
-- research / thematic discovery: **CLOSED**;
-- retrieval-grade OCR / visual calibration: **CLOSED AT AVAILABLE-SOURCE BOUNDARY**;
-- generic expansion: **STOP**;
-- core-theme tracker: **FROZEN**;
-- active blocking user actions: **NONE**;
-- raw OCR: preserved unchanged;
-- manual corrections: preserved in corrected derivatives and ledgers;
-- Strict Reproofread V2: **NOT RUN; FROZEN AS SEPARATE PUBLICATION-GRADE EDITORIAL SCOPE**.
+**ACTIVE.**
+
+Read first:
+
+1. `writing/README.md`
+2. `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`
+3. `research/README.md`
+
+Draft 04 is the canonical working article. Drafts 01–03 are superseded.
+
+Current title:
+
+**Only a Benevolent Outsider: Johan Huizinga and Bronisław Malinowski on the Primitive, 1921–1933**
+
+Current writing rule: start from the direct Huizinga–Malinowski exchange, then call in earlier Huizinga material only where the exchange requires it. Prefer source wording over project-made terminology. Keep QA, evidence-ranking and repository shorthand out of article prose.
+
+Current section anchors are source phrases:
+
+1. `Just the one I can profit by for my historical method`
+2. `Quite at home in the Trobriands`
+3. `The weakest spots in our scheme`
+4. `Being no anthropologist`
+
+## Article-facing research
+
+Active only when a specific sentence or note requires it. Current index: `research/README.md`.
+
+High-value article support already exists for:
+
+- 1921 Wells / Spengler;
+- 1925 Bloch review;
+- 7 April 1926 cultural-history theses;
+- 1926–29 direct correspondence;
+- 1929 *De taak der cultuurgeschiedenis*;
+- 1930 *Trois esprits prégothiques* and Dutch-culture lectures;
+- 1929 Philip the Good dossier;
+- 1931 Leiden Centre correspondence;
+- 1933 Academy candidature and rectoral address.
+
+Do not restart generic thematic sweeps.
+
+## Dormant provenance branch
+
+The search for Huizinga’s three physical Malinowski books is closed unless direct copy-level evidence appears. A copy without a Huizinga ownership mark, Malinowski presentation inscription or documented Huizinga provenance should be dropped.
 
 ## Bounded dormant source-image debt
 
-Only these source-image gaps remain live as factual boundaries, not as an active queue:
+These source-image gaps remain factual boundaries rather than an active queue:
 
 - `chunk_032:p0001-p0235` — OCR-calibrated only; source scans unavailable;
 - `chunk_055:p0121-p0160` — unsupplied;
@@ -36,22 +74,6 @@ Only these source-image gaps remain live as factual boundaries, not as an active
 
 The early `chunk_008 s5105/s5106` external-source benchmark remains `IDENTITY_MISMATCH_PARTIAL / EXTERNAL_SOURCE_MATRIX_INCOMPLETE`; it is non-blocking.
 
-## Important tail reconciliation
-
-Do not restart from the stale 2026-08-27 roll-up.
-
-Later evidence shows:
-
-- `chunk_060` = 250/250 visual-source reviewed;
-- `chunk_061` = 234/234;
-- `chunk_062` = 235/235;
-- `chunk_063` = 233/233;
-- `chunk_064` = 229/229;
-- `chunk_065` = 228/228;
-- `chunk_066` = 226/226;
-- `chunk_067` = p0001-p0160 forward visual classification plus p0161-p0223 direct original-PDF comparison in Backwards Batch 003; whole source span inspected, although tail classification manifests are not symmetrical with the forward pass;
-- `chunk_069` = complete 214-page original-PDF comparison across Backwards Batches 002–003.
-
 ## Restart rule
 
-`先读 FINAL_CLOSURE_2026-08-30.md 和 CLOSURE_STATE_2026-08-30.json。Huizinga 当前为 CLOSED。只有已列明的缺失 source span 到达且确有 source-level 验证价值、写作暴露 load-bearing source gap、或明确另立 publication-grade Strict V2 编辑工程时，才重开对应的具体分支；不要恢复旧 round queue、generic semantic sweep 或 completionism。`
+Reopen only a specific branch when the current article exposes a load-bearing factual gap, when a listed missing source span becomes available, or when a separate publication-grade reproofreading project is explicitly started. Do not restore old round queues, generic semantic sweeps or completionism.
