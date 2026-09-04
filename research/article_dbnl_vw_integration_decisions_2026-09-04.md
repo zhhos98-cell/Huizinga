@@ -6,7 +6,7 @@ Scope: human review of the deterministic nine-volume TEI traversal in `research/
 
 ### 1. 1929 Leiden institutional prehistory
 
-Source: Johan Huizinga, `Het sprookje van de rolverdeeling`, *De Gids* 93, no. 6 (June 1929), reprinted in *Verzamelde Werken* VII, DBNL TEI `huiz003verz08_01.xml`, VW p. 404.
+Source: Johan Huizinga, `Het sprookje van de rolverdeelling`, *De Gids* 93, no. 6 (June 1929), reprinted in *Verzamelde Werken* VII, DBNL TEI `huiz003verz08_01.xml`, VW p. 404.
 
 Controlled wording: Huizinga quotes the 1924 university role-division report describing the chairs for Indonesian languages and for `land- en volkenkunde van Nederlandsch Indië` as `een privilege der Leidsche Universiteit`, explicitly linking that concentration to Leiden's collections and its chairs in colonial law.
 
@@ -25,20 +25,33 @@ Controlled sequence:
 
 Article function: **MECHANISM.** This is stronger than presenting Kula, potlatch and Burgundy as a stack of parallels. It directly exhibits the article's central claim: a classificatory vocabulary can remain available while the comparison itself is carried by named relations and a reconstructed historical sequence. Replace the current compressed coda sentence with this narrower event chain.
 
+### 3. 1926 American social science: `functional` was not a Malinowski-only import
+
+Source: Johan Huizinga, *Amerika levend en denkend. Losse opmerkingen*, internally dated `19261000` in the DBNL TEI and published by H.D. Tjeenk Willink & Zoon, Haarlem, 1927; *Verzamelde Werken* V, DBNL TEI `huiz003verz06_01.xml`, especially `Geestelijke wachtwoorden` and `De wetenschap der samenleving`, VW pp. 445, 448–451.
+
+Controlled sequence:
+
+- Huizinga says the American social sciences with which the purpose of his journey brought him into closest contact included economics, political science, sociology, cultural anthropology and psychology.
+- He describes American social science as explicitly pluralist and hostile to `één enkelen verklaringsgrond`: complex and changing phenomena cannot be exhausted by a few distinctions, classifications or abstractions.
+- Summarizing Dewey, he writes that all action is `interactie, wederzijdsche handeling`; morality, economic life and scientific thought are all `sociale functies` produced through relations between person and environment.
+- At the same time he resists the demand that history become mere `hand- en spandiensten` for sociology.
+
+Article function: **COUNTEREVIDENCE / CONTEXTUAL CONTROL.** The December 1926 phrase `We emphasize the functional side of cultural phenomena` cannot be narrated as Malinowski supplying Huizinga with an otherwise absent functional vocabulary. Huizinga was already describing `function`, interaction, pluralism and the history/sociology boundary as features of the wider American social-scientific environment he had just encountered. Malinowski remains important because the pair exchange attached that relational vocabulary to concrete ethnological books and to Huizinga's historical problems. Patch the America-to-December transition so that the article does not accidentally reinstate a one-way influence story.
+
 ## NOTE / HOLD — relevant but do not force into body yet
 
-### 3. 1929 cultural-history boundary and Mauss
+### 4. 1929 cultural-history boundary and Mauss
 
 `De taak der cultuurgeschiedenis`, DBNL collected works, already supports the current Draft 04 formulation that cultural history can learn from ethnology / sociology / Mauss without becoming subordinate to systematic social science. The current prose already performs this job. No new body expansion is warranted merely because the TEI now gives a cleaner locator.
 
-### 4. 1933 Warburg as a `cultuurwetenschappelijk laboratorium`
+### 5. 1933 Warburg as a `cultuurwetenschappelijk laboratorium`
 
 `Een cultuurwetenschappelijk laboratorium` is institutionally suggestive, but in the present article it is **MERELY PARALLEL** unless a direct Leiden or Malinowski connection is demonstrated. Keep out of the body.
 
-### 5. Later *Homo ludens* primitive / ethnology passages
+### 6. Later *Homo ludens* primitive / ethnology passages
 
 The collected works contain many strong later formulations about ethnology, archaic culture, primitive religion and play. They fall outside the article's 1933 stopping rule and belong to a later corpus. Do not back-project them into the 1926–33 argument.
 
 ## Editing instruction
 
-Patch only `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`. Preserve surrounding prose. Add the 1929 institutional prehistory locally in the Leiden opening and replace only the current 1933 Kula/potlatch/Burgundy compression with the source's mechanism-first sequence. Add provenance notes rather than a new bibliography block if that keeps the intellectual diff smaller.
+Patch only `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`. Preserve surrounding prose. The first two integrations are already in Draft 04. For the 1926 American social-science control, change only the sentence that currently makes `Malinowski's functional language` the operative subject and add a short paragraph before the end of the America section. Add a provenance note; do not turn the passage into a separate American-social-science excursus.
