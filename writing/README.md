@@ -15,6 +15,8 @@ The draft opens from Huizinga’s 1931 phrase `I myself am only a benevolent out
 
 Full-corpus integration pass completed 2026-09-04. The canonical draft now incorporates only article-changing Tier 1 / controlled evidence from the repository: the 1926 American institutional itinerary; `Ridderspelen als beleving der Feodaltijd`; the non-anthropological Renaissance use `Met dien primitief begrip der Renaissance…`; the 1930 Dutch-civilization claim that social/economic/political/ethnographic conditions do not exhaust civilization; history/science notes distinguishing historical material from its ordering; and the calibrated September–October 1931 Ahlbrinck circulation sequence. These were layered into Draft 04 rather than made into new modules.
 
+Sentence-level compression pass completed 2026-09-04. Each prose sentence was retested for deletion, merger, substitution by an actor/source name, or replacement by stronger repository evidence. Background explanation was compressed through names and first-order anchors (Wells/Spengler, Frazer/Mach/Lévy-Bruhl, Mauss, Mooney, Wensinck, Nieuwenhuis); defensive `this does not mean...` scaffolding was removed unless it carries a genuine counter-test. The draft was reduced from 148 to 116 markdown lines in this pass while retaining the four scenes, coda, and source notes.
+
 The article proceeds through scenes rather than method modules:
 
 1. `America, 1926` — Rockefeller-linked social-science space; retrospective Huizinga training flash.
