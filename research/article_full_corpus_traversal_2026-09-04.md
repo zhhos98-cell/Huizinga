@@ -9,6 +9,7 @@ Purpose: audit the current Huizinga–Malinowski article against the actual corp
 - `READ_PARTIAL` — file opened but connector response was truncated; must not be treated as fully read.
 - `DERIVATIVE_COVERAGE` — raw oversized file cannot be returned directly; its page-level review/correction derivatives must be traversed instead.
 - `IMAGE_SOURCE_REGISTERED` — scan/PDF original confirmed and available for page-level verification.
+- `MACHINE_TRAVERSED` — every XML element/text block was deterministically parsed and inspected by the traversal script; this is complete machine coverage, not a claim of human line-by-line semantic reading.
 - `PENDING` — not yet read in this pass.
 
 ## Corpus A — GitHub raw Huizinga Leiden OCR
@@ -50,7 +51,7 @@ Article consequence: the present coda risks presenting `Kula -> potlatch -> Burg
 
 `relation isolated in ethnography -> same relation specified in a historical sequence -> analogy narrowed by mechanism`.
 
-This is a candidate for later surgical revision of Draft 04 after corpus traversal, not for immediate free-standing expansion.
+This mechanism-first sequence was surgically integrated into Draft 04 during the DBNL collected-works pass; the revision replaces the earlier stack-of-parallels compression with the source's narrower relation-first sequence.
 
 The remaining 068–071 corrections mainly remove OCR hallucinations and restore labels/shelfmarks. They did not produce another article-level mechanism in this pass.
 
@@ -148,7 +149,32 @@ Important correction to earlier scope: the user’s “Huizinga corpus in the li
 - A surfaced `8.json` was inspected by snippet and belongs to unrelated West China Union University material; numbered JSON filenames cannot be treated as collected-work volume numbers.
 - No file will be identified as a collected-works volume by number or filename guess alone.
 
-Required next action: continue metadata traversal and try broader primary-text variants/known bibliographic markers to isolate the actual *Verzamelde Werken* / complete-works files, then traverse those volumes systematically.
+Update: this Library-specific hunt is no longer required for article access to the collected works. The nine DBNL TEI volumes are now mirrored directly in GitHub and machine-traversed below. Library isolation remains relevant only if a separate copy/provenance question arises.
+
+## Corpus F — DBNL *Verzamelde Werken* TEI mirror
+
+The published collected-works layer is now directly controlled in this repository rather than inferred from Library search.
+
+- nine DBNL TEI XML files under `sources/dbnl/verzamelde_werken/`: `MACHINE_TRAVERSED`;
+- XML elements visited: **79,038**;
+- normalized text blocks inspected: **23,422**;
+- normalized block characters inspected: **12,066,667**;
+- high-recall article candidates retained for human review: **8,720**.
+
+Deterministic outputs:
+
+- `analysis/dbnl_vw_article_candidates_2026-09-04.tsv`;
+- `research/article_dbnl_verzamelde_werken_integration_2026-09-04.md`;
+- `research/article_dbnl_vw_integration_decisions_2026-09-04.md`.
+
+Two findings passed the article-function test and have already been integrated surgically into Draft 04:
+
+1. **1929 Leiden institutional prehistory — CHRONOLOGICAL / INSTITUTIONAL CONSEQUENCE.** In `Het sprookje van de rolverdeeling`, Huizinga reproduced the claim that Leiden's chairs in Indonesian languages and in `land- en volkenkunde van Nederlandsch Indië` were `een privilege der Leidsche Universiteit`, explicitly tied to the university's collections and chairs in colonial law. This now precedes the 1931 Centre proposal in the Leiden scene.
+2. **1933 Kula -> potlatch -> Burgundy — MECHANISM.** The published address specifies reciprocal display and a concrete Burgundian banquet sequence before allowing the analogy to potlatch. Draft 04 now follows that mechanism-first order rather than presenting the three cases as adjacent parallels.
+
+Material held out of the body after review includes the 1933 Warburg `cultuurwetenschappelijk laboratorium` passage (parallel without a demonstrated pair/Leiden mechanism) and later *Homo ludens* primitive/ethnology formulations beyond the article's 1933 stopping rule.
+
+Canonical Draft 04 after this integration: blob `4eac472ffb04b3362ff56a765989d8e0a8d66999`.
 
 ## Article argument-function audit
 
