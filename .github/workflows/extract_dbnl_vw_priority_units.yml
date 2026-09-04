@@ -1,0 +1,32 @@
+name: Extract DBNL priority units
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/extract_dbnl_vw_priority_units.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build focused priority-unit report
+        run: python scripts/extract_dbnl_vw_priority_units.py
+      - name: Commit report safely
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/article_dbnl_vw_priority_units_review_2026-09-04.md
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Extract DBNL priority units for article review'
+            git pull --rebase origin main
+            git push origin main
+          fi
