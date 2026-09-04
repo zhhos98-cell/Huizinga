@@ -1,0 +1,31 @@
+name: Patch Draft 04 from DBNL fifth pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_dbnl_fifth_pass_2026_09_04.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft blob
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "5238e2b533c4af89642bfc56ff799828dff8cc68"
+      - name: Apply source-locked local patch
+        run: python scripts/patch_draft04_dbnl_fifth_pass_2026_09_04.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Open 1932 Alanus dispatch into its argument in Draft 04'
+          git pull --rebase origin main
+          git push origin main
