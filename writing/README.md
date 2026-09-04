@@ -45,7 +45,7 @@ Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the source
 
 ## Governing architecture
 
-- `ARTICLE_RECOMPOSITION_PRIMITIVE_OUTSIDER_2026-09-04.md` — live architecture / compression memo. This is not a parallel draft.
+- `ARTICLE_RECOMPOSITION_PRIMITIVE_OUTSIDER_2026-09-04.md` — live architecture / compression memo. This is not a parallel draft. **Its older `apply this structurally` / late-medieval-object analogy language for `waning` is superseded by the actor-meta rule above; do not use that passage as drafting guidance until it is locally synchronized.**
 
 ## Article support
 
