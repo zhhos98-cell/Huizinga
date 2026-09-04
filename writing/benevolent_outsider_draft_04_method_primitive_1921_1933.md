@@ -11,17 +11,17 @@ This is a waning rather than a death. In *Herfsttij* Huizinga had described old 
 
 ## I. America, 1926
 
-In April 1926 a Rockefeller itinerary carried Huizinga through Philadelphia, Baltimore, Washington and Chapel Hill. At Harvard, Malinowski’s report places him with Marcel Mauss, R. B. Dixon and Alfred Tozzer in a discussion of “the functional view of Anthropology.”[^4] America put comparison, philanthropy and institutional design in the same rooms.
+In April 1926 a Rockefeller itinerary carried Huizinga through Philadelphia, Baltimore, Washington and Chapel Hill. At Harvard, Malinowski’s report places him in a seminar on “the functional view of Anthropology.”[^4] America put comparison, philanthropy and institutional design in the same rooms.
 
-It was not an origin. Huizinga later remembered reaching history from Speyer’s Sanskrit and Leipzig comparative linguistics by a “salto mortale”; he also admitted that his early teaching preferred a vivid story to critical groundedness.[^5] A week before sailing he had attacked *evolutie* as a general historical principle, defined cultural history as social morphology, and placed ethnology among its neighbouring sciences.[^6] His Indian papers already used *primitief* for earlier intellectual or medical layers.[^7] Wells and Spengler had already given him reason to limit what sequence or morphology could decide in advance.[^8]
+It was not an origin. Huizinga later remembered reaching history from Sanskrit and comparative linguistics by a “salto mortale”; he also admitted that his early teaching preferred a vivid story to critical groundedness.[^5] A week before sailing he had attacked *evolutie* as a general historical principle, defined cultural history as social morphology, and placed ethnology among its neighbouring sciences.[^6] His Indian papers already used *primitief* for earlier intellectual or medical layers.[^7] An earlier review of rival universal histories had already limited what sequence or morphology could decide in advance.[^8]
 
 Malinowski arrived with a different unfinished formation. His American report made anthropology an integrating science of institutions; five years later he would ask what could make Leiden’s resources anthropology. America created neither method. It put them in contact. By December Huizinga was recalling another conversation about “ethnological problems,” this time along the Haarlemsche Trekvaart.
 
 ## II. Books and Letters, 1926–1929
 
-That December Malinowski sent three books, “the small, the medium and the big one.” Huizinga began with *Crime and Custom in Savage Society*, joked that Malinowski was training him like Milo of Croton with his calf, then turned serious: Malinowski’s “outlook on ethnological problems” was “just the one I can profit by for my historical method.” By month’s end: “We emphasize the functional side of cultural phenomena.” Feudal law, troubadour culture and the efficacy of words followed immediately.[^9]
+That December Malinowski sent three books, “the small, the medium and the big one.” Huizinga began with *Crime and Custom in Savage Society*, made the calf joke, then turned serious: Malinowski’s “outlook on ethnological problems” was “just the one I can profit by for my historical method.” By month’s end: “We emphasize the functional side of cultural phenomena.” Feudal law, troubadour culture and the efficacy of words followed immediately.[^9]
 
-Malinowski had just staged his own origin more cleanly. In the 1925 Frazer Lecture he recalled illness interrupting physical and chemical research, *The Golden Bough*, and becoming “bound to the service of Frazerian anthropology.”[^10] Mach and a broader Central European formation sit behind that conversion story.[^11] The tension remained in his mature work. *Crime and Custom* kept “primitive law” in view while relocating explanation to reciprocal services, kin relations, public knowledge and obligations of return. His quarrel with Lévy-Bruhl did something similar to “primitive mentality”: Trobriand agriculture, navigation and technical knowledge made the label less able to settle the contents of mind in advance.[^11]
+Malinowski had just staged his own origin more cleanly. In 1925 he recalled illness interrupting physical and chemical research, *The Golden Bough*, and becoming “bound to the service of Frazerian anthropology.”[^10] His early writings show a broader Central European formation behind that conversion story.[^11] The tension remained in his mature work. *Crime and Custom* kept “primitive law” in view while relocating explanation to reciprocal services, kin relations, public knowledge and obligations of return. His attack on “primitive mentality” did something similar: Trobriand agriculture, navigation and technical knowledge made the label less able to settle the contents of mind in advance.[^11]
 
 Huizinga carried that pressure back to history. His 31 December letter moved from “so-called primitive culture” to vanity, generosity, friendship, words and feudal relations; elsewhere a working slip called knightly games “beleving der Feodaltijd.”[^9] The slip proves no Malinowskian influence. It shows the kind of enacted historical form to which Malinowski’s questions could attach. Huizinga already had *primitive* and effective forms; Malinowski gave him a living case in which the adjective did less than the relations around it.
 
@@ -29,39 +29,39 @@ In 1928 *Sex and Repression in Savage Society* gave Huizinga “new visions conc
 
 The traffic also reversed. Malinowski reported that Huizinga’s American notes had been “a most stimulating event”: “we read them aloud.”[^13] Yet reciprocal reading did not mean symmetrical theoretical influence. The asymmetry is clearest in May 1929, when Huizinga said he felt “quite at home in the Trobriands” and, almost in the same breath, described a Delft course running from “the stage of savage life” through old Aryan culture to Rome and its decay.[^14] Thick familiarity and stadial order coexisted.
 
-The same year *De taak der cultuurgeschiedenis* made such crossings public. Huizinga could learn from Mauss and American sociology, and ethnology could define recurrent forms, while cultural history still followed their changing historical meanings.[^15] The boundary was crossed because it remained a boundary.
+The same year *De taak der cultuurgeschiedenis* made such crossings public. Sociology and ethnology could define recurrent forms; cultural history still followed their changing historical meanings.[^15] The boundary was crossed because it remained a boundary.
 
 ## III. Travel and the Work of Comparison
 
-Huizinga’s American archive shows what “notes” meant. Cards move from Turner and Helen Hunt Jackson to James Mooney’s Ghost Dance, treaties, reservations and Indian Territory, then into comparative prose on America and Europe.[^16] In *Mijn weg tot de historie* he contrasted those day-to-day American notes with his 1930–31 journey to Java, Bali and Hong Kong, remembered “entirely” from memory after an injury to his right eye.[^5] Travel did not produce one kind of evidence.
+Huizinga’s American archive shows what “notes” meant. Cards on frontier history, Indian policy and the Ghost Dance lead into comparative prose on America and Europe.[^16] In *Mijn weg tot de historie* he contrasted those day-to-day American notes with his 1930–31 journey to Java, Bali and Hong Kong, remembered “entirely” from memory after an injury to his right eye.[^5] Travel did not produce one kind of evidence.
 
 Nor did mobility erase the difference between their work. Malinowski could revisit living relations; Huizinga moved through notes, memory, cards, reproductions and surviving texts. Both made distant worlds portable. Their checks on comparison were unlike.
 
-The word *primitive* was equally mobile in Huizinga’s files. In *Trois esprits prégothiques* it appears inside twelfth-century intellectual history near *Cet élément ludique*; a few pages later Abelard is *prégothique*, not a simple Renaissance precursor.[^17] A separate Renaissance packet begins “Met dien primitief begrip der Renaissance…”—*primitief* modifying a concept, not a people.[^7] These are not one anthropology-derived meaning. The same lexical form could mark different relations.
+The word *primitive* was equally mobile in Huizinga’s files. In *Trois esprits prégothiques* it appears inside twelfth-century intellectual history near *Cet élément ludique*; a few pages later the text refuses a simple Renaissance-precursor reading.[^17] A separate Renaissance packet begins “Met dien primitief begrip der Renaissance…”—*primitief* modifying a concept, not a people.[^7] These are not one anthropology-derived meaning. The same lexical form could mark different relations.
 
-Huizinga’s Philip the Good dossier shows what restrained that portability in historical work. Portrait copies, museum photographs and newly recovered autograph letters could alter the historical image.[^18] Working notes from the same period distinguish collecting or establishing historical material from ordering it under a point of view.[^15] A comparison could be bold; the source relation still had to be rebuilt.
+Huizinga’s Burgundian dossier shows what restrained that portability in historical work. Portrait copies, museum photographs and newly recovered autograph letters could alter the historical image.[^18] Working notes from the same period distinguish collecting or establishing historical material from ordering it under a point of view.[^15] A comparison could be bold; the source relation still had to be rebuilt.
 
 Travel therefore multiplied mediations rather than replacing categories with experience. *Primitive* remained portable. What waned was the ease of moving from one of its relations to another without showing the intermediate work.
 
 ## IV. Leiden, 1931
 
-On 19 July 1931 Huizinga sent Malinowski “a paper which I made up” for a Centre of Anthropological Research, drafted after conversations with John Van Sickle and Tracy Kittredge. Leiden already offered the Ethnographical Museum, the Kern Institute, Oriental languages and Van Vollenhoven’s *adat* law; Huizinga asked Malinowski for judgment and, if favourable, Rockefeller help.[^19]
+On 19 July 1931 Huizinga sent Malinowski “a paper which I made up” for a Centre of Anthropological Research. Leiden already offered an ethnographical museum, Oriental languages, an Indological institute and *adat* law; Huizinga asked Malinowski for judgment and, if favourable, Rockefeller help.[^19]
 
-The supporting papers show classification becoming institutional. Java could be “high culture,” Bali an unusually interesting Hindu remnant, other populations a “backward stage.” A. W. Nieuwenhuis went further: “Ethnographical objects as data for psychological research about primitive or semi-cultured races.”[^20] Wicker-work, textiles, metalwork and carving became evidence of mental capacities; those capacities could bear on development, administration and indigenous industry. Here *primitive* did not merely place a case in an argument. It helped group objects, minds and futures.
+The supporting papers show classification becoming institutional. Java could be “high culture,” Bali an unusually interesting Hindu remnant, other populations a “backward stage.” One annex went further: “Ethnographical objects as data for psychological research about primitive or semi-cultured races.”[^20] Wicker-work, textiles, metalwork and carving became evidence of mental capacities; those capacities could bear on development, administration and indigenous industry. Here *primitive* did not merely place a case in an argument. It helped group objects, minds and futures.
 
 Huizinga had recently stated the complementary limit from inside cultural history. In lectures on seventeenth-century Dutch civilization he admitted social, economic, political and, “if one wishes,” ethnographic conditions, then denied that their enumeration completely explained a civilization.[^15] Such conditions entered historical explanation without exhausting it.
 
-Malinowski approved the Leiden idea and then asked the questions the inventory could not answer: who would “carry on the work and inspire the institution with their spirit”? What “central aim or principle” would hold it together?[^21] Huizinga conceded the “weakest spots in our scheme.” Van Vollenhoven was “no anthropologist proper.” “I myself am only a benevolent outsider.”[^1]
+Malinowski approved the Leiden idea and then asked the questions the inventory could not answer: who would “carry on the work and inspire the institution with their spirit”? What “central aim or principle” would hold it together?[^21] Huizinga conceded the “weakest spots in our scheme.” Leiden’s leading *adat* scholar was “no anthropologist proper.” “I myself am only a benevolent outsider.”[^1]
 
 The distinction survived Malinowski’s praise. He could call Huizinga’s approach “really anthropological” and still demand anthropological leadership. A procedure could cross the line without conferring jurisdiction. Leiden turned methodological proximity into a personnel question.
 
-Nor did the boundary stop traffic. In September Huizinga wrote, “I am sending you a volume just pubished”; Malinowski’s next controlled letter thanked him for Ahlbrinck’s new *Encyclopaedie der Karaïben*, already in use by a pupil working on the couvade, and carried the Leiden conversation onward toward Paris.[^22] Outsiderhood described continued exchange, not withdrawal.
+Nor did the boundary stop traffic. In September Huizinga wrote, “I am sending you a volume just pubished”; Malinowski’s next controlled letter thanked him for the new *Encyclopaedie der Karaïben*, already in use by a pupil working on the couvade, and carried the Leiden conversation onward toward Paris.[^22] Outsiderhood described continued exchange, not withdrawal.
 
 ## Coda: 1933
 
-Huizinga repeated the distinction when Malinowski stood for the Royal Netherlands Academy: “Being no anthropologist I refrained from taking a leading part in your candidature,” though he signed it.[^23] The same year *Over de grenzen van spel en ernst in de cultuur* moved from Malinowski’s Kula—circulation, prestige, trust, generosity—to Mauss’s potlatch and then to Philip the Good’s *Vœu du Faisan*, “not so very far” from a potlatch.[^23]
+Huizinga repeated the distinction when Malinowski stood for the Royal Netherlands Academy: “Being no anthropologist I refrained from taking a leading part in your candidature,” though he signed it.[^23] The same year *Over de grenzen van spel en ernst in de cultuur* moved from the Kula—circulation, prestige, trust, generosity—to potlatch and then to the Burgundian *Vœu du Faisan*, “not so very far” from a potlatch.[^23]
 
-The comparison did not become simply anthropological. Wensinck supplied Semitic play vocabulary; Sanskrit returned; Genoa and Antwerp brought wagering and calculation.[^23] Kula remained Kula, Burgundy remained Burgundy, and the old philologist remained inside the historian.
+The comparison did not become simply anthropological. Semitic and Sanskrit play vocabulary returned; Genoa and Antwerp brought wagering and calculation.[^23] Kula remained Kula, Burgundy remained Burgundy, and the old philologist remained inside the historian.
 
 This was not yet *Homo Ludens*, nor had *primitive* been overcome. In 1929 “the stage of savage life” could still organize a course; in 1933 circulation, obligation, prestige, rivalry and play carried the striking comparison. The old word survived while more specific relations bore more of the proof.
 
@@ -73,7 +73,7 @@ That is the waning that joins *primitive* to the outsider. A shared category cou
 
 [^2]: Johan Huizinga, *Herfsttij der Middeleeuwen* (1919), first-edition preface.
 
-[^3]: Johannes Fabian, *Time and the Other* (1983); Adam Kuper, *The Invention of Primitive Society* (1988); Cristina Chimisso, “The Mind and the Faculties,” *History of the Human Sciences* 13.3 (2000); Prathama Banerjee, *Politics of Time* (2006); Helen Tilley, “Global Histories, Vernacular Science, and African Genealogies,” *Isis* 101.1 (2010); Nicolas Meylan, *Mana* (2017); Peter Pels, “Classification Revisited,” *Anthropological Theory* 22.1 (2022); Kristine Palmieri, “Friedrich Max Müller’s Rubicon,” *Science in Context* (2025).
+[^3]: Johannes Fabian, *Time and the Other* (1983); Prathama Banerjee, *Politics of Time* (2006); Peter Pels, “Classification Revisited,” *Anthropological Theory* 22.1 (2022); Kristine Palmieri, “Friedrich Max Müller’s Rubicon,” *Science in Context* (2025).
 
 [^4]: Bronisław Malinowski, report on his 1926 American visit to the Laura Spelman Rockefeller Memorial; Huizinga calendarium; Huizinga papers, American itinerary, `review/chunk_019:p0031`.
 
@@ -89,7 +89,7 @@ That is the waning that joins *primitive* to the outsider. A shared category cou
 
 [^10]: Bronisław Malinowski, Frazer Lecture, Liverpool, November 1925, later printed with *Myth in Primitive Psychology*.
 
-[^11]: Robert J. Thornton and Peter Skalník, eds., *The Early Writings of Bronislaw Malinowski* (1993); Tilley, “Global Histories, Vernacular Science, and African Genealogies.”
+[^11]: Robert J. Thornton and Peter Skalník, eds., *The Early Writings of Bronislaw Malinowski* (1993); Helen Tilley, “Global Histories, Vernacular Science, and African Genealogies,” *Isis* 101.1 (2010).
 
 [^12]: Huizinga to Malinowski, 29 March 1928, [760].
 
