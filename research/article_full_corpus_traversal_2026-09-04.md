@@ -25,18 +25,34 @@ Rule: no claim of “raw corpus fully read” will be made merely from metadata.
 
 ## Corpus B — GitHub corrections
 
-Directory contains eight manual-correction JSON files.
+Directory contains eight manual-correction JSON files. This layer is now closed for the present pass.
 
 - `corrections/chunk_002_manual.json`: `READ_FULL`.
-- `corrections/chunk_067_manual.json`: `READ_PARTIAL` (connector output truncated; contains high-value 1933 Kula/potlatch/play corrections but still requires continuation/derivative control).
+- `corrections/chunk_067_manual.json`: `READ_FULL` (read in three explicit line ranges after the initial connector truncation).
 - `corrections/chunk_067_manual_round2a.json`: `READ_FULL`.
-- `corrections/chunk_067_manual_round2b.json`: `PENDING`.
-- `corrections/chunk_068_manual.json`: `PENDING`.
-- `corrections/chunk_069_manual.json`: `PENDING`.
-- `corrections/chunk_070_manual.json`: `PENDING`.
-- `corrections/chunk_071_manual.json`: `PENDING`.
+- `corrections/chunk_067_manual_round2b.json`: `READ_FULL`.
+- `corrections/chunk_068_manual.json`: `READ_FULL`.
+- `corrections/chunk_069_manual.json`: `READ_FULL`.
+- `corrections/chunk_070_manual.json`: `READ_FULL`.
+- `corrections/chunk_071_manual.json`: `READ_FULL`.
 
-Early article-relevant recovery from the correction layer: Huizinga's corrected 1933 text explicitly routes Kula through `mildheid, vriendschap, vertrouwen, eer, hoogmoed en avontuur`, credit, gift, prestige and trust before moving to potlatch/Mauss and modern economic history. This material must be assessed for argumentative function, not merely appended as another comparison.
+### Argument-changing result from chunk 067
+
+The corrected 1933 text does more than place Kula, potlatch, Burgundy and economic history side by side.
+
+1. Huizinga specifies Kula through `mildheid, vriendschap, vertrouwen, eer, hoogmoed en avontuur`, and calls it a `spel van mildheid, vertrouwen en gemeenschap`; he also describes it as a credit system despite its apparently anti-economic character.
+2. Potlatch is then specified through ceremonial giving, honour/status, delayed reciprocal obligation, generosity and trust.
+3. Most importantly, Huizinga explicitly anticipates that adding the 1454 *Vœu du Faisan* may look forced. He says he adds it **not for its general play-character**, but as a specific case of `wedijverend, wederkeerig weeldevertoon en spilziek onthaal`.
+4. He then reconstructs the Burgundian historical sequence: a series of court banquets -> turn-taking -> passing a wreath -> movement from lower to higher -> escalating splendour -> Philip the Good finally outdoing the others.
+5. Only after specifying that mechanism does he say the case is “not so very far from a potlatch.”
+
+Article consequence: the present coda risks presenting `Kula -> potlatch -> Burgundy` as a stack of parallels. The source itself instead supplies a narrower historical operation:
+
+`relation isolated in ethnography -> same relation specified in a historical sequence -> analogy narrowed by mechanism`.
+
+This is a candidate for later surgical revision of Draft 04 after corpus traversal, not for immediate free-standing expansion.
+
+The remaining 068–071 corrections mainly remove OCR hallucinations and restore labels/shelfmarks. They did not produce another article-level mechanism in this pass.
 
 ## Corpus C — GitHub review layer
 
@@ -58,18 +74,32 @@ Trees recursively enumerated.
 - `archive/`: recursively enumerated; includes four source-probe JPGs plus archived Draft 01–03 and calibration/temporal-gate files.
 - `scripts/`: two scripts enumerated.
 
-Canonical Draft 04 current blob at start of this traversal: `176cc10280b0b906a2d2062fafd0bc460dd04876`. Current draft opened in this pass; response was truncated, so paragraph-function audit is in progress rather than complete.
+Canonical Draft 04 current blob at start of this traversal: `176cc10280b0b906a2d2062fafd0bc460dd04876`. The prose was subsequently read in explicit ranges covering the introduction through the 1933 coda. A paragraph-function audit is in progress.
+
+### First paragraph-function audit: recurrent parallelism
+
+At least five existing passages currently contain evidence or scholarship that is only partly functional:
+
+1. Intro final historiography paragraph: Rydin -> Wickberg -> Morgan currently behaves largely as a literature shelf; the final inference about retention/reassignment does more work than the citations leading to it.
+2. End of America section: Biehn + “five years later” is a floating bridge rather than a demonstrated 1926-to-1931 causal relation.
+3. 1926 Malinowski published-self-description paragraph: Frazer conversion, Central European formation, *Crime and Custom*, primitive mentality and Chimisso accumulate side by side; the strongest functional core is the shift of explanatory burden inside *Crime and Custom*.
+4. 1930 lexical paragraph: multiple senses of `primitive/primitief` risk becoming a word-example display unless changing inferential licence is demonstrated.
+5. Travel historiography paragraph: Small/van der Lem and Arnade/Vale form two scholarship clusters that need to alter particular evidentiary claims rather than remain adjacent literature.
+
+These are not yet prose-edit instructions. Full corpus traversal may supply missing historical connections or show that some material belongs in notes rather than body.
 
 ## Corpus E — ChatGPT Library `/Huizinga`
 
 Important correction to earlier scope: the user’s “Huizinga corpus in the library” is not reducible to the GitHub repo.
 
 - Library folder `/Huizinga` confirmed.
-- It contains original chunk scan PDFs in page blocks (e.g. chunk 048–053 listings directly confirmed): `IMAGE_SOURCE_REGISTERED`.
+- It contains original chunk scan PDFs in page blocks (multiple blocks from chunks 002 and 032 onward directly listed; chunks 048–056 specifically confirmed during this pass): `IMAGE_SOURCE_REGISTERED`.
+- A top-level JSON-only listing under `/Huizinga` returned six non-chunk OCR files; none is obviously a Huizinga collected-works volume.
 - The folder is large and paginated; collected/complete-work volumes have not yet been cleanly isolated from the archival chunk PDFs in this pass.
-- Library content searches for `Verzamelde Werken` initially produced unrelated or secondary Huizinga material; no file will be identified as a collected-works volume by filename guess alone.
+- Library content searches for `Verzamelde Werken` initially produced unrelated or secondary Huizinga material, including `/huaxi/3.json`; that file is a secondary Huizinga/Warburg study, not volume III of the collected works.
+- No file will be identified as a collected-works volume by number or filename guess alone.
 
-Required next action: finish Library metadata traversal, isolate the actual *Verzamelde Werken* / complete-works files, then traverse those volumes systematically.
+Required next action: use distinctive primary-text phrases and continued metadata traversal to isolate the actual *Verzamelde Werken* / complete-works files, then traverse those volumes systematically.
 
 ## Article argument-function audit
 
