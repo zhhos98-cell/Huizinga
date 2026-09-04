@@ -1,0 +1,34 @@
+name: Patch Draft 04 from DBNL nineteenth pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_dbnl_nineteenth_pass_2026_09_04.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against post-eighteenth-pass edits
+        shell: bash
+        run: |
+          current=$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)
+          controlled=$(git show e949abd4a3420c7cb35712dc8bded7bee064e013:writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md | git hash-object --stdin)
+          test "$current" = "$controlled"
+      - name: Apply punctuation patch
+        run: python scripts/patch_draft04_dbnl_nineteenth_pass_2026_09_04.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Fix Berengaria footnote punctuation'
+          git pull --rebase origin main
+          git push origin main
