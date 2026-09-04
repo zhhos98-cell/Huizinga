@@ -1,26 +1,51 @@
 # Huizinga
 
-Current repository state: **CLOSED AT RETRIEVAL / RESEARCH-CALIBRATION GRADE — 2026-08-30**.
+The repository now has two separate states:
 
-Canonical state files:
+- **corpus retrieval / calibration: CLOSED — 2026-08-30**;
+- **article writing: ACTIVE — current 1921–1933 Huizinga–Malinowski draft**.
+
+## Read first
+
+1. `CURRENT_HANDOFF.md`
+2. `writing/README.md`
+3. `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`
+4. `research/README.md`
+
+For the closed corpus state, use:
 
 - `FINAL_CLOSURE_2026-08-30.md`
 - `CLOSURE_STATE_2026-08-30.json`
-- `CURRENT_HANDOFF.md`
+- `review/CURRENT_CALIBRATION_STATUS.md`
+- `review/CORE_THEME_HITS.md`
 
-The remaining unavailable source-image spans and Strict Reproofread V2 are bounded dormant verification/editorial debt, not an active research queue. Do not restart from older `PROGRESS`, round, or chunk-local `priority` language when it conflicts with the canonical closure files.
+Older round notes, chunk-local priority fields and pre-closure status language are research provenance. They do not reopen the retrieval programme.
+
+## Current article
+
+Canonical working draft:
+
+`writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`
+
+Current focus: Huizinga and Malinowski on the *primitive*, 1921–1933. The article starts from their direct exchange and uses earlier material only when the exchange requires it. Huizinga’s and Malinowski’s own wording should carry the prose whenever possible.
+
+Drafts 01–03 and the old scene / temporal-gate files are superseded writing history. See `writing/README.md`.
+
+## Research directory
+
+`research/` contains bounded writing deltas and closed provenance branches. See `research/README.md` before opening a new search.
+
+The three-Malinowski-book provenance hunt is dormant. Reopen it only for direct copy-level Huizinga evidence.
 
 ## Frozen data layout
 
-The chunk corpus remains deliberately flat because correction and audit tooling records those paths directly. Do not reorganize the chunk JSONs merely for directory aesthetics.
+The chunk corpus remains deliberately flat because correction and audit tooling records those paths directly. Do not reorganize the chunk JSONs for directory aesthetics.
 
-- `chunk_*.pdf_by_PaddleOCR-VL-1.6.json` — raw OCR source layer; treat as immutable evidence output.
-- `*.corrected.json` — corrected derivatives where PDF/source verification produced an authorized correction layer. These do not replace or mutate the raw files.
+- `chunk_*.pdf_by_PaddleOCR-VL-1.6.json` — raw OCR source layer; immutable evidence output.
+- `*.corrected.json` — authorized corrected derivatives.
 - `corrections/` — manual correction ledgers and patch provenance.
 - `review/` — page-level review signals, applied-patch audits and PDF-verification logs.
-- `scripts/` — retained reproducibility/audit utilities. They are frozen tooling, not a live research queue.
-- `archive/` — noncanonical probes and retired workflow documentation, including the preserved Strict V2 source-probe material.
+- `scripts/` — frozen reproducibility / audit utilities.
+- `archive/` — retired workflow documentation and noncanonical probes.
 
-Interpret the repository as `raw -> correction ledger -> corrected derivative -> review/audit`, with the closure files controlling whether further work is warranted.
-
-The frozen `main` branch no longer carries active write-capable correction workflows. The retired backwards-PDF correction workflow is documented under `archive/workflows/README.md`; its generated corrected JSON, correction ledgers and verification logs remain preserved in their canonical locations.
+Interpret the corpus as `raw -> correction ledger -> corrected derivative -> review/audit`. The closure files control whether further retrieval or correction work is warranted.
