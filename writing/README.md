@@ -14,6 +14,8 @@ Historiography should also be layered by patch. Add a sentence or short paragrap
 
 Name-density rule: the body remains fundamentally a Huizinga–Malinowski story. Keep another proper name only when that name itself carries argumentative work; otherwise prefer the work, institution, role, practice or archival object, or leave the name in a citation/note.
 
+**Actor-meta rule for `waning`: prefer Huizinga's self-reflexive statements about historiography, method, disciplinary boundary and retrospective formation over descriptive sentences about the medieval object of *Herfsttij*.** The 1919 preface supplies a historiographical grammar and its own warning against precursor/decline bias; it is not evidence that interwar `primitive` resembles late-medieval civilization. Claims about what happens to `primitive` must be proved from the category's own documentary history, the Huizinga–Malinowski exchange, and the contemporary methodological/institutional record. Use *Mijn weg tot de historie* only as second-order actor evidence for how Huizinga later historicized his formation, not as proof that his mature method already existed in youth.
+
 ## Current article
 
 Canonical working draft:
@@ -25,7 +27,7 @@ Current title:
 - **Only a Benevolent Outsider**
 - **Johan Huizinga, Bronisław Malinowski, and the Waning of the Primitive, 1926–1933**
 
-The draft opens from Huizinga’s 1931 phrase `I myself am only a benevolent outsider` and treats it as a simultaneous institutional and methodological problem. Its governing historical movement is the **waning of `primitive`** in Huizinga’s *Herfsttij* sense: persistence of an old, still vigorous form while its former explanatory sufficiency is redistributed into more specific relations, evidentiary warrants and institutional jurisdictions.
+The draft opens from Huizinga’s 1931 phrase `I myself am only a benevolent outsider` and treats it as a simultaneous institutional and methodological problem. Its governing historical movement is the **waning of `primitive`**, with `waning` explicitly borrowed from Huizinga's meta-historical cautions about precursor history, the historian's tendency to cast a death-shadow over decline, and the relation between forms and what they contain. *Mijn weg tot de historie* adds a second-order actor control through Huizinga's retrospective Max Müller/Tylor genealogy. Neither source proves the history of `primitive`; the historical proof remains the category-specific sequence in which vocabulary persists while explanatory relations, evidentiary warrants and disciplinary jurisdictions are redistributed.
 
 Full-corpus integration pass completed 2026-09-04. The canonical draft now incorporates only article-changing Tier 1 / controlled evidence from the repository: the 1926 American institutional itinerary; `Ridderspelen als beleving der Feodaltijd`; the non-anthropological Renaissance use `Met dien primitief begrip der Renaissance…`; the 1930 Dutch-civilization claim that social/economic/political/ethnographic conditions do not exhaust civilization; history/science notes distinguishing historical material from its ordering; and the calibrated September–October 1931 Ahlbrinck circulation sequence. These were layered into Draft 04 rather than made into new modules.
 
@@ -37,7 +39,7 @@ The article proceeds through scenes rather than method modules:
 2. `Books and Letters, 1926–1929` — the three books, functional side, Frazerian retrospective genealogy, reciprocal reading, Trobriands / savage-stage tension.
 3. `Travel and the Work of Comparison` — American notes, Java–Bali–Hong Kong memory contrast, cards, photographs, medieval source production, and the polysemy/portability control on `primitief`.
 4. `Leiden, 1931` — the anthropological centre proposal, `primitive or semi-cultured races`, Huizinga’s cultural-history boundary, Malinowski’s audit and Huizinga’s outsiderhood.
-5. `Coda: 1933` — Academy candidature and the Kula–potlatch–Burgundy comparison as an incomplete movement toward play, not a fifth method module or a teleology to *Homo Ludens*.
+5. `Coda: 1933` — Academy candidature and the Kula–potlatch–Burgundy comparison; play appears as a new comparative boundary question, not a fifth method module, a successor category, or a teleology to *Homo Ludens*.
 
 Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the sources already supply the term. Every paragraph should survive a counter-test rather than merely prove a thesis. Compress background into retrospective flashes, but restore concrete chronology when omission obscures who acted, who replied or why the next event occurred. Do not create `draft_05`, `draft_06`, or another parallel article draft; all future prose revision layers directly onto Draft 04.
 
