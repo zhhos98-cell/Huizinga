@@ -24,16 +24,10 @@ Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the source
 
 - `benevolent_outsider_full_corpus_evidence_map_2026-09-03.md` — source map for the article; use to locate evidence, not as prose.
 
-## Superseded prose / planning files
+## Superseded writing
 
-These remain as writing history and source provenance. They are not current article text:
+Older drafts and planning files have been moved to:
 
-- `benevolent_outsider_huizinga_malinowski_draft_01.md`
-- `benevolent_outsider_huizinga_malinowski_draft_02_1926_1931.md`
-- `benevolent_outsider_huizinga_malinowski_draft_03_object_circulation.md`
-- `SCENE_MODULE_CALIBRATION_1926_1931_2026-09-03.md`
-- `SCENE_MODULE_QA_DRAFT03_2026-09-03.md`
-- `TEMPORAL_GATE_1926_1931_03.md`
-- `TEMPORAL_GATE_1926_1931_WITH_1933_CODA.md`
+- `archive/writing/2026-09-03/`
 
-Do not recover the friendship, object-circulation or scene-QA frames from these files unless a specific factual item is needed.
+This archive contains Drafts 01–03, scene calibration / QA and the old temporal-gate files. They remain available for factual recovery only. Do not restore the friendship, object-circulation or scene-QA frames unless a specific source fact is needed.
