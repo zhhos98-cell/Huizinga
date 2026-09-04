@@ -53,26 +53,39 @@ Inspect only the copy-level evidence:
 
 If these are absent, demote `2459 D 9` and do not spend time reconstructing its publication history.
 
-## 3. Public HUIZIN control remains negative for all three titles
+## 3. Public HUIZIN reconstruction: explicit negative through 4 December 2018
 
-The 2019 published list of recovered Huizinga books includes, among other controls:
+The public UBL/Huizinga Online list is headed `Overzicht van de boeken uit het bezit van prof. dr. J. Huizinga, thans aanwezig in de UB Leiden` and states **`Laatste update: 4 december 2018`**. It lists the recovered books item by item under `HUIZIN` shelfmarks.
 
-- HUIZIN 2032 — Pirenne, gift F.M. Scholten-Huizinga;
-- HUIZIN 2036 — Wensinck, carrying C.J.J.G. Vosmaer's ex libris;
-- HUIZIN 2039 — Fruin, 11 vols., gift F.M. Scholten-Huizinga.
+Exact full-list searches for each target produced **zero matches** for:
 
-Exact searches of the published HUIZIN list and publicly indexed HUIZIN records did not produce `Malinowski`, `Sex and Repression`, `Crime and Custom`, or `Argonauts` as a recovered HUIZIN item in this pass.
+- `Malinowski`;
+- `Argonauts`;
+- `Crime and Custom`;
+- `Sex and Repression`.
 
-This is only a **public-list/index negative**. It does not exclude later recoveries, uncatalogued material or a Huizinga copy sitting in a general institutional sequence. The discovery of `Sex and Repression` at ordinary shelfmark `2459 D 9` is precisely why general-stack copies cannot be excluded solely from the public HUIZIN list.
+Thus the precise negative is:
+
+> **As of the public HUIZIN reconstruction list dated 4 December 2018, none of the three target Malinowski titles had been identified and listed there as a recovered Huizinga book.**
+
+This is not a negative for all Leiden holdings and not a negative after 4 December 2018. It does not exclude an unrecognised Huizinga copy in an ordinary shelfmark sequence. The physical *Sex and Repression* at `2459 D 9` is exactly the kind of general-stack copy that must be tested separately.
+
+The same public list supplies useful provenance controls:
+
+- **HUIZIN 2032** — Henri Pirenne, gift `F.M. Scholten-Huizinga`;
+- **HUIZIN 2036** — Arent Jan Wensinck, with ex libris `C.J.J.G. Vosmaer`;
+- **HUIZIN 2039** — Robert Fruin, *Verspreide Geschriften*, 11 vols., gift `F.M. Scholten-Huizinga`.
 
 Source:
-- UBL / Huizinga Online, `Overzicht van de boeken uit het bezit van prof. dr. J. Huizinga, thans aanwezig in de UB Leiden`: https://huizinga-online.nl/wp-content/uploads/2019/10/Lijst-van-teruggevonden-boeken.pdf
+- UBL / Huizinga Online, recovered-books list: https://huizinga-online.nl/wp-content/uploads/2019/10/Lijst-van-teruggevonden-boeken.pdf
 
-## 4. Family-retention branch: keep object-level batch test, not biographical speculation
+## 4. Family-retention branch: exact donor evidence, but no inferred donation date
 
-F.M. Scholten-Huizinga/Fransje remains a real custody control because she demonstrably possessed Huizinga's Fruin set and donated identifiable Huizinga books to UBL. No public indexed hit in this pass connected any of the three Malinowski titles to `F.M. Scholten-Huizinga`, `Fransje Huizinga`, `Scholten-Huizinga`, Laura Conley-Huizinga, Jacoba de Jonge-de Meijere or Elisabeth Huizinga.
+F.M. Scholten-Huizinga/Fransje remains a real custody control because she demonstrably possessed Huizinga's Fruin set and is named as donor of HUIZIN 2032 and 2039. No public indexed hit in this pass connected any of the three Malinowski titles to `F.M. Scholten-Huizinga`, `Fransje Huizinga`, `Scholten-Huizinga`, Laura Conley-Huizinga, Jacoba de Jonge-de Meijere or Elisabeth Huizinga.
 
-The useful next test remains the **donor/accession batch behind HUIZIN 2032 and 2039**: whether the associated donor documentation listed additional Huizinga books, transferred or not transferred to HUIZIN. Do not infer Malinowski custody from Leonhard's interests or the unverified p.146 recollection.
+A methodological boundary is now explicit: **the public HUIZIN list does not give a donation date for HUIZIN 2032 or HUIZIN 2039.** Therefore biographical dates for F.M. Scholten-Huizinga or her husband must not be used to infer that these books entered Leiden in 2018–2019, or that they formed part of a death/estate batch. The accession/donor documentation is required before any batch chronology can be asserted.
+
+The useful next test remains the **donor/accession documentation behind HUIZIN 2032 and 2039**: whether the associated file(s) list additional Huizinga books, transferred or not transferred to HUIZIN, and whether any of the three Malinowski titles occurs there. Do not infer Malinowski custody from Leonhard's interests or the unverified p.146 recollection.
 
 ## 5. 1965 KB batch remains unresolved and should be tested only by exact title
 
@@ -103,11 +116,11 @@ Source:
 ## Current queue
 
 1. **Leiden `2459 D 9` / MMS 990018821830302711** — inspect this actual *Sex and Repression* copy for Huizinga handwriting, Malinowski dedication and any Vosmaer mark; check accession source only if needed.
-2. **UBL donor/accession documentation behind HUIZIN 2032 + 2039** — exact three-title test within the F.M. Scholten-Huizinga batch.
+2. **UBL donor/accession documentation behind HUIZIN 2032 + 2039** — exact three-title test within the F.M. Scholten-Huizinga custody branch; establish donation chronology from the file, not from family death dates.
 3. **KB 1965 Huizinga-Schölvinck batch** — exact three-title or batch-number test only.
 4. Continue copy-image searches for the three target editions, looking for Malinowski-to-Huizinga dedication or upper-right Huizinga ownership inscription.
 5. Keep Saint Lucas/Vosmaer dormant unless a source directly emits one target title, a stock number tied to one title, or a second independent Huizinga provenance signal.
 
 ## Running result
 
-No target copy is proven in this pass. The strongest new object-level lead is Leiden `2459 D 9`: an extant, callable physical *Sex and Repression* copy that can be accepted or rejected by a few front-matter images. The search fingerprint is also tightened by Van der Lem's ex-libris correction, while the family/KB branches remain reduced to exact batch-level tests rather than broad provenance reconstruction.
+No target copy is proven in this pass. The strongest new object-level lead is Leiden `2459 D 9`: an extant, callable physical *Sex and Repression* copy that can be accepted or rejected by a few front-matter images. The public HUIZIN negative is now precisely bounded to 4 December 2018, and the F.M. Scholten-Huizinga branch is protected against an unsupported 2018–2019 estate-batch inference.
