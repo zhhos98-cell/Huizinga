@@ -1,0 +1,29 @@
+name: Scan DBNL Huizinga collected works for article
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/scan_dbnl_vw_article.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Traverse nine DBNL TEI volumes
+        run: python scripts/scan_dbnl_vw_article.py
+      - name: Commit deterministic traversal outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis/dbnl_vw_article_candidates_2026-09-04.tsv research/article_dbnl_verzamelde_werken_integration_2026-09-04.md
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Traverse DBNL Verzamelde Werken for article integration'
+            git push
+          fi
