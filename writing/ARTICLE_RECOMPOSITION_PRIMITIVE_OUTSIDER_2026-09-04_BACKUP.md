@@ -1,0 +1,1 @@
+The governing recomposition memo is `writing/ARTICLE_RECOMPOSITION_PRIMITIVE_OUTSIDER_2026-09-04.md`, created in commit d53a75557ba6e9bc53ba96e5941b3b7a6bbbe424. This backup pointer exists only to preserve the commit reference.
