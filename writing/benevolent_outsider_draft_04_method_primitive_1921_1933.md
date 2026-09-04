@@ -15,6 +15,8 @@ The interwar *primitive* was not fading into obscurity. The emerging human scien
 
 Most accounts stop at the disciplinary edge. They explain how anthropology reworked its own *primitive*; they say less about what happened when its questions entered another historical craft whose sources, comparisons and claims to authority were organized differently. The encounter matters precisely because neither man entered it as a stranger to *primitive*. The term belonged to a wider human-scientific atmosphere, but a shared vocabulary did not make its uses identical. This article follows the category at the scale of situations—book, course, letter, museum memorandum, historical comparison—and asks how Huizinga and Malinowski themselves qualified, redirected or withheld the claims that *primitive* invited.
 
+Recent intellectual history has already moved from older models of origins and influence toward reception, circulation and active reuse (Wickberg, 2023); work on the ‘(non-)globalisation’ of ideas has gone further by treating actors’ decisions to appropriate or not appropriate an idea as causal historical action (Morgan, 2025). The present case applies that sensitivity to a disciplinary boundary: a transfer deliberately not completed is part of the exchange, not an evidentiary absence.
+
 ## America, 1926
 
 In April 1926 a Rockefeller itinerary carried Huizinga through Philadelphia, Baltimore, Washington and Chapel Hill. At Harvard, Malinowski’s report places him in a seminar on ‘the functional view of Anthropology’.[^2] Huizinga later remembered reaching history from Sanskrit and comparative linguistics by a ‘salto mortale’; he also admitted that his early teaching preferred a vivid story to critical groundedness (Huizinga, 1947). A week before sailing he had attacked *evolutie* as a general historical principle, defined cultural history as social morphology concerned with what connects people to one another rather than with what holds them together internally, and placed ethnology among the special cultural sciences already practising such morphology (Huizinga, 1927: 5–7). His Indian papers already used *primitief* for earlier intellectual or medical layers.[^3] In 1921 he had already distinguished geological or biological *ontwikkeling* from ‘de functie van het historisch begrijpen’, testing historical schemes by what they allowed one to understand rather than by chronology alone (Huizinga, 1921).
@@ -137,6 +139,8 @@ Malinowski, B. (1926a) *Crime and Custom in Savage Society*. London: Kegan Paul,
 
 Malinowski, B. (1926b) *Myth in Primitive Psychology*. London: Kegan Paul, Trench, Trubner & Co.
 
+Morgan, P. D. (2025) ‘The (non-)Globalisation of Ideas Revisited’, *Global Intellectual History*, published online 3 August. doi:10.1080/23801883.2025.2540961.
+
 Pels, P. (2022) ‘Classification revisited: On time, methodology and position in decolonizing anthropology’, *Anthropological Theory* 22(1): 78–101.
 
 Thornton, R. J. and Skalník, P. (eds) (1993) *The Early Writings of Bronislaw Malinowski*. Cambridge: Cambridge University Press.
@@ -144,3 +148,5 @@ Thornton, R. J. and Skalník, P. (eds) (1993) *The Early Writings of Bronislaw M
 Tilley, H. (2010) ‘Global histories, vernacular science, and African genealogies; or, Is the history of science ready for the world?’, *Isis* 101(1): 110–119.
 
 Vale, M. (2021) ‘Huizinga’s Autumntide: The centenary of a masterpiece’, *The English Historical Review* 136(580): 672–693.
+
+Wickberg, D. (2023) ‘Better to Receive Than to Give’, *Modern Intellectual History* 20(4): 1297–1305.
