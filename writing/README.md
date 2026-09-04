@@ -1,5 +1,17 @@
 # Writing
 
+## Editing rules — read before touching Draft 04
+
+The canonical article is edited by **surgical patch, not regeneration**. Do not rewrite an entire section or paragraph merely to improve flow, completeness, tone or balance. The underlying GitHub API may require a full-file replacement, but the intellectual operation must remain a small diff: change only the sentences or short passages explicitly being worked on and preserve the surrounding prose verbatim.
+
+Do not allow generative completion to raise the article's defensive temperature. In particular, do not automatically add `this does not mean...`, `rather...`, pre-emptive qualifications, symmetrical counterarguments, roadmap sentences, paragraph-end verdicts or explanatory closure simply because a passage could be made more self-contained. Counterevidence already present in the archive should remain; synthetic defensive scaffolding should not be generated around it.
+
+At the same time, **historical antecedents and sequences should be made explicit when the reader needs them**. Growth toward HHS length should come first from reconstructing event chains: when and where something happened; which document, meeting, journey or book moved first; who wrote to whom; what was asked; what the reply changed; and what happened next. Prefer `date/place/action -> letter/request -> reply -> consequence` over abstract connective prose. Explaining chronology and causality is not the same as closing down interpretation.
+
+Historiography should also be layered by patch. Add a sentence or short paragraph where an existing historiographical claim meets the archive, and ask whether the case confirms, narrows or redirects that claim. Avoid standalone literature-review blocks and avoid adding names merely to increase historiographical density. A secondary source belongs in the body only when the case does something with its proposition.
+
+Name-density rule: the body remains fundamentally a Huizinga–Malinowski story. Keep another proper name only when that name itself carries argumentative work; otherwise prefer the work, institution, role, practice or archival object, or leave the name in a citation/note.
+
 ## Current article
 
 Canonical working draft:
@@ -15,7 +27,7 @@ The draft opens from Huizinga’s 1931 phrase `I myself am only a benevolent out
 
 Full-corpus integration pass completed 2026-09-04. The canonical draft now incorporates only article-changing Tier 1 / controlled evidence from the repository: the 1926 American institutional itinerary; `Ridderspelen als beleving der Feodaltijd`; the non-anthropological Renaissance use `Met dien primitief begrip der Renaissance…`; the 1930 Dutch-civilization claim that social/economic/political/ethnographic conditions do not exhaust civilization; history/science notes distinguishing historical material from its ordering; and the calibrated September–October 1931 Ahlbrinck circulation sequence. These were layered into Draft 04 rather than made into new modules.
 
-Sentence-level compression pass completed 2026-09-04. Each prose sentence was retested for deletion, merger, substitution by an actor/source name, or replacement by stronger repository evidence. Background explanation was compressed through names and first-order anchors (Wells/Spengler, Frazer/Mach/Lévy-Bruhl, Mauss, Mooney, Wensinck, Nieuwenhuis); defensive `this does not mean...` scaffolding was removed unless it carries a genuine counter-test. The draft was reduced from 148 to 116 markdown lines in this pass while retaining the four scenes, coda, and source notes.
+Sentence-level compression pass completed 2026-09-04. Each prose sentence was retested for deletion, merger, or replacement by stronger repository evidence. Background explanation was compressed through first-order anchors; defensive `this does not mean...` scaffolding was removed unless it carries a genuine counter-test. A later name-density pass reversed the earlier tendency to use proper names as compression devices: names now remain in the body only when they themselves do argumentative work.
 
 The article proceeds through scenes rather than method modules:
 
@@ -25,7 +37,7 @@ The article proceeds through scenes rather than method modules:
 4. `Leiden, 1931` — the anthropological centre proposal, `primitive or semi-cultured races`, Huizinga’s cultural-history boundary, Malinowski’s audit and Huizinga’s outsiderhood.
 5. `Coda: 1933` — Academy candidature and the Kula–potlatch–Burgundy comparison as an incomplete movement toward play, not a fifth method module or a teleology to *Homo Ludens*.
 
-Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the sources already supply the term. Every paragraph should contain a counter-test rather than merely prove a thesis. Compress background into retrospective flashes. Do not create `draft_05`, `draft_06`, or another parallel article draft; all future prose revision layers directly onto Draft 04.
+Writing rule: prefer Huizinga’s and Malinowski’s wording whenever the sources already supply the term. Every paragraph should survive a counter-test rather than merely prove a thesis. Compress background into retrospective flashes, but restore concrete chronology when omission obscures who acted, who replied or why the next event occurred. Do not create `draft_05`, `draft_06`, or another parallel article draft; all future prose revision layers directly onto Draft 04.
 
 ## Governing architecture
 
