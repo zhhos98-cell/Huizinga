@@ -10,6 +10,8 @@ Use these first for the current Huizinga–Malinowski article:
 - `article_1921_wells_spengler_opening_control_2026-09-04.md` — 1921 Wells / Spengler source control.
 - `article_direct_pair_gap_delta_1929_1931_2026-09-04.md` — bounded notes on the 1929 and 1931 correspondence gaps, including the *Encyclopaedie der Karaïben* identification.
 
+Recent methodological control for the introduction: Daniel Wickberg, ‘Better to Receive Than to Give’, *Modern Intellectual History* 20.4 (2023), 1297–1305, maps the field’s move from older `origins/influence` models toward reception, circulation and active reuse. Peter David Morgan, ‘The (non-)Globalisation of Ideas Revisited’, *Global Intellectual History* (published online 3 Aug. 2025), DOI 10.1080/23801883.2025.2540961, explicitly treats agents’ decisions to appropriate or **not** appropriate ideas as causal historical action. Article use should remain narrow: non-transfer / withheld uptake can be a positive object of intellectual history rather than an evidentiary absence.
+
 The article itself is in `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`.
 
 ## Dormant provenance branch: Huizinga’s three Malinowski books
