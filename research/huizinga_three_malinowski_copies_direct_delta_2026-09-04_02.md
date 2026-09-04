@@ -27,22 +27,31 @@ Image inspection should rank evidence as follows:
 4. C.J.J.G. Vosmaer ex libris/number **only when paired with an independent Huizinga signal**;
 5. a `J. Huizinga` ex libris alone is unsafe because Jakob used that name-form in bookplate provenance.
 
-## 2. Current Leiden catalogue record for *Sex and Repression*: real holding-level lead, not yet a Huizinga candidate
+## 2. Leiden has a physical *Sex and Repression* copy: Van Steenis Depot `2459 D 9`
 
-The present Leiden University Libraries catalogue exposes a record for *Sex and Repression in Savage Society* with Alma MMS ID:
+The present Leiden University Libraries catalogue exposes *Sex and Repression in Savage Society* under Alma MMS ID:
 
 `990018821830302711`
 
-Public search indexing confirms the bibliographic record, but the accessible web layer did not expose an item call number, HUIZIN shelfmark, donor note, ownership note, inscription, or provenance statement. Therefore this record must **not** yet be called Huizinga's copy or even a strong candidate.
+A search-engine rendering of the live Leiden record supplies the holding information omitted by the JavaScript page:
 
-Operational test:
-- retrieve the item/holding record behind MMS `990018821830302711`;
-- record edition/imprint, shelfmark, acquisition source/date and any local provenance note;
-- if a physical copy is held, inspect title page/front cover/front endpaper for Huizinga handwriting or Malinowski dedication;
-- immediately demote if it is an ordinary circulating/non-provenance copy with no Huizinga signal.
+**Available at Van Steenis Depot — Closed Stack (`2459 D 9`).**
 
-Catalogue URL:
-- https://catalogue.leidenuniv.nl/discovery/fulldisplay?docid=alma990018821830302711&context=L&vid=31UKB_LEU:UBL_V1
+This materially upgrades the record from a bibliographic-only hit to a **specific physical copy that can be called up and inspected**. It does **not** establish Huizinga provenance. The shelfmark is not a `HUIZIN 20xx` number and the public record exposes no donor, ownership, inscription, or provenance note. At present it is best treated as a direct physical control/candidate-to-inspect, not as Huizinga's copy.
+
+Source:
+- Leiden University Libraries live catalogue, MMS `990018821830302711`: https://catalogue.leidenuniv.nl/discovery/fulldisplay?adaptor=Local+Search+Engine&context=L&docid=alma990018821830302711&lang=en&vid=31UKB_LEU%3AUBL_V1
+
+### Decisive test for `2459 D 9`
+
+Inspect only the copy-level evidence:
+
+1. title page, especially upper-right corner, for `J. Huizinga` in Huizinga's hand;
+2. front cover/front pastedown/free front endpaper/half-title for a Malinowski presentation inscription naming Huizinga;
+3. any C.J.J.G. Vosmaer bookplate or inventory number, requiring a second Huizinga signal;
+4. accession/source record for the item, if immediately available.
+
+If these are absent, demote `2459 D 9` and do not spend time reconstructing its publication history.
 
 ## 3. Public HUIZIN control remains negative for all three titles
 
@@ -54,7 +63,7 @@ The 2019 published list of recovered Huizinga books includes, among other contro
 
 Exact searches of the published HUIZIN list and publicly indexed HUIZIN records did not produce `Malinowski`, `Sex and Repression`, `Crime and Custom`, or `Argonauts` as a recovered HUIZIN item in this pass.
 
-This is only a **public-list/index negative**. It does not exclude later recoveries, uncatalogued material or a Huizinga copy sitting in a general institutional sequence.
+This is only a **public-list/index negative**. It does not exclude later recoveries, uncatalogued material or a Huizinga copy sitting in a general institutional sequence. The discovery of `Sex and Repression` at ordinary shelfmark `2459 D 9` is precisely why general-stack copies cannot be excluded solely from the public HUIZIN list.
 
 Source:
 - UBL / Huizinga Online, `Overzicht van de boeken uit het bezit van prof. dr. J. Huizinga, thans aanwezig in de UB Leiden`: https://huizinga-online.nl/wp-content/uploads/2019/10/Lijst-van-teruggevonden-boeken.pdf
@@ -93,7 +102,7 @@ Source:
 
 ## Current queue
 
-1. **Leiden MMS 990018821830302711** — expose physical holding/item metadata and inspect the actual *Sex and Repression* copy if appropriate.
+1. **Leiden `2459 D 9` / MMS 990018821830302711** — inspect this actual *Sex and Repression* copy for Huizinga handwriting, Malinowski dedication and any Vosmaer mark; check accession source only if needed.
 2. **UBL donor/accession documentation behind HUIZIN 2032 + 2039** — exact three-title test within the F.M. Scholten-Huizinga batch.
 3. **KB 1965 Huizinga-Schölvinck batch** — exact three-title or batch-number test only.
 4. Continue copy-image searches for the three target editions, looking for Malinowski-to-Huizinga dedication or upper-right Huizinga ownership inscription.
@@ -101,4 +110,4 @@ Source:
 
 ## Running result
 
-No target copy is identified in this pass. The main gain is methodological and operational: the search fingerprint is now more precise, one current Leiden *Sex and Repression* record is isolated for item-level testing, and the family/KB branches have been reduced to exact batch-level tests rather than broad provenance reconstruction.
+No target copy is proven in this pass. The strongest new object-level lead is Leiden `2459 D 9`: an extant, callable physical *Sex and Repression* copy that can be accepted or rejected by a few front-matter images. The search fingerprint is also tightened by Van der Lem's ex-libris correction, while the family/KB branches remain reduced to exact batch-level tests rather than broad provenance reconstruction.
