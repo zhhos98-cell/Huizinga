@@ -61,9 +61,24 @@ The remaining 068–071 corrections mainly remove OCR hallucinations and restore
 - `review/chunk_001` through `review/chunk_071`: all directories confirmed present.
 - Round summaries, backward-correction logs, protocol/status files, `CORE_THEME_HITS.md`, `PROGRESS.md`, calibration/status files: enumerated.
 - `review/PROGRESS.md`: `READ_PARTIAL` in this pass; it confirms the audit architecture is page-complete/retrieval-grade for the chunks it describes, but it does not substitute for re-reading each derivative file for article QA.
-- Example `review/chunk_001` tree confirmed: `empty_ocr_visual_review.jsonl`, `full_visual_audit_manifest_v1.tsv`, `review_summary_v1.md`.
 
-Required next action: traverse every file in every `review/chunk_###` directory, not only `CORE_THEME_HITS.md` or summaries.
+### Chunk-by-chunk re-traversal
+
+#### `review/chunk_001` — CLOSED
+
+Directory contains three files; all three have now been read completely in this pass.
+
+- `empty_ocr_visual_review.jsonl`: `READ_FULL` in two explicit line ranges.
+- `full_visual_audit_manifest_v1.tsv`: `READ_FULL` in two explicit line ranges; all 179 page rows inspected.
+- `review_summary_v1.md`: `READ_FULL`.
+
+Audit state confirmed: 179/179 pages visually audited; 25 genuinely blank, 10 false-empty OCR recoveries, 32 high-noise pages requiring scan check before exact quotation.
+
+Article-relevant result: the Laura Spelman Rockefeller Memorial letterhead is not a single isolated page. It forms a five-page documentary cluster (`p0101`, `p0109`, `p0145`, `p0151`, `p0169`); `p0109` had been a total OCR false negative. This strengthens provenance/network context but, absent letter content establishing an action, the stationery cluster does **not** by itself prove foundation causality and should not be asked to do so.
+
+Other recovered false-empty material is primarily agrarian history, Zeeland/legal reference slips, or fragmentary notes and does not currently alter the article argument.
+
+Required next action: continue with every file in `review/chunk_002`, then sequentially through `review/chunk_071`.
 
 ## Corpus D — GitHub research / writing / archive / scripts
 
@@ -97,9 +112,11 @@ Important correction to earlier scope: the user’s “Huizinga corpus in the li
 - A top-level JSON-only listing under `/Huizinga` returned six non-chunk OCR files; none is obviously a Huizinga collected-works volume.
 - The folder is large and paginated; collected/complete-work volumes have not yet been cleanly isolated from the archival chunk PDFs in this pass.
 - Library content searches for `Verzamelde Werken` initially produced unrelated or secondary Huizinga material, including `/huaxi/3.json`; that file is a secondary Huizinga/Warburg study, not volume III of the collected works.
+- Distinctive phrase searches (`kiemen van mijn wetenschappelijk denken`, `te veel van de schaduw des doods`, `de praktische sociologie der Amerikanen`, `Met dien primitief begrip der Renaissance`) did not return a confirmable collected-works primary file; they mainly returned an old article draft or unrelated OCR. This is a retrieval/indexing failure, **not** evidence that the collected works are absent.
+- A surfaced `8.json` was inspected by snippet and belongs to unrelated West China Union University material; numbered JSON filenames cannot be treated as collected-work volume numbers.
 - No file will be identified as a collected-works volume by number or filename guess alone.
 
-Required next action: use distinctive primary-text phrases and continued metadata traversal to isolate the actual *Verzamelde Werken* / complete-works files, then traverse those volumes systematically.
+Required next action: continue metadata traversal and try broader primary-text variants/known bibliographic markers to isolate the actual *Verzamelde Werken* / complete-works files, then traverse those volumes systematically.
 
 ## Article argument-function audit
 
