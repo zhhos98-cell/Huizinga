@@ -6,7 +6,7 @@ Scope: human review of the deterministic nine-volume TEI traversal in `research/
 
 ### 1. 1929 Leiden institutional prehistory
 
-Source: Johan Huizinga, `Het sprookje van de rolverdeelling`, *De Gids* 93, no. 6 (June 1929), reprinted in *Verzamelde Werken* VII, DBNL TEI `huiz003verz08_01.xml`, VW p. 404.
+Source: Johan Huizinga, `Het sprookje van de rolverdeeling`, *De Gids* 93, no. 6 (June 1929), reprinted in *Verzamelde Werken* VII, DBNL TEI `huiz003verz08_01.xml`, VW p. 404.
 
 Controlled wording: Huizinga quotes the 1924 university role-division report describing the chairs for Indonesian languages and for `land- en volkenkunde van Nederlandsch Indië` as `een privilege der Leidsche Universiteit`, explicitly linking that concentration to Leiden's collections and its chairs in colonial law.
 
@@ -38,20 +38,32 @@ Controlled sequence:
 
 Article function: **COUNTEREVIDENCE / CONTEXTUAL CONTROL.** The December 1926 phrase `We emphasize the functional side of cultural phenomena` cannot be narrated as Malinowski supplying Huizinga with an otherwise absent functional vocabulary. Huizinga was already describing `function`, interaction, pluralism and the history/sociology boundary as features of the wider American social-scientific environment he had just encountered. Malinowski remains important because the pair exchange attached that relational vocabulary to concrete ethnological books and to Huizinga's historical problems. Patch the America-to-December transition so that the article does not accidentally reinstate a one-way influence story.
 
+### 4. 1928 *Mensch en menigte*: `primitive` inside modern America
+
+Source: Johan Huizinga, *Mensch en menigte in Amerika. Vier essays over moderne beschavingsgeschiedenis*, third edition, Haarlem 1928, *Verzamelde Werken* V, DBNL TEI `huiz003verz06_01.xml`, especially VW pp. 387–389. The DBNL text preserves the first-edition preface (September 1918) and the third-edition preface (January 1928), in which Huizinga says the book was written in 1918, revised in 1920, and revised again for the third edition to accentuate its historical character and update material where possible.
+
+Controlled sequence: in the section `Tam en wild Amerika`, after describing modern urban revivalism, Huizinga writes: `Het is het voortleven van een primitieve geesteshouding in een economisch hoog ontwikkeld milieu.` He immediately compares credulity, excitability and sentimentality in contemporary America with the medieval popular mind, then turns to `organized emotion` and modern community mobilization.
+
+Article function: **COUNTEREVIDENCE.** This is not merely another lexical occurrence. In a text reissued during the active Huizinga–Malinowski exchange, `primitive` describes a mentality persisting inside an economically advanced modern society and supports a comparison between modern America and the medieval past. The category therefore did not invariably perform the simple operation `living non-European people -> earlier human stage` even for Huizinga. Use one sentence beside the March 1928 `origins of culture` / `historical use` distinction, so the article's initial model of temporalization remains a historically consequential use rather than an over-totalized definition of the word.
+
 ## NOTE / HOLD — relevant but do not force into body yet
 
-### 4. 1929 cultural-history boundary and Mauss
+### 5. 1929 cultural-history boundary and Mauss
 
 `De taak der cultuurgeschiedenis`, DBNL collected works, already supports the current Draft 04 formulation that cultural history can learn from ethnology / sociology / Mauss without becoming subordinate to systematic social science. The current prose already performs this job. No new body expansion is warranted merely because the TEI now gives a cleaner locator.
 
-### 5. 1933 Warburg as a `cultuurwetenschappelijk laboratorium`
+### 6. 1923 *De universiteit van Nederlandsch Indië*
+
+The collected works contain a substantial institutional-design argument joining teaching, research, laboratories, libraries, collections, geography and ethnology in a proposed Indonesian university. This confirms that Huizinga could think institutionally about ethnographic and colonial knowledge well before the 1931 Leiden Centre. At present, however, no direct documentary chain connects this proposal to the 1931 Centre memorandum. Treat it as **NOTE / PARALLEL**, not as a prehistory of the Centre.
+
+### 7. 1933 Warburg as a `cultuurwetenschappelijk laboratorium`
 
 `Een cultuurwetenschappelijk laboratorium` is institutionally suggestive, but in the present article it is **MERELY PARALLEL** unless a direct Leiden or Malinowski connection is demonstrated. Keep out of the body.
 
-### 6. Later *Homo ludens* primitive / ethnology passages
+### 8. Later *Homo ludens* primitive / ethnology passages
 
 The collected works contain many strong later formulations about ethnology, archaic culture, primitive religion and play. They fall outside the article's 1933 stopping rule and belong to a later corpus. Do not back-project them into the 1926–33 argument.
 
 ## Editing instruction
 
-Patch only `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`. Preserve surrounding prose. The first two integrations are already in Draft 04. For the 1926 American social-science control, change only the sentence that currently makes `Malinowski's functional language` the operative subject and add a short paragraph before the end of the America section. Add a provenance note; do not turn the passage into a separate American-social-science excursus.
+Patch only `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`. Preserve surrounding prose. The 1929 Leiden, 1933 mechanism-first, and 1926 American social-science controls are already integrated. For the 1928 *Mensch en menigte* control, add one sentence only to the March 1928 paragraph and one provenance note. Do not turn it into a separate pre-contact section or a lexical catalogue.
