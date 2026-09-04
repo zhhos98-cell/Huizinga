@@ -9,6 +9,7 @@ Use these first for the current Huizinga–Malinowski article:
 - `article_1921_1933_precontact_controls_delta_2026-09-04.md` — 1925 Bloch, 7 April 1926 theses, 1929 *De taak der cultuurgeschiedenis*, 1930 Dutch-culture lectures.
 - `article_1921_wells_spengler_opening_control_2026-09-04.md` — 1921 Wells / Spengler source control.
 - `article_direct_pair_gap_delta_1929_1931_2026-09-04.md` — bounded notes on the 1929 and 1931 correspondence gaps, including the *Encyclopaedie der Karaïben* identification.
+- `article_huizinga_historiography_delta_2026-09-04.md` — article-facing Huizinga scholarship: Arnade → Vale on anthropology/philology; Rydin on interwar rupture; Small / van der Lem on source practice; Greilsammer as pre-contact reception control. Use only where the case confirms, narrows, redirects or complicates a proposition.
 
 Recent methodological control for the introduction: Daniel Wickberg, ‘Better to Receive Than to Give’, *Modern Intellectual History* 20.4 (2023), 1297–1305, maps the field’s move from older `origins/influence` models toward reception, circulation and active reuse. Peter David Morgan, ‘The (non-)Globalisation of Ideas Revisited’, *Global Intellectual History* (published online 3 Aug. 2025), DOI 10.1080/23801883.2025.2540961, explicitly treats agents’ decisions to appropriate or **not** appropriate ideas as causal historical action. Article use should remain narrow: non-transfer / withheld uptake can be a positive object of intellectual history rather than an evidentiary absence.
 
