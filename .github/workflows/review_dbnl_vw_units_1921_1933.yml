@@ -1,0 +1,32 @@
+name: Review DBNL Huizinga 1921-1933 units
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/review_dbnl_vw_units_1921_1933.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build unit-level review report
+        run: python scripts/review_dbnl_vw_units_1921_1933.py
+      - name: Commit report safely
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/article_dbnl_vw_units_1921_1933_review_2026-09-04.md
+          if git diff --cached --quiet; then
+            echo 'No changes'
+          else
+            git commit -m 'Group DBNL 1921-1933 evidence by published unit'
+            git pull --rebase origin main
+            git push origin main
+          fi
