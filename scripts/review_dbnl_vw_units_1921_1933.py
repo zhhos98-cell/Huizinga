@@ -48,11 +48,14 @@ def main():
         '# DBNL collected works — unit-level 1921–1933 review pass — 2026-09-04','',
         'Purpose: second-pass human review aid after the complete nine-volume TEI traversal. This pass groups high-recall candidate blocks by published work / division, giving priority to units explicitly dated 1921–1933 and a bounded set of article-relevant units whose DBNL division title does not carry the date. It is not a new generic thematic sweep.','',
         f'- candidate rows loaded: **{len(rows):,}**',
-        f'- bounded published units surfaced: **{len(ranked):,}**','',
+        f'- bounded published units surfaced: **{len(ranked):,}**',
+        f'- bounded published units emitted: **{len(ranked):,}** (no rank truncation)','',
         'Review rule: a unit earns Draft 04 prose only if its internal sequence changes an existing premise, mechanism, chronology, counterevidence, or disciplinary boundary. A high lexical score alone is not sufficient.',''
     ]
 
-    for load,(file,title),rs,sums,combo,actorrel in ranked[:70]:
+    # Emit every bounded unit. The previous ranked[:70] cap silently omitted the
+    # lower-ranked tail from the human-review aid even though all XML had been parsed.
+    for load,(file,title),rs,sums,combo,actorrel in ranked:
         md += [f'## {file} — {title or "[untitled division]"}', '',
                f'`unit_load={load}; blocks={len(rs)}; primitive={sums["primitive"]}; actors={sums["actors"]}; discipline={sums["discipline"]}; relations={sums["relations"]}; places={sums["places"]}; play={sums["play"]}; combo_blocks={combo}; actor_relation_blocks={actorrel}`','']
         # Prefer mixed-function blocks; then score. De-duplicate page/text beginnings.
@@ -72,7 +75,7 @@ def main():
             if shown >= 7: break
 
     OUT.write_text('\n'.join(md), encoding='utf-8')
-    print(f'rows={len(rows)} units={len(ranked)} report={OUT}')
+    print(f'rows={len(rows)} units={len(ranked)} emitted={len(ranked)} report={OUT}')
 
 if __name__ == '__main__':
     main()
