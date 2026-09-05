@@ -67,24 +67,68 @@ Article / agent rule:
 
 Source control: Anton van der Lem, *Kalendarium van gebeurtenissen in het leven van Johan Huizinga* (Leiden University Libraries digital calendar), March 1930 entry.
 
+## America materials: H.A. 28 is now a secure family locator, not yet a chunk-level mapping
+
+The America branch can now be narrowed materially without overclaiming the exact article-used pages.
+
+Huizinga Online's calendar repeatedly assigns America teaching/material to **H.A. 28 / HUI 28**: the 1920 entry flags `[H.A. 28: herdenking 300 j. Mayflower ...]`, the 1925–26 America course is cited as `[H.A. 28]`, and the 18 September 1940 lecture entry reads `coll. 1: Amerika [HUI 28]`. This makes H.A. 28 a secure **America-family locator**.
+
+A stronger subunit control comes from Thor Rydin's direct use of the Leiden Huizinga Archive. Rydin quotes the wartime-America note `Juist nu niets belangrijker dan Amerika. [...] In ieder geval geweldige invloed te wachten. En wat weten wij ervan?` as **`HA: 28 III 7`**. This proves that at least one concrete America research-note unit sits at H.A. 28 III 7.
+
+This still does **not** identify the article-used `review/chunk_018:p0198–p0238` card montage/synthetic prose, or `review/chunk_019:p0031` itinerary, with H.A. 28 III 7. An exact phrase search against the currently exposed `chunk_018` OCR did not recover Rydin's quoted sentence; the article-used material also includes later/other American research layers. Therefore:
+
+- **H.A. 28 = SECURE family-level locator for Huizinga's America materials**;
+- **H.A. 28 III 7 = SECURE item/subunit locator for the specific Rydin-quoted America note**;
+- mapping either `chunk_018:p0198–p0238` or `chunk_019:p0031` to H.A. 28 III 7 remains **UNCONTROLLED** until page/object identity is established;
+- article notes must not collapse family-level provenance into an exact shelfmark.
+
+Source control: Huizinga Online, *Kalendarium* entries for 1920, 1925–26 and 18 September 1940; Thor Rydin, *The Works and Times of Johan Huizinga (1872–1945): Writing History in the Age of Collapse* (Amsterdam University Press, 2024), chapter 4, p. 147 n. 9, citing `HA: 28 III 7`.
+
+## `Trois esprits`: HUI 31 / HUI 32 removed from the candidate pool
+
+The Wikimedia Commons mirror exposes machine-titled Leiden objects under nearby formal numbers, including `HUI 31 I 1`, `HUI 31 III 2.1`, `HUI 31 III 3.2`, `HUI 32 II 2` and `HUI 32 II 4.2`. Their filenames and persistent Leiden item IDs are useful retrieval handles, but the Commons metadata do not supply human content titles.
+
+The *Kalendarium* now gives a substantive negative control against using those numbers as convenient candidates for the 1930 `Trois esprits prégothiques` packet:
+
+- **H.A. 31** is used for the `Restauratie` course (`coll. 19: Restauratie ... [H.A. 31]`);
+- **H.A. 32** is used for `Duitsche Rijk 1648–1688` and later `Europa politiek rond 1700` course material.
+
+Accordingly, nearby-number reasoning from the securely mapped H.A. 29 II.1 lecture manuscript is invalid. HUI 31/32 objects are **not admissible `Trois esprits` candidates merely by numerical/chronological adjacency**. Reintroduce a HUI 31/32 subitem only if an exact-title catalogue description or direct page-level visual identity independently proves the match.
+
+The identity of the `chunk_002` packet itself remains secure on internal scan evidence: its title card/manuscript identifies `Trois esprits prégothiques < Paris 1930 >`, and Huizinga's later published account says that in spring 1930 he assembled three Paris lectures under that title around Abaelard, John of Salisbury and Alanus of Lille. What remains unresolved is only the **formal Leiden shelfmark**.
+
+## Source-resolution method to reuse
+
+The repository already contains a strict precedent in `review/chunk_071/SOURCE_RESOLUTION_V2.md`: a Commons `HUI` PDF was accepted only after resolving the exact Leiden/Commons object and visually comparing source pages against repository OCR pages. Apply the same standard here.
+
+For unresolved Leiden mappings, the preferred order is therefore:
+
+1. recover an exact-title inventory or collection-guide description if possible;
+2. otherwise identify a plausible Commons `HUI` object from item-level metadata;
+3. compare actual source pages against the repository chunk at page level;
+4. only then promote a chunk coordinate to a formal HUI/H.A. shelfmark.
+
+Machine filenames, date proximity, inventory-number adjacency and thematic plausibility alone earn no mapping credit.
+
 ## Still unresolved: do not guess
 
 The following article-used internal coordinates still lack a secure formal inventory mapping in the present control:
 
 1. **Renaissance packet** — `review/chunk_028:p0183`, currently part of [^3]. No. 34 II does not cover this separate item.
-2. **American travel/research cards and comparative prose** — `review/chunk_018:p0198–p0238`, [^8]. Do not equate these automatically with other inventory items for Huizinga's American lectures or sent `American notes`.
-3. **`Trois esprits prégothiques` manuscript** — `review/chunk_002`, ms. pp. 31–35, [^9]. The 1930 Paris lecture chronology is secure; the calendar's `[H.A. 1, inv.p. 10]` is an event-level locator, not yet a manuscript shelfmark.
+2. **American travel/research cards and comparative prose** — `review/chunk_018:p0198–p0238`, [^8]. H.A. 28 is now a secure America-family locator, but the exact H.A. 28 subunit for these pages remains unresolved.
+3. **`Trois esprits prégothiques` manuscript** — `review/chunk_002`, ms. pp. 31–35, [^9]. The 1930 Paris lecture identity/chronology is secure; `[H.A. 1, inv.p. 10]` is event-level, and HUI 31/32 are not admissible adjacency guesses.
 4. **History/science working cards** — `review/chunk_020:p0201–p0204`, part of [^11]. These are distinct from the formal `Aperçu` manuscript no. 29 II.1.
-5. **American itinerary** — `review/chunk_019:p0031`, part of [^2]. The Rockefeller report now has its own exact RAC locator, but the Leiden itinerary page still needs a formal Huizinga-archive mapping if publication requires one.
+5. **American itinerary** — `review/chunk_019:p0031`, part of [^2]. The Rockefeller report now has its own exact RAC locator; H.A. 28 is the relevant Leiden family, but the exact subunit remains unresolved.
+6. **`Ridderspelen als beleving der Feodaltijd`** — `review/chunk_013:p0142`. The mounted-slip title is scan-secure, but no formal Huizinga-archive unit is yet controlled.
 
 Internal chunk coordinates should remain in the working draft until their formal mapping is found; they preserve auditability and are preferable to an invented shelfmark.
 
 ## Draft-facing decision
 
-Patch only [^3], [^10] and [^11]:
+Patch only [^3], [^10] and [^11] on the basis of secure exact mappings already recovered:
 
 - [^3] gains `Huizinga archive, no. 34 II` for Indian medicine while leaving the Renaissance packet separately unresolved;
 - [^10] gains `Huizinga archive, no. 27, esp. env. Iconographie`;
 - [^11] is split conceptually inside the note: the 1930 French lecture is no. 29 II.1, while the separate history/science working cards retain their internal page pointer and an explicit unresolved formal mapping.
 
-No body prose changes are warranted by this locator pass.
+The H.A. 28 family/subunit finding and the `Trois` negative controls do **not** yet warrant a Draft 04 body or footnote shelfmark patch. They narrow the search and prevent false precision.
