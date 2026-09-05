@@ -1,0 +1,103 @@
+name: Fetch DBNL Huizinga collected works XML
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fetch_dbnl_xml.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Fetch DBNL TEI XML files
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='sources/dbnl/verzamelde_werken'
+          mkdir -p "$out"
+
+          fetch_one() {
+            local id="$1"
+            local file="$2"
+            local url="https://www.dbnl.org/nieuws/xml.php?id=${id}"
+            echo "Fetching ${id} -> ${file}"
+            curl -fL --retry 4 --retry-delay 2 \
+              -A 'Mozilla/5.0 (compatible; HuizingaResearchBackup/1.0)' \
+              "$url" -o "$out/$file"
+          }
+
+          fetch_one huiz003verz02 huiz003verz02_01.xml
+          fetch_one huiz003verz03 huiz003verz03_01.xml
+          fetch_one huiz003verz04 huiz003verz04_01.xml
+          fetch_one huiz003verz05 huiz003verz05_01.xml
+          fetch_one huiz003verz06 huiz003verz06_01.xml
+          fetch_one huiz003verz07 huiz003verz07_01.xml
+          fetch_one huiz003gesc03 huiz003gesc03_01.xml
+          fetch_one huiz003verz08 huiz003verz08_01.xml
+          fetch_one huiz003verz09 huiz003verz09_01.xml
+
+      - name: Validate XML and write provenance
+        shell: bash
+        run: |
+          set -euo pipefail
+          out='sources/dbnl/verzamelde_werken'
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          root = Path('sources/dbnl/verzamelde_werken')
+          files = sorted(root.glob('*.xml'))
+          if len(files) != 9:
+              raise SystemExit(f'expected 9 XML files, found {len(files)}')
+          for p in files:
+              if p.stat().st_size < 100_000:
+                  raise SystemExit(f'{p} suspiciously small: {p.stat().st_size} bytes')
+              ET.parse(p)
+              print(f'validated {p.name}: {p.stat().st_size} bytes')
+          PY
+
+          (cd "$out" && sha256sum *.xml > SHA256SUMS.txt)
+          cat > "$out/README.md" <<'EOF'
+          # Johan Huizinga — Verzamelde werken (DBNL TEI XML)
+
+          Fresh mirror retrieved from DBNL on 2026-09-04.
+
+          DBNL collection: Johan Huizinga, *Verzamelde werken* (1948–1953), ed. L. Brummel, nine volumes.
+
+          Download pattern: `https://www.dbnl.org/nieuws/xml.php?id=<dbnl-title-id>`.
+
+          Files are preserved as DBNL TEI XML without textual normalization. `SHA256SUMS.txt` records the fetched-byte checksums.
+
+          Title IDs / local files:
+
+          - `huiz003verz02` → `huiz003verz02_01.xml` — Deel 1, Oud-Indië. Nederland
+          - `huiz003verz03` → `huiz003verz03_01.xml` — Deel 2, Nederland
+          - `huiz003verz04` → `huiz003verz04_01.xml` — Deel 3, Cultuurgeschiedenis 1
+          - `huiz003verz05` → `huiz003verz05_01.xml` — Deel 4, Cultuurgeschiedenis 2
+          - `huiz003verz06` → `huiz003verz06_01.xml` — Deel 5, Cultuurgeschiedenis 3
+          - `huiz003verz07` → `huiz003verz07_01.xml` — Deel 6, Biografie
+          - `huiz003gesc03` → `huiz003gesc03_01.xml` — Deel 7, Geschiedwetenschap. Hedendaagsche cultuur
+          - `huiz003verz08` → `huiz003verz08_01.xml` — Deel 8, Universiteit, wetenschap en kunst
+          - `huiz003verz09` → `huiz003verz09_01.xml` — Deel 9, Bibliografie en registers
+          EOF
+
+      - name: Commit mirror
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/dbnl/verzamelde_werken
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Mirror DBNL Huizinga Verzamelde Werken XML'
+          git push
