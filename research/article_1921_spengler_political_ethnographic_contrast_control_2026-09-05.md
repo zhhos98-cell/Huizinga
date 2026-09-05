@@ -6,7 +6,7 @@ Purpose: supplement `article_1921_wells_spengler_opening_control_2026-09-04.md` 
 
 Johan Huizinga, `Twee worstelaars met den engel`, *De Gids* 85 (1921), reviewing H. G. Wells and Oswald Spengler; reprinted in *Verzamelde Werken* IV, DBNL TEI `sources/dbnl/verzamelde_werken/huiz003verz05_01.xml`, VW p. 461.
 
-The deterministic DBNL priority review preserves the relevant paragraph in `research/article_dbnl_vw_priority_units_review_2026-09-04.md`.
+The deterministic DBNL priority review preserves the relevant paragraph in the now-frozen `archive/research_runs/dbnl/article_dbnl_vw_priority_units_review_2026-09-04.md`.
 
 ## Controlled passage
 
