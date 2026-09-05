@@ -40,6 +40,18 @@ This establishes **pre-1931 museum-centre/reorganization context**. It does not 
 
 Source: https://www.dbnl.org/tekst/_gid001191201_01/_gid001191201_01_0078.php
 
+### 3.1 Phrase-level antecedent: Kern, 1883
+
+The civilizational question itself has a still earlier Leiden/Dutch-colonial history. Hendrik Kern's 1883 lecture for the Amsterdam Colonial Exhibition was published as:
+
+*Over den invloed der Indische, Arabische en Europeesche beschaving op de volken van den Indischen archipel: Als bijdrage ter beantwoording der vraag, in hoeverre het Maleisch-Polynesische ras voor hoogere beschaving vatbaar is* (Leiden: E. J. Brill, 1883).
+
+The phrase `voor hoogere beschaving vatbaar` is therefore not peculiar to van Bergen's 1913 summary or to Nieuwenhuis. It names an older colonial-ethnological question concerning the developmental capacity of populations of the archipelago.
+
+Evidence level: **BODY / SECURE as a phrase-level antecedent; NO DIRECT TRANSMISSION CLAIM.** The present evidence does not show that Nieuwenhuis copied, cited, or consciously revived Kern's 1883 wording in the annex. Its value is genealogical calibration: by 1913 Nieuwenhuis was working inside a question that had already been posed in substantially the same civilizational vocabulary decades earlier.
+
+Bibliographic control: Google Books / Brill catalogue record for Kern's 1883 lecture; see also the table of contents of *Wetenschappelijke voordrachten gehouden te Amsterdam in 1883, ter gelegenheid der Koloniale Tentoonstelling*.
+
 ## 4. Independent 1913 Nieuwenhuis programme: objects -> capacities
 
 A. W. Nieuwenhuis published in 1913:
@@ -67,7 +79,7 @@ Secure proposition:
 
 > By 1913 Nieuwenhuis was already articulating a Leiden ethnological programme in which material/industrial products could be used to infer collective mental capacities, with an explicitly civilizational and colonial practical horizon; van Bergen independently documents a 1913 annex to a same-titled Centre/museum-reorganization memorandum in Nieuwenhuis's archive.
 
-The conjunction rests on van Bergen's archival citation plus independent 1912 institutional context and Nieuwenhuis's independently bibliographed 1913 *Die Veranlagung* programme.
+The conjunction rests on van Bergen's archival citation plus independent 1912 institutional context and Nieuwenhuis's independently bibliographed 1913 *Die Veranlagung* programme. Kern's 1883 wording separately shows that the question of whether the archipelago's populations were `voor hoogere beschaving vatbaar` already belonged to an older colonial-ethnological vocabulary; no direct Kern -> Nieuwenhuis transmission is asserted.
 
 ### 1931 reuse / textual identity
 
@@ -110,6 +122,8 @@ Reopen this branch only if one of the following becomes available:
 Generic searches on the memorandum title, publication year, or museum reorganization are no longer sufficient to promote the reuse claim.
 
 ## Current status
+
+`1883_KERN_HIGHER_CIVILIZATION_PHRASE = BODY / SECURE AS PHRASE-LEVEL ANTECEDENT / NO TRANSMISSION CLAIM`
 
 `1913_NIEUWENHUIS_PROGRAMME = BODY / SECURE`
 
