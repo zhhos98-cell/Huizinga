@@ -5,6 +5,9 @@ on:
   push:
     paths:
       - '.github/workflows/scan_dbnl_vw_article.yml'
+      - 'scripts/scan_dbnl_vw_article.py'
+      - 'scripts/review_dbnl_vw_units_1921_1933.py'
+      - 'sources/dbnl/verzamelde_werken/*.xml'
 
 permissions:
   contents: write
@@ -18,11 +21,15 @@ jobs:
           fetch-depth: 0
       - name: Traverse nine DBNL TEI volumes
         run: python scripts/scan_dbnl_vw_article.py
-      - name: Commit deterministic traversal outputs
+      - name: Emit all bounded 1921-1933 published units
+        run: python scripts/review_dbnl_vw_units_1921_1933.py
+      - name: Commit deterministic traversal and bounded-unit outputs
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add analysis/dbnl_vw_article_candidates_2026-09-04.tsv research/article_dbnl_verzamelde_werken_integration_2026-09-04.md
+          git add analysis/dbnl_vw_article_candidates_2026-09-04.tsv \
+                  research/article_dbnl_verzamelde_werken_integration_2026-09-04.md \
+                  research/article_dbnl_vw_units_1921_1933_review_2026-09-04.md
           if git diff --cached --quiet; then
             echo 'No changes'
           else
