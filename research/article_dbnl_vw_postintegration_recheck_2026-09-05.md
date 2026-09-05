@@ -1,6 +1,6 @@
 # DBNL Verzamelde Werken post-integration recheck — 2026-09-05
 
-Purpose: record decisions from the second human pass over `research/article_dbnl_vw_priority_units_review_2026-09-04.md` after the original integration-decisions file had already been acted on. This prevents later agents from repeating the priority-unit sweep or mistaking newly retained controls for unreviewed hits.
+Purpose: record decisions from the second human pass over the now-frozen `archive/research_runs/dbnl/article_dbnl_vw_priority_units_review_2026-09-04.md` after the original integration-decisions file had already been acted on. This prevents later agents from repeating the priority-unit sweep or mistaking newly retained controls for unreviewed hits.
 
 ## Scope
 
