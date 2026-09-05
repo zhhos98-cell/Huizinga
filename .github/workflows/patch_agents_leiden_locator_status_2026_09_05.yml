@@ -1,0 +1,42 @@
+name: Patch AGENTS Leiden locator status
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_agents_leiden_locator_status_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard AGENTS against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object AGENTS.md)" = "01753bcc23c78bc3de2fc974ae9e8a1fd10e95a7"
+      - name: Add Leiden archive mapping status only
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('AGENTS.md')
+          s = p.read_text()
+          anchor = "Resolve these at publication QA stage or when a sentence specifically depends on them."
+          addition = """Leiden archive locators must be distinguished from repository audit pointers. `review/chunk_*` is an internal digital-corpus coordinate, **not** a Leiden shelfmark. Three Draft 04 mappings are now source-controlled: Indian medicine = Huizinga archive no. **34 II** (`Oldindian medicine`); Philip/Burgundian material = no. **27**, with the 1929 portrait-photograph sequence in `env. Iconographie`; the 18 March 1930 French lecture `Aperçu de la civilisation hollandaise du XVIIe siècle` = no. **29 II.1**. See `research/article_leiden_archive_locator_mapping_2026-09-05.md`. Do not extend those numbers to adjacent chunk material. Formal inventory mapping remains unresolved for the separate Renaissance packet `chunk_028:p0183`, American cards/prose `chunk_018:p0198–p0238`, the `Trois esprits prégothiques` manuscript in `chunk_002`, the history/science cards `chunk_020:p0201–p0204`, and the Leiden American itinerary `chunk_019:p0031`. Keep the internal pointer until a formal mapping is recovered; never guess from neighboring H.A. numbers.\n\n""" + anchor
+          assert s.count(anchor) == 1, s.count(anchor)
+          s = s.replace(anchor, addition)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add AGENTS.md
+          git commit -m 'Record Leiden archive locator status'
+          git pull --rebase origin main
+          git push origin HEAD:main
