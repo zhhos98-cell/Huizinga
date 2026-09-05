@@ -6,7 +6,7 @@ Purpose: recover a load-bearing methodological passage from the same 6 November 
 
 Johan Huizinga, `Renaissance en Nieuwe Tijd`, Amsterdam lecture delivered 6 November 1933, published in *Neophilologus* 19 (1934), reprinted in *Verzamelde Werken* IV, DBNL TEI `sources/dbnl/verzamelde_werken/huiz003verz05_01.xml`, VW p. 341.
 
-Recovered in `research/article_dbnl_vw_priority_units_review_2026-09-04.md`.
+Recovered in the now-frozen priority review at `archive/research_runs/dbnl/article_dbnl_vw_priority_units_review_2026-09-04.md`.
 
 ## Controlled passage
 
