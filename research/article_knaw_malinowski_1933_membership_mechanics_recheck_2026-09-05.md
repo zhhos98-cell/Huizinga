@@ -95,6 +95,20 @@ https://opendata.archieven.nl/dataset/91E9B3FC80E9426593D3EF6C4C80DF8F
 
 A separate 2025 scholarly provenance citation to `NL-HlmNHA, KNAW te Amsterdam, 64, inv.no. 390` for a 22 February 1933 Natural Sciences letter confirms that 1933 material is represented at item level in toegang 64, but **inv.no. 390 does not localize Malinowski's Letterkunde candidature and must not be reused as a membership locator**.
 
+## Huizinga's institutional office: presidency does not dissolve the disciplinary limit
+
+A separate control sharpens the meaning of the 23 May letter without supplying the missing nomination mechanics. The editors' foreword to *Briefwisseling*, deel II (1925–1933), states that Huizinga's membership of the KNAW Afdeeling Letterkunde was crowned on **11 November 1929** by his appointment as **voorzitter van de afdeling**. Huizinga Online independently gives the same date and lists him as president/chair of the Department of Literature from **1929 to 1942**.
+
+Controls:
+- *Briefwisseling*, deel II (1925–1933), `Woord vooraf`: https://upload.wikimedia.org/wikipedia/commons/b/b9/Briefwisseling%2C_Deel_II_1925-1933%2C_DigUBL.pdf
+- Huizinga Online, `Leven | Life`: https://huizinga-online.nl/leven-life/
+
+Status: **BODY / SECURE for institutional office and date.**
+
+This changes the article-facing interpretation of `Being no anthropologist I refrained from taking a leading part in your candidature`. In May 1933 Huizinga was not institutionally peripheral to the Academy: he was already president of its Section/Department of Literature. His stated non-leadership therefore cannot be explained simply by distance from the institution. The controlled contrast is narrower and more useful: **institutional office coexisted with an explicitly disciplinary reason for self-limitation**. This directly supports the article's existing definition of outsiderhood as a limit on disciplinary leadership/authority rather than withdrawal, ignorance, or lack of institutional proximity.
+
+Do not infer from the presidency that Huizinga formally controlled the candidature, chaired the relevant vote, nominated Malinowski, or possessed sole authority over foreign membership. Those mechanics remain unresolved in toegang 64. The presidency sharpens the meaning of Huizinga's own `refrained`; it does not fill the procedural gap.
+
 ## Current decision
 
 **PARTIAL CLOSURE.**
@@ -106,7 +120,8 @@ Secure:
 - Malinowski became a KNAW foreign member in 1933;
 - Locher later remembered Huizinga as causally important to the membership;
 - the relevant pre-1940 institutional archive is now located at Noord-Hollands Archief, toegang 64;
-- toegang 64 has a current public CC0 EAD inventory with 852 placement-list numbers.
+- toegang 64 has a current public CC0 EAD inventory with 852 placement-list numbers;
+- Huizinga had been president of the KNAW Afdeeling Letterkunde since 11 November 1929, so his May 1933 refusal of a leading role occurred from institutional office rather than institutional distance.
 
 Still unresolved:
 
@@ -121,5 +136,7 @@ The next primary control is now **item-level retrieval within Noord-Hollands Arc
 ## Draft rule
 
 Do not strengthen current prose to `Huizinga nominated Malinowski`, `Huizinga secured his election`, or Locher's later agency formulation. The contemporaneous first-person sentence is stronger precisely because it documents supportive action and self-limitation at the same time.
+
+Draft 04 may now state, with source control, that Huizinga was president of the Academy's Afdeeling Letterkunde when he wrote the 23 May sentence. Use that fact to distinguish institutional office from disciplinary authority; do not use it to infer the missing candidature procedure.
 
 Do not reopen broad web searches for generic `Malinowski + KNAW`. Reopen only if a source exposes one of the missing procedural objects: the 1933 nomination/candidature paper, Afdeeling Letterkunde minutes, Academy election minutes, or an archival inventory/file reference within toegang 64 that points directly to them.
