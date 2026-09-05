@@ -1,0 +1,47 @@
+name: Patch Draft 04 thirty-fifth pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_thirtyfifth_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "09dee1de4c6dbfcd7d6fd375f31627789a3404ae"
+      - name: Add formal Leiden archive locators where secure
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old3 = "[^3]: Huizinga papers, Indian medicine/Sanskrit materials, `review/chunk_025`, `review/chunk_026:p0029–p0033`; Renaissance packet, `review/chunk_028:p0183`. These occurrences establish lexical range: *primitief* modifies different objects in the surviving files."
+          new3 = "[^3]: Leiden University Libraries, Huizinga archive, no. 34 II (`Oldindian medicine`), internally audited at `review/chunk_025` and `review/chunk_026:p0029–p0033`; separate Renaissance packet, `review/chunk_028:p0183`, whose formal inventory mapping remains to be restored. These occurrences establish lexical range: *primitief* modifies different objects in the surviving files."
+          old10 = "[^10]: Leiden University Libraries, Huizinga papers, Philip the Good dossier, `review/chunk_017`. Portrait copies, photographs, transmission history and newly recovered autograph letters show the source checks that remained active while Huizinga was reading Malinowski."
+          new10 = "[^10]: Leiden University Libraries, Huizinga archive, no. 27 (`Bourgondische cultuur`), especially `env. Iconographie`; internal audit `review/chunk_017`. Huizinga Online's calendar locates his 23 November 1929 orders for photographs of Philip the Good portraits in Lille, Gotha, Madrid, Antwerp and Paris in this envelope. Portrait copies, photographs, transmission history and newly recovered autograph letters show the source checks that remained active while Huizinga was reading Malinowski."
+          old11 = "[^11]: Huizinga papers, seventeenth-century Dutch-civilization lectures and history/science notes, `review/chunk_020`."
+          new11 = "[^11]: Leiden University Libraries, Huizinga archive, no. 29 II.1, Johan Huizinga, `Aperçu de la civilisation hollandaise du XVIIe siècle` (18 March 1930), a 122-folio manuscript; internal audit `review/chunk_020:p0001–p0115`, especially p0011–p0012. The separate history/science working cards cited above are internally audited at `review/chunk_020:p0201–p0204`; the chunk has become a heterogeneous mounted-card zone by that point, and their formal Leiden inventory mapping has not yet been restored."
+          for old in (old3, old10, old11):
+              assert s.count(old) == 1, (old[:40], s.count(old))
+          s = s.replace(old3, new3).replace(old10, new10).replace(old11, new11)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Add formal Leiden archive locators'
+          git pull --rebase origin main
+          git push origin HEAD:main
