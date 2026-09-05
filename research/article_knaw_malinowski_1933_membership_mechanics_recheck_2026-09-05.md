@@ -86,7 +86,7 @@ Official controls:
 
 ### Current open-data control for toegang 64
 
-Noord-Hollands Archief's current OpenData Archieven record makes the remaining locator problem materially narrower. Dataset GUID `91E9B3FC80E9426593D3EF6C4C80DF8F` is the archive `Koninklijke Nederlandse Akademie van Wetenschappen (KNAW) te Amsterdam`, toegangscode **64**, covering **(1838) 1851–1940 (1954)**. The dataset is marked **openbaar**, released under **CC0**, and was last modified **6 July 2026**. Its scope is **23.75 metres** and the placement list contains **numbers 1–852**; the record notes that 418 and 420 are missing with their material incorporated into 419, 494 is incorporated into 466, and 522 points to 192.
+Noord-Hollands Archief's current OpenData Archieven record makes the remaining locator problem materially narrower. Dataset GUID `91E9B3FC80E9426593D3EF6C4C80DF8F` is the archive `Koninklijke Nederlandse Akademie van Wetenschappen (KNAW) te Amsterdam`, toegangscode **64**, covering **(1838) 1851–1940 (1954)**. The dataset is marked **openbaar** and released under **CC0**. A direct check of the permanent OpenData page on 5 September 2026 displays `Laatst gewijzigd` as **14 July 2024**; this corrects an earlier search-result parse that had supplied 6 July 2026. Its scope is **23.75 metres** and the placement list contains **numbers 1–852**; the record notes that 418 and 420 are missing with their material incorporated into 419, 494 is incorporated into 466, and 522 points to 192.
 
 The dataset explicitly exposes a **Download XML (EAD)** representation. That means the unresolved 1933 problem is no longer whether an online/current inventory exists; it is an **item-level indexing/retrieval problem inside a known 852-number EAD inventory**. In this bounded pass the XML body itself could not be retrieved through the available web client, so no inventory number was inferred from surrounding numbers or from later KNAW inventories.
 
@@ -94,6 +94,16 @@ Permanent OpenData record:
 https://opendata.archieven.nl/dataset/91E9B3FC80E9426593D3EF6C4C80DF8F
 
 A separate 2025 scholarly provenance citation to `NL-HlmNHA, KNAW te Amsterdam, 64, inv.no. 390` for a 22 February 1933 Natural Sciences letter confirms that 1933 material is represented at item level in toegang 64, but **inv.no. 390 does not localize Malinowski's Letterkunde candidature and must not be reused as a membership locator**.
+
+### First item-level membership locator recovered: inv. 569
+
+A published archival citation supplies the first directly relevant membership-file locator inside toegang 64: **inv. nr. 569, `Benoemingen van leden van de afdeling letterkunde 1855–1940`**. The citation appears in archival scholarship that also identifies **inv. nr. 19** as `Notulenboek van de afdeling letterkunde (II), maart 1863 – december 1878`.
+
+Control source: *Studien zur Geschichte und Kultur Nordwesteuropas* (Waxmann preview), p. 76, notes 124–125: https://api.pageplace.de/preview/DT0400.9783830980957_A25037839/preview-9783830980957_A25037839.pdf
+
+Status of inv. 569: **PRIORITY LOCATOR / PARTIAL**. Its title and 1855–1940 date span make it a direct place to inspect for the 1933 candidature, but the cited description says only `leden`. The dossier itself has not yet been inspected, so do **not** infer that it includes foreign members, Malinowski, the nomination paper, or the vote. The immediate archive query is now: inspect inv. 569 for `Malinowski`, 1933, `buitenlandsch/uitlandsch lid`, candidature, signatories, recommendation, and appointment. If foreign members are excluded, use its series context to identify the corresponding foreign-member file.
+
+Inv. 19 is useful only as evidence that Letterkunde minutes are a numbered volume series. It does not justify guessing the inventory number of the volume covering 1933.
 
 ## Huizinga's institutional office: presidency does not dissolve the disciplinary limit
 
@@ -121,6 +131,7 @@ Secure:
 - Locher later remembered Huizinga as causally important to the membership;
 - the relevant pre-1940 institutional archive is now located at Noord-Hollands Archief, toegang 64;
 - toegang 64 has a current public CC0 EAD inventory with 852 placement-list numbers;
+- a directly relevant membership-file locator is now known: toegang 64, inv. 569, `Benoemingen van leden van de afdeling letterkunde 1855–1940`; its coverage of foreign members/Malinowski remains to be verified from the dossier;
 - Huizinga had been president of the KNAW Afdeeling Letterkunde since 11 November 1929, so his May 1933 refusal of a leading role occurred from institutional office rather than institutional distance.
 
 Still unresolved:
@@ -129,9 +140,10 @@ Still unresolved:
 - who formally led the candidature;
 - exact division meeting and vote/election date;
 - procedural distinction, if any, between proposal, election, and formal appointment;
-- exact inventory number(s) for the 1933 membership/minutes material within toegang 64.
+- whether inv. 569 contains Malinowski's foreign-member candidature/appointment material or only another class of `leden`;
+- exact inventory number for the Letterkunde minutes covering May–June 1933 and any separate nomination/`voordracht` file.
 
-The next primary control is now **item-level retrieval within Noord-Hollands Archief, toegang 64**, rather than a generic archive-level search. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
+The next primary control is now **inspection of Noord-Hollands Archief, toegang 64, inv. 569**, followed by identification of the 1933 Letterkunde minutes volume if inv. 569 does not itself settle the mechanics. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
 
 ## Draft rule
 
