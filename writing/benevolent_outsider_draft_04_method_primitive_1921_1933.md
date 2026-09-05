@@ -137,7 +137,7 @@ Leiden had already given this waning an institutional form. Shared questions cou
 
 [^12]: Huizinga to Malinowski, 19 July 1931. Two days earlier Van Vollenhoven told Huizinga that the paper had already been shown locally, including to Van Eerde, revised, and proposed for another reading by Snouck Hurgronje; the 19 July letter followed visits to Leiden by Van Sickle and Kittredge. Correspondence items [897]–[898]. According to the correspondence apparatus, the packet comprised Huizinga’s seven-page signed memorandum and a two-page signed annex by A. W. Nieuwenhuis. The proposal reaching Malinowski was already a collaboratively revised Leiden object.
 
-[^13]: A. W. Nieuwenhuis, ‘Ethnographical objects as data for psychological research about primitive or semi-cultured races’, annex to Leiden Centre memorandum, July 1931.
+[^13]: A. W. Nieuwenhuis, ‘Ethnographical objects as data for psychological research about primitive or semi-cultured races’, annex to Leiden Centre memorandum, July 1931. Van Bergen (2009: 53), citing Nieuwenhuis papers at Leiden, reports that in 1913 Nieuwenhuis wrote an annex to a memorandum with the same Centre/museum-reorganization title and describes the same object-to-mental-capacity and `voor hoogere beschaving vatbaar` programme. His 1913 *Die Veranlagung der malaiischen Völker des ost-indischen Archipels, erläutert an ihren industriellen Erzeugnissen* independently confirms the contemporary programme of inferring collective capacities from material products. Whether the two-page annex circulated in 1931 was a copy, revision or reuse of the 1913 text is not yet established; the two archival objects have not been directly compared. Van Bergen’s note prints the archive siglum as `DPL 2591: F9N`; current Leiden University Libraries holdings identify the Anton Willem Nieuwenhuis archive as BPL 2591/3321.
 
 [^14]: Malinowski to Huizinga, 30 July 1931, correspondence item [902]. ‘Window-dressing’ was already Malinowski’s tactical language in this letter: he said he would have made the sociological point of view more prominent, ‘be it only as a piece of window-dressing’. Huizinga echoed the phrase on 12 August, then softened it to ‘or rather of a draft on the future’. The exchange shows both men negotiating how far a prospective programme could be stated.
 
@@ -212,6 +212,8 @@ Malinowski, B. (1926b) *Myth in Primitive Psychology*. London: Kegan Paul, Trenc
 
 Morgan, P. D. (2025) ‘The (non-)Globalisation of Ideas Revisited’, *Global Intellectual History*, published online 3 August. doi:10.1080/23801883.2025.2540961.
 
+Nieuwenhuis, A. W. (1913) *Die Veranlagung der malaiischen Völker des ost-indischen Archipels, erläutert an ihren industriellen Erzeugnissen*. *Internationales Archiv für Ethnographie*, Supplement zu Bd. 21. Leiden: E. J. Brill.
+
 Pels, P. (2022) ‘Classification revisited: On time, methodology and position in decolonizing anthropology’, *Anthropological Theory* 22(1): 78–101.
 
 Rydin, T. (2024) *The Works and Times of Johan Huizinga (1872–1945): Writing History in the Age of Collapse*. Amsterdam: Amsterdam University Press.
@@ -223,6 +225,8 @@ Thornton, R. J. and Skalník, P. (eds) (1993) *The Early Writings of Bronislaw M
 Tilley, H. (2010) ‘Global histories, vernacular science, and African genealogies; or, Is the history of science ready for the world?’, *Isis* 101(1): 110–119.
 
 Vale, M. (2021) ‘Huizinga’s Autumntide: The centenary of a masterpiece’, *The English Historical Review* 136(580): 672–693.
+
+van Bergen, L. (2009) ‘De oprichting van de ‘Nederlandsche Vereeniging voor Tropische Geneeskunde’: een zaak van nationaal belang’, *Studium* 2: 92–104.
 
 van der Lem, A. (2019) ‘The Making of The Autumn of the Middle Ages II: The Eagle and His Pigeonholes: How Huizinga Organized His Sources’, in P. Arnade, M. Howell and A. van der Lem (eds), *Rereading Huizinga: Autumn of the Middle Ages, a Century Later*. Amsterdam: Amsterdam University Press, pp. 211–226.
 
