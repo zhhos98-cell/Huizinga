@@ -1,130 +1,182 @@
-# AGENTS.md — Huizinga repository operating instructions
+# AGENTS.md — Huizinga Article Research, Writing, and Editing Protocol
 
-This repository is a research corpus and article workspace built around Johan Huizinga, with the current article centered on Huizinga’s direct exchange with Bronisław Malinowski and the changing historical work of `primitive`, 1926–1933.
+This file is the persistent instruction set for ChatGPT, Codex, and other agents working in this repository. Read it before any article edit or research expansion. It records the user's established workflow and should prevent future model sessions from regenerating, flattening, or re-theorizing the project. Do not rewrite or shorten this file unless the user explicitly asks.
 
-The repository contains several layers at once:
+## 1. Canonical article and version control
 
-- Leiden archival OCR / scan review;
-- published Huizinga texts and DBNL TEI mirrors;
-- correspondence and pair-level chronology;
-- bounded research deltas;
-- article-facing evidence maps;
-- the canonical article draft.
-
-Do not treat all files as equivalent evidence. Preserve source status, chronology, and the distinction between direct pair evidence, internal method controls, institutional context, and later/parallel materials.
-
-## 1. Canonical article file
-
-The current canonical article is:
+The canonical prose draft is:
 
 `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`
 
-Do **not** create Draft 05 merely because you are making another pass. Update Draft 04 surgically unless the user explicitly requests a new version.
+Rules:
 
-The bilingual file:
+- **Never create Draft 05, Draft 06, or another parallel prose draft.**
+- All substantive prose edits patch Draft 04 directly.
+- `writing/benevolent_outsider_draft_04_bilingual_reading_companion.md` is a reading companion only. It mirrors the canonical English draft; it is not independently edited and should be synchronized only after canonical passages are stable.
+- Before every write, fetch the current blob/file SHA. Sequential edits to the same file must use the latest returned SHA.
+- Report the exact path, commit SHA, and the historical/conceptual effect of each meaningful edit.
 
-`writing/benevolent_outsider_draft_04_bilingual_reading_companion.md`
+## 2. Editing method: surgical patch, never regeneration
 
-is a reading companion only. Do not update it independently while the English canonical draft is still moving. Synchronize it only after a stable English checkpoint or explicit user request.
+- **Edit by surgical patch, not regeneration.** Intellectual diff must stay local even if an API technically transmits the whole file.
+- Preserve surrounding prose verbatim unless a specific local restructuring is necessary.
+- Do not rewrite a paragraph or section merely for flow, completeness, elegance, tone, balance, symmetry, or smoother transitions.
+- User annotations are local instructions. Fix the annotated place; do not use a comment as permission to rewrite its neighborhood.
+- Do not let model completion automatically add explanatory closure, roadmap sentences, paragraph-end verdicts, or balanced mini-essays.
+- Avoid the characteristic model tendency to compress a historical article back toward 3,000–4,000 words by summarizing event chains. If an event has several controlled actions, let the actions happen in the prose.
+- Growth should come from evidence and intellectual history, not generic exposition.
 
-## 2. Governing article problem
+Working maxim:
 
-The article is **not** an influence study in which Malinowski teaches Huizinga anthropology or functionalism.
+> The event must finish happening; it does not have to be explained to exhaustion.
 
-The central problem is the changing inferential work performed by `primitive` as questions, objects, books, methods, and institutional proposals move between anthropology and history.
+Or, in the user's formulation: **不是事情一定要解释完，而是事情得发生完。**
 
-Keep the core formulation precise:
+## 3. Source lock and evidentiary levels
 
-- `primitive` can classify or position an object, people, or form;
-- historically, it could also carry temporal inference — living difference could be made to stand for anteriority;
-- Malinowski’s ethnography often moved explanatory burden into reciprocity, obligation, public knowledge, practice, technical competence, kin relations, and other observed relations;
-- Huizinga repeatedly tested what such relations could bear when transported into historical comparison;
-- the category remained in use even when more of the proof moved outside the category itself.
+Factual expansion is source-locked to controlled material.
 
-Do not turn this into a story of disappearance. The article’s `waning` means a change in inferential force, not lexical extinction.
+A restored date, place, person, action, quotation, correspondence sequence, archival object, or causal link must come from one of the following:
 
-## 3. `Waning` is a second-order historical term
+1. the canonical draft or archived earlier drafts;
+2. repo evidence maps, scene calibration, research notes, correspondence controls, or primary-source transcriptions;
+3. newly verified external research that has first been recorded in a bounded repo research/control note.
 
-The article deliberately borrows Huizinga’s own language of waning from the 1919 preface to *Herfsttij*.
+Never fill a historical gap from model memory, general knowledge, plausibility, or stylistic completion.
 
-Use this carefully:
+Use three evidence levels:
 
-- Huizinga warns there against precursor history and against casting too much of the “shadow of death” over a period;
-- he also asks about the relation between historical forms and the content that rested within them;
-- the article uses `waning` reflexively to avoid writing `primitive` only as an obsolete precursor to later anthropology.
+- **BODY / SECURE** — source directly controlled; may carry narrative or argument.
+- **NOTE / PARTIAL** — relation or object secure but wording/content incomplete; use with exact qualification.
+- **QUARANTINE / UNCONTROLLED** — interesting lead whose body, context, identity, or locator is not yet secure; do not narrativize.
 
-`Herfsttij` supplies this self-reflexive vocabulary, but it is **not** proof that the late Middle Ages are an analogy for the history of `primitive`.
+When two sources conflict, preserve the discrepancy. Do not silently normalize dates, incipits, archive labels, or identities.
 
-## 4. Do not back-project the 1933 thesis into 1919
+### Critical inventory rule
 
-The 1919 first edition of *Herfsttij* is now a binding pre-contact control.
+**Absence from one public catalogue or inventory does not invalidate material independently controlled in another archive.** Record the source discrepancy first. Do not automatically delete or downgrade archive-controlled material because a public inventory omits it.
 
-It already:
+Specific example that must be remembered:
 
-- calls symbolic thought, from an ethnological standpoint, `een zeer primitieve geestesfunctie`;
-- describes `het primitieve denken` in terms of weakly differentiated identity boundaries and uses that model to explain medieval symbolism;
-- states that belief in `de werking van het gesproken woord` appears in its fullness in primitive culture and persists in late-medieval blessings, magical formulas, and legal formulas;
-- treats friendship and `mildheid` as historical/social forms before the Malinowski exchange.
+- **30 January 1933, Malinowski → Huizinga** is an **unpublished Yale archival letter already controlled in the direct-pair apparatus**. It discusses Malinowski's Dutch, a possible contribution to *De Gids*, and the possibility of beginning in Dutch and having Huizinga correct his style.
+- The public 2019 Huizinga correspondence inventory does not expose that item under 30 January. This is an **inventory-visibility discrepancy**, not grounds for deletion.
+- Keep the letter in Draft 04; publication QA still needs the exact Yale call/locator.
+- See `research/article_direct_pair_1933_01_30_yale_correction_2026-09-04.md`.
 
-Therefore do **not** write that Huizinga had already cleanly separated classification from explanation before Malinowski. In 1919 `primitive` could still perform explanatory work.
+## 4. External research
 
-The later story is one of tension and redistribution, not a straight-line discovery of relations.
+Generic retrieval is closed. Open new external research only when the current article exposes a specific factual or conceptual gap that could change a sentence, note, attribution, or event chain.
 
-## 5. Pre-contact methodological controls
+For external research:
 
-The main pre-contact controls now include:
+1. search the bounded gap;
+2. verify the source and evidentiary level;
+3. record the result in a repo control/delta;
+4. only then patch Draft 04.
 
-### 1921 — Wells and Spengler
+Do not dump fresh web facts directly into the article before source control.
 
-In `Twee worstelaars met den engel`:
+Do not reopen dormant provenance branches unless direct copy-level evidence appears.
 
-- Wells’s attempt to extend world history from planetary and biological development into human history does not, for Huizinga, automatically yield historical understanding;
-- Spengler’s exact cross-civilizational `homologie` forces particulars onto the `Procrustesbed` of a system;
-- *Preussentum und Sozialismus* turns the operation political through a `historisch-ethnografische tegenstelling` between English and Prussian character;
-- in the Wells nomad discussion Huizinga decomposes the causal chain from migration/nomad classification to alleged civilizational renewal and treats Germanic penetration of Rome as more symptom/consequence than cause of decline.
+## 5. The article's conceptual center is `primitive`
 
-The first three are integrated into Draft 04. The nomad material is **NOTE / HOLD** reviewer-proof, not a reason to overload the opening.
+The article must not collapse back into a history of Huizinga and Malinowski's friendship or correspondence.
 
-### 7 April 1926 — `Taak en termen der beschavingsgeschiedenis`
+The center is **the changing historical work of `primitive`**.
 
-The published theses are pre-American and binding:
+The key conceptual problem is not that both men happened to use or care about `primitive`. It is:
 
-- Huizinga attacks `evolutie` as a general historical principle;
-- defines cultural history as social morphology concerned with what connects people;
-- places ethnology among special cultural sciences practising such morphology;
-- warns that general culture-historical terms can acquire a mythological element and undergo inflation;
-- warns that period labels purporting to state an era’s essence can prejudge and mislead.
+> What could relations observed among peoples described as primitive disclose about other times and forms of life?
 
-Do not back-project language from the 1929 expanded essay into the 7 April 1926 theses unless the wording is actually present there.
+The important modern operation of `primitive` is the conversion of **present difference into historical anteriority**: a living people, custom, object, or social form could be classified as primitive and thereby positioned nearer an earlier phase of human history.
 
-## 6. America 1926: wider functional repertoire, not one-way transmission
+Track what that classification was allowed to infer, not merely where the word appears.
 
-Malinowski’s Rockefeller report establishes that Huizinga attended a Harvard seminar in which Malinowski says discussions similar to his theoretical programme were repeated.
+Core movement:
 
-Do **not** claim:
+- Malinowski increasingly **unpacked** primitive/savage classifications into relations and practices: reciprocity, obligation, public knowledge, law, exchange, technical knowledge, etc.
+- Huizinga repeatedly asked what those relations could do when carried into historical comparison.
+- Therefore `primitive` is the center of the exchange because it organized a shared **problem of historical inference**, not because the two men shared one definition.
 
-- that the seminar itself was formally titled `the functional view of Anthropology`;
-- that Huizinga heard every formulation preserved in the written Rockefeller report;
-- that the written report itself was read by Huizinga.
+Supporting terms such as `function`, law, reciprocity, mentality, sociology, play, gift, prestige, or efficacy are **subordinate**. They enter only insofar as they show explanatory work being redistributed within or around `primitive`. Do not turn them into parallel conceptual themes.
 
-Huizinga’s own *Amerika levend en denkend* independently uses pluralism, Deweyan `interactie, wederzijdsche handeling`, and `sociale functies`. By December 1926 `functional` belonged to a wider American repertoire as well as to Malinowski’s programme.
+## 6. `Waning` must remain precise
 
-The pair exchange attached that language to particular books and Huizinga’s historical problems.
+`WANING OF PRIMITIVE != DEATH OF THE WORD`.
 
-## 7. Direct pair spine
+The governing historical pattern is:
 
-The article’s main causal/narrative line must stay on direct Huizinga–Malinowski transactions.
+`FORM PERSISTS + INFERENTIAL SUFFICIENCY WANES + EXPLANATORY WORK IS REDISTRIBUTED`.
 
-Core controlled sequence:
+The claim is not semantic disappearance and not a simple replacement story.
 
-- Harvard seminar, spring 1926;
-- Boston family letter, 19 May 1926;
-- Trekvaart conversation recalled in the 12 December letter;
-- 12 and 31 December 1926 book exchange / functional-side reply;
+`primitive` can remain common, institutionally active, and classificatorily useful while increasingly requiring more specific relations, source checks, and disciplinary authorizations before it can support a historical conclusion.
+
+Do not write a teleology:
+
+`primitive → play`
+
+Play is not the successor category. The 1933 Hofstra chain proves that `primitive` remains in active pair circulation even while Huizinga's historical comparisons increasingly turn on more specific relations.
+
+`Herfsttij` supplies Huizinga's self-reflexive vocabulary of waning and warnings about precursor history; it is **not** proof that the late Middle Ages are an analogy for the history of `primitive`.
+
+## 7. Article architecture
+
+The current structure should remain unless the user explicitly changes it:
+
+1. **America, 1926: Primitive before the Encounter**
+2. **‘Primitive Law’ and Historical Use, 1926–1929**
+3. **The Historical Work of *Primitief*, 1929–1931**
+4. **‘Primitive or Semi-Cultured’: Leiden, 1931**
+5. **Coda: What Carried the Comparison, 1932–1933**
+
+The underlying movement is still useful:
+
+`network → correspondence → knowledge production → institution`
+
+But this is scaffolding, not the article's thesis. Each scene must answer what `primitive` was doing there.
+
+## 8. How to grow the article without AI compression
+
+The draft is still short relative to a full HHS/JHI-scale article. Do not solve this by adding abstract explanation.
+
+Grow through:
+
+- complete event chains;
+- books actually being sent, chosen, read, reused, and discussed;
+- correspondence opened outward to published books, courses, slips, manuscripts, lectures, museum dossiers, and institutional memoranda;
+- exact changes in the work performed by `primitive`;
+- source-practice scenes that show what historical comparison required after a classificatory suggestion;
+- historiographical disagreement that changes how the primary case is read.
+
+A preferred intellectual-history sequence is:
+
+`PAIR EXCHANGE → SPECIFIC ANTHROPOLOGICAL TEXT/OBJECT → HUIZINGA NOTE/LECTURE/MANUSCRIPT/HISTORICAL USE`
+
+The late-1933 Hofstra chain is a model:
+
+`27 Oct Huizinga → Malinowski on Hofstra`
+→ `30 Oct Malinowski reply`
+→ `Hofstra, primitive individuality`
+→ `6 Nov Huizinga uses the ethnographic example in a historical argument about return and the past`.
+
+That is better growth than another paragraph explaining “circulation” in the abstract.
+
+## 9. Direct-pair evidence: preserve scarce traces
+
+Material in which Huizinga and Malinowski directly co-occur is scarce and should be preserved aggressively when controlled.
+
+Do not delete apparently mundane traces simply because they look biographical. A friend-reference, book dispatch, reading aloud, dictionary remark, review, style correction, teaching request, or carried institutional letter may establish the density and direction of intellectual traffic.
+
+Important controlled pair sequence includes:
+
+- 1926 Harvard seminar and 19 May `mijn nieuwen vriend Malinowski` family letter;
+- 12 and 31 December 1926 books / calf / Trekvaart / historical method;
 - 29 March and 15 August 1928 reciprocal reading;
 - 13 May 1929 Trobriands / Delft course;
 - 19 July, 30 July, 12 August, 15 September, 4 October 1931 Leiden sequence;
-- November–December 1932 dense exchange;
+- dense November–December 1932 correspondence;
+- unpublished Yale 30 January 1933 Dutch / *De Gids* / style-correction letter;
 - 20 → 23 May 1933 reprint / candidature sequence;
 - 27 → 30 October 1933 Hofstra exchange.
 
@@ -136,9 +188,9 @@ Use pair material in three ways:
 
 Do not inflate unpublished incipits into full intellectual arguments.
 
-## 8. Correspondence is a junction, not the final object
+## 10. Correspondence is a junction, not the final object
 
-The article risks becoming correspondence history whenever letters are not opened toward other materials.
+The article currently risks reading as correspondence history whenever letters are not opened toward other materials.
 
 Whenever possible, ask:
 
@@ -152,22 +204,20 @@ Examples already central:
 - 1928: `origins of culture` vs `historical use` marks two different jobs.
 - 1929 Delft: thick familiarity with Trobriand ethnography coexists with `stage of savage life`.
 - Leiden 1931: `primitive or semi-cultured races` becomes an institutional/classificatory programme whose personnel and principle Malinowski audits.
-- Hofstra 1933: primitive remains in circulation while Huizinga imports a specific relation **to the past**, not a simple equivalence between contemporary primitive peoples and Europe’s past.
+- Hofstra 1933: primitive remains in circulation while Huizinga imports a specific relation **to the past**, not a simple equivalence between contemporary primitive peoples and Europe's past.
 
-## 9. Counterevidence must stay
+## 11. Counterevidence must stay
 
 The article must not become a triumphal story of Huizinga naturally escaping reductionism.
 
 Do not remove or soften these controls:
 
-1. **1919:** the primitive model itself still helps explain medieval symbolism and verbal efficacy.
-2. **29 March 1928:** Huizinga invokes the “immense complexity of the smallest social phenomenon” and on the same page uses the antisemitic stereotype `Talmudic mind`. Complexity and flattening coexist.
-3. **13 May 1929:** `quite at home in the Trobriands` coexists with a course sequence beginning at `the stage of savage life`. Thick familiarity and stadial order coexist.
-4. **1931 packet:** Huizinga’s 1926 warning about general terms did not produce a steady retreat from developmental classification. Nieuwenhuis authored the annex, but Huizinga helped assemble and forward a packet in which developmental labels still did practical institutional work.
-5. **Post-outsider circulation:** Ahlbrinck / *Encyclopaedie der Karaïben* continues moving through Huizinga → Malinowski → pupil after the 1931 boundary. Outsiderhood does not mean withdrawal.
-6. **Locher 1958:** Locher’s claim that Malinowski did not modify Huizinga’s global image of primitive culture is a genuine historiographical challenge. The article’s answer is not “Locher was wrong” but that a classificatory image can persist while its inferential work changes.
+1. **29 March 1928:** Huizinga invokes the “immense complexity of the smallest social phenomenon” and on the same page uses the antisemitic stereotype `Talmudic mind`. Complexity and flattening coexist.
+2. **13 May 1929:** `quite at home in the Trobriands` coexists with a course sequence beginning at `the stage of savage life`. Thick familiarity and stadial order coexist.
+3. **Post-outsider circulation:** Ahlbrinck / *Encyclopaedie der Karaïben* continues moving through Huizinga → Malinowski → pupil after the 1931 boundary. Outsiderhood does not mean withdrawal.
+4. **Locher 1958:** Locher's claim that Malinowski did not modify Huizinga's global image of primitive culture is a genuine historiographical challenge. The article's answer is not “Locher was wrong” but that a classificatory image can persist while its inferential work changes.
 
-## 10. Outsiderhood is a consequence, not a separate abstract thesis
+## 12. Outsiderhood is a consequence, not a separate abstract thesis
 
 Do not split `benevolent outsider` from `primitive` into a second conceptual article.
 
@@ -176,9 +226,9 @@ Do not split `benevolent outsider` from `primitive` into a second conceptual art
 - The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.
 - Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.
 
-The 30 July 1931 praise must stay alongside the limit: Malinowski could call Huizinga’s historical method “really anthropological” and ask him to play a teaching part while still demanding different personnel and a central disciplinary principle.
+The 30 July 1931 praise must stay alongside the limit: Malinowski could call Huizinga's historical method “really anthropological” and ask him to play a teaching part while still demanding different personnel and a central disciplinary principle.
 
-## 11. Chronology and event-chain rules
+## 13. Chronology and event-chain rules
 
 Read every paragraph for temporal orientation.
 
@@ -189,84 +239,64 @@ Use time anchors when they prevent genuine confusion:
 - dense rapid correspondence;
 - returns to an earlier methodological text.
 
-Do not use mechanical date-stamping on every paragraph.
+Do not calculate every interval mechanically.
 
-Do not treat DBNL internal dates as publication dates without checking edition/publication context.
+Preferred reconstruction:
 
-## 12. Published-works integration is now bounded
+`date/place/action → letter/request → reply → consequence`.
 
-The nine-volume DBNL `Verzamelde Werken` TEI mirror has already been machine-traversed in full.
+Leiden is a model:
 
-Do not run another generic published-works keyword sweep unless the user explicitly reopens the corpus.
+17 July local circulation/revision
+→ 19 July Huizinga sends packet
+→ 30 July Malinowski reads and audits
+→ 12 August Huizinga answers / outsider
+→ 15 September dispatch
+→ 4 October use/review/Paris routing.
 
-The post-integration ledger is:
+1932–33 should likewise be allowed to remain dense rather than summarized as “the correspondence continued.”
 
-`research/article_dbnl_vw_postintegration_recheck_2026-09-05.md`
+## 14. Facts, materials, historiography, inference
 
-Further DBNL body additions require one of three things:
+Keep four voices distinguishable:
 
-1. a passage that falsifies or materially limits a current Draft 04 sentence;
-2. a new direct documentary chain to an existing pair scene;
-3. a publication-grade source correction.
+1. **fact/event** — who did what, when;
+2. **material/source** — what a letter, manuscript, slip, dossier, or object shows;
+3. **historiography** — what secondary scholarship has argued;
+4. **article inference** — what this article concludes from the material.
 
-Lexical density, thematic resonance, or another attractive parallel is insufficient.
+Do not turn these into visible `[FACT] / [METHOD]` labels. Use minimal anchors only where the reader could confuse the layers.
 
-Important retained HOLD controls:
+A reader should be able to disagree with the archive reading, the historiographical relation, or the inference separately.
 
-- 1921 Wells nomad causal decomposition — reviewer-proof, do not overload opening;
-- Hofstra 1933 differentiation / anti-homogeneity programme — object context, **not demonstrated Huizinga uptake**;
-- 1923 `De universiteit van Nederlandsch Indië` — politically/institutionally relevant parallel, but no direct documentary chain to the 1931 Centre;
-- 1933 Warburg — attractive parallel, not part of the pair chain;
-- later *Homo ludens* — outside the 1933 cutoff.
+## 15. Historiography
 
-## 13. 1933 naming control
+Every secondary source must have a job:
 
-In `Renaissance en Nieuwe Tijd` (6 November 1933), Huizinga says the great objects of cultural history are too complex and diffuse to be grasped as closed named unities, while names remain necessary to make them visible to the historical mind.
+`inherit / correct / refute / converge / narrow / redirect / expose a gap`.
 
-This is now integrated into the coda.
+Avoid citation dumps.
 
-Use it with the explicit qualification already in Draft 04:
+Preferred form:
 
-- this is a **general problem of historical naming**;
-- it is **not a definition of `primitive`**;
-- its relevance is the gap between needing a name and treating the named object as a closed explanatory unity.
+> A makes X visible; B changes the scale or evidence; the present archive shows why X is insufficient or must be narrowed at Y.
 
-Do not turn the passage into actor-language explicitly theorizing `primitive` unless new evidence warrants that step.
+Current important relations include:
 
-## 14. Source-status hierarchy
+- Arnade ↔ Vale on anthropology vs persistent philological formation;
+- Rydin on interwar historicization;
+- Small / van der Lem on material source practice;
+- Greilsammer / Bloch as a pre-Malinowski control;
+- Locher as direct counterpoint on whether Malinowski changed Huizinga's primitive;
+- Foks only as a later contrast, not as a model to impose backward.
 
-Use the following rough hierarchy:
+## 16. Prose style and defensive temperature
 
-1. **BODY / SECURE** — direct text, scan-controlled primary source, or firmly chained pair object.
-2. **NOTE / PARTIAL** — relation or object secure but wording/content incomplete; use with exact qualification.
-3. **PARALLEL / HOLD** — genuine contextual or same-actor material without a direct documentary chain; do not make it causal.
-4. **QUARANTINE / UNCONTROLLED** — interesting lead whose body, context, identity, or locator is not yet secure; do not narrativize.
-
-A machine keyword match is not a source status.
-
-A same-year thematic resemblance is not a documentary chain.
-
-## 15. Archive/OCR rules
-
-The dedicated Huizinga repository is the canonical corpus/discovery layer for the Leiden archival scan.
-
-Do not claim that all OCR text has been line-by-line semantically proofread. Full machine traversal / page coverage and human semantic proofreading are different things.
-
-When exact wording matters:
-
-- prefer scan-verified text;
-- use corrected OCR only when aligned and controlled;
-- flag false-empty or pathological OCR;
-- do not silently quote hallucinated OCR.
-
-The corpus review layer records page-level and packet-level status. Respect it.
-
-## 16. Style / prose controls
-
-The canonical draft should remain article prose, not an audit log.
+Finished prose should sound like historical scholarship, not an agent explaining its own reasoning.
 
 Avoid:
 
+- invented technical terms and workbench labels;
 - repeated `warrant`, `jurisdiction`, `evidentiary layer`, `material control`, `temporal control`, etc. when ordinary historical language will do;
 - slogans invented during drafting;
 - repeated `this does not mean`, `rather`, `not X but Y`, and pre-emptive qualifications;
@@ -313,35 +343,11 @@ If a draft pass reduces source density while making prose smoother, it is probab
 
 Do not pretend unresolved publication details are solved.
 
-### Resolved locator during 2026-09-05 QA
+One locator is now resolved: the Yale Huizinga pair file is **Bronislaw Malinowski Papers, MS 19, Series I: Correspondence, box 4, folder 280, `Huizinga, Johan, 1926–1933`, Yale University Library** (finding aid also gives reel 2 / 2U). This is a folder locator, not independent item-level content evidence. The exact Yale locator for the 30 January 1933 letter should therefore no longer be listed as open.
 
-The Yale Huizinga pair file is now securely located in the public finding aid:
+The 1926/1927 *Sex and Repression* problem remains open, but it is now more precisely a **state-identification problem**. Controlled sequence: on 19 February 1926 Malinowski told the Frazers that `Sex & Repression` "will be published soon" (Trinity College Cambridge, Frazer Papers, `FRAZ/2/139`); on 12 December 1926 Huizinga acknowledged the `medium` book identified by the *Briefwisseling* editors as *Sex and Repression*; the standard edition's preface is signed February 1927 and the ordinary bibliographic record is 1927. Do not normalize this to a 1926 edition. The open question is whether Huizinga received a proof, advance/pre-final state, differently constituted preliminaries, or another author-controlled object. See `research/sex_and_repression_1926_control_search_delta_2026-09-04.md` and `research/article_sex_repression_imprint_1926_1927_recheck_2026-09-05.md`.
 
-`Bronislaw Malinowski Papers, MS 19, Series I: Correspondence, box 4, folder 280, “Huizinga, Johan, 1926–1933,” Yale University Library` (microfilm reel 2 / 2U).
-
-Use this container for the Yale-controlled pair letters cited in Draft 04. The finding aid is a folder locator, not independent item-level content evidence.
-
-Do **not** continue listing the exact Yale locator for the 30 January 1933 letter as an open problem.
-
-### *Sex and Repression* state-identification problem remains open
-
-Do not reduce this to a generic `1926/1927 date anomaly`.
-
-Current controlled sequence:
-
-- 19 February 1926: Malinowski tells the Frazers that `Sex & Repression` “will be published soon” (Trinity College Cambridge, Frazer Papers, `FRAZ/2/139`);
-- 12 December 1926: Huizinga acknowledges the `medium` book, identified by the *Briefwisseling* editors as *Sex and Repression*;
-- February 1927: the standard edition’s preface is signed at LSE;
-- ordinary catalogues and retrospective bibliographies consistently describe the standard edition as 1927.
-
-Thus the open question is the **state of the object Huizinga received**: proof, advance/pre-final bound state, different preliminaries, or another author-controlled object. The best controls are Huizinga’s physical copy, Yale MS 19 box 19 folders 161–162 (author’s copies), and box 7 folder 547 (Routledge correspondence).
-
-Other important open checks still include:
-
-- translations of difficult Dutch terms;
-- exact 1933 address sequence/pages where not already source-locked;
-- certainty of the 15 September 1931 Ahlbrinck dispatch identification;
-- KNAW candidature mechanics beyond the already controlled correspondence sequence.
+Other important open checks still include exact archival/correspondence locators where not yet fixed, translations of difficult Dutch terms, exact 1933 address sequence/pages, Ahlbrinck dispatch certainty, and KNAW candidature mechanics.
 
 Resolve these at publication QA stage or when a sentence specifically depends on them.
 
