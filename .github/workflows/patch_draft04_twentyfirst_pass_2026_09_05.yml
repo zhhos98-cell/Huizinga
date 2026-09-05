@@ -20,8 +20,7 @@ jobs:
         shell: bash
         run: |
           current=$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)
-          controlled=$(git show a1b44b89eeb4cac148381bfb19971deaa6a4e68a:writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md | git hash-object --stdin)
-          test "$current" = "$controlled"
+          test "$current" = "a1b44b89eeb4cac148381bfb19971deaa6a4e68a"
       - name: Apply twenty-first-pass patch
         run: python scripts/patch_draft04_twentyfirst_pass_2026_09_05.py
       - name: Commit without overwriting concurrent work
@@ -29,6 +28,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
-          git commit -m 'Add 1921 political-ethnographic contrast control'
+          git commit -m 'Add 1921 Spengler homology and political contrast control'
           git pull --rebase origin main
           git push origin main
