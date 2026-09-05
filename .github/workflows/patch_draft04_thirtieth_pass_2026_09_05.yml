@@ -1,0 +1,45 @@
+name: Patch Draft 04 thirtieth pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_thirtieth_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "34c054c870a0af97a773c161709d5d43fafcecc1"
+      - name: Replace workbench source-status prose
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old = "On 15 September an unpublished Yale letter from Huizinga to Malinowski survives with the incipit ‘I am sending you a volume just pubished’.[^15] Its body remains uncontrolled in the repository, so the identity of the dispatch cannot be made certain. Nineteen days later, however, Malinowski’s controlled reply of 4 October opened by thanking Huizinga for *Encyclopaedie der Karaïben*."
+          new = "On 15 September an unpublished Yale letter from Huizinga to Malinowski survives in the public inventory with the incipit ‘I am sending you a volume just pubished’.[^15] The inventory exposes no more than that opening, so the volume cannot be identified from this letter alone. Nineteen days later, however, Malinowski’s reply of 4 October opened by thanking Huizinga for *Encyclopaedie der Karaïben*."
+          old_note = "nineteen days later Malinowski’s next controlled letter thanks Huizinga for the Ahlbrinck volume"
+          new_note = "nineteen days later Malinowski’s next surviving reply thanks Huizinga for the Ahlbrinck volume"
+          assert s.count(old) == 1, s.count(old)
+          assert s.count(old_note) == 1, s.count(old_note)
+          s = s.replace(old, new).replace(old_note, new_note)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Remove workbench language from Ahlbrinck scene'
+          git pull --rebase origin main
+          git push origin HEAD:main
