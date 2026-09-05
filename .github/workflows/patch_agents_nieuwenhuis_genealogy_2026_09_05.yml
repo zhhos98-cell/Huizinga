@@ -1,0 +1,35 @@
+name: Patch AGENTS Nieuwenhuis genealogy status
+
+on:
+  push:
+    paths:
+      - '.github/workflows/patch_agents_nieuwenhuis_genealogy_2026_09_05.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard AGENTS blob
+        shell: bash
+        run: |
+          actual=$(git hash-object AGENTS.md)
+          expected=cbc1c72128f1449d410f57069bed5bce34488773
+          test "$actual" = "$expected" || { echo "AGENTS blob changed: $actual"; exit 1; }
+      - name: Apply exact status patch
+        run: python scripts/patch_agents_nieuwenhuis_genealogy_2026_09_05.py
+      - name: Commit and push safely
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add AGENTS.md
+          git commit -m "Record Nieuwenhuis annex genealogy status in AGENTS"
+          git pull --rebase origin main
+          git push origin HEAD:main
