@@ -1,0 +1,34 @@
+name: Patch Draft 04 twentieth pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_twentieth_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          current=$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)
+          controlled=$(git show e6eb1b27a8df5af1ea99143490fe4b9958054933:writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md | git hash-object --stdin)
+          test "$current" = "$controlled"
+      - name: Apply twentieth-pass patch
+        run: python scripts/patch_draft04_twentieth_pass_2026_09_05.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Calibrate evidentiary routes and 1931 classification tension'
+          git pull --rebase origin main
+          git push origin main
