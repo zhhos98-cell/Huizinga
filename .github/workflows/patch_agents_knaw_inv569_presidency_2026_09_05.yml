@@ -1,0 +1,58 @@
+name: Patch AGENTS KNAW locator and presidency control
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_agents_knaw_inv569_presidency_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard AGENTS against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object AGENTS.md)" = "c57d598d0a4df6c75b15108769ddf26177835bf6"
+      - name: Add KNAW archive route and institutional-office control
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('AGENTS.md')
+          s = p.read_text(encoding='utf-8')
+
+          old_outsider = """- `benevolent` = read, send, support, organize, compare, circulate.
+- `outsider` = limit on disciplinary leadership/authority.
+- The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.
+- Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.
+"""
+          new_outsider = """- `benevolent` = read, send, support, organize, compare, circulate.
+- `outsider` = limit on disciplinary leadership/authority.
+- The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.
+- Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.
+- The 23 May 1933 candidature letter now supplies a strong institutional control: Huizinga had chaired the KNAW Afdeeling Letterkunde since **11 November 1929** when he wrote `Being no anthropologist I refrained from taking a leading part in your candidature`. Treat this as evidence that the limit was disciplinary despite senior Academy office, not as evidence that he controlled Malinowski's nomination or vote. See `research/article_knaw_malinowski_1933_membership_mechanics_recheck_2026-09-05.md`.
+"""
+          assert s.count(old_outsider) == 1, s.count(old_outsider)
+          s = s.replace(old_outsider, new_outsider, 1)
+
+          old_knaw = "Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open."
+          new_knaw = "Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open. The archive route is now specific: **Noord-Hollands Archief, toegang 64**, and the first directly relevant item-level locator recovered is **inv. 569, `Benoemingen van leden van de afdeling letterkunde 1855–1940`**. Treat inv. 569 as **PRIORITY / PARTIAL** until the dossier is inspected: its title does not yet prove coverage of foreign members or Malinowski. The exact Letterkunde minutes volume for May–June 1933 and any separate nomination/`voordracht` file remain unresolved. Do not reopen broad `Malinowski + KNAW` web searches; continue from inv. 569, the 1933 Letterkunde minutes series, or a directly exposed candidature/election record."
+          assert s.count(old_knaw) == 1, s.count(old_knaw)
+          s = s.replace(old_knaw, new_knaw, 1)
+
+          p.write_text(s, encoding='utf-8')
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add AGENTS.md
+          git commit -m 'Record KNAW inv 569 route and presidency control in AGENTS'
+          git pull --rebase origin main
+          git push origin HEAD:main
