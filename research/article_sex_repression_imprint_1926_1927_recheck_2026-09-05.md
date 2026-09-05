@@ -12,6 +12,18 @@ The 12 December 1926 Huizinga-to-Malinowski letter proves that three books had r
 
 This is evidence of the pair transaction. It does not by itself explain the anomalous imprint chronology.
 
+## Existing production-history control in the repository
+
+This recheck must be read together with `research/sex_and_repression_1926_control_search_delta_2026-09-04.md`, which already fixed three material-history points:
+
+1. **19 February 1926** — writing to the Frazers from LSE, Malinowski referred to material to be added to his `Sex & Repression`, **`which will be published soon`**. Archive: Trinity College Cambridge, Frazer Papers, `FRAZ/2/139`.
+2. **12 December 1926** — Huizinga had the `medium` book according to the pair correspondence / editorial identification.
+3. **February 1927** — the standard edition's preface is signed at LSE in February 1927.
+
+The same earlier control notes that Yale MS 19 catalogs two *Sex and Repression* author's copies under 1927 (box 19, folders 161–162) and that the Routledge correspondence spanning the period is in box 7, folder 547.
+
+This means the anomaly is not simply `a 1927 book somehow appears in a 1926 letter`. The text was in an advanced publication trajectory during 1926, but the ordinary final state contains preliminaries dated after Huizinga's documented receipt. The key problem is therefore whether Huizinga received a proof, advance/pre-final state, bound sheets with different preliminaries, or some other author-controlled object.
+
 ## Bounded public bibliographic recheck
 
 Public sources checked on 5 September 2026:
@@ -31,18 +43,25 @@ Public sources checked on 5 September 2026:
 5. *Nature* review, issue 12 November 1927, cites the book as London/New York **1927**.
    https://www.nature.com/articles/120688b0
 
-No bounded web result recovered a 1926 publisher announcement, books-received notice, accession record, or other contemporaneous public evidence establishing that the 1927-imprint edition was commercially/publicly circulating by December 1926.
+No bounded web result recovered a 1926 publisher announcement, books-received notice, accession record, or other contemporaneous **public-distribution** evidence establishing that the ordinary 1927-imprint edition was commercially circulating by December 1926. This negative does not erase the February 1926 Frazer-letter production evidence above.
 
 ## Decision
 
-**UNRESOLVED / PHYSICAL-COPY CONTROL REQUIRED.**
+**UNRESOLVED / STATE-IDENTIFICATION CONTROL REQUIRED.**
 
-The current Draft 04 note is appropriately cautious and should remain so. Do not normalize the book to 1926 and do not infer a generic postdated-imprint practice without evidence.
+The current Draft 04 note is appropriately cautious and should remain so, but it can be made more precise by distinguishing three things:
+
+- advanced production trajectory by February 1926;
+- Huizinga's documented receipt of the `medium` object by 12 December 1926;
+- ordinary final edition with a February 1927 preface and 1927 imprint.
+
+Do not normalize the book to 1926 and do not infer a generic postdated-imprint practice without evidence.
 
 The strongest next evidence would be:
 
-- Huizinga's physical presentation copy, especially title page, inscription/presentation slip, publisher wrapper, or dated acquisition mark;
-- Malinowski's or Kegan Paul/Trench/Trubner's publisher correspondence or dispatch records;
+- Huizinga's physical presentation copy, especially title page, inscription/presentation slip, publisher wrapper, preface, contents, collation, or dated acquisition mark;
+- Yale author's copies, MS 19, box 19, folders 161–162, for comparison of preliminaries/state;
+- Malinowski/Routledge publisher correspondence, MS 19, box 7, folder 547, for proof/advance-copy/dispatch or delayed-publication evidence;
 - a securely dated late-1926 books-received/publisher advertisement naming the title.
 
-Until one of those is recovered, the article should distinguish the **documented date of receipt in the pair correspondence** from the **1927 bibliographic imprint**.
+Until one of those is recovered, the article should distinguish the **documented date of receipt in the pair correspondence** from the **1927 bibliographic/final-edition state**.
