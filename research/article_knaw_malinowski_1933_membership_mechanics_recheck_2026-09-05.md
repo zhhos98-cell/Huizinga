@@ -31,13 +31,15 @@ The current KNAW detail URL is intermittently inaccessible through automated ret
 
 ## Later historiographical claim
 
-G.W. Locher made the Huizinga-agency claim at least twice. In 1961 he wrote that `Het was door toedoen van de historicus Huizinga, dat aan deze anti-historische Malinowski het lidmaatschap van de Koninklijke Akademie van Wetenschappen werd verleend.` In 1968 he wrote that Malinowski `door de activiteit van de historicus Huizinga tot erelid van onze Kon. Akademie van Wetenschappen benoemd kon worden`.
+G.W. Locher made the Huizinga-agency claim at least twice. In 1961 he wrote that `Het was door toedoen van de historicus Huizinga, dat aan deze anti-historische Malinowski het lidmaatschap van de Koninklijke Akademie van Wetenschappen werd verleend.` In a paper delivered to the Historisch Genootschap on **29 October 1968** and published in volume 83 of *Bijdragen en Mededelingen betreffende de Geschiedenis der Nederlanden* in **1969**, he wrote that Malinowski `door de activiteit van de historicus Huizinga tot erelid van onze Kon. Akademie van Wetenschappen benoemd kon worden`.
 
 Sources:
-- G.W. Locher, `De antropoloog Lévi-Strauss en het probleem van de geschiedenis`, *Forum der Letteren* 2 (1961), DBNL.
-- G.W. Locher, `Nieuwe relaties tussen de culturele antropologie en de geschiedenis`, *Bijdragen en Mededelingen betreffende de Geschiedenis der Nederlanden* 83 (1968), DBNL.
+- G.W. Locher, `De antropoloog Lévi-Strauss en het probleem van de geschiedenis`, *Forum der Letteren* 2 (1961), pp. 201–215, especially p. 210, DBNL.
+- G.W. Locher, `Nieuwe relaties tussen de culturele antropologie en de geschiedenis`, *Bijdragen en Mededelingen betreffende de Geschiedenis der Nederlanden* 83 (1969), pp. 33–52; paper delivered 29 October 1968, DBNL.
 
-These are useful retrospective evidence about remembered Huizinga agency, but neither supplies the 1933 procedural record. The 1968 wording `erelid` should not override the KNAW historical-member category `foreign member`, and `door toedoen / door de activiteit ... Huizinga` should not be converted into exact nomination mechanics without the 1933 Academy file/minutes.
+The earlier project shorthand `Locher 1968` conflated the meeting date with the publication year. For bibliography and author–date citation, use **Locher 1969**.
+
+These are useful retrospective evidence about remembered Huizinga agency, but neither supplies the 1933 procedural record. The 1969 article's wording `erelid` should not override the KNAW historical-member category `foreign member`, and `door toedoen / door de activiteit ... Huizinga` should not be converted into exact nomination mechanics without the 1933 Academy file/minutes.
 
 ## False lead closed: Roy Ellen p. 197
 
