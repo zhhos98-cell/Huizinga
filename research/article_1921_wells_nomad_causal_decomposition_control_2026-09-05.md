@@ -6,7 +6,7 @@ Purpose: preserve a pre-contact example in which Huizinga explicitly refuses to 
 
 Johan Huizinga, `Twee worstelaars met den engel`, *De Gids* 85 (1921), reprinted in *Verzamelde Werken* IV, DBNL TEI `sources/dbnl/verzamelde_werken/huiz003verz05_01.xml`, especially VW pp. 481–482.
 
-Recovered in `research/article_dbnl_vw_priority_units_review_2026-09-04.md`.
+Recovered in the now-frozen priority review at `archive/research_runs/dbnl/article_dbnl_vw_priority_units_review_2026-09-04.md`.
 
 ## Controlled sequence
 
