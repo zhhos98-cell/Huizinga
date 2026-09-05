@@ -1,0 +1,45 @@
+name: Patch Draft 04 thirty-third pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_thirtythird_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "da3708b4fc3f4dbe495574c14e1bb0d4a10eba44"
+      - name: Add Locher retrospective references
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old_note = "later recollections by G.W. Locher attribute the membership to Huizinga’s activity but do not supply those mechanics."
+          new_note = "later recollections by G.W. Locher attribute the membership to Huizinga’s activity but do not supply those mechanics (Locher, 1961; Locher, 1969)."
+          anchor = "Locher, G. W. (1958) ‘Huizinga en de culturele antropologie’, *Bijdragen tot de Taal-, Land- en Volkenkunde* 114(1–2): 170–191."
+          expanded = anchor + "\n\nLocher, G. W. (1961) ‘De antropoloog Lévi-Strauss en het probleem van de geschiedenis’, *Forum der Letteren* 2: 201–215.\n\nLocher, G. W. (1969) ‘Nieuwe relaties tussen de culturele antropologie en de geschiedenis’, *Bijdragen en Mededelingen betreffende de Geschiedenis der Nederlanden* 83: 33–52."
+          assert s.count(old_note) == 1, s.count(old_note)
+          assert s.count(anchor) == 1, s.count(anchor)
+          s = s.replace(old_note, new_note).replace(anchor, expanded)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Add Locher retrospective references'
+          git pull --rebase origin main
+          git push origin HEAD:main
