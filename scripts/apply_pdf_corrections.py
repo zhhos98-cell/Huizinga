@@ -19,9 +19,9 @@ def main() -> None:
     args = parser.parse_args()
     chunk = args.chunk.zfill(3)
 
-    source = Path(f"chunk_{chunk}.pdf_by_PaddleOCR-VL-1.6.json")
+    source = Path(f"sources/ocr/paddle/raw/chunk_{chunk}.pdf_by_PaddleOCR-VL-1.6.json")
     ledger = Path(f"corrections/chunk_{chunk}_manual.json")
-    corrected = Path(f"chunk_{chunk}.pdf_by_PaddleOCR-VL-1.6.corrected.json")
+    corrected = Path(f"sources/ocr/paddle/corrected/chunk_{chunk}.pdf_by_PaddleOCR-VL-1.6.corrected.json")
     audit_path = Path(f"review/chunk_{chunk}/applied_patch_audit_v1.tsv")
 
     data = json.loads(source.read_text(encoding="utf-8"))
