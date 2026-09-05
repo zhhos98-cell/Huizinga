@@ -105,6 +105,24 @@ Status of inv. 569: **PRIORITY LOCATOR / PARTIAL**. Its title and 1855–1940 da
 
 Inv. 19 is useful only as evidence that Letterkunde minutes are a numbered volume series. It does not justify guessing the inventory number of the volume covering 1933.
 
+### Legacy index route: post-1940 archive indexes reach back to 1925
+
+The official 1940–1993 KNAW finding aid exposes a more direct route to the missing 1933 minutes and dossier than guessing the old volume number. The archive remains at **Noord-Hollands Archief, Haarlem**. Its `Oude toegangen op het archief` include:
+
+- **inv. 1462–1466**: an alphabetically arranged card index to the minute books of the Board, United Meeting, Afdelingen Letterkunde and Natuurkunde, and the division boards, covering **1925–1985**. The finding aid states that each card can carry a short subject description, a Roman numeral identifying the relevant minute book, and an Arabic page number. **Inv. 1464 = J through O**, so a `Malinowski` heading, if present, should fall in this box and could directly identify the minute-book volume and page for the 1933 candidature/election discussion.
+- **inv. 1468–1471**: an alphabetically arranged subject-card index to the institutional archive dossiers, covering **(1925–1980)**. **Inv. 1470 = M through R**. A `Malinowski`, membership, or related heading, if present, could point to the old dossier/rubric used by the secretariat.
+
+Official control: Staatscourant 2019, nr. 64667, especially the finding-aid description of the old indexes and inv. 1462–1471: https://zoek.officielebekendmakingen.nl/stcrt-2019-64667.html
+
+Status: **PRIORITY INDEX LOCATORS / PARTIAL**. The finding aid secures the date ranges, box ranges, and indexing mechanics. The cards themselves have not been inspected, so do not claim that a Malinowski card exists or infer its Roman numeral/page/dossier reference. These index boxes are now the preferred route before any further attempt to infer the 1933 Letterkunde notulen volume from chronology.
+
+Archive-pull order for the KNAW question is now:
+
+1. **toegang 64, inv. 569** — test whether the membership-appointment dossier contains Malinowski/foreign-member material;
+2. **1940–1993 KNAW archive, inv. 1464 (J–O)** — inspect the minute-book index under `Malinowski` and relevant membership headings for a Roman volume + page;
+3. **same archive, inv. 1470 (M–R)** — inspect the dossier index for `Malinowski` / membership / candidature pointers;
+4. then pull the exact old minute book / dossier exposed by those indexes.
+
 ## Huizinga's institutional office: presidency does not dissolve the disciplinary limit
 
 A separate control sharpens the meaning of the 23 May letter without supplying the missing nomination mechanics. The editors' foreword to *Briefwisseling*, deel II (1925–1933), states that Huizinga's membership of the KNAW Afdeeling Letterkunde was crowned on **11 November 1929** by his appointment as **voorzitter van de afdeling**. Huizinga Online independently gives the same date and lists him as president/chair of the Department of Literature from **1929 to 1942**.
@@ -132,6 +150,7 @@ Secure:
 - the relevant pre-1940 institutional archive is now located at Noord-Hollands Archief, toegang 64;
 - toegang 64 has a current public CC0 EAD inventory with 852 placement-list numbers;
 - a directly relevant membership-file locator is now known: toegang 64, inv. 569, `Benoemingen van leden van de afdeling letterkunde 1855–1940`; its coverage of foreign members/Malinowski remains to be verified from the dossier;
+- the later KNAW archive preserves legacy indexes reaching back to 1925: inv. 1464 (J–O) indexes minute books and can supply Roman volume/page references; inv. 1470 (M–R) indexes old dossiers. Their contents under `Malinowski` remain uninspected;
 - Huizinga had been president of the KNAW Afdeeling Letterkunde since 11 November 1929, so his May 1933 refusal of a leading role occurred from institutional office rather than institutional distance.
 
 Still unresolved:
@@ -141,9 +160,9 @@ Still unresolved:
 - exact division meeting and vote/election date;
 - procedural distinction, if any, between proposal, election, and formal appointment;
 - whether inv. 569 contains Malinowski's foreign-member candidature/appointment material or only another class of `leden`;
-- exact inventory number for the Letterkunde minutes covering May–June 1933 and any separate nomination/`voordracht` file.
+- exact inventory number/page for the Letterkunde minutes covering May–June 1933 and any separate nomination/`voordracht` file; the preferred discovery path is now the uninspected legacy cards in inv. 1464 and 1470.
 
-The next primary control is now **inspection of Noord-Hollands Archief, toegang 64, inv. 569**, followed by identification of the 1933 Letterkunde minutes volume if inv. 569 does not itself settle the mechanics. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
+The next primary control is now **inspection of Noord-Hollands Archief, toegang 64, inv. 569, plus the legacy indexes inv. 1464 and 1470 in the 1940–1993 KNAW archive**. Those index cards are specifically designed to expose the old minute-book Roman volume/page and dossier rubric, so they take precedence over further speculative volume-number searching. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
 
 ## Draft rule
 
