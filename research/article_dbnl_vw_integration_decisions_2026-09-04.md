@@ -1,6 +1,6 @@
 # DBNL Verzamelde Werken integration decisions — 2026-09-04
 
-Scope: human review of the deterministic nine-volume TEI traversal in `research/article_dbnl_verzamelde_werken_integration_2026-09-04.md`, specifically for surgical revision of canonical Draft 04. The traversal parsed all nine mirrored XML files, visited 79,038 XML elements and inspected 23,422 normalized text blocks. Candidate scoring was used only to surface high-recall passages; body decisions below are based on their historical function in the current article.
+Scope: human review of the deterministic nine-volume TEI traversal in `analysis/generated/dbnl/article_dbnl_verzamelde_werken_integration_2026-09-04.md`, specifically for surgical revision of canonical Draft 04. The traversal parsed all nine mirrored XML files, visited 79,038 XML elements and inspected 23,422 normalized text blocks. Candidate scoring was used only to surface high-recall passages; body decisions below are based on their historical function in the current article.
 
 ## BODY / SECURE — retain now
 
