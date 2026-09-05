@@ -26,26 +26,14 @@ jobs:
           from pathlib import Path
           p = Path('AGENTS.md')
           s = p.read_text(encoding='utf-8')
-
-          old_outsider = """- `benevolent` = read, send, support, organize, compare, circulate.
-- `outsider` = limit on disciplinary leadership/authority.
-- The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.
-- Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.
-"""
-          new_outsider = """- `benevolent` = read, send, support, organize, compare, circulate.
-- `outsider` = limit on disciplinary leadership/authority.
-- The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.
-- Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.
-- The 23 May 1933 candidature letter now supplies a strong institutional control: Huizinga had chaired the KNAW Afdeeling Letterkunde since **11 November 1929** when he wrote `Being no anthropologist I refrained from taking a leading part in your candidature`. Treat this as evidence that the limit was disciplinary despite senior Academy office, not as evidence that he controlled Malinowski's nomination or vote. See `research/article_knaw_malinowski_1933_membership_mechanics_recheck_2026-09-05.md`.
-"""
+          old_outsider = "- `benevolent` = read, send, support, organize, compare, circulate.\n- `outsider` = limit on disciplinary leadership/authority.\n- The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.\n- Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.\n"
+          new_outsider = "- `benevolent` = read, send, support, organize, compare, circulate.\n- `outsider` = limit on disciplinary leadership/authority.\n- The Leiden episode is the institutional form of the same epistemological issue: categories and questions travel more easily than authority over the evidence and programme.\n- Outsiderhood is produced by sustained proximity, not by ignorance or withdrawal.\n- The 23 May 1933 candidature letter now supplies a strong institutional control: Huizinga had chaired the KNAW Afdeeling Letterkunde since **11 November 1929** when he wrote `Being no anthropologist I refrained from taking a leading part in your candidature`. Treat this as evidence that the limit was disciplinary despite senior Academy office, not as evidence that he controlled Malinowski's nomination or vote. See `research/article_knaw_malinowski_1933_membership_mechanics_recheck_2026-09-05.md`.\n"
           assert s.count(old_outsider) == 1, s.count(old_outsider)
           s = s.replace(old_outsider, new_outsider, 1)
-
           old_knaw = "Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open."
           new_knaw = "Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open. The archive route is now specific: **Noord-Hollands Archief, toegang 64**, and the first directly relevant item-level locator recovered is **inv. 569, `Benoemingen van leden van de afdeling letterkunde 1855–1940`**. Treat inv. 569 as **PRIORITY / PARTIAL** until the dossier is inspected: its title does not yet prove coverage of foreign members or Malinowski. The exact Letterkunde minutes volume for May–June 1933 and any separate nomination/`voordracht` file remain unresolved. Do not reopen broad `Malinowski + KNAW` web searches; continue from inv. 569, the 1933 Letterkunde minutes series, or a directly exposed candidature/election record."
           assert s.count(old_knaw) == 1, s.count(old_knaw)
           s = s.replace(old_knaw, new_knaw, 1)
-
           p.write_text(s, encoding='utf-8')
       - name: Commit without overwriting concurrent work
         shell: bash
