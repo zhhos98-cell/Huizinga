@@ -12,7 +12,7 @@ The deterministic DBNL TEI traversal itself had completed successfully on 4 Sept
 - 12,066,667 normalized block characters inspected;
 - 8,720 candidate blocks retained for article-facing review.
 
-The incompleteness was in the second-stage review aid, not in XML parsing. `scripts/review_dbnl_vw_units_1921_1933.py` surfaced 124 bounded published units but emitted only `ranked[:70]`. Fifty-four lower-ranked units therefore never entered `research/article_dbnl_vw_units_1921_1933_review_2026-09-04.md`.
+The incompleteness was in the second-stage review aid, not in XML parsing. `scripts/review_dbnl_vw_units_1921_1933.py` surfaced 124 bounded published units but emitted only `ranked[:70]`. Fifty-four lower-ranked units therefore never entered `analysis/generated/dbnl/article_dbnl_vw_units_1921_1933_review_2026-09-04.md`.
 
 On 5 September the rank cap was removed. The workflow was also changed so that relevant script/XML changes rerun both the nine-volume traversal and the bounded 1921–1933 unit report. GitHub Actions then regenerated the report with **124/124 bounded units emitted**. The regenerated report adds 1,092 lines relative to the former 70-unit output.
 
