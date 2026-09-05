@@ -22,7 +22,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add research/article_dbnl_vw_units_1921_1933_review_2026-09-04.md
+          git add analysis/generated/dbnl/article_dbnl_vw_units_1921_1933_review_2026-09-04.md
           if git diff --cached --quiet; then
             echo 'No changes'
           else
