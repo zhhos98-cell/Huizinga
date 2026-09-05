@@ -1,0 +1,45 @@
+name: Patch Draft 04 twenty-ninth pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_twentyninth_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "32cd23afad1a4363547d9cf118ceda355a290730"
+      - name: Apply twenty-ninth-pass Ahlbrinck calibration
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old_body = "Nineteen days later, however, Malinowski’s controlled reply of 4 October opened by thanking Huizinga for the newly published *Encyclopaedie der Karaïben*."
+          new_body = "Nineteen days later, however, Malinowski’s controlled reply of 4 October opened by thanking Huizinga for *Encyclopaedie der Karaïben*."
+          old_note = "Identification of that dispatch with W. Ahlbrinck’s *Encyclopaedie der Karaïben* (1931) is highly probable: nineteen days later Malinowski’s next controlled letter thanks Huizinga for that newly published volume; the book was issued by the KNAW Afdeeling Letterkunde, which Huizinga chaired from 1929."
+          new_note = "Identification of that dispatch with W. Ahlbrinck’s *Encyclopaedie der Karaïben* (1931) remains highly probable but not certain: nineteen days later Malinowski’s next controlled letter thanks Huizinga for the Ahlbrinck volume, and the book was issued by the KNAW Afdeeling Letterkunde, which Huizinga chaired from 1929. Publication timing does not independently identify the 15 September volume; contemporary and later bibliographic evidence does not securely place Ahlbrinck’s first circulation in mid-September."
+          assert s.count(old_body) == 1, s.count(old_body)
+          assert s.count(old_note) == 1, s.count(old_note)
+          s = s.replace(old_body, new_body).replace(old_note, new_note)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Calibrate Ahlbrinck dispatch inference'
+          git pull --rebase origin main
+          git push origin HEAD:main
