@@ -1,0 +1,45 @@
+name: Patch Draft 04 KNAW presidency control
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_knaw_presidency_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "af7894647d67df2c280c5f737bc7cc435622dfad"
+      - name: Add institutional-office control to 1933 candidature scene
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text(encoding='utf-8')
+          old_body = "The same density framed the disciplinary limit three months later. On 20 May Malinowski thanked Huizinga for a letter and a reprint. Three days later, during Malinowski’s candidature for membership in the Royal Netherlands Academy, Huizinga wrote: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it.[^16] The proximity matters: non-leadership was stated inside an active exchange of texts, not after communication had gone cold."
+          new_body = "The same density framed the disciplinary limit three months later. Huizinga had been president of the Academy’s Section of Letters since 11 November 1929. On 20 May Malinowski thanked him for a letter and a reprint. Three days later, during Malinowski’s candidature for membership in the same Academy, Huizinga wrote: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it.[^16] His stated reason for not leading was disciplinary despite that institutional office: ‘Being no anthropologist.’ Non-leadership was stated inside an active exchange of texts, not after communication had gone cold."
+          old_note = "[^16]: The 2019 *Inventory of the Correspondence of Johan Huizinga* records Malinowski to Huizinga, 20 May 1933, incipit ‘Many thanks for your letter and for the reprint’. Three days later Huizinga wrote to Malinowski, 23 May 1933, correspondence item [1019]: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it. The KNAW historical-member record lists Malinowski as a foreign member from 1933. The surviving sources used here do not establish the formal proposer, full signatories, division vote or exact election/appointment sequence; later recollections by G.W. Locher attribute the membership to Huizinga’s activity but do not supply those mechanics."
+          new_note = "[^16]: The 2019 *Inventory of the Correspondence of Johan Huizinga* records Malinowski to Huizinga, 20 May 1933, incipit ‘Many thanks for your letter and for the reprint’. Three days later Huizinga wrote to Malinowski, 23 May 1933, correspondence item [1019]: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it. Huizinga had been appointed chairman/president of the KNAW Afdeeling Letterkunde on 11 November 1929; see *Briefwisseling*, deel II (1925–1933), ‘Woord vooraf’, and Huizinga Online, ‘Leven | Life’. The KNAW historical-member record lists Malinowski as a foreign member from 1933. The surviving sources used here do not establish the formal proposer, full signatories, division vote or exact election/appointment sequence; later recollections by G.W. Locher attribute the membership to Huizinga’s activity but do not supply those mechanics."
+          assert s.count(old_body) == 1, s.count(old_body)
+          assert s.count(old_note) == 1, s.count(old_note)
+          s = s.replace(old_body, new_body, 1).replace(old_note, new_note, 1)
+          p.write_text(s, encoding='utf-8')
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Sharpen KNAW outsider scene with Huizinga presidency'
+          git pull --rebase origin main
+          git push origin HEAD:main
