@@ -1,0 +1,34 @@
+name: Patch Draft 04 twenty-first pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_twentyfirst_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          current=$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)
+          controlled=$(git show a1b44b89eeb4cac148381bfb19971deaa6a4e68a:writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md | git hash-object --stdin)
+          test "$current" = "$controlled"
+      - name: Apply twenty-first-pass patch
+        run: python scripts/patch_draft04_twentyfirst_pass_2026_09_05.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Add 1921 political-ethnographic contrast control'
+          git pull --rebase origin main
+          git push origin main
