@@ -1,0 +1,33 @@
+name: Patch AGENTS section 19 1933 status
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_agents_section19_1933_status_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard AGENTS against concurrent edits
+        shell: bash
+        run: |
+          current=$(git hash-object AGENTS.md)
+          test "$current" = "44973e405c78b5522167e3d9ee4a6517e5640073"
+      - name: Patch section 19 status only
+        run: python scripts/patch_agents_section19_1933_status_2026_09_05.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add AGENTS.md
+          git commit -m 'Refresh 1933 publication QA status'
+          git pull --rebase origin main
+          git push origin main
