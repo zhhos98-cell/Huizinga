@@ -1,0 +1,45 @@
+name: Patch Draft 04 thirty-second pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_thirtysecond_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "7e0d048fcd9641d10db5b18bda5e55cc164f821a"
+      - name: Add precise core-pair locators
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old1 = "[^1]: Bronisław Malinowski to Johan Huizinga, 30 July 1931; Huizinga to Malinowski, 12 August 1931, Malinowski Papers, LSE."
+          new1 = "[^1]: Bronisław Malinowski to Johan Huizinga, 30 July 1931, correspondence item [902]; Huizinga to Malinowski, 12 August 1931, correspondence item [903]."
+          old4 = "[^4]: Huizinga to Malinowski, 12 and 31 December 1926, Malinowski Papers, LSE."
+          new4 = "[^4]: Huizinga to Malinowski, 12 December 1926, *Briefwisseling* II, item [685], p. 132; Huizinga to Malinowski, 31 December 1926, LSE, Bronislaw Malinowski Papers, `MALINOWSKI/36/39`."
+          assert s.count(old1) == 1, s.count(old1)
+          assert s.count(old4) == 1, s.count(old4)
+          s = s.replace(old1, new1).replace(old4, new4)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Add precise core pair locators'
+          git pull --rebase origin main
+          git push origin HEAD:main
