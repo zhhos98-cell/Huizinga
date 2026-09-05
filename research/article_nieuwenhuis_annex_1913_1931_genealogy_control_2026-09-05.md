@@ -65,9 +65,17 @@ Bibliographic control:
 - CiNii Books: https://ci.nii.ac.jp/ncid/BA77579746
 - *Anthropos* 8, no. 6 (Nov.–Dec. 1913), pp. 1164–1165 contains P. W. Koppers's review of the book: https://www.jstor.org/stable/i40019807
 
-A contemporaneous July 1913 colonial-periodical notice also records the appearance of Nieuwenhuis's study as the supplement to volume 21 of the *Internationales Archiv für Ethnographie*. The existence/date of the work is therefore not being inferred retrospectively from the 2009 article.
+A contemporaneous notice in *Het Koloniaal Weekblad*, 17 July 1913, does more than date the publication. It says the study was also being sent to members of the **Nederlandsche Anthropologische Vereeniging because it treated a subject already discussed at one of the association's meetings**; the accompanying association *Bijblad* contained notices and summaries of lectures, evenings, meetings and excursions. The object-to-capacity problem therefore circulated as an organized anthropological-association question, not only as Nieuwenhuis's private publication programme. Source: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/Kol.%20Weekblad/FINAL/MMKITLV01_PDF_TS694_1913_29.pdf
+
+A surviving 1914 association imprint is also bibliographically recorded as pairing `De toestand der Vereeniging 1914` with an A. W. Nieuwenhuis instalment of `Die Veranlagung der Malaiischen Völker des Ost-Indischen Archipels` (pp. 20–46, with plates). This confirms continued association-level circulation, but the present search has not recovered the text of that imprint; do not use it for quotation or detailed inference.
 
 The Nieuwenhuis programme subsequently continued in further instalments; later parts explicitly treated cognitive capacities including `Das logische Denken`. That continuation supports the existence of a sustained research programme linking material products and mental/cognitive dispositions. It still does not prove that the 1931 annex reused the 1913 text.
+
+### 4.1 Historiographical calibration: a sustained evolutionist-colonial programme
+
+Maarten Kuitenbrouwer, *Dutch Scholarship in the Age of Empire and Beyond* (English ed., Brill/KITLV Press, 2013/14), pp. 97–98, independently places Nieuwenhuis's Leiden work in a **comparative evolutionistic paradigm**. Kuitenbrouwer notes that Nieuwenhuis's 1904 inaugural lecture already compared peoples on `higher` and `lower steps of civilization`, and concludes that Nieuwenhuis continued teaching an extremely lengthy colonial-development process among the `less civilized peoples` of the Indies until 1934. Publisher-version PDF: https://pure.knaw.nl/ws/files/1414020/Poeze_Dutch_Scholarship.pdf ; DOI 10.1163/9789004260368.
+
+Article function: **SECOND-ORDER CONTROL / CONTINUITY OF PROGRAMME**, not proof of 1913→1931 textual identity. It makes the 1913 material less plausibly an isolated memorandum idiom: the object-to-capacity study sits inside a longer evolutionist and colonial-development framework extending from Nieuwenhuis's early Leiden professorship into the interwar period. The primary-source identity test between BPL 2591 F9N and the Yale annex remains unchanged.
 
 ## 5. Evidence decision
 
