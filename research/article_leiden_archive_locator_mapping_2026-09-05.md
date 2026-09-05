@@ -53,13 +53,27 @@ Article rule:
 
 Source control: Christophe de Voogd, *Le miroir de la France: Johan Huizinga et les historiens français* (Leiden University dissertation, 2013), chapter 6, note identifying the 122-folio manuscript as `AH 29, II, 1`.
 
+## Negative control recovered for the Paris 1930 lectures
+
+Huizinga Online's *Kalendarium* records the Paris teaching run as `16-9 april: colleges in Parijs [Brw. 849, 851] (bibl.nr. 200) [H.A. 1, inv.p. 10]` under March 1930. This securely controls the **event chronology** of the Paris colleges and a calendar/inventory-page reference.
+
+It does **not** securely map the surviving `Trois esprits prégothiques` manuscript packet in `review/chunk_002` to `H.A. 1`. The bracketed `H.A. 1, inv.p. 10` is attached in the calendar to the biographical/event entry, and no exact-title inventory evidence has yet shown that the lecture manuscript itself belongs to that unit.
+
+Article / agent rule:
+
+- use the calendar entry to control the Paris teaching chronology if needed;
+- do **not** convert `[H.A. 1, inv.p. 10]` into a manuscript shelfmark for `Trois esprits prégothiques`;
+- keep the manuscript's formal Leiden mapping unresolved until an exact inventory title, digital-object label, or equivalent item-level source is recovered.
+
+Source control: Anton van der Lem, *Kalendarium van gebeurtenissen in het leven van Johan Huizinga* (Leiden University Libraries digital calendar), March 1930 entry.
+
 ## Still unresolved: do not guess
 
 The following article-used internal coordinates still lack a secure formal inventory mapping in the present control:
 
 1. **Renaissance packet** — `review/chunk_028:p0183`, currently part of [^3]. No. 34 II does not cover this separate item.
 2. **American travel/research cards and comparative prose** — `review/chunk_018:p0198–p0238`, [^8]. Do not equate these automatically with other inventory items for Huizinga's American lectures or sent `American notes`.
-3. **`Trois esprits prégothiques` manuscript** — `review/chunk_002`, ms. pp. 31–35, [^9]. The 1930 Paris lecture chronology is secure, but an archive inventory number has not yet been source-controlled.
+3. **`Trois esprits prégothiques` manuscript** — `review/chunk_002`, ms. pp. 31–35, [^9]. The 1930 Paris lecture chronology is secure; the calendar's `[H.A. 1, inv.p. 10]` is an event-level locator, not yet a manuscript shelfmark.
 4. **History/science working cards** — `review/chunk_020:p0201–p0204`, part of [^11]. These are distinct from the formal `Aperçu` manuscript no. 29 II.1.
 5. **American itinerary** — `review/chunk_019:p0031`, part of [^2]. The Rockefeller report now has its own exact RAC locator, but the Leiden itinerary page still needs a formal Huizinga-archive mapping if publication requires one.
 
