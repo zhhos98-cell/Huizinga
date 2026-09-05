@@ -1,0 +1,45 @@
+name: Patch AGENTS Ahlbrinck and Yale status
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_agents_ahlbrinck_yale_status_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard AGENTS against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object AGENTS.md)" = "4dcdff52388e70150f45e8b0638a15ad31860a9a"
+      - name: Apply status-only patch
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('AGENTS.md')
+          s = p.read_text()
+          old1 = "- Keep the letter in Draft 04; publication QA still needs the exact Yale call/locator."
+          new1 = "- Keep the letter in Draft 04. The Yale pair-file locator is now resolved as MS 19, Series I: Correspondence, box 4, folder 280, `Huizinga, Johan, 1926–1933`; this remains a folder locator, not independent item-level content evidence."
+          old2 = "Other important open checks still include exact archival/correspondence locators where not yet fixed, translations of difficult Dutch terms, Ahlbrinck dispatch certainty, and formal KNAW candidature mechanics. Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open. The 8 February 1933 rectoral address chronology/pages and the 6 November Amsterdam lecture title/date are now source-controlled in `research/article_1933_coda_chronology_bibliography_control_2026-09-05.md` and should not be reopened as generic QA gaps."
+          new2 = "Other important open checks still include exact archival/correspondence locators where not yet fixed, translations of difficult Dutch terms, and formal KNAW candidature mechanics. Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open. The Ahlbrinck dispatch is now fixed at **NOTE / PARTIAL**: identification of the 15 September 1931 volume as *Encyclopaedie der Karaïben* remains highly probable but not certain; reopen only if the full Yale letter body or an independent dispatch/presentation record appears. Do not repeat generic publication-timing searches; see `research/article_ahlbrinck_dispatch_recheck_2026-09-05.md`. The 8 February 1933 rectoral address chronology/pages and the 6 November Amsterdam lecture title/date are now source-controlled in `research/article_1933_coda_chronology_bibliography_control_2026-09-05.md` and should not be reopened as generic QA gaps."
+          assert s.count(old1) == 1, s.count(old1)
+          assert s.count(old2) == 1, s.count(old2)
+          s = s.replace(old1, new1).replace(old2, new2)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add AGENTS.md
+          git commit -m 'Update resolved Yale and Ahlbrinck QA status'
+          git pull --rebase origin main
+          git push origin HEAD:main
