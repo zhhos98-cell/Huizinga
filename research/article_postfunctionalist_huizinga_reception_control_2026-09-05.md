@@ -2,7 +2,7 @@
 
 ## Scope
 
-Bounded article-facing question: after the Malinowski/Huizinga exchange, did later British social anthropologists cite or otherwise make explicit use of Huizinga once the strongest functionalist closure had weakened? The purpose is not to build a general reception history. It is to test a possible later control on the 1931 phrase `benevolent outsider`: was Huizinga's anthropological usability historically contingent on disciplinary configuration rather than absent altogether?
+Bounded article-facing question: after the Malinowski/Huizinga exchange, did later anthropologists cite or otherwise make explicit use of Huizinga as the strongest functionalist closure weakened or the discipline's usable intellectual repertoire changed? The purpose is not to build a general reception history. It is to test a possible later control on the 1931 phrase `benevolent outsider`: was Huizinga's anthropological usability historically contingent on disciplinary configuration rather than absent altogether?
 
 The Yale Malinowski–Huizinga dossier is **CLOSED** and was not reopened. The user confirms that the Yale folder already controlled in the repository is the complete pair dossier available to this project.
 
@@ -29,13 +29,30 @@ Bounded searches/checks of *Anthropology and History* (1961), *Theories of Primi
 
 Secondary intellectual-history controls identify R. G. Collingwood, not Huizinga, as a major named philosophical/historical mooring for Evans-Pritchard's interpretive and historical turn. Oxford's own disciplinary history likewise describes Evans-Pritchard as moving British anthropology away from a natural-science model and toward history.
 
-**Article consequence:** Evans-Pritchard is useful precisely as a negative control. The first anti-functionalist historical opening should not be narrated as a Huizinga rediscovery.
+**Article consequence:** Evans-Pritchard is useful precisely as a negative control. The anti-functionalist historical opening should not be narrated as a Huizinga rediscovery.
 
-## 3. Raymond Firth — direct public comparative use of Huizinga
+## 3. Kroeber and Kluckhohn 1952 — Huizinga already inside public anthropological concept history
 
 **Status: SECURE.**
 
-Raymond Firth, *Rank and Religion in Tikopia: A Study in Polynesian Paganism and Conversion to Christianity* (London: George Allen & Unwin, 1970), supplies the strongest direct generational control found so far.
+A. L. Kroeber and Clyde Kluckhohn, *Culture: A Critical Review of Concepts and Definitions* (Peabody Museum, 1952), materially backdates the controlled public anthropological use of Huizinga. The earlier version of this control incorrectly treated Firth 1970 as the earliest hard positive found in the pass; that chronology is superseded here.
+
+Kroeber and Kluckhohn use Huizinga several times in their opening historical-semantic analysis of `culture` and `civilization`. On their p. 9 they introduce a passage from Huizinga (1936, pp. 39–40) on the word `Culture` emanating from Germany, its varying acceptance across European languages, and the resistance of French and English to treating it as simply interchangeable with `civilization`. They later use Huizinga's account of Dutch `beschaving`, its relation to `culture` and `civilization`, and his discussion of Dante's `civiltà`. Their index lists Huizinga at pp. 9, 11, 12 and 26.
+
+Primary control:
+- A. L. Kroeber and Clyde Kluckhohn, *Culture: A Critical Review of Concepts and Definitions*, Papers of the Peabody Museum of American Archaeology and Ethnology 47.1 (Cambridge, Mass.: Peabody Museum, 1952), especially pp. 9, 11–12, 26 and index.
+
+The use matters even though it is not yet the same kind of use later found in Firth. Huizinga functions here as an authority on the **history and semantic differentiation of a central anthropological category**. He is therefore already present inside a major mid-century anthropological exercise in disciplinary self-definition.
+
+The acknowledgments add a striking but carefully bounded institutional lead: Clifford Geertz, Jr., then a Harvard graduate student in anthropology, is listed among the research assistants who did substantial work and offered criticisms of content and style. This does **not** prove that Geertz personally located, read, or used the Huizinga passages, and it does not alter the negative control on `Deep Play`. It establishes only that a Huizinga-citing text formed part of a research environment in which Geertz participated.
+
+**Article consequence:** public anthropological uptake did not wait until the post-1960 historical rapprochement. By 1952 Huizinga could already be used in a major anthropological concept-history. What changes later is the *job* Huizinga is made to do.
+
+## 4. Raymond Firth — direct public comparative use of Huizinga
+
+**Status: SECURE.**
+
+Raymond Firth, *Rank and Religion in Tikopia: A Study in Polynesian Paganism and Conversion to Christianity* (London: George Allen & Unwin, 1970), supplies the strongest direct generational **comparative** control found so far.
 
 The introduction says that a project planned forty years earlier gained `historical perspective` through Firth's return visits in 1952 and 1966 and that the book aims to show `the process as well as the structure` of the religious system. Firth explicitly describes his own position as that of a `humanist`.
 
@@ -49,9 +66,9 @@ Primary control:
 - Raymond Firth, *Rank and Religion in Tikopia* (1970), introduction and pp. 22–24, especially p. 23 n. 1.
 - Open Routledge/PagePlace preview checked 2026-09-05: `https://api.pageplace.de/preview/DT0400.9781136505515_A24435214/preview-9781136505515_A24435214.pdf`.
 
-**Article consequence:** this is the cleanest later contrast to Malinowski. Malinowski privately calls Huizinga's method `really anthropological`; Firth, Malinowski's student and successor, later makes Huizinga a public comparative interlocutor and is free to disagree with him through field evidence.
+**Article consequence:** this remains the cleanest later contrast to Malinowski at the level of ethnographic comparison. Malinowski privately calls Huizinga's method `really anthropological`; Firth, Malinowski's student and successor, publicly turns a Huizinga historical proposition into something ethnographic evidence can test and revise.
 
-## 4. Meyer Fortes — comparison remains Malinowskian without Huizinga
+## 5. Meyer Fortes — comparison remains Malinowskian without Huizinga
 
 **Status: NEGATIVE CONTROL in one especially relevant primary text.**
 
@@ -62,7 +79,7 @@ Primary control:
 
 **Article consequence:** Fortes shows that broad cross-civilizational comparison could be reconstructed from inside the Malinowskian/structural-functional lineage without making Huizinga an explicit authority. This helps prevent a false linear reception story.
 
-## 5. Max Gluckman — no direct Huizinga hit yet
+## 6. Max Gluckman — no direct Huizinga hit yet
 
 **Status: HOLD.**
 
@@ -70,13 +87,13 @@ Targeted searches of *Custom and Conflict in Africa*, `Rituals of Rebellion in S
 
 Gluckman's importance remains indirect: his work turns static equilibrium into conflict, process, colonial situation, and transformation, and Victor Turner emerges from this Manchester lineage. The direct Huizinga connection becomes secure only downstream in Turner (below).
 
-## 6. Edmund Leach — dynamic critique of functionalism, no direct Huizinga hit yet
+## 7. Edmund Leach — dynamic critique of functionalism, no direct Huizinga hit yet
 
 **Status: HOLD.**
 
 Targeted searches of *Political Systems of Highland Burma* and *Rethinking Anthropology* produced no reliable direct Huizinga citation. These texts remain useful as controls for dynamic/history-sensitive criticism of static functionalist models, but no Huizinga reception claim should currently be attached to Leach.
 
-## 7. Victor Turner — `Huizinga's ludic` inside process, liminality, and symbolic innovation
+## 8. Victor Turner — `Huizinga's ludic` inside process, liminality, and symbolic innovation
 
 **Status: SECURE by 1980.**
 
@@ -92,7 +109,7 @@ Earlier Turner requires care. `Liminal to Liminoid, in Play, Flow, and Ritual` (
 
 **Article consequence:** Turner gives the strongest downstream version of the user's proposed contrast. Huizinga is no longer merely a historical comparator. `Ludic` is inserted into a theory of symbolic recombination, reversal, process, and innovation — exactly where a model of institutions as equilibrium-maintaining functions has ceased to be sufficient.
 
-## 8. Gregory Bateson — explicit late-1970s critical engagement, not a 1955 derivation claim
+## 9. Gregory Bateson — explicit late-1970s critical engagement, not a 1955 derivation claim
 
 **Status: NOTE / PARTIAL.**
 
@@ -109,7 +126,7 @@ Primary locator:
 - Phillips Stevens Jr., `Gregory Bateson on Play and Work`, *Association for the Anthropological Study of Play Newsletter* 5.4 (Spring 1979), 2–4.
 - Gregory Bateson Archive guide, CAF Box 7.
 
-## 9. Rodney Needham — pedagogical/institutional uptake
+## 10. Rodney Needham — pedagogical/institutional uptake
 
 **Status: NOTE / PARTIAL (secondary testimony, not yet direct publication citation).**
 
@@ -120,54 +137,66 @@ Source:
 
 No direct Needham publication citation to Huizinga was securely located in this pass. The teaching claim therefore should be used only as **institutional reception evidence**: under the post-Evans-Pritchard Oxford regime, Huizinga could become assigned interdisciplinary reading for anthropologists.
 
-## 10. Clifford Geertz — a useful external negative control
+## 11. Clifford Geertz — direct negative control, with a new bounded 1952 context
 
-**Status: NEGATIVE CONTROL for `Deep Play`.**
+**Status: NEGATIVE CONTROL for `Deep Play`; NOTE for institutional context.**
 
 The full text of Clifford Geertz, `Deep Play: Notes on the Balinese Cockfight` (1972), was searched directly. `Huizinga` does not occur. Geertz explicitly derives `deep play` from Jeremy Bentham and then moves from economic irrationality to status, meaning, and `social semantics`.
 
-This matters because the title and subject can easily tempt an anachronistic Huizinga attribution. Do not make it. Geertz is useful as evidence that an anthropology centered on play, symbolism, and interpretation did not necessarily pass through Huizinga.
+This matters because the title and subject can easily tempt an anachronistic Huizinga attribution. Do not make it. An anthropology centered on play, symbolism, and interpretation did not necessarily cite or pass through Huizinga.
 
-Primary control:
+At the same time, Kroeber and Kluckhohn's 1952 acknowledgments list `Clifford Geertz, Jr.` among Harvard graduate anthropology research assistants who performed research work and criticized content and style. Because that monograph explicitly cites Huizinga several times, Geertz participated in a research environment in which Huizinga was present. Nothing in the acknowledgment assigns the Huizinga material specifically to Geertz, so this is **not** transmission evidence and must not be upgraded into an influence claim.
+
+Primary controls:
 - Clifford Geertz, `Deep Play: Notes on the Balinese Cockfight`, *Daedalus* 101.1 (1972), 1–37; later reprints checked in open full text.
+- Kroeber and Kluckhohn, *Culture* (1952), acknowledgments and pp. 9, 11–12, 26.
 
-## 11. Mary Douglas / Godfrey Lienhardt / S. F. Nadel
+## 12. Mary Douglas / Godfrey Lienhardt / S. F. Nadel
 
 **Status: HOLD.**
 
 Targeted name/title searches did not yet yield a controlled direct Huizinga citation. No negative corpus claim is warranted. Douglas's joke/anti-rite argument and Lienhardt's interpretive religion work are conceptually relevant, but resemblance is not reception evidence.
 
-## 12. Generational pattern now supported
+## 13. Revised generational/function pattern
 
 The evidence does **not** support the simple sequence:
 
 `functionalism ends → Evans-Pritchard cites Huizinga → later anthropology follows`.
 
-A more precise pattern is now visible:
+Nor does it now support the previous version of this note in which 1970 Firth was the earliest controlled public anthropological Huizinga citation. A more precise pattern is:
 
 1. **Malinowski, 1928–1933:** direct reciprocal reading and strong private methodological recognition of Huizinga, without controlled public doctrinal dependence.
-2. **Evans-Pritchard / Fortes / Gluckman / Leach, 1950s–60s:** history, comparison, process, conflict, and interpretation reopen or transform the functionalist field, but Huizinga is not yet a secure explicit authority in the key texts checked. E-P and Fortes are especially useful negative controls.
-3. **Firth, 1970:** Huizinga becomes a direct, public comparative interlocutor. A historical proposition from *The Waning of the Middle Ages* is tested against Tikopia evidence and revised.
-4. **Late 1970s–1980s:** Huizinga becomes an explicit theory object in anthropology of play/symbolic process. Bateson engages the Huizinga definition critically (1979, wording still to control); Turner names `Huizinga's ludic` inside liminal symbolic recombination (1980); Needham's Oxford pedagogy reportedly assigns Huizinga across disciplinary boundaries.
+2. **Kroeber–Kluckhohn, 1952:** Huizinga is already a public authority inside a major anthropological work of concept history, used on the semantics and historical differentiation of `culture`, `civilization`, and `beschaving`.
+3. **Evans-Pritchard / Fortes / Gluckman / Leach, 1950s–60s:** history, comparison, process, conflict, and interpretation reopen or transform the functionalist field, but Huizinga is not a secure explicit authority in the key British texts checked. E.-P. and Fortes remain useful negative controls.
+4. **Firth, 1970:** the job changes. Huizinga becomes a direct public **ethnographic-comparative interlocutor**: a historical proposition from *The Waning of the Middle Ages* is tested against Tikopia evidence and revised.
+5. **Late 1970s–1980s:** Huizinga becomes an explicit theory object in anthropology of play/symbolic process. Bateson engages the Huizinga definition critically (1979, wording still to control); Turner names `Huizinga's ludic` inside liminal symbolic recombination (1980); Needham's Oxford pedagogy reportedly assigns Huizinga across disciplinary boundaries.
 
-The strongest interpretation is therefore not that later anthropologists simply `rediscovered` a precursor. Rather:
+The strongest interpretation is therefore not that later anthropologists simply `rediscovered` a precursor, and not that public uptake waited for functionalism to collapse. Rather:
 
-> **Huizinga's anthropological afterlife became explicit only after the discipline had created more legitimate places for history, humanistic comparison, symbolic process, and play.**
+> **Huizinga's anthropological afterlife changed function as anthropology changed: concept-historical authority by 1952; ethnographic-comparative interlocutor by 1970; explicit resource for play and symbolic process by 1980.**
 
-That makes the 1931 `benevolent outsider` historically sharper. Malinowski could already recognize Huizinga's method as `really anthropological`, but the institutional and programmatic anthropology of that moment did not make Huizinga an obvious public theoretical authority. Later configurations could.
+That makes the 1931 `benevolent outsider` historically sharper without requiring a simple exclusion/reentry story. Malinowski could already recognize Huizinga's method as `really anthropological`; later configurations made different pieces of Huizinga publicly usable for different anthropological problems.
 
-## 13. Article-use rule
+## 14. Article-use rule
 
-Do not expand Draft 04 into a reception-history article. If this material enters the canonical article, use at most a compact later coda or historiographical control with Firth as the earliest hard positive, Evans-Pritchard/Fortes as negative controls, and Turner/Needham only as downstream confirmation that the disciplinary boundary was historically mutable.
+Do not expand Draft 04 into a reception-history article. If this material enters the canonical article, the cleanest later control is now **not** `Firth as earliest hard positive`. Instead distinguish the changing jobs:
+
+- Kroeber–Kluckhohn 1952: concept history;
+- Firth 1970: ethnographic comparison and correction;
+- Turner 1980: ludic/process theory.
+
+Evans-Pritchard and Fortes remain negative controls showing that history-sensitive or cross-civilizational anthropology did not automatically entail Huizinga reception. The 1952 Geertz acknowledgment is institutional context only and should not enter the body unless a stronger transmission trace appears.
 
 No Draft 04 patch is authorized by this note alone.
 
-## 14. Reopen conditions
+## 15. Reopen conditions
 
 Reopen this branch only for one of the following:
 
 1. a direct Huizinga citation in Evans-Pritchard, Gluckman, Leach, Fortes, Douglas, Lienhardt, or Needham that changes the current pattern;
-2. a pre-1970 Firth citation materially backdating the public uptake;
-3. a pre-1980 Turner citation materially backdating `Huizinga's ludic`;
-4. direct control of the 1979 Bateson–Stevens newsletter pages;
-5. evidence that one of these later anthropologists knew of the Malinowski–Huizinga correspondence itself rather than independently reading Huizinga.
+2. a pre-1952 anthropological publication using Huizinga that materially backdates controlled public uptake;
+3. a pre-1970 Firth citation that changes the chronology of his own comparative use;
+4. a pre-1980 Turner citation materially backdating `Huizinga's ludic`;
+5. direct control of the 1979 Bateson–Stevens newsletter pages;
+6. evidence assigning Huizinga-related work in the 1952 Kroeber–Kluckhohn project specifically to Geertz or another later anthropologist;
+7. evidence that one of these later anthropologists knew of the Malinowski–Huizinga correspondence itself rather than independently reading Huizinga.
