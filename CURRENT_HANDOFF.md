@@ -58,6 +58,14 @@ High-value article support already exists for:
 - 1933 Academy candidature and rectoral address;
 - Nieuwenhuis / Leiden institutional genealogy: van Bergen documents a same-titled 1913 Centre/museum-reorganization annex in the Nieuwenhuis archive, and Nieuwenhuis's 1913 *Die Veranlagung* independently controls the object-to-capacity programme. Treat the **1913 antecedent as secure**, but direct **1913 → 1931 textual reuse as NOTE / PARTIAL** until BPL 2591 F9N and the Yale 1931 annex are directly compared. Use `research/article_nieuwenhuis_annex_1913_1931_genealogy_control_2026-09-05.md`.
 
+### DBNL collected-works status — corrected 2026-09-05
+
+The nine mirrored DBNL TEI XML files were fully machine-traversed: 79,038 XML elements, 23,422 normalized text blocks and 12,066,667 normalized characters, yielding 8,720 high-recall article candidates. A later audit found that the **bounded 1921–1933 unit-review report**, not the XML traversal, had been truncated by `ranked[:70]`: 124 units were surfaced but only 70 emitted. The cap is now removed, the workflow reruns both layers, and the regenerated report emits **124/124** bounded units.
+
+The restored 54-unit tail has been article-facing reviewed under `AGENTS.md`. Its strongest items are method/category/institutional reserves (Friedländer, Champion, Halphen, the 1931 Bataviaasch Genootschap exhibition dispute, Becker). None changes Draft 04 strongly enough to justify a body patch. See `research/article_dbnl_vw_truncated_tail_closure_2026-09-05.md`.
+
+Scope control: 124/124 refers to every unit admitted by the existing bounded year/title rule. It is not a claim that all 8,720 candidate blocks received individual manual annotations. The nine-volume machine traversal is exhaustive; the semantic layer is deliberately article-facing and bounded.
+
 Do not restart generic thematic sweeps.
 
 ## Dormant provenance branch
