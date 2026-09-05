@@ -1,0 +1,33 @@
+name: Patch Draft 04 twenty-third pass
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/patch_draft04_twentythird_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          current=$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)
+          test "$current" = "7e73a05e589eb75a263fc55ff55544ed6da8f8ca"
+      - name: Apply twenty-third-pass patch
+        run: python scripts/patch_draft04_twentythird_pass_2026_09_05.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Add 1933 historical naming control'
+          git pull --rebase origin main
+          git push origin main
