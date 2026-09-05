@@ -1,0 +1,42 @@
+name: Patch AGENTS publication QA status
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_agents_publication_qa_status_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard AGENTS against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object AGENTS.md)" = "4d573fee34de4266c1c6607267e9b64fc69fcc88"
+      - name: Update publication-QA status only
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('AGENTS.md')
+          s = p.read_text()
+          old = "Other important open checks still include exact archival/correspondence locators where not yet fixed, translations of difficult Dutch terms, and formal KNAW candidature mechanics. Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open."
+          new = "Other important open checks still include exact archival/correspondence locators where not yet fixed and formal KNAW candidature mechanics. The core 1926/1931 pair locators used in Draft 04 have now been tightened: 12 December 1926 = *Briefwisseling* II [685], p. 132; 31 December 1926 = LSE `MALINOWSKI/36/39`; 30 July 1931 = [902]; 12 August 1931 = [903]. `beleving der Feodaltijd` is no longer an open translation problem: retain the Dutch because Huizinga's own usage spans experience, realization and enactment; see `research/article_beleving_translation_control_2026-09-05.md`. Other difficult terms should be treated as concrete translation choices only when they actually bear on a sentence, not as a generic search task. Malinowski’s final 1933 status as a foreign member is secure, but the formal proposer/signatories, division vote and election/appointment sequence remain open."
+          assert s.count(old) == 1, s.count(old)
+          s = s.replace(old, new)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add AGENTS.md
+          git commit -m 'Update publication QA locator and translation status'
+          git pull --rebase origin main
+          git push origin HEAD:main
