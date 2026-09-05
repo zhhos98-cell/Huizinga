@@ -3,8 +3,8 @@ from pathlib import Path
 from collections import defaultdict
 import csv, re
 
-SRC = Path('analysis/dbnl_vw_article_candidates_2026-09-04.tsv')
-OUT = Path('research/article_dbnl_vw_units_1921_1933_review_2026-09-04.md')
+SRC = Path('analysis/generated/dbnl/dbnl_vw_article_candidates_2026-09-04.tsv')
+OUT = Path('analysis/generated/dbnl/article_dbnl_vw_units_1921_1933_review_2026-09-04.md')
 
 YEAR_RE = re.compile(r'\b(192[1-9]|193[0-3])\b')
 # Important published units whose candidate div-title does not always carry its date.
@@ -74,6 +74,7 @@ def main():
             shown += 1
             if shown >= 7: break
 
+    OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text('\n'.join(md), encoding='utf-8')
     print(f'rows={len(rows)} units={len(ranked)} emitted={len(ranked)} report={OUT}')
 
