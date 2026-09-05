@@ -2,22 +2,37 @@
 
 The corpus retrieval programme is closed. This directory now holds bounded research deltas created for writing or for specific provenance questions.
 
-## Active article support: 1921–1933
+## Active article support: 1926–1933
 
-Use these first for the current Huizinga–Malinowski article:
+Use these first for the current Huizinga–Malinowski article. A controlled topic should be reopened only when a new source or a current Draft 04 sentence exposes a specific gap.
 
+- `article_structure_recomposition_exchange_travel_institution_1933_2026-09-05.md` — governing user-directed architecture: exchange/Kula → travel/comparative method → institutions/human sciences → 1933 hinge.
+- `article_kula_longitudinal_control_2026-09-05.md` — reusable Kula chain. Controls 1926 *Argonauts* receipt, 1928 origins/historical-use distinction, 1929 Trobriand familiarity plus surviving stadial order, and the 1933 Kula → potlatch → Burgundy mechanism. Reopen only for direct pre-1933 Kula evidence or a Malinowski response to Huizinga's later use.
 - `article_1921_1933_precontact_controls_delta_2026-09-04.md` — 1925 Bloch, 7 April 1926 theses, 1929 *De taak der cultuurgeschiedenis*, 1930 Dutch-culture lectures.
 - `article_1921_wells_spengler_opening_control_2026-09-04.md` — 1921 Wells / Spengler source control.
 - `article_direct_pair_gap_delta_1929_1931_2026-09-04.md` — bounded notes on the 1929 and 1931 correspondence gaps, including the *Encyclopaedie der Karaïben* identification.
 - `article_huizinga_historiography_delta_2026-09-04.md` — article-facing Huizinga scholarship: Arnade → Vale on anthropology/philology; Rydin on interwar rupture; Small / van der Lem on source practice; Greilsammer as pre-contact reception control. Use only where the case confirms, narrows, redirects or complicates a proposition.
 - `article_leiden_archive_locator_mapping_2026-09-05.md` — publication-facing Leiden archive mapping. Formal H.A. numbers must be distinguished from internal `review/chunk_*` audit pointers.
-- `article_nieuwenhuis_annex_1913_1931_genealogy_control_2026-09-05.md` — source genealogy for the Leiden Centre annex. A same-titled 1913 Nieuwenhuis antecedent and the 1913 object-to-capacity programme are secure; direct 1913 → 1931 textual reuse remains NOTE / PARTIAL until BPL 2591 F9N and the Yale 1931 annex are directly compared. Also records Kern's 1883 `voor hoogere beschaving vatbaar` wording as a phrase-level antecedent without a transmission claim.
-- `article_dbnl_vw_truncated_tail_closure_2026-09-05.md` — closure of the DBNL published-work review truncation found on 5 September. The nine-volume XML traversal was already complete; the bounded 1921–1933 report had silently emitted only 70 of 124 surfaced units. The cap is removed, 124/124 are now emitted, and the restored 54-unit tail yields method/category/institutional reserves but no Draft 04 addition.
-- `huizinga_political_context_lambrow_2026-09-05.md` — bounded 1930s political-context control. Lambrow on *Homo Ludens*, Schmitt and `Ernstfall`; links the 1933 Kula/play coda to a later question of political seriousness without back-projecting 1938 into the 1926–31 pair archive. Also records the next primary-source checks on Huizinga’s own political conduct and writing.
+- `article_nieuwenhuis_annex_1913_1931_genealogy_control_2026-09-05.md` — source genealogy for the Leiden Centre annex. A same-titled 1913 Nieuwenhuis antecedent and the 1913 object-to-capacity programme are secure; direct 1913 → 1931 textual reuse remains NOTE / PARTIAL until BPL 2591 F9N and the Yale 1931 annex are directly compared.
+- `article_dbnl_vw_truncated_tail_closure_2026-09-05.md` — closure of the DBNL published-work review truncation found on 5 September. The nine-volume XML traversal was already complete; the bounded 1921–1933 report had silently emitted only 70 of 124 surfaced units. The cap is removed, 124/124 are now emitted, and the restored 54-unit tail yields reserves but no Draft 04 addition.
+- `huizinga_political_context_lambrow_2026-09-05.md` — bounded 1930s political-context control. Lambrow on *Homo Ludens*, Schmitt and `Ernstfall`; links the 1933 Kula/play hinge to a later question of political seriousness without back-projecting 1938 into the 1926–31 pair archive.
 
-Recent methodological control for the introduction: Daniel Wickberg, ‘Better to Receive Than to Give’, *Modern Intellectual History* 20.4 (2023), 1297–1305, maps the field’s move from older `origins/influence` models toward reception, circulation and active reuse. Peter David Morgan, ‘The (non-)Globalisation of Ideas Revisited’, *Global Intellectual History* (published online 3 Aug. 2025), DOI 10.1080/23801883.2025.2540961, explicitly treats agents’ decisions to appropriate or **not** appropriate ideas as causal historical action. Article use should remain narrow: non-transfer / withheld uptake can be a positive object of intellectual history rather than an evidentiary absence.
+Recent methodological control for the introduction: Daniel Wickberg, ‘Better to Receive Than to Give’, *Modern Intellectual History* 20.4 (2023), 1297–1305, maps the field’s move from older `origins/influence` models toward reception, circulation and active reuse. Peter David Morgan, ‘The (non-)Globalisation of Ideas Revisited’, *Global Intellectual History* (published online 3 Aug. 2025), treats agents’ decisions to appropriate or **not** appropriate ideas as causal historical action. Article use should remain narrow.
 
 The article itself is in `writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md`.
+
+## Source retrieval after repository reorganization
+
+Raw source corpora no longer sit at repository root. Use `../sources/README.md` as the source index.
+
+For article work prefer this order:
+
+1. an `article_*` control in this directory if the issue has already been adjudicated;
+2. the relevant `review/chunk_*` material for a specific manuscript/OCR span;
+3. `../sources/ocr/paddle/corrected/` when an authorized corrected derivative exists;
+4. `../sources/ocr/paddle/raw/` or `../sources/dbnl/` only for source-level rechecking.
+
+Old sequential review rounds are frozen in `../archive/review_rounds/`. They are provenance, not an active research queue.
 
 ## Dormant provenance branch: Huizinga’s three Malinowski books
 
@@ -36,4 +51,4 @@ Do not restart generic publisher history, ordinary-copy searching or broad Vosma
 
 ## Rule for new research
 
-Open a new branch only when the current article exposes a specific factual gap that could change a sentence, note or source attribution. Generic thematic expansion remains closed.
+Open a new branch only when the current article exposes a specific factual gap that could change a sentence, note, attribution, event chain, or comparison. Generic thematic expansion and full-corpus reruns remain closed.
