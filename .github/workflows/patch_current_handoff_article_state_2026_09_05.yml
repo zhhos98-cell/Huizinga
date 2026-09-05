@@ -1,0 +1,56 @@
+name: Patch current handoff article state
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_current_handoff_article_state_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard CURRENT_HANDOFF against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object CURRENT_HANDOFF.md)" = "82dc00ee6ce1b64c48223ea1cf10713c2d68ab39"
+      - name: Synchronize canonical title and section list only
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('CURRENT_HANDOFF.md')
+          s = p.read_text()
+          old_title = "**Only a Benevolent Outsider: Johan Huizinga and Bronisław Malinowski on the Primitive, 1921–1933**"
+          new_title = "**Only a Benevolent Outsider: Johan Huizinga, Bronisław Malinowski, and the Waning of the Primitive, 1926–1933**"
+          old_sections = """Current section anchors are source phrases:
+
+1. `Just the one I can profit by for my historical method`
+2. `Quite at home in the Trobriands`
+3. `The weakest spots in our scheme`
+4. `Being no anthropologist`"""
+          new_sections = """Current canonical section headings are:
+
+1. `America, 1926: Primitive before the Encounter`
+2. `‘Primitive Law’ and Historical Use, 1926–1929`
+3. `The Historical Work of Primitief, 1929–1931`
+4. `‘Primitive or Semi-Cultured’: Leiden, 1931`
+5. `Coda: What Carried the Comparison, 1932–1933`"""
+          assert s.count(old_title) == 1, s.count(old_title)
+          assert s.count(old_sections) == 1, s.count(old_sections)
+          s = s.replace(old_title, new_title).replace(old_sections, new_sections)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add CURRENT_HANDOFF.md
+          git commit -m 'Synchronize handoff with canonical article state'
+          git pull --rebase origin main
+          git push origin HEAD:main
