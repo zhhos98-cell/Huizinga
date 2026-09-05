@@ -84,6 +84,17 @@ Official controls:
 - Staatscourant 2019, nr. 64667, KNAW archive finding aid / related-material section and membership-file explanation: https://zoek.officielebekendmakingen.nl/stcrt-2019-64667.html
 - `Besluit beperkingen openbaarheid KNAW`, describing the later `memories tot aanbeveling` and co-optation files: https://wetten.overheid.nl/BWBR0042850/
 
+### Current open-data control for toegang 64
+
+Noord-Hollands Archief's current OpenData Archieven record makes the remaining locator problem materially narrower. Dataset GUID `91E9B3FC80E9426593D3EF6C4C80DF8F` is the archive `Koninklijke Nederlandse Akademie van Wetenschappen (KNAW) te Amsterdam`, toegangscode **64**, covering **(1838) 1851–1940 (1954)**. The dataset is marked **openbaar**, released under **CC0**, and was last modified **6 July 2026**. Its scope is **23.75 metres** and the placement list contains **numbers 1–852**; the record notes that 418 and 420 are missing with their material incorporated into 419, 494 is incorporated into 466, and 522 points to 192.
+
+The dataset explicitly exposes a **Download XML (EAD)** representation. That means the unresolved 1933 problem is no longer whether an online/current inventory exists; it is an **item-level indexing/retrieval problem inside a known 852-number EAD inventory**. In this bounded pass the XML body itself could not be retrieved through the available web client, so no inventory number was inferred from surrounding numbers or from later KNAW inventories.
+
+Permanent OpenData record:
+https://opendata.archieven.nl/dataset/91E9B3FC80E9426593D3EF6C4C80DF8F
+
+A separate 2025 scholarly provenance citation to `NL-HlmNHA, KNAW te Amsterdam, 64, inv.no. 390` for a 22 February 1933 Natural Sciences letter confirms that 1933 material is represented at item level in toegang 64, but **inv.no. 390 does not localize Malinowski's Letterkunde candidature and must not be reused as a membership locator**.
+
 ## Current decision
 
 **PARTIAL CLOSURE.**
@@ -94,7 +105,8 @@ Secure:
 - Huizinga signed but explicitly `refrained from taking a leading part`;
 - Malinowski became a KNAW foreign member in 1933;
 - Locher later remembered Huizinga as causally important to the membership;
-- the relevant pre-1940 institutional archive is now located at Noord-Hollands Archief, toegang 64.
+- the relevant pre-1940 institutional archive is now located at Noord-Hollands Archief, toegang 64;
+- toegang 64 has a current public CC0 EAD inventory with 852 placement-list numbers.
 
 Still unresolved:
 
@@ -104,7 +116,7 @@ Still unresolved:
 - procedural distinction, if any, between proposal, election, and formal appointment;
 - exact inventory number(s) for the 1933 membership/minutes material within toegang 64.
 
-The next primary control is now **Noord-Hollands Archief, toegang 64**, rather than a generic archive-level search. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
+The next primary control is now **item-level retrieval within Noord-Hollands Archief, toegang 64**, rather than a generic archive-level search. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
 
 ## Draft rule
 
