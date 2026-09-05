@@ -1,0 +1,35 @@
+name: Patch Nieuwenhuis genealogy institutional programme
+
+on:
+  push:
+    paths:
+      - '.github/workflows/patch_nieuwenhuis_genealogy_institutional_programme_2026_09_05.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard genealogy control blob
+        shell: bash
+        run: |
+          actual=$(git hash-object research/article_nieuwenhuis_annex_1913_1931_genealogy_control_2026-09-05.md)
+          expected=3632bf396b7480d63f82ca4d1b14996bdaf5bf76
+          test "$actual" = "$expected" || { echo "Control blob changed: $actual"; exit 1; }
+      - name: Apply exact programme patch
+        run: python scripts/patch_nieuwenhuis_genealogy_institutional_programme_2026_09_05.py
+      - name: Commit and push safely
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add research/article_nieuwenhuis_annex_1913_1931_genealogy_control_2026-09-05.md
+          git commit -m "Strengthen Nieuwenhuis 1913 institutional programme control"
+          git pull --rebase origin main
+          git push origin HEAD:main
