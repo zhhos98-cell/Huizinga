@@ -4,8 +4,8 @@ from collections import Counter
 import csv, hashlib, html, re, xml.etree.ElementTree as ET
 
 ROOT = Path('sources/dbnl/verzamelde_werken')
-OUT = Path('analysis/dbnl_vw_article_candidates_2026-09-04.tsv')
-REPORT = Path('research/article_dbnl_verzamelde_werken_integration_2026-09-04.md')
+OUT = Path('analysis/generated/dbnl/dbnl_vw_article_candidates_2026-09-04.tsv')
+REPORT = Path('analysis/generated/dbnl/article_dbnl_verzamelde_werken_integration_2026-09-04.md')
 
 GROUPS = {
     'primitive': re.compile(r'(?i)\bprimit\w*|\bsavage\w*|\bwilden?\b|\boer(?:mens|volk|tijd|toestand)\w*'),
