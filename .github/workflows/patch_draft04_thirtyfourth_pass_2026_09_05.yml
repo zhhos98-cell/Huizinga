@@ -1,0 +1,42 @@
+name: Patch Draft 04 thirty-fourth pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_thirtyfourth_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "f46ee702f62983132ae66358bb05241b9802c67a"
+      - name: Add Rockefeller report archival locator
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old = "[^2]: Bronisław Malinowski, report on his 1926 American visit to the Laura Spelman Rockefeller Memorial; Huizinga calendarium; Huizinga papers, American itinerary, `review/chunk_019:p0031`."
+          new = "[^2]: Bronisław Malinowski, `Report by Dr. B. Malinowski to the Laura Spelman Rockefeller Memorial, Concerning His Travels in America in 1926, March–August`, Rockefeller Archive Center, Laura Spelman Rockefeller Memorial records, LSRM III, 6/56/599; Huizinga calendarium; Huizinga papers, American itinerary, `review/chunk_019:p0031`."
+          assert s.count(old) == 1, s.count(old)
+          s = s.replace(old, new)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Add Rockefeller report archival locator'
+          git pull --rebase origin main
+          git push origin HEAD:main
