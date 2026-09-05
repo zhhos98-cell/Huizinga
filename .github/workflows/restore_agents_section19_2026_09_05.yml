@@ -1,0 +1,33 @@
+name: Restore AGENTS and update section 19 only
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/restore_agents_section19_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard current AGENTS state
+        shell: bash
+        run: |
+          current=$(git hash-object AGENTS.md)
+          test "$current" = "34e155d7f5064d66bc3b2573881c8c869fc0c73a"
+      - name: Restore original AGENTS and patch only section 19
+        run: python scripts/restore_agents_section19_2026_09_05.py
+      - name: Commit without overwriting concurrent work
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add AGENTS.md
+          git commit -m 'Restore AGENTS and refresh publication QA only'
+          git pull --rebase origin main
+          git push origin main
