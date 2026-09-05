@@ -4,6 +4,7 @@ Purpose: second-pass human review aid after the complete nine-volume TEI travers
 
 - candidate rows loaded: **8,720**
 - bounded published units surfaced: **124**
+- bounded published units emitted: **124** (no rank truncation)
 
 Review rule: a unit earns Draft 04 prose only if its internal sequence changes an existing premise, mechanism, chronology, counterevidence, or disciplinary boundary. A high lexical score alone is not sufficient.
 
@@ -2476,3 +2477,1094 @@ Le dessin du Recueil d'Arras, malgré sa relative authenticité, me semble un pe
 `score=2; relations=1`
 
 Philippe lui-même, évidemment, ne se rendait pas compte de son insuffisance sur ce point. Chastellain rapporte une conversation qu'il eut avec lui le dimanche 1er août 1456 à Yselstein, près d'Utrecht, lors de l'expédition qui visait à la conquête de la Frise. Le duc dit au comte de Clèves, son cousin: ‘J'ay joué à la paume. J'ay perdu un compte lequel je veul mettre à part. Je le perdis hier, et aujourd'hui je recommence un nouveau jeu’. L'autre ne le comprit pas, mais Chastellain comprit que le duc faisait allusion aux soixante ans qu'il venait d'accomplir, et lui demanda, s'il espérait donc vivre une autre soixantaine. A quoi Philippe répondit qu'il ne souhaitait pas de longs jours, sauf pour le temps qu'il serait encore utile au bien public. ‘Et certes, conclut Chastellain, alors le faisoit aussi bel voir en armes comme le plus jeusne de sa maison.’Chast., III, p. 134. Six ou sept années plus tard, l'affaiblissement sénile avait commencé et ne laissait bientôt plus de lui qu'une ruine, ce qui mettait dans le plus grand danger l'oeuvre de sa maison.
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Fünfter Band: Geertgen van Haarlem und Hieronymus Bosch. Paul Cassirer, Berlin 1927.Nieuwe Rotterdamsche Courant, Avondblad van 21 Januari 1928.
+
+`unit_load=18; blocks=4; primitive=0; actors=0; discipline=0; relations=9; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.502
+`score=8; relations=4`
+
+Friedländer's gereserveerdheid begeeft hem niet, wanneer hij van Jeroen Bosch heeft te spreken. Hij acht hem, als verschijnsel, terecht volkomen ongedetermineerd, of althans voor ons ondetermineerbaar. Hij onthoudt zich van die psychologisch-cultuurhistorische fantazieën van voorbijgaande litteraire en minime kenniswaarde, waartoe figuren als Bosch en Breughel zoo uitlokken. Evenwel, bij Bosch dringt zich de behoefte aan psychologische interpretatie uit den aard van het werk zelf gebiedender op dan bij eenigen anderen meester. De schrijver wijdt er belangwekkende en uitstekend geschreven bladzijden aan, hier en daar wellicht op de grens van overmatig esprit. Ook hier weer die preoccupatie der Hervorming, waarbij even de twijfel rijst, of Friedländer den aard van die wending zelf zeer zuiver ziet. ‘Das Vertrauen in das Erlösungswerk war erschüttert... Die Menschheit (stand) im Begriffe, den Teufelsglauben abzuschütteln’ (blz. 111); zijn dat kenmerken der Hervorming?
+
+### p.501
+`score=4; relations=2`
+
+Toch ontbreekt ook ditmaal de meer algemeene beschouwing van elk der beide meesters niet. Geertgen wordt opgevat ‘als ein Vertreter holländischen Wesens’. Friedländer is zich wel bewust, dat onder den term Hollandsch niet Bosch kan worden begrepen, hoeveel er ook mag zijn, dat den Bosschenaar van het Zuiden scheidt en aan het Noorden verbindt. Het schijnt mij voorzichtig en juist gezien, dat de schrijver niet een begrip Noord-Nederlandsch invoert, om in de behoefte aan een algemeene tegenstelling te voorzien. Het recht om bepaalde trekken Hollandsch te noemen wordt hoofdzakelijk gewonnen uit een vergelijking met de volheid der Hollandsche schilderkunst in de zeventiende eeuw. ‘Das holländische Wesen prägt sich in der fruchtbaren Produktion des 17. Jahrhunderts reich genug aus, ist aber wegen der Mannigfaltigheit der Äusserungen nicht leicht in einigen Sätzen zu formulieren. Immerhin, blickt man aus einigem Abstand und mehr auf die durchschnittliche als auf die geniale Gestaltung, so bleibt eine Vorstellung zurück von unpathetisch diesseitiger Weltanschauung, von bejahender, genügsamer Hinnahme der individuellen Erscheinung von Freude am eigenen Haus und genauer Kenntnis der Umgebung.
+
+### p.503
+`score=4; relations=2`
+
+Bosch's phantasmagorie stelt onontkoombaar de vraag: in hoeverre stammen zijn gedaanten uit het gebied van den echten droom, afzonderlijk daarvan de vraag: in hoeverre waren zij komisch bedoeld? Friedländer beantwoordt beide niet uitdrukkelijk, maar is ze zich blijkbaar zeer bewust. Hij is geneigd, aan opzettelijk uitdenken, ‘witzigen Kombinationen’, spot, ‘Schaubudensensation, Maskerade und Scharlatanerie’ een groot aandeel toe te kennen, maar spreekt ook van Bosch's ‘dumpfer Ahnung vom Kampf ums Dasein, von der Gesetzlichkeit organischen Werdens’ en van zijn ‘bejahenden Pantheismus’. Het blijven gevaarlijke speculaties, doch ongetwijfeld heeft Friedländer's werk het waarlijk verstaan van den zonderlingen meester zeer belangrijk bevorderd.
+
+### p.501
+`score=2; relations=1`
+
+In den eersten zin van de voorrede belijdt de schrijver opnieuw zijn afkeer van kunsthistorische constructie, later getuigt hij nog eens van zijn sceptische en geresigneerde opvatting van de taak der kunstgeschiedenis (blz. 107). ‘Im Eifer, sich seines Berufstitels würdig zu erweisen, sieht der Kunsthistoriker die Aufgabe darin, jeden Meister als ein Glied in die Kette einzufügen, die Ahnentafel der Ursachen für jede Erscheinung aufzuzeichnen.’ Maar dit is immers methodisch onmogelijk en het pogen brengt gevaren mee. ‘Die Beobachtung verliert an Unschuld, sobald jede Eigenschaft als eine Folge betrachtet wird.. Es gilt zunächst, die Betrachtung der sichtbaren Dingen zu vertiefen, zu verfeinern, vorurteilslos und unabhängig von der Sehnsucht nach dem ursächlichen Zusammenhange.’ Zoo neemt de technisch-kunsthistorische beschrijving en bepaling der schilderijen evenals reeds in de eerdere deelen, de grootste plaats in, weloverwogen, fijn en meestal overtuigend.
+
+## huiz003verz05_01.xml — Boekbespreking [van P. Champion's ‘Louis XI’]Museum, 36e Jaargang no. 1, October 1928, kol. 22-24. A.W. Sijthoff's Uitg.-Mij., Leiden.
+
+`unit_load=18; blocks=8; primitive=0; actors=0; discipline=0; relations=7; places=4; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.195
+`score=4; places=2`
+
+Boekbespreking [van P. Champion's ‘Louis XI’]Museum, 36e Jaargang no. 1, October 1928, kol. 22-24. A.W. Sijthoff's Uitg.-Mij., Leiden.
+
+### p.195
+`score=4; places=2`
+
+Museum, 36e Jaargang no. 1, October 1928, kol. 22-24. A.W. Sijthoff's Uitg.-Mij., Leiden.
+
+### p.195
+`score=4; relations=2`
+
+Het is heel iets anders, een stuk litteraire geschiedenis te beschrijven, dan het leven van een koning, die een staat belichaamd heeft in een kritiek tijdperk van zijn bestaan. Het talent van den heer Champion is tot dit laatste te kort geschoten. Hier kwam het er op aan, de groote vragen, die die tijd stelt, duidelijk uit te drukken, aan de stof vorm te geven, veel weg te laten en een geheel hecht op te bouwen. Van die grondvragen maakt de schrijver zich af met de verklaring, dat zij toch niet zijn op te lossen (I, p. 57). Hierin is iets waars. Champion vreest terecht historische constructie. Doch wat geeft hij er voor in de plaats?
+
+### p.195
+`score=2; relations=1`
+
+De heer Champion, die ons voortreffelijke werken geschonken heeft over Charles d'Orléans en François Villon, een aantrekkelijke Histoire poétique du XVe siècle en tal van andere studiën, kent de bronnen van de Fransche geschiedenis der vijftiende eeuw in een omvang en een diepte als wellicht geen ander. Een geschiedenis van Lodewijk XI van zijn hand, opgebouwd op een even uitgebreide kennis der gedrukte bronnen als ver-strekkend archief-onderzoek, doet het allerbeste verwachten.
+
+### p.195
+`score=2; relations=1`
+
+Nog eer ik de lectuur van het boek kon beginnen, kwam ik in de Revue historique van Januari-Februari 1928, t. 157 p. 89, een beoordeeling tegen door Ch. Petit-Dutaillis, en was teleurgesteld, daar een scherpe afkeuring te vinden van de wijze, waarop Champion zich van zijn taak gekweten had. Bij lezing bevond ik spoedig, dat afkeurend oordeel te moeten deelen.
+
+### p.196
+`score=2; relations=1`
+
+Champion ontrolt het leven van Lodewijk XI, in hoofdzaak zuiver annalistisch, in een oneindige reeks van vluchtige, licht gepenseelde beelden. Hij brengt geen reliëf aan tusschen het gewichtige en bijkomstige. Hij tracht de dingen te doen zien door de oogen van zijn hoofdfiguur, en gebruikt daartoe doorloopend banale stijlmiddelen van novellistischen aard. Hij geeft voortdurend quasi-meditaties van Lodewijk, even ongefundeerd als die welke Froissart aanwendt, en minder aardig. Hij eindigt zijn korte, schemerige hoofdstukjes met verbale culs de lampe, die louter op het effekt zijn. Men is herhaaldelijk geneigd, van quasi-realisme, quasi-spanning, quasi-naïveteit te spreken, veel procédé te zien en weinig kracht. De groote gebeurtenissen worden niet duidelijk, de kleine treffen niet. En dit alles is opgetrokken op een fundament van ontzagwekkende, eerste-hands kennis. Maar die kennis is in haar harde echtheid den auteur niet genoeg ernst. Hij speelt er mee, hij kleedt ze wat aan, poetst ze wat op, en gaat er niet altijd nauwkeurig mee om. De scène, die Chastellain III, p. 230 beschrijft, is op pag. 299 van het eerste deel geheel onjuist weergegeven. Dat er bij de verwerking van een zoo onafzienbaar materiaal eens een enkele onjuisth …
+
+### p.196
+`score=2; relations=1`
+
+Bijna het gansche boek is geschreven in het in Franschen historiestijl zoo gecultiveerde praesens historicum, dikwijls afgewisseld door het evenzeer veelgebruikte futurum historicum. Het zou interessant zijn, de beteekenis van dit stijlmiddel nader te onderzoeken. Het Engelsch bezigt dit spraakgebruik zoo goed als niet. Alleen Carlyle vervalt er voortdurend in, maar zijn stijl is dan ook door zijn landgenooten steeds als on-engelsch verworpen. Het praesens verhoogt de levendigheid. Doch in den grond der zaak is het een zwakheidsverschijnsel. De tijd der ware geschiedschrijving is een rustig praeteritum.
+
+## huiz003verz05_01.xml — [Boekbespreking van L. Halphen's ‘L'essor de l'Europe’]Tijdschrift voor Geschiedenis, 48e Jaargang, 1933, p. 80-83. P. Noordhoff N.V., Groningen-Batavia.
+
+`unit_load=18; blocks=6; primitive=0; actors=0; discipline=0; relations=9; places=0; play=1; combo_blocks=0; actor_relation_blocks=0`
+
+### p.130
+`score=6; relations=3`
+
+Dat er van het werk van een zoo uitstekend kenner der middeleeuwsche geschiedenis als Louis Halphen veel goeds te zeggen valt, spreekt van zelf. Met groote nauwkeurigheid bewerkt, volkomen op de hoogte van het hedendaagsch onderzoek, met zorg en oordeel ingedeeld, voorzien van goed gekozen litteratuuropgaven, kan dit handboek ongetwijfeld onder de talrijke publicaties van soortgelijken aard, die tegenwoordig verschijnen, een waardige plaats innemen. Niettemin moeten wij tot onzen spijt bekennen, dat het ons in meer dan één opzicht heeft teleurgesteld, en bedenkingen van meer of min principieelen aard heeft doen opkomen.
+
+### p.130
+`score=6; relations=3`
+
+Wanneer in een serie, die zich Peuples et civilisations noemt, de drie eeuwen hier bedoeld worden aangediend als L'essor de l'Europe, dan verwachten wij in de eerste plaats een welgebouwd beeld van de groote verschijnselen, die tezamen die opkomst, die hooge vlucht van een nieuwe beschaving, uitmaken. Al erkent men nog zoo volmondig de hooge beteekenis der politieke geschiedenis, als machtigen factor in den opbouw der beschaving zelve, niemand zal toch, schijnt het ons, volhouden, dat in de staten- en vorstengeschiedenis van die drie eeuwen de opkomst van Europa ligt. Die opkomst, dat wil zeggen: de emancipatie der Kerk, het opbloeien van den handel en de steden, de eerste vorming van doeltreffende staatsorganen, de bouwkunst, de Scholastiek, de nieuwe orden, het ridderwezen en de hoofsche cultuur, de rijke letterkunde, in het Latijn en in de volkstalen. En al wordt geen dezer verschijnselen in Halphen's boek geheel verwaarloosd, en enkele ervan zelfs vrij uitvoerig behandeld, het treft toch bij het lezen aanstonds, hoeveel meer plaats de eigenlijke statengeschiedenis, somtijds beladen met overvloedig veel détails, inneemt, terwijl de hoofdstukken over economische en constitutioneele geschiedenis, alsmede die over kunst en letterk …
+
+### p.129
+`score=2; relations=1`
+
+In de op twintig deelen berekende wereldgeschiedenis onder leiding van Halphen en Sagnac volgen de afzonderlijke werken elkaar met snelheid op. Na het, behoudens enkele aanmerkingen, voortreffelijk geslaagde deel VIII Les débuts de l'âge moderne, van Hauser en Renaudet, en het dubbele deel VII, La fin du moyen âge, waaraan niet minder dan vijf schrijvers hadden meegewerkt, en dat, naar onze meening, iets minder bevredigend is uitgevallen, verschijnt thans weer een werk uit één hand, die van L. Halphen zelf, die ook reeds in 1926, onder den titel Les Barbares, de vroege Middeleeuwen gaf. In het plan van het geheele werk is aan elk tijdperk zulk een expressieve titel, die de beteekenis ervan in één signatuur samenvat, toegedacht. Is daarin een concessie aan hedendaagsche eischen van publiciteit te zien? Naar aanleiding van de ondertitels van deel VII wezen wij indertijd op het gevaar, dat bepaalde strekkingen, die men in een tijd meent waar te nemen, zoodoende al te sterk geaccentueerd worden. Dit bezwaar geldt van het nu te bespreken deel niet: voor het groote tijdperk van vorming en opbouw, dat de eeuwen van 1000 tot 1300 omspant, is de titel L'essor de l'Europe volkomen op zijn plaats.
+
+### p.131
+`score=2; relations=1`
+
+Dat in die enkele bladzijden over laatstgenoemd onderwerp veel achterwege moet blijven, ligt voor de hand: noch van het stadsgerecht, noch van de stadsgemeente, het stedelijk grondbezit, de stedelijke huishouding, wordt getracht een duidelijk beeld te geven, en van Duitsche of Engelsche, ja zelfs Vlaamsche steden wordt naast Fransche en Italiaansche niet of nauwelijks gerept: de namen Gent en Brugge komen in het hoofdstuk over de opkomst van handel en steden niet voor, terwijl men elders de data en étapes van Corradino's vlucht, obscure Byzantijnsche litteraten en tal van Spaansche belegeringen in den strijd tegen de Almohaden kan aantreffen.
+
+### p.133
+`score=2; relations=1`
+
+Niet voor het genoegen van het kritiseeren brengen wij zulke ernstige bedenkingen in tegen een eerbiedwaardige prestatie van een verdienstelijk historicus als Halphen. De vraag is hier, of het boek zijn titel rechtvaardigt, en aan zijn bestemming beantwoordt. En juist wat dit laatste betreft, ligt er, schijnt het ons, in wetenschappelijke ondernemingen als de serie Peuples et civilisations een gevaar. Zij eischen, in snel tempo, van de bewerkers samenvattingen, die naar zekere volledigheid te streven hebben, zekeren samenhang moeten vertoonen, en bovendien aan zekere stilistische voorwaarden moeten voldoen. Daarbij komt, dat eigenlijk niet vaststaat, tot welk gebruik de reeks bestemd is. Als historische lectuur voor den algemeenen lezer, als leerboeken voor studenten, als naslawerken voor den vakhistoricus? Het is te vreezen, dat tenslotte geen van drieën vindt, wat hij zoekt, de een door een te veel, de ander door een te weinig. De schrijver wordt op deze wijze licht het slachtoffer van een bijna onmogelijke taak, die hij op zijn schouders heeft genomen.
+
+### p.132
+`score=1; play=1`
+
+De schrijver zal dit niet toegeven. Voor hem schijnt inderdaad het zwaartepunt van zijn geschiedverhaal, dat de opkomst van Europa betreft, in de internationale verhoudingen der nog jonge staten van het Westen te liggen, en hij beschrijft hun betrekkingen als een weldoordacht politiek spel. Naar het ons voorkomt, in veel te moderne termen. Wat voor nut heeft het, van ‘grandes puissances’ omstreeks 1200 te spreken (p. 258), of van de Duitsche keizers der elfde eeuw te gewagen als bedacht op het doel om te ‘dissocier le bloc slave’ (p. 378)? In de gansche voorstelling der statenverhoudingen heerscht, naar onzen indruk, een doorloopend anachronisme. Dit is geen middeleeuwsche geschiedenis.
+
+## huiz003verz07_01.xml — Margaret Mann, Erasme et les Débuts de la Réforme française (1517-1536). Bibliothèque littéraire de la Renaissance. Champion, Paris 1934. Otto Schottenloher, Erasmus im Ringen um die humanistische Bildungsform. Ein Beitrag zum Verständnis seiner geistigen Entwicklung. Reformationsgeschichtliche Studien und Texte, Heft 61. Aschendorff, Münster i. W. 1933.Museum, 42e Jrg. no. 3, December 1934, kol. 79-80. A.W. Sijthoff's Uitg. Mij. N.V., Leiden.
+
+`unit_load=18; blocks=5; primitive=0; actors=0; discipline=0; relations=7; places=4; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.271
+`score=10; relations=5`
+
+Erasmus blijft de aandacht trekken, en geen wonder. Het onbenaderbare van zijn figuur dwingt de geesten, zich steeds weer met hem bezig te houden, nu als in zijn eigen tijd. En altijd weer loopt het oordeel over hem gevaar, naar één van twee zijden te ver over te hellen: men ziet hem te zeer aan den kant van het geloof, oud of nieuw, of te zeer aan dien van het Humanisme. Het meest eigenlijke van Erasmus laat zich nu eenmaal niet onder zoo algemeene termen als Christendom en Humanisme vatten. Margaret Mann, hoewel vol erkenning voor Erasmus' religieus gehalte, legt, schijnt het mij, iets te sterk den nadruk op zijn Humanisme. Zij vat dat Humanisme te veel als een wel omschreven grootheid op, en overschat in Erasmus de rationeele, de optimistische, de moralistische en de litteraire trekken. Het ‘Sancte Socrates, ora pro nobis’ van het Convivium religiosum wordt een ‘aveu’ genoemd (p. 89) en fungeert later (p. 168) als een soort leus van het bijbelsch Humanisme, terwijl toch een enkele blik in den tekst der Colloquia èn het zeer voorwaardelijke van dien uitroep èn de ironie erin doet kennen. Nephalius zegt: ‘Proinde cum huiusmodi quaedam lego de talibus viris, vix mihi tempero quin dicam, Sancte Socrates, ora pro nobis’. De schrijfs …
+
+### p.271
+`score=4; places=2`
+
+Margaret Mann, Erasme et les Débuts de la Réforme française (1517-1536). Bibliothèque littéraire de la Renaissance. Champion, Paris 1934. Otto Schottenloher, Erasmus im Ringen um die humanistische Bildungsform. Ein Beitrag zum Verständnis seiner geistigen Entwicklung. Reformationsgeschichtliche Studien und Texte, Heft 61. Aschendorff, Münster i. W. 1933.Museum, 42e Jrg. no. 3, December 1934, kol. 79-80. A.W. Sijthoff's Uitg. Mij. N.V., Leiden.
+
+### p.271
+`score=4; places=2`
+
+Museum, 42e Jrg. no. 3, December 1934, kol. 79-80. A.W. Sijthoff's Uitg. Mij. N.V., Leiden.
+
+### p.272
+`score=2; relations=1`
+
+Deze kleine bezwaren betreffen echter alle slechts een nuance in de beoordeeling van Erasmus' persoonlijkheid, en doen niets af van de waarde dezer nauwgezette studie, die ons achtereenvolgens de betrekkingen van Erasmus tot de Parijsche geletterden in 1517, tot Lefèvre d'Etaples, tot de groep van Meaux: Farel, Marguerite de Navarre, en tot Louis de Berquin beschrijft, om met een hoofdstuk over Erasmus en Calvijn te besluiten. Een aanhangsel behandelt eenige Fransche vertalingen van werken van Erasmus. De schrijfster laat Erasmus en Lefèvre beiden sterven ‘dans une extrême vieillesse’ (p. 167), wat van den eersten wel wat veel gezegd is, vooral als men met Hyma weer tot 1469 als geboortejaar zou neigen.
+
+### p.272
+`score=2; relations=1`
+
+De studie van Dr Schottenloher, die Paul Joachimsen als zijn leermeester gedenkt, vat het thema weer op, dat twintig jaar geleden door den jong gevallen Paul Mestwerdt aan de orde was gesteld. De achtergrond van Erasmus' geestelijke ontwikkeling in de Devotio moderna wordt scherp belicht. Juist het element, dat M. Mann aan Erasmus, in tegenstelling tot Lefèvre, geheel ontzegt, namelijk het mystische, wordt voor zijn ontwikkeling door Schottenloher op den voorgrond gesteld. Van mystiek langs een ethischen weg tot Humanisme, het schijnt een vreemde gang voor wie gewoon is, de termen in hun gangbare gebruikswaarde te nemen. Simplicitas en humilitas, oogenschijnlijk aan de humanistische houding zoo tegengesteld, zijn niettemin de mijlpalen op dien weg naar de klassieke eruditie geweest. Om dit te verstaan, moet men het diepgaande betoog van den schrijver op den voet volgen. Het is niet mogelijk, het in enkele woorden samen te vatten. In het verband van zijn onderwerp behandelt Dr Schottenloher uitvoerig de vraag die Erasmus' kloostertijd stelt, namelijk in hoeverre zijn latere gevoelens hem intrede en verblijf in het klooster onder valsch licht hebben doen zien.
+
+## huiz003verz07_01.xml — Voorrede bij een boek van Jan VethVoorrede bij Jan Veth's Een veronachtzaamd hoofdstuk uit onze beschavingsgeschiedenis der zeventiende eeuw. H.D. Tjeenk Willink & Zoon, Haarlem 1928.
+
+`unit_load=18; blocks=6; primitive=0; actors=0; discipline=0; relations=9; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.486
+`score=6; relations=3`
+
+Weinig dingen stonden Veth's diepste wezen nader dan het breede, frissche leven van het oude Holland en de stille, onbevangen overgave zijner graphische kunstenaars. En weinig bezigheid strookte zoo met zijn lust en aanleg, als de liefde en bewondering voor een kunst, die hij door en door kende, aan anderen mee te deelen, - niet door zwaarwichtige bespiegeling, maar door een eenvoudig wijzen en toelichten. Het was het werk, dat hij sinds zijn jonge jaren, in zijn Aanteekeningen over schilderkunst en elders, tallooze malen had verricht. Nu was het op verzoek van het bestuur van het Nederlandsche Philologencongres, dat hij op zich genomen had, in de algemeene vergadering, te Groningen op 15 April 1925, te spreken. In den Nieuwe Gids-tijd, en nog in den Kroniek-tijd zou een congres van philologen hem zeker niet zoo licht bereid hebben gevonden. Het woord suggereerde juist al datgene waartegen de jongeren van destijds front maakten. Toen achtte Veth het nog zijn taak, kunstbeschouwing en kunstwaardeering los te maken van een kunstkennis, die tot waardeeren onbevoegd scheen. Wanneer hij, twintig jaar later, in 1915, getuigde, dat de vaderlandsche kunsthistorie haar gezichtsveld verruimd, haar methode verdiept, haar bezieling verhoogd h …
+
+### p.487
+`score=4; relations=2`
+
+Veth laat in deze lezing, meer dan hij gewoon was, het woord aan anderen, die hij aanhaalt. Is het, bij alle kracht van betoog en zuiverheid van bouw, die het stuk kenmerken, toch een teeken van de vermoeidheid, waaronder het werd samengesteld? Veeleer toch spreekt daarin slechts zijn diepe eerbied voor allen, die als hij het onopgesmukte hartgrondig konden vereeren. En nog iets anders spreekt eruit: de didactische toeleg, ons eraan te herinneren, hoe menig vreemdeling wat ons eigen is beter waardeert dan wij het doen.
+
+### p.486
+`score=2; relations=1`
+
+Het is niet zeldzaam, dat een geest, die altijd over wijde velden placht te zweven, tegen het einde zich keert tot wat het eenvoudigst is en het dichtst bij huis, en daarvoor een klare uitdrukking vindt, die recht tot allen spreekt. Niet dat Jan Veth de bladzijden, die hier volgen, zelf het slot van zijn letterkundigen arbeid zou hebben geweten. Zijn werklust hield hem nog tal van taken voor, en dwong hem, op nog tal van jaren te hopen. Maar dit werk moest het laatste zijn, en voor wie op zijn levenswerk terugziet draagt het wel trekken van een afscheid.
+
+### p.487
+`score=2; relations=1`
+
+In 1925 schuwde hij geen philologen meer, al voelde hij zich bij hen als schilder in vreemd gezelschap. In het verwijt, waarmee hij zijn onderwerp inleidt: dat de beoefenaars onzer beschavingsgeschiedenis de prentkunst als bron van kennis verwaarloozen, ligt geen zweem van scherpheid of hatelijkheid.
+
+### p.487
+`score=2; relations=1`
+
+Men heeft mij erop opmerkzaam gemaakt, dat dit verwijt onbillijk moet heeten jegens de nagedachtenis van een Nederlandsch philoloog, die twee jaren te voren aan ons nationale leven ontvallen was: G. Kalff, in diens Geschiedenis der Nederlandsche Letterkunde. Kalff waagde zich nooit op het gebied van kunsthistorie of kunstbeschouwing. Doch juist het punt, door Veth op den voorgrond gesteld: hoe onze beeldende kunst uiting heeft gegeven aan kanten van het volksleven, waarmee de letterkunde zich niet of nauwelijks bezig hield, heeft Kalff op meer dan één plaats, zij het terloops, opgemerkt (t.a.p. IV. 493, 540, V. 241, VII. 187 enz.), met name het feit, dat uitgangspunt en slot vormt van Veth's betoog: hoe de schilder het dier heeft gezien en begrepen. Het zou Veth stellig verheugd hebben, zijn gedachte reeds te ontmoeten bij den man, die in zijn bloeiende en doordringende liefde voor de Hollandsche zeventiende eeuw aan hem verwant was.
+
+### p.487
+`score=2; relations=1`
+
+Aan het karakter van een toespraak is bij de uitgave van de verhandeling niets veranderd. Juist waar het geldt, een die is heengegaan, nog eens te hooren spreken, is het van groote waarde, dat zijn woord den vorm behoudt van een spreken van mensch tot mensch.
+
+## huiz003gesc03_01.xml — Antwoord aan professor André JollesDe Gids, 89e Jrg. no. 9, September 1925, p. 400-403. P.N. van Kampen & Zoon, Amsterdam. In het voorafgaande artikel, Clio en Melpomene, uit Jolles bezwaren tegen enkele uitlatingen van Huizinga in Bernard Shaw's Heilige [Verz. Werken IV, p. 538 vg., 548], waarin deze den letterkundigen vorm van de geschiedschrijving aanroert. Jolles stelt twee vragen: ‘ten eerste: is inderdaad de beschrijving bij Aeschylus minder onsterfelijk dan die bij Herodotus? ten tweede: is wat Herodotus geeft, niet ook een “letterkundige vorm”?’
+
+`unit_load=16; blocks=4; primitive=0; actors=0; discipline=0; relations=8; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.29
+`score=10; relations=5`
+
+Gij demonstreert aan het zo ontj e van den slager (wat was het mager!), dat reeds de eenvoudige mededeeling van een nietige gebeurtenis de neiging vertoont om een vorm aan te nemen, dien wij letterkundig moeten noemen. Doch daarmee bewijst gij niet, dat de historische voorstelling eigenlijk een soort letterkunde is, maar dat letterkundige uitdrukking niet anders is dan een, zelfs in elk gesprek onvermijdelijke en onmisbare, hoogere vorm van syntaxis: samenschikking (welk een voortreffelijk woord toch!) een primordiale geestelijke functie veeleer dan een kunst. Men houdt hier in Holland de letterkunde vrij algemeen voor een kunst. Zonder haar enge verwantschap met beeldend scheppen te loochenen, beweer ik voor mij altijd, dat men de letterkunde onrecht doet, door haar rondweg bij de kunsten te rekenen, en dat men, dit doende, nog een aantal andere geestelijke functies tot de kunsten zou moeten rekenen: om te beginnen, de wiskunde.
+
+### p.30
+`score=2; relations=1`
+
+Tot zoover zijn wij het dus volkomen eens. Laat mij nu trachten de bedoeling van p. 120 van mijn eerste artikel nog wat duidelijker te maken. Want ik erken, dat zij, voornamelijk alweer door dat ongelukkige Salamis, tot misverstand aanleiding kan geven.
+
+### p.30
+`score=2; relations=1`
+
+Bij de werking van het historische zintuig denk ik niet in de eerste plaats aan de weergeving, de vormgeving van het verleden, maar aan de apperceptie van het verleden. Ik erken volkomen, dat er menschen en volken zijn, die dat orgaan missen, evenals lieden zonder reuk. En bij het historische beeld van een stuk verleden denk ik niet in de eerste plaats aan één bepaalde beschrijving, maar aan de onomschreven voorstelling die, wisselend, verschillend, hier vaag, daar scherp, in het bewustzijn van een gansche generatie leeft. Op de détails daarvan kunt ge uw onderscheiding van het memorabile toepassen, niet op het geheel. Zoo beweer ik, dat gij en ik beiden één samenhangend beeld bezitten van de geschiedenis van Venetië. In haar gansche tijdsverloop, van de Byzantijnsche oorsprongen tot 1797 of zelfs tot Manin. De elementen van het uwe en het mijne kunnen geheel verschillend zijn, ja, in een van beiden kan heden de Turkenbestrijder Morosini en overmorgen Guardi domineeren, en toch is het één beeld, waarover wij kunnen praten en elkaar begrijpen. De letterkundige vorm kan ten eenen male uitblijven.
+
+### p.30
+`score=2; relations=1`
+
+Jeanne d'Arc als mythe van het reddende vrouwelijke wezen, dat niet mag zijn als andere vrouwen, - het is vernuftig en suggestief. Gij herinnert u de ‘spielerei’ van Napoleon als zonnemythe? Ik zal niet zeggen, dat uw vondst niet meer waard is; ik wil aannemen, dat er in het Fransche volk iets van die mythopoëtische behoefte leefde, en dat die hen bewoog, zekere feiten te souligneeren, zelfs te verzinnen. Maar... aan Athena en Ushas, al kunnen het kostbare figuren zijn voor mijn verbeelding, geloof ik niet, en dat het meisje uit Domremy gehoopt en gedurfd en geleden heeft, weet ik vast en met deernis.
+
+## huiz003verz05_01.xml — [Boekbespreking van M. Bloch's ‘Les rois thaumaturges’]Tijdschrift voor Rechtsgeschiedenis, deel VI aflevering 3, p. 354-356. H.D. Tjeenk Willink & Zoon, Haarlem 1925.
+
+`unit_load=16; blocks=8; primitive=0; actors=0; discipline=0; relations=8; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.127
+`score=2; relations=1`
+
+[Boekbespreking van M. Bloch's ‘Les rois thaumaturges’]Tijdschrift voor Rechtsgeschiedenis, deel VI aflevering 3, p. 354-356. H.D. Tjeenk Willink & Zoon, Haarlem 1925.
+
+### p.127
+`score=2; relations=1`
+
+Tijdschrift voor Rechtsgeschiedenis, deel VI aflevering 3, p. 354-356. H.D. Tjeenk Willink & Zoon, Haarlem 1925.
+
+### p.127
+`score=2; relations=1`
+
+De taak om over een betrekkelijk détail alle gegevens te verzamelen en te verwerken, zonder van het goede te veel te geven, eischt aanmerkelijke talenten van methodischen aard. Ik weet niet, of men ze den heer Bloch ten volle mag toekennen. Een zekere omslachtigheid van betoog is hem niet vreemd. Bij een straffer indeeling van de stof had veel herhaling voorkomen kunnen worden. Met deze gebreken blijft het werk een schatkamer van bijzonderheden over een merkwaardig verschijnsel in de geschiedenis van het koningschap.
+
+### p.127
+`score=2; relations=1`
+
+De toekenning van geneeskracht aan de aanraking des konings vindt men in Frankrijk het eerst met zekerheid overgeleverd ten aanzien van den tweeden Capetinger, Robert den Vrome. De geneeskracht betreft dan nog niet in het bijzonder de halskliergezwellen. In Engeland heeft Hendrik II de geneeskracht uitgeoefend; men beriep er zich op oudere voorbeelden, met name dat van Eduard den Belijder. Het ritueel der plechtigheid is in beide landen verschillend; in Engeland treedt het gebed en het liturgisch karakter der handeling meer op den voorgrond. Buiten Frankrijk en Engeland vindt men eerst in de latere Middeleeuwen zekere pogingen tot navolging, misschien niet zonder invloed van het feit, dat de koninklijke wondermacht gedekt scheen door het gezag van Thomas van Aquino, aangezien Tolomeo van Lucca, de voltooier van diens De regimine principum er gewag van maakte.
+
+### p.128
+`score=2; relations=1`
+
+De oorsprong van het geloof moet natuurlijk in het algemeen worden gezocht in het sacraal karakter van het koningschap, dat sterk geaccentueerd was bij de Germaansche volken, en later onder invloed van Oud-testamentische voorstellingen bevestigd werd. De zalving, het recht van den Franschen koning, om het avondmaal in beide gedaanten te vieren, staan ermee in nauw verband. De schrijver neemt aan, dat zoowel in Engeland als in Frankrijk de gewoonte met bewuste politieke bedoelingen, ter wille van de bevestiging der legitimiteit, is gefixeerd.
+
+### p.128
+`score=2; relations=1`
+
+Niet minder belangwekkend dan de hoofdstukken over de oorsprongen van het gebruik zijn die welke het verloop ervan in de zeventiende en achttiende eeuw behandelen. De tijd van Lodewijk XIV handhaaft het met volle verzekerdheid en brutale praal. Maar in Engeland weigert Willem III zich ertoe te leenen, en ofschoon Anne het nog eens uitoefent, heeft het daar toch afgedaan. Inmiddels begint de spot zich te doen hooren: van Saint Simon met zijn boosaardige en leugenachtige anecdote over Madame de Soubise, die 's konings maîtresse zou zijn geweest, en toch niet genezen, van Voltaire, die den Franschen koning het voorbeeld van Willem III aanbeval. Onder Lodewijk XV luidt het woord, dat de koning bij de aanraking spreekt, niet meer: ‘Le Roi te touche, Dieu te guérit’, maar ‘...te guérisse’. In 1739 kon de koning zijn geneeskracht niet uitoefenen, want zijn biechtvader heeft hem in verband met een intrigue met Mme de Mailly verboden, Paschen te vieren. Groot schandaal. Hoe nu, meent een tijdgenoot: ‘nous sommes assez bien avec le pape pour que le fils aîné de l'Eglise eût une dispense pour faire ses Pâques, en quelque état qu'il fût, sans sacrilège et en sûreté de conscience’. De markies d'Argenson, intendant van Henegouwen, ontdekt een p …
+
+### p.129
+`score=2; relations=1`
+
+Tenslotte geeft de auteur nog een hoofdstuk over den aard van het geloof aan de koninklijke geneeskracht. Dat het uitblijven der genezing het geloof niet verzwakte, spreekt van zelf: de patiënt zelf had niet voldoende geloof gehad, of wel de diagnose ‘écrouelles’ was verkeerd geweest. Merkwaardig zijn de pogingen tot rationalistische verklaring van de Italiaansche libertijnen der zestiende eeuw. Zij trekken het effekt niet in twijfel, maar zoeken een oorzaak buiten Gods wondermacht: invloed der sterren, meent de Florentijn Junctinus; Cardanus denkt, dat de koning zich van te voren voedt met geneeskrachtige aromatische kruiden, en dat die kracht door het aroma wordt overgebracht. Calcagnini en Pomponazzi veronderstellen, dat de geneeskracht in het koninklijke speeksel zit, als een erfelijke raseigenschap, te vergelijken met die welke zekere genezers in Frankrijk, Italië en Spanje pretendeerden als ‘parents de Saint Hubert’, ‘Saint Paul’ of ‘Sainte Cathérine’. Vanini is de eerste, die de genezing toeschrijft aan een physieke werking der verbeelding. Het bloed, verklaart de Engelsche geneesheer Beckett in 1722, door de verbeelding in beweging gebracht, forceert de versperde kanalen der halsklieren!
+
+## huiz003verz07_01.xml — J.C. KapteynDe Gids, 86e Jrg. no. 7, Juli 1922, p. 130-133. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=16; blocks=5; primitive=0; actors=0; discipline=0; relations=8; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.336
+`score=8; relations=4`
+
+Zal een later geslacht zich verwonderen, dat er in deze Junimaand niet een algemeene rouw is geweest om het sterven van een der grootste Nederlanders? Wie de astronomen hoort over de beteekenis van Kapteyn's onderzoekingen, ontdekkingen en theorieën, kan niet anders dan verwachten dat zijn naam leven zal onder de zeer enkele, die iedereen kent. Maar de roem van een sterrekundige maakt op het hedendaagsche publiek weinig indruk, al hebben tijdschriften en dagbladen ons in de laatste jaren meer dan eens daarvan verteld. Over den sterrekundige zal zeker nog veel geschreven worden, maar wie beschrijft den mensch? Wanneer de rechte biograaf gevonden werd, dan zou het Leven van J.C. Kapteyn, dat het nageslacht zal willen bezitten, een der mooiste boeken kunnen zijn, die geschreven werden. Zal het er komen, het volledig beeld van dit edele en gelukkige leven? Wij Nederlanders hebben helaas een deerlijk gebrek aan biografisch talent.
+
+### p.336
+`score=2; relations=1`
+
+Mijn herinneringen aan Kapteyn gaan terug tot mijn jongensjaren, toen hij, heel jong als professor naar Groningen gekomen, er spoedig een der beste vrienden van mijn vader werd. Over mijn ouderlijk huis lag de schaduw van mijn vaders langdurig lijden: de avonden waren er stil, zonder somber te zijn. Maar als op zulk een avond onverwacht ‘de Kapteyn's’ kwamen, dan veranderde er iets; dan werd rustige opgewektheid vreugde, en vond mijn vader al zijn levendigheid terug. In plaats van, als bij een ander bezoek, te ontsnappen, zaten mijn broer en ik verheugd te luisteren. In mijn herinnering spreken allen tegelijk: Kapteyn met zijn wonderlijke vroolijke stem met mijn vader, de hartelijke en bijzonder levendige Mevrouw Kapteyn, onder veel lachen, met mijn moeder. Maar zoo zal het niet geweest zijn, dat allen tegelijk spraken, want als Kapteyn sprak, sprak een ander niet. Begrepen wij de gesprekken? - ik weet het niet, maar ik geloof het toch eigenlijk wel. Aan elk gesprek van Kapteyn had iedereen wat. Ik weet van andere kinderen, die het nu nog bijna zijn, hoe bedroefd zij waren, als een dag ziek in bed zijn hen een bezoek van Meneer Kapteyn deed missen.
+
+### p.337
+`score=2; relations=1`
+
+Sedert 1906, meen ik, toen A.E.H. Swaen hem in de geheimen der vogelwereld had ingewijd, kwamen bij zijn talrijke menschelijke vrienden al de vogels van Nederland. Onder het geleerdste astronomische gesprek in den tuin der Leidsche Sterrewacht zei Kapteyn: ‘he? is die er al? - hebben jullie die hier ook?’ Hoe dikwijls denk ik aan dien heel vroegen morgen omtrent Pinksteren, was het 1906 of 1907?, toen ik met Kapteyn en Swaen, na een gebrekkige nachtrust in zijn buitenhuisje te Vries, er op uit trok in den regen, om in de Zeijer maden de korhoenders te zien dansen. Het is waarlijk geen afschrik geweest, waardoor ik het nooit verder in de vogelstudie heb gebracht, terwijl Kapteyn niet rustte, eer hij alle kende.
+
+### p.337
+`score=2; relations=1`
+
+Rondom Kapteyn en de zijnen was altijd een glans van geluk, een geluk, dat afstraalde op ieder, die met hen in aanraking kwam. Verrukt zijn over iets of iemand was een van zijn veelvuldigste gemoedstoestanden. Voor de eerste maal uit Amerika terug, hadden zij daar niets gezien, niets ondervonden dan het beste, het mooiste, het heerlijkste. Er was in die constante gelukkigheid niets van het kinderachtige, dat het geluk heeft bij menschen, die te ondiep zijn voor droefheid. Ik heb Kapteyn ook ernstig gezien, zeer dikwijls zelfs, en diep verontwaardigd, of vol zorg over een groot leed der zijnen, maar het was altijd, of dan toch die grondtoon van een groot en onverstoorbaar geluk bleef klinken. Eenige weken voor zijn dood, lijdend vol moed en hoop, zei hij tegen Peter van Anrooy, die in zijn Groningschen tijd het geluk heeft gehad, een van Kapteyn's beste vrienden te worden: ‘Misschien is dit nog wel de gelukkigste tijd van mijn leven’.
+
+### p.338
+`score=2; relations=1`
+
+Wanneer iemand van over zeventig jaren, - was hij het waarlijk, die jongensachtige, jeugdige? - heengaat, dan getuigt men meestal, dat hij heeft kunnen geven, wat in hem was. In Kapteyn waren nog schatten van werkkracht en belangstelling en liefde tot menschen en dingen. Hem had ik mij altijd voorgesteld werkend tot negentig jaren.
+
+## huiz003verz08_01.xml — Bij het derde deel der werken van VondelDe Gids, 94e Jrg. no. 1, Januari 1930, p. 1-3. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=15; blocks=4; primitive=0; actors=0; discipline=0; relations=7; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.528
+`score=6; relations=3`
+
+De groote nieuwe uitgave, waaraan onder de vele namen van hen, die haar met liefde verzorgen, ook de naam, dien gij draagt, verbonden is, neemt met dit deel, dat het werk van 1627 tot 1640 brengt, dus Rommelpot en Roskam, Geuse Vesper en Decretum horribile, de beste der lijkdichten, Gysbreght en de Maeghden, geweldig in belangrijkheid toe. Dr Sterck vervolgt het leven des dichters in die jaren, en geeft menige toegift bovendien. De heer Simons zet zijn studie voort over Vondel's dramatiek. De taalkundige bewerking is van Dr De Vooys en mej. Dr Van de Graft. De illustratie is met zorg en smaak gekozen, enkel het noodige tot toelichting van tekst en stof, geen overvloed van prentjes.
+
+### p.528
+`score=4; relations=2`
+
+In Vondel's werk van deze jaren trekt het gansche beeld van onze geschiedenis van dien tijd ons voorbij, maar geheven in een sfeer, waarin geen ander het heffen kon. De belangrijkste episoden uit 's dichters leven spreken eruit: zijn vereering voor en geestelijk verkeer met Hugo de Groot, het sterven van zijn dierbaren, zijn overneigen naar het katholieke geloof, zonder hetwelk te verstaan men de zeventiende eeuw niet verstaat. Al Vondel's dichterlijkste voortreffelijkheden klinken eruit, van de stalen bondigheid van de Triomftorts over den scheepsstrijd op het Slaak of Huigh de Groot's Verlossing, tot den fonkelendsten gloed van zijn rijpste zangen.
+
+### p.529
+`score=4; relations=1, places=1`
+
+Vondel's schreeuw naar de rechtvaardigheid, zijn drift tot het heroïsche, belichaamd in zooveel pralende verheerlijking, maar het best in zijn trouwe vereering voor die ‘twee leidende sterren’ Oldenbarnevelt en De Groot, den staatkundigen bloedgetuige en den balling van het verheven ideaal, - Vondel's bloeiende lust tot al wat natuurlijk geluk en genot is, zijn pijnlijk gewond mededoogen, zijn diepe barmhartigheid -, ik vind ze alle in U terug.
+
+### p.529
+`score=2; relations=1`
+
+En wat den dichterlijken vorm en de verbeelding betreft: de verheffing van de verwardheden der wereld tot stijl van figuren, die vlucht en vleugelslag, waarin hij de aardsche steden Amsterdam en Keulen uit de vlakte ophief, dat altijd weer stijgen tot de hoogten van sterren en hemellicht. Werd ooit het wonder in het woord verwezenlijkt zooals in De Kruisbergh bloed tot rozen wordt?
+
+## huiz003verz08_01.xml — Invoering van nieuwe universiteitsexamensNieuwe Rotterdamsche Courant, 20 April 1921, Avondblad D.
+
+`unit_load=15; blocks=3; primitive=0; actors=0; discipline=0; relations=7; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.420
+`score=8; relations=4`
+
+Er is trouwens slechts één punt, waarover nog een woordje zou kunnen vallen. Op het eerste gezicht schijnt het ontwerp in te gaan tegen den uitgesproken wensch der Tweede Kamer in haar votum van verleden jaar, dat de promotie in de rechten op stellingen behouden moest blijven. Het ontwerp zegt: goed, gij kunt voortaan ‘meester in de rechten’ worden zonder een dissertatie te schrijven; ziet, ik geef u den titel en al de daaraan verbonden rechten van benoembaarheid en praktijk terstond op grond van uw doctoraal. Uw stellingen... schenk ik u gaarne. Dit moge naar den vorm afwijken van het ondoordachte Kamervotum, in wezen beantwoordt het daaraan volkomen. Of meer gezegd, op deze wijze wordt het figuur der Tweede Kamer gered. Wat toch deed deze, door het behoud der promotie op stellingen te verlangen? Zij eischte een privilege op voor de juristen tegenover de medici en pharmaceuten, die zich in soortgelijke positie met den arts- en apothekerstitel hebben te vergenoegen. En zij nam daartoe genoegen met een surrogaat-promotie, die den schijn maar niet het wezen van de doctorale waardigheid handhaafde. Wij hadden gemeend, den tijd der surrogaten nu te mogen vergeten.
+
+### p.420
+`score=4; relations=2`
+
+Toen de wet van 1 Maart 1920 artikel 130 der Hooger-onderwijswet aldus wijzigde, dat aan onze universiteiten voortaan weder slechts vijf enkelvoudige doctoraten ‘verkrijgbaar’ (het woord mist distinctie) zouden zijn: in de godgeleerdheid, in de rechtsgeleerdheid, in de geneeskunde, in de wis- en natuurkunde en in de letteren en wijsbegeerte, - toen was daarmee een daad verricht van het meest zuiver reactionair karakter, dat zich denken laat. De lezer schrikt: hij had niet verwacht, hier aan de regeering zoo klakkeloos pure reactiezucht voor de voeten te zien geworpen. En toch was het zoo. Doch wat meer zegt: deze daad van reactie is, zoover wij weten, door niemand in Nederland, hoe ver links hij moge staan, anders dan met volkomen instemming begroet. Hier toch werd hersteld de gezonde historische vorm van het academisch leven, te kwader ure verlaten in 1876, een herstel met de strekking van meerder vrijheid en van praktische rekbaarheid al naar de voortdurend zich wijzigende behoeften van beroepsopleiding en wetenschap.
+
+### p.420
+`score=4; relations=1, places=1`
+
+Nu moest echter de uitwerking van een geheel veranderd stelsel van universiteitsexamens, dat niet in de wet zelve thuisbehoort, nog volgen. Met de grootste belangstelling en ongeduld is die nieuwe regeling sedert meer dan een jaar in academische kringen besproken en tegemoetgezien. De studenten, die somtijds anders een merkwaardige lijdzaamheid aan den dag leggen omtrent hetgeen de wetgeving over het hooger onderwijs beslist, hebben ditmaal gehunkerd naar elk nieuws over den vermoedelijken vorm, dien ‘het nieuwe statuut’ zou krijgen. Het wordt hoog tijd, dat de regeling afkomt. Want blijft zij nog langer uit, dan zou de onzekerheid, waarin de universitaire studiën sedert het statuut in de maak is, verkeeren, tot een schadelijke malaise kunnen leiden.
+
+## huiz003verz08_01.xml — Mag de Mare gedempt worden?Nieuwe Rotterdamsche Courant, 16 Mei 1923, Avondblad B, p. 1.
+
+`unit_load=15; blocks=4; primitive=0; actors=0; discipline=0; relations=6; places=3; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.571
+`score=10; relations=3, places=2`
+
+Wanneer, gelijk het Gemeentebestuur van Leiden in beginsel besloten heeft, de Mare wordt gedempt, dan zal de stad een verkeersweg rijker zijn. Een goeden verkeersweg? - Neen, een hoogst gebrekkigen. Want zonder de consequentie van verbreeding der Marebrug en demping ook van de Nieuwe Mare (wat het scheepvaartverkeer verbiedt) is de winst gering. - Een noodigen verkeersweg? - Men mag het betwijfelen. De Mare is slechts druk op enkele uren van den dag: een strenge verkeersregeling maakt het, nu de Brandewijnsteeg verbreed is, zeer goed mogelijk, opstoppingen te voorkomen. Het grondeuvel, dat Leiden nu eenmaal langs den Rijn is gebouwd, en dwarse hoofdaders mist, is toch niet te verhelpen, zeker niet door demping van de Mare.
+
+### p.571
+`score=4; relations=2`
+
+Niemand ontkent het gewicht van de eischen van het verkeer. Doch bij ieder dempingsplan moet weer worden afgewogen, wat de algemeene winst is en wat het verlies. In het thans aanhangige geval is de conclusie onvermijdelijk:
+
+### p.571
+`score=2; relations=1`
+
+Wat zal de stad armer zijn? Een bekoorlijk gebogen stemmig grachtje, met twee onvergelijkelijke stadsgezichten aan de beide uiteinden: van den Ouden Singel in de richting der Marekerk, en bij het Huis ter Lugt. De Marekerk kan men gerust sloopen, als zij niet meer aan het water staat.
+
+### p.571
+`score=2; places=1`
+
+Is het verlies gering? - De grachten zijn in een Hollandsche stad wat de oogen zijn in een aangezicht. De hoofdschoonheid van Leiden, die zoo sterk spreekt ondanks den geringen rijkdom aan mooie oude gevels, ligt in het beloop van haar grachten. Men kan er niet straffeloos een van omzetten in... een troosteloos onding, zonder de harmonie van het geheele stadsbeeld te schenden. - Is er nog niet genoeg verminkt door een vorig geslacht, dat blind was voor wat thans iedereen ziet?
+
+## huiz003verz08_01.xml — Voorwoord [tot het Jaarboekje van de litteraire faculteit van Leidsche studenten voor het studiejaar 1930-1931]Jaarboekje voor het studiejaar 1930-1931 voor de Litteraire Faculteit van Leidsche studenten, p. 3-4. S.C. van Doesburgh, Leiden 1930.
+
+`unit_load=15; blocks=6; primitive=0; actors=0; discipline=0; relations=6; places=3; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.377
+`score=6; relations=3`
+
+Mijn kritiek op den naam der vereeniging is nog niet afgeloopen. ‘Litteraire Faculteit’. Wat is dat: ‘litterair’? Hoort dat woord niet eerder thuis in het domein van dicht en proza en is het bovendien niet op weg, daar doorgaans in malam partem te worden gebruikt? ‘Litterarisch’ zou geen haar beter zijn, het klinkt even Duitsch als ‘litterair’ Fransch klinkt. Waarom niet ‘Letterkundig’? - Is men dan geheel vergeten, dat ‘Letteren’ en ‘Letterkunde’ de Nederlandsche termen zijn voor het auguste begrip der Bonae Litterae, dat eenmaal wetenschap en schoone letteren in een nu niet meer te handhaven eenheid heeft begrepen? Volkomen ten onrechte meenen somtijds dichters en schrijvers, dat het woord ‘Letterkunde, letterkundig’ hun alleen toekomt. De wetenschap heeft er de oudste rechten op.
+
+### p.377
+`score=4; relations=1, places=1`
+
+Zoolang het Corps werkelijk het lichaam der studeerenden aan de Universiteit kon heeten, was een vijftal commissies genoeg, om de verdeeling der studenten in Faculteiten tot uiting te brengen. Naarmate die voorwaarde minder en minder vervuld bleef, ziet men de Faculteitsbesturen der studenten (behalve, voorzoover de Almanak het leert, te Utrecht) aan het hoofd treden van organisaties van algemeener aard, die ook de andere studentengroepen omvatten. Faculteitsvereenigingen heeten zij te Groningen, Faculteiten te Leiden en te Amsterdam.
+
+### p.377
+`score=2; places=1`
+
+Voorwoord [tot het Jaarboekje van de litteraire faculteit van Leidsche studenten voor het studiejaar 1930-1931]Jaarboekje voor het studiejaar 1930-1931 voor de Litteraire Faculteit van Leidsche studenten, p. 3-4. S.C. van Doesburgh, Leiden 1930.
+
+### p.377
+`score=2; places=1`
+
+Jaarboekje voor het studiejaar 1930-1931 voor de Litteraire Faculteit van Leidsche studenten, p. 3-4. S.C. van Doesburgh, Leiden 1930.
+
+### p.377
+`score=2; relations=1`
+
+Het zou kunnen schijnen, alsof het Groningsche spraakgebruik ‘Faculteitsvereeniging’, dat den naam van ‘de Faculteit’ aan de Hoogleeraren, of althans in het midden laat, niet alleen bescheidener, maar ook juister ware dan het Leidsche ‘Litteraire Faculteit van Leidsche studenten’. Toch is dít niet het geval. Door zich Faculteit te noemen doen de studenten niet anders dan een overoud recht te hernemen, dat hun toekomt. Als naam der alomvattende gemeenschap van magistri en scholares samen is het begrip Faculteit aan de middeleeuwsche Universiteiten opgekomen. In den vorm ‘Faculteit van studenten’ behelst dus de naam reeds een beperking. Eigenlijk behoorde het de vereeniging van studenten en docenten samen te zijn. Misschien is zooiets uit den tijd, en de scheiding nuttig en noodig. Doch een tweede beperking, die de naam behelst, is niet noodig, ja zelfs onduldbaar. ‘Faculteit van studenten’? - neen: ‘Faculteit der studenten’ behoort het te zijn. In het begrip Faculteit ligt opgesloten, dat zij allen omvat. Een student, die niet toetreedt tot zijn Faculteit, moet nog leeren, wat een Universiteit beteekent. Het moderne besef van solidariteit ontmoet hier oude en diepe beginselen van gemeenschap en genootschap.
+
+### p.378
+`score=2; relations=1`
+
+Dus: in het volgende jaarboekje ‘Letterkundige Faculteit der Leidsche Studenten’? Er is immers geen K.B. voor noodig? - De amputatie van ‘en Wijsbegeerte’ zal meer voeten in de aard hebben.
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Siebenter Band: Quentin Massys. Paul Cassirer, Berlin 1929.Nieuwe Rotterdamsche Courant, Avondblad van 28 December 1929.
+
+`unit_load=14; blocks=3; primitive=0; actors=0; discipline=0; relations=7; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.506
+`score=8; relations=4`
+
+Twee kantteekeningen: zou het tot recht verstaan van Quentin's ontleening aan een verloren teekening van Lionardo (ik heb de ets daarnaar van W. Hollar niet tot mijn beschikking): de monsterachtige vrouwenkop no. 52 en haar mannelijk pendant no. 51, iets kunnen bijdragen op te merken, dat de coiffure zeer duidelijk de ‘escoffion à cornes’ weergeeft, zooals deze omstreeks 1420 gedragen werd, terwijl ook 's mans hoofddeksel wel een onbegrepen weergave schijnt van de kaproen uit dien tijd, zooals b.v. Jean sans Peur die draagt op het kostelijke kleine portret in Antwerpen? In het algemeen zou, naar ik meen, een studie over het archaïseeren van het costuum in de kunst, o.a. zeer opmerkelijk in de kunst der zeventiende eeuw, niet van eenig belang ontbloot zijn.
+
+### p.505
+`score=4; relations=2`
+
+Friedländer toont zich als steeds een meester in bondige, treffende zeggingskracht. In een anderhalve bladzijde (8, 9) ligt vrijwel zijn gansche positie ten opzichte van het probleem Renaissance-Italië uitgedrukt. ‘Bewusstes Streben nach wirkungsstarken und schmeichelnden Mitteln setzt eine unruhig gefallsüchtige Formung an Stelle der naiven handwerklich bescheidenen Produktion. Ein neuer Begriff von Künstlertum wächst heran.’ Doch niet door een onmiddellijke navolging van Italië. ‘Die allzu einfache Vorstellung, dass die italienische Kunst als eine der niederländischen überlegene mit Eifer zum Muster genommen wurde, wird dem verwickelten Komplexe der Erscheinungen keineswegs gerecht.’ Zelfs Scorel en Mabuse hebben uit Italië eigenlijk zeer weinig van Italiaansche schilderskunst meegebracht. ‘Der Historiker unserer Tage überschätzt die Bedeutung der Invention und unterwertet deshalb die erfindungsarme niederländische Kunst des 16. Jahrhunderts, die in der Beobachtung des Individuellen, des Lichtes und der landschaftlichen Natur zu jeder Zeit Starkes und Neues hervorbrachte.’
+
+### p.505
+`score=2; relations=1`
+
+Die enkele bladzijden ter inleiding zijn, evenals in de vroegere deelen, uit een algemeen methodisch oogpunt niet de minst belangrijke. Om te beginnen waarschuwt de schrijver, - en wie zal niet met hem instemmen? - dat men eenerzijds zich niet moet laten preoccupeeren door een gewaande, scherp afgescheiden tegenstelling zestiende tot vijftiende eeuw, terwijl toch in het algemeen de opvatting der zestiende eeuw als een eenheid van stijl tegenover de voorafgaande haar goed recht behoudt. Niet in de laatste plaats wegens de sterk gewijzigde economische verhoudingen, die het bedrijf als zoodanig beheerschten (p. 10).
+
+## huiz003verz04_01.xml — [Boekbespreking van Philippe de Commynes' ‘Mémoires’, éd. par J. Calmette.]De Gids, 89e Jaargang no. 1, Januari 1925, p. 143-144. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=14; blocks=5; primitive=0; actors=0; discipline=0; relations=7; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.575
+`score=4; relations=2`
+
+Er moet in Frankrijk toch wel een zeer ernstige en wijd verbreide belangstelling in geschiedenis bestaan, dat de uitgave van een reeks middeleeuwsche geschiedbronnen mogelijk is, die, door en door wetenschappelijk, zich niettemin richt tot een ruimer publiek dan de vakhistorici. Als eerste deeltjes van de reeks Les Classiques de l'histoire de France au moyen âge verschenen in 1923 Einhard's Leven van Karel den Groote, uitgegeven door den leider der serie, Louis Halphen, en Le Dossier de l'Affaire des Templiers, van de hand van Georges Lizerand. Al de Latijnsche teksten hebben een Fransche vertaling naast zich.
+
+### p.576
+`score=4; relations=2`
+
+Is het een diep inzicht in het wezenlijke der dingen, wat Commynes geeft? Dat is een andere vraag. Het schijnt mij toe, dat men zijn finesse wel eens overdrijft, en zijn politische en psychologische gave overschat. Wanneer ik zijn beschouwingen en karakteriseeringen lees, gaat het mij evenals somtijds bij het zien van vijftiende-eeuwsche portretten. Die aristocratenkoppen van vijf eeuwen geleden vertoonen de trekken, die men thans boersch zou noemen. De wijsheid van den adellijken diplomaat Commynes is geslepen boerenwijsheid. Een Boerschheid van Dietschen aard, als men wil. Want niet alleen zijn moeder Margaretha van Arnemuyden wijst ons naar het Noorden. Van vaderszijde is hij Vlaamsch van afkomst; zijn grootvader heette Claes van den Clyte.
+
+### p.576
+`score=2; relations=1`
+
+De lectuur van Commynes (zijn jongste uitgever wil de y hersteld zien) eischt meer toewijding dan de mémoirenlitteratuur der 17e en 18e eeuw, waartoe veel van de amateurs der historie hun belangstelling bepalen. Vraagt men zich af, wat dezen schrijver, reeds door Montaigne geprezen, van oudsher zoo in trek heeft doen blijven, dan moet het antwoord luiden: zijn verbazende realiteit. Niet realisme zou ik het willen noemen, dat doet te veel aan een litterairen toeleg denken, en deze bestond niet bij Commynes; hij gaf zijn herinneringen als bouwstoffen, om door een ander in een echt geschiedboek te worden verwerkt, en dit verklaart al de bijzondere eigenschappen, die hem kostbaar maken.
+
+### p.576
+`score=2; relations=1`
+
+Een volstrekte afwezigheid van schoon gekleurde idealen, een pijnlijk nuchtere zakelijkheid, een scherp oog voor bedekte motieven (onder andere ook voor den economischen achtergrond der verwikkelingen), een droge precisie in het beschrijven van feitelijke gebeurtenissen, - dat alles te zamen levert dat boeiend geheel op, zoover mogelijk verwijderd van het bewuste kunstwerk, en toch van ouds en te recht zijn letterkundige eereplaats handhavend.
+
+### p.576
+`score=2; relations=1`
+
+Waarlijk diep gaat, mijns inziens, Commynes' geest tenslotte niet. Men heeft het gevoel, dat deze onbevooroordeelde de middeleeuwsche vormen en stijl van denken, die hij versmaadt, toch eigenlijk nog niet missen kan. Hij heeft er niets voor in de plaats. Tot meer dan diplomatie en intrigue verdichten zich bij hem de gebeurtenissen niet.
+
+## huiz003verz05_01.xml — [Boekbespreking in ‘De Gids’ van Bernard Faÿ's ‘L'esprit révolutionnaire en France et aux États-Unis à la fin du XVIIIe siècle’]De Gids, 89e Jrg. no. 7, Juli 1925, p. 150/2. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=14; blocks=3; primitive=0; actors=0; discipline=1; relations=5; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.365
+`score=6; relations=3`
+
+Het is een heel klein deeltje van het groote ideeëncomplex, dat het onderwerp is van het boek van den heer Faÿ. Dit boek behandelt, in een even voortreffelijk uitgedrukte als deugdelijk gedocumenteerde voorstelling, dat allerbelangrijkste stuk geestesgeschiedenis: hoe in dien edelen, zonnigen, vredigen waan van menschelijke volmaking en natuurlijk geluk, waaraan de Fransche gedachte der 18e eeuw vorm gaf, Amerika aan den westerhemel straalde als het land, waar de deugdzame en vrije mensch in en naar de natuur leefde. Hoe die conceptie zeer daadwerkelijk de Fransche staatkunde en het lot van Amerika mee bepaald heeft: Frankrijk's ingrijpen in den onafhankelijkheidsoorlog, de geestdrift van La Fayette, de politiek van Vergennes, de vereering voor Franklin. Gelukkige tijd, die eerste jaren van Lodewijk XVI! Turgot zelf smeedt den regel: ‘Eripuit coelo fulmen sceptrumque tyrannis’. Rondom den patriarchalen Quaker in zijn eenvoud en waardigheid, ‘sans perruque, mais avec l'auréole de ses magnifiques cheveux blancs’, verdringt zich de wereld der salons in deugdzame aandoening; in zijn omgeving vindt men reeds de geheele groep der latere revolutionnairen: Brissot, Danton, Bailly, Péthion, la Rochefoucauld Liancourt etc. - Franklin is vol …
+
+### p.365
+`score=4; relations=2`
+
+Bilderdijk's afkeer van den aardappel is algemeen bekend, en men heeft onlangs in dit tijdschrift kunnen lezen, hoe dezelve gebakken Da Costa te machtig waren. Het verband van Bilderdijk's potatophobie met zijn staatkundige en godsdienstige beginselen is misschien niet iedereen terstond meer helder. De aardappel beteekent den natuurstaat, de vrijheid, den opstand tegen God en de overheid; hij smaakt naar Amerika en de Revolutie. ‘La pomme de terre’, schreef Brissot, de Girondijn, in zijn Nouveau Voyage dans les Etats-Unis, ‘voilà l'aliment de l'homme qui veut, qui sait être libre.’
+
+### p.367
+`score=3; discipline=1`
+
+Wie begeerig is naar cultuurgeschiedenis in den waren zin des woords, leze het boek van Faÿ.
+
+## huiz003verz07_01.xml — C. van VollenhovenJaarboekje voor Geschiedenis en Oudheidkunde van Leiden en Rijnland, 1933-1934, p. XLIV-XLV. Leiden, P.J. Mulder & Zoon.
+
+`unit_load=14; blocks=5; primitive=0; actors=0; discipline=0; relations=2; places=10; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.495
+`score=8; places=4`
+
+Leiden verloor in hem een, die de stad liefhad met een trouwe en vruchtbare liefde. In het boek van zijn rijken geest was een heel hoofdstuk, dat Leiden heette. Van zijn studententijd af had Van Vollenhoven, met dien sterken oud-vaderlandschen zin, dien hij in haast jongensachtigen vorm meedroeg, voor Leiden een gehechtheid gekweekt, die veel dieper ging dan enkel belangstelling in haar oudheden en bewondering voor wat er rest van haar schoonheid. Leiden, als een gouden montuur die het juweel der universiteit omsluit, was voor hem een levende idee, een kostbaar ding, dat met zorg behoed moest worden. Had hij niet dat fraaie oude huis, lang voor hij in de gelegenheid zou zijn, het zelf te bewonen, gekocht, om het te sparen voor het hart der stad, de gracht, die het siert? - Als ooit een huis, een tuin kan strooken met den mensch, die ze bewoont, dan was die harmonie gevonden in den strakken, edelen eenvoud van het huis, in de haast kloosterlijke stilte van dien ouden Hollandschen stadstuin met het uitzicht op de Pieterskerk. Het was de ware kluis voor den eenzame, die nooit eenzaam was, omdat hij allen in zijn hart sloot, aan wie hij iets te geven had.
+
+### p.495
+`score=4; places=2`
+
+C. van VollenhovenJaarboekje voor Geschiedenis en Oudheidkunde van Leiden en Rijnland, 1933-1934, p. XLIV-XLV. Leiden, P.J. Mulder & Zoon.
+
+### p.495
+`score=4; places=2`
+
+Jaarboekje voor Geschiedenis en Oudheidkunde van Leiden en Rijnland, 1933-1934, p. XLIV-XLV. Leiden, P.J. Mulder & Zoon.
+
+### p.495
+`score=4; relations=2`
+
+Het groote huis aan 't Rapenburg staat leeg en gesloten, als moest ons zelfs de troost, hier zijn bedoeling vervuld te zien, worden onthouden. De welgebouwde figuur met den vluggen stap en den jongen, tintelenden blik komt ons niet meer tegen. Spoedig wordt het alweer een jaar, dat het land, de universiteit, de wetenschap, de wijsheid van zijn raad, de helderheid van zijn gedachte, de bezieling van zijn woord en den zegen van zijn daden mist. Een wachter voor ons aller best werd weggeroepen.
+
+### p.495
+`score=4; places=2`
+
+De nooit rustende geest, die over zooveel ver uiteengelegen velden van wetenschap placht te zwerven, was in zijn allerlaatste weken, op het ziekbed, bezig met het afsluiten van die kleine studie over een Leidsch gebouw, die in dit Jaarboek verschenen is. Zij is bewerkt met evenveel liefdevolle zorg, alsof het een grondvraag der wetenschap gegolden had. Zoo lag hem Leiden aan het hart, zoo gaf hij zich geheel, ook aan het kleine, als hij het zijn aandacht waardig bevond. Laat Leiden het niet vergeten.
+
+## huiz003verz07_01.xml — Mr C. van VollenhovenDe Volkenbond, 8e Jrg. no. 8, Mei 1933, p. 229-231. Leiden, A.W. Sijthoff's Uitg.-Mij. N.V..
+
+`unit_load=14; blocks=6; primitive=0; actors=0; discipline=0; relations=6; places=2; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.497
+`score=6; relations=3`
+
+Bij al zijn onmiddellijkheid en volheid van leven vertoont Van Vollenhoven's werk toch ook steeds weer een sterken zin voor gesloten bouw en hechten, zelfs monumentalen vorm. Waar hij zeer dringend spreken wil, kiest hij gaarne een symbolische drieschaal, en rangschikt de feiten van zijn haast altijd op toekomstige volmaking gericht betoog in een trits van phasen of trappen, zooals in De drie treden van het volkenrecht van 1918, en opnieuw, nog uitgewerkter, in Du droit de paix van 1932.
+
+### p.496
+`score=2; places=1`
+
+Mr C. van VollenhovenDe Volkenbond, 8e Jrg. no. 8, Mei 1933, p. 229-231. Leiden, A.W. Sijthoff's Uitg.-Mij. N.V..
+
+### p.496
+`score=2; places=1`
+
+De Volkenbond, 8e Jrg. no. 8, Mei 1933, p. 229-231. Leiden, A.W. Sijthoff's Uitg.-Mij. N.V..
+
+### p.496
+`score=2; relations=1`
+
+Als ik tracht, Van Vollenhoven's geestelijke figuur, nu wij hem verloren hebben, duidelijk omlijnd voor mij te zien, dan schuift zich voor mijn beeld van den denker terstond dat van den mensch, dat van den vriend. En als ik zoek naar de termen om zijn geest en wezen te omschrijven, dan vind ik er enkel, die behoren tot een veel hooger gebied dan dat van kunde en scherpzinnigheid. Wat zal ik pogen, hier nog eens zijn wetenschappelijke verdiensten samen te vatten? Het is op tal van plaatsen reeds door bevoegder hand dan de mijne geschied. Maar nog minder kan ik er aan denken, dat teere beeld van zijn verheven persoonlijkheid, dat in mij leeft, in een vluchtige noot neer te leggen. Laat mij enkel een oogenblik vertoeven bij één of twee kanten van zijn geest en persoon.
+
+### p.496
+`score=2; relations=1`
+
+Dit stuk, dat voor hem zelf één uit vele beloofde te zijn, die nog volgen moesten, is nu voor ons een slotwoord en een erfdeel geworden. En wij zien met verbazing, hoezeer het in den volsten zin des woords zoo heeten mag. Om inhoud en strekking, om dien toon van diep ernstig waarschuwen, waaraan de bittere onvoldaanheid en de edele verontwaardiging nog krachtiger klank geven. Ook als proeve van zijn geest en stijl beschouwd stelt dit artikel ons Van Vollenhoven's ongeevenaard meesterschap nog eenmaal in volheid voor oogen. Let op den geweldigen voorraad van meesterlijk beheerschte détailkennis, die achter elke zinsnede staat, en geef u rekenschap van de diepte van algemeen inzicht in het wezen van sociale verhoudingen, die aan dat alles ten grondslag ligt. Het is, zooals alles wat hij schreef, van woord tot woord volmaakt duidelijk en volstrekt bondig en direct. Bij hem nooit omhaal van inleiding en voorbereiding. Hij baseert elke gedachte op een concreet en levend feit, uit heden of historie. Wie zijn werk uit een oog-punt van schrijftrant beziet, zal opmerken, hoe dikwijls hij als aanhef het zichtbare beeld van een in plaats en tijd nauwkeurig bepaalde historische daad gebruikte, of wel een samenhang voor u oproept door een haas …
+
+### p.497
+`score=2; relations=1`
+
+Aan zijn warme liefde voor het détail, mits levend en menschelijk, gaf hij vooral toe op die gebieden, - altijd betreffen ze personen -, die hem als de rustplaatsen voor zijn geest waren: Hogendorp, Thorbecke, de Prins van Oranje, Grotius bovenal. Drie van die namen spreken van den Nederlandschen staat als het middelpunt van zijn historisch en staatsrechtelijk denken, de vierde van een wijder ideaal...
+
+## huiz003verz05_01.xml — [Boekbespreking van C.H. Becker's ‘Islamstudien. Vom Werden und Wesen der Islamischen Welt’]De Gids, 88e Jaargang no. 10, October 1924, p. 142-143. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=13; blocks=5; primitive=0; actors=0; discipline=0; relations=6; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.226
+`score=4; relations=2`
+
+Het onderzoek naar den oorsprong en de eerste uitbreiding van den Islam verkeert sedert tal van jaren in een phase van zeer radicale kritiek. Op de grondslagen, door Nöldeke, Wellhausen, Goldziher en Snouck Hurgronje gelegd (aan deze vier draagt Becker zijn werk op) hebben de jongeren voortgewerkt. In 1905 gaf Leone Caetani het eerste deel in het licht van zijn (onvoltooid gelaten) reuzenwerk Annali dell' Islam. Vervolgens heeft de geleerde prins-socialist in zijn Studj di storia orientale (1911, 1914) een proeve gegeven van marxistische verklaring van het ontstaan van den Islam. Becker staat van de zienswijze van Caetani niet zoo heel ver af. Ook hij is geneigd, het godsdienstig element als primaire oorzaak en drijfkracht zoo gering mogelijk te stellen. ‘Wirtschaftliche Momente haben die Bewegung erzeugt; die Religion aber hat bloss als einigendes Schlagwort gedient’ (p. 397). ‘Man könnte sogar die Frage aufwerfen, ob nicht die ganze Bewegung auch ohne den Islam denkbar gewesen wäre’ (p. 69, eerder Cambridge Mediaeval History II, p. 332). Zonder het gewicht der economische factoren te willen loochenen, moet ik bekennen, dat Becker's voorstelling mij als historische verklaring niet bevredigt. Om een zoo verbazingwekkend verschijns …
+
+### p.226
+`score=4; relations=2`
+
+In aansluiting aan Troeltsch ontwikkelt Becker de belangwekkende these, dat de beschaving van den Islam, gelijk zij zich in de eerste eeuwen van het chaliefenrijk gevormd heeft, eigenlijk niet veel meer is dan een laat geboren dochter van het hellenisme. Het aandeel van het Arabische volk als zoodanig in die cultuurschepping acht hij zeer gering. De Islam zelf bezit voor hem nog minder oorspronkelijkheid, dan vroegere onderzoekers daaraan hadden gelaten. Veel verder gaande dan Snouck Hurgronje en Goldziher, verklaart Becker bijna het gansche godsdienstleven van den Islam als ontleening aan christelijk voorbeeld. De wereld van den Islam, betoogt Becker, is dan ook verbonden met het Westen; de groote cultuurgrens valt niet tusschen Azië en Europa, maar in Azië zelf beoosten den Islam. Eerst na de Middel-eeuwen, meent hij, is het essentieel verschil tusschen het Christelijke Westen en het Moslimsch Voor-Azië overwegend geworden.
+
+### p.225
+`score=2; places=1`
+
+Men zou, dunkt mij, kunnen beweren, dat de ontwikkelde leek tegenwoordig vreemder staat tegenover den Islam dan tegenover godsdiensten en beschavingen van het oude Indië en het Verre Oosten. Zekere vertrouwdheid met Vedântische en Boeddhistische voorstellingen, met kunst en wijsheid van China en Japan, vloeit hem sedert lang van allerlei zijden toe. Het oriëntalisme in onze hedendaagsche cultuur betreft slechts bij uitzondering den Islam als zoodanig. Perzische en Voor-aziatische weefkunst en keramiek, en zelfs miniatuur-kunst en Omar Chajjâm, brengen met den godsdienst en de beschaving der moslimsche wereld slechts in zwak contact. Alleen degenen, die in eenige geestelijke betrekking staan tot koloniale dingen, treden doorgaans den Islam nader.
+
+### p.225
+`score=2; relations=1`
+
+Het is daarom van gewicht, wanneer een Islamist van naam zijn onderwerp behandelt van een algemeen cultuurhistorisch gezichtspunt, dat geschikt is, ook buiten den kring der koloniaal-geïnteresseerden belangstelling te wekken. C.H. Becker, vroegtijdig uit de geleerdenloopbaan tot praktisch staatkundige werkzaamheid geroepen, heeft van zijn tot dusver verschenen publicaties in het aangekondigde werk negentien samengevat. Niet alle daarvan zijn populair genoeg om een grooter lezerspubliek te boeien, eenige evenwel zijn juist berekend om een leemte in de algemeen historische noties aan te vullen. Men vindt hier de studie ‘Der Islam als Problem’ terug, waarmede Becker in 1910 zijn tijdschrift Der Islam opende, gevolgd door drie opstellen: ‘Der Islam im Rahmen einer allgemeinen Kulturgeschichte’, ‘Der Islam als Weltanschauung’, en ‘Islam und Wirtschaft’, onderscheidenlijk uit 1921, 1917 en 1916. Van de groep verhandelingen ‘Zur Religionsgeschichte des Islam’ valt in het bijzonder ‘Christentum und Islam’ te noemen.
+
+### p.227
+`score=2; relations=1`
+
+Becker's levendig, bijna hartstochtelijk betoog prikkelt in hooge mate tot tegenspraak. Het zou niet moeilijk vallen, meer dan één zwak punt in zijn bewijsvoering aan te wijzen. Doch deze aankondiging is daarvoor de plaats niet. Zij dient slechts, om een ruimer schaar van belangstellenden dan gewoonlijk met Oostersche studiën in aanraking komt, opmerkzaam te maken op een uitstekende gelegenheid, grondige en helder voorgedragen kennis van den Islam in hun gezichtskring op te nemen.
+
+## huiz003verz08_01.xml — Een insluipselDe Gids, 92e Jrg. no. 10, October 1928, p. 123-124. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=13; blocks=2; primitive=0; actors=0; discipline=0; relations=6; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.424
+`score=8; relations=4`
+
+Ons volk heeft meer gevoel voor titels dan voor vorm en traditie, hetgeen juist verkeerd om is. Men zou kunnen wijzen op het voorvoegsel Ir, dat een tiental jaren geleden de rij der Nederlandsche praedicaten plotseling met een is komen vermeerderen, en verwonderlijkerwijs spoedig van officieele zijde, door gebruik in de Staatscourant, is erkend en aanvaard, een eer, die het veel oudere Ds nimmer ten deel viel. Toegegeven moet worden, dat de wet achterna het nieuwe praedicaat eenigermate heeft gerechtvaardigd, toen zij in 1921 dat van Mr, onze oude variant op den doctorstitel, aan een capitis deminutio onderwierp, door het aan een gewoon examen te verbinden. De wetgever gaf hiermee blijk, de beteekenis van den eeuwenouden doctorsgraad niet meer te verstaan. Van den Ir-entitel kan men overigens ook toestemmen, dat hij praktisch is, en dat hij treffend de enorme beteekenis der techniek in onze samenleving accentueert. Met dat al opent hij de deur voor een reeks van soortgelijke diplomatitels, en stelt ons voor monstra als Prof. Jhr Dr Ir N... N..., c.i., b.i..
+
+### p.424
+`score=6; relations=2, places=1`
+
+Ik laat evenwel den Ir met rust, hij is mij te machtig, om mij te keeren tegen den Drs - Doctorandus, als Latijn nauwelijks boven Malade imaginaire-gehalte, is een schoolterm, waarmee men gemakshalve dengene aanduidt, die van het eindbedrijf zijner studiën de helft met goed gevolg heeft gespeeld. Het woord behoorde tot de wanden der faculteitskamer beperkt te blijven. Een academische graad is het niet. Te Leiden heerscht nog de goede vorm, dat bij promoties de man aan de eenzame zijde der groene tafel wordt aangesproken als Mijnheer de Candidaat. Dit is zijn graad, tot hij dien straks voor dien van Doctor verwisselt. Het is weliswaar al een oud gebruik, dat een geslaagde terstond van het doctoraal examen naar den drukker loopt, om zich kaartjes te bestellen met Q... Q..., litt. docts.. Alsstudentengewoonte begrijpelijk en verschoonbaar. Maar wie met zulk een kaartje in het buitenland komt, wordt daar onvermijdelijk aangezien en aangesproken voor een doctor of quasi-doctor. Hetgeen pijnlijk is, en ons in opspraak zou kunnen brengen als blagueurs. Sinds lang vindt men eveneens op naambordjes het Med. docts., Arts, een onderscheiding, die, al getuigde zij van een onbereikt doel, tot de herziening der studie-programma's in 1921 eenige …
+
+## huiz003verz03_01.xml — How Holland became a nationUit Lectures on Holland, delivered in the University of Leyden during the first Netherlands week for American students, July 7-12, 1924. Leyden, A.W. Sijthoff's Publishing Company, 1924, pp. 1-18.
+
+`unit_load=12; blocks=5; primitive=0; actors=0; discipline=0; relations=6; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.271
+`score=4; relations=2`
+
+So, when focussing our historical telescope on the Netherlands of the beginning of the 14th century, we feel entitled to admit the existence of a sort of loose cultural unity embracing territories of both Romanic and Germanic stock. But to conclude from this that there then existed a Netherlandish (I must use this word) nation, would be altogether wrong. There might be independence, or nearly, both from France and the Empire, there was no political cohesion among the Netherlands themselves. The counts of Flanders were at war with those of Holland about the possession of Zeeland, which ultimately remained to Holland. The counts of Holland wanted to conquer Friesland. Violent dissensions between Holland and Utrecht or Guelders were frequent till the end of the Middle Ages. And it must be observed that the peoples of those territories heartily shared the enmities of their rulers. Moreover the linguistic unity did not extend beyond Flanders, Brabant, Holland and Utrecht, over Friesland, Guelders etc. The Frisians strove to the last to maintain their secular liberty, Guelders was far more akin to the German territories of the Lower Rhine than to Holland or Brabant.
+
+### p.270
+`score=2; relations=1`
+
+I am speaking of the 13th and 14th centuries, I am thinking of Bruges, Ghent, unhappy Ypres, Brussels, Tournay, Valenciennes, Lille, French-speaking and Flemish-speaking towns alike, but all towns which now do not belong to Holland but to Belgium. The towns of Holland, of tardier growth and less importance than those of Flanders and Brabant, followed in the rear; they were not yet centres of civilization as Bruges or Ghent. Dordrecht and Middelburg were developing a lively trade, Haarlem and Leyden were just arising, Amsterdam was still a fishermen's village, all of them at best townships of a diminutive size.
+
+### p.271
+`score=2; relations=1`
+
+The cultural unity I mentioned was furthered by the fact that by this time, that is about 1300, the Germanic tongue of Flanders, Brabant, Holland proper etc. had come to differ so much from the Low German and High German dialects spoken more eastward, as to form a language of its own: the Middle-Dutch, from which our present Dutch language immediately derives. Its difference from Low and High German was partly due to internal linguistic development, partly to the mingling of Frankish, Saxon and Frisian elements, and not in the last place to the fact that it remained open to a continuous influence from the French, which, without altering its purely Germanic character, gave a direction of its own to its development.
+
+### p.274
+`score=2; relations=1`
+
+Consequently we see Charles V pursuing the Burgundian policy of his predecessors in rounding off his dominions in the Netherlands on behalf of his own house, notwithstanding the fact that as an Emperor he would have been obliged to maintain their appurtenance to the German Empire. One by one the Northeastern territories were added to the so-called Burgundian dominions: Friesland, Utrecht, Groningen, at last the important duchy of Guelders, in 1543. Shortly afterwards, in 1548, the Emperor himself confirmed the pact which constituted the Netherlands as a tenth or Burgundian circle of the Empire, thereby severing the feudal ties of Flanders and Artois with France, but at the same time reducing the connection of all the Netherlands with the Empire to a mere form.
+
+### p.276
+`score=2; relations=1`
+
+For some time however the hope was revived that Flanders and Brabant too might be recovered for freedom. A long and intricate diplomatic play began, wherein William of Orange exerted himself to the utmost to hold together the Seventeen Netherlands against the King of Spain. But in vain. In 1579 the French-speaking provinces of the South reverted to the obedience of Philip II. In the same year the other provinces, except a few, made the Union of Utrecht, to maintain their independence from Spain by mutual assistance. The fate of Flanders and Brabant remained in suspense for some years, till the fall of Antwerp in 1585 (a year after Prince William's death) decided that the border-line between the free Republic of the United Netherlands and the Spanish provinces was to run right across the Dutch-speaking territory, which had seemed about to form one compact national whole.
+
+## huiz003verz05_01.xml — DanteNieuwe Rotterdamsche Courant, 13 September 1921.
+
+`unit_load=12; blocks=5; primitive=0; actors=0; discipline=0; relations=6; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.141
+`score=4; relations=2`
+
+Kunnen wij ons nog wel goed voorstellen, dat Shakespeare, Rembrandt en Dante eenmaal met moeite heroverd zijn op een algemeen oordeel, dat hen aan spot en smaad had prijsgegeven en welhaast tot vergetelheid bestemd? Hun grootheid schijnt ons zoo volstrekt en zoo onaantastbaar, dat het haast onbegrijpelijk wordt, hoe een vroeger geslacht, zeer weloverwogen en met een niet geringe kracht van oordeel, de voorkeur heeft kunnen geven aan Racine, Claude Lorrain en Ariosto. In die voorkeur ligt de geheele geschiedenis van de Renaissance en van de eeuw van Lodewijk XIV opgesloten; wie haar niet tijdelijk meevoelen kan, zal geen van die beide tijdperken begrijpen. Aan de verwerping van Shakespeare, Rembrandt en Dante heeft één en hetzelfde motief ten grondslag gelegen: de afkeer van het extravagante, de schroom voor het al te onmiddellijke. Versta extravagant hier niet in den verslapten, alledaagschen zin, maar in de concrete beteekenis der Latijnsche woorddeelen: een buiten-zwerven, een buiten-dwalen van den geest. De klassicistische eeuwen duldden niet, dat de dichter u plotseling, met een woord, met een kreet, meevoerde naar duizelende verten, oneindig ver buiten dien prachtigen en vastomsloten kring, waarbinnen zij het leven en de scho …
+
+### p.141
+`score=2; relations=1`
+
+Hoe is het gekomen, dat wij deze drie teruggewonnen hebben? - De romantiek... Ja, de romantiek, als men haar ruim genoeg opvat. Toen omstreeks het midden der achttiende eeuw het besef was opgegaan, dat het aankwam op alles wat achter de logisch uitgedrukte waarheden lag, toen was het zeker, dat de tijd voor Shakespeare, Rembrandt en Dante eerlang weer komen zou. Ontdekt zijn zij weder door het blazen van den romantischen stormwind. Doch dit wil geenszins zeggen, dat nu nog onze bewondering voor hen in wezen romantisch zou zijn. Wie thans een voorstelling van Dante uit de dagen der romantiek beschouwt, van een Delacroix bij voorbeeld, zal slechts een gering deel van zijn Dante-beeld daarin uitgedrukt vinden.
+
+### p.142
+`score=2; relations=1`
+
+Wat is het, dat ons aan Dante zoo onverbrekelijk bindt, dat hem ons zoo in de hoogste mate onmisbaar maakt? Voorzeker niet, dat hij zoo verwant zou zijn aan onzen eigen tijd. Hij heeft veeleer alles, wat wij missen, en het is misschien daardoor, dat hij ons zoo hevig trekt. Wij vinden in hem de volkomen vastheid. Vastheid van oordeel, vastheid van wereldbeschouwing en begrip, vastheid van den dichterlijken vorm, vastheid van verbeelding. Bij hem niets zwevends, niets onomlijnds, niets wat in het midden gelaten wordt. Wij voelen iets ijzingwekkends in de zekerheid, waarmee Dante zijn tijdgenooten dorst verdoemen, en benijden hem die zekerheid. Het dichterlijk verbeelden is in Dante volmaakt. Geen van de groote meesters der levende figuren: geen Milton, geen Goethe, heeft zijn onmiddellijkheid van verbeelding, welke even ver af staat van kunstige beeldbeschrijving als van vaag fantazeeren.
+
+### p.142
+`score=2; relations=1`
+
+Het is, alsof tegenover Dante's werk al de tegenstellingen der litteratuurgeschiedenis hun beteekenis verliezen, omdat hij ze alle reeds had opgelost, of liever ze niet gekend had. Wie tot Dante komt met de vraag naar de verhouding van onderwerp en wijze van behandeling, kan terstond weer naar huis gaan; zij vallen volstrekt niet te scheiden. Met een tegenstelling als realiteit en fictie komt men bij Dante slechts in verlegenheid. Met vorm en inhoud gaat het niet beter. Tusschen de verschillende verbeeldingssferen: bijbelsche, klassieke, romantische, waartusschen latere dichtergeslachten zouden gaan weifelen en kiezen, heeft Dante geen scheiding gekend: zijn visie onderwerpt ze alle en dwingt ze tot eenheid.
+
+### p.142
+`score=2; relations=1`
+
+Geen dichter is zoo onscheidbaar van het land en het volk, dat hem voortbracht, als Dante. Hij brengt ons veel sterker in aanraking met Italië dan Shakespeare het ons met Engeland of zelfs Cervantes met Spanje doet. Is er ergens één dichter, die zoo met u mee wandelt, wanneer gij zijn levensweg kruist, als Dante het doet in Florence, Verona, Ravenna? Italië is der wereld een lust om nog duizend andere dingen; men kan het leeren kennen uit tal van andere uitingen van zijn rijken geest, maar het diepste en sterkste van dien geest heeft slechts hij begrepen, die Dante lief heeft.
+
+## huiz003verz07_01.xml — Erasmus en DanteDe Gids, 85e Jrg. no. 11, November 1921, p. 362-363. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=11; blocks=4; primitive=0; actors=0; discipline=0; relations=5; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.202
+`score=4; relations=2`
+
+Thans maakt de eerste aller kenners van Erasmus, de heer P.S. Allen te Oxford, mij opmerkzaam op een tweede plaats, waar Erasmus Dante noemt, in bijna hetzelfde verband als de andere maal; een plaats die mijn conclusie bevestigt, maar tevens, hadde ik haar gekend, het schrijven van een artikel van acht bladzijden volkomen overbodig zou hebben gemaakt. Immers de bedoeling, naar welke ginds te raden viel, is hier volkomen duidelijk. Tegelijk levert de plaats een aardige bijdrage aangaande Erasmus', zeer platonische, waardeering der volkstaal in het algemeen.
+
+### p.202
+`score=4; relations=1, places=1`
+
+Het is in het lijvige tractaat Ecclesiastes sive concionator euangelicus, over de kunst van het prediken, dat hij aanvankelijk bestemd had voor zijn vriend John Fisher, bisschop van Rochester, maar na diens dood in 1535 opdroeg aan Christoph von Stadion, bisschop van Augsburg, dat Erasmus opsomtLib. II, ed. LB, V 856 AB., aan welke vereischten de aanstaande prediker moet voldoen, om zich tot zijn ambt te bekwamen. ‘Zijn eerste taak zal zijn, te verkeeren met lieden, die zuiver en beschaafd spreken; de naaste, om predikers te hooren, die door bevalligheid van taal uitmunten. De derde, om de boeken te lezen van hen, die door welsprekendheid in de volkstaal hebben uitgemunt. Gelijk bij de Italianen Dante en Pe-trarca worden geroemdTertium evolvere libros eorum qui linguae vulgaris eloquentia polluerunt. Quales celebrantur apud Italos Dantes et Petrarcha.. Er is ook geen taal zoo barbaarsch, of zij heeft haar eigenaardige keurigheid en vermogen van uitdrukking, indien zij behoorlijk gekuischt wordt. Zij die Italiaansch, Spaansch en Fransch kennen - (men herinnere zich, dat Erasmus deed, alsof hij er geen woord van verstond) - verzekeren steeds, dat aan deze talen, hoe bedorven ook, een gratie eigen is, welke het Latijn niet bereikt. H …
+
+### p.203
+`score=2; relations=1`
+
+Men zou kunnen twijfelen, of Erasmus met lingua Saxonica doelde op het Nederduitsch, of veeleer, zooals ik aanneem, daarmede dacht aan Luther's taal, aan Wittenberg.
+
+### p.203
+`score=2; relations=1`
+
+Wanneer men de woorden uit het werk van 1535 naast die van den brief van 1520 legt, dan komt het mij waarschijnlijk voor, dat de oude Erasmus, bij het schrijven van zijn Prediker nogmaals zijn herdenking van den vriend uit zijn jongere jaren, John Colet, voor den geest, of zelfs voor oogen heeft gehad.
+
+## huiz003verz08_01.xml — BoekbesprekingenDe Gids, 86e Jrg. no. 7, Juli 1922, p. 159-160. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=10; blocks=2; primitive=0; actors=0; discipline=0; relations=5; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.519
+`score=8; relations=4`
+
+Het Insel-Verlag heeft van de serieën uitgaven van meesterwerken der wereldlitteratuur in den origineelen tekst de derde, Libri librorum geheeten, spoedig doen volgen op Pandora en Bibliotheca mundi, die ik hier verleden jaar aankondigde. Deze Libri librorum zijn een lust om te bezitten. Wie de twee dunne Dante-deeltjes in de hand neemt, en op den rug leest: Opera omnia I, II, denkt te doen te hebben met een begin waarop nog het meeste volgen moet. Maar jawel, het is, dank zij het dunne maar volkomen ondoorzichtige papier, alles in die twee kleine boekjes compleet: Commedia, Canzoniere, Vita nuova, Convivio, Eclogae, Monarchia, brieven en de rest, in een voortreffelijke, duidelijke en niet te kleine letter, gelijk die ook in de andere deelen met zorg gekozen is. Alleen de druk van Schuld en boete is veel minder goed dan de Russische typen, in Pandora en de Bibliotheca mundi gebruikt. Maar het cyrillische schrift blijft altijd, ook op zijn best, een gebrekkig ding, in aesthetisch en nog meer in ophthalmologisch opzicht. Dat laatste komt omdat het geen echt minuskelschrift is, met talrijke onderscheidende elementen, die het mogelijk maken, het zeer snel op te nemen, doch een verbasterde majuskel, te gelijkvormig en te weinig lenig v …
+
+### p.520
+`score=2; relations=1`
+
+De uitgevers bieden meer dan enkel herdrukken. Ilias en Odyssea, in één deeltje vereenigd, zijn uitgegeven door Paul Cauer, de werken van Dante, hoewel grootendeels naar den tekst van Moore, door Heinrich Wengler, met een fragment uit Croce's nieuwe Dante-werk ter inleiding, de Nibelungen en Kudrun door niemand minder dan Eduard Sievers, die daarbij zijn metrisch-melodische principiën heeft toegepast. Sievers' Nachwort behelst over dat pas aangeboorde terrein der litteratuurwetenschap opmerkingen, die den philoloog van dertig jaar geleden louter onzin zouden hebben geschenen, maar die ieder hedendaagsch lezer met de grootste aandacht dient te bestudeeren. Ook Wengler heeft in Vita nuova en Convivio met het melodische vraagstuk eenige rekening gehouden.
+
+## huiz003verz08_01.xml — Nieuwe regeling van universiteitsexamensNieuwe Rotterdamsche Courant, 20 Juni 1921, Avondblad D.
+
+`unit_load=10; blocks=3; primitive=0; actors=0; discipline=0; relations=4; places=2; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.422
+`score=6; relations=2, places=1`
+
+Wanneer iemand, die door opleiding of werkzaamheid in geenerlei betrekking staat tot het academische onderwijs, den tekst van de nieuwe regeling der universitaire studiën, zooals die thans in het Staatsblad staat en grootendeels in ons blad van gisteren is overgenomen, eens nauwlettend ging vergelijken met dien van het statuut van 1877, dat tot nu toe gold, zou hij misschien tot het vermoeden komen, dat de nieuwe examenregeling, veel omvangrijker, veel ingewikkelder, met veel meer uitzonderingen en bijzondere bepalingen beladen dan het oude, een geduchte verzwaring van de studie voor onze jongelingschap moet beteekenen. En geneigd tot het aanvaarden van de wel eens misleidende uitspraak, dat eenvoud het kenmerk van het ware is, zou hij licht besluiten met een zucht over de veeleischenheid der professoren, die geen rekening houden met de eischen van den tijd.
+
+### p.422
+`score=4; relations=1, places=1`
+
+Evenwel, al die meeningen zijn, alvorens deze regeling werd vastgesteld, gehoord en weer gehoord. Aan nauwgezette voorbereiding, dit weten wij, heeft het waarlijk niet ontbroken. Faculteiten, senaten, bijzondere personen, ieder heeft gelegenheid gehad, te waarschuwen of aan te prijzen. Er is raad gepleegd tusschen de faculteiten der verschillende universiteiten onderling; deze hebben schriftelijk en mondeling hunne inzichten kunnen verdedigen voor den onderwijsraad. Dit jonge orgaan heeft, naar wij op gezag van onderscheiden personen kunnen verzekeren, een voorbeeld gegeven van ijver, ernst en... geduld. Indien tenslotte bij zooveel adviezen de eenheid van gedachte in het statuut niet is zoekgeraakt, dan is dit te danken aan het feit, dat de leiding van den beginne af in handen is geweest van hen, wier zaakkennis hun belangstelling in het vraagstuk evenaarde. Niet voor niets heeft de minister van Onderwijs, Kunsten en Wetenschappen indertijd deel uitgemaakt van de zoogenaamde ineenschakelingscommissie van 1903.
+
+### p.422
+`score=2; relations=1`
+
+Een poging noemden wij de nieuwe regeling. Natuurlijk. Van geen enkele wet is de uitwerking in de praktijk vooraf nauwkeurig te berekenen, en minder dan op eenig ander gebied, daar waar het een nieuw onderwijsprogram betreft. Er zullen er zijn, die beven voor de toekomst der vaderlandsche rechtsgeleerdheid, of de handen ineenslaan over de regeling van de geneeskundige studiën, of wat men wil. Nergens is het aantal meeningen zoo groot als op onderwijsgebied, omdat de mogelijkheden er zoo vele zijn.
+
+## huiz003verz09_01.xml — 1933
+
+`unit_load=10; blocks=7; primitive=0; actors=0; discipline=0; relations=2; places=6; play=1; combo_blocks=0; actor_relation_blocks=0`
+
+### p.31
+`score=4; places=2`
+
+een praegothieke geest: johannes van salisbury - Tijdschrift voor Geschiedenis, xlviii, 1933, blz. 225-244. (iv, 85-103) Rede, gehouden voor het xvde Nederlandsche Philologencongres te Leiden op 21 April 1933. Eveneens verschenen in: Handelingen van het xvde Nederlandsche Philologencongres te Leiden, 1934, blz. 27-43. In Duitsche vertaling door Werner Kaegi, o.d.t. Ein prägotischer Geist: Johannes von Salisbury, in: Parerga (322).
+
+### p.31
+`score=4; places=2`
+
+[rede van den rector magnificus bij de overdracht van het rectoraat aan mr d. van blom op 18 sept. 1933] - Jaarboek der Rijksuniversiteit te Leiden, 1933. Leiden, Van Doesburgh, 1933, blz. 191-211. (viii, 409-414) In de Verz. Werken slechts gedeeltelijk afgedrukt.
+
+### p.30
+`score=2; relations=1`
+
+natuurbeeld en historiebeeld in de achttiende eeuw - Groningen/Den Haag/Batavia, Wolters, 1933 (Geschriften van de Allard Pierson Stichting, afd. Moderne Literatuurwetenschap, iv). 15 blz. (iv, 341-359) Voordracht, gehouden op 6 Nov. 1933 te Amsterdam voor de Allard Pierson Stichting, afd. Moderne Literatuurwetenschap. De afzonderlijke uitgave is een overdruk uit Neophilologus, zie ben. Eveneens verschenen in: Neophilologus, xix, 1934, blz. 81-95. In Duitsche vertaling door Werner Kaegi, o.d.t. Naturbild und Geschichtsbild im 18. Jahrhundert, in: Corona, v, 1935, blz. 536-562. Herdrukt in: Parerga (322).
+
+### p.31
+`score=2; relations=1`
+
+burgund, eine krise des romanisch-germanischen verhältnisses - Historische Zeitschrift, cxlviii, 1933, i, blz. 1-28. (ii, 238-265) Rede, gehouden aan de universiteiten van Keulen, Marburg en Munster in Januari 1932 en aan de universiteit van Berlijn op 28 Januari 1933. Herdrukt in: Im Bann der Geschichte (317). Afzonderlijke uitgave: Tübingen, Wissenschaftliche Buchgemeinschaft, (Reihe: ‘Libelli’, IV), z.j. (1953).
+
+### p.32
+`score=2; places=1`
+
+[toespraak na de onthulling van het lorentz-monument te leiden op 3 nov. 1933] - Leidsch Universiteits-blad, iii, 1933/4, 17 Nov. 1933, blz. 1-2. (vi, 492-494) Herplaatst in: Leidsch Universiteits-blad, iii, 1933/4, Febr. 1934 (Universiteits-Fonds-nummer), blz. 1-2. Ook verschenen in: Nederlandsch Tijdschrift voor Natuurkunde, 1, 1934, blz. 41-44.
+
+### p.32
+`score=2; places=1`
+
+*Boekbespreking: England und die Antike. Vorträge der Bibliothek Warburg, herausgegeben von Fritz Saxl, ix: Vorträge 1930-1931. Leipzig, 1932. - Museum, xli, 1933/4, kol. 7-8.
+
+### p.30
+`score=1; play=1`
+
+over de grenzen van spel en ernst in de cultuur - Haarlem, Tjeenk Willink, 1933. 32 blz. (v, 3-25) Rede, gehouden door den Rector Magnificus op den 358sten dies natalis der Leidsche Universiteit op 8 Februari 1933.
+
+## huiz003gesc03_01.xml — C.I.C.I.De Gids, 94e Jrg. no. 12, December 1930, p. 282. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=8; blocks=1; primitive=0; actors=0; discipline=0; relations=4; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.607
+`score=8; relations=4`
+
+De ziekte, die bij ons, - met een leelijk woord, dat voor de zaak nog veel te mooi is -, de Verpolitieking heet, vreet, in andere gedaante, ook voort in de internationale sfeer. Men hoort verzekeren, dat de werkzaamheid der talrijke Volkenbondsorganen steeds meer op de leest van nationalen wedijver wordt geschoeid. Welke van die Volkenbondsinstellingen zou men eer daarboven verheven wanen dan de ‘Commission internationale de coopération intellectuelle’, met haar zuiver geestelijk doel? - Wat inderdaad geschiedt komt hierop neer, dat de leiding gaandeweg uit de handen van mannen als Bergson, Lorentz en Einstein overgaat in die van bedrijvige nationale politici, en dat de ellebogen van het moderne Italië er zoo juist Nederland hebben uitgedrongen. Het geheele instituut wordt een onderonsje van eenige groote mogendheden, en de kleine naties hebben het toekijken.
+
+## huiz003verz03_01.xml — Denk aan de KoornbrugDe Gids, 97e jaargang, no. 10, October 1933, p. 6-7, rubriek: Stemmen uit de Redactie. P.N. van Kampen & Zoon N.V., Amsterdam.
+
+`unit_load=8; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=2; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.579
+`score=6; relations=1, places=2`
+
+Er is aan de Leidsche stadhuisplannen buiten die van de zuiver architectonische verdienste nog een andere vraag verbonden, die men de stedebouwkundige kan noemen. De hier volgende opmerking heeft in het minst niet de bedoeling, een der andere plannen boven dat van Blaauw te verkiezen, waarvan de bouwkundige waarde in haar geheel gelaten wordt. Zij stelt enkel de stedebouwkundige vraag, welke luidt: Hoe zal een bepaalde oplossing werken in het stadsbeeld? In dit opzicht nu zondigt het plan Blaauw ernstig, door het ontwerpen van een open pleintje aan de Vischmarkt. Niets is voor Hollandsch stedeschoon zoo gevaarlijk als het verbreken van een oude rooilijn. Men kan het zien aan het postkantoor te Middelburg, waar de fraaie ronding van de Noordstraat door een achteruitgezet gebouw verstoord is, en in Leiden zelf, waar men bij het bouwen van de nieuwe Universiteitsbibliotheek verzuimd heeft, de gesloten lijn van het Rapenburg te herstellen, die op den plattegrond van Blaeu zoo goed te zien is, hetgeen het afbreken van de kostelijke gevels links nog overbodiger hadde gemaakt dan het reeds was, en ons het onnoozele pleintje had bespaard, dat enkel rumoer en ruimteverlies beduidt. Leiden had in dit opzicht waarlijk reeds genoeg geleden, t …
+
+### p.580
+`score=4; relations=2`
+
+Het stadsdeel tusschen de Waag en de Koornbrug blijft, al staan er maar enkele huizen meer die op zich zelf belangrijk zijn, een der mooiste, die men in Holland aantreft. Het zijn de lijnen en de glooiingen, die het doen, en niet in de laatste plaats ook de afsluiting door den bovenbouw van de Koornbrug, waarvan men zich telkens weer blijde verbaast, dat nog in 1825 iets zoo doordacht harmonisch kon worden gewrocht. Dit stukje van de symphonie nu gaat Blaauw door een luiden wanklank roekeloos verstoren. Hij slaat een gat in de lijn van de Vischmarkt, en laat de Koornbrug zonder steun in het ijle hangen. Blaauw's pleintje is in de pers een gelukkige greep genoemd. Het is een misgreep van de bedenkelijkste soort, zooals eveneens aanstonds werd betoogd. Caveant consules.
+
+## huiz003verz04_01.xml — La fin du Moyen Age. II. L'annonce des temps nouveaux (1453-1492)Zie Tijdschrift voor Geschiedenis, XLVII p. 79. [Verz. Werken III, p. 563].. Alcan, Paris 1931.Tijdschrift voor Geschiedenis, 47e Jaargang, 1932, p. 185-186. P. Noordhoff N.V., Groningen.
+
+`unit_load=8; blocks=2; primitive=0; actors=0; discipline=0; relations=4; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.567
+`score=6; relations=3`
+
+Het beeld der staatkundige ontwikkeling wordt opgebouwd in een reeks opeenvolgende hoofdstukken van 30 tot 13 bladzijden elk, over Frankrijk, Engeland, Spanje, Italië, Polen en het Oosten. De Duitsche landen moeten het doen met ruim 4 bladzijden, die enkel over het Rijk en Habsburg handelen, de Skandinavische met een halve bladzijde onder Polen. De Bourgondische crisis, die door haar wereldhistorische beteekenis geschikt ware geweest, om in de statengeschiedenis van het tijdperk een centrale plaats te bekleeden, fungeert enkel als een paragraaf in het hoofdstuk over Frankrijk, en komt onvoldoende tot haar recht. Het onderwerp is ook niet met de noodige zorg bewerkt. Op blz. 45 en 46 heet Margareta van York, die in 1468 Karel den Stoute huwde, dochter van Eduard IV; op blz. 69 (van denzelfden schrijver) juister zuster. Op blz. 45 moet de onkundige lezer wel meenen, dat Maria van Bourgondië een dochter uit dit huwelijk was; twee bladzijden verder leert hij anders. Wanneer de schrijver de in de bibliografie ontbrekende studiën van E. Dürr gekend had (Historische Zeitschrift 113, 1914 en Basler Zeitschrift für Geschichte und Altertumskunde 14, 1915) zou hij niet gezegd hebben, dat Karel de Stoute in het begin van 1473 geïsoleerd was; …
+
+### p.566
+`score=2; relations=1`
+
+Het tweede stuk van dit werk bevestigt in elk opzicht den indruk, door het eerste gewekt. Om den titel L'annonce des temps nouveaux te rechtvaardigen, moest het hoofdstuk over letteren en kunst ‘La préparation de la Renaissance’ heeten, en wordt het begrip Renaissance op blz. 196 beperkt tot de XVIe eeuw: ‘Ce qu'il est convenu d'appeler la Renaissance du XVIe siècle semble s'annoncer dans l'Europe occidentale’. Daar is iets gewrongens in; het getuigt opnieuw van de vroeger opgemerkte bedenkelijkheid, een heel tijdperk in al zijn verschijnselen onder één noemer te willen brengen.
+
+## huiz003verz07_01.xml — Prof. R.N. Roland HolstNieuwe Rotterdamsche Courant, 4 December 1928, Avondblad.
+
+`unit_load=8; blocks=3; primitive=0; actors=0; discipline=0; relations=4; places=0; play=1; combo_blocks=0; actor_relation_blocks=0`
+
+### p.509
+`score=4; relations=2`
+
+De veelzijdige kunstenaar huwde op 16 Januari 1896 met onze grootste dichteres, Henriëtte van der Schalk. Hij zelf heeft ook als schrijver een goeden naam. Zijn Overpeinzingen van een bramenzoeker zijn terecht beroemd; hij verzamelde zijn opstellen in een bundel Over Kunst en Kunstenaars. De band van beide boeken, van Otten's Schaduwen en van de nieuwe Vondel-uitgave is door hem ontworpen.
+
+### p.509
+`score=3; relations=1, play=1`
+
+De directeur-hoogleeraar der Rijksacademie van Beeldende Kunsten is heden zestig jaar geworden. Hij werd te Amsterdam geboren en opgeleid aan genoemde instelling. Reeds op jeugdigen leeftijd was hij als een knap lithograaf en gevoelig teekenaar bekend, maar het was eerst bij de muurschilderingen, dat zijn talenten geheel vrij spel kregen. Die in Dr Berlage's beurs dateeren van 1902; zij werden spoedig gevolgd door de fresco's in het Gebouw van den Algemeenen Nederlandschen Diamantwerkersbond te Amsterdam en van de Heidemaatschappij te Arnhem. In het begin dezer eeuw ontstonden ook de baanbrekende affiches voor tooneelvoorstellingen: Lucifer, Marsyas, Gijsbreght, Faust en de tentoonstelling van Bosboom. Voor de Marsyas van Balthazar Verhagen ontwierp hij ook het decor. Bovendien bestaan er tal van diploma's, ex libris, vignetten, gedenkplaten, programma's, sluitzegels van zijn hand. Vele omslagen van het prachtige tijdschrift Wendingen zijn door hem geteekend. Groote voorstellingen ter uitvoering in gebrandschilderd glas, voor het postkantoor te Haarlem, een lyceum te Amsterdam, den Utrechtschen Dom en het Amsterdamsche raadhuis zijn jonger. Ook teekende hij vele portretten.
+
+### p.509
+`score=2; relations=1`
+
+De beteekenis van prof. Roland Holst is niet met een opsomming als deze te bepalen. Zijn groote verdienste is zeker, dat hij in den bloeitijd van de impressionistische of, om breeder te spreken, van de realistische periode, gestreden heeft voor idealisme in de kunst, voor de beteekenis van denkbeelden, poëzie, symboliek in de plastische kunsten. Slechts drie Nederlandsche kunstenaars van beteekenis werden in deze richting voorloopers van den nieuwen tijd. Dat zij zich recht tegen een sterke strooming in konden doen gelden bewijst de belangrijkheid van hun talent. Het is een gemeenplaats om te zeggen dat Roland Holst's kunst bij die der Pre-Raphaëlieten aansluit. Het is niet onwaar, want invloed van Rossetti en van de illustreerkunst van Millais (die men in ons land zelden ziet) en van Walter Crane, die geen Pre-Raphaëliet was, is onmiskenbaar. Maar dat zijn uiterlijkheden, die de erkenning van diepere waarheid in den weg staan. Het is volstrekt niet fantastisch om Roland Holst te zien als den volkomen modern-voelenden kunstenaar, lang voor den oorlog.
+
+## huiz003verz08_01.xml — De Werken van Vondel. Tweede deel. 1620-1627. Maatschappij voor Goede en Goedkoope Lectuur, Amsterdam 1929.De Gids, 93e Jrg. no. 8, Augustus 1929, p. 281. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=8; blocks=1; primitive=0; actors=0; discipline=0; relations=4; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.527
+`score=8; relations=4`
+
+Dr Sterck vervolgt het verhaal van Vondel's leven gedurende de reeks van jaren, die als rijpste vrucht den Palamedes brengen. De heer L. Simons geeft het eerste deel van een studie over Vondel's dramatiek, daarna volgen de werken zelf, met de uitvoerige aanteekeningen van de hand van Dr Moller, die daarbij in het vervolg zal worden bijgestaan door Prof. De Vooys. Aan het slot is opnieuw Dr Sterck aan het woord met Literatuuropgave, Bibliographie en Aanvullingen en Opmerkingen, daarna nog Dr Moller met Tekstkritiek, Afwijkende Lezingen, Nadere Verklaringen enz.. Genoeg om te doen zien, met welk een onvermoeide zorg deze standaard-uitgave wordt voorbereid. Achtentwintig illustraties verlevendigen het geheel. De typographische uitvoering maakt opnieuw het hanteeren van het boek een genot. Een bijzondere vermelding verdient het portret van Du Bartas, naar een photografie, afgestaan door den Heer E. de Saluste du Bartas te Parijs, die haar daartoe opzettelijk liet vervaardigen. Het origineel, te Auch, is naar allen schijn een penteekening; het zou ook een ets kunnen zijn; men zou den aard der afbeelding gaarne vermeld hebben gezien.
+
+## huiz003verz09_01.xml — 1929
+
+`unit_load=8; blocks=2; primitive=0; actors=0; discipline=2; relations=0; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.25
+`score=3; discipline=1`
+
+de taak der cultuurgeschiedenis - Cultuurhistorische Verkenningen. Haarlem, Tjeenk Willink, 1929, blz. 1-85. (vii, 35-94) Uitwerking van de rede voor het Historisch Genootschap in 1926 (zie 158). In Duitsche vertaling door Werner Kaegi, o.d.t. Aufgaben der Kulturgeschichte, in: Wege der Kulturgeschichte (188).
+
+### p.25
+`score=3; discipline=1`
+
+cultuurhistorische verkenningen - Haarlem, Tjeenk Willink, 1929. viii en 191 blz., met portret door L.O. Wenckebach. Bevat: De taak der cultuurgeschiedenis (181), blz. 1-85. Renaissance en Realisme (182), blz. 86-116. Duitschland's invloed op de Nederlandsche beschaving (149), blz. 117-155. Over een definitie van het begrip geschiedenis (180), blz. 156-l68. De figuur van den dood bij Dante (93), blz. 169-175. Kleine samenspraak over de thema's der Romantiek (179), blz. 176-191.
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Elfter Band: Die Antwerpener Manieristen, Adriaen Ysenbrant. Paul Cassirer, Berlin 1933.Nieuwe Rotterdamsche Courant, Avondblad E van 17 Februari 1934.
+
+`unit_load=7; blocks=1; primitive=0; actors=0; discipline=0; relations=3; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.512
+`score=8; relations=3, places=1`
+
+Het is het onvermijdelijk gevolg van den opzet van Friedländer's groote werk, dat hij tegen het einde daarvan terechtkomt bij uitloopers en epigonen van dikwijls gering gehalte. Ditmaal getuigt de titel het zelf. Meesters met en zonder naam van matige qualiteit en geenerlei nieuwe schoonheid passeeren de revue. Hun oeuvre wordt vastgesteld en geïnventariseerd met dezelfde zorgvuldigheid en dezelfde fijne middelen van beschrijving en karakteriseering, die Friedländer eerder voor Jan van Eyck en de andere grooten hebben gediend. Men vraagt zich soms af, of al dat talent aan deze velen, die de schrijver zelf fabrikanten voor de markt noemt, niet is verkwist. Doch de systematiek der kunstgeschiedenis vraagt deze catalogiseering, en men moet den meester om zijn weinig opwekkenden arbeid dubbel dankbaar zijn. Voor den kunstliefhebber valt er weinig af, tenzij in hem de verzamelaar den bewonderaar overtreft. In de lange reeks van illustraties valt tusschen veel overdreven sierlijkheid, weeë zoetheid en slappe traditie een merkwaardige geboorte van een onbekenden meester op (pl. 31). Meer dan Ysenbrant, die, daar hij Brugsche en niet Antwerpsche school vertegenwoordigt, in den titel naast de manieristen afzonderlijk fungeert, boeit ons Ja …
+
+## huiz003verz09_01.xml — 1923
+
+`unit_load=7; blocks=4; primitive=0; actors=0; discipline=0; relations=2; places=3; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.16
+`score=4; relations=2`
+
+noodwendig vertoog - B.V.G.O., 5de reeks, x, 1923, blz. 1-14. (ii, 22-34) N.a.v.: C.D.J. Brandt, Bijdrage tot de kritiek van Hollandsche stadsrechten der xiiie eeuw. Utrecht, 1921.
+
+### p.16
+`score=2; places=1`
+
+de universiteit van nederlandsch-indië - De Gids, lxxxvii, 1923, iv, blz. 143-150. (viii, 464-470)
+
+### p.16
+`score=2; places=1`
+
+de mare te leiden - Nieuwe Rotterdamsche Courant, 28 Oct. 1923. Ocht.blad B. (ii, 579)
+
+### p.16
+`score=2; places=1`
+
+Boekbespreking: Dorothy-Louise Mackay, Les hôpitaux et la charité à Paris au xiiie siècle. Parijs, 1923. - Museum, xxxi, 1923/4, kol. 75-76. (iv, 180-182)
+
+## huiz003verz09_01.xml — 1924
+
+`unit_load=7; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.17
+`score=6; relations=3`
+
+erasmus - Londen/New York, Charles Scribner's Sons, 1924. xii en 276 blz. (Serie: ‘Great Hollanders’). Vertaald door F. Hopman, met een voorwoord door den uitgever Edward W. Bok. Tweede druk, aldaar, 1929. Derde uitgave, Londen, Phaidon Press, 1952, met een voorwoord door G.N. Clark en een keur uit Erasmus' brieven, vertaald door Barbara Flower. Nederlandsche uitgave, met de verwijzingen: Erasmus. Haarlem, Tjeenk Willink, 1924. viii en 288 blz. Tweede, herziene druk, aldaar, 1925. Derde, herziene druk, aldaar, 1936. Deze druk en volgende geïll. (vi, 3-194) Vierde ongewijzigde druk, aldaar, 1947. Duitsche vertaling door Werner Kaegi: Erasmus. Bazel, Benno Schwabe, 1928. Geëll. met houtsneden en etsen van Holbein. Tweede, goedkoopere, uitgave, aldaar, 1936. Derde druk, aldaar, 1936. Vierde druk, aldaar, 1941. Vijfde druk, aldaar, 1951. Italiaansche vertaling: Erasmo: Turijn, Einaudi, 1941. Spaansche vertaling door J. Farrán en S. Olives Canals: Erasmo. Barcelona, Zodiaco, 1946.
+
+### p.17
+`score=2; places=1`
+
+how holland became a nation - Lectures on Holland, delivered in the University of Leyden during the first Netherlands week for American students, July 7-12, 1924. Leiden, Sijthoff, 1924, blz. 1-18. (ii, 266-283)
+
+## huiz003verz09_01.xml — 1925
+
+`unit_load=7; blocks=4; primitive=0; actors=0; discipline=0; relations=1; places=5; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.18
+`score=4; places=2`
+
+de academische gebouwen - Pallas Leidensis mcmxxv. Leiden, Van Doesburgh, 1925, blz. 19-36. (viii, 355-370)
+
+### p.19
+`score=4; places=2`
+
+kern en de taalwetenschap - Pallas Leidensis mcmxxv. Leiden, Van Doesburgh, 1925, blz. 95-101. (viii, 371-376)
+
+### p.18
+`score=2; places=1`
+
+[kort verhaal van de plechtige viering van het driehonderdvijftigjarig bestaan der leidsche universiteit op maandag 9 februari 1925] - Leiden, Van Doesburgh, 1925. 56 blz. Geschreven in samenwerking met L. Knappert en W. de Sitter.
+
+### p.20
+`score=2; relations=1`
+
+Boekbespreking: M. Bloch, Les rois thaumaturges. Étude sur le caractère surnaturel attribué à la puissance royale particulièrement en France et en Angleterre. Straatsburg, 1924 (Publications de la faculté des lettres de l'université de Strasbourg, fasc. 19). - Tijdschrift voor Rechtsgeschiedenis, vi, 1925, blz. 354-356. (iv, 127-129)
+
+## huiz003verz03_01.xml — De vlagDe Gids, 97e jaargang, no. 10, October 1933, p. 7-8, rubriek: Stemmen uit de Redactie. P.N. van Kampen & Zoon N.V., Amsterdam.
+
+`unit_load=6; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.595
+`score=4; relations=2`
+
+En het hangt er alles tot in het trieste licht van den volgenden morgen, den nacht over, al of niet in de geut. Wanneer een vereeniging zich verdienstelijk wil maken voor ons nationaal symbool, laat zij dan ons publiek leeren, wat ieder marineman u zeggen kan, en iedere Noor of Zweed, die meer gevoel hebben voor correct vlaggen dan wij: met zonsondergang wordt de vlag gestreken!
+
+### p.594
+`score=2; relations=1`
+
+De Nederlander van heden toont zich zijn schoone vlag niet waard. Hij weet er niet mee om te gaan. Overal elders zou het, behoudens partijtwist, burgeroorlog of revolutie, vanzelf spreken: zóó is de vlag en niet anders. Het oranje-blanje-bleu, dat inderdaad even oude rechten kan doen gelden, zou slechts een extra mogen zijn. Maar neen: op een goeden dag hebben tal van landgenooten het in hun hoofd gekregen, dat men zijn vaderlandschen zin en zijn gehechtheid aan het koningshuis beter toont door op laatstgenoemde wijs te vlaggen. En nu vervolgt een vereeniging, op de dwingerige wijs, die tegenwoordig aan dergelijke bewegingen eigen is, het doel om de ‘schitt'rende kleuren van Nederland's vlag’ officieel door de fletse dito te vervangen. Men verwart zich lustig in historische argumenten en ingezonden stukken. Overal, heet het, waait rood-wit-blauw; de heele Balkan voert het tegenwoordig! - Alsof een edelman zijn gouden balk op een veld van sabel opgaf, omdat de bierbottelarij op den hoek er ook mee werkt!
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Achter Band: Jan Gossart, Bernart van Orley. Paul Cassirer, Berlin 1930.Nieuwe Rotterdamsche Courant, Avondblad van 28 Juni 1930.
+
+`unit_load=6; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.507
+`score=4; relations=2`
+
+In beide kunstenaars, - zegt Friedländer, en wie zal het niet toestemmen? -, ‘überwiegt das geistige Trachten den seelischen Zwang’. Beiden zijn ‘schwankende, ehrgeizig suchende Meister’ (p. 7). Gossart wordt tenslotte, als ‘der kaltherzige Virtuose’ tegenover den ‘sentimentalen Virtuosen’ Quentin Massys gesteld (p. 77). Het is de tijd, die hen zoo maakt. ‘Als der Künstlerberuf aufkam und sich vom Handwerksbetriebe löste, wurde die Zweiheitlichkeit der Produktion schon deshalb Bedürfnis, weil der hochmütig gewordene, in die Schicht der Geistesarbeiter emporstrebende Maler die mühsame, langsame und karg entlohnte Handarbeit zu verachten und scheuen begann.’ Slechts het ontwerpen en teekenen gold hem eigenlijk meer als zijner waardig, hij ging de schilderkunstige uitvoering vluchtig behandelen, verwaarloozen, of aan helpers overlaten (p. 137). ‘Der niederländischen Volks- und Kirchenkunst trat eine höfisch-weltliche Produktion gegenüber. Gossart entzog sich dem städtischen Gildenzwang und suchte die Gunst der grossen Herren. Dem bürgerlich-handwerklichen Zunftwesen entronnen, trat er in den Kreis der Hofzwerge, Poeten, Spassmacher und Virtuosen aller Art, die wechselnde Launen, Baulust, Prunkliebe und dilettantische Wissbegier der F …
+
+### p.507
+`score=2; relations=1`
+
+De schrijver vindt op bewonderenswaardige wijze voor elk deel in de lange reeks, die hij zich ter behandeling heeft gesteld, de spanning terug, om zijn figuren, bij voorkeur paarsgewijs geordend, trouw aan het eenmaal aanvaarde schema, te beproeven en te beschrijven. De indruk, dat de qualiteit van het werk, zoolang voortgezet, niet zakt, dat veeleer de auteur zijn methode steeds vaardiger en lichter hanteert, houdt een groote lofspraak in. Enkele principieele bedenkingen, vroeger geuit, blijven dezelfde, de bewondering stijgt, naarmate het groote werk zijn voltooiing nadert. Alleen zal de vorm van het werk, de lange serie van monografische verhandelingen, het toch op den duur zijn waarde hoofdzakelijk doen behouden (maar dat is ook ongetwijfeld de bedoeling) als schatkamer van informatie voor de kunsthistorici van 't vak. De belangstellende leek zal niet voor elk schilderspaar den lust tot verwerking van Friedländer's altijd merkwaardige beschouwingen terugvinden.
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Neunter Band: Joos van Cleve, Jan Provost, Joachim Patenier. Paul Cassirer, Berlin 1931.Nieuwe Rotterdamsche Courant, Avondblad E van 28 Januari 1932.
+
+`unit_load=6; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.508
+`score=4; relations=2`
+
+Naarmate Friedländer's lange weg hem in later tijden en tot minder belangrijke figuren brengt, wordt zijn werk uit den aard der zaak meer strikt kunsthistorisch, d.w.z. het raakt minder het cultuurleven van den tijd in het algemeen. Te meer, waar meesters als de hier behandelde eêr datgene vertegenwoordigen, wat in het begin der zestiende eeuw bezweek, dan het groote nieuwe, dat opkwam. Zij zijn, voorzoover het hun godsdienstige tafereelen betreft, de verbeelders van het afstervende middeleeuwsche katholicisme, niet van het wederoplevende, dat aanstonds volgen zou in Trente en de Societas Jesu. Het is een kunst, waaraan de tijd voorbijstreefde, ook al vond zij, van Antwerpen, de groote kunstmarkt, uit, nog alom aftrek en waardeering.
+
+### p.508
+`score=2; relations=1`
+
+Het is de bedoeling van den schrijver, om tegenover den beroemden Joos van Cleve de verdiensten van den veel minder bekenden Jan Joest en Jan Provost duidelijk te doen uitkomen; zij overtreffen eerstgenoemde in qualiteit. Jan Joest, uit Wesel geboortig, begeeft zich in 1509 naar Haarlem, en staat geheel onder Hollandsche invloeden. De figuur van Joos van Cleve is langen tijd in het halfduister gebleven, doordat Van Mander hem met zijn zoon heeft verward, en doordat men hem eerst laat onbetwist heeft kunnen identificeeren met den ‘Meister des Marientodes’, dien Boisserée en Wallraf aldus noemden naar de twee altaarstukken uit Keulsche kerken, door hen aan 't licht gebracht. Antwerpen is het centrum van zijn werkzaamheid. Jan Provost, uit Bergen in Henegouwen, is ouder dan de beide anderen, en werkt te Brugge. Een eenheid vormen de drie meesters derhalve geenszins, en de schrijver tracht ook niet, hen onder één gezichtspunt te vereenigen. Na nog drie Brugsche meesters met ‘Notnamen’ volgt tot slot Joachim Patenier, wien Friedländer terecht den roem van schepper van het landschap te zijn ontzegt. Gevaarlijk evenwel schijnt het mij, in de neiging, die de hoofdvoorstelling tegenover de omgevende ruimte terug doet treden, een richting v …
+
+## huiz003verz05_01.xml — [Boekbespreking van Is. van Dijk's ‘Dante's Vita Nova’]De Gids, 85e Jaargang no. 9, September 1921, Dante-nummer, p. 487-488. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=6; blocks=3; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.145
+`score=2; relations=1`
+
+Wie de Vita nuova kent, kent ook de bij iedere lezing opnieuw verrassende gewaarwording, hoe het bewust zijn van dien ganschen cultuurhistorischen onderbouw van het gedicht geen oogenblik het besef wegneemt van zijn volstrekte onmiddellijkheid en echtheid. Dit blijft altijd het wonder van Dante's dichterschap, dat men u bewijst, dat al zijn motieven conventioneel zijn, en hij toch tot u blijft spreken van hart tot hart. Ook Dr van Dijk verklaart zich in een hoofdstukje: ‘Heeft Beatrice werkelijk bestaan?’ innig overtuigd van de realiteit van het geval, zich daarbij onder andere beroepend op een zeer deugdelijk argument, aan den aard der scholastische denkwijze zelve ontleend.
+
+### p.145
+`score=2; relations=1`
+
+In cap. 22 hoort Dante het spreken van de vrouwen, die terugkomen van Beatrice, die haar gestorven vader beweent. Hij neemt de woorden van lof over de geliefde, die hij uit hun mond opvangt, tot motief voor twee sonnetten. ‘E però che volentieri l'averei domandate, se non mi fosse stata riprensione, presi tanta matera di dire come s'io l'avesse domandate, ed elle m'avessero risposto.’ Dus: hij vertelt uitdrukkelijk, dat hij het voorstelde, alsof hij met de vrouwen gesproken had. Het heeft mij altijd toegeschenen, dat een dichter, die den prozacommentaar bij zijn verzen maar verzon, ook wel boudweg zou hebben gezegd, dat hij met hen gesproken had. - Hetzelfde bij het sonnet ‘Deh peregrini che pensosi andate’ (cap. 40 of bij anderen 41). Hij zag de pelgrims door de stad gaan, wat hem het motief ingaf tot zijn verzen. ‘E acciò che piu paresse pietoso, propuosi di dire come se io avesse parlato a loro’; hij stelde het voor, alsof hij met hen gesproken had. Wanneer hier niet dan fictie achter stak, waarom dan niet gezegd, dat hij met hen gesproken had?
+
+### p.146
+`score=2; relations=1`
+
+Zoo zijn er nog meer van die heel eenvoudige, doodgewone stempels van echtheid, maar het zou niet passen, de opsomming ervan aan deze bespreking vast te knoopen.
+
+## huiz003verz08_01.xml — Boekbespreking [van ‘Pandora’ en ‘Bibliotheca Mundi’]De Gids, 85e Jrg. no. 2, Februari 1921, p. 317. P.N. van Kampen & Zoon, A'dam.
+
+`unit_load=6; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.502
+`score=4; relations=2`
+
+Het is te hopen, dat de verdere uitgaven in de beide nieuwe reeksen van het Insel-Verlag nog meer dergelijke lesjes zullen bevatten.
+
+### p.502
+`score=2; relations=1`
+
+Twee nieuwe serieën, om allerlei uitgelezens uit de wereldlitteratuur in handen van velen te brengen, doch ditmaal niet, gelijk de Insel-Bücherei of onze Wereldbibliotheek, in vertaling, doch in het oorspronkelijk. Onder de 40 nummers der Pandorareeks (kleine boekjes van een 80 bladzijden) zijn tot nu toe naast acht Duitsche werken Fransche, Engelsche, Italiaansche, Spaansche, Russische en Latijnsche vertegenwoordigd; in de Bibliotheca Mundi (boeken van grooteren omvang) verschenen naast één bundel vertellingen van Kleist drie Fransche, een Engelsch, een Spaansch en een Russisch werk. Het verblijdende van deze nieuwe uitgaven spruit het eerst voort uit de eenvoudige welverzorgdheid van het uiterlijk; is het niet een genoegen, als men drama's van De Musset en ‘Les Fleurs du Mal’ in een echt Fransche letter te lezen krijgt? Doch er is een andere verheugenis: men voelt zich hier geleid door een geest, die te kiezen weet, en zelf ongezien en zwijgend, u iets leeren wil. Een college in vergelijkende litteratuur-geschiedenis? Neen, iets beters, een letterkundige educatie, een lesje in veelzijdigheid, een nuttig exempel tegen de hobby's van onzen tijd. Wees maar niet bang, gij krijgt ook uw Dostojevski (twee fragmenten uit ‘Bratja Karama …
+
+## huiz003verz08_01.xml — HoogescholenDe Gids, 94e Jrg. no. 12, December 1930, p. 283-284. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=6; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.408
+`score=4; relations=2`
+
+Nu heeft de tegenwoordige minister van onderwijs er onlangs zeer te recht aan herinnerd (wij mochten, in een ander verband, het woord reeds met instemming herhalen), dat de naam hoogeschool hier te lande nooit iets anders is geweest dan het Nederlandsch voor universiteit. Op dat peil handhave men de zaak, en bescherme men den naam. Van elke openbare of bijzondere instelling, die zich hoogeschool wenscht te noemen, eische men, dat zij ten volle beantwoorde aan het wettelijk vastgelegde begrip hooger onderwijs, en tevens dat zij een gebied bestrijke, wijd en zelfstandig genoeg, om aan den maatstaf eener universiteit met vijf faculteiten, of van een technische hoogeschool met zeven groote afdeelingen te worden gemeten.
+
+### p.408
+`score=2; relations=1`
+
+Wanneer de Regeering niet spoedig ingrijpt, zal Nederland eerlang wemelen van hoogescholen en hoogeschooltjes, die ons hooger onderwijs en zichzelve belachelijk zullen maken. Volgens artikel 149 der wet op het hooger onderwijs staat het ‘aan ieder Nederlandsch onderdaan... vrij, een bijzondere school voor hooger onderwijs te openen’. Hij behoeft daartoe enkel vooraf kennis te geven aan het gemeentebestuur en aan den minister van onderwijs, onder overlegging van de reglementen of statuten. Niets belet hem, zijn instelling hoogeschool en zichzelven rector magnificus te doopen. Zelfs het bewijs, dat hetgeen hij doceert aan de wettelijke definitie van het begrip hooger onderwijs voldoet, wordt niet van hem gevorderd. Deze definitie inmiddels luidt (art. 1): ‘Hooger onderwijs omvat de vorming en voorbereiding tot zelfstandige beoefening der wetenschappen en tot het bekleeden van maatschappelijke betrekkingen, waarvoor een wetenschappelijke opleiding vereischt wordt’.
+
+## huiz003verz08_01.xml — TendensDe Gids, 92e Jrg. no. 10, October 1928, p. 124-125. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=6; blocks=2; primitive=0; actors=0; discipline=0; relations=3; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.560
+`score=4; relations=2`
+
+De uitgang -ens komt in het Nederlandsch voor in de woorden lens, grens, trens, pens en flens, misschien nog enkele meer, bij kollewijners bovendien in mens en wens. In gevallen, waarin het Duitsche Tendenz beter voldoet dan strekking, en Reminiscenz beter dan herinnering gebruike men tendentie en reminiscentie, de Nederlandsche vormen, die eraan beantwoorden, gelijk intelligentie aan Intelligenz. Voldoen ook deze niet, dan schrijve men duidelijk ‘tendenz’ en ‘reminiscenz’, met zware aanhalingsteekens. Wie tendens en reminiscens zegt en schrijft, geeft daarmee blijk, noch Nederlandsch, noch Latijn, noch Duitsch te kennen. Er is geen reden, waarom hij niet een correspondens zou voeren met Zijne Excellens, (in de residens) ten einde een audiens aan te vragen. Toch is er een woord, waarin een soortgelijke s reeds lang burgerrecht heeft gekregen, namelijk in cadans. Het geval is een weinig anders: de tweede a toont aan, dat het uit den Franschen vorm cadence is overgenomen. De vorm cadans komt blijkens het Woordenboek der Nederlandsche Taal reeds in de 17e eeuw voor. De muziek kent daarnaast ook den Duitschen vorm kadenz.
+
+### p.560
+`score=2; relations=1`
+
+Op grond van cadans kan dus iemand zeggen: zie je wel, al zulke vormen krijgen tenslotte burgerrecht, en ik blijf lekker tendens zeggen en schrijven. Maar ik blijf hem erom verachten.
+
+## huiz003verz09_01.xml — 1930
+
+`unit_load=6; blocks=3; primitive=0; actors=0; discipline=1; relations=0; places=2; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.26
+`score=3; discipline=1`
+
+wege der kulturgeschichte. studien - München, Drei Masken Verlag, 1930. 405 blz. Deze zelfde editie verscheen in 1941 bij Pantheon, Amsterdam. Bevat, in Duitsche vertaling door Werner Kaegi: De Taak der Cultuurgeschiedenis (181), blz. 7-77. Over een definitie van het begrip geschiedenis (180), blz. 78-88. Het probleem der Renaissance (80), blz. 89-139. Renaissance en Realisme (182), blz. 140-164. De figuur van den dood bij Dante (93), blz. 165-170. Bernard Shaw's Heilige (136), blz. 171-207. Uit de voorgeschiedenis van ons nationaal besef (43), blz. 208-280. Een merkwaardig bijgeloof: Onnoozele Kinderen als ongeluksdag (150), blz. 281-289. Rosenkrantz en Guildenstern (37), blz. 290-297. Hugo de Groot en zijn eeuw (37), blz. 298-314. Grotius' plaats in de geschiedenis van den menschelijken geest (139). blz. 314-323. Duitschland's invloed op de Nederlandsche beschaving (149), blz. 324-356. Een gedeelte van: Amerika levend en denkend (155), blz. 357-377. Kleine samenspraak over de thema's der Romantiek (179), blz. 378-390.
+
+### p.27
+`score=2; places=1`
+
+Voorwoord: Jaarboekje voor het studiejaar 1930-1931, uitgegeven door de Litteraire Faculteit van Leidsche Studenten. Leiden, Van Doesburgh, 1930, blz. 3-4. (viii, 377-378)
+
+### p.27
+`score=2; places=1`
+
+Boekbespreking: H. Naumann und G. Müller, Höfische Kultur. Halle/S., 1929 (Deutsche Vierteljahrschrift für Literaturwissenschaft und Geistesgeschichte, Buchreihe 17. Bd.). - Museum, xxxvii, 1929/30, kol. 304-305. (iv, 210-211)
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Dritter Band: Dierick Bouts und Joos van Gent. Paul Cassirer, Berlin 1925.Nieuwe Rotterdamsche Courant, Avondblad A van 19 December 1925, p. 1.
+
+`unit_load=5; blocks=3; primitive=0; actors=0; discipline=0; relations=2; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.494
+`score=2; relations=1`
+
+Geregeld volgen elkaar de deelen van Friedländer's groote werk. Met Dirk Bouts en Joos van Gent, tusschen wie ook Albert van Ouwater, Albert Bouts en de anonyme navolgers hun plaats vinden, is wel een der moeilijkste en tevens ondankbaarste gedeelten van het onderwerp bereikt. Want het probleem van de kunst van Dirk Bouts, op zichzelf reeds minder spannend dan dat der Van Eyck's en van Rogier van der Weyden, blijft zich aan elke afdoende oplossing onttrekken door het gebrek aan gegevens. Van alles wat Bouts vóór zijn verhuizing naar de Zuidelijke Nederlanden maakte, en van het geheele oeuvre van Ouwater behalve de Opwekking van LazarusTen onrechte verbaast de schrijver zich op pag. 59, dat Ouwater het graf van Lazarus in een kerk heeft geplaatst. is niets bewaard; het fanatisme der beeldstormers heeft Haarlem voor eeuwig verminkt.
+
+### p.494
+`score=2; relations=1`
+
+Ten onrechte verbaast de schrijver zich op pag. 59, dat Ouwater het graf van Lazarus in een kerk heeft geplaatst.
+
+### p.495
+`score=2; places=1`
+
+Met nog scherper analyse dan in de vorige deelen past de schrijver hier zijn strenge methode toe, de kunstwerken zelf technisch, psychologisch en aesthetisch te determineeren. Hij blijft angstvallig bedacht, slechts over feitelijke gegevens te spreken, al nadert zijn betoog, in het streven om diep in den aard van het werk en den geest van den maker door te dringen, bij wijlen het precieuze. De conclusies leiden tenslotte toch in de richting, ook door de voorgangers aangewezen, en naar het schijnt het laatste woord dat over Dirk Bouts te zeggen valt: zijn verwantschap met wat wij als Hollandsch plegen te beschouwen.
+
+## huiz003verz09_01.xml — 1928
+
+`unit_load=5; blocks=4; primitive=0; actors=0; discipline=0; relations=0; places=5; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.23
+`score=4; places=2`
+
+the university of leiden - Leiden, Van Doesburgh, 1928. 44 blz. Geïll. Uitgegeven in opdracht van het College van Curatoren, om de toen verwachte buitenlandsche bezoekers eenige inlichtingen te bieden over universiteit, stad en omgeving. Uitgegeven zonder vermelding van den naam van den auteur.
+
+### p.23
+`score=2; places=1`
+
+j.j.s. vürtheim 1869-1928 - Almanak van het Leidsche Studentencorps voor 1929. Leiden, Van Doesburgh, 1928, blz. 196-198. (vi, 488-489)
+
+### p.24
+`score=2; places=1`
+
+Boekbespreking: F.M. Graves, Deux inventaires de la maison d'Orléans (1389-1408). Parijs, 1926 (Bibliothèque du xve siècle, 31). - Museum, xxxv, 1927/8, kol. 181.
+
+### p.24
+`score=2; places=1`
+
+Boekbespreking: P. Champion, Louis xi, i: Le dauphin; ii: Le roi. Parijs, 1927 (Bibliothèque du xve siècle, 33 en 34). - Museum, xxxvi, 1928/9, kol. 22-24. (iv, 195-197)
+
+## huiz003verz04_01.xml — Die altniederländische Malerei, von Max. J. Friedländer. Sechster Band: Memling und Gerard David. Paul Cassirer, Berlin 1928.Nieuwe Rotterdamsche Courant, Avondblad van 31 December 1928.
+
+`unit_load=4; blocks=1; primitive=0; actors=0; discipline=0; relations=2; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.503
+`score=4; relations=2`
+
+De deelen van Friedländer's groote werk blijven elkander opvolgen in een regelmaat, die enkel mogelijk is bij een volkomen meesterschap over de stof. Ontbrak er iets aan dat meesterschap, dan zou de bewerking bij telkens weer afgebroken gedeelten zich wreken in disharmonie, ongelijkmatigheid en zelfs tegenstrijdigheid. Hiervan is geen sprake. Trouw aan zijn grondconceptie ontrolt de auteur zijn groote tafereel. Hij geleedt het bij voorkeur in paren: ditmaal zijn de meesters, die hij vereenigt en contrasteert, Memlinc en Gerard David, beiden te Brugge werkzaam en vertegenwoordigers van een Brugsche sfeer.
+
+## huiz003verz08_01.xml — A.J. Barnouw, Vondel. Great Hollanders, Edited by Edward W. Bok. Charles Scribner's Sons, New-York-London 1925.De Gids, 89e Jrg. no. 5, Mei 1925, p. 292-293. P.N. van Kampen & Zoon, Amsterdam.
+
+`unit_load=4; blocks=2; primitive=0; actors=0; discipline=0; relations=2; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.520
+`score=2; relations=1`
+
+Slechts een kleine kring van ingewijden kan geregeld kennis nemen van het voortreffelijke werk dat in Amerika door Dr Barnouw, als professor aan Columbia University en bekleeder van het Koningin Wilhelmina-lectoraat, dagelijks wordt verricht ter bevordering van de kennis van en de belangstelling voor Nederlandsche beschaving. Uit het pas verschenen boek over Vondel kan thans ieder die wil zich van die verdiensten een denkbeeld vormen, en van nog iets meer dan dat: van de begaafdheid, waarmee de schrijver erin slaagt, voor den vreemdeling een hem onbekend dichter en een onbekend milieu te doen leven. Want, mij dunkt, als het mogelijk is, Vondel tot den Amerikaan te doen spreken, is het hier gelukt. Uitstekend van bouw en indeeling, geeft het werk Vondel in Amsterdam, van den rederijkertijd tot het eind, met een juist evenwicht van levensbeschrijving en poëtische karakteristiek, in een vorm, die voortdurend verraadt, hoe goed de schrijver zijn Amerikaanschen lezer kent en weet te treffen, zonder dat hij iets te ver gaat in den trant, dien het Amerikaansche publiek verlangt. Hoe weloverlegd treedt Barnouw, waar hij kan, wat nader in bijzonderheden over punten, die Engeland raken: Mattheus Slade, die misschien Vondel's Latijnsche mees …
+
+### p.521
+`score=2; relations=1`
+
+Doch de indruk zij verre, alsof onze landgenoot alleen den Amerikaan iets te bieden had. Ook de Nederlandsche lezer zal door dit nieuwe Leven van Vondel geboeid en onderricht worden. De wijze waarop de schrijver, zonder den term Barok te hanteeren, die ons uit Duitschland hoe langer hoe meer als onmisbaar cultuurhistorisch instrument wordt opgedrongen, hier het contrast Vondel-Rembrandt, de bekeering, den Lucifer behandelt en in een treffend licht stelt, schijnt mij meesterlijk.
+
+## huiz003verz08_01.xml — Trop de zèleDe Gids, 97e Jrg. no. 2, Februari 1933, p. 222. P.N. van Kampen & Zoon N.V., Amsterdam.
+
+`unit_load=4; blocks=1; primitive=0; actors=0; discipline=0; relations=2; places=0; play=1; combo_blocks=0; actor_relation_blocks=0`
+
+### p.544
+`score=5; relations=2, play=1`
+
+Als iemand ons zei: ‘ik ben verleden jaar in Paris, Berlin en Roma geweest, en ga binnenkort naar Napoli en Lisboa’, zouden wij hem uitlachen. Al deze steden zijn ons zoo gemeenzaam, dat wij er van ouds een eigen vorm voor in gebruik hebben. Waarom dan trakteert men ons telkens weer (gewaardeerde medewerkers mogen het ons ten goede houden) op Platoon, Aischulos, Homèros, Surakousai (met toelichting) en Olumpos? (Hippokrates kwam, gelijk men weet, van Koos). Het is hetzelfde geval. Al deze namen zijn, lang geleden, via het Latijn, als humanistisch erfgoed, in onze beschaving opgenomen. Zij behooren tot het geestelijk domein van ons allen. Het is begrijpelijk, dat voor iemand die dagelijksch Grieksch leest, die namen leven in hun oorspronkelijke gedaante. Maar als hij van hen spreekt tot het publiek, spreke hij de taal van onze cultuur. Met zijn echt Grieksche spelling zou hij eigenlijk maar verraden, dat het met onze klassieke cultuur niet veel meer ‘gedaan’ is. Verbeeld u een Franschman, die van ‘le premier chant de l'Odusseia d'Homèros’ durfde spreken!Platon in het Fransch representeert niet den Griekschen vorm, maar den echt Franschen, evenals Cicéron, Scipion, Néron uit een Latijnschen accusativus voortgekomen.
+
+## huiz003verz09_01.xml — 1932
+
+`unit_load=3; blocks=2; primitive=0; actors=0; discipline=0; relations=1; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.29
+`score=2; relations=1`
+
+über die verknüpfung des poetischen mit dem theologischen bei alanus de insulis - Mededeelingen der Kon. Akademie v. Wetenschappen, afd. Lett., deel 74, serie B. Amsterdam, 1932, blz. 89-198. (iv, 3-84) Met een uitgave van het tractaat De virtutibus et vitiis.
+
+### p.29
+`score=2; places=1`
+
+bali - De Gids, xcvi, 1932, iv, blz. 124-127. (vii, 614-616) Ongesigneerd.
+
+## huiz003verz08_01.xml — Het Grieksche gevaarDe Gids, 96e Jrg. no. 4, April 1932, p. 2-3. P.N. van Kampen & Zoon N.V., Amsterdam.
+
+`unit_load=2; blocks=1; primitive=0; actors=0; discipline=0; relations=1; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.544
+`score=2; relations=1`
+
+Er moest iets tegen gedaan worden. Het is al te lastig, dat er sinds de dagen van Plato en Aristoteles nog altijd zooveel Grieksch in onze taal rondzwerft, en dat dit er nog altijd aanspraak op maakt, correct geschreven te worden. Men kan toch niet van iedereen verlangen, dat hij Grieksch verstaat. En het helpt nog zoo weinig, of men zich al inprent: hypo-onder, hippos-paard, want men begrijpt er de woorden toch niet mee. Wij vinden het dan ook heelemaal zoo gek niet van dien medicus, die iemand lijdend verklaarde aan ‘chronische hippomanie’. Want het jonge mensch in kwestie had zich, naar het heet, min of meer als een paard gedragen, door zijn houding jegens het huisraad in de ouderlijke woning.
+
+## huiz003verz08_01.xml — Woord vooraf [bij de vertaling door A.J. Barnouw van Geoffrey Chaucer's ‘De vertellingen van Kantelberg’]Bij De vertellingen van de pelgrims naar Kantelberg door Geoffrey Chaucer, vertaald door A.J. Barnouw. H.D. Tjeenk Willink & Zoon N.V., Haarlem 1930.
+
+`unit_load=2; blocks=1; primitive=0; actors=0; discipline=0; relations=1; places=0; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.535
+`score=2; relations=1`
+
+Chaucer belichaamt van den Engelschen aard den kant, waarin wij ons daaraan het meest verwant voelen. Hij geeft ons, met een glimlach, kleurige werkelijkheid, het bonte leven van den dag, waarmee de Engelsche letterkunde ons ook later steeds zal blijven trekken. Om Chaucer's pittigheid en sappigheid getrouw te blijven, om den geur en de kleur van den tijd niet te laten verflauwen, heeft Barnouw moeten delven en speuren naar oude woorden van middeleeuwschen klank, naar wendingen van hoofsche staatsie of van ruwe raakheid. Om den val van Chaucer's vers te benaderen, kwam het hem te stade, dat het Engelsch der veertiende eeuw nog de uitgangen kende, die onze taal bewaart. Men zal in deze vertaling meer waardeeren dan alleen de eerbiedwekkende toewijding aan de gestelde taak en de bekwaamheid van den nauwgezetten mozaiek-arbeid. Men zal haar genieten, hoop ik, als een frisch en gaaf, echt-Nederlandsch kunstwerk.
+
+## huiz003verz09_01.xml — 1921
+
+`unit_load=2; blocks=2; primitive=0; actors=0; discipline=0; relations=0; places=2; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.14
+`score=2; places=1`
+
+het rapport der museumcommissie - De Gids, lxxxv, 1921, iv, blz. 97-107. (ii, 569-578)
+
+### p.15
+`score=2; places=1`
+
+Boekbespreking: H. Carré, La noblesse de France et l'opinion publique au xviiie siècle. Parijs, 1920. - Museum, xxix, 1921/2, kol. 17-18. (iv, 360-361)
+
+## huiz003verz03_01.xml — De Mare te LeidenNieuwe Rotterdamsche Courant, Zondag 28 October 1923, Ochtendblad B, p. 1.
+
+`unit_load=1; blocks=1; primitive=0; actors=0; discipline=0; relations=0; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.579
+`score=2; places=1`
+
+De Mare te LeidenNieuwe Rotterdamsche Courant, Zondag 28 October 1923, Ochtendblad B, p. 1.
+
+## huiz003verz09_01.xml — 1926
+
+`unit_load=1; blocks=1; primitive=0; actors=0; discipline=0; relations=0; places=1; play=0; combo_blocks=0; actor_relation_blocks=0`
+
+### p.21
+`score=2; places=1`
+
+Boekbespreking: B. Faÿ, L'esprit révolutionnaire en France et aux États Unis à la fin du xviiie siècle. Parijs, 1925; Dez., Bibliographie critique des ouvrages français relatifs aux États Unis, 1770-1800. Parijs, 1925. - Museum, xxxiv, 1926/7, kol. 22-23. (iv, 367-369) Niet gelijk aan 145.
