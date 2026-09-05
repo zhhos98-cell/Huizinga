@@ -1,0 +1,45 @@
+name: Patch Draft 04 thirty-first pass
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/patch_draft04_thirtyfirst_pass_2026_09_05.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Guard canonical draft against concurrent edits
+        shell: bash
+        run: |
+          test "$(git hash-object writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md)" = "4534d48d04a569596764c04923cc9a5dd4794d9c"
+      - name: Calibrate KNAW candidature wording
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md')
+          s = p.read_text()
+          old_body = "Three days later, when Malinowski stood for the Royal Netherlands Academy, Huizinga wrote: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it.[^16]"
+          new_body = "Three days later, during Malinowski’s candidature for membership in the Royal Netherlands Academy, Huizinga wrote: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it.[^16]"
+          old_note = "[^16]: The 2019 *Inventory of the Correspondence of Johan Huizinga* records Malinowski to Huizinga, 20 May 1933, incipit ‘Many thanks for your letter and for the reprint’. Three days later Huizinga wrote to Malinowski, 23 May 1933, correspondence item [1019]: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it."
+          new_note = "[^16]: The 2019 *Inventory of the Correspondence of Johan Huizinga* records Malinowski to Huizinga, 20 May 1933, incipit ‘Many thanks for your letter and for the reprint’. Three days later Huizinga wrote to Malinowski, 23 May 1933, correspondence item [1019]: ‘Being no anthropologist I refrained from taking a leading part in your candidature’, though he signed it. The KNAW historical-member record lists Malinowski as a foreign member from 1933. The surviving sources used here do not establish the formal proposer, full signatories, division vote or exact election/appointment sequence; later recollections by G.W. Locher attribute the membership to Huizinga’s activity but do not supply those mechanics."
+          assert s.count(old_body) == 1, s.count(old_body)
+          assert s.count(old_note) == 1, s.count(old_note)
+          s = s.replace(old_body, new_body).replace(old_note, new_note)
+          p.write_text(s)
+      - name: Commit without overwriting concurrent work
+        shell: bash
+        run: |
+          git config user.name 'Haohao Zhang'
+          git config user.email 'zhhos98@gmail.com'
+          git add writing/benevolent_outsider_draft_04_method_primitive_1921_1933.md
+          git commit -m 'Calibrate 1933 KNAW candidature mechanics'
+          git pull --rebase origin main
+          git push origin HEAD:main
