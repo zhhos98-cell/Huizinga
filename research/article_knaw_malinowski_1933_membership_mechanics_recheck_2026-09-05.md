@@ -62,6 +62,28 @@ Result: no publicly indexed 1933 nomination paper, proposer/signatory list, divi
 
 This is a **retrieval negative**, not evidence that the procedural record does not exist.
 
+## Archive route tightened — Noord-Hollands Archief, toegang 64
+
+The official finding aid for the KNAW's post-1940 archive identifies the related older institutional archive as:
+
+**Noord-Hollands Archief te Haarlem, toegang 64, `Koninklijke Nederlandse Akademie van Wetenschappen (KNAW) te Amsterdam ((1838) 1851–1940 (1954))`.**
+
+This replaces the earlier generic locator `State Archives in North Holland` and makes the next primary-source search repository-specific.
+
+The same official post-1940 finding aid says that KNAW members were `van oudsher` chosen by co-optation and, for the period covered by that later archive, describes each division preparing two `voordrachten` per vacancy with a corresponding `memorie van aanbeveling`; memoranda for unsuccessful candidates were treated as lapsed and destroyed under the regulations. That evidence is useful for identifying likely archival object classes, but it is **procedural background, not direct evidence that the 1933 candidature followed every later rule in the same form**.
+
+The next bounded search inside toegang 64 is therefore:
+
+- minutes of the Afdeeling Letterkunde and, where relevant, Academy/board minutes around May–June 1933;
+- files concerning membership, foreign membership, nominations/`voordrachten`, or `memories van aanbeveling` for 1933;
+- indexed institutional correspondence under `Malinowski`, foreign membership, or the candidature.
+
+The exact inventory number(s) within toegang 64 remain unresolved. Do not substitute inventory numbers 136–183 from the later 1940–1993 archive: those numbers belong to the post-1940 archival block, not toegang 64.
+
+Official controls:
+- Staatscourant 2019, nr. 64667, KNAW archive finding aid / related-material section and membership-file explanation: https://zoek.officielebekendmakingen.nl/stcrt-2019-64667.html
+- `Besluit beperkingen openbaarheid KNAW`, describing the later `memories tot aanbeveling` and co-optation files: https://wetten.overheid.nl/BWBR0042850/
+
 ## Current decision
 
 **PARTIAL CLOSURE.**
@@ -71,19 +93,21 @@ Secure:
 - candidature in May 1933;
 - Huizinga signed but explicitly `refrained from taking a leading part`;
 - Malinowski became a KNAW foreign member in 1933;
-- Locher later remembered Huizinga as causally important to the membership.
+- Locher later remembered Huizinga as causally important to the membership;
+- the relevant pre-1940 institutional archive is now located at Noord-Hollands Archief, toegang 64.
 
 Still unresolved:
 
 - formal nomination paper / full signatories;
 - who formally led the candidature;
 - exact division meeting and vote/election date;
-- procedural distinction, if any, between proposal, election, and formal appointment.
+- procedural distinction, if any, between proposal, election, and formal appointment;
+- exact inventory number(s) for the 1933 membership/minutes material within toegang 64.
 
-The pre-1945 KNAW archives are held at the State Archives in North Holland according to KNAW's institutional history; those records, or a directly accessible contemporaneous Academy proceedings/minutes volume, are the next primary control.
+The next primary control is now **Noord-Hollands Archief, toegang 64**, rather than a generic archive-level search. A directly accessible contemporaneous Academy proceedings/minutes volume could independently close the same gap.
 
 ## Draft rule
 
 Do not strengthen current prose to `Huizinga nominated Malinowski`, `Huizinga secured his election`, or Locher's later agency formulation. The contemporaneous first-person sentence is stronger precisely because it documents supportive action and self-limitation at the same time.
 
-Do not reopen broad web searches for generic `Malinowski + KNAW`. Reopen only if a source exposes one of the missing procedural objects: the 1933 nomination/candidature paper, Afdeeling Letterkunde minutes, Academy election minutes, or an archival inventory/file reference that points directly to them.
+Do not reopen broad web searches for generic `Malinowski + KNAW`. Reopen only if a source exposes one of the missing procedural objects: the 1933 nomination/candidature paper, Afdeeling Letterkunde minutes, Academy election minutes, or an archival inventory/file reference within toegang 64 that points directly to them.
